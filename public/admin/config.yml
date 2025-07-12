@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: dmk1061/dalaman
+  branch: main
+  site_domain: dalaman-c1w2.vercel.app
+
+# This is for local development, it can be removed later
+local_backend: true
+
+# Where to store uploaded media. The path is relative to the site root.
+media_folder: "public/images/uploads"
+# The public-facing path for media.
+public_folder: "/images/uploads"
+
+collections:
+  - name: "articles" # Used in routes, e.g., /admin/collections/articles
+    label: "Статьи" # Used in the UI
+    folder: "content/articles" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename will be based on the slug field.
+    fields: # The fields for each document, usually in front matter
+      - {label: "Заголовок (Title)", name: "title", widget: "string"}
+      - {label: "Ссылка (Slug)", name: "slug", widget: "string", hint: "Короткая ссылка на английском, используется в URL. Например: geography-history"}
+      - {label: "Описание (Description)", name: "description", widget: "text"}
+      - {label: "Содержимое (Body)", name: "body", widget: "markdown"} 
