@@ -11,9 +11,9 @@ const CityGuidePage = () => {
                     <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-2 text-sm text-gray-600">
                             <span className="text-cyan-600 font-semibold">МЕСТА ДЛЯ ПОСЕЩЕНИЯ</span>
-                            <span>></span>
+                            <span>&gt;</span>
                             <Link href="/" className="text-gray-500 hover:text-cyan-600">ГЛАВНАЯ</Link>
-                            <span>></span>
+                            <span>&gt;</span>
                             <span className="text-gray-800">МЕСТА ДЛЯ ПОСЕЩЕНИЯ</span>
                         </div>
                         <Link href="/" className="bg-cyan-600 text-white px-4 py-2 rounded text-sm hover:bg-cyan-700">
@@ -72,7 +72,7 @@ const CityGuidePage = () => {
 const SidebarItem = ({ title, active = false }) => (
     <div className={`px-4 py-3 cursor-pointer hover:bg-gray-50 flex items-center justify-between ${active ? 'bg-gray-50 text-cyan-600 font-semibold' : 'text-gray-700'}`}>
         <span>{title}</span>
-        <span className="text-gray-400">›</span>
+        <span className="text-gray-400">&gt;</span>
     </div>
 );
 
