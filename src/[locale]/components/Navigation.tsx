@@ -2,36 +2,31 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
-import { FaChevronDown } from 'react-icons/fa';
+
+const navItems = [
+    { name: 'Информация', href: '/info' },
+    { name: 'Локации', href: '/locations' },
+    { name: 'Чем заняться', href: '/activities' },
+    { name: 'Переезд', href: '/relocation' },
+    { name: 'Сувениры', href: '/souvenirs' },
+];
 
 const Navigation = () => {
-  const t = useTranslations('navigation');
-  
-  const navItems = [
-    { href: '/about', label: t('about'), dropdown: true },
-    { href: '/dalaman', label: t('dalaman'), dropdown: true },
-    { href: '/news', label: t('news') },
-    { href: '/projects', label: t('projects'), dropdown: true },
-    { href: '/city-guide', label: t('city_guide'), dropdown: true },
-    { href: '/services', label: t('services'), dropdown: true },
-    { href: '/contact', label: t('contact') },
-  ];
-
-  return (
-    <nav>
-      <ul className="flex items-center space-x-8">
-        {navItems.map((item) => (
-          <li key={item.href} className="flex items-center">
-            <Link href={item.href}>
-              <span className="text-gray-700 uppercase tracking-wider font-bold text-sm hover:text-blue-600 transition-colors duration-300 cursor-pointer">{item.label}</span>
-            </Link>
-            {item.dropdown && <FaChevronDown className="ml-2 text-xs text-gray-500" />}
-          </li>
-        ))}
-      </ul>
-    </nav>
-  );
+    return (
+        <nav className="bg-white py-4">
+            <div className="container mx-auto flex justify-center items-center">
+                <ul className="flex space-x-8">
+                    {navItems.map((item) => (
+                        <li key={item.name}>
+                            <Link href={item.href} className="text-gray-700 hover:text-blue-500 font-semibold pb-2 border-b-2 border-transparent hover:border-blue-500 transition-colors">
+                                {item.name}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </nav>
+    );
 };
 
 export default Navigation; 
