@@ -7,7 +7,6 @@ import Sidebar from "./components/Sidebar";
 import LeftSidebar from "./components/LeftSidebar";
 import Footer from "./components/Footer";
 
-
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
