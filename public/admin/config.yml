@@ -5,10 +5,13 @@ backend:
   auth_type: pkce
   app_id: Ov23licUTtxuCbraY3RY
 
+# This is for local development, it can be removed later
+# local_backend: true
+
 # Where to store uploaded media. The path is relative to the site root.
-media_folder: "public/images/uploads"
-# The public-facing path for media.
-public_folder: "/images/uploads"
+media_folder: 'public/uploads'
+# The src attribute for the image will be /uploads/filename.
+public_folder: '/uploads'
 
 collections:
   - name: "articles" # Used in routes, e.g., /admin/collections/articles
