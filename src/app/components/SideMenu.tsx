@@ -4,7 +4,12 @@ import React from 'react';
 import Link from 'next/link';
 import { FaTimes } from 'react-icons/fa';
 
-const SideMenu = ({ isOpen, onClose }) => {
+type SideMenuProps = {
+    isOpen: boolean;
+    onClose: () => void;
+};
+
+const SideMenu = ({ isOpen, onClose }: SideMenuProps) => {
     return (
         <>
             {/* Overlay */}
@@ -47,7 +52,7 @@ const SideMenu = ({ isOpen, onClose }) => {
     );
 };
 
-const MenuItem = ({ title, href }) => {
+const MenuItem = ({ title, href }: { title: string, href?: string }) => {
     const content = (
         <div className="px-6 py-4 hover:bg-gray-50 border-b border-gray-100 cursor-pointer transition-colors duration-200">
             <span className="text-gray-700 font-medium">{title}</span>

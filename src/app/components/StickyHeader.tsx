@@ -4,7 +4,11 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { FaBars, FaSearch } from 'react-icons/fa';
 
-const StickyHeader = ({ onMenuToggle }) => {
+type StickyHeaderProps = {
+    onMenuToggle: () => void;
+};
+
+const StickyHeader = ({ onMenuToggle }: StickyHeaderProps) => {
     const [isVisible, setIsVisible] = useState(false);
     const [lastScrollY, setLastScrollY] = useState(0);
 
