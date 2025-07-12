@@ -3,6 +3,7 @@ backend:
   repo: dmk1061/dalaman
   branch: main
   auth_type: pkce
+  app_id: Ov23licUTtxuCbraY3RY
 
 # Where to store uploaded media. The path is relative to the site root.
 media_folder: "public/images/uploads"
