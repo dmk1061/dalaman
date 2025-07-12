@@ -8,19 +8,19 @@ backend:
 # This is for local development, it can be removed later
 # local_backend: true
 
+display_url: https://dalaman-c1w2.vercel.app # Add a link to the site in the CMS UI
+
 # Where to store uploaded media. The path is relative to the site root.
 media_folder: 'public/uploads'
 # The src attribute for the image will be /uploads/filename.
 public_folder: '/uploads'
 
 collections:
-  - name: "articles" # Used in routes, e.g., /admin/collections/articles
-    label: "Статьи" # Used in the UI
-    folder: "content/articles" # The path to the folder where the documents are stored
+  - name: 'articles' # Used in routes, e.g., /admin/collections/articles
+    label: 'Статьи' # Used in the UI
+    folder: 'content/articles' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename will be based on the slug field.
+    slug: '{{slug}}' # Filename for new entries. {{slug}} is a URL-friendly version of the title
     fields: # The fields for each document, usually in front matter
-      - {label: "Заголовок (Title)", name: "title", widget: "string"}
-      - {label: "Ссылка (Slug)", name: "slug", widget: "string", hint: "Короткая ссылка на английском, используется в URL. Например: geography-history"}
-      - {label: "Описание (Description)", name: "description", widget: "text"}
-      - {label: "Содержимое (Body)", name: "body", widget: "markdown"} 
+      - { label: 'Название', name: 'title', widget: 'string' }
+      - { label: 'Содержание', name: 'body', widget: 'markdown' } 
