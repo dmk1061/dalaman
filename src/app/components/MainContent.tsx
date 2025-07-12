@@ -130,7 +130,7 @@ const MainContent = () => {
     );
 };
 
-const QuickLinkCard = ({ icon, title, href }) => (
+const QuickLinkCard = ({ icon, title, href }: { icon: React.ReactNode, title: string, href: string }) => (
     <Link href={href || '#'} className="bg-white p-4 rounded-lg shadow-sm border border-gray-100 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
         <div className="text-cyan-500 mb-2">{icon}</div>
         <h3 className="font-semibold text-sm text-center text-gray-700">{title}</h3>
@@ -138,7 +138,7 @@ const QuickLinkCard = ({ icon, title, href }) => (
 );
 
 
-const MosaicCard = ({ title, description, href, image }) => (
+const MosaicCard = ({ title, description, href, image }: { title: string, description: string, href: string, image: string }) => (
     <div className="bg-white shadow-lg rounded-lg overflow-hidden group h-full flex flex-col">
         <div className="relative h-48 w-full overflow-hidden">
             <Image src={image} alt={title} layout="fill" objectFit="cover" className="group-hover:scale-105 transition-transform duration-300" />
@@ -150,7 +150,7 @@ const MosaicCard = ({ title, description, href, image }) => (
     </div>
 );
 
-const KaleidoscopeCard = ({ title, image }) => (
+const KaleidoscopeCard = ({ title, image }: { title: string, image: string }) => (
     <div className="bg-white shadow-md rounded-lg overflow-hidden group">
          <div className="relative h-40 w-full overflow-hidden">
             <Image src={image} alt={title} layout="fill" objectFit="cover" className="group-hover:scale-105 transition-transform duration-300"/>

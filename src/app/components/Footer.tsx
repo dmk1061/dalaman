@@ -66,7 +66,7 @@ const Footer = () => {
     );
 };
 
-const FooterColumn = ({ title, links }) => (
+const FooterColumn = ({ title, links }: { title: string, links: { name: string, href: string }[] }) => (
     <div>
         <h3 className="font-bold text-lg mb-4">{title}</h3>
         <ul>

@@ -77,7 +77,7 @@ const Sidebar = () => {
     );
 };
 
-const ArticleItem = ({ title, image, href }) => (
+const ArticleItem = ({ title, image, href }: { title: string, image: string, href: string }) => (
     <Link href={href || '#'} className="flex items-center space-x-3 group">
         <div className="flex-shrink-0">
             <Image

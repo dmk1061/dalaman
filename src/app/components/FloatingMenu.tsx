@@ -37,7 +37,7 @@ const FloatingMenu = () => {
     );
 };
 
-const FloatingMenuItem = ({ icon, label, sublabel }) => (
+const FloatingMenuItem = ({ icon, label, sublabel }: { icon: React.ReactNode, label: string, sublabel: string }) => (
     <div className="flex flex-col items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer transition-colors duration-200 min-w-[80px]">
         <div className="text-cyan-600 mb-2">
             {icon}
