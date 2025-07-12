@@ -69,14 +69,14 @@ const CityGuidePage = () => {
     );
 };
 
-const SidebarItem = ({ title, active = false }) => (
+const SidebarItem = ({ title, active = false }: { title: string, active?: boolean }) => (
     <div className={`px-4 py-3 cursor-pointer hover:bg-gray-50 flex items-center justify-between ${active ? 'bg-gray-50 text-cyan-600 font-semibold' : 'text-gray-700'}`}>
         <span>{title}</span>
         <span className="text-gray-400">&gt;</span>
     </div>
 );
 
-const GuideImageCard = ({ title, image }) => (
+const GuideImageCard = ({ title, image }: { title: string, image: string }) => (
     <div className="relative rounded-lg overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow duration-300 h-48">
         <Image 
             src={image} 
