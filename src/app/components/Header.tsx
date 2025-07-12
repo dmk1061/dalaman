@@ -4,6 +4,24 @@ import { FaChevronRight } from 'react-icons/fa';
 import { FiChevronDown } from 'react-icons/fi';
 import Link from 'next/link';
 
+// Type definitions for navigation structure
+type NavSubSubItem = {
+  name: string;
+  href: string;
+};
+
+type NavSubItem = {
+  name: string;
+  href: string;
+  submenu?: NavSubSubItem[]; // Optional submenu
+};
+
+type NavItem = {
+  name: string;
+  href: string;
+  dropdown?: NavSubItem[];
+};
+
 const locations = [
   { name: 'Дача', baseHref: '/dacha' },
   { name: 'Мармарис', baseHref: '/marmaris' },
@@ -14,7 +32,7 @@ const locations = [
   { name: 'Каш', baseHref: '/kas' },
 ];
 
-const navItems = [
+const navItems: NavItem[] = [
     { name: 'Информация', href: '#', dropdown: [
         { name: 'География и история', href: '/articles/1_geografiya_i_obshchaya_informatsiya_o_regione' },
         { name: 'Климат и сезоны', href: '/articles/3_klimat_i_luchshee_vremya_dlya_poseshcheniya' },
