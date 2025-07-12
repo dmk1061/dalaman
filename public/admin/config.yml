@@ -2,10 +2,6 @@ backend:
   name: github
   repo: dmk1061/dalaman
   branch: main
-  site_domain: dalaman-c1w2.vercel.app
-
-# This is for local development, it can be removed later
-local_backend: true
 
 # Where to store uploaded media. The path is relative to the site root.
 media_folder: "public/images/uploads"
