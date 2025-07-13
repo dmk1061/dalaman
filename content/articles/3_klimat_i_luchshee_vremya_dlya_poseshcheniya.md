@@ -1,66 +1,138 @@
 ---
-title: "Климат и лучшее время для посещения Ликийского побережья"
-slug: "climate-seasons"
-description: "Когда лучше всего ехать на Ликийское побережье? Подробный разбор климата по сезонам, чтобы вы могли спланировать идеальный отдых."
----
-# Климат региона Даламан и лучшее время для посещения
-
-**Выбор правильного времени для поездки на Бирюзовое побережье — ключ к идеальному отдыху. Регион Даламана может похвастаться классическим средиземноморским климатом с долгим, жарким и сухим летом и мягкой, дождливой зимой. Однако у каждого сезона здесь есть свои прелести и особенности.**
-
+title: "Климат и сезоны на Бирюзовом Побережье"
+slug: "3_klimat_i_luchshee_vremya_dlya_poseshcheniya"
+description: "Подробный гид по климату и сезонам в регионе Даламан. Узнайте, какая погода вас ждет в разное время года и когда лучше всего планировать поездку."
 ---
 
-### Общая характеристика климата
+# Климат и сезоны в Турции: Гид по Бирюзовому Побережью
 
--   **Тип климата:** Средиземноморский.
--   **Солнечные дни:** Более 300 солнечных дней в году.
--   **Среднегодовая температура:** Около +18°C.
--   **Температура воды:** Колеблется от +16°C в январе до +27°C в августе.
--   **Осадки:** Основная масса осадков выпадает в период с ноября по февраль. Лето, как правило, очень засушливое.
+Турция находится в зоне средиземноморского климата, и ее юго-западное побережье, включая регион Даламан, не исключение. Здесь вас ждут продолжительное жаркое лето и мягкая, влажная зима.
 
 ---
 
-### Сезонный гид: когда лучше ехать?
+### Сводная таблица температуры воздуха и воды по курортам (°C)
 
-#### 1. Высокий сезон (июль — август)
-
-Это пик туристической активности, время для тех, кто любит жару и не боится большого количества отдыхающих.
-
--   **Погода:** Очень жарко и солнечно. Температура воздуха днем стабильно держится выше +30°C, часто достигая +35-40°C. Дождей практически не бывает.
--   **Температура моря:** Максимально прогретая вода (+26-27°C), идеально для купания.
--   **Чем заняться:** Пляжный отдых, водные виды спорта, вечеринки и ночная жизнь. Для экскурсий и походов в горы может быть слишком жарко.
--   **Минусы:** Самые высокие цены на отели и авиабилеты, переполненные пляжи и достопримечательности.
-
-#### 2. Пляжный сезон (май — июнь и сентябрь — октябрь)
-
-Это "золотое" время для посещения региона, которое многие считают идеальным.
-
--   **Погода:** Очень комфортная. Тепло, но без изнуряющей жары. В мае и октябре вечера могут быть прохладными.
-    -   *Май-июнь:* +24-28°C. Природа цветет, все вокруг зеленое.
-    -   *Сентябрь-октябрь:* +25-29°C. Настоящий "бархатный сезон".
--   **Температура моря:**
-    -   *Май-июнь:* Вода уже достаточно теплая для купания (+20-23°C).
-    -   *Сентябрь-октябрь:* Море все еще очень теплое после летней жары (+24-26°C).
--   **Чем заняться:** Это лучшее время для любого вида отдыха: комфортное купание, экскурсии по античным городам, походы в горы, морские прогулки.
--   **Плюсы:** Меньше туристов, чем летом, и более приятные цены.
-
-#### 3. Низкий сезон (ноябрь — апрель)
-
-Время для тех, кто ищет уединения, интересуется историей и культурой, а не пляжным отдыхом.
-
--   **Погода:** Мягкая, но переменчивая. Температура воздуха днем колеблется от +12°C до +18°C. Наибольшее количество осадков выпадает с декабря по февраль, но даже зимой бывают ясные солнечные дни.
--   **Температура моря:** Холодная для купания (+16-18°C).
--   **Чем заняться:**
-    -   **Экскурсии:** Идеальное время для неспешного осмотра античных руин без толп и жары.
-    -   **Треккинг:** Комфортная погода для походов по Ликийской тропе.
-    -   **Гастрономия:** Можно насладиться местной кухней в аутентичной атмосфере.
-    -   **Цветение:** В марте-апреле регион преображается — цветут апельсиновые деревья и миндаль.
--   **Плюсы:** Самые низкие цены, отсутствие туристов, возможность увидеть настоящую, нетуристическую жизнь региона.
+<div class="overflow-x-auto">
+  <table class="min-w-full bg-white border border-gray-200">
+    <thead class="bg-gray-100">
+      <tr>
+        <th rowspan="2" class="px-4 py-2 text-left text-sm font-semibold text-gray-600 border-b align-middle">Месяц</th>
+        <th colspan="2" class="px-4 py-2 text-center text-sm font-semibold text-gray-600 border-b">Мармарис</th>
+        <th colspan="2" class="px-4 py-2 text-center text-sm font-semibold text-gray-600 border-b">Фетхие</th>
+        <th colspan="2" class="px-4 py-2 text-center text-sm font-semibold text-gray-600 border-b">Каш</th>
+      </tr>
+      <tr>
+        <th class="px-4 py-2 text-center text-sm font-semibold text-gray-600 border-b">Воздух (мин/макс)</th>
+        <th class="px-4 py-2 text-center text-sm font-semibold text-gray-600 border-b">Вода (°C)</th>
+        <th class="px-4 py-2 text-center text-sm font-semibold text-gray-600 border-b">Воздух (мин/макс)</th>
+        <th class="px-4 py-2 text-center text-sm font-semibold text-gray-600 border-b">Вода (°C)</th>
+        <th class="px-4 py-2 text-center text-sm font-semibold text-gray-600 border-b">Воздух (мин/макс)</th>
+        <th class="px-4 py-2 text-center text-sm font-semibold text-gray-600 border-b">Вода (°C)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="hover:bg-gray-50">
+        <td class="px-4 py-2 border-b">Январь</td>
+        <td class="px-4 py-2 text-center border-b">6 / 15</td><td class="px-4 py-2 text-center border-b">18</td>
+        <td class="px-4 py-2 text-center border-b">6 / 14</td><td class="px-4 py-2 text-center border-b">18</td>
+        <td class="px-4 py-2 text-center border-b">7 / 16</td><td class="px-4 py-2 text-center border-b">17</td>
+      </tr>
+      <tr class="hover:bg-gray-50">
+        <td class="px-4 py-2 border-b">Февраль</td>
+        <td class="px-4 py-2 text-center border-b">7 / 15</td><td class="px-4 py-2 text-center border-b">17</td>
+        <td class="px-4 py-2 text-center border-b">6 / 15</td><td class="px-4 py-2 text-center border-b">17</td>
+        <td class="px-4 py-2 text-center border-b">7 / 16</td><td class="px-4 py-2 text-center border-b">16</td>
+      </tr>
+      <tr class="hover:bg-gray-50">
+        <td class="px-4 py-2 border-b">Март</td>
+        <td class="px-4 py-2 text-center border-b">8 / 18</td><td class="px-4 py-2 text-center border-b">17</td>
+        <td class="px-4 py-2 text-center border-b">7 / 17</td><td class="px-4 py-2 text-center border-b">17</td>
+        <td class="px-4 py-2 text-center border-b">9 / 18</td><td class="px-4 py-2 text-center border-b">17</td>
+      </tr>
+      <tr class="hover:bg-gray-50">
+        <td class="px-4 py-2 border-b">Апрель</td>
+        <td class="px-4 py-2 text-center border-b">11 / 21</td><td class="px-4 py-2 text-center border-b">17</td>
+        <td class="px-4 py-2 text-center border-b">10 / 21</td><td class="px-4 py-2 text-center border-b">18</td>
+        <td class="px-4 py-2 text-center border-b">12 / 21</td><td class="px-4 py-2 text-center border-b">18</td>
+      </tr>
+      <tr class="hover:bg-gray-50">
+        <td class="px-4 py-2 border-b">Май</td>
+        <td class="px-4 py-2 text-center border-b">15 / 25</td><td class="px-4 py-2 text-center border-b">20</td>
+        <td class="px-4 py-2 text-center border-b">14 / 25</td><td class="px-4 py-2 text-center border-b">20</td>
+        <td class="px-4 py-2 text-center border-b">16 / 26</td><td class="px-4 py-2 text-center border-b">20</td>
+      </tr>
+      <tr class="hover:bg-gray-50">
+        <td class="px-4 py-2 border-b">Июнь</td>
+        <td class="px-4 py-2 text-center border-b">20 / 33</td><td class="px-4 py-2 text-center border-b">24</td>
+        <td class="px-4 py-2 text-center border-b">18 / 30</td><td class="px-4 py-2 text-center border-b">23</td>
+        <td class="px-4 py-2 text-center border-b">20 / 30</td><td class="px-4 py-2 text-center border-b">24</td>
+      </tr>
+      <tr class="hover:bg-gray-50">
+        <td class="px-4 py-2 border-b">Июль</td>
+        <td class="px-4 py-2 text-center border-b">25 / 36</td><td class="px-4 py-2 text-center border-b">27</td>
+        <td class="px-4 py-2 text-center border-b">22 / 33</td><td class="px-4 py-2 text-center border-b">26</td>
+        <td class="px-4 py-2 text-center border-b">22 / 31</td><td class="px-4 py-2 text-center border-b">27</td>
+      </tr>
+      <tr class="hover:bg-gray-50">
+        <td class="px-4 py-2 border-b">Август</td>
+        <td class="px-4 py-2 text-center border-b">23 / 36</td><td class="px-4 py-2 text-center border-b">28</td>
+        <td class="px-4 py-2 text-center border-b">22 / 33</td><td class="px-4 py-2 text-center border-b">27</td>
+        <td class="px-4 py-2 text-center border-b">23 / 32</td><td class="px-4 py-2 text-center border-b">28</td>
+      </tr>
+      <tr class="hover:bg-gray-50">
+        <td class="px-4 py-2 border-b">Сентябрь</td>
+        <td class="px-4 py-2 text-center border-b">18 / 33</td><td class="px-4 py-2 text-center border-b">27</td>
+        <td class="px-4 py-2 text-center border-b">18 / 30</td><td class="px-4 py-2 text-center border-b">26</td>
+        <td class="px-4 py-2 text-center border-b">19 / 29</td><td class="px-4 py-2 text-center border-b">27</td>
+      </tr>
+      <tr class="hover:bg-gray-50">
+        <td class="px-4 py-2 border-b">Октябрь</td>
+        <td class="px-4 py-2 text-center border-b">15 / 27</td><td class="px-4 py-2 text-center border-b">24</td>
+        <td class="px-4 py-2 text-center border-b">14 / 26</td><td class="px-4 py-2 text-center border-b">24</td>
+        <td class="px-4 py-2 text-center border-b">15 / 25</td><td class="px-4 py-2 text-center border-b">24</td>
+      </tr>
+      <tr class="hover:bg-gray-50">
+        <td class="px-4 py-2 border-b">Ноябрь</td>
+        <td class="px-4 py-2 text-center border-b">11 / 21</td><td class="px-4 py-2 text-center border-b">21</td>
+        <td class="px-4 py-2 text-center border-b">10 / 20</td><td class="px-4 py-2 text-center border-b">21</td>
+        <td class="px-4 py-2 text-center border-b">11 / 21</td><td class="px-4 py-2 text-center border-b">21</td>
+      </tr>
+      <tr class="hover:bg-gray-50">
+        <td class="px-4 py-2 border-b">Декабрь</td>
+        <td class="px-4 py-2 text-center border-b">8 / 17</td><td class="px-4 py-2 text-center border-b">19</td>
+        <td class="px-4 py-2 text-center border-b">8 / 16</td><td class="px-4 py-2 text-center border-b">19</td>
+        <td class="px-4 py-2 text-center border-b">8 / 17</td><td class="px-4 py-2 text-center border-b">18</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ---
 
-### Итог: какое время выбрать?
+## Особенности сезонов
 
--   **Для классического пляжного отдыха и жары:** Июль — Август.
--   **Для идеального сочетания пляжа и экскурсий:** Июнь или Сентябрь.
--   **Для бюджетного и комфортного отдыха:** Май или Октябрь.
--   **Для исследования, походов и уединения:** Ноябрь — Апрель. 
+### Лето (июнь, июль, август)
+*   **Погода:** Очень теплое, иногда жаркое, без дождей.
+*   **Особенности:** Из-за жары и наплыва туристов, летние месяцы могут быть очень людными. Пляж Чалыш в Фетхие в это время заполнен отдыхающими. Поход по Ликийской тропе летом затруднителен из-за сильной жары.
+
+### Осень (сентябрь, октябрь, ноябрь)
+*   **Погода:** Погода теплая и не такая сухая, как летом, но все еще достаточно теплая для купания (температура воды около 20°C).
+*   **Особенности:** Осень – идеальное время для долгих походов по Ликийской тропе. В Каше "плечевой сезон" (с сентября до конца октября) предлагает теплую погоду с меньшим количеством толп. В Долине бабочек можно увидеть колонии бабочек в октябре. В Мармарисе в ноябре ежегодно проводятся яхтенные соревнования.
+
+### Зима (декабрь, январь, февраль)
+*   **Погода:** Средняя дневная температура воздуха около 15-16°C, что не подходит для купания. Ночью возможны легкие заморозки. Снег — большая редкость, в основном идут дожди.
+*   **Особенности:** Отличное время для спокойного отдыха и посещения достопримечательностей без толп. Горнолыжный курорт Улудаг (Бурса) открывает сезон с 20 декабря.
+
+### Весна (март, апрель, май)
+*   **Погода:** Воздух и вода начинают прогреваться с середины апреля. В мае погода уже по-летнему теплая, можно купаться и загорать.
+*   **Особенности:** Весна – прекрасное время для долгих походов по Ликийской тропе, хотя в горах ночи могут быть холодными. В окрестностях Датчи в апреле-мае в изобилии растут дикие травы. В поселке Ешилюзюмлю в апреле проходит Фестиваль сморчковых грибов, а в Мармарисе в конце апреля или начале мая — Морской фестиваль.
+
+---
+
+## Рекомендации по лучшему времени для посещения
+
+*   **Даламан:** Лучшее время для посещения – весна (с апреля по июнь) и осень (с сентября по октябрь) из-за приятных температур и меньшего количества туристов.
+*   **Каш:** Рекомендуется посещать в "плечевой сезон" (с середины апреля до середины июня и с сентября до конца октября).
+*   **Ликийская тропа:** Весна и осень являются идеальными временами для длительных походов.
+*   **Мармарис:** Подходит для занятий спортом и яхтинга вне летнего сезона.
+*   **Хисароню (недалеко от Мармариса):** Всегда ветрено и низкая влажность, что хорошо для людей с астмой. 

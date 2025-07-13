@@ -7,8 +7,10 @@ const navItems = [
         name: 'ИНФОРМАЦИЯ',
         href: '#',
         dropdown: [
-            { name: 'География и история', href: '/articles/geography-history' },
-            { name: 'Климат и сезоны', href: '/articles/climate-seasons' },
+            { name: 'География', href: '/articles/1_geografiya' },
+            { name: 'История', href: '/articles/2_istoriya_likiyskogo_poberezhya' },
+            { name: 'Климат и сезоны', href: '/articles/3_klimat_i_luchshee_vremya_dlya_poseshcheniya' },
+            { name: 'Флора и Фауна', href: '/articles/37_flora_i_fauna' },
         ],
     },
     {

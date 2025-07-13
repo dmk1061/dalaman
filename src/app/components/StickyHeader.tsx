@@ -41,7 +41,7 @@ const StickyHeader = ({ onMenuToggle }: StickyHeaderProps) => {
                     {/* Menu Button */}
                     <button 
                         onClick={onMenuToggle}
-                        className="flex items-center space-x-2 hover:bg-cyan-700 px-3 py-2 rounded transition-colors"
+                        className="flex items-center space-x-2 hover:bg-cyan-700 px-3 py-2 rounded transition-colors -m-2 p-2"
                     >
                         <FaBars size={18} />
                         <span className="font-semibold">МЕНЮ</span>

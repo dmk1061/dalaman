@@ -3,7 +3,9 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
-import html from 'remark-html';
+import remarkHtml from 'remark-html';
+import rehypeRaw from 'rehype-raw';
+import rehypeStringify from 'rehype-stringify';
 
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
@@ -34,7 +36,7 @@ async function getArticleData(slug: string) {
     const matterResult = matter(fileContents);
 
     const processedContent = await remark()
-        .use(html)
+        .use(remarkHtml, { sanitize: false })
         .process(matterResult.content);
     const contentHtml = processedContent.toString();
 

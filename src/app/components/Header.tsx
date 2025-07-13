@@ -34,9 +34,10 @@ const locations = [
 
 const navItems: NavItem[] = [
     { name: 'Информация', href: '#', dropdown: [
-        { name: 'География и история', href: '/articles/1_geografiya_i_obshchaya_informatsiya_o_regione' },
+        { name: 'География', href: '/articles/1_geografiya' },
+        { name: 'История', href: '/articles/2_istoriya' },
         { name: 'Климат и сезоны', href: '/articles/3_klimat_i_luchshee_vremya_dlya_poseshcheniya' },
-        { name: 'Природа: флора и фауна', href: '/articles/37_flora_i_fauna_priroda_regiona' },
+        { name: 'Флора и фауна', href: '/articles/flora-fauna' },
         { name: 'Культура и традиции', href: '/articles/31_kulturnye_osobennosti_i_tradicii' },
     ]},
     { name: 'Локации', href: '#', dropdown: locations.map(l => ({
@@ -57,7 +58,7 @@ const navItems: NavItem[] = [
         { name: 'Яхтинг', href: '/articles/18_yahting_i_morskie_progulki' },
     ]},
     { name: 'Переезд', href: '#', dropdown: [
-        { name: 'ВНЖ', href: '#' },
+        { name: 'ВНЖ', href: '/articles/35_1_vnzh_v_turcii' },
         { name: 'Недвижимость', href: '/articles/35_nedvizhimost_v_regione_pokupka_i_arenda' },
         { name: 'Полезные ссылки', href: '/articles/50_poleznye_ssylki_i_kontakty' },
     ]},
@@ -131,24 +132,26 @@ const Header = () => {
                     {item.dropdown && item.dropdown.length > 0 && <FiChevronDown className="ml-1" size={16} />}
                   </Link>
                   {item.dropdown && item.dropdown.length > 0 && (
-                    <div className="absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 invisible group-hover:visible z-20">
-                      {item.dropdown.map((subItem) => (
-                        <div key={subItem.name} className="relative group/submenu">
-                           <a href={subItem.href} className="flex justify-between items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                                <span>{subItem.name}</span>
-                                {subItem.submenu && <FaChevronRight size={12} className="text-gray-400" />}
-                           </a>
-                           {subItem.submenu && (
-                               <div className="absolute left-full -top-1 w-56 bg-white rounded-md shadow-lg py-1 opacity-0 group-hover/submenu:opacity-100 invisible group-hover/submenu:visible z-30">
-                                   {subItem.submenu.map(subSubItem => (
-                                       <a key={subSubItem.name} href={subSubItem.href} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                                           {subSubItem.name}
-                                       </a>
-                                   ))}
-                               </div>
-                           )}
-                        </div>
-                      ))}
+                    <div className="absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 invisible group-hover:visible z-20 pt-4 -mt-2">
+                      <div className="bg-white rounded-md shadow-lg py-1">
+                        {item.dropdown.map((subItem) => (
+                          <div key={subItem.name} className="relative group/submenu">
+                            <a href={subItem.href} className="flex justify-between items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                              <span>{subItem.name}</span>
+                              {subItem.submenu && <FaChevronRight size={12} className="text-gray-400" />}
+                            </a>
+                            {subItem.submenu && (
+                              <div className="absolute left-full -top-1 w-56 bg-white rounded-md shadow-lg py-1 opacity-0 group-hover/submenu:opacity-100 invisible group-hover/submenu:visible z-30">
+                                {subItem.submenu.map(subSubItem => (
+                                  <a key={subSubItem.name} href={subSubItem.href} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                                    {subSubItem.name}
+                                  </a>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   )}
                 </li>
