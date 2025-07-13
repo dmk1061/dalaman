@@ -28,6 +28,7 @@ const locations = [
   { name: 'Дальян', baseHref: '/dalyan' },
   { name: 'Кёйджегиз', baseHref: '/koycegiz' },
   { name: 'Даламан', baseHref: '/dalaman' },
+  { name: 'Гёджек', baseHref: '/gocek' },
   { name: 'Фетхие', baseHref: '/fethiye' },
   { name: 'Каш', baseHref: '/kas' },
 ];
@@ -71,7 +72,7 @@ const cityNavLinks = [
   { name: 'Кёйджегиз', href: '/koycegiz' },
   { name: 'Дальян', href: '/dalyan' },
   { name: 'Даламан', href: '/dalaman' },
-  { name: 'Геджех', href: '/gocek' },
+  { name: 'Гёджек', href: '/gocek' },
   { name: 'Фетхие', href: '/fethiye' },
   { name: 'Каш', href: '/kas' },
 ];
