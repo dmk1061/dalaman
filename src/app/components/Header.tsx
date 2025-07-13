@@ -51,11 +51,11 @@ const navItems: NavItem[] = [
         ]
     }))},
     { name: 'Чем заняться', href: '#', dropdown: [
-        { name: 'Дайвинг', href: '/articles/17_vodnye_vidy_sporta_dayving_vindserfing' },
-        { name: 'Трекинг', href: '/articles/16_peshehodnyy_turizm_i_trekking' },
-        { name: 'Параглайдинг', href: '/articles/15_aktivnyy_otdyh_i_ekstremalnyy_sport' },
-        { name: 'Античные города', href: '/articles/13_antichnye_goroda_i_arkheologicheskie_pamyatniki' },
-        { name: 'Яхтинг', href: '/articles/18_yahting_i_morskie_progulki' },
+        { name: 'Дайвинг и снорклинг', href: '/articles/diving' },
+        { name: 'Трекинг', href: '/articles/trekking' },
+        { name: 'Параглайдинг', href: '/articles/paragliding' },
+        { name: 'Античные города', href: '/articles/ancient-cities' },
+        { name: 'Яхтинг', href: '/articles/yachting' },
     ]},
     { name: 'Переезд', href: '#', dropdown: [
         { name: 'ВНЖ', href: '/articles/35_1_vnzh_v_turcii' },
