@@ -53,6 +53,7 @@ const navItems: NavItem[] = [
     }))},
     { name: 'Чем заняться', href: '#', dropdown: [
         { name: 'Дайвинг и снорклинг', href: '/articles/diving' },
+        { name: 'Кайтсерфинг', href: '/articles/kitesurfing' },
         { name: 'Трекинг', href: '/articles/trekking' },
         { name: 'Параглайдинг', href: '/articles/paragliding' },
         { name: 'Античные города', href: '/articles/ancient-cities' },

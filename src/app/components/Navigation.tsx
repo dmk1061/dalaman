@@ -27,6 +27,7 @@ const navItems = [
         href: '#',
         dropdown: [
             { name: 'Активный отдых', href: '/articles/active-leisure' },
+            { name: 'Кайтсерфинг', href: '/articles/kitesurfing' },
             { name: 'Пляжи', href: '/articles/beaches' },
         ],
     },
