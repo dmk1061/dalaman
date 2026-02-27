@@ -12,18 +12,30 @@ import Footer from '@/app/components/Footer';
 
 const articlesDirectory = path.join(process.cwd(), 'content/articles');
 
+// Рекурсивно получаем все .md файлы (игнорируем директории)
+function getArticleFilePaths(dir: string = articlesDirectory): string[] {
+    const result: string[] = [];
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const entry of entries) {
+        const fullPath = path.join(dir, entry.name);
+        if (entry.isDirectory()) {
+            result.push(...getArticleFilePaths(fullPath));
+        } else if (entry.isFile() && entry.name.endsWith('.md')) {
+            result.push(fullPath);
+        }
+    }
+    return result;
+}
+
 // Функция для получения данных статьи по слагу
 async function getArticleData(slug: string) {
-    const fileNames = fs.readdirSync(articlesDirectory);
-    let fullPath = '';
+    const filePaths = getArticleFilePaths();
     let fileContents = '';
 
-    for (const fileName of fileNames) {
-        const filePath = path.join(articlesDirectory, fileName);
+    for (const filePath of filePaths) {
         const currentFileContents = fs.readFileSync(filePath, 'utf8');
         const matterResult = matter(currentFileContents);
         if (matterResult.data.slug === slug) {
-            fullPath = filePath;
             fileContents = currentFileContents;
             break;
         }
@@ -86,9 +98,9 @@ const ArticlePage = async ({ params }: ArticlePageProps) => {
 
 // Функция для генерации статических путей
 export async function generateStaticParams() {
-    const fileNames = fs.readdirSync(articlesDirectory);
-    return fileNames.map(fileName => {
-        const fileContents = fs.readFileSync(path.join(articlesDirectory, fileName), 'utf8');
+    const filePaths = getArticleFilePaths();
+    return filePaths.map(filePath => {
+        const fileContents = fs.readFileSync(filePath, 'utf8');
         const matterResult = matter(fileContents);
         return {
             slug: matterResult.data.slug,
