@@ -34,37 +34,38 @@ const locations = [
 ];
 
 const navItems: NavItem[] = [
-    { name: 'Информация', href: '#', dropdown: [
-        { name: 'География', href: '/articles/1_geografiya' },
-        { name: 'История', href: '/articles/2_istoriya' },
-        { name: 'Климат и сезоны', href: '/articles/3_klimat_i_luchshee_vremya_dlya_poseshcheniya' },
-        { name: 'Флора и фауна', href: '/articles/flora-fauna' },
-        { name: 'Культура и традиции', href: '/articles/31_kulturnye_osobennosti_i_tradicii' },
-    ]},
-    { name: 'Локации', href: '#', dropdown: locations.map(l => ({
-        name: l.name,
-        href: l.baseHref,
-        submenu: [
-            { name: 'Общая информация', href: `${l.baseHref}/info` },
-            { name: 'Пляжи', href: `${l.baseHref}/beaches` },
-            { name: 'Достопримечательности', href: `${l.baseHref}/sights` },
-            { name: 'Транспорт', href: `${l.baseHref}/transport` },
-        ]
-    }))},
-    { name: 'Чем заняться', href: '#', dropdown: [
-        { name: 'Дайвинг и снорклинг', href: '/articles/diving' },
-        { name: 'Кайтсерфинг', href: '/articles/kitesurfing' },
-        { name: 'Трекинг', href: '/articles/trekking' },
-        { name: 'Параглайдинг', href: '/articles/paragliding' },
-        { name: 'Античные города', href: '/articles/ancient-cities' },
-        { name: 'Яхтинг', href: '/articles/yachting' },
-    ]},
-    { name: 'Переезд', href: '#', dropdown: [
-        { name: 'ВНЖ', href: '/articles/35_1_vnzh_v_turcii' },
-        { name: 'Недвижимость', href: '/articles/35_nedvizhimost_v_regione_pokupka_i_arenda' },
-        { name: 'Полезные ссылки', href: '/articles/50_poleznye_ssylki_i_kontakty' },
-    ]},
-    { name: 'Сувениры', href: '/articles/48_tradicionnye_remesla_i_suveniry', dropdown: []},
+  {
+    name: 'Подготовка', href: '#', dropdown: [
+      { name: 'География и природа', href: '/articles/geography' },
+      { name: 'Транспорт', href: '/articles/transport' },
+      { name: 'Аэропорт Даламан', href: '/articles/airport-dalaman' },
+      { name: 'Отели и жилье', href: '/articles/real-estate' },
+      { name: 'Климат и сезоны', href: '/articles/climate-and-seasons' },
+      { name: 'ВНЖ и переезд', href: '/articles/residency-permit' },
+      { name: 'Полезные контакты', href: '/articles/useful-contacts' },
+    ]
+  },
+  {
+    name: 'Открытия', href: '#', dropdown: [
+      { name: 'Все города (обзор)', href: '/city-guide' },
+      { name: 'Лучшие пляжи', href: '/beaches' },
+      { name: 'Античные города', href: '/articles/ancient-cities' },
+      { name: 'Природа и парки', href: '/articles/flora-fauna' },
+      { name: 'История региона', href: '/articles/history' },
+      { name: 'Культура и традиции', href: '/articles/culture-and-traditions' },
+    ]
+  },
+  {
+    name: 'Впечатления', href: '#', dropdown: [
+      { name: 'Яхтинг', href: '/articles/yachting' },
+      { name: 'Дайвинг', href: '/articles/diving' },
+      { name: 'Параглайдинг', href: '/articles/paragliding' },
+      { name: 'Трекинг', href: '/articles/trekking' },
+      { name: 'Кайтсерфинг', href: '/articles/kitesurfing' },
+      { name: 'Сувениры и ремесла', href: '/articles/suveniry-i-remesla' },
+      { name: 'Блоги путешественников', href: '/blogs' },
+    ]
+  },
 ];
 
 const cityNavLinks = [
@@ -80,85 +81,86 @@ const cityNavLinks = [
 
 const Header = () => {
   return (
-    <header className="bg-white text-gray-800 shadow-sm">
+    <header className="glass-header">
       {/* Top Action Bar */}
-      <div className="bg-[#00a8e0] text-white text-xs font-bold">
-        <div className="container mx-auto px-4 py-2 flex justify-between items-center">
-          <div className="flex items-center space-x-4">
-             <Link href="/contacts" className="flex items-center space-x-1 hover:underline"><span>СВЯЖИТЕСЬ С НАМИ</span><FaChevronRight size={10} /></Link>
-             <Link href="tel:0000000000" className="flex items-center space-x-1 hover:underline"><MdPhone /><span>000 000 00 00</span></Link>
+      <div className="bg-cyan-600/90 text-white text-[10px] font-bold tracking-widest">
+        <div className="container mx-auto px-4 py-1.5 flex justify-between items-center">
+          <div className="flex items-center space-x-6">
+            <Link href="/contacts" className="flex items-center space-x-1 hover:text-cyan-200 transition-colors uppercase"><span>СВЯЖИТЕСЬ С НАМИ</span><FaChevronRight size={8} /></Link>
+            <Link href="tel:0000000000" className="flex items-center space-x-1 hover:text-cyan-200 transition-colors tracking-tighter"><MdPhone size={14} /><span>+90 000 000 00 00</span></Link>
           </div>
-          <div className="flex items-center space-x-4">
-            <Link href="/services" className="flex items-center space-x-1 hover:underline"><span>НАШИ УСЛУГИ</span><FaChevronRight size={10} /></Link>
-            <Link href="/services/excursions-tours" className="flex items-center space-x-1 hover:underline"><span>ЭКСКУРСИИ</span><FaChevronRight size={10} /></Link>
-            <Link href="/pharmacies" className="flex items-center space-x-1 hover:underline"><span>ДЕЖУРНЫЕ АПТЕКИ</span><FaChevronRight size={10} /></Link>
-            <div className="relative">
-                <input type="text" placeholder="Поиск..." className="bg-white text-gray-800 rounded-full py-1 pl-4 pr-10 text-sm focus:outline-none w-48"/>
-                <button className="absolute right-0 top-0 h-full px-3 text-gray-500 hover:text-black"><MdSearch /></button>
+          <div className="flex items-center space-x-6">
+            <Link href="/services" className="flex items-center space-x-1 hover:text-cyan-200 transition-colors uppercase"><span>УСЛУГИ</span><FaChevronRight size={8} /></Link>
+            <Link href="/services/excursions-tours" className="flex items-center space-x-1 hover:text-cyan-200 transition-colors uppercase"><span>ЭКСКУРСИИ</span><FaChevronRight size={8} /></Link>
+            <Link href="/pharmacies" className="flex items-center space-x-1 hover:text-cyan-200 transition-colors uppercase"><span>АПТЕКИ</span><FaChevronRight size={8} /></Link>
+            <div className="relative group/search">
+              <input type="text" placeholder="Поиск..." className="bg-white/20 text-white placeholder-white/70 rounded-full py-1 px-4 text-xs focus:outline-none focus:bg-white focus:text-gray-800 transition-all w-32 focus:w-48" />
+              <button className="absolute right-2 top-1/2 -translate-y-1/2 text-white group-focus-within/search:text-gray-500"><MdSearch size={16} /></button>
             </div>
           </div>
         </div>
       </div>
 
       {/* Main Header & Navigation */}
-      <div className="container mx-auto px-4 pt-3 pb-3">
+      <div className="container mx-auto px-4 py-4">
+
         {/* Line 1: Title and Cities */}
         <div className="flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-cyan-700 hover:text-cyan-800">
-                Ваш гид по побережью
-            </Link>
-            <nav>
-                <ul className="flex items-center">
-                  {cityNavLinks.map((item, index) => (
-                    <li key={item.name}>
-                      <Link href={item.href} className="text-sm font-medium text-gray-600 hover:text-cyan-600 px-3 py-1">
-                        {item.name}
-                      </Link>
-                      {index < cityNavLinks.length - 1 && <span className="text-gray-300">|</span>}
-                    </li>
-                  ))}
-                </ul>
-            </nav>
-        </div>
-      </div>
-        {/* Divider */}
-        <hr className="border-gray-200" />
-        {/* Line 2: Main Navigation */}
-      <div className="container mx-auto px-4 pt-3 pb-3">
-        <nav>
-            <ul className="flex items-center space-x-8">
-              {navItems.map((item) => (
-                <li key={item.name} className="relative group">
-                  <Link href={item.href} className="flex items-center text-sm font-bold text-gray-600 hover:text-cyan-600 tracking-wider py-2">
-                    <span>{item.name.toUpperCase()}</span>
-                    {item.dropdown && item.dropdown.length > 0 && <FiChevronDown className="ml-1" size={16} />}
+          <Link href="/" className="text-2xl font-bold text-cyan-700 hover:text-cyan-800">
+            Ваш гид по побережью
+          </Link>
+          <nav>
+            <ul className="flex items-center">
+              {cityNavLinks.map((item, index) => (
+                <li key={item.name}>
+                  <Link href={item.href} className="text-sm font-medium text-gray-600 hover:text-cyan-600 px-3 py-1">
+                    {item.name}
                   </Link>
-                  {item.dropdown && item.dropdown.length > 0 && (
-                    <div className="absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 invisible group-hover:visible z-20 pt-4 -mt-2">
-                      <div className="bg-white rounded-md shadow-lg py-1">
-                        {item.dropdown.map((subItem) => (
-                          <div key={subItem.name} className="relative group/submenu">
-                            <a href={subItem.href} className="flex justify-between items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                              <span>{subItem.name}</span>
-                              {subItem.submenu && <FaChevronRight size={12} className="text-gray-400" />}
-                            </a>
-                            {subItem.submenu && (
-                              <div className="absolute left-full -top-1 w-56 bg-white rounded-md shadow-lg py-1 opacity-0 group-hover/submenu:opacity-100 invisible group-hover/submenu:visible z-30">
-                                {subItem.submenu.map(subSubItem => (
-                                  <a key={subSubItem.name} href={subSubItem.href} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                                    {subSubItem.name}
-                                  </a>
-                                ))}
-                              </div>
-                            )}
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
+                  {index < cityNavLinks.length - 1 && <span className="text-gray-300">|</span>}
                 </li>
               ))}
             </ul>
+          </nav>
+        </div>
+      </div>
+      {/* Divider */}
+      <hr className="border-gray-200" />
+      {/* Line 2: Main Navigation */}
+      <div className="container mx-auto px-4 pt-3 pb-3">
+        <nav>
+          <ul className="flex items-center space-x-8">
+            {navItems.map((item) => (
+              <li key={item.name} className="relative group">
+                <Link href={item.href} className="flex items-center text-sm font-bold text-gray-600 hover:text-cyan-600 tracking-wider py-2">
+                  <span>{item.name.toUpperCase()}</span>
+                  {item.dropdown && item.dropdown.length > 0 && <FiChevronDown className="ml-1" size={16} />}
+                </Link>
+                {item.dropdown && item.dropdown.length > 0 && (
+                  <div className="absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 invisible group-hover:visible z-20 pt-4 -mt-2">
+                    <div className="bg-white rounded-md shadow-lg py-1">
+                      {item.dropdown.map((subItem) => (
+                        <div key={subItem.name} className="relative group/submenu">
+                          <Link href={subItem.href} className="flex justify-between items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                            <span>{subItem.name}</span>
+                            {subItem.submenu && <FaChevronRight size={12} className="text-gray-400" />}
+                          </Link>
+                          {subItem.submenu && (
+                            <div className="absolute left-full -top-1 w-56 bg-white rounded-md shadow-lg py-1 opacity-0 group-hover/submenu:opacity-100 invisible group-hover/submenu:visible z-30">
+                              {subItem.submenu.map(subSubItem => (
+                                <Link key={subSubItem.name} href={subSubItem.href} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                                  {subSubItem.name}
+                                </Link>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </li>
+            ))}
+          </ul>
         </nav>
       </div>
     </header>

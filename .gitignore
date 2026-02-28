@@ -28,3 +28,4 @@ pnpm-debug.log*
 
 # macOS specific
 .DS_Store 
+.aider*

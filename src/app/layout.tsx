@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dalaman Guide",
-  description: "Your guide to Dalaman, Turkey",
+  title: "Путеводитель по побережью Турции: от Дачи до Каша",
+  description: "Твой гид по городам Дача, Мармарис, Дальян, Даламан, Фетхие и Каш.",
 };
 
 export default function RootLayout({
@@ -15,8 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ru">
       <body className={`${inter.className} bg-gray-100`}>{children}</body>
     </html>
   );
-} 
+}

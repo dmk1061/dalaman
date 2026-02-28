@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities; 
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --dalaman-blue: 196 100% 44%; /* #00a8e0 */
+    --dalaman-dark: 196 100% 20%;
+    --glass-bg: rgba(255, 255, 255, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.2);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-slate-900 antialiased;
+    background-color: #f8fafc; /* slate-50 */
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl;
+  }
+  
+  .glass-header {
+    @apply sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-100;
+  }
+
+  .premium-shadow {
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.08);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-600 to-blue-700;
+  }
+}
+ 

@@ -32,13 +32,13 @@ const dayPlanItems = [
 
 const Sidebar = () => {
     return (
-        <div className="space-y-8">
+        <div className="space-y-10">
             {/* Day Planner */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="bg-cyan-600 text-white px-4 py-3">
-                    <h3 className="font-bold text-lg">Планируем день</h3>
+            <div className="bg-white rounded-[2rem] premium-shadow overflow-hidden border border-slate-50">
+                <div className="bg-cyan-600 text-white px-6 py-4">
+                    <h3 className="font-black text-sm uppercase tracking-widest italic">Планируем день</h3>
                 </div>
-                <div className="p-4 space-y-4">
+                <div className="p-6 space-y-6">
                     {dayPlanItems.map((item) => (
                         <ArticleItem
                             key={item.title}
@@ -51,26 +51,25 @@ const Sidebar = () => {
             </div>
 
             {/* Travel Plans */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="bg-cyan-600 text-white px-4 py-3">
-                    <h3 className="font-bold text-lg">Планы путешествий</h3>
+            <div className="group bg-white rounded-[2rem] premium-shadow overflow-hidden border border-slate-50">
+                <div className="bg-cyan-600 text-white px-6 py-4">
+                    <h3 className="font-black text-sm uppercase tracking-widest italic">Маршруты</h3>
                 </div>
-                 <div className="relative h-48">
+                <div className="relative h-56 overflow-hidden">
                     <Image
                         src="/dalaman2.jpg"
                         alt="Планы путешествий"
                         layout="fill"
                         objectFit="cover"
-                        className="w-full h-full"
+                        className="group-hover:scale-110 transition-transform duration-700 ease-out"
                     />
-                    <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center p-4">
-                        <p className="text-white text-lg font-semibold text-center">Готовые маршруты для вашего идеального отдыха</p>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                    <div className="absolute inset-0 flex flex-col justify-end p-6">
+                        <p className="text-white text-sm font-bold mb-4">Готовые сценарии идеального отдыха</p>
+                        <Link href="/routes" className="w-full text-center block bg-cyan-500 text-white py-3 rounded-xl hover:bg-cyan-600 font-black text-xs uppercase tracking-widest transition-all shadow-lg active:scale-95">
+                            Смотреть все
+                        </Link>
                     </div>
-                </div>
-                <div className="p-4">
-                     <Link href="/routes" className="w-full text-center block bg-blue-600 text-white py-2.5 rounded-lg hover:bg-blue-700 font-bold transition-colors">
-                        Смотреть варианты
-                    </Link>
                 </div>
             </div>
         </div>
@@ -78,18 +77,18 @@ const Sidebar = () => {
 };
 
 const ArticleItem = ({ title, image, href }: { title: string, image: string, href: string }) => (
-    <Link href={href || '#'} className="flex items-center space-x-3 group">
-        <div className="flex-shrink-0">
+    <Link href={href || '#'} className="flex items-center space-x-4 group">
+        <div className="flex-shrink-0 relative w-16 h-16 rounded-xl overflow-hidden premium-shadow border border-slate-100">
             <Image
                 src={image}
                 alt={title}
-                width={80}
-                height={60}
-                className="object-cover rounded-md"
+                layout="fill"
+                objectFit="cover"
+                className="group-hover:scale-110 transition-transform duration-500"
             />
         </div>
         <div className="flex-1">
-            <h4 className="text-sm font-semibold text-gray-800 leading-tight group-hover:text-cyan-600 transition-colors">
+            <h4 className="text-[13px] font-bold text-slate-800 leading-snug group-hover:text-cyan-600 transition-colors">
                 {title}
             </h4>
         </div>
