@@ -25,9 +25,10 @@ export function middleware(request: NextRequest) {
 
   if (pathnameHasLocale) return;
 
-  // If visiting root '/', serve the splash page directly (do not redirect)
+  // If visiting root '/', redirect to '/en' directly (as English is default)
   if (pathname === '/') {
-    return;
+    request.nextUrl.pathname = '/en';
+    return NextResponse.redirect(request.nextUrl);
   }
 
   // Redirect other unlocalized paths to /en/[path]
