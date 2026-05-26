@@ -4,12 +4,23 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
-export async function getMarkdownData(filePath: string) {
-    if (!fs.existsSync(filePath)) {
+export async function getMarkdownData(filePath: string, locale?: string) {
+    let targetPath = filePath;
+
+    if (locale && locale !== 'ru') {
+        const ext = path.extname(filePath);
+        const base = filePath.slice(0, -ext.length);
+        const localizedPath = `${base}.${locale}${ext}`;
+        if (fs.existsSync(localizedPath)) {
+            targetPath = localizedPath;
+        }
+    }
+
+    if (!fs.existsSync(targetPath)) {
         return null;
     }
 
-    const fileContents = fs.readFileSync(filePath, 'utf8');
+    const fileContents = fs.readFileSync(targetPath, 'utf8');
     const { data, content } = matter(fileContents);
 
     const processedContent = await remark()
@@ -31,9 +42,6 @@ export function getLocationData(location: string) {
     const sightsPath = path.join(locationDir, 'sights.md');
     const transportPath = path.join(locationDir, 'transport.md');
 
-    // Get images for the location (if any main ones exist, otherwise fallback)
-    // For now we'll look into subdirectories
-
     return {
         infoPath,
         beachesPath,
@@ -41,3 +49,4 @@ export function getLocationData(location: string) {
         transportPath,
     };
 }
+

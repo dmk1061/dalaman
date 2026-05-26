@@ -1,0 +1,179 @@
+{
+  "header": {
+    "contact_us": "CONTACT US",
+    "services": "SERVICES",
+    "excursions": "EXCURSIONS",
+    "pharmacies": "PHARMACIES",
+    "search_placeholder": "Search...",
+    "logo_title": "Your Coast Guide",
+    "nav": {
+      "preparation": "Preparation",
+      "discoveries": "Discoveries",
+      "experiences": "Experiences",
+      "geography": "Geography & Nature",
+      "transport": "Transport",
+      "airport_dalaman": "Dalaman Airport",
+      "accommodation": "Hotels & Lodging",
+      "climate_and_seasons": "Climate & Seasons",
+      "residency": "Residency & Moving",
+      "useful_contacts": "Useful Contacts",
+      "all_cities": "All Cities (Overview)",
+      "best_beaches": "Best Beaches",
+      "ancient_cities": "Ancient Cities",
+      "nature_parks": "Nature & Parks",
+      "history": "History of Region",
+      "culture_traditions": "Culture & Traditions",
+      "yachting": "Yachting",
+      "diving": "Diving",
+      "paragliding": "Paragliding",
+      "trekking": "Trekking",
+      "kitesurfing": "Kitesurfing",
+      "souvenirs_crafts": "Souvenirs & Crafts",
+      "blogs": "Travelers' Blogs"
+    }
+  },
+  "footer": {
+    "about_region": "About Region",
+    "where_to_go": "Where to Go",
+    "what_to_do": "What to Do",
+    "services": "Services",
+    "planning": "Planning",
+    "contacts": "Contacts",
+    "rights_reserved": "© 2025 Your Lycian Guide. All rights reserved.",
+    "developed_by": "Developed by AI",
+    "links": {
+      "geography_history": "Geography & History",
+      "climate_seasons": "Climate & Seasons",
+      "culture_traditions": "Culture & Traditions",
+      "main_resorts": "Main Resorts",
+      "small_towns": "Small Towns",
+      "best_beaches": "Best Beaches",
+      "ancient_cities": "Ancient Cities",
+      "active_recreation": "Active Recreation",
+      "yachting_sailing": "Yachting & Sailing",
+      "gastronomy": "Gastronomy",
+      "markets_shopping": "Markets & Shopping",
+      "transfers": "Transfers",
+      "car_rental": "Car Rental",
+      "real_estate": "Real Estate",
+      "excursions": "Excursions",
+      "diving": "Diving",
+      "spearfishing": "Underwater Hunting",
+      "how_to_get_there": "How to Get There",
+      "transport": "Transport",
+      "useful_tips": "Useful Tips"
+    }
+  },
+  "hero": {
+    "title_prefix": "Discover the",
+    "title_highlight": "Turquoise Coast",
+    "subtitle": "Your premium guide to the most beautiful region of Turkey: from cozy Datça to authentic Kaş.",
+    "btn_beach": "To the Beach",
+    "btn_history": "Deep into History",
+    "btn_sea": "Boat Trips",
+    "btn_start": "Start Journey",
+    "btn_more": "Learn More"
+  },
+  "city_hub": {
+    "turkish_coast": "TURKISH COAST",
+    "magic_prefix": "The Magic of ",
+    "magic_suffix": "more than a resort",
+    "default_desc": "A place where time stands still among turquoise waves and ancient ruins.",
+    "beaches_title": "Turquoise Beaches",
+    "beaches_desc": "Open bays and secret lagoons with crystal water.",
+    "history_title": "Echo of History",
+    "history_desc": "Ancient cities and ruins that have kept secrets of millennia.",
+    "transport_title": "How to Get There",
+    "transport_desc": "All transport options and convenient routes to the city.",
+    "gems_title": "Nearby Gems",
+    "gems_subtitle": "Must-visit places within a 20 km radius",
+    "full_guide": "Full Guide",
+    "explore": "Explore"
+  },
+  "main_content": {
+    "quick_links": {
+      "flights": "Flights",
+      "hotels": "Hotel Booking",
+      "car_rental": "Car Rental",
+      "yacht_rental": "Yacht Rental",
+      "excursions": "Excursions",
+      "other_services": "Other Services"
+    },
+    "kaleidoscope": {
+      "title": "Kaleidoscope",
+      "subtitle": "Random discoveries on the coast every day",
+      "all_locations": "ALL LOCATIONS",
+      "picking": "Picking interesting places..."
+    },
+    "mosaic": {
+      "title": "Mosaic of Impressions",
+      "subtitle": "Immerse yourself in the region's atmosphere through stories, tips, and community chat.",
+      "blogs_title": "Blogs",
+      "blogs_desc": "Live stories and tips from travelers who have already been here.",
+      "guides_title": "Guides",
+      "guides_desc": "Find your perfect coast guide for unique excursions.",
+      "forums_title": "Forums",
+      "forums_desc": "Discuss routes, share experiences and ask questions in our community.",
+      "read_more": "Read more"
+    },
+    "collections": {
+      "title": "Curated Collections",
+      "subtitle": "Specially selected routes and places to suit your taste",
+      "view_all": "All collections",
+      "romantic": "Romance for two",
+      "romantic_desc": "12 places",
+      "family": "Family vacation",
+      "family_desc": "8 locations",
+      "gastro": "Gastro tour of the region",
+      "gastro_desc": "15 restaurants",
+      "bays": "Hidden bays",
+      "bays_desc": "10 beaches"
+    },
+    "map": {
+      "title": "Regional Map",
+      "open_interactive": "Open interactive version"
+    }
+  },
+  "beaches_page": {
+    "turquoise_coast": "TURQUOISE COAST",
+    "title": "Best Beaches of the Region",
+    "subtitle": "From the endless sandy beaches of Ölüdeniz to the secluded rocky bays of Datça"
+  },
+  "sidebar": {
+    "plan_day": "Day Planner",
+    "routes": "Routes",
+    "scenarios_subtitle": "Ready-made scripts for the perfect vacation",
+    "view_all": "View all",
+    "item_kaputas": "Kaputaş Beach: paradise in a turquoise bay",
+    "item_lycian_way": "Lycian Way: Turkey's best hiking route",
+    "item_kekova": "Secrets of the sunken city of Kekova",
+    "item_oludeniz": "Ölüdeniz: world capital of paragliding",
+    "item_dalyan": "Dalyan: turtles, tombs and mud baths"
+  },
+  "left_sidebar": {
+    "transport": "Transport",
+    "infrastructure": "Infrastructure",
+    "flights": "Flights",
+    "airport_dalaman": "Dalaman Airport",
+    "intercity_bus": "Intercity Buses",
+    "city_transport": "City Transport",
+    "transfer": "Transfer",
+    "companions": "Travel Companions",
+    "hospitals": "Hospitals",
+    "police": "Police",
+    "best_prices": "Best Prices",
+    "direct_flights": "Direct flights to Dalaman",
+    "find_ticket": "Find Ticket"
+  },
+  "common": {
+    "beaches": "Beaches",
+    "sights": "Sights",
+    "routes": "Routes",
+    "city_guide": "City Guide",
+    "back": "Back",
+    "more": "Read More",
+    "select_language": "Select Language",
+    "welcome": "Welcome to the Turquoise Coast",
+    "welcome_subtitle": "Your interactive guide to the Datça, Marmaris, Dalyan, Dalaman, Göcek, Fethiye, and Kaş regions."
+  }
+}

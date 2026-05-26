@@ -3,117 +3,128 @@ import { MdPhone, MdSearch } from 'react-icons/md';
 import { FaChevronRight } from 'react-icons/fa';
 import { FiChevronDown } from 'react-icons/fi';
 import Link from 'next/link';
+import { getDictionary, Locale } from '@/lib/dictionary';
+import LanguageSwitcher from './LanguageSwitcher';
 
-// Type definitions for navigation structure
-type NavSubSubItem = {
-  name: string;
-  href: string;
+type HeaderProps = {
+  locale?: string;
 };
 
-type NavSubItem = {
-  name: string;
-  href: string;
-  submenu?: NavSubSubItem[]; // Optional submenu
+const cityNamesMap: Record<string, Record<string, string>> = {
+  en: { dacha: 'Datça', marmaris: 'Marmaris', koycegiz: 'Köyceğiz', dalyan: 'Dalyan', dalaman: 'Dalaman', gocek: 'Göcek', fethiye: 'Fethiye', kas: 'Kaş' },
+  ru: { dacha: 'Датча', marmaris: 'Мармарис', koycegiz: 'Кёйджегиз', dalyan: 'Дальян', dalaman: 'Даламан', gocek: 'Гёджек', fethiye: 'Фетхие', kas: 'Каш' },
+  de: { dacha: 'Datça', marmaris: 'Marmaris', koycegiz: 'Köyceğiz', dalyan: 'Dalyan', dalaman: 'Dalaman', gocek: 'Göcek', fethiye: 'Fethiye', kas: 'Kaş' },
+  tr: { dacha: 'Datça', marmaris: 'Marmaris', koycegiz: 'Köyceğiz', dalyan: 'Dalyan', dalaman: 'Dalaman', gocek: 'Göcek', fethiye: 'Fethiye', kas: 'Kaş' }
 };
 
-type NavItem = {
-  name: string;
-  href: string;
-  dropdown?: NavSubItem[];
-};
+const Header = async ({ locale = 'en' }: HeaderProps) => {
+  const dict = await getDictionary(locale as Locale);
+  const cities = cityNamesMap[locale] || cityNamesMap['en'];
 
-const locations = [
-  { name: 'Датча', baseHref: '/dacha' },
-  { name: 'Мармарис', baseHref: '/marmaris' },
-  { name: 'Дальян', baseHref: '/dalyan' },
-  { name: 'Кёйджегиз', baseHref: '/koycegiz' },
-  { name: 'Даламан', baseHref: '/dalaman' },
-  { name: 'Гёджек', baseHref: '/gocek' },
-  { name: 'Фетхие', baseHref: '/fethiye' },
-  { name: 'Каш', baseHref: '/kas' },
-];
+  const localize = (path: string) => {
+    if (!path || path === '#' || path.startsWith('http') || path.startsWith('tel:')) return path;
+    const cleanPath = path.startsWith('/') ? path : `/${path}`;
+    return `/${locale}${cleanPath}`;
+  };
 
-const navItems: NavItem[] = [
-  {
-    name: 'Подготовка', href: '#', dropdown: [
-      { name: 'География и природа', href: '/articles/geography' },
-      { name: 'Транспорт', href: '/articles/transport' },
-      { name: 'Аэропорт Даламан', href: '/articles/airport-dalaman' },
-      { name: 'Отели и жилье', href: '/articles/accommodation' },
-      { name: 'Климат и сезоны', href: '/articles/climate-and-seasons' },
-      { name: 'ВНЖ и переезд', href: '/articles/residency-permit' },
-      { name: 'Полезные контакты', href: '/articles/useful-contacts' },
-    ]
-  },
-  {
-    name: 'Открытия', href: '#', dropdown: [
-      { name: 'Все города (обзор)', href: '/city-guide' },
-      { name: 'Лучшие пляжи', href: '/beaches' },
-      { name: 'Античные города', href: '/articles/ancient-cities' },
-      { name: 'Природа и парки', href: '/articles/flora-fauna' },
-      { name: 'История региона', href: '/articles/history' },
-      { name: 'Культура и традиции', href: '/articles/culture-and-traditions' },
-    ]
-  },
-  {
-    name: 'Впечатления', href: '#', dropdown: [
-      { name: 'Яхтинг', href: '/articles/yachting' },
-      { name: 'Дайвинг', href: '/articles/diving' },
-      { name: 'Параглайдинг', href: '/articles/paragliding' },
-      { name: 'Трекинг', href: '/articles/trekking' },
-      { name: 'Кайтсерфинг', href: '/articles/kitesurfing' },
-      { name: 'Сувениры и ремесла', href: '/articles/suveniry-i-remesla' },
-      { name: 'Блоги путешественников', href: '/blogs' },
-    ]
-  },
-];
+  const cityNavLinks = [
+    { name: cities.dacha, href: '/dacha' },
+    { name: cities.marmaris, href: '/marmaris' },
+    { name: cities.koycegiz, href: '/koycegiz' },
+    { name: cities.dalyan, href: '/dalyan' },
+    { name: cities.dalaman, href: '/dalaman' },
+    { name: cities.gocek, href: '/gocek' },
+    { name: cities.fethiye, href: '/fethiye' },
+    { name: cities.kas, href: '/kas' },
+  ];
 
-const cityNavLinks = [
-  { name: 'Датча', href: '/dacha' },
-  { name: 'Мармарис', href: '/marmaris' },
-  { name: 'Кёйджегиз', href: '/koycegiz' },
-  { name: 'Дальян', href: '/dalyan' },
-  { name: 'Даламан', href: '/dalaman' },
-  { name: 'Гёджек', href: '/gocek' },
-  { name: 'Фетхие', href: '/fethiye' },
-  { name: 'Каш', href: '/kas' },
-];
+  const navItems = [
+    {
+      name: dict.header.nav.preparation, href: '#', dropdown: [
+        { name: dict.header.nav.geography, href: '/articles/geography' },
+        { name: dict.header.nav.transport, href: '/articles/transport' },
+        { name: dict.header.nav.airport_dalaman, href: '/articles/airport-dalaman' },
+        { name: dict.header.nav.accommodation, href: '/articles/accommodation' },
+        { name: dict.header.nav.climate_and_seasons, href: '/articles/climate-and-seasons' },
+        { name: dict.header.nav.residency, href: '/articles/residency-permit' },
+        { name: dict.header.nav.useful_contacts, href: '/articles/useful-contacts' },
+      ]
+    },
+    {
+      name: dict.header.nav.discoveries, href: '#', dropdown: [
+        { name: dict.header.nav.all_cities, href: '/city-guide' },
+        { name: dict.header.nav.best_beaches, href: '/beaches' },
+        { name: dict.header.nav.ancient_cities, href: '/articles/ancient-cities' },
+        { name: dict.header.nav.nature_parks, href: '/articles/flora-fauna' },
+        { name: dict.header.nav.history, href: '/articles/history' },
+        { name: dict.header.nav.culture_traditions, href: '/articles/culture-and-traditions' },
+      ]
+    },
+    {
+      name: dict.header.nav.experiences, href: '#', dropdown: [
+        { name: dict.header.nav.yachting, href: '/articles/yachting' },
+        { name: dict.header.nav.diving, href: '/articles/diving' },
+        { name: dict.header.nav.paragliding, href: '/articles/paragliding' },
+        { name: dict.header.nav.trekking, href: '/articles/trekking' },
+        { name: dict.header.nav.kitesurfing, href: '/articles/kitesurfing' },
+        { name: dict.header.nav.souvenirs_crafts, href: '/articles/suveniry-i-remesla' },
+        { name: dict.header.nav.blogs, href: '/blogs' },
+      ]
+    },
+  ];
 
-const Header = () => {
   return (
     <header className="glass-header">
       {/* Top Action Bar */}
       <div className="bg-cyan-600/90 text-white text-[10px] font-bold tracking-widest">
         <div className="container mx-auto px-4 py-1.5 flex justify-between items-center">
           <div className="flex items-center space-x-6">
-            <Link href="/contacts" className="flex items-center space-x-1 hover:text-cyan-200 transition-colors uppercase"><span>СВЯЖИТЕСЬ С НАМИ</span><FaChevronRight size={8} /></Link>
-            <Link href="tel:0000000000" className="flex items-center space-x-1 hover:text-cyan-200 transition-colors tracking-tighter"><MdPhone size={14} /><span>+90 000 000 00 00</span></Link>
+            <Link href={localize('/contacts')} className="flex items-center space-x-1 hover:text-cyan-200 transition-colors uppercase">
+              <span>{dict.header.contact_us}</span>
+              <FaChevronRight size={8} />
+            </Link>
+            <Link href="tel:0000000000" className="flex items-center space-x-1 hover:text-cyan-200 transition-colors tracking-tighter">
+              <MdPhone size={14} />
+              <span>+90 000 000 00 00</span>
+            </Link>
           </div>
           <div className="flex items-center space-x-6">
-            <Link href="/services" className="flex items-center space-x-1 hover:text-cyan-200 transition-colors uppercase"><span>УСЛУГИ</span><FaChevronRight size={8} /></Link>
-            <Link href="/services/excursions-tours" className="flex items-center space-x-1 hover:text-cyan-200 transition-colors uppercase"><span>ЭКСКУРСИИ</span><FaChevronRight size={8} /></Link>
-            <Link href="/pharmacies" className="flex items-center space-x-1 hover:text-cyan-200 transition-colors uppercase"><span>АПТЕКИ</span><FaChevronRight size={8} /></Link>
+            <Link href={localize('/services')} className="flex items-center space-x-1 hover:text-cyan-200 transition-colors uppercase">
+              <span>{dict.header.services}</span>
+              <FaChevronRight size={8} />
+            </Link>
+            <Link href={localize('/services/excursions-tours')} className="flex items-center space-x-1 hover:text-cyan-200 transition-colors uppercase">
+              <span>{dict.header.excursions}</span>
+              <FaChevronRight size={8} />
+            </Link>
+            <Link href={localize('/pharmacies')} className="flex items-center space-x-1 hover:text-cyan-200 transition-colors uppercase">
+              <span>{dict.header.pharmacies}</span>
+              <FaChevronRight size={8} />
+            </Link>
             <div className="relative group/search">
-              <input type="text" placeholder="Поиск..." className="bg-white/20 text-white placeholder-white/70 rounded-full py-1 px-4 text-xs focus:outline-none focus:bg-white focus:text-gray-800 transition-all w-32 focus:w-48" />
-              <button className="absolute right-2 top-1/2 -translate-y-1/2 text-white group-focus-within/search:text-gray-500"><MdSearch size={16} /></button>
+              <input type="text" placeholder={dict.header.search_placeholder} className="bg-white/20 text-white placeholder-white/70 rounded-full py-1 px-4 text-xs focus:outline-none focus:bg-white focus:text-gray-800 transition-all w-32 focus:w-48" />
+              <button className="absolute right-2 top-1/2 -translate-y-1/2 text-white group-focus-within/search:text-gray-500">
+                <MdSearch size={16} />
+              </button>
             </div>
+            {/* Language Switcher */}
+            <LanguageSwitcher currentLocale={locale} />
           </div>
         </div>
       </div>
 
       {/* Main Header & Navigation */}
       <div className="container mx-auto px-4 py-4">
-
         {/* Line 1: Title and Cities */}
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold text-cyan-700 hover:text-cyan-800">
-            Ваш гид по побережью
+          <Link href={localize('/')} className="text-2xl font-bold text-cyan-700 hover:text-cyan-800">
+            {dict.header.logo_title}
           </Link>
           <nav>
             <ul className="flex items-center">
               {cityNavLinks.map((item, index) => (
-                <li key={item.name}>
-                  <Link href={item.href} className="text-sm font-medium text-gray-600 hover:text-cyan-600 px-3 py-1">
+                <li key={item.name} className="flex items-center">
+                  <Link href={localize(item.href)} className="text-sm font-semibold text-gray-600 hover:text-cyan-600 px-3 py-1 transition-colors">
                     {item.name}
                   </Link>
                   {index < cityNavLinks.length - 1 && <span className="text-gray-300">|</span>}
@@ -140,21 +151,9 @@ const Header = () => {
                     <div className="bg-white rounded-2xl premium-shadow border border-slate-50 py-2">
                       {item.dropdown.map((subItem) => (
                         <div key={subItem.name} className="relative group/submenu">
-                          <Link href={subItem.href} className="flex justify-between items-center w-full px-5 py-2.5 text-sm text-slate-700 hover:bg-slate-50 hover:text-cyan-600 transition-colors">
+                          <Link href={localize(subItem.href)} className="flex justify-between items-center w-full px-5 py-2.5 text-sm text-slate-700 hover:bg-slate-50 hover:text-cyan-600 transition-colors">
                             <span className="font-medium">{subItem.name}</span>
-                            {subItem.submenu && <FaChevronRight size={10} className="text-slate-400" />}
                           </Link>
-                          {subItem.submenu && (
-                            <div className="absolute left-full top-0 pl-2 w-56 opacity-0 group-hover/submenu:opacity-100 invisible group-hover/submenu:visible z-30 transition-all duration-300">
-                              <div className="bg-white rounded-2xl premium-shadow border border-slate-50 py-2">
-                                {subItem.submenu.map(subSubItem => (
-                                  <Link key={subSubItem.name} href={subSubItem.href} className="block px-5 py-2.5 text-sm text-slate-700 hover:bg-slate-50 hover:text-cyan-600 transition-colors font-medium">
-                                    {subSubItem.name}
-                                  </Link>
-                                ))}
-                              </div>
-                            </div>
-                          )}
                         </div>
                       ))}
                     </div>
@@ -169,4 +168,4 @@ const Header = () => {
   );
 };
 
-export default Header; 
+export default Header;

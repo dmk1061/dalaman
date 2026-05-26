@@ -1,42 +1,55 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { getDictionary, Locale } from '@/lib/dictionary';
 
-const dayPlanItems = [
-    {
-        title: "Пляж Капуташ: рай в бирюзовой бухте",
-        image: "/dalaman1.jpg",
-        href: "/kas/beach/kaputas"
-    },
-    {
-        title: "Ликийская тропа: лучший хайкинг-маршрут Турции",
-        image: "/dalaman2.jpg",
-        href: "/articles/trekking"
-    },
-    {
-        title: "Секреты затонувшего города Кекова",
-        image: "/dalaman1.jpg",
-        href: "/kas/sight/kekova"
-    },
-    {
-        title: "Олюдениз: мировая столица параглайдинга",
-        image: "/dalaman2.jpg",
-        href: "/articles/paragliding"
-    },
-    {
-        title: "Дальян: черепахи, гробницы и грязевые ванны",
-        image: "/dalaman1.jpg",
-        href: "/articles/dalyan-guide"
-    },
-];
+type SidebarProps = {
+  locale?: string;
+};
 
-const Sidebar = () => {
+const Sidebar = async ({ locale = 'en' }: SidebarProps) => {
+    const dict = await getDictionary(locale as Locale);
+
+    const localize = (path: string) => {
+      if (!path || path === '#' || path.startsWith('http') || path.startsWith('tel:')) return path;
+      const cleanPath = path.startsWith('/') ? path : `/${path}`;
+      return `/${locale}${cleanPath}`;
+    };
+
+    const dayPlanItems = [
+        {
+            title: dict.sidebar.item_kaputas,
+            image: "/dalaman1.jpg",
+            href: "/kas/beach/kaputas"
+        },
+        {
+            title: dict.sidebar.item_lycian_way,
+            image: "/dalaman2.jpg",
+            href: "/articles/trekking"
+        },
+        {
+            title: dict.sidebar.item_kekova,
+            image: "/dalaman1.jpg",
+            href: "/kas/sight/kekova"
+        },
+        {
+            title: dict.sidebar.item_oludeniz,
+            image: "/dalaman2.jpg",
+            href: "/articles/paragliding"
+        },
+        {
+            title: dict.sidebar.item_dalyan,
+            image: "/dalaman1.jpg",
+            href: "/articles/dalyan-guide"
+        },
+    ];
+
     return (
         <div className="space-y-10">
             {/* Day Planner */}
             <div className="bg-white rounded-[2rem] premium-shadow overflow-hidden border border-slate-50">
                 <div className="bg-cyan-600 text-white px-6 py-4">
-                    <h3 className="font-black text-sm uppercase tracking-widest italic">Планируем день</h3>
+                    <h3 className="font-black text-sm uppercase tracking-widest italic">{dict.sidebar.plan_day}</h3>
                 </div>
                 <div className="p-6 space-y-6">
                     {dayPlanItems.map((item) => (
@@ -44,7 +57,7 @@ const Sidebar = () => {
                             key={item.title}
                             title={item.title}
                             image={item.image}
-                            href={item.href}
+                            href={localize(item.href)}
                         />
                     ))}
                 </div>
@@ -53,7 +66,7 @@ const Sidebar = () => {
             {/* Travel Plans */}
             <div className="group bg-white rounded-[2rem] premium-shadow overflow-hidden border border-slate-50">
                 <div className="bg-cyan-600 text-white px-6 py-4">
-                    <h3 className="font-black text-sm uppercase tracking-widest italic">Маршруты</h3>
+                    <h3 className="font-black text-sm uppercase tracking-widest italic">{dict.sidebar.routes}</h3>
                 </div>
                 <div className="relative h-56 overflow-hidden">
                     <Image
@@ -65,9 +78,9 @@ const Sidebar = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                     <div className="absolute inset-0 flex flex-col justify-end p-6">
-                        <p className="text-white text-sm font-bold mb-4">Готовые сценарии идеального отдыха</p>
-                        <Link href="/routes" className="w-full text-center block bg-cyan-500 text-white py-3 rounded-xl hover:bg-cyan-600 font-black text-xs uppercase tracking-widest transition-all shadow-lg active:scale-95">
-                            Смотреть все
+                        <p className="text-white text-sm font-bold mb-4">{dict.sidebar.scenarios_subtitle}</p>
+                        <Link href={localize('/routes')} className="w-full text-center block bg-cyan-500 text-white py-3 rounded-xl hover:bg-cyan-600 font-black text-xs uppercase tracking-widest transition-all shadow-lg active:scale-95">
+                            {dict.sidebar.view_all}
                         </Link>
                     </div>
                 </div>
@@ -95,4 +108,4 @@ const ArticleItem = ({ title, image, href }: { title: string, image: string, hre
     </Link>
 );
 
-export default Sidebar; 
+export default Sidebar;
