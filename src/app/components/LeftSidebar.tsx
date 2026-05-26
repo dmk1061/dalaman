@@ -4,10 +4,10 @@ import Image from 'next/image';
 import { FaPlane, FaBus, FaTaxi, FaCarSide, FaUsers, FaHospital, FaBalanceScale } from 'react-icons/fa';
 
 const transportLinks = [
-    { title: 'Аэропорт Даламана', href: '/articles/4_aeroport_dalaman_i_aviasoobshchenie', icon: <FaPlane /> },
-    { title: 'Междугородние автобусы', href: '/articles/5_transportnaya_sistema_regiona', icon: <FaBus /> },
-    { title: 'Городской Транспорт', href: '/articles/5_transportnaya_sistema_regiona', icon: <FaTaxi /> },
-    { title: 'Трансфер', href: '#', icon: <FaCarSide /> },
+    { title: 'Аэропорт Даламана', href: '/articles/airport-dalaman', icon: <FaPlane /> },
+    { title: 'Междугородние автобусы', href: '/articles/transport', icon: <FaBus /> },
+    { title: 'Городской Транспорт', href: '/articles/transport', icon: <FaTaxi /> },
+    { title: 'Трансфер', href: '/services/transfers', icon: <FaCarSide /> },
     { title: 'Попутчики', href: '#', icon: <FaUsers /> },
 ];
 

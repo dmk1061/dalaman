@@ -57,8 +57,8 @@ const CityHub = ({ location, locationName, info, beaches, sights, transport, ima
                                 Магия {locationName}: <br />
                                 <span className="text-cyan-600">больше чем курорт</span>
                             </h2>
-                            <div
-                                className="prose prose-slate prose-lg max-w-none text-slate-600 leading-relaxed font-medium"
+                             <div
+                                className="markdown-body prose prose-slate prose-lg max-w-none text-slate-600 leading-relaxed font-medium"
                                 dangerouslySetInnerHTML={{ __html: info.contentHtml }}
                             />
                         </div>

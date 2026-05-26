@@ -60,7 +60,7 @@ const CityArticle = ({ title, description, contentHtml, location, locationName, 
                     {/* Main Content */}
                     <article className="lg:col-span-8 bg-white rounded-[3rem] p-8 md:p-16 premium-shadow border border-white">
                         <div
-                            className="prose prose-slate prose-lg max-w-none 
+                            className="markdown-body prose prose-slate prose-lg max-w-none 
                                 prose-headings:font-black prose-headings:uppercase prose-headings:italic prose-headings:tracking-tight
                                 prose-h2:text-3xl prose-h2:text-slate-900 prose-h2:border-l-4 prose-h2:border-cyan-500 prose-h2:pl-6
                                 prose-p:text-slate-600 prose-p:leading-relaxed prose-p:font-medium

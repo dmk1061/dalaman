@@ -2,6 +2,7 @@ import React from 'react';
 import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
+import Link from 'next/link';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 
@@ -76,6 +77,19 @@ const SightPage = async ({ params }: SightPageProps) => {
     const { location, sightName } = params;
     const sightData = await getSightData(location, sightName);
 
+    const locationNames: Record<string, string> = {
+        'dacha': 'Дача',
+        'marmaris': 'Мармарис',
+        'dalyan': 'Дальян',
+        'koycegiz': 'Кёйджегиз',
+        'dalaman': 'Даламан',
+        'gocek': 'Гёджек',
+        'fethiye': 'Фетхие',
+        'kas': 'Каш'
+    };
+
+    const locationName = locationNames[location] || location;
+
     if (!sightData) {
         return (
             <div className="flex flex-col min-h-screen">
@@ -115,19 +129,28 @@ const SightPage = async ({ params }: SightPageProps) => {
                     )}
 
                     {/* Описание достопримечательности */}
-                    <div className="prose lg:prose-xl max-w-none">
+                    <div className="markdown-body prose lg:prose-xl max-w-none">
                         <div className="whitespace-pre-wrap text-gray-700 leading-relaxed">
                             {sightData.description}
                         </div>
                     </div>
 
-                    {/* Кнопка назад */}
-                    <div className="mt-8 pt-8 border-t">
-                        <a 
+                    {/* Кнопки действий */}
+                    <div className="mt-12 pt-8 border-t border-slate-100 flex flex-col sm:flex-row gap-4 items-center justify-between">
+                        <Link 
                             href={`/${location}/sights`}
-                            className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors underline"
+                            className="inline-flex items-center gap-2 text-sm font-black uppercase tracking-widest text-slate-400 hover:text-cyan-600 transition-colors"
                         >
-                            ← Все достопримечательности {location}
+                            ← Все достопримечательности {locationName}
+                        </Link>
+
+                        <a 
+                            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(sightData.title + ' ' + locationName)}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-6 py-3.5 bg-cyan-600 text-white rounded-full font-black text-xs uppercase tracking-widest hover:bg-cyan-700 transition-all shadow-lg hover:shadow-cyan-100/50"
+                        >
+                            Открыть на Google Maps
                         </a>
                     </div>
                 </article>

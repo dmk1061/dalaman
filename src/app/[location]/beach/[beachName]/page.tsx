@@ -50,9 +50,28 @@ type BeachPageProps = {
     }
 }
 
+const beachSpecs: Record<string, { cover: string, entry: string, amenities: string, access: string }> = {
+    'Domuzbuku': { cover: 'Мелкая галька', entry: 'Умеренно глубокий', amenities: 'Дикий пляж, без инфраструктуры', access: 'Только на лодке' },
+    'Kargi': { cover: 'Песок и галька', entry: 'Пологий', amenities: 'Шезлонги, зонтики, кафе', access: 'На автомобиле / долмуше' },
+    'Kumluk': { cover: 'Мелкий золотистый песок', entry: 'Очень пологий, для детей', amenities: 'Полная инфраструктура, променад', access: 'В центре города, пешком' },
+    'kelebekler': { cover: 'Крупная галька', entry: 'Глубокий', amenities: 'Базовое кафе, кемпинг', access: 'На лодке из Олюдениза' },
+    'Turunc': { cover: 'Песок и мелкая галька', entry: 'Пологий, Голубой флаг', amenities: 'Шезлонги, рестораны, отели', access: 'На автомобиле / водном такси' },
+    'Ciftlik': { cover: 'Крупный зернистый песок', entry: 'Умеренно пологий', amenities: 'Шезлонги, рыбные рестораны', access: 'На автомобиле / катере' },
+    'Ciftebuk': { cover: 'Галька', entry: 'Глубокий, кристально чистый', amenities: 'Полностью дикий', access: 'На яхте или пешком' },
+    'LakeBeach': { cover: 'Трава и песок (пресная вода)', entry: 'Очень пологий', amenities: 'Кафе, туалеты, прокат сапов', access: 'Пешком из Кёйджегиза' },
+    'Ekincik': { cover: 'Темный песок и галька', entry: 'Умеренно глубокий', amenities: 'Марина, рестораны, кемпинг', access: 'На автомобиле / лодке' }
+};
+
 const BeachPage = async ({ params }: BeachPageProps) => {
     const { location, beachName } = params;
     const beachData = await getBeachData(location, beachName);
+
+    const spec = beachSpecs[beachName] || {
+        cover: 'Галька и песок',
+        entry: 'Умеренно пологий',
+        amenities: 'Шезлонги, зонтики, кафе',
+        access: 'На автомобиле или пешком'
+    };
 
     const locationNames: Record<string, string> = {
         'dacha': 'Дача',
@@ -129,7 +148,7 @@ const BeachPage = async ({ params }: BeachPageProps) => {
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
                         {/* Main Content */}
                         <article className="lg:col-span-8 bg-white rounded-[3rem] p-8 md:p-16 premium-shadow border border-white">
-                            <div className="prose prose-slate prose-lg max-w-none">
+                            <div className="markdown-body prose prose-slate prose-lg max-w-none">
                                 <p className="text-slate-600 leading-relaxed font-medium whitespace-pre-wrap">
                                     {beachData.description}
                                 </p>
@@ -159,11 +178,42 @@ const BeachPage = async ({ params }: BeachPageProps) => {
 
                         {/* Sidebar */}
                         <aside className="lg:col-span-4 space-y-8">
+                            {/* Спецификация пляжа */}
+                            <div className="bg-white rounded-[2.5rem] p-8 premium-shadow border border-white space-y-6">
+                                <h3 className="text-lg font-black text-slate-900 mb-4 uppercase italic border-b border-slate-100 pb-4">Характеристики</h3>
+                                <div className="space-y-4 text-xs font-medium text-slate-700">
+                                    <div className="flex justify-between py-1.5 border-b border-slate-50">
+                                        <span className="text-slate-400 font-bold uppercase tracking-wider">Покрытие:</span>
+                                        <span className="text-slate-800 font-black">{spec.cover}</span>
+                                    </div>
+                                    <div className="flex justify-between py-1.5 border-b border-slate-50">
+                                        <span className="text-slate-400 font-bold uppercase tracking-wider">Вход в воду:</span>
+                                        <span className="text-slate-800 font-black">{spec.entry}</span>
+                                    </div>
+                                    <div className="flex justify-between py-1.5 border-b border-slate-50">
+                                        <span className="text-slate-400 font-bold uppercase tracking-wider">Удобства:</span>
+                                        <span className="text-slate-800 font-black text-right max-w-[180px] leading-tight">{spec.amenities}</span>
+                                    </div>
+                                    <div className="flex justify-between py-1.5">
+                                        <span className="text-slate-400 font-bold uppercase tracking-wider">Доступность:</span>
+                                        <span className="text-slate-800 font-black">{spec.access}</span>
+                                    </div>
+                                </div>
+                                <a
+                                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(beachData.title + ' пляж ' + locationName)}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-full text-center block bg-cyan-600 text-white py-3.5 rounded-full font-black text-[10px] uppercase tracking-widest hover:bg-cyan-700 transition-all shadow-lg hover:shadow-cyan-100/50"
+                                >
+                                    Открыть на Google Maps
+                                </a>
+                            </div>
+
                             <div className="bg-white rounded-[2.5rem] p-8 premium-shadow border border-white">
                                 <h3 className="text-lg font-black text-slate-900 mb-6 uppercase italic border-b border-slate-100 pb-4">Окрестности</h3>
                                 <div className="space-y-4">
                                     <p className="text-xs text-slate-500 font-medium">Этот пляж находится недалеко от других интересных мест в регионе {locationName}.</p>
-                                    <Link href={`/${location}`} className="block w-full py-3 bg-slate-900 text-white text-[10px] font-black uppercase tracking-widest rounded-full text-center hover:bg-cyan-600 transition-all">
+                                    <Link href={`/${location}`} className="block w-full py-3.5 bg-slate-900 text-white text-[10px] font-black uppercase tracking-widest rounded-full text-center hover:bg-cyan-600 transition-all">
                                         Исследовать {locationName}
                                     </Link>
                                 </div>

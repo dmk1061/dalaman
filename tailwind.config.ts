@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        dalaman: {
+          blue: "hsl(var(--dalaman-blue) / <alpha-value>)",
+          dark: "hsl(var(--dalaman-dark) / <alpha-value>)",
+        }
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

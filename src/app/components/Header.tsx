@@ -23,7 +23,7 @@ type NavItem = {
 };
 
 const locations = [
-  { name: 'Дача', baseHref: '/dacha' },
+  { name: 'Датча', baseHref: '/dacha' },
   { name: 'Мармарис', baseHref: '/marmaris' },
   { name: 'Дальян', baseHref: '/dalyan' },
   { name: 'Кёйджегиз', baseHref: '/koycegiz' },
@@ -39,7 +39,7 @@ const navItems: NavItem[] = [
       { name: 'География и природа', href: '/articles/geography' },
       { name: 'Транспорт', href: '/articles/transport' },
       { name: 'Аэропорт Даламан', href: '/articles/airport-dalaman' },
-      { name: 'Отели и жилье', href: '/articles/real-estate' },
+      { name: 'Отели и жилье', href: '/articles/accommodation' },
       { name: 'Климат и сезоны', href: '/articles/climate-and-seasons' },
       { name: 'ВНЖ и переезд', href: '/articles/residency-permit' },
       { name: 'Полезные контакты', href: '/articles/useful-contacts' },
@@ -69,7 +69,7 @@ const navItems: NavItem[] = [
 ];
 
 const cityNavLinks = [
-  { name: 'Дача', href: '/dacha' },
+  { name: 'Датча', href: '/dacha' },
   { name: 'Мармарис', href: '/marmaris' },
   { name: 'Кёйджегиз', href: '/koycegiz' },
   { name: 'Дальян', href: '/dalyan' },
@@ -136,21 +136,23 @@ const Header = () => {
                   {item.dropdown && item.dropdown.length > 0 && <FiChevronDown className="ml-1" size={16} />}
                 </Link>
                 {item.dropdown && item.dropdown.length > 0 && (
-                  <div className="absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 invisible group-hover:visible z-20 pt-4 -mt-2">
-                    <div className="bg-white rounded-md shadow-lg py-1">
+                  <div className="absolute left-0 top-full pt-2 w-64 opacity-0 group-hover:opacity-100 transition-all duration-300 invisible group-hover:visible z-20">
+                    <div className="bg-white rounded-2xl premium-shadow border border-slate-50 py-2">
                       {item.dropdown.map((subItem) => (
                         <div key={subItem.name} className="relative group/submenu">
-                          <Link href={subItem.href} className="flex justify-between items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                            <span>{subItem.name}</span>
-                            {subItem.submenu && <FaChevronRight size={12} className="text-gray-400" />}
+                          <Link href={subItem.href} className="flex justify-between items-center w-full px-5 py-2.5 text-sm text-slate-700 hover:bg-slate-50 hover:text-cyan-600 transition-colors">
+                            <span className="font-medium">{subItem.name}</span>
+                            {subItem.submenu && <FaChevronRight size={10} className="text-slate-400" />}
                           </Link>
                           {subItem.submenu && (
-                            <div className="absolute left-full -top-1 w-56 bg-white rounded-md shadow-lg py-1 opacity-0 group-hover/submenu:opacity-100 invisible group-hover/submenu:visible z-30">
-                              {subItem.submenu.map(subSubItem => (
-                                <Link key={subSubItem.name} href={subSubItem.href} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                                  {subSubItem.name}
-                                </Link>
-                              ))}
+                            <div className="absolute left-full top-0 pl-2 w-56 opacity-0 group-hover/submenu:opacity-100 invisible group-hover/submenu:visible z-30 transition-all duration-300">
+                              <div className="bg-white rounded-2xl premium-shadow border border-slate-50 py-2">
+                                {subItem.submenu.map(subSubItem => (
+                                  <Link key={subSubItem.name} href={subSubItem.href} className="block px-5 py-2.5 text-sm text-slate-700 hover:bg-slate-50 hover:text-cyan-600 transition-colors font-medium">
+                                    {subSubItem.name}
+                                  </Link>
+                                ))}
+                              </div>
                             </div>
                           )}
                         </div>

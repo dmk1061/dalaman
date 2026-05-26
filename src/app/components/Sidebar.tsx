@@ -6,27 +6,27 @@ const dayPlanItems = [
     {
         title: "Пляж Капуташ: рай в бирюзовой бухте",
         image: "/dalaman1.jpg",
-        href: "/articles/kaputas-beach"
+        href: "/kas/beach/kaputas"
     },
     {
         title: "Ликийская тропа: лучший хайкинг-маршрут Турции",
         image: "/dalaman2.jpg",
-        href: "/articles/lycian-way"
+        href: "/articles/trekking"
     },
     {
         title: "Секреты затонувшего города Кекова",
         image: "/dalaman1.jpg",
-        href: "/articles/kekova-sunken-city"
+        href: "/kas/sight/kekova"
     },
     {
         title: "Олюдениз: мировая столица параглайдинга",
         image: "/dalaman2.jpg",
-        href: "/articles/oludeniz-paragliding"
+        href: "/articles/paragliding"
     },
     {
         title: "Дальян: черепахи, гробницы и грязевые ванны",
         image: "/dalaman1.jpg",
-        href: "/articles/dalyan-turtles"
+        href: "/articles/dalyan-guide"
     },
 ];
 

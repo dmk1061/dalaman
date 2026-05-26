@@ -9,19 +9,19 @@ const Footer = () => {
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-8">
                     <FooterColumn title="О регионе" links={[
-                        { name: 'География и история', href: '/articles/geography-history' },
-                        { name: 'Климат и сезоны', href: '/articles/climate-seasons' },
-                        { name: 'Культура и традиции', href: '/articles/culture-traditions' },
+                        { name: 'География и история', href: '/articles/geography' },
+                        { name: 'Климат и сезоны', href: '/articles/climate-and-seasons' },
+                        { name: 'Культура и традиции', href: '/articles/culture-and-traditions' },
                     ]}/>
                      <FooterColumn title="Куда поехать" links={[
-                        { name: 'Основные курорты', href: '/city-guide/main-resorts' },
+                        { name: 'Основные курорты', href: '/city-guide' },
                         { name: 'Малые города', href: '/city-guide/small-towns' },
-                        { name: 'Лучшие пляжи', href: '/articles/beaches' },
+                        { name: 'Лучшие пляжи', href: '/beaches' },
                     ]}/>
                      <FooterColumn title="Чем заняться" links={[
                         { name: 'Античные города', href: '/articles/ancient-cities' },
-                        { name: 'Активный отдых', href: '/articles/active-leisure' },
-                        { name: 'Яхтинг и парусный спорт', href: '/articles/yachting-guide' },
+                        { name: 'Активный отдых', href: '/articles/paragliding' },
+                        { name: 'Яхтинг и парусный спорт', href: '/articles/yachting' },
                         { name: 'Гастрономия', href: '/articles/gastronomy' },
                         { name: 'Рынки и шопинг', href: '/articles/markets-shopping' },
                     ]}/>
@@ -34,7 +34,7 @@ const Footer = () => {
                         { name: 'Подводная охота', href: '/services/tuna-fishing' },
                     ]}/>
                     <FooterColumn title="Планирование" links={[
-                        { name: 'Как добраться', href: '/articles/how-to-get-there' },
+                        { name: 'Как добраться', href: '/articles/transport' },
                         { name: 'Транспорт', href: '/articles/transport' },
                         { name: 'Полезные советы', href: '/articles/useful-tips' },
                     ]}/>

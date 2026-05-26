@@ -36,5 +36,34 @@
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-600 to-blue-700;
   }
+
+  /* Custom markdown renderer styles */
+  .markdown-body h1 {
+    @apply text-3xl font-black text-slate-900 uppercase italic mt-8 mb-4 border-b pb-2 border-slate-100;
+  }
+  .markdown-body h2 {
+    @apply text-2xl font-black text-slate-800 uppercase italic mt-8 mb-4;
+  }
+  .markdown-body h3 {
+    @apply text-xl font-bold text-slate-800 mt-6 mb-3;
+  }
+  .markdown-body p {
+    @apply text-slate-600 leading-relaxed mb-5 text-[15px] font-medium;
+  }
+  .markdown-body ul {
+    @apply list-disc pl-6 mb-5 space-y-2 text-slate-600 text-[15px] font-medium;
+  }
+  .markdown-body ol {
+    @apply list-decimal pl-6 mb-5 space-y-2 text-slate-600 text-[15px] font-medium;
+  }
+  .markdown-body strong {
+    @apply font-black text-cyan-600;
+  }
+  .markdown-body blockquote {
+    @apply pl-4 border-l-4 border-cyan-500 italic text-slate-500 bg-slate-50 py-3 px-4 rounded-r-2xl my-6;
+  }
+  .markdown-body hr {
+    @apply border-slate-100 my-6;
+  }
 }
  

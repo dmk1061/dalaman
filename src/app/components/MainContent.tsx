@@ -71,7 +71,7 @@ const allKaleidoscopeItems: KaleidoscopeItem[] = [
 
     // Достопримечательности Койчегиза
     { title: "Каунос", image: "/api/images/locations/koycegiz/ruine/Kaunos/kaunos.jpg", href: "/koycegiz/sight/Kaunos" },
-    { title: "Сулунгур", image: "/api/images/locations/koycegiz/todo/Sultanye/sultanye.jpg", href: "/koycegiz/sight/Sultanye" },
+    { title: "Термальные источники Султание", image: "/api/images/locations/koycegiz/todo/Sultanye/sultanye.jpg", href: "/koycegiz/sight/Sultanye" },
 
     // Пляжи Дальяна
     { title: "Пляж Истузу", image: "/api/images/locations/dalyan/beach/Istuzu/istuzu.jpg", href: "/dalyan/beach/Istuzu" },
@@ -80,6 +80,7 @@ const allKaleidoscopeItems: KaleidoscopeItem[] = [
     // Достопримечательности Дальяна
     { title: "Ликийские гробницы", image: "/api/images/locations/dalyan/ruine/LycianTombs/lyciantombs.jpg", href: "/dalyan/sight/LycianTombs" },
     { title: "Сулунгур лодки", image: "/api/images/locations/dalyan/todo/boat/boat.jpg", href: "/dalyan/sight/boat" },
+    { title: "Озеро Сюлюнгюр", image: "/api/images/locations/dalyan/todo/sulungur/sulungur.jpg", href: "/dalyan/sight/sulungur" },
 
     // Пляжи Даламана
     { title: "Пляж Саригерме", image: "/api/images/locations/dalaman/beach/Sarigerme/sarigerme.jpg", href: "/dalaman/beach/Sarigerme" },
@@ -104,10 +105,10 @@ const allKaleidoscopeItems: KaleidoscopeItem[] = [
     { title: "Кабак Кою", image: "/api/images/locations/fethiye/beach/kabakkoyu/kabakkoyu.jpg", href: "/fethiye/beach/kabakkoyu" },
 
     // Достопримечательности Фетхие
-    { title: "Каякёй", image: "/api/images/locations/fethiye/sight/kayakoy/kayakoy.jpg", href: "/fethiye/sight/kayakoy" },
-    { title: "Ликийские гробницы Фетхие", image: "/api/images/locations/fethiye/sight/lycaintombs/lycaintombs.jpg", href: "/fethiye/sight/lycaintombs" },
-    { title: "Замок Фетхие", image: "/api/images/locations/fethiye/sight/castle/castle.jpg", href: "/fethiye/sight/castle" },
-    { title: "Тлос", image: "/api/images/locations/fethiye/sight/tlos/tlos.jpg", href: "/fethiye/sight/tlos" },
+    { title: "Каякёй", image: "/api/images/locations/fethiye/ruines/kayakoy/kayakoy.jpg", href: "/fethiye/sight/kayakoy" },
+    { title: "Ликийские гробницы Фетхие", image: "/api/images/locations/fethiye/ruines/lycaintombs/lycaintombs.jpg", href: "/fethiye/sight/lycaintombs" },
+    { title: "Замок Фетхие", image: "/api/images/locations/fethiye/ruines/castle/castle.jpg", href: "/fethiye/sight/castle" },
+    { title: "Тлос", image: "/api/images/locations/fethiye/ruines/tlos/tlos.jpg", href: "/fethiye/sight/tlos" },
     { title: "Саклыкент", image: "/api/images/locations/fethiye/todo/saklikent/saklikent.jpg", href: "/fethiye/sight/saklikent" },
     { title: "Бабадаг", image: "/api/images/locations/fethiye/todo/babadag/babadag.jpg", href: "/fethiye/sight/babadag" },
 
@@ -120,12 +121,12 @@ const allKaleidoscopeItems: KaleidoscopeItem[] = [
     { title: "Бююк Чакыл", image: "/api/images/locations/kas/beach/buyuk/buyuk.jpg", href: "/kas/beach/buyuk" },
 
     // Достопримечательности Каша
-    { title: "Кекова", image: "/api/images/locations/kas/sight/kekova/kekova.jpg", href: "/kas/sight/kekova" },
-    { title: "Летоон", image: "/api/images/locations/kas/sight/letoon/letoon.jpg", href: "/kas/sight/letoon" },
-    { title: "Ксантос", image: "/api/images/locations/kas/sight/xanthos/xanthos.jpg", href: "/kas/sight/xanthos" },
-    { title: "Театр Каша", image: "/api/images/locations/kas/sight/theater/theater.jpg", href: "/kas/sight/theater" },
-    { title: "Гробница Льва", image: "/api/images/locations/kas/sight/uzuncarsi/uzuncarsi.jpg", href: "/kas/sight/uzuncarsi" },
-    { title: "Скальные гробницы Каша", image: "/api/images/locations/kas/sight/kastombs/kastombs.jpg", href: "/kas/sight/kastombs" }
+    { title: "Кекова", image: "/api/images/locations/kas/ruines/kekova/kekova.jpg", href: "/kas/sight/kekova" },
+    { title: "Летоон", image: "/api/images/locations/kas/ruines/letoon/letoon.jpg", href: "/kas/sight/letoon" },
+    { title: "Ксантос", image: "/api/images/locations/kas/ruines/xanthos/xanthos.jpg", href: "/kas/sight/xanthos" },
+    { title: "Театр Каша", image: "/api/images/locations/kas/ruines/theater/theater.jpg", href: "/kas/sight/theater" },
+    { title: "Гробница Льва", image: "/api/images/locations/kas/ruines/uzuncarsi/uzuncarsi.jpg", href: "/kas/sight/uzuncarsi" },
+    { title: "Скальные гробницы Каша", image: "/api/images/locations/kas/ruines/kastombs/kastombs.jpg", href: "/kas/sight/kastombs" }
 ];
 
 // Функция для перемешивания массива
