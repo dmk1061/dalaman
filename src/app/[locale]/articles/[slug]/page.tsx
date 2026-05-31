@@ -6,6 +6,7 @@ import { remark } from 'remark';
 import remarkHtml from 'remark-html';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Metadata } from 'next';
 
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
@@ -316,6 +317,32 @@ export async function generateStaticParams() {
     }
 
     return paths;
+}
+
+export async function generateMetadata({ params }: ArticlePageProps): Promise<Metadata> {
+    const { locale, slug } = params;
+    const activeLocale = locale || 'en';
+    const articleData = await getArticleData(slug, activeLocale);
+    
+    if (!articleData) {
+        return {
+            title: activeLocale === 'ru' ? 'Статья не найдена' : 'Article Not Found',
+        };
+    }
+    
+    return {
+        title: `${articleData.title} | Dolaman.info`,
+        description: articleData.description,
+        openGraph: {
+            title: `${articleData.title} | Dolaman.info`,
+            description: articleData.description,
+            images: [
+                {
+                    url: articleData.image,
+                }
+            ]
+        }
+    };
 }
 
 export default ArticlePage;

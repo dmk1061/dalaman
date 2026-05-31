@@ -6,6 +6,10 @@ import Link from 'next/link';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import { FaChevronRight, FaHome, FaCity, FaUmbrellaBeach } from 'react-icons/fa';
+import { Metadata } from 'next';
+
+import { remark } from 'remark';
+import html from 'remark-html';
 
 async function getBeachData(location: string, beachName: string, locale: string) {
     const beachDirectory = path.join(process.cwd(), 'content', 'locations', location, 'beach', beachName);
@@ -32,7 +36,12 @@ async function getBeachData(location: string, beachName: string, locale: string)
             const textContent = fs.readFileSync(path.join(beachDirectory, textFile), 'utf8');
             const lines = textContent.split('\n');
             title = lines[0] || beachName;
-            description = lines.slice(1).join('\n').trim();
+            const rawDescription = lines.slice(1).join('\n').trim();
+            
+            const processedContent = await remark()
+                .use(html as any)
+                .process(rawDescription);
+            description = processedContent.toString();
         }
 
         const images = files
@@ -170,9 +179,10 @@ const BeachPage = async ({ params }: BeachPageProps) => {
                         {/* Main Content */}
                         <article className="lg:col-span-8 bg-white rounded-[3rem] p-8 md:p-16 premium-shadow border border-white">
                             <div className="markdown-body prose prose-slate prose-lg max-w-none">
-                                <p className="text-slate-600 leading-relaxed font-medium whitespace-pre-wrap">
-                                    {beachData.description}
-                                </p>
+                                <div 
+                                    dangerouslySetInnerHTML={{ __html: beachData.description }}
+                                    className="text-slate-600 leading-relaxed font-medium"
+                                />
                             </div>
 
                             {/* Gallery */}
@@ -304,6 +314,36 @@ export async function generateStaticParams() {
     }
 
     return paths;
+}
+
+export async function generateMetadata({ params }: BeachPageProps): Promise<Metadata> {
+    const { locale, location, beachName } = params;
+    const activeLocale = locale || 'en';
+    const beachData = await getBeachData(location, beachName, activeLocale);
+
+    if (!beachData) {
+        return {
+            title: activeLocale === 'ru' ? 'Пляж не найден' : 'Beach Not Found',
+        };
+    }
+
+    const cleanDescription = beachData.description
+        .replace(/<[^>]*>/g, '')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .slice(0, 160) + '...';
+
+    const locationName = (locationNames[activeLocale] || locationNames['en'])[location] || location;
+
+    return {
+        title: `${beachData.title} | ${locationName} | Dolaman.info`,
+        description: cleanDescription,
+        openGraph: {
+            title: `${beachData.title} | ${locationName} | Dolaman.info`,
+            description: cleanDescription,
+            images: beachData.images.length > 0 ? [{ url: beachData.images[0] }] : []
+        }
+    };
 }
 
 export default BeachPage;

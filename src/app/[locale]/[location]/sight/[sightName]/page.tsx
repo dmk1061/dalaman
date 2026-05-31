@@ -5,6 +5,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
+import { Metadata } from 'next';
+
+import { remark } from 'remark';
+import html from 'remark-html';
 
 async function getSightData(location: string, sightName: string, locale: string) {
     const possiblePaths = [
@@ -44,7 +48,12 @@ async function getSightData(location: string, sightName: string, locale: string)
             const textContent = fs.readFileSync(path.join(sightDirectory, textFile), 'utf8');
             const lines = textContent.split('\n');
             title = lines[0] || sightName;
-            description = lines.slice(1).join('\n').trim();
+            const rawDescription = lines.slice(1).join('\n').trim();
+            
+            const processedContent = await remark()
+                .use(html as any)
+                .process(rawDescription);
+            description = processedContent.toString();
         }
 
         const pathSegment = sightDirectory.includes('ruine') ? 'ruine' : 
@@ -144,9 +153,10 @@ const SightPage = async ({ params }: SightPageProps) => {
 
                     {/* Description */}
                     <div className="markdown-body prose lg:prose-xl max-w-none">
-                        <div className="whitespace-pre-wrap text-gray-700 leading-relaxed">
-                            {sightData.description}
-                        </div>
+                        <div 
+                            dangerouslySetInnerHTML={{ __html: sightData.description }}
+                            className="text-gray-700 leading-relaxed"
+                        />
                     </div>
 
                     {/* Buttons */}
@@ -216,6 +226,36 @@ export async function generateStaticParams() {
     }
 
     return paths;
+}
+
+export async function generateMetadata({ params }: SightPageProps): Promise<Metadata> {
+    const { locale, location, sightName } = params;
+    const activeLocale = locale || 'en';
+    const sightData = await getSightData(location, sightName, activeLocale);
+
+    if (!sightData) {
+        return {
+            title: activeLocale === 'ru' ? 'Достопримечательность не найдена' : 'Sight Not Found',
+        };
+    }
+
+    const cleanDescription = sightData.description
+        .replace(/<[^>]*>/g, '')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .slice(0, 160) + '...';
+
+    const locationName = (locationNames[activeLocale] || locationNames['en'])[location] || location;
+
+    return {
+        title: `${sightData.title} | ${locationName} | Dolaman.info`,
+        description: cleanDescription,
+        openGraph: {
+            title: `${sightData.title} | ${locationName} | Dolaman.info`,
+            description: cleanDescription,
+            images: sightData.images.length > 0 ? [{ url: sightData.images[0] }] : []
+        }
+    };
 }
 
 export default SightPage;
