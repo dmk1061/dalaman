@@ -33,6 +33,26 @@ const slugImages: Record<string, string> = {
     'kitesurfing': '/dalaman2.jpg',
     'suveniry-i-remesla': '/dalaman1.jpg',
     'dalyan-guide': '/api/images/locations/dalyan/ruine/LycianTombs/lyciantombs.jpg',
+    'saklikent-gorge': '/api/images/locations/fethiye/todo/saklikent/saklikent.jpg',
+    'kayakoy-ghost-town': '/api/images/locations/fethiye/ruines/kayakoy/kayakoy.jpg',
+    'tlos-ancient-city': '/api/images/locations/fethiye/ruines/tlos/tlos.jpg',
+    'xanthos-ancient-city': '/api/images/locations/kas/ruines/xanthos/xanthos.jpg',
+    'babadag': '/api/images/locations/fethiye/todo/babadag/babadag.jpg',
+    'butterfly-valley': '/api/images/locations/fethiye/beach/kelebekler/kelebekler.jpg',
+    'calis-beach': '/api/images/locations/fethiye/beach/belcekiz/belcekiz.jpg',
+    'oludeniz': '/api/images/locations/fethiye/beach/bluelagoon/bluelagoon.jpg',
+    'iztuzu-beach': '/api/images/locations/dalyan/beach/Istuzu/istuzu.jpg',
+    'koycegiz-lake': '/api/images/locations/koycegiz/beach/LakeBeach/lakebeach.png',
+    'ekincik-bay': '/api/images/locations/koycegiz/beach/Ekincik/ekincik.jpg',
+    'ciftlik-bay': '/api/images/locations/marmaris/beach/Ciftlik/ciftlik.jpg',
+    'icmeler': '/api/images/locations/marmaris/beach/Icmeler/icmeler.jpg',
+    'turunc': '/api/images/locations/marmaris/beach/Turunc/turunc.jpg',
+    'datca-peninsula': '/api/images/locations/dacha/ruine/knidos/knidos.jpg',
+    'kas-guide': '/api/images/locations/kas/ruines/kastombs/kastombs.jpg',
+    'gocek-guide': '/api/images/locations/gocek/beach/dresort/dresort.jpg',
+    'myra-ancient-city': '/api/images/locations/kas/ruines/kekova/kekova.jpg',
+    'pamukkale-hierapolis': '/dalaman1.jpg',
+    'st-nicholas-island': '/api/images/locations/fethiye/beach/belcekiz/belcekiz2.jpg',
 };
 
 function getArticleFilePaths(dir: string = articlesDirectory): string[] {
@@ -144,7 +164,17 @@ async function getArticleData(slug: string, locale: string) {
     const processedContent = await remark()
         .use(remarkHtml, { sanitize: false })
         .process(matterResult.content);
-    const contentHtml = processedContent.toString();
+    const rawHtml = processedContent.toString();
+
+    const toc: { id: string; text: string; level: number }[] = [];
+    let counter = 0;
+    const contentHtml = rawHtml.replace(/<(h[23])([^>]*)>(.*?)<\/>/gi, (match, tag, attrs, text) => {
+        counter++;
+        const cleanText = text.replace(/<[^>]*>/g, '').trim();
+        const id = `toc-${counter}`;
+        toc.push({ id, text: cleanText, level: tag.toLowerCase() === 'h2' ? 2 : 3 });
+        return `<${tag}${attrs} id="${id}" class="scroll-mt-28 font-black text-slate-900">${text}</${tag}>`;
+    });
 
     const image = matterResult.data.image || slugImages[slug] || '/hero-bg.jpg';
 
@@ -153,8 +183,16 @@ async function getArticleData(slug: string, locale: string) {
         description: matterResult.data.description || '',
         image,
         contentHtml,
+        toc
     };
 }
+
+const articleUiByLocale: Record<string, any> = {
+    ru: { badge: 'ПОЛЕЗНАЯ СТАТЬЯ', toc: 'Содержание', rec: 'Рекомендуем прочитать', home: 'На главную', not_found: 'Статья не найдена' },
+    en: { badge: 'USEFUL ARTICLE', toc: 'Table of Contents', rec: 'Recommended Reading', home: 'Go Home', not_found: 'Article Not Found' },
+    de: { badge: 'NÜTZLICHER ARTIKEL', toc: 'Inhalt', rec: 'Empfohlene Artikel', home: 'Zur Startseite', not_found: 'Artikel nicht gefunden' },
+    tr: { badge: 'FAYDALI MAKALE', toc: 'İçindekiler', rec: 'Önerilen Makaleler', home: 'Ana Sayfa', not_found: 'Makale Bulunamadı' }
+};
 
 type ArticlePageProps = {
     params: {
@@ -181,10 +219,10 @@ const ArticlePage = async ({ params }: ArticlePageProps) => {
                 <Header locale={activeLocale} />
                 <main className="flex-grow container mx-auto px-4 py-16 text-center">
                     <h1 className="text-4xl font-black text-slate-800 mb-4">
-                        {activeLocale === 'ru' ? 'Статья не найдена' : 'Article Not Found'}
+                        {(articleUiByLocale[activeLocale] || articleUiByLocale['en']).not_found}
                     </h1>
                     <Link href={localize('/')} className="inline-block mt-4 bg-cyan-600 text-white px-6 py-3 rounded-full font-bold">
-                        {activeLocale === 'ru' ? 'На главную' : 'Go Home'}
+                        {(articleUiByLocale[activeLocale] || articleUiByLocale['en']).home}
                     </Link>
                 </main>
                 
@@ -216,7 +254,7 @@ const ArticlePage = async ({ params }: ArticlePageProps) => {
                     </div>
                     <div className="relative z-20 flex flex-col justify-end h-full max-w-5xl mx-auto px-4 pb-12">
                         <span className="text-cyan-400 font-black text-xs uppercase tracking-[0.4em] mb-4">
-                            {activeLocale === 'ru' ? 'ПОЛЕЗНАЯ СТАТЬЯ' : 'USEFUL ARTICLE'}
+                            {(articleUiByLocale[activeLocale] || articleUiByLocale['en']).badge}
                         </span>
                         <h1 className="text-3xl md:text-5xl font-black text-white mb-4 uppercase italic tracking-tight leading-tight">
                             {articleData.title}
@@ -238,7 +276,24 @@ const ArticlePage = async ({ params }: ArticlePageProps) => {
                         </div>
 
                         {/* Sidebars */}
-                        <aside className="w-full lg:w-1/3 space-y-10">
+                        <aside className="w-full lg:w-1/3 space-y-10 sticky top-28 self-start">
+                            {articleData.toc && articleData.toc.length > 0 && (
+                                <div className="bg-white rounded-[2rem] premium-shadow overflow-hidden border border-slate-50 p-6 space-y-4">
+                                    <h3 className="font-black text-sm uppercase tracking-widest italic border-b border-slate-100 pb-3 text-slate-800">
+                                        {(articleUiByLocale[activeLocale] || articleUiByLocale['en']).toc}
+                                    </h3>
+                                    <ul className="space-y-2.5 text-xs font-bold text-slate-600 max-h-[450px] overflow-y-auto pr-2">
+                                        {articleData.toc.map((item: any) => (
+                                            <li key={item.id} className={item.level === 3 ? 'pl-4 font-medium text-slate-400' : ''}>
+                                                <a href={`#${item.id}`} className="hover:text-cyan-600 transition-colors block leading-snug">
+                                                    {item.text}
+                                                </a>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            )}
+
                             {recommended.length > 0 && (
                                 <RecommendedWidget items={recommended} activeLocale={activeLocale} />
                             )}
@@ -265,7 +320,7 @@ const RecommendedWidget = ({ items, activeLocale }: { items: any[], activeLocale
     return (
         <div className="bg-white rounded-[2rem] premium-shadow overflow-hidden border border-slate-50 p-6 space-y-6">
             <h3 className="font-black text-sm uppercase tracking-widest italic border-b border-slate-100 pb-4 text-slate-800">
-                {activeLocale === 'ru' ? 'Рекомендуем прочитать' : 'Recommended Reading'}
+                {(articleUiByLocale[activeLocale] || articleUiByLocale['en']).rec}
             </h3>
             <div className="space-y-6">
                 {items.map((item) => (

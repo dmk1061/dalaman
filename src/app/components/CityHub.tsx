@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaUmbrellaBeach, FaHistory, FaBus, FaCompass, FaChevronRight } from 'react-icons/fa';
+import { FaUmbrellaBeach, FaHistory, FaBus, FaCompass, FaChevronRight, FaPlaneArrival, FaSun, FaHeart } from 'react-icons/fa';
 
 import ru from '@/dictionaries/ru.json';
 import en from '@/dictionaries/en.json';
@@ -11,6 +11,64 @@ import de from '@/dictionaries/de.json';
 import tr from '@/dictionaries/tr.json';
 
 const dictionaries: Record<string, any> = { ru, en, de, tr };
+
+const quickStatsByCity: Record<string, Record<string, { airport: string, season: string, vibe: string }>> = {
+    'dalaman': {
+        ru: { airport: '~15 мин от DLM', season: 'Май – Октябрь', vibe: 'Аэропорт, река Даламан, термальные источники' },
+        en: { airport: '~15 min from DLM', season: 'May – Oct', vibe: 'Gateway hub, river rafting, thermal springs' },
+        de: { airport: '~15 Min vom DLM', season: 'Mai – Okt', vibe: 'Flughafen-Hub, Rafting, Thermalquellen' },
+        tr: { airport: 'DLM den ~15 dk', season: 'Mayıs – Eki', vibe: 'Havalimanı merkezi, nehir raftingi, kaplıcalar' }
+    },
+    'gocek': {
+        ru: { airport: '~25 мин от DLM', season: 'Апрель – Ноябрь', vibe: 'Столица яхтинга, 12 островов, люкс-марины' },
+        en: { airport: '~25 min from DLM', season: 'Apr – Nov', vibe: 'Yachting capital, 12 islands, luxury marinas' },
+        de: { airport: '~25 Min vom DLM', season: 'Apr – Nov', vibe: 'Jacht-Hauptstadt, 12 Inseln, Luxus-Marinas' },
+        tr: { airport: 'DLM den ~25 dk', season: 'Nis – Kas', vibe: 'Yat başkenti, 12 adalar, lüks marinalar' }
+    },
+    'dalyan': {
+        ru: { airport: '~35 мин от DLM', season: 'Май – Октябрь', vibe: 'Черепахи Caretta, гробницы Ликии, грязевые ванны' },
+        en: { airport: '~35 min from DLM', season: 'May – Oct', vibe: 'Caretta sea turtles, Lycian tombs, mud baths' },
+        de: { airport: '~35 Min vom DLM', season: 'Mai – Okt', vibe: 'Meeresschildkröten, Felsengräber, Schlammbäder' },
+        tr: { airport: 'DLM den ~35 dk', season: 'Mayıs – Eki', vibe: 'Caretta kaplumbağaları, kral mezarları, çamur banyoları' }
+    },
+    'koycegiz': {
+        ru: { airport: '~40 мин от DLM', season: 'Круглый год', vibe: 'Тихое озеро, эвкалипты, термальные ванны Султание' },
+        en: { airport: '~40 min from DLM', season: 'Year-round', vibe: 'Peaceful lake, eucalyptus forest, Sultaniye spas' },
+        de: { airport: '~40 Min vom DLM', season: 'Ganzjährig', vibe: 'Ruhiger See, Eukalyptuswälder, Thermalbäder' },
+        tr: { airport: 'DLM den ~40 dk', season: 'Yıl boyu', vibe: 'Sakin göl, sığla ağaçları, Sultaniye kaplıcaları' }
+    },
+    'fethiye': {
+        ru: { airport: '~45 мин от DLM', season: 'Май – Октябрь', vibe: 'Олюдениз, параглайдинг, каньон Саклыкент' },
+        en: { airport: '~45 min from DLM', season: 'May – Oct', vibe: 'Oludeniz blue lagoon, paragliding, Saklikent gorge' },
+        de: { airport: '~45 Min vom DLM', season: 'Mai – Okt', vibe: 'Ölüdeniz Blaue Lagune, Paragliding, Schlucht' },
+        tr: { airport: 'DLM den ~45 dk', season: 'Mayıs – Eki', vibe: 'Ölüdeniz mavi lagün, yamaç paraşütü, kanyon' }
+    },
+    'marmaris': {
+        ru: { airport: '~1ч 20м от DLM', season: 'Май – Октябрь', vibe: 'Энергичная ночная жизнь, замок, сосновые бухты' },
+        en: { airport: '~1h 20m from DLM', season: 'May – Oct', vibe: 'Vibrant nightlife, castle, pine forest bays' },
+        de: { airport: '~1h 20m vom DLM', season: 'Mai – Okt', vibe: 'Lebhaftes Nachtleben, Burg, Pinienbuchten' },
+        tr: { airport: 'DLM den ~1s 20dk', season: 'Mayıs – Eki', vibe: 'Hareketli gece hayatı, tarihi kale, çam koyları' }
+    },
+    'dacha': {
+        ru: { airport: '~2ч 15м от DLM', season: 'Июнь – Сентябрь', vibe: 'Миндаль, оливковое масло, руины Книдос, чистый воздух' },
+        en: { airport: '~2h 15m from DLM', season: 'Jun – Sep', vibe: 'Almonds, olive oil, Knidos ruins, pristine air' },
+        de: { airport: '~2h 15m vom DLM', season: 'Jun – Sep', vibe: 'Mandeln, Olivenöl, Knidos-Ruinen, reine Luft' },
+        tr: { airport: 'DLM den ~2s 15dk', season: 'Haz – Eyl', vibe: 'Badem, zeytinyağı, Knidos antik kenti, tertemiz hava' }
+    },
+    'kas': {
+        ru: { airport: '~2ч 30м от DLM', season: 'Май – Ноябрь', vibe: 'Богемный дайвинг, затонувший город Кекова, Капуташ' },
+        en: { airport: '~2h 30m from DLM', season: 'May – Nov', vibe: 'Bohemian diving hub, sunken city Kekova, Kaputas' },
+        de: { airport: '~2h 30m vom DLM', season: 'Mai – Nov', vibe: 'Tauchparadies, versunkene Stadt Kekova, Kaputaş' },
+        tr: { airport: 'DLM den ~2s 30dk', season: 'Mayıs – Kas', vibe: 'Bohem dalış merkezi, batık şehir Kekova, Kaputaş' }
+    }
+};
+
+const statsUiLabels: Record<string, { airport: string, season: string, vibe: string }> = {
+    ru: { airport: 'Трансфер от аэропорта', season: 'Лучший сезон', vibe: 'Атмосфера и вайб' },
+    en: { airport: 'Airport DLM Transfer', season: 'Best Season', vibe: 'Vibe & Highlights' },
+    de: { airport: 'Transfer vom Flughafen', season: 'Beste Reisezeit', vibe: 'Atmosphäre & Highlights' },
+    tr: { airport: 'Havalimanı Ulaşım', season: 'En İyi Sezon', vibe: 'Atmosfer ve Öne Çıkanlar' }
+};
 
 interface CityHubProps {
     location: string;
@@ -65,7 +123,45 @@ const CityHub = ({ location, locationName, info, beaches, sights, transport, ima
                 </div>
             </section>
 
-            <div className="container mx-auto px-4 -mt-20 relative z-10 pb-20">
+            <div className="container mx-auto px-4 -mt-24 relative z-10 pb-20">
+                {/* Glassmorphic Quick-Stats Bar */}
+                {(() => {
+                    const statsObj = quickStatsByCity[location] || quickStatsByCity['dalaman'];
+                    const st = statsObj[locale] || statsObj['en'];
+                    const ui = statsUiLabels[locale] || statsUiLabels['en'];
+                    return (
+                        <div className="bg-slate-900/95 backdrop-blur-2xl text-white rounded-[2.5rem] p-6 md:p-8 shadow-2xl border border-white/15 mb-10 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 divide-y md:divide-y-0 md:divide-x divide-white/10 transform hover:-translate-y-1 transition-all duration-300">
+                            <div className="flex items-center space-x-4 pt-2 md:pt-0">
+                                <div className="w-12 h-12 rounded-2xl bg-cyan-500/20 flex items-center justify-center text-cyan-400 flex-shrink-0">
+                                    <FaPlaneArrival size={22} />
+                                </div>
+                                <div>
+                                    <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block mb-0.5">{ui.airport}</span>
+                                    <span className="text-sm font-black text-white">{st.airport}</span>
+                                </div>
+                            </div>
+                            <div className="flex items-center space-x-4 pt-4 md:pt-0 md:pl-8">
+                                <div className="w-12 h-12 rounded-2xl bg-amber-500/20 flex items-center justify-center text-amber-400 flex-shrink-0">
+                                    <FaSun size={22} />
+                                </div>
+                                <div>
+                                    <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block mb-0.5">{ui.season}</span>
+                                    <span className="text-sm font-black text-white">{st.season}</span>
+                                </div>
+                            </div>
+                            <div className="flex items-center space-x-4 pt-4 md:pt-0 md:pl-8">
+                                <div className="w-12 h-12 rounded-2xl bg-rose-500/20 flex items-center justify-center text-rose-400 flex-shrink-0">
+                                    <FaHeart size={22} />
+                                </div>
+                                <div>
+                                    <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block mb-0.5">{ui.vibe}</span>
+                                    <span className="text-xs md:text-sm font-black text-white leading-tight block">{st.vibe}</span>
+                                </div>
+                            </div>
+                        </div>
+                    );
+                })()}
+
                 {/* Intro Section - Glass Card */}
                 <div className="bg-white/80 backdrop-blur-xl rounded-[3rem] p-10 md:p-16 premium-shadow border border-white/50 mb-20">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">

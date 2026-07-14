@@ -68,16 +68,75 @@ type BeachPageProps = {
     }
 }
 
-const beachSpecs: Record<string, { cover: string, entry: string, amenities: string, access: string }> = {
-    'Domuzbuku': { cover: 'Мелкая галька', entry: 'Умеренно глубокий', amenities: 'Дикий пляж, без инфраструктуры', access: 'Только на лодке' },
-    'Kargi': { cover: 'Песок и галька', entry: 'Пологий', amenities: 'Шезлонги, зонтики, кафе', access: 'На автомобиле / долмуше' },
-    'Kumluk': { cover: 'Мелкий золотистый песок', entry: 'Очень пологий, для детей', amenities: 'Полная инфраструктура, променад', access: 'В центре города, пешком' },
-    'kelebekler': { cover: 'Крупная галька', entry: 'Глубокий', amenities: 'Базовое кафе, кемпинг', access: 'На лодке из Олюдениза' },
-    'Turunc': { cover: 'Песок и мелкая галька', entry: 'Пологий, Голубой флаг', amenities: 'Шезлонги, рестораны, отели', access: 'На автомобиле / водном такси' },
-    'Ciftlik': { cover: 'Крупный зернистый песок', entry: 'Умеренно пологий', amenities: 'Шезлонги, рыбные рестораны', access: 'На автомобиле / катере' },
-    'Ciftebuk': { cover: 'Галька', entry: 'Глубокий, кристально чистый', amenities: 'Полностью дикий', access: 'На яхте или пешком' },
-    'LakeBeach': { cover: 'Трава и песок (пресная вода)', entry: 'Очень пологий', amenities: 'Кафе, туалеты, прокат сапов', access: 'Пешком из Кёйджегиза' },
-    'Ekincik': { cover: 'Темный песок и галька', entry: 'Умеренно глубокий', amenities: 'Марина, рестораны, кемпинг', access: 'На автомобиле / лодке' }
+const beachSpecsMulti: Record<string, Record<string, { cover: string, entry: string, amenities: string, access: string }>> = {
+    'Domuzbuku': {
+        ru: { cover: 'Мелкая галька', entry: 'Умеренно глубокий', amenities: 'Дикий пляж, без инфраструктуры', access: 'Только на лодке' },
+        en: { cover: 'Fine pebbles', entry: 'Moderately deep', amenities: 'Wild beach, no infrastructure', access: 'Boat access only' },
+        de: { cover: 'Feiner Kiesel', entry: 'Mäßig tief', amenities: 'Naturstrand, keine Infrastruktur', access: 'Nur per Boot erreichbar' },
+        tr: { cover: 'İnce çakıl', entry: 'Orta derinlikte', amenities: 'Bakir plaj, tesis yok', access: 'Sadece tekne ile ulaşım' }
+    },
+    'Kargi': {
+        ru: { cover: 'Песок и галька', entry: 'Пологий', amenities: 'Шезлонги, зонтики, кафе', access: 'На автомобиле / долмуше' },
+        en: { cover: 'Sand and pebbles', entry: 'Gentle slope', amenities: 'Sunbeds, umbrellas, cafes', access: 'By car / dolmus minibus' },
+        de: { cover: 'Sand und Kiesel', entry: 'Flach abfallend', amenities: 'Liegen, Schirme, Cafés', access: 'Mit Auto / Dolmus Minibus' },
+        tr: { cover: 'Kum ve çakıl', entry: 'Sığ ve eğimli', amenities: 'Şezlong, şemsiye, kafe', access: 'Araç / dolmuş ile ulaşım' }
+    },
+    'Kumluk': {
+        ru: { cover: 'Мелкий золотистый песок', entry: 'Очень пологий, для детей', amenities: 'Полная инфраструктура, променад', access: 'В центре города, пешком' },
+        en: { cover: 'Fine golden sand', entry: 'Very shallow, kid-friendly', amenities: 'Full infrastructure, promenade', access: 'In city center, walking distance' },
+        de: { cover: 'Feiner goldener Sand', entry: 'Sehr flach, kinderfreundlich', amenities: 'Volle Infrastruktur, Promenade', access: 'Im Stadtzentrum, zu Fuß' },
+        tr: { cover: 'İnce altın kum', entry: 'Çok sığ, çocuklara uygun', amenities: 'Tam altyapı, sahil yolu', access: 'Şehir merkezinde, yürüme mesafesi' }
+    },
+    'kelebekler': {
+        ru: { cover: 'Крупная галька', entry: 'Глубокий', amenities: 'Базовое кафе, кемпинг', access: 'На лодке из Олюдениза' },
+        en: { cover: 'Coarse pebbles', entry: 'Deep water', amenities: 'Basic cafe, camping area', access: 'By boat from Oludeniz' },
+        de: { cover: 'Grobe Kieselsteine', entry: 'Tiefes Wasser', amenities: 'Einfaches Café, Campingplatz', access: 'Per Boot ab Ölüdeniz' },
+        tr: { cover: 'İri çakıl', entry: 'Derin su', amenities: 'Temel kafe, kamp alanı', access: 'Ölüdeniz den tekne ile' }
+    },
+    'Turunc': {
+        ru: { cover: 'Песок и мелкая галька', entry: 'Пологий, Голубой флаг', amenities: 'Шезлонги, рестораны, отели', access: 'На автомобиле / водном такси' },
+        en: { cover: 'Sand and fine pebbles', entry: 'Gentle slope, Blue Flag', amenities: 'Sunbeds, restaurants, hotels', access: 'By car / water taxi' },
+        de: { cover: 'Sand und feiner Kiesel', entry: 'Flach abfallend, Blaue Flagge', amenities: 'Liegen, Restaurants, Hotels', access: 'Mit Auto / Wassertaxi' },
+        tr: { cover: 'Kum ve ince çakıl', entry: 'Sığ giriş, Mavi Bayrak', amenities: 'Şezlong, restoranlar, oteller', access: 'Araç / su taksisi ile' }
+    },
+    'Ciftlik': {
+        ru: { cover: 'Крупный зернистый песок', entry: 'Умеренно пологий', amenities: 'Шезлонги, рыбные рестораны', access: 'На автомобиле / катере' },
+        en: { cover: 'Coarse grainy sand', entry: 'Moderately gentle', amenities: 'Sunbeds, fish restaurants', access: 'By car / speedboat' },
+        de: { cover: 'Grober Sand', entry: 'Mäßig flach', amenities: 'Sonnenliegen, Fischrestaurants', access: 'Mit Auto / Schnellboot' },
+        tr: { cover: 'İri taneli kum', entry: 'Orta eğimli', amenities: 'Şezlong, balık restoranları', access: 'Araç / tekne ile' }
+    },
+    'Ciftebuk': {
+        ru: { cover: 'Галька', entry: 'Глубокий, кристально чистый', amenities: 'Полностью дикий', access: 'На яхте или пешком' },
+        en: { cover: 'Pebbles', entry: 'Deep, crystal clear water', amenities: 'Completely wild', access: 'By yacht or hiking' },
+        de: { cover: 'Kieselsteine', entry: 'Tief, kristallklares Wasser', amenities: 'Völlig naturbelassen', access: 'Mit Yacht oder Wandern' },
+        tr: { cover: 'Çakıl', entry: 'Derin, berrak su', amenities: 'Tamamen bakir', access: 'Yat veya yürüyüş ile' }
+    },
+    'LakeBeach': {
+        ru: { cover: 'Трава и песок (пресная вода)', entry: 'Очень пологий', amenities: 'Кафе, туалеты, прокат сапов', access: 'Пешком из Кёйджегиза' },
+        en: { cover: 'Grass and sand (freshwater)', entry: 'Very gentle slope', amenities: 'Cafe, restrooms, SUP rental', access: 'Walking from Koycegiz' },
+        de: { cover: 'Gras und Sand (Süßwasser)', entry: 'Sehr flach abfallend', amenities: 'Café, Toiletten, SUP-Verleih', access: 'Zu Fuß ab Köyceğiz' },
+        tr: { cover: 'Çim ve kum (tatlı su)', entry: 'Çok sığ ve sakin', amenities: 'Kafe, tuvalet, SUP kiralama', access: 'Köyceğiz den yürüyerek' }
+    },
+    'Ekincik': {
+        ru: { cover: 'Темный песок и галька', entry: 'Умеренно глубокий', amenities: 'Марина, рестораны, кемпинг', access: 'На автомобиле / лодке' },
+        en: { cover: 'Dark sand and pebbles', entry: 'Moderately deep', amenities: 'Marina, restaurants, camping', access: 'By car / excursion boat' },
+        de: { cover: 'Dunkler Sand und Kiesel', entry: 'Mäßig tief', amenities: 'Yachthafen, Restaurants, Camping', access: 'Mit Auto / Ausflugsboot' },
+        tr: { cover: 'Koyu kum ve çakıl', entry: 'Orta derinlikte', amenities: 'Marina, restoranlar, kamp', access: 'Araç / gezi teknesi ile' }
+    }
+};
+
+const defaultSpecsByLocale: Record<string, { cover: string, entry: string, amenities: string, access: string }> = {
+    ru: { cover: 'Галька и песок', entry: 'Умеренно пологий', amenities: 'Шезлонги, зонтики, кафе', access: 'На автомобиле или пешком' },
+    en: { cover: 'Pebbles and sand', entry: 'Gentle slope', amenities: 'Sunbeds, umbrellas, beach cafe', access: 'By car or short walk' },
+    de: { cover: 'Kiesel und Sand', entry: 'Flach abfallend', amenities: 'Liegen, Schirme, Strandcafé', access: 'Mit dem Auto oder zu Fuß' },
+    tr: { cover: 'Çakıl ve kum', entry: 'Orta eğimli ve sığ', amenities: 'Şezlong, şemsiye, sahil kafesi', access: 'Araçla veya yürüyerek' }
+};
+
+const uiTextsByLocale: Record<string, any> = {
+    ru: { specs: 'Характеристики', cover: 'Покрытие:', entry: 'Вход в воду:', amenities: 'Удобства:', access: 'Доступность:', gmaps: 'Открыть на Google Maps', surr: 'Окрестности', explore: 'Исследовать' },
+    en: { specs: 'Specifications', cover: 'Cover:', entry: 'Entry:', amenities: 'Amenities:', access: 'Access:', gmaps: 'Open on Google Maps', surr: 'Surroundings', explore: 'Explore' },
+    de: { specs: 'Spezifikationen', cover: 'Belag:', entry: 'Einstieg:', amenities: 'Ausstattung:', access: 'Anfahrt:', gmaps: 'Auf Google Maps öffnen', surr: 'Umgebung', explore: 'Erkunden' },
+    tr: { specs: 'Özellikler', cover: 'Zemin:', entry: 'Deniz Girişi:', amenities: 'İmkanlar:', access: 'Ulaşım:', gmaps: 'Google Haritalarda Aç', surr: 'Çevresi', explore: 'Keşfet' }
 };
 
 const locationNames: Record<string, Record<string, string>> = {
@@ -92,12 +151,9 @@ const BeachPage = async ({ params }: BeachPageProps) => {
     const activeLocale = locale || 'en';
     const beachData = await getBeachData(location, beachName, activeLocale);
 
-    const spec = beachSpecs[beachName] || {
-        cover: 'Галька и песок',
-        entry: 'Умеренно пологий',
-        amenities: 'Шезлонги, зонтики, кафе',
-        access: 'На автомобиле или пешком'
-    };
+    const specObj = beachSpecsMulti[beachName] || {};
+    const spec = specObj[activeLocale] || specObj['en'] || defaultSpecsByLocale[activeLocale] || defaultSpecsByLocale['en'];
+    const ui = uiTextsByLocale[activeLocale] || uiTextsByLocale['en'];
 
     const locationName = (locationNames[activeLocale] || locationNames['en'])[location] || location;
 
@@ -214,30 +270,30 @@ const BeachPage = async ({ params }: BeachPageProps) => {
                             {/* Beach Specs */}
                             <div className="bg-white rounded-[2.5rem] p-8 premium-shadow border border-white space-y-6">
                                 <h3 className="text-lg font-black text-slate-900 mb-4 uppercase italic border-b border-slate-100 pb-4">
-                                    {activeLocale === 'ru' ? 'Характеристики' : 'Specifications'}
+                                    {ui.specs}
                                 </h3>
                                 <div className="space-y-4 text-xs font-medium text-slate-700">
                                     <div className="flex justify-between py-1.5 border-b border-slate-50">
                                         <span className="text-slate-400 font-bold uppercase tracking-wider">
-                                            {activeLocale === 'ru' ? 'Покрытие:' : 'Cover:'}
+                                            {ui.cover}
                                         </span>
                                         <span className="text-slate-800 font-black">{spec.cover}</span>
                                     </div>
                                     <div className="flex justify-between py-1.5 border-b border-slate-50">
                                         <span className="text-slate-400 font-bold uppercase tracking-wider">
-                                            {activeLocale === 'ru' ? 'Вход в воду:' : 'Entry:'}
+                                            {ui.entry}
                                         </span>
                                         <span className="text-slate-800 font-black">{spec.entry}</span>
                                     </div>
                                     <div className="flex justify-between py-1.5 border-b border-slate-50">
                                         <span className="text-slate-400 font-bold uppercase tracking-wider">
-                                            {activeLocale === 'ru' ? 'Удобства:' : 'Amenities:'}
+                                            {ui.amenities}
                                         </span>
                                         <span className="text-slate-800 font-black text-right max-w-[180px] leading-tight">{spec.amenities}</span>
                                     </div>
                                     <div className="flex justify-between py-1.5">
                                         <span className="text-slate-400 font-bold uppercase tracking-wider">
-                                            {activeLocale === 'ru' ? 'Доступность:' : 'Access:'}
+                                            {ui.access}
                                         </span>
                                         <span className="text-slate-800 font-black">{spec.access}</span>
                                     </div>
@@ -248,22 +304,26 @@ const BeachPage = async ({ params }: BeachPageProps) => {
                                     rel="noopener noreferrer"
                                     className="w-full text-center block bg-cyan-600 text-white py-3.5 rounded-full font-black text-[10px] uppercase tracking-widest hover:bg-cyan-700 transition-all shadow-lg hover:shadow-cyan-100/50"
                                 >
-                                    {activeLocale === 'ru' ? 'Открыть на Google Maps' : 'Open on Google Maps'}
+                                    {ui.gmaps}
                                 </a>
                             </div>
 
                             <div className="bg-white rounded-[2.5rem] p-8 premium-shadow border border-white">
                                 <h3 className="text-lg font-black text-slate-900 mb-6 uppercase italic border-b border-slate-100 pb-4">
-                                    {activeLocale === 'ru' ? 'Окрестности' : 'Surroundings'}
+                                    {ui.surr}
                                 </h3>
                                 <div className="space-y-4">
                                     <p className="text-xs text-slate-500 font-medium">
                                         {activeLocale === 'ru' 
                                             ? `Этот пляж находится недалеко от других интересных мест в регионе ${locationName}.`
+                                            : activeLocale === 'de'
+                                            ? `Dieser Strand befindet sich in der Nähe anderer interessanter Orte in der Region ${locationName}.`
+                                            : activeLocale === 'tr'
+                                            ? `Bu plaj, ${locationName} bölgesindeki diğer ilgi çekici yerlerin yakınında bulunmaktadır.`
                                             : `This beach is located near other interesting spots in ${locationName}.`}
                                     </p>
                                     <Link href={localize(`/${location}`)} className="block w-full py-3.5 bg-slate-900 text-white text-[10px] font-black uppercase tracking-widest rounded-full text-center hover:bg-cyan-600 transition-all">
-                                        {activeLocale === 'ru' ? `Исследовать ${locationName}` : `Explore ${locationName}`}
+                                        {`${ui.explore} ${locationName}`}
                                     </Link>
                                 </div>
                             </div>
