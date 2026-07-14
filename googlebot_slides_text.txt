@@ -1,0 +1,12 @@
+--- Slide 1 ---
+host
+
+--- Slide 2 ---
+title
+
+--- Slide 3 ---
+imageLocation
+
+--- Slide 4 ---
+imageSizes
+

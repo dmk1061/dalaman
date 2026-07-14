@@ -67,11 +67,11 @@ const Navigation = () => {
                 {item.dropdown && item.dropdown.length > 0 && <FiChevronDown className="ml-1" size={16} />}
               </Link>
               {item.dropdown && item.dropdown.length > 0 && (
-                <div className="absolute top-full left-0 pt-2 w-56 bg-white rounded-md shadow-lg py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 invisible group-hover:visible z-20">
+                <div className="absolute top-full left-0 pt-2 w-56 bg-white rounded-md shadow-lg py-1 opacity-0 group-hover:opacity-100 transition-all duration-200 invisible group-hover:visible z-20 before:absolute before:inset-x-0 before:-top-4 before:h-4 before:bg-transparent">
                   {item.dropdown.map((subItem) => (
-                    <a key={subItem.name} href={subItem.href} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                    <Link key={subItem.name} href={subItem.href} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors">
                       {subItem.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               )}

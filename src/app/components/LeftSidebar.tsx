@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaPlane, FaBus, FaTaxi, FaCarSide, FaUsers, FaHospital, FaBalanceScale } from 'react-icons/fa';
+import { FaPlane, FaBus, FaTaxi, FaCarSide, FaUsers, FaPassport, FaAddressBook, FaSun } from 'react-icons/fa';
 import { getDictionary, Locale } from '@/lib/dictionary';
 
 type LeftSidebarProps = {
@@ -25,9 +25,10 @@ const LeftSidebar = async ({ locale = 'en' }: LeftSidebarProps) => {
         { title: dict.left_sidebar.companions, href: '#', icon: <FaUsers /> },
     ];
 
-    const infrastructureLinks = [
-        { title: dict.left_sidebar.hospitals, href: '#', icon: <FaHospital /> },
-        { title: dict.left_sidebar.police, href: '#', icon: <FaBalanceScale /> },
+    const usefulInfoLinks = [
+        { title: dict.header?.nav?.useful_contacts || (locale === 'ru' ? 'Справка и дежурные аптеки' : 'Useful Contacts & Pharmacies'), href: '/articles/useful-contacts', icon: <FaAddressBook /> },
+        { title: dict.header?.nav?.residency || (locale === 'ru' ? 'Виза и ВНЖ в Турции' : 'Residency & Visa Rules'), href: '/articles/residency-permit', icon: <FaPassport /> },
+        { title: dict.header?.nav?.climate_and_seasons || (locale === 'ru' ? 'Погода и сезоны' : 'Climate & Seasons'), href: '/articles/climate-and-seasons', icon: <FaSun /> },
     ];
 
     return (
@@ -51,14 +52,14 @@ const LeftSidebar = async ({ locale = 'en' }: LeftSidebarProps) => {
                 </div>
             </div>
 
-            {/* Infrastructure Panel */}
+            {/* Useful Guides Panel (Instead of Alarmist Infrastructure) */}
             <div className="bg-white rounded-[2rem] premium-shadow overflow-hidden border border-slate-50">
                 <div className="bg-cyan-600 text-white px-6 py-4">
-                    <h3 className="font-black text-sm uppercase tracking-widest italic">{dict.left_sidebar.infrastructure}</h3>
+                    <h3 className="font-black text-sm uppercase tracking-widest italic">{dict.header?.nav?.preparation || (locale === 'ru' ? 'Полезно знать' : 'Traveler Info')}</h3>
                 </div>
                 <div className="p-6">
                     <ul className="space-y-4">
-                        {infrastructureLinks.map((link) => (
+                        {usefulInfoLinks.map((link) => (
                             <li key={link.title}>
                                 <Link href={localize(link.href)} className="flex items-center space-x-4 group text-slate-700 hover:text-cyan-600 transition-colors">
                                     <span className="w-8 h-8 flex items-center justify-center bg-slate-50 rounded-lg text-cyan-500 group-hover:bg-cyan-500 group-hover:text-white transition-all">{link.icon}</span>

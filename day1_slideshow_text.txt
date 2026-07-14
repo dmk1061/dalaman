@@ -1,0 +1,1001 @@
+Found 317 text blocks:
+Path: props -> pageProps -> slideshow -> canonicalUrl
+Text: https://www.slideshare.net/slideshow/2026-day-1-introduction-to-agents-vibe-coding-google-ai-agents-course-pptx/288252418
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> description
+Text: "The New SDLC with Vibe Coding" whitepaper talks about the transition from manual syntax coding to intent-driven "vibe coding" and disciplined "agentic engineering." It explores how AI agents compress the traditional software development life cycle (SDLC) and explains the "factory model" where developers act as system orchestrators who design the evaluation, constraint, and context harnesses that safely guide autonomous execution.
+
+Read the whitepaper here: https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> downloadKey
+Text: 4e29a773e9b1c78ebef3250b033adb74653f0adf0a0f4e46fca53c28d494abfd
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> emailShareUrl
+Text: mailto:?subject=Check out this presentation presentation&body=https://www.slideshare.net/slideshow/2026-day-1-introduction-to-agents-vibe-coding-google-ai-agents-course-pptx/288252418
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> facebookShareUrl
+Text: https://facebook.com/sharer.php?u=https%3A%2F%2Fwww.slideshare.net%2Fslideshow%2F2026-day-1-introduction-to-agents-vibe-coding-google-ai-agents-course-pptx%2F288252418&t=2026+Day+1+-+Introduction+to+Agents+%26+Vibe+Coding+-+Google+AI+Agents+Course.pptx
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> wordpressShareUrl
+Text: [slideshare id=288252418&doc=2026day1-introductiontoagentsvibecoding-googleaiagentscourse-260625213217-8f5d43ff]
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> iframeEmbed -> url
+Text: https://www.slideshare.net/slideshow/embed_code/key/mAa0aNOE10IiFA
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> linkedinShareUrl
+Text: https://www.linkedin.com/cws/share?url=https%3A%2F%2Fwww.slideshare.net%2Fslideshow%2F2026-day-1-introduction-to-agents-vibe-coding-google-ai-agents-course-pptx%2F288252418&trk=SLIDESHARE
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> smsShareUrl
+Text: sms:?body=Check out this presentation : https://www.slideshare.net/slideshow/2026-day-1-introduction-to-agents-vibe-coding-google-ai-agents-course-pptx/288252418
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> strippedTitle
+Text: 2026-day-1-introduction-to-agents-vibe-coding-google-ai-agents-course-pptx
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/2026day1-introductiontoagentsvibecoding-googleaiagentscourse-260625213217-8f5d43ff-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> title
+Text: 2026 Day 1 - Introduction to Agents & Vibe Coding - Google AI Agents Course.pptx
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> twitterShareUrl
+Text: https://twitter.com/intent/tweet?via=Slideshare&text=2026+Day+1+-+Introduction+to+Agents+%26amp%3B+Vibe+Coding+-+Google+AI+Agents+Course.pptx+%23aiagents+https%3A%2F%2Fwww.slideshare.net%2Fslideshow%2F2026-day-1-introduction-to-agents-vibe-coding-google-ai-agents-course-pptx%2F288252418
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[0] -> displayTitle
+Text: Artificial Intelligence, Data and Competition – SCHREPEL – June 2024 OECD dis...
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[0] -> strippedTitle
+Text: artificial-intelligence-data-and-competition-schrepel-june-2024-oecd-discussion
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[0] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/oecd-ai-data-and-competition-schrepel-june2024-240612112653-5042b083-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[0] -> description
+Text: This presentation by Thibault Schrepel, Associate Professor of Law at Vrije Universiteit Amsterdam University, was made during the discussion “Artificial Intelligence, Data and Competition” held at the 143rd meeting of the OECD Competition Committee on 12 June 2024. More papers and presentations on the topic can be found at oe.cd/aicomp.
+ 
+This presentation was uploaded with the author’s consent.
+
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[0] -> url
+Text: https://www.slideshare.net/slideshow/artificial-intelligence-data-and-competition-schrepel-june-2024-oecd-discussion/269644409
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[0] -> userName
+Text: OECD Directorate for Financial and Enterprise Affairs
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[1] -> displayTitle
+Text: 2024 Trend Updates: What Really Works In SEO & Content Marketing
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[1] -> strippedTitle
+Text: 2024-trend-updates-what-really-works-in-seo-content-marketing
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[1] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/conductor-webinar-6182024-presentation-240618152603-d6c54198-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[1] -> description
+Text: The document outlines key SEO and content marketing trends for 2024, emphasizing the impact of AI, the importance of E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness), and a shift towards user-centric content strategies. It advises against focusing on outdated trends like voice search and stresses the need for creating value-driven, authoritative content. Additionally, it highlights the need to leverage AI as a supportive tool rather than relying solely on it for content creation.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[1] -> url
+Text: https://www.slideshare.net/slideshow/2024-trend-updates-what-really-works-in-seo-content-marketing/269746818
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[2] -> displayTitle
+Text: Storytelling For The Web: Integrate Storytelling in your Design Process
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[2] -> strippedTitle
+Text: storytelling-for-the-web-integrate-storytelling-in-your-design-process
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[2] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/storytellingfortheweb-240605180737-8eb6d37c-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[2] -> description
+Text: The document outlines a livestream presentation by Chiara Aliotta on integrating storytelling into web design to enhance user experiences. It covers the storytelling process for designers, emphasizing aspects such as understanding the audience, structuring narratives, and creating emotional connections. The presentation also includes case studies and practical examples to demonstrate effective storytelling in UX/UI design.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[2] -> url
+Text: https://www.slideshare.net/slideshow/storytelling-for-the-web-integrate-storytelling-in-your-design-process/269527754
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[3] -> displayTitle
+Text: 2024 State of Marketing Report – by Hubspot
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[3] -> strippedTitle
+Text: 2024-state-of-marketing-report-by-hubspot
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[3] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/1707826910254-240215090210-009c7a2b-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[3] -> description
+Text: The State of Marketing 2024 report highlights the transformative impact of AI and automation, emphasizing the importance of personalization and engagement to drive growth in a competitive landscape. Marketers are focusing on optimizing budgets, leveraging social media for brand awareness, and utilizing AI tools to enhance efficiency across tasks. Key trends for 2024 include the rise of experiential marketing, content creation that meets user needs, and strengthened connections through personalized customer experiences.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[3] -> url
+Text: https://www.slideshare.net/slideshow/2024-state-of-marketing-report-by-hubspot/266319371
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[4] -> displayTitle
+Text: 2026 Day 5 - Spec-Driven Production Grade Development in the Age of Vibe Codi...
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[4] -> strippedTitle
+Text: 2026-day-5-spec-driven-production-grade-development-in-the-age-of-vibe-coding-google-ai-agents-course-pptx
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[4] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/2026day5-spec-drivenproductiongradedevelopmentintheageofvibecoding-googleaiagentscourse-260625214942-a8a0a1ca-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[4] -> description
+Text: "Spec-Driven Production Grade Development in the Age of Vibe Coding" whitepaper covers bridging the gap between fragile vibe-coded prototypes and production-grade enterprise software using Spec-Driven Development (SDD). It details how to treat code as disposable and behavior-driven Gherkin specifications as the source of truth, establishing safe, zero-trust development pipelines with automated code-review agents and hybrid Policy Servers.
+
+Read the whitepaper here: https://www.kaggle.com/whitepaper-spec-driven-production-grade-development-in-the-age-of-vibe-coding
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[4] -> url
+Text: https://www.slideshare.net/slideshow/2026-day-5-spec-driven-production-grade-development-in-the-age-of-vibe-coding-google-ai-agents-course-pptx/288252678
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[5] -> displayTitle
+Text: 2026 Day 4 - Vibe Coding Agent Security and Evaluation - Google AI Agents Cou...
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[5] -> strippedTitle
+Text: 2026-day-4-vibe-coding-agent-security-and-evaluation-google-ai-agents-course-pptx
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[5] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/2026day4-vibecodingagentsecurityandevaluation-googleaiagentscourse-260625214749-6131cd36-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[5] -> description
+Text: "Vibe Coding Agent Security and Evaluation" whitepaper talks about redefining security and evaluation in non-deterministic AI workflows by establishing continuous "Effective Trust" through a strict 7-pillar architecture. It outlines practical safeguards such as ephemeral sandboxing, defenses against hallucinated "slopsquatting" packages, an active Red/Blue/Green security triad, and OpenTelemetry trajectory evaluation.
+
+Read the whitepaper here: https://www.kaggle.com/whitepaper-vibe-coding-agent-security-and-evaluation
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[5] -> url
+Text: https://www.slideshare.net/slideshow/2026-day-4-vibe-coding-agent-security-and-evaluation-google-ai-agents-course-pptx/288252631
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[6] -> displayTitle
+Text: 2026 Day 3 - Agent Skills - Google AI Agents Course.pptx
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[6] -> strippedTitle
+Text: 2026-day-3-agent-skills-google-ai-agents-course-pptx
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[6] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/2026day3-agentskills-googleaiagentscourse-260625214611-145a69ab-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[6] -> description
+Text: "Agent Skills" whitepaper talks about managing dynamic context and avoiding "context rot" by equipping agents with portable "Agent Skills", directories structured around a central SKILL.md file. It explains how this framework uses progressive disclosure to keep system prompts lightweight, loading execution details and tools only on demand so that single agents can flex into hundreds of specialist roles efficiently.
+
+Read the whitepaper here: https://www.kaggle.com/whitepaper-agent-skills
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[6] -> url
+Text: https://www.slideshare.net/slideshow/2026-day-3-agent-skills-google-ai-agents-course-pptx/288252609
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[7] -> displayTitle
+Text: 2026 Day 2 - Agent Tools & Interoperability - Google AI Agents Course.pptx
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[7] -> strippedTitle
+Text: 2026-day-2-agent-tools-interoperability-google-ai-agents-course-pptx
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[7] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/2026day2-agenttoolsinteroperability-googleaiagentscourse-260625213950-6cc9b459-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[7] -> description
+Text: "Agent Tools & Interoperability" whitepaper talks about standardizing the plug-and-play AI ecosystem using open protocols to eliminate the complex technical debt of custom tool integrations. It details how the Model Context Protocol (MCP) connects models to data sources, outlines Agent2Agent (A2A) collaboration, showcases Agent-to-User Interface (A2UI) for generative UI, and introduces Agent Payments Protocol (AP2) and Universal Commerce Protocol (UCP) for secure machine-to-machine commerce.
+
+Read the whitepaper here: https://www.kaggle.com/whitepaper-agent-tools-and-interoperability
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> rightRail[7] -> url
+Text: https://www.slideshare.net/slideshow/2026-day-2-agent-tools-interoperability-google-ai-agents-course-pptx/288252526
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[0] -> displayTitle
+Text: Everything You Need To Know About ChatGPT
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[0] -> strippedTitle
+Text: everything-you-need-to-know-about-chatgpt-8ba3
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[0] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/everything-you-need-to-know-about-chatgpt-expeed-software-240314091646-b2188bc5-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[0] -> description
+Text: ChatGPT is an AI chatbot developed by OpenAI, built on advanced language models to facilitate human-like conversational interactions. Launched in November 2022, it utilizes a transformer architecture to understand and generate text, with applications ranging from content creation to customer service. Despite its capabilities, there are concerns about potential misuse and biases in its responses, which OpenAI aims to mitigate through moderation and user feedback.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[0] -> url
+Text: https://www.slideshare.net/slideshow/everything-you-need-to-know-about-chatgpt-8ba3/266783915
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[1] -> displayTitle
+Text: Product Design Trends in 2024 | Teenage Engineerings
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[1] -> strippedTitle
+Text: product-design-trends-in-2024-teenage-engineerings
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[1] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/12-240130085857-1a293e4f-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[1] -> description
+Text: The realm of product design is a constantly changing environment where technology and style intersect. Every year introduces fresh challenges and exciting trends that mold the future of this captivating art form. In this piece, we delve into the significant trends set to influence the look and functionality of product design in the year 2024.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[1] -> url
+Text: https://www.slideshare.net/slideshow/product-design-trends-in-2024-teenage-engineerings/265965777
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[2] -> displayTitle
+Text: How Race, Age and Gender Shape Attitudes Towards Mental Health
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[2] -> strippedTitle
+Text: how-race-age-and-gender-shape-attitudes-towards-mental-health
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[2] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/mental-health-report-2023-240322141336-0775b908-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[2] -> description
+Text: The November 2023 mental health report indicates that 70% of respondents rate their mental health as 'good' or 'excellent,' with higher diagnoses reported among African Americans and non-Hispanic whites compared to Hispanics and Asians. Younger generations, particularly Gen Z and millennials, are more likely to experience mental health challenges, seek information online, and report that their mental health impacts their work and relationships. Half of the respondents feel comfortable discussing their mental health with professionals, although Gen Z shows the least comfort in this area.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[2] -> url
+Text: https://www.slideshare.net/slideshow/how-race-age-and-gender-shape-attitudes-towards-mental-health/266922990
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[3] -> displayTitle
+Text: AI Trends in Creative Operations 2024 by Artwork Flow.pdf
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[3] -> strippedTitle
+Text: ai-trends-in-creative-operations-2024-by-artwork-flowpdf
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[3] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/aitrendsincreativeoperations2024byartworkflow-231201042742-f1924806-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[3] -> description
+Text: Creative operations teams expect increased AI use in 2024. Currently, over half of tasks are not AI-enabled, but this is expected to decrease in the coming year. ChatGPT is the most popular AI tool currently. Business leaders are more actively exploring AI benefits than individual contributors. Most respondents do not believe AI will impact workforce size in 2024. However, some inhibitions still exist around AI accuracy and lack of understanding. Creatives primarily want to use AI to save time on mundane tasks and boost productivity.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[3] -> url
+Text: https://www.slideshare.net/slideshow/ai-trends-in-creative-operations-2024-by-artwork-flowpdf/264146484
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[4] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/220614-skeleton-culturecode-220614071958-e4634593-230828134319-46713c2f-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[4] -> description
+Text: Organizational culture includes values, norms, systems, symbols, language, assumptions, beliefs, and habits that influence employee behaviors and how people interpret those behaviors. It is important because culture can help or hinder a company's success. Some key aspects of Netflix's culture that help it achieve results include hiring smartly so every position has stars, focusing on attitude over just aptitude, and having a strict policy against peacocks, whiners, and jerks.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[4] -> url
+Text: https://www.slideshare.net/slideshow/skeleton-culture-code/260258909
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[5] -> displayTitle
+Text: PEPSICO Presentation to CAGNY Conference Feb 2024
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[5] -> strippedTitle
+Text: pepsico-presentation-to-cagny-conference-feb-2024
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[5] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/pep2024cagny-240221161133-4e23e446-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[5] -> description
+Text: PepsiCo provided a safe harbor statement noting that any forward-looking statements are based on currently available information and are subject to risks and uncertainties. It also provided information on non-GAAP measures and directing readers to its website for disclosure and reconciliation. The document then discussed PepsiCo's business overview, including that it is a global beverage and convenient food company with iconic brands, $91 billion in net revenue in 2023, and nearly $14 billion in core operating profit. It operates through a divisional structure with a focus on local consumers.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[5] -> url
+Text: https://www.slideshare.net/slideshow/pepsico-presentation-to-cagny-conference-feb-2024/266422727
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[6] -> displayTitle
+Text: Content Methodology: A Best Practices Report (Webinar)
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[6] -> strippedTitle
+Text: content-methodology-a-best-practices-report-webinar
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[6] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/contentmethodologywebinarv2a-160512174950-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[6] -> description
+Text: This document provides an overview of content methodology best practices. It defines content methodology as establishing objectives, KPIs, and a culture of continuous learning and iteration. An effective methodology focuses on connecting with audiences, creating optimal content, and optimizing processes. It also discusses why a methodology is needed due to the competitive landscape, proliferation of channels, and opportunities for improvement. Components of an effective methodology include defining objectives and KPIs, audience analysis, identifying opportunities, and evaluating resources. The document concludes with recommendations around creating a content plan, testing and optimizing content over 90 days.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[6] -> url
+Text: https://www.slideshare.net/slideshow/content-methodology-a-best-practices-report-webinar/61958880
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[7] -> displayTitle
+Text: How to Prepare For a Successful Job Search for 2024
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[7] -> strippedTitle
+Text: how-to-prepare-for-a-successful-job-search-for-2024
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[7] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/preparefor2024nova-240105000520-b3c4c2eb-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[7] -> description
+Text: The document provides guidance on preparing a job search for 2024. It discusses the state of the job market, focusing on growth in AI and healthcare but also continued layoffs. It recommends figuring out what you want to do by researching interests and skills, then conducting informational interviews. The job search should involve building a personal brand on LinkedIn, actively applying to jobs, tailoring resumes and interviews, maintaining job hunting as a habit, and continuing self-improvement. Once hired, the document advises setting new goals and keeping skills and networking active in case of future opportunities.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[7] -> url
+Text: https://www.slideshare.net/slideshow/how-to-prepare-for-a-successful-job-search-for-2024/265133984
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[8] -> displayTitle
+Text: Social Media Marketing Trends 2024 // The Global Indie Insights
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[8] -> strippedTitle
+Text: social-media-marketing-trends-2023-the-global-indie-insights-acb4
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[8] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/socialmediamarketingtrends2024-reportbythenetworkonexkurio-240109143244-06696c06-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[8] -> description
+Text: The 2024 social media marketing trends report highlights significant shifts influenced by generative AI, including the emergence of personalized content, the rise of virtual influencers, and a stronger focus on user-generated content. Insights were gathered from 33 experts across 23 leading independent agencies, providing a perspective that emphasizes creativity and authenticity in marketing strategies. Key trends also include the blending of B2B and B2C approaches, reflecting changes in consumer behavior and the evolving landscape of social media engagement.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[8] -> url
+Text: https://www.slideshare.net/slideshow/social-media-marketing-trends-2023-the-global-indie-insights-acb4/265256376
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[8] -> userName
+Text: Kurio // The Social Media Age(ncy)
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[9] -> displayTitle
+Text: Trends In Paid Search: Navigating The Digital Landscape In 2024
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[9] -> strippedTitle
+Text: trends-in-paid-search-navigating-the-digital-landscape-in-2024
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[9] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/sej-iquanti-18-octwebinarwithomfpresentationfinal-231018123717-4487b5ab-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[9] -> description
+Text: The document discusses trends in paid search for 2024, highlighting changes in user behavior, the implications for financial services, and privacy challenges. It emphasizes the importance of adapting search strategies, utilizing AI-driven tools like performance max and smart bidding, and leveraging first-party data for better marketing efficacy. Key takeaways include holistic SEO and SEM approaches, monitoring shifting user intents, and the need for continuous performance evaluation.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[9] -> url
+Text: https://www.slideshare.net/slideshow/trends-in-paid-search-navigating-the-digital-landscape-in-2024/262411777
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[10] -> displayTitle
+Text: 5 Public speaking tips from TED - Visualized summary
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[10] -> strippedTitle
+Text: 5-public-speaking-tips-from-ted-visualized-summary
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[10] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/5public-speakingtipsfromted-170108141442-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[10] -> description
+Text: The document outlines five public speaking tips from Chris Anderson, TED Talks curator, emphasizing the importance of eye contact, vulnerability, humor, humility, and storytelling. These skills are presented as essential for engaging audiences effectively and are increasingly valuable in today's economy. The article posits that mastering these techniques can enhance speakers' ability to communicate ideas powerfully.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[10] -> url
+Text: https://www.slideshare.net/slideshow/5-public-speaking-tips-from-ted-visualized-summary/70788728
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[11] -> displayTitle
+Text: ChatGPT and the Future of Work - Clark Boyd 
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[11] -> strippedTitle
+Text: chatgpt-and-the-future-of-work-clark-boyd
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[11] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/chatgptandthefutureofwork-clarkboyd1-230329144127-81b35f6b-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[11] -> description
+Text: The document provides an overview of generative AI, particularly focusing on ChatGPT and its implications for business and the job market. It discusses the rapid growth of generative AI, its applications in marketing, and the skills needed for the AI era while addressing potential job displacement and the need for adaptation. The agenda includes a Q&A session and emphasizes rethinking work in collaboration with AI technology.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[11] -> url
+Text: https://www.slideshare.net/slideshow/chatgpt-and-the-future-of-work-clark-boyd/256966846
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[12] -> displayTitle
+Text: Getting into the tech field. what next 
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[12] -> strippedTitle
+Text: getting-into-the-tech-field-what-next
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[12] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/gettingintothetechfieldwhatnext-210526205624-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[12] -> description
+Text: The document provides career advice for getting into the tech field, including:
+- Doing projects and internships in college to build a portfolio. 
+- Learning about different roles and technologies through industry research.
+- Contributing to open source projects to build experience and network.  
+- Developing a personal brand through a website and social media presence.
+- Networking through events, communities, and finding a mentor.
+- Practicing interviews through mock interviews and whiteboarding coding questions.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[12] -> url
+Text: https://www.slideshare.net/slideshow/getting-into-the-tech-field-what-next/248578921
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[13] -> displayTitle
+Text: Google's Just Not That Into You: Understanding Core Updates & Search Intent
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[13] -> strippedTitle
+Text: googles-just-not-that-into-you-understanding-core-updates-search-intent
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[13] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/mozcon23googlesjustnotthatintoyou-updated-230807140501-844b33e4-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[13] -> description
+Text: 1. Core updates from Google periodically change how its algorithms assess and rank websites and pages. This can impact rankings through shifts in user intent, site quality issues being caught up to, world events influencing queries, and overhauls to search like the E-A-T framework.  
+2. There are many possible user intents beyond just transactional, navigational and informational. Identifying intent shifts is important during core updates. Sites may need to optimize for new intents through different content types and sections.
+3. Responding effectively to core updates requires analyzing "before and after" data to understand changes, identifying new intents or page types, and ensuring content matches appropriate intents across video, images, knowledge graphs and more.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[13] -> url
+Text: https://www.slideshare.net/slideshow/googles-just-not-that-into-you-understanding-core-updates-search-intent/259699037
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[14] -> displayTitle
+Text: How to have difficult conversations 
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[14] -> strippedTitle
+Text: how-to-have-difficult-conversations
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[14] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/difficultconversationsbareincslideshare-180605235909-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[14] -> description
+Text: The document provides essential tips on how to handle difficult conversations in a workplace setting, emphasizing the importance of preparation, environment, and timing. It highlights that many employees dread such conversations, often leading to avoidance and worsening situations. Ultimately, the guide aims to promote positive outcomes while maintaining professional relationships.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[14] -> url
+Text: https://www.slideshare.net/slideshow/how-to-have-difficult-conversations/100823644
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[15] -> strippedTitle
+Text: introduction-to-data-science-254604795
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[15] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/datasciencecorner-221130165458-60b0d249-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[15] -> description
+Text: The document discusses the rise and importance of data science and machine learning, highlighting the growing demand for data scientists and the challenges they face. It explains machine learning concepts such as supervised and unsupervised learning, along with various real-world applications and the necessary steps involved in a machine learning workflow. Additionally, the document emphasizes the iterative process of model improvement and feature engineering used to enhance machine learning outcomes.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[15] -> url
+Text: https://www.slideshare.net/slideshow/introduction-to-data-science-254604795/254604795
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[16] -> displayTitle
+Text: Time Management & Productivity -  Best Practices
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[16] -> strippedTitle
+Text: time-management-productivity-best-practices
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[16] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/timemanagementproductivity-bestpracticesbyvithorky-160209024645-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[16] -> description
+Text: The document outlines best practices for time management and productivity, focusing on effective meeting habits, structured work blocks, and the importance of reflection and goal setting. It emphasizes the need for proper planning, the use of appropriate tools, and prioritizing tasks to enhance both personal and team efficiency. Additionally, personal anecdotes and strategies are shared to encourage a positive mindset and enjoyment in achieving work-related goals.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[16] -> url
+Text: https://www.slideshare.net/slideshow/time-management-productivity-best-practices/58032465
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[17] -> displayTitle
+Text: The six step guide to practical project management
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[17] -> strippedTitle
+Text: the-six-step-guide-to-practical-project-management
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[17] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/practicalprojectmanagementebookbymindgenius-160210113840-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[17] -> description
+Text: The document outlines a simplified six-step guide to project management designed for individuals lacking formal training. It emphasizes the importance of understanding project objectives, gathering stakeholder requirements, defining project scope, scheduling tasks, monitoring progress, and conducting a retrospective meeting. Additionally, it promotes the use of the MindGenius tool for effective project planning and execution.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[17] -> url
+Text: https://www.slideshare.net/slideshow/the-six-step-guide-to-practical-project-management/58096360
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[18] -> displayTitle
+Text: Beginners Guide to TikTok for Search - Rachel Pearson - We are Tilt __ Bright...
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[18] -> strippedTitle
+Text: beginners-guide-to-tiktok-for-search-rachel-pearson-we-are-tilt-brightonseo-finalpdf
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[18] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/beginnersguidetotiktokforsearch-rachelpearson-wearetiltbrightonseofinal-230417082258-46a37be4-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[18] -> description
+Text: A presentation for absolute beginners who have never touched TikTok and may be a bit scared of it!
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[18] -> url
+Text: https://www.slideshare.net/slideshow/beginners-guide-to-tiktok-for-search-rachel-pearson-we-are-tilt-brightonseo-finalpdf/257430073
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[19] -> displayTitle
+Text: Unlocking the Power of ChatGPT and AI in Testing - A Real-World Look, present...
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[19] -> strippedTitle
+Text: unlocking-the-power-of-chatgpt-and-ai-in-testing-a-realworld-look-presented-by-applitools
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[19] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/unlockingthepowerofchatgptandaiintesting-areal-worldlook-230203032621-89df6bc6-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[19] -> description
+Text: The document discusses the application of ChatGPT and AI in software testing and programming, including its strengths and limitations. It covers ChatGPT's capabilities, such as code writing, refactoring, and debugging, and emphasizes the importance of human expertise in the software development life cycle. Additionally, it highlights various AI tools, potential pitfalls, and offers strategies for integrating AI into testing practices.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> featured[19] -> url
+Text: https://www.slideshare.net/slideshow/unlocking-the-power-of-chatgpt-and-ai-in-testing-a-realworld-look-presented-by-applitools/255675995
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[0] -> displayTitle
+Text: The State of the AI Economy - Exponential View
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[0] -> strippedTitle
+Text: the-state-of-the-ai-economy-exponential-view
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[0] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/ev-state-of-ai-economy-2026-260629061401-8b0f12cd-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[0] -> description
+Text: Source: https://intelligence.exponentialview.co/assets/ev-state-of-ai-economy-2026.pdf
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[0] -> url
+Text: https://www.slideshare.net/slideshow/the-state-of-the-ai-economy-exponential-view/288297836
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[1] -> displayTitle
+Text: Different functional features of ERTMS/ETCS B3R2 and B4R1 OBUs of different S...
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[1] -> strippedTitle
+Text: different-functional-features-of-ertms-etcs-b3r2-and-b4r1-obus-of-different-svs-envelopes
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[1] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/04jmarekazdvlastnostiobuetcsb3r2ab4r1entransl-260623205013-8246775c-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[1] -> description
+Text: Presentation about the differences between the ETCS OBU B3R2 vs. B4R1 of various system versions (full and reduced envelopes) as per the latest CCS TSI (EU) 2026/693. The presentation was given at the occasion of the seminar called "K aktuálním problémům zabezpečovací techniky v dopravě XIX" ("On current problems of signalling systems in transport XIX"), organised by the Faculty of Electrical Engineering, ZČU v Plzni (University of West Bohemia, Pilsen), 2nd June 2026. [https://zabtech.zcu.cz/zabtech_2026.php]
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[1] -> url
+Text: https://www.slideshare.net/slideshow/different-functional-features-of-ertms-etcs-b3r2-and-b4r1-obus-of-different-svs-envelopes/288211612
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[2] -> displayTitle
+Text: Comprehensive Guide to Gmail Accounts: Communication, Security, and Productivity
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[2] -> strippedTitle
+Text: comprehensive-guide-to-gmail-accounts-communication-security-and-productivity
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[2] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/33bestplatformsforbuyingoldgmailaccounts20-260626141634-a5e24793-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[2] -> description
+Text: Explore Gmail's features, security measures, business and personal uses, productivity tools, and best practices for managing multiple accounts effectively in this detailed guide.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[2] -> url
+Text: https://www.slideshare.net/slideshow/comprehensive-guide-to-gmail-accounts-communication-security-and-productivity/288265244
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[3] -> displayTitle
+Text: Top RWA Tokenization Platform Development Companies in 2026: Leading Blockcha...
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[3] -> strippedTitle
+Text: top-rwa-tokenization-platform-development-companies-in-2026-leading-blockchain-innovators
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[3] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/rwatokenizationcompanies2026clean-260624140129-f9dfb014-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[3] -> description
+Text: Explore the top 11 companies revolutionizing real-world asset tokenization on blockchain, including market trends, compliance, and platform capabilities for real estate, commodities, bonds, and more.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[3] -> url
+Text: https://www.slideshare.net/slideshow/top-rwa-tokenization-platform-development-companies-in-2026-leading-blockchain-innovators/288225926
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[4] -> displayTitle
+Text: June 2026 OpenMetadata Community Spotlight - OpenMetadata & Tabby.pdf
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[4] -> strippedTitle
+Text: june-2026-openmetadata-community-spotlight-openmetadata-tabby-pdf
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[4] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/tabbyxopenmetadata-260624182253-79075545-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[4] -> description
+Text: These slides are from OpenMetadata's June 2026 Community Meetup that took place on Wednesday, June 24, 2026 @ 9:00 AM PST. 
+
+Catch the next OpenMetadata Community Meetup @
+
+https://luma.com/collate
+
+Maksim Zolotarev, Head of Data Platform & ML at Tabby, will join us! At Tabby, Maksim is responsible for the development of the corporate Data Platform, which includes services and technologies for managing every stage of the data lifecycle. The Data Platform engineering teams place significant emphasis on the metadata and observability layers. OpenMetadata successfully combines everything needed to build a modern data catalog with the ability to leverage continuously accumulated knowledge through LLM tools and AI systems.
+
+
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[4] -> url
+Text: https://www.slideshare.net/slideshow/june-2026-openmetadata-community-spotlight-openmetadata-tabby-pdf/288229976
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[5] -> displayTitle
+Text: Top Data Center Projects in Hong Kong Driving AI and Cloud Growth by 2026
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[5] -> strippedTitle
+Text: top-data-center-projects-in-hong-kong-driving-ai-and-cloud-growth-by-2026
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[5] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/topdatacenterprojectsinhongkong-260624073944-1a9d46cb-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[5] -> description
+Text: Overview of major data center developments in Hong Kong focusing on AI, cloud computing, hyperscale infrastructure, and regional digital transformation through 2026.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[5] -> url
+Text: https://www.slideshare.net/slideshow/top-data-center-projects-in-hong-kong-driving-ai-and-cloud-growth-by-2026/288219817
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[6] -> displayTitle
+Text: Non consensual sexual acts with neural devices.pdf
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[6] -> strippedTitle
+Text: non-consensual-sexual-acts-with-neural-devices-pdf
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[6] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/nonconsensualsexualactswithneuraldevices-260626004844-e682d0b5-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[6] -> description
+Text: An independent forensic examination of how Stevenson Charles's The Evolution of
+Human Rights in the Context of Biotechnology (Zenodo, 2026) applies to the
+documented use of neural interface technologies — brain-computer interfaces,
+neurostimulation, and remote neural modulation — deployed without consent for the
+purpose of sexual violation.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[6] -> url
+Text: https://www.slideshare.net/slideshow/non-consensual-sexual-acts-with-neural-devices-pdf/288254404
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[7] -> displayTitle
+Text: Certificate Of Completion, Anthropic Building with the Claude API
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[7] -> strippedTitle
+Text: certificate-of-completion-anthropic-building-with-the-claude-api
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[7] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/certificateofcompletionbuildingwiththeclaudeapi-260623175334-c116f79a-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[7] -> description
+Text: Certificate Of Completion, Anthropic Building with the Claude API
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[7] -> url
+Text: https://www.slideshare.net/slideshow/certificate-of-completion-anthropic-building-with-the-claude-api/288209793
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[8] -> displayTitle
+Text: Ratul Puri on AI and Sustainable Energy | Optimizing Energy Consumption for a...
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[8] -> strippedTitle
+Text: ratul-puri-on-ai-and-sustainable-energy-optimizing-energy-consumption-for-a-net-zero-future
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[8] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/ratulpuri3-260624103427-95f808aa-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[8] -> description
+Text: Explore how AI is transforming energy management, improving grid efficiency, integrating renewable energy, reducing emissions, and accelerating the net-zero transition. Insights from Ratul Puri on the future of sustainable energy.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[8] -> url
+Text: https://www.slideshare.net/slideshow/ratul-puri-on-ai-and-sustainable-energy-optimizing-energy-consumption-for-a-net-zero-future/288222440
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[9] -> displayTitle
+Text: Certificate Of Completion, Anthropic Claude Platform 101
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[9] -> strippedTitle
+Text: certificate-of-completion-anthropic-claude-platform-101
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[9] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/certificateofcompletionclaudeplatform101-260624131322-d3fda525-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[9] -> description
+Text: Certificate Of Completion, Anthropic Claude Platform 101
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[9] -> url
+Text: https://www.slideshare.net/slideshow/certificate-of-completion-anthropic-claude-platform-101/288225065
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[10] -> displayTitle
+Text: AZ-400 Exam Dumps Designed for Modern Microsoft DevOps Certification Success
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[10] -> strippedTitle
+Text: az-400-exam-dumps-designed-for-modern-microsoft-devops-certification-success
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[10] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/az-400examdumps-260623102322-8f21d31f-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[10] -> description
+Text: Prepare efficiently with AZ-400 exam questions, Designing and Implementing Microsoft DevOps Solutions dumps, and comprehensive study resources.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[10] -> url
+Text: https://www.slideshare.net/slideshow/az-400-exam-dumps-designed-for-modern-microsoft-devops-certification-success/288203445
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[11] -> displayTitle
+Text: Advanced GEO Intelligence: Integrating Maps, APIs, and AI for Enhanced Geospa...
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[11] -> strippedTitle
+Text: advanced-geo-intelligence-integrating-maps-apis-and-ai-for-enhanced-geospatial-analysis
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[11] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/geointelligencepipelinecomponentsekon30-260624160731-7ff539ce-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[11] -> description
+Text: Explore GEO intelligence pipelines combining maps, object detection, OCR, translation, and geospatial APIs for powerful inference and application development using Delphi, Python, and open-source tools.
+This session showcases the field of geoinformation analysis (GEOINT) and its integration with AI, known as GeoAI.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[11] -> url
+Text: https://www.slideshare.net/slideshow/advanced-geo-intelligence-integrating-maps-apis-and-ai-for-enhanced-geospatial-analysis/288228122
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[12] -> displayTitle
+Text: How openSUSE Works: Inside the Community‑Driven Ecosystem
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[12] -> strippedTitle
+Text: how-opensuse-works-inside-the-community-driven-ecosystem
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[12] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/howopensuseworks-googleslides-260626173154-1eb603b9-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[12] -> description
+Text: This presentation provides a concise, beginner‑friendly overview of the openSUSE ecosystem. It presents openSUSE as a community‑driven Linux platform with two complementary release models: Leap, focused on long‑term stability and predictable updates, and Tumbleweed, a rolling release that delivers the latest upstream software.
+
+The deck also introduces the core infrastructure that underpins both variants: the Open Build Service (OBS) for reproducible package and image builds, openQA for comprehensive automated testing, plus YaST as the central installation and system configuration tool.
+
+Together, these slides show how openSUSE’s releases and tooling form an integrated pipeline from source code to end‑user systems, emphasizing the project’s focus on reliability, flexibility, as well as open community collaboration.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[12] -> url
+Text: https://www.slideshare.net/slideshow/how-opensuse-works-inside-the-community-driven-ecosystem/288268190
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[13] -> displayTitle
+Text: VinomTV Review 2026 – Features, Streaming Quality & IPTV Guide
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[13] -> strippedTitle
+Text: vinomtv-review-2026-features-streaming-quality-iptv-guide
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[13] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/livesportsevents-260629001457-7692e697-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[13] -> description
+Text: Learn about VinomTV, one of the leading IPTV services in 2026. This presentation covers its key features, streaming quality, supported devices, Video on Demand (VOD), Electronic Program Guide (EPG), sports coverage, and overall user experience. Explore whether VinomTV is the right IPTV solution for your entertainment needs
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[13] -> url
+Text: https://www.slideshare.net/slideshow/vinomtv-review-2026-features-streaming-quality-iptv-guide/288293459
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[14] -> displayTitle
+Text: LLM SEO Agency for SaaS: AI Visibility Across the Buyer Journey
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[14] -> strippedTitle
+Text: llm-seo-agency-for-saas-ai-visibility-across-the-buyer-journey
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[14] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/llmseoforsaasbuildingaivisibilitythroughoutthecustomerjourney-260624125011-8dca7fb3-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[14] -> description
+Text: SaaS brands lose deals before sales speaks to anyone. Here is what a specialist LLM SEO agency for SaaS does to fix that across every stage of the customer journey.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[14] -> url
+Text: https://www.slideshare.net/slideshow/llm-seo-agency-for-saas-ai-visibility-across-the-buyer-journey/288224710
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[15] -> displayTitle
+Text: Inside the Firewall: MCP-Powered Paths to Enterprise AI That Respect Your Data
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[15] -> strippedTitle
+Text: inside-the-firewall-mcp-powered-paths-to-enterprise-ai-that-respect-your-data
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[15] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/insidethefirewallmcppoweredpathstoenterpriseaijun23-260623194646-142d57b1-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[15] -> description
+Text: Explore how FME and MCP enable secure, on-premises AI workflows that validate, shield, and manage sensitive data within your infrastructure, ensuring compliance and control over enterprise AI integration.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[15] -> url
+Text: https://www.slideshare.net/slideshow/inside-the-firewall-mcp-powered-paths-to-enterprise-ai-that-respect-your-data/288210978
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[16] -> displayTitle
+Text: Comprehensive Cybersecurity, IT Infrastructure, and Cloud Solutions by Hem In...
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[16] -> strippedTitle
+Text: comprehensive-cybersecurity-it-infrastructure-and-cloud-solutions-by-hem-infotech
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[16] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/heminfotechbrochure-260623071852-3deb3fe0-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[16] -> description
+Text: Hem Infotech offers end-to-end cybersecurity, cloud services, IT infrastructure management, and compliance solutions tailored for enterprises, SMEs, and government organizations to ensure resilience and business continuity.
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[16] -> url
+Text: https://www.slideshare.net/slideshow/comprehensive-cybersecurity-it-infrastructure-and-cloud-solutions-by-hem-infotech/288200624
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[17] -> displayTitle
+Text: Threat and Vunerability report march-2026
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[17] -> strippedTitle
+Text: threat-and-vunerability-report-march-2026
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[17] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/2026-03-260623104121-7be8fc7f-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[17] -> description
+Text: March 2026 marked another significant month in the evolving cybersecurity landscape, characterized by active exploitation of critical vulnerabilities, persistent ransomware operations, and the disclosure of high-impact security flaws affecting widely deployed technologies. Organizations across industries faced increasing pressure to strengthen defenses as threat actors continued to capitalize on both newly discovered and previously known vulnerabilities.
+
+A total of 26 vulnerabilities were added to the Cybersecurity and Infrastructure Security Agency's Known Exploited Vulnerabilities (KEV) Catalog during the month, reflecting ongoing real-world attacks targeting widely used software and hardware platforms. Apple accounted for the largest number of newly cataloged vulnerabilities, followed by Google and Microsoft. Additional affected vendors included Craft CMS, Ivanti, Broadcom, Qualcomm, Langflow, Laravel, and SolarWinds, demonstrating that exploitation activity extended across enterprise applications, infrastructure platforms, and consumer technologies.
+
+Beyond KEV additions, threat researchers reported active exploitation campaigns targeting multiple technology ecosystems. Security researchers identified attacks leveraging vulnerabilities in Apple products through sophisticated exploit chains, including activity associated with the Coruna exploit kit. Separately, Fortinet security appliances were targeted in campaigns attributed to the MuddyWater threat group, highlighting the continued focus on network security infrastructure as a high-value attack vector.
+
+Ransomware remained one of the most disruptive threats throughout March. Qilin ransomware emerged as the most active group, claiming responsibility for attacks against 131 organizations. Akira ransomware followed with 71 affected organizations, while NightSpire ransomware targeted 57 organizations. DragonForce and IncRansom also ranked among the most active ransomware operators, reinforcing the persistence of financially motivated cybercrime across multiple sectors.
+
+Overall, March 2026 demonstrated that organizations must remain vigilant against both vulnerability exploitation and ransomware threats. The combination of rapidly weaponized vulnerabilities, sophisticated threat actor activity, and sustained ransomware operations underscores the importance of proactive vulnerability management, continuous monitoring, threat intelligence integration, and timely remediation efforts to reduce organizational risk and strengthen cyber resilience.
+
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[17] -> url
+Text: https://www.slideshare.net/slideshow/threat-and-vunerability-report-march-2026/288203769
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[18] -> displayTitle
+Text: Certificate Of Completion, Anthropic Claude 101
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[18] -> strippedTitle
+Text: certificate-of-completion-anthropic-claude_101
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[18] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/certificateofcompletionclaude101-260623174307-9921b3c8-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[18] -> description
+Text: Certificate Of Completion, Anthropic Claude 101
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[18] -> url
+Text: https://www.slideshare.net/slideshow/certificate-of-completion-anthropic-claude_101/288209733
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[19] -> displayTitle
+Text: CopilotStudio_Agent | Udaiappa Ramachandran
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[19] -> strippedTitle
+Text: copilotstudio_agent-udaiappa-ramachandran
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[19] -> thumbnail
+Text: https://cdn.slidesharecdn.com/ss_thumbnails/copilotstudioagent-260627041140-ef9f73d9-thumbnail.jpg?width=640&height=640&fit=bounds
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[19] -> description
+Text: A practical, developer-focused walkthrough of building and integrating AI agents with Microsoft Copilot Studio — from your first no-code agent to autonomous, multi-agent systems. The deck covers the full Copilot Studio capability set, licensing and consumption models, and the three ways to connect agents to external apps: the Direct Line API, the Microsoft 365 Agents SDK (the recommended default for employee-facing apps, with built-in Entra ID SSO and Tenant Graph Grounding), and the Microsoft Agent Framework for multi-agent orchestration. Includes side-by-side C# and Python integration examples, an architecture call-flow diagram, an integration-path comparison, channel publishing (Teams, Web, custom), authentication and security best practices, and a live-demo walkthrough. Runnable .NET and Python sample apps included.
+
+By Udaiappa Ramachandran (Udai) — CTO/CSO @ Akumina, Microsoft MVP (AI).
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> recommendationsByLocation -> latest[19] -> url
+Text: https://www.slideshare.net/slideshow/copilotstudio_agent-udaiappa-ramachandran/288272187
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> slides -> host
+Text: https://image.slidesharecdn.com
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> slides -> title
+Text: 2026-Day-1-Introduction-to-Agents-Vibe-Coding-Google-AI-Agents-Course-pptx
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> slides -> imageLocation
+Text: 2026day1-introductiontoagentsvibecoding-googleaiagentscourse-260625213217-8f5d43ff
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> user -> photo
+Text: https://cdn.slidesharecdn.com/profile-photo-vsivakumarmca1-48x48.jpg?cb=1782423431
+--------------------------------------------------
+Path: props -> pageProps -> slideshow -> user -> profileUrl
+Text: https://www.slideshare.net/vsivakumarmca1
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> actions -> copyTextError
+Text: Failed to copy the text. Please try again!
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> actions -> saveError
+Text: Unable to save this item at this time.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> actions -> noSavedLists
+Text: You don't have any lists created yet.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> ads -> skipCountdown
+Text: You can skip to the next slide in
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> adsForAccess -> description
+Text: Subscribe to read and download this presentation
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> adsForAccess -> adCompleteMessage
+Text: Read this slide once the ad is complete
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> adBlockInterstitial -> title2
+Text: please disable your ad blocker.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> adBlockInterstitial -> message
+Text: Hate ads? Join Scribd to browse Slideshare and Scribd ad-free.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> converted -> description
+Text: Content is converted to PPTX. Layout may be affected.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> download -> success
+Text: Your Slideshare is downloading.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> download -> subscriptionRequired
+Text: A subscription is required to download this presentation.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> download -> loginRequired
+Text: Login to Slideshare to download.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> download -> genericError
+Text: This presentation cannot be downloaded right now. Please try again.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> downloadModal -> amongKnowledgeSeekers
+Text: You’re among 70M+ knowledge seekers on the world’s largest platform for creating and sharing presentations.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> downloadModal -> complimentaryAccess
+Text: Enjoy complimentary access to Scribd's 195M+ docs
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> downloadModal -> copyTextBuildNextBigIdea
+Text: Copy text to build your next big idea
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> downloadModal -> copyTextSparkNextBigIdea
+Text: Copy text from slides to spark your next big idea
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> downloadModal -> downloadAccessFavoritesAnytime
+Text: Download and access your favorites anytime
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> downloadModal -> knowledgeSeekersTrustSlideshare
+Text: 70M+ knowledge seekers trust Slideshare.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> downloadModal -> presentationsOnAnyTopic
+Text: 195M+ presentations on any topic
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> metadata -> aiTag -> descriptionTooltip
+Text: Leveraging AI technology, we've optimized the description for improved clarity.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> metadata -> aiTag -> titleTooltip
+Text: Leveraging AI technology, we've optimized the title for improved clarity.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> metadata -> aiTag -> titleAndDescriptionLabel
+Text: AI-enhanced title and description
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> metadata -> aiTag -> titleAndDescriptionTooltipTitle
+Text: AI-Enhanced Title and Description
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> metadata -> aiTag -> titleAndDescriptionTooltip
+Text: Leveraging AI technology, we've optimized the title and description for improved clarity.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> metadata -> category -> description
+Text: View the featured presentations, documents and infographics in the
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> metadata -> slideshowPage -> descriptionDownloadFormatViewFree
+Text: Download as a {formatTypes} or view online for free
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> navigation -> slidePreviewLabel
+Text: Slide {slideNumber} of {totalSlides}
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> navigation -> slideCountOfTotalCount
+Text: <span data-cy='current-slide-number' class='current-slide-number j-current-slide'>{slideCount}</span> of <span class='total-slides j-total-slides'>{totalCount}</span>
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> payNow -> continueReadingAdFreeOrUpgrade
+Text: Continue reading ad-free with your trial or upgrade to a subscription to download hundreds of documents.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> payNow -> downloadHundredsOfDocuments
+Text: Download hundreds of presentations. Read ad-free. Access to Scribd, Slideshare, and Everand.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> payNow -> thereWasAnIssueWithPaymentHtml
+Text: There was an issue with your payment method. <a href="{resubscribePath}">Update payment details</a> to continue.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> payNow -> youWillBeBilled
+Text: You will be billed {amount} today
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> payNow -> zeroDownloadsRemaining
+Text: 0 free downloads remaining in your trial
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> saveToDrive -> modal -> connectYourGoogleAccount
+Text: Connect your Google account to save to Drive
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> saveToDrive -> modal -> tryAgainError
+Text: Something went wrong connecting Google Drive. Please try again.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> saveToDrive -> success
+Text: Your Slideshare is saved to your Google Drive
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> saveToDrive -> errors -> didntFinishConnecting
+Text: You didn't finish connecting Google Drive. Try again.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> saveToDrive -> errors -> generic
+Text: This Slideshare cannot be downloaded
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> rewriteAi -> titleLabel
+Text: AI commands for slide {slideNumber}
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> rewriteAi -> disclaimer
+Text: This feature is powered by OpenAI and may make mistakes. Check important info.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> rewriteAi -> inputPlaceholder
+Text: “Rewrite in a way that’s easier to understand”
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> rewriteAi -> welcomeDescription
+Text: Select any slide to extract key points or adapt into unique content for your own presentations. 
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> rewriteAi -> welcomeDescriptionDoc
+Text: Select any page to extract key points or adapt into unique content for your own documents. 
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> rewriteAi -> predefinedIntro
+Text: What would you like to do with this slide’s content? Pick a preset or enter your own prompt.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> rewriteAi -> predefinedIntroDoc
+Text: What would you like to do with this page's content? Pick a preset or enter your own prompt.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> rewriteAi -> audiencePrompts -> title
+Text: Who is your audience? Choose an option below or enter your own.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> rewriteAi -> suggestionPillsTitle
+Text: What would you like to do next?
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> rewriteAi -> loading
+Text: Analyzing the slide and crafting your response
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> rewriteAi -> loadingDoc
+Text: Analyzing the page and crafting your response
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> rewriteAi -> errors -> limitReached
+Text: You've reached your daily limit for prompts. To ensure fair usage, we limit the number of rewrites per day. You can try again tomorrow.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> rewriteAi -> errors -> invalidPrompt
+Text: Invalid entry. Please revise your prompt or choose a suggested revision below.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> rewriteAi -> errors -> generic
+Text: Sorry, we're having technical difficulties. Please try again later.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> error -> unsave
+Text: We couldn't remove from your saved items
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> error -> privacyExplanation
+Text: This content has been marked as private by the uploader.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> error -> fileProtected
+Text: This file is password protected.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> error -> privateContentMessage
+Text: This uploaded file has been marked private by the author. Sorry!
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> error -> removedContentMessage
+Text: The uploaded content has been removed and is no longer available.
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> saveToNewListModal -> listNameInputLabel
+Text: What would you like to name this list?
+--------------------------------------------------
+Path: props -> pageProps -> messages -> slideshow -> saveToNewListModal -> error
+Text: We couldn't save this item to {listname}
+--------------------------------------------------

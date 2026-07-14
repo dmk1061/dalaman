@@ -1,0 +1,2173 @@
+{
+  "props": {
+    "pageProps": {
+      "device": {
+        "isMobile": false,
+        "isBot": true,
+        "htmlClass": "is-bot"
+      },
+      "locale": "en",
+      "name": "slideshow",
+      "categories": [
+        {
+          "id": "3",
+          "name": "Business",
+          "description": "Our broad collection of business ppts covers every business topic imaginable — all to help you stay informed, showcase your expertise, and expand your knowledge. Learn valuable information in a fraction of the time with concise, well-presented content from top experts Explore our library of business presentations to learn fascinating new perspectives today.\n\nFrom management to marketing, technology, and more, you'll find business presentations on the key areas that matter most to organizational success. Popular topics include strategy, leadership, entrepreneurship, sales, HR, finance, and more. So whether you need to get up to speed on the latest industry trends, learn new technologies, or gain insights from top experts, our business slideshows help you build your knowledge quickly — without scrolling through pages of text.\n\nSlideshare has everything you need to stand out and succeed in business, regardless of whether you’re running your own company, in school, or looking to rise through the ranks. Explore everything from organizational leadership principles and approaches to strategic planning, to marketing growth strategies, product innovation, and business development. Technical topics like AI, data analytics, cybersecurity, and software are also well-represented.\n\nAnd, if you’re looking to stand out from the crowd, demonstrate what you know about business by uploading a presentation, infographic, document, or video to Slideshare. Doing so helps you build your reputation with the right audience and cultivate more professional opportunities.",
+          "url": "business",
+          "isFeatured": true
+        },
+        {
+          "id": "35",
+          "name": "Mobile",
+          "description": "Our wide collection of mobile presentations covers the latest trends and technologies to help you stay ahead of the curve. Quickly absorb content about mobile apps, buyer insights, and games — all developed by top experts. Explore our mobile slideshows and documents now to skill up and expand your knowledge.\n\nFrom topics like 5G, IoT, augmented reality, app development, and beyond, there is something for everyone in our extensive library of mobile presentations. Popular subcategories include mobile security, marketing, mobile design, monetization strategies, and user engagement.\n\nSo whether you need to learn about mobile AI, skill up on IoT integration, or gain insights on the future of smartphones, our mobile slideshows have you covered. You can explore everything from app prototyping methods to measuring ROI for mobile campaigns. Access technical topics like cross-platform development, DevOps for mobile, and telecom infrastructure — right at your fingertips.\n\nSlideshare’s mobile presentations and documents empower you to stay ahead, no matter which stage of your career you’re in. Product managers can learn about maximizing user engagement and retention. Marketers can unlock growth strategies specific to mobile. App developers can absorb new frameworks and languages. Aspiring startup founders gain wisdom on the current market. Enthusiasts can learn about new tech and exciting features. The opportunities for learning are endless.\n\nWith millions of uploads, Slideshare is your go-to resource for digestible mobile presentations. The best part? Thought leaders and industry experts provide insider perspectives you won't find anywhere else.",
+          "url": "mobile",
+          "isFeatured": true
+        },
+        {
+          "id": "25",
+          "name": "Social Media",
+          "description": "Slideshare offers a broad collection of social media presentations covering the latest trends, strategies, and best practices to help you stay ahead of the curve. Don't miss this opportunity to access our extensive library of social media marketing ppts and expand your knowledge today. \n\nWith millions of uploads, Slideshare is your go-to resource for easy-to-digest social media knowledge. You'll find social media ppts on influencer marketing, social advertising, improving organic reach, content creation, and more. Popular subcategories dive deep into tactics for Facebook, Instagram, YouTube, X, TikTok, and every other major platform.\n\nSo whether you need to learn the latest social listening techniques, brush up on your paid social skills, or gain insights from industry leaders, Slideshare has you covered. The range of topics spans social strategy, community management, performance measurement, and beyond.\n\nThe best part? Our social media presentations empower digital marketers at any career stage. Junior marketers can get up to speed on social media fundamentals. Agency pros can unlock new growth levers and high-impact tactics. Founders can learn the importance of social media to their overall business strategy. The opportunities for learning are endless.\n\nThere’s truly something for everyone in Slideshare’s library of social media ppts. Learning something new and valuable has never been easier — whether you’re studying for an exam, doing research for work, or expanding your mind during your daily commute. Log in to begin expanding your knowledge today.",
+          "url": "Social-Media",
+          "isFeatured": true
+        },
+        {
+          "id": "24",
+          "name": "Marketing",
+          "description": "Slideshare is your go-to resource for concise and digestible marketing presentations. Our extensive collection of marketing content — created by top experts — equips you with the latest tactics and strategies to accelerate your career. Explore our assortment of marketing ppts now to expand your knowledge and stay ahead of the curve.\n\nOur library of marketing presentations covers topics like SEO, content marketing, email marketing, and more — all to help you learn valuable information in a fraction of the time. Popular subcategories dive deep into topics like paid search, Google Analytics, branding, and other key disciplines.\n\nSo when it comes to learning the latest algorithm updates, getting familiar with generative AI, or gaining valuable insights from industry leaders, Slideshare has you covered. You can explore everything from audience targeting and segmentation to measuring campaign ROI and other KPIs.\n\nMarketing professionals at any career stage can learn and grow through our marketing ppts. Entry-level marketers can get up to speed on industry trends. Senior professionals can discover concepts that keep their knowledge sharp. The opportunities for advancing your marketing skills are endless.\n\nWith millions of uploads, Slideshare is your go-to resource for marketing know-how. So whether you’re looking to learn how to market your own products or services, or you’re hungry for new perspectives in your chosen industry, our library of presentations has something for everyone. Sign up to get started today.",
+          "url": "Marketing",
+          "isFeatured": true
+        },
+        {
+          "id": "16",
+          "name": "Technology",
+          "description": "Our impressive library of technology presentations helps technology enthusiasts and professionals alike discover the latest advancements and innovations. Explore our insightful technology ppts about generative AI, virtual reality, the future of work, and more to boost your tech knowledge today.\n\nFrom machine learning to cloud computing, blockchain technology, and more, you'll find useful technology ppts on the areas that matter most to the future of how we live and work. Popular subcategories include data science, AR/VR, robotics, open source software, and other fascinating areas.\n\nSo whether you need to get up to speed on emerging trends, learn new frameworks, or gain insights from top experts, our technology presentations help you build your knowledge quickly — without scrolling through pages of text. Stay on the cutting edge of agile principles, DevOps, data science, and beyond.\n\nWith millions of uploads, Slideshare offers immense value to technology enthusiasts and professionals alike. All content is created by top experts, meaning you’ll access insider perspectives — on everything from the ethics of AI to real-world applications of new tech — that you won't find anywhere else.\n\nIt’s easier than ever to stay on top of the latest developments in technology. Plus, learning doesn’t have to be boring or time consuming. Learn a new skill, expose yourself to new perspectives, and connect with like-minded peers on Slideshare. Sign up to get started today.",
+          "url": "technology",
+          "isFeatured": true
+        },
+        {
+          "id": "14",
+          "name": "Art & Photos",
+          "description": "Our wide collection of art presentations and photography slideshows covers topics in visual media to help artists, photographers, and creatives learn new techniques and skills. Discover new fields or consider fresh perspectives on familiar subjects. Take advantage of our art and photography content to sharpen your skills and grow your expertise today.\n\nSlideshare offers an impressive range of art slideshows and photography presentations covering topics like drawing, painting, graphic design, filmmaking, interior design, and more. Popular subcategories explore specific mediums and disciplines like watercolor, acrylics, oil painting, digital illustration, landscape photography, portraiture, and beyond.\n\nSo whether you need to learn new artistic techniques, advance your photography skills, or gain insights from industry experts, Slideshare has you covered. You can explore everything from composition and color theory to lighting techniques, post-processing workflows, enhancing your portfolio, and more.\n\nThe art presentations and photography slideshows on Slideshare empower visual creatives to stay inspired and improve their skills. Artists can discover new mediums and subjects. Photographers can brush up on the latest gear and software. Graphic designers can gain wisdom from senior pros. With millions of uploads, Slideshare offers immense value to anyone in the creative space looking to progress.\n\nVisual presentations make learning engaging, without scrolling through pages of text. Don’t be afraid to experiment with new styles, master classic techniques, or curate a beautiful portfolio. It’s all available at your fingertips with Slideshare. Log in to learn something new today.",
+          "url": "art-photos",
+          "isFeatured": true
+        },
+        {
+          "id": "4",
+          "name": "Career",
+          "description": "Our sizable collection of career presentations cover professional development, workplace skills, leadership, productivity, and more to help professionals at all stages progress and advance their careers. Explore our library of career content to take your professional growth to the next level today.\n\nFrom leadership to productivity, communication, networking, and more, you'll find career ppts on the key areas that matter most to putting your career on the fast track. Popular topics include emotional intelligence, public speaking, collaboration, interview prep, and other crucial professional skills.\n\nSo whether you need to improve your resume, motivate your team, or gain insights from industry thought leaders, Slideshare has you covered. You can explore everything from work-life balance and professional etiquette to how leadership styles impact company culture.\n\nThe career presentations on Slideshare offer immense value to professionals at any level. Aspiring managers can strengthen their soft skills. Senior leaders can keep their approaches fresh. Job seekers can learn to showcase their strengths. With millions of uploads, the opportunities for professional development are truly endless on Slideshare.\n\nLearn how to become a stronger communicator, coach your team members, and make strategic decisions. Plus, if you’re looking to stand out, show what you know by uploading a presentation, infographic, document, or video to Slideshare. Doing so helps you build your reputation with the right audience and cultivate more professional opportunities. Sign up to get started today.",
+          "url": "career",
+          "isFeatured": true
+        },
+        {
+          "id": "5",
+          "name": "Design",
+          "description": "Our extensive collection of design presentations explores trends, techniques, and best practices across all design disciplines to help you improve your skills and stay inspired. Dive into our rich collection of design content to enhance your creativity today.\n\nCovering topics like graphic design, UI/UX, product design, interior design, architecture, fashion design, and more, our impressive range of design ppts has something for everyone. Popular subcategories dive deep into specific areas like branding, typography, app design, packaging, and other design-centric fields.\n\nSo whether you need to learn the latest design software, stay up-to-date on industry trends, or gain insights from top experts, Slideshare has you covered. You can explore everything from color theory and design psychology to prototyping methods, portfolio development, and beyond.\n\nThe design presentations on Slideshare offer immense value to professionals across creative industries. Graphic designers can find inspiration for new projects. Product designers can learn emerging techniques. Interior decorators can showcase their signature styles. The opportunities for creative growth are endless.\n\nWith millions of uploads, Slideshare provides a wealth of design knowledge to professionals and enthusiasts alike. The best part? You get access to insider perspectives on creative processes, new technologies, and innovative techniques that you won't find anywhere else.\n\nIt’s easy to enrich your skills, find new sources of inspiration, and connect with like-minded peers on Slideshare. Sign up today to get started.",
+          "url": "design",
+          "isFeatured": true
+        },
+        {
+          "id": "6",
+          "name": "Education",
+          "description": "Slideshare is your go-to resource for easy-to-digest education presentations. Covering topics like teaching methods, learning strategies, education technology, and more, our education ppts help educators and students alike enhance their knowledge and skills. Explore our education content to take your teaching and learning to new heights today.\n\nOur extensive range of education slideshows explore topics like pedagogy, curriculum design, classroom management, and more. Popular subcategories dive deep into specific areas like special education, early childhood education, STEM education, and other crucial areas.\n\nSo whether you need to learn about blended learning models, student engagement strategies, or gain insights from education thought leaders, Slideshare has you covered. You can explore everything from project-based learning and literacy, to homeschooling approaches, classroom setup, and beyond.\n\nThe education presentations on Slideshare offer immense value to teaching professionals at all levels. New teachers can find lesson plans and activities. Veteran educators can refresh their approaches and tools. Administrators can stay up-to-date on the latest education research and trends. With millions of uploads, the opportunities for professional development are truly endless.\n\nAccess insider perspectives on teaching methods, new technologies, and student engagement that you won't find anywhere else. Supplement your studies, discover new ideas, or expose yourself to diverse perspectives from anywhere you have an internet connection. It’s all available on Slideshare.",
+          "url": "education",
+          "isFeatured": true
+        },
+        {
+          "id": "36",
+          "name": "Presentations & Public Speaking",
+          "description": "With a large library of public speaking presentations, Slideshare empowers you to enhance your presentation abilities and truly connect with your audience. Learn to become a stronger presenter by brushing up on your storytelling and pitching skills. Tap into our rich collection today to take your public speaking chops to the next level.\n\nOur wide range of public speaking ppts covers topics like slide design, body language, managing nerves, and more. Popular subcategories explore specific skills like crafting winning pitches, leading impactful Q&As, using humor effectively, and other essential presentation abilities.\n\nSo whether you need to capture attention, inspire an audience, or gain insights from thought leaders, Slideshare has you covered. You can explore everything from vocal techniques to sales presentation strategies, visual storytelling, and beyond.\n\nThe public speaking presentations on Slideshare offer immense value to professionals of all levels. Aspiring speakers can strengthen their confidence and poise. Seasoned presenters can polish up their skills. Leaders can share their wisdom through compelling talks. With millions of uploads, the opportunities for professional growth are truly endless.\n\nLearn to craft compelling stories, design visually engaging slides, and ultimately become a more confident, charismatic presenter. Your next learning opportunity is only a click away — sign up to learn something new today.",
+          "url": "presentations-public-speaking",
+          "isFeatured": false
+        },
+        {
+          "id": "30",
+          "name": "Government & Nonprofit",
+          "description": "Stay current on public policy, social impact, philanthropy, and more with our collection of government presentations and nonprofit ppts. This invaluable content will help you create change and hone your expertise. Discover opportunities to take your knowledge to the next level by exploring our slideshows today.\n\nSlideshare offers an extensive range of government ppts and nonprofit presentations covering topics like budget analysis, program evaluation, public health, social services, and more. Popular subcategories explore city planning, economic policy, education, poverty reduction, and other critical focus areas.\n\nSo whether you need to gain insights on legislative issues, nonprofit management strategies, or various social causes, Slideshare has you covered. You can explore everything from public finance and open government initiatives to grant writing best practices and nonprofit branding.\n\nThe government presentations and nonprofit slideshows on Slideshare offer immense value to public sector professionals of all stripes. Policy analysts can share research to shape decisions. Fundraisers can showcase initiatives to attract donors. Social workers can highlight programs to get community support. With millions of uploads, the opportunities to drive awareness and change are endless.\n\nAccessing knowledge is easier than ever. Learn to engage stakeholders, demonstrate impact, and ultimately fulfill your mission as a changemaker. Sign up for Slideshare to start learning today.",
+          "url": "government-nonprofit",
+          "isFeatured": false
+        },
+        {
+          "id": "31",
+          "name": "Healthcare",
+          "description": "Our extensive collection of healthcare presentations covers medical research, new technologies, public health initiatives, and more to help you stay up-to-date and provide better care. Don't miss this opportunity to access the latest healthcare content and enhance your skills as a medical professional — explore today!\n\nOur wide range of healthcare presentations cover topics like new treatments and technologies, disease management, hospital administration, and more. Popular subcategories explore nursing, pharmacy, nutrition, mental health, pediatrics, surgery, and other critical healthcare fields.\n\nSo whether you need to learn about the latest cancer therapies, COVID-19 research, advances in telemedicine, or gain insights from leading medical experts, Slideshare has you covered. You can explore everything from evidence-based medicine and clinical skills to healthcare policy, patient engagement, and beyond.\n\nThe healthcare presentations on Slideshare offer immense value to medical professionals across all specialties. Doctors can discover emerging best practices to improve patient care. Nurses can find new protocols and techniques for procedures. Researchers can showcase their study findings and get feedback from peers. With millions of uploads, the opportunities for advancing your expertise are truly endless.\n\nLearning leads to better care. Slideshare makes it easy to explore the latest medical knowledge and research. Learn to implement new approaches, stay up-to-date on innovations, and network with like-minded peers — anywhere you have an internet connection. Sign up today.",
+          "url": "healthcare",
+          "isFeatured": false
+        },
+        {
+          "id": "32",
+          "name": "Internet",
+          "description": "Stay ahead of the curve with our collection of internet presentations — covering web development, cybersecurity, and other emerging technologies. Well-structured and concise content makes it easy to absorb valuable information in a fraction of the time. Dive in today to expand your knowledge and take your skills to the next level.\n\nSlideshare offers an extensive range of internet ppts that explore digital marketing, artificial intelligence, IoT, cloud computing, and more. Popular subcategories dive into trending areas like SEO, data science, hacking prevention, and other critical tech skills.\n\nSo whether you need to learn about augmented reality, gain insights on blockchain technology, or discover how to leverage chatbots, Slideshare has you covered. You can explore everything from JavaScript frameworks and Python libraries to online privacy laws, 5G networks, robotics, and beyond.\n\nThe internet slideshows on Slideshare provide value to tech professionals across IT, marketing, and other roles. Developers can master new programming languages and tools. Digital marketers can optimize campaigns with cutting-edge tactics. Security analysts can implement protections against emerging cyberthreats. With millions of uploads, the opportunities for learning are truly endless.\n\nLearning something new doesn’t have to be boring or tedious. Visually-engaging slide decks mean you’ll absorb information faster. Learn to implement new tech, stay on top of industry developments, and showcase what you know — all on Slideshare. Sign up to learn something new today.",
+          "url": "internet",
+          "isFeatured": false
+        },
+        {
+          "id": "33",
+          "name": "Law",
+          "description": "Our extensive collection of law presentations and law powerpoints help legal professionals master new skills and stay up-to-date. Explore essential topics in legal research, case studies, litigation strategies, and more. Explore our library today to boost your expertise and take your legal career higher.\n\nSlideshare offers a comprehensive range of law presentations covering topics like litigation, contracts, intellectual property, employment law, corporate law, criminal law, and more. Popular subcategories dive deep into trending legal issues like data privacy, cannabis regulations, and other timely areas.\n\nSo whether you need to deepen your knowledge of family law, learn client advocacy tips, or stay updated on new legislation, Slideshare has you covered. You can explore everything from civil procedure and legal research to ethics compliance and law firm management.\n\nThe law powerpoints on Slideshare provide immense value to legal professionals at all levels. Law students can supplement their studies with case analyses. Paralegals can master procedural best practices. Attorneys can get insights on winning strategies from top litigators. With millions of uploads, the opportunities for professional development are truly endless.\n\nVisually-rich presentations will help you implement new techniques, learn from your peers, stay on top of changes in the law — in a fraction of the time. Access the latest legal knowledge and thought leadership on Slideshare. Sign up to get started today.",
+          "url": "law",
+          "isFeatured": false
+        },
+        {
+          "id": "34",
+          "name": "Leadership & Management",
+          "description": "An expansive library of leadership ppts and management presentations awaits you on Slideshare — covering team building, productivity, organizational culture, and more. Gain access to invaluable insights and perspectives to become a stronger leader. Learn to bring out the best in your team by exploring our collection of leadership insights today.\n\nSlideshare offers an extensive range of leadership presentations and management ppts that explore change management, conflict resolution, strategic planning, and more. Popular subcategories dive deep into leadership styles, performance management, delegation skills, negotiation tactics, and other key areas.\n\nSo whether you need to foster innovation, build trust, manage remote teams, or develop your emotional intelligence, Slideshare has you covered. You can explore everything from lean management principles and agile workflows, to diversity and inclusion initiatives, succession planning, and beyond.\n\nThe leadership ppts and management presentations on Slideshare provide value to professionals at all levels. New managers can learn best practices to lead their first team. Executives can get insights on digital transformation and organizational restructuring. Project managers can discover how to improve stakeholder engagement. With millions of uploads, the opportunities for leadership development are truly endless.\n\nLearn to implement useful changes, develop talent, showcase your vision — from wherever you have an internet connection. It’s never been easier to become a more inspiring and emotionally intelligent leader. Slideshare helps you get there.",
+          "url": "leadership-management",
+          "isFeatured": false
+        },
+        {
+          "id": "1",
+          "name": "Automotive",
+          "description": "Explore our wide-ranging library of automotive presentations, covering the latest models, emerging technologies, industry trends, and more. Access invaluable resources and documents to stay current and competitive. Enhance your knowledge and advance your career in the automotive industry by exploring our library today.\n\nExplore topics like new vehicle models, electric vehicles, repairs and maintenance, and more. Popular subcategories explore trending areas like self-driving cars, sustainability, auto manufacturing, customer experience, and other timely subjects.\n\nSo whether you want to gain insights into luxury brands, diagnose engine issues, optimize your service department, or analyze the latest safety technologies, Slideshare has you covered. You can explore everything from recall management and parts catalogs to sales strategies, digital marketing tactics, and more.\n\nThe automotive presentations on Slideshare provide immense value to professionals across roles. Automotive designers can discover new features and innovations. Mechanics can find step-by-step repair guides. Dealership staff can learn proven approaches to increase sales. With millions of uploads, the opportunities for professional development are endless.\n\nLooking to expand your thought leadership? Show what you know about the automotive industry by uploading a presentation, infographic, document, or video to Slideshare. Doing so helps you build your reputation with the right audience and cultivate more professional opportunities. Sign up to get started today.",
+          "url": "automotive",
+          "isFeatured": false
+        },
+        {
+          "id": "27",
+          "name": "Engineering",
+          "description": "Our expansive library of engineering presentations covers the latest technologies, research, innovations, and more to help technical professionals stay up-to-date. Access these invaluable resources to keep your skills sharp — without scrolling through pages of text. Dive into our engineering ppts today to supplement your knowledge and advance your career.\n\nSlideshare is your go-to resource for easy-to-digest engineering presentations. Explore the latest developments in civil engineering, mechanical engineering, aerospace engineering, robotics, construction, manufacturing, and more. Popular subcategories dive into cloud computing, data science, industrial safety training, machine learning, and other essential areas.\n\nSo whether you need to stay up-to-date on nanotechnology, learn the latest CAD software, or get insights on agile engineering principles, Slideshare has you covered. You can explore everything from computer engineering and programming languages to sustainability innovations, life cycle assessments, and beyond.\n\nThe engineering ppts on Slideshare provide immense value to professionals across technical roles. Engineers can discover new designs and methodologies. Technicians can find step-by-step guides and troubleshooting tips. Students can supplement their studies with expert analyses and case studies. With millions of uploads, the opportunities for professional development are truly endless.\n\nQuickly get up-to-speed with the latest research, innovations, and trends in engineering. Our presentations will help you stay current, lead impactful projects, showcase thought leadership, and ultimately become an even stronger engineering professional. Sign up to learn something new today.",
+          "url": "engineering",
+          "isFeatured": false
+        },
+        {
+          "id": "37",
+          "name": "Software",
+          "description": "Professionals looking to level up their software skills need look no further. Slideshare offers a wealth of software presentations created by top experts on programming languages, frameworks, methodologies, and much more. Explore our collection of software ppts to master new skills, showcase thought leadership, and put your career on the fast track — today.\n\nThe range of topics covered in our library of software slideshows is extensive. You'll find everything from data science, SaaS, and QA testing to cloud computing, machine learning, and more. Explore popular subcategories on subjects like app development, web development, API best practices, and other technical areas.\n\nSlideshare empowers software professionals of all stripes to stay current and advance their careers — without scrolling through pages of text. Coders can learn new languages and implement new techniques. Project managers can improve their delivery with proven approaches. Students can supplement their studies with real-world examples from major companies. With millions of uploads, the opportunities to develop your software skills are endless.\n\nThe best part? Our software presentations offer insider perspectives and proven approaches you won't find anywhere else. So whether you’re looking to bolster your academic learning, brush up on new skills, or simply stay on top of industry updates, Slideshare has you covered. Sign up to get started today.",
+          "url": "software",
+          "isFeatured": false
+        },
+        {
+          "id": "38",
+          "name": "Recruiting & HR",
+          "description": "Access a wealth of HR ppts and recruiting presentations right at your fingertips on Slideshare. Absorb the latest wisdom on hiring, onboarding, compensation, and culture in a fraction of the time. Explore our top content in recruiting and HR to enhance your knowledge and advance your career today.\n\nFrom performance management to interviewing techniques, remote work policies, and more, you'll find HR presentations on the key areas that matter most to organizational success. Popular topics include diversity and inclusion initiatives, sourcing strategies, leadership development, and more.\n\nSo whether you need to get up to speed on the latest industry trends, learn new skills, or gain insights from top experts, our recruiting presentations help you build your knowledge quickly — without scrolling through pages of text.\n\nOur library of recruiting and HR content provides value to professionals at all stages of their careers. Recruiters can discover new approaches to attract top talent. HR managers can learn to manage change and build an inspiring culture. Directors can gain insights into leading with confidence. With millions of uploads, the opportunities for professional development are endless!\n\nLearn to implement impactful programs, stay current, network with peers, and showcase what you know. Slideshare makes it easy to learn and grow, no matter what your goals are. Sign up to learn something new today.",
+          "url": "recruiting-hr",
+          "isFeatured": false
+        },
+        {
+          "id": "39",
+          "name": "Retail",
+          "description": "An expansive library of retail presentations awaits you, offering value insights into the latest trends, strategies, and innovations. Access valuable resources created by top experts to stay current, deepen your knowledge, and advance your career. Reach new heights in retail by exploring our collection today.\n\nSlideshare is your go-to resource for concise and well-structured retail content. Our collection of retail presentations covers topics like ecommerce, omnichannel strategy, lifecycle marketing, and more. Popular subcategories dive deep into useful topics like brick-and-mortar strategies, customer experience, supply chain management, visual merchandising, and other timely areas.\n\nEasy-to-digest retail presentations provide value to professionals across roles. Store managers can learn techniques to boost in-store sales. Marketers can discover new digital advertising strategies. Analysts can unlock new insights from customer data. With millions of uploads, the opportunities for professional development are truly endless.\n\nThe best part You get access to insider perspectives and industry wisdom that you won’t get anywhere else. Learn to implement helpful strategies, stay on top of trends, network with peers in the industry, and establish yourself as a thought leader. Thanks to Slideshare, your personal and professional development has never been easier — or faster! Sign up to start your journey to greater knowledge today.",
+          "url": "retail",
+          "isFeatured": false
+        },
+        {
+          "id": "40",
+          "name": "Sales",
+          "description": "Looking to advance your career in sales? Look no further than our collection of sales presentations. Quickly learn strategies and techniques for prospecting, closing, and negotiation — without scrolling through pages of text. Explore our comprehensive library of sales ppts to hone your skills and become a top performer today.\n\nThe range of topics covered in our catalog of sales presentations is extensive. Popular subjects include common mistakes to avoid, how to land your first customer, building a winning sales team, and more. Insightful subcategories dive into social selling, aligning your sales and marketing teams, storytelling techniques, and other timely areas.\n\nThis content on Slideshare provides immense value to sales professionals at all levels. Account executives can discover new approaches to nurture leads and land deals. Managers can learn techniques to better coach their teams. Directors can gain data-driven insights to shape strategy. And with millions of uploads, Slideshare gives you access to insider perspectives that you won’t get anywhere else.\n\nExplore real-world case studies, new strategies, and industry wisdom, all created by top experts. Our collection of sales ppts help you absorb new approaches and insights in a fraction of the time. Sign up today to expand your knowledge — and your horizons.",
+          "url": "sales",
+          "isFeatured": false
+        },
+        {
+          "id": "41",
+          "name": "Services",
+          "description": "Our expansive library of services presentations cover customer service, supply chain, consulting, and more. Access these invaluable resources to stay up-to-date and advance your career in the service industry. Explore our collection today to boost your knowledge, showcase expertise, and take your career to the next level.\n\nSlideshare is your go-to resource for concise, well-structured services presentations that help you stay sharp — without scrolling through pages of text. Explore popular subjects like customer engagement, microservices, logistics, and more. Useful subcategories dive into trending areas like service design, change management, outsourcing, and other timely subjects.\n\nOur services presentations provide immense value to professionals across industries and roles. Customer service agents can learn techniques to surprise and delight customers. Consultants can discover approaches to drive strategic transformations. Supply chain analysts can gain insights from logistics data and best practices. With millions of uploads, the opportunities for professional development are truly endless.\n\nStay on top of new developments in the service industry in a fraction of the time. Explore case studies, in-depth guides, and best practices — all created by top experts. Enhance your knowledge, network with your peers, and demonstrate your expertise to a captive audience. Plus, get insider perspectives and proven strategies you won't find anywhere else. Sign up today to get started.",
+          "url": "services",
+          "isFeatured": false
+        },
+        {
+          "id": "42",
+          "name": "Science",
+          "description": "Our expansive library of science presentations and documents help you stay on the leading edge of discovery. Absorb new research and emerging innovations in biology, physics, astronomy, chemistry, and other fascinating fields. Access invaluable insights to enhance your knowledge. Explore our library to expand your science knowledge today.\n\nThe range of topics covered in the collection of science slideshows on Slideshare is remarkable. From fundamental concepts in physics and mathematics to the latest discoveries in biology, chemistry, and more, you have unparalleled access to resources that keep your finger on the pulse of scientific discovery.\n\nCutting-edge science ppts on subjects like artificial intelligence, regenerative medicine, and space exploration allow you to hone your expertise in new domains. With millions of uploads, you’ll gain access to insider perspectives and thought leadership that you won’t find anywhere else.\n\nScientists and researchers can discover new techniques and methodologies. Analysts can gain insights from new studies and data. Educators will learn groundbreaking frameworks and advancements. Students will supplement their studies with insights from top experts.\n\nThe best part? Slideshare makes it easy to showcase your thought leadership by uploading a presentation, infographic, document, or video. Doing so helps you build your reputation with the right audience and cultivate more professional opportunities. Sign up today to access endless possibilities.",
+          "url": "science",
+          "isFeatured": false
+        },
+        {
+          "id": "43",
+          "name": "Small Business & Entrepreneurship",
+          "description": "Want to boost your business acumen? Look no further than our collection of small business presentations — covering crucial topics like startups, marketing, management, finance, and more. Insights from top experts will help grow your knowledge and enhance your skills. Expand your business knowledge by exploring our library today.\n\nIf you’re looking to learn more about starting a new business, how to craft a winning business plan, or how to access business funding, Slideshare has you covered. Popular subcategories explore topics like business strategy, networking, entrepreneurial psychology, and other useful subjects.\n\nOur library of small business presentations provide value to aspiring entrepreneurs and seasoned professionals alike. Founders can discover how to successfully launch their startup. Marketers can learn growth hacking strategies. Analysts can gain insights from data on high-growth companies. Small business owners can learn about systems and processes to drive their success.\n\nWith millions of uploads, the opportunities to expand your business knowledge are endless. You’ll find content from experts in all corners of the business world. This means access to insider perspectives that you won’t find anywhere else.\n\nExpand your brain during your daily commute, while you’re on the plane, or instead of scrolling on social media. Slideshare makes it easier — and faster — than ever to enhance your knowledge and ultimately set up your business for success. Sign up to get started today.",
+          "url": "small-business-entrepreneurship",
+          "isFeatured": false
+        },
+        {
+          "id": "29",
+          "name": "Food",
+          "description": "Want to learn the ins-and-outs of the exciting world of food? Our broad collection of food presentations covers recipes, trends, food safety, and more. Explore our library of food insights today to expand your knowledge, showcase your culinary skills, and take your interest in food further.\n\nSo whether you’re looking to deepen your nutrition knowledge or find new ways to market your food business, Slideshare has you covered. Popular subcategories explore trending areas like plant-based diets, food technology, molecular gastronomy, sustainability, food photography, catering, and other fascinating topics.\n\nOur food slideshows provide immense value to culinary professionals across roles. Chefs can discover new recipes and plating techniques. Marketers can learn innovative strategies to promote restaurants. Analysts can gain insights from data on consumer preferences. Foodies and enthusiasts can learn about popular new restaurants or food trends to try.\n\nWith millions of uploads, the opportunities to expand your food knowledge are endless. Our food presentations are created by experts from all corners of the food world. This means access to insider perspectives that you won’t find anywhere else.\n\nUse Slideshare to stay up-to-date on current trends, collaborate with like-minded peers, and showcase what you know about food. Delicious insights await — sign up today.",
+          "url": "food",
+          "isFeatured": false
+        },
+        {
+          "id": "28",
+          "name": "Environment",
+          "description": "Our broad collection of environment presentations covers sustainability, conservation, climate change, and more — all to help you stay informed, hone your expertise, and expand your knowledge. Concise, well-presented content from top experts helps you learn in a fraction of the time. Explore our library of environment ppts today.\n\nSo whether you need to get up to speed on the latest environmental trends, learn new technologies, or gain insights from top experts, our environmental ppts help you build your knowledge quickly — without scrolling through pages of text.\n\nFrom renewable energy to environmental policy, corporate social responsibility, and more, you'll find environment presentations on the key areas that matter most to creating a greener world. Popular topics include ecosystem restoration, green technology, environmental activism, wildlife conservation, and other timely areas.\n\nOur library provides immense value to sustainability professionals and enthusiasts alike. Conservationists can discover new approaches to protecting biodiversity. Corporate strategists can learn how to implement eco-friendly practices. Activists can showcase campaigns to concerned citizens. With millions of uploads, the opportunities to expand your knowledge and amplify your impact are endless on Slideshare.\n\nLog in to explore the latest thought leadership on pressing environmental issues. Expand your knowledge of impactful strategies, network with peers, and ultimately discover new opportunities to drive environmental change. Sign up to learn something new today.",
+          "url": "environment",
+          "isFeatured": false
+        },
+        {
+          "id": "8",
+          "name": "Economy & Finance",
+          "description": "Our wide collection of finance presentations covers the latest trends to help you stay ahead. Quickly absorb content about investing, markets, policy, and more — without scrolling through pages of text. Explore our economy presentations and documents today to expand your knowledge and learn new skills.\n\nFrom topics like financial regulation, corporate finance, macroeconomics, and more, there’s something for everyone in our library of finance presentations. Popular subcategories explore crypto, ESG investing, fintech, trade policy, inflation, and other relevant areas.\n\nSo whether you need to learn more about taxes, get up to speed on emerging technologies, or gain insights on the future of finance, our finance ppts have you covered. You can explore everything from recession indicators to how different generations approach their finances.\n\nSlideshare’s finance presentations provide value to professionals and everyday people. Investors can discover new market opportunities. Analysts can gain insights from economic data and indicators. Bankers can stay up-to-date on financial regulations. Individuals can learn the basics of personal finance and investing. With millions of uploads, the opportunities to expand your knowledge of finance and economics are endless.\n\nSlideshare is your go-to resource for digestible knowledge about finance and the economy. Each presentation, document, and infographic is created by top experts — meaning you get access to insider perspectives that you won't find anywhere else. Sign up to get started today.",
+          "url": "economy-finance",
+          "isFeatured": false
+        },
+        {
+          "id": "26",
+          "name": "Data & Analytics",
+          "description": "Our collection of data analytics presentations covers the latest insights, frameworks, and trends to keep you sharp. Tap into timely insights to expand your expertise, implement impactful projects, and advance your career as a data-driven leader. Explore our library today to solidify your status as a data analytics expert.\n\nSlideshare is your go-to resource for easy-to-digest data analytics presentation. You'll find slideshows on data visualization, predictive analytics, statistics, big data, and more — all created by top experts from all corners of the industry. Popular subcategories dive deep into areas like A/B testing, neural networks, natural language processing, and other timely topics.\n\nSo whether you need to learn the latest data mining techniques, brush up on programming skills, or gain insights from industry leaders, Slideshare has you covered. With millions of uploads, the opportunities to expand your skills are endless.\n\nThe best part? Our data analytics presentations empower professionals across technical and business roles. Data scientists can discover new algorithms and models. Analysts can learn techniques to extract sharper insights from data. Managers can understand how to make data-driven decisions.\n\nDiscover the latest wisdom in data and analytics. Experiment with new approaches, collaborate with colleagues, and showcase your expertise — it’s all available right at your fingertips on Slideshare. Sign up to get started today.",
+          "url": "data-analytics",
+          "isFeatured": false
+        },
+        {
+          "id": "23",
+          "name": "Investor Relations",
+          "description": "Our extensive collection of investor relations presentations covers financing, capital fundraising, and more — all created by top experts. Absorb timely insights on how to attract investment in a fraction of the time. Access the latest strategies to secure funding by exploring our library today.\n\nSlideshare is your go-to resource for concise and well-structured investor relations presentations. Popular topics include venture capital, company valuations, IPOs, and more. Popular subcategories explore relevant subjects like seed funding, pitching, how to create term sheets, best practices for sending investor updates, and other timely areas.\n\nSo whether you need to get up to speed on trending SaaS companies, learn new technologies, or gain insights from top experts, our investor relations presentations help you build your knowledge quickly, without scrolling through pages of text.\n\nOur investor relations presentations provide immense value to professionals across roles. Founders can discover strategies to attract funding. Analysts can learn how to evaluate early stage companies. Investors can stay informed on emerging market opportunities. With millions of uploads, the opportunities to expand your knowledge are endless!\n\nIt’s easy to explore the latest trends, case studies, and thought leadership on securing investment. Learn to successfully pitch investors, raise capital, and showcase your expertise. The best part? You’ll get access to insider perspectives you won’t find anywhere else. Expand your knowledge by signing up for Slideshare today.",
+          "url": "investor-relations",
+          "isFeatured": false
+        },
+        {
+          "id": "22",
+          "name": "Sports",
+          "description": "Our wide-ranging collection of sports presentations covers training, nutrition, analytics, and more to help keep your finger on the pulse of sports — without scrolling through pages of text. Explore sports insights from top experts today to boost your knowledge and stand out from the crowd.\n\nSlideshare is your go-to resource for concise sports slideshows created by top experts, covering topics like sports psychology, eSports, marketing, and more. Popular subcategories dive deep into key subjects like sports medicine, athlete development, fan engagement, sports betting, ticket sales, sponsorships, and other key areas in the industry.\n\nOur sports presentations provide immense value to professionals and enthusiasts alike. Coaches can discover new training methods and approaches. Marketers can learn proven fan acquisition strategies. Analysts can gain insights from sports data and statistics. Fans can gain insights into their favorite teams. With millions of uploads, the opportunities to expand your sports knowledge are endless.\n\nIt’s easier than ever to explore the latest trends in sports. Learn new perspectives and collaborate with like-minded peers. Or, stand out as a thought leader uploading your own presentation, infographic, document, or video. If you’re looking to take your passion for sports to the next level, Slideshare is the place for you. Sign up today.",
+          "url": "sports",
+          "isFeatured": false
+        },
+        {
+          "id": "21",
+          "name": "Spiritual",
+          "description": "Our extensive collection of spiritual presentations covers religion, mindfulness, personal growth, and more — all created by top experts from all corners of the industry. Access these insights to expand your spiritual knowledge and learn how to enrich lives. Bring more meaning and purpose into your life by exploring our collection today.\n\nSlideshare is your go-to resource for concise and well-structured spiritual slideshows. Explore meaningful topics like meditation, self-improvement, gratitude, and more — without scrolling through pages of text. Popular subcategories explore areas like yoga, positive psychology, finding purpose, interfaith dialogue, scripture, and other enlightening areas.\n\nOur collection of spiritual presentations provide value to anyone seeking meaning. Religious leaders can gain insights to enrich their communities. Mindfulness teachers can discover new techniques. Anyone can learn practices to reduce stress and nurture their well-being. With millions of uploads, the opportunities for spiritual development are endless.\n\nDiscover the latest spiritual slideshows from wherever you have an internet connection. Learn to implement new programs, collaborate with peers, and deepen your self-understanding. To enrich the lives of others, consider uploading a presentation, infographic, document, or video to Slideshare. Doing so helps you build your reputation with the right audience and cultivate more aligned opportunities on your path of spiritual growth. Sign up today to bring more meaning, mindfulness, and purpose into your life or organization.",
+          "url": "spiritual",
+          "isFeatured": false
+        },
+        {
+          "id": "20",
+          "name": "News & Politics",
+          "description": "Our wide collection of news presentations and political presentations covers current events, campaigns, public policy, and more. Access timely insights from top experts to stay informed, engage with your community, and drive change. Don't miss this opportunity to tap into critical knowledge shaping our world by exploring our library today.\n\nSlideshare is your go-to resource for concise and well-structured news slideshows — covering topics like ethical reporting, elections, international affairs, and more. Popular subcategories dive deep into timely subjects like polling, partisan politics, legislation, social movements, and other relevant areas.\n\nOur collection of political presentations provide immense value to professionals and enthusiasts alike. Journalists can stay current on media trends. Activists can highlight issues to concerned citizens. Policymakers can learn best practices from other governments. Everyday people can learn more about the stories and policies shaping our world. With millions of uploads, the opportunities to expand your knowledge of the world we live in are endless on Slideshare.\n\nExpand your knowledge while you’re studying for an exam, doing research for work, or during your daily commute. Learn to make informed decisions, engage your community, and collaborate with like-minded peers. Or, show what you know about news and politics by uploading a presentation, infographic, document, or video to Slideshare. Doing so helps you build your reputation with the right audience and cultivate more professional opportunities. Sign up to get started today.",
+          "url": "news-politics",
+          "isFeatured": false
+        },
+        {
+          "id": "19",
+          "name": "Travel",
+          "description": "Looking to stay up-to-date with the latest trends in travel? Our vast collection of travel presentations covers tips, technology, destinations, and more to help you expand your industry knowledge — or simply plan your next trip! Explore our library of travel insights to enhance your expertise and build your confidence today.\n\nSlideshare is your go-to resource for concise and well-structured travel slideshows — covering topics like sustainability, safety, hospitality, FAQs, and more. Popular subcategories dive deep into timely subjects like choosing the best travel insurance, ecotourism, adventure travel, marketing, transportation, and other fascinating areas.\n\nOur travel presentations provide immense value to professionals and enthusiasts alike. Marketers can discover new promotional strategies. Travel agents can stay up-to-date on popular destinations. Hospitality workers can learn best practices. Travel newbies can learn how to plan their first international trip. Seasoned globetrotters can find new and exciting opportunities to explore. With millions of uploads, the opportunities to expand your travel knowledge are endless.\n\nIt’s never been easier to connect with like-minded travelers, learn about popular new destinations, or understand the ins-and-outs of the travel industry. Slideshare makes planning your next trip a breeze with insider perspectives you won’t get anywhere else. Sign up to learn something new today.",
+          "url": "travel",
+          "isFeatured": false
+        },
+        {
+          "id": "18",
+          "name": "Self Improvement",
+          "description": "Our collection of self improvement ppts makes it easy to enrich your life. Conveniently explore topics like personal growth, productivity, wellness, and lifestyle — without scrolling through pages of text. Take the next step to living your best life by exploring our library today.\n\nSlideshare is your go-to resource for concise, digestible self help ppts. Explore enriching topics like leadership, goal setting, mindfulness, healthy eating, and more — all created by top experts from all corners of the self help industry. Popular subcategories dive deep into the psychology behind motivation, emotional intelligence, communication strategies, exercise routines, and other key areas for personal fulfillment.\n\nOur self improvement ppts provide immense value to anyone seeking to reach their potential. Managers can discover new leadership styles to better engage their teams. Entrepreneurs can gain insights on productivity tools to grow their businesses. Individuals can learn techniques to reduce stress, find purpose, and live mindfully.\n\nWith millions of uploads, the opportunities for self-development are endless. Plus, you’ll gain access to insider perspectives you won’t find anywhere else.\n\nPass the time while expanding your mind — whether you’re on your daily commute or your lunch break. Slideshare makes it easy to discover insights to unveil your potential and feel empowered. Sign up to take the next step on your journey today.",
+          "url": "self-improvement",
+          "isFeatured": false
+        },
+        {
+          "id": "15",
+          "name": "Real Estate",
+          "description": "Our broad collection of real estate presentations cover topics like market trends, regulations, and technology — all created by top experts. Learn how to market your properties, connect with clients, and close sales. Make informed decisions to grow your business. Explore our library to expand your knowledge of real estate today.\n\nSlideshare is your go-to resource for concise and informative real estate slideshows. Quickly absorb information about topics like buying and selling homes, real estate marketing, sustainability, and more — without scrolling through pages of text. Popular subcategories explore residential markets, commercial real estate, mortgage financing, new construction, luxury properties, property management, and other essential areas.\n\nOur library of real estate presentations provide value to professionals and enthusiasts alike. Real estate agents and brokers can stay up-to-date on market conditions to better price and sell listings. Developers can gain insights on innovations in construction to build competitive projects. Marketing professionals can discover tactics to showcase properties and connect with buyers. Aspiring DIY-ers can learn the latest wisdom on buying and flipping houses. With millions of uploads, the opportunities to expand your real estate knowledge are endless.\n\nLearn to make data-driven decisions, close sales, showcase your expertise, network with peers, and ultimately expand your knowledge of real estate. Log in to Slideshare to get started today.",
+          "url": "real-estate",
+          "isFeatured": false
+        },
+        {
+          "id": "7",
+          "name": "Entertainment & Humor",
+          "description": "Get up-to-speed on the latest entertainment content. Our extensive collection of funny slideshows spark inspiration and help keep you in the loop — without scrolling through pages of text. Learn to engage fans, captivate audiences, and make people laugh. Explore our library today to learn pop culture insights and how to wow your audience.\n\nSlideshare is your go-to resource for funny presentations. Our library has something for everyone — from movies and TV shows to celebrity news, gaming, comedy, and more. Popular subcategories explore entertainment industry trends, meme culture, award shows, pop music, eSports, stand up comedy, and other fun areas.\n\nOur entertainment presentations provide value to professionals and enthusiasts alike. TV producers can analyze plot, characters, and themes to create buzzworthy content. Marketers can stay up-to-date on pop culture to delight audiences. Comedians can study viral memes and jokes to refine their act. Anyone can explore content on their favorite celebrities and comedians.\n\nWith millions of uploads, the opportunities to expand your knowledge of entertainment and humor are endless. Plus our funny ppts give you access to insider perspectives that you won’t find anywhere else.\n\nIt’s never been easier to learn how to create entertaining content, promote artists, and grow fandoms — or whatever your unique goals are. It’s all available right at your fingertips on Slideshare. Sign up today.",
+          "url": "entertainment-humor",
+          "isFeatured": false
+        },
+        {
+          "id": "11",
+          "name": "Health & Medicine",
+          "description": "Our extensive collection of medical ppts help you stay current and expand your healthcare knowledge. With topics covering the latest medical research and insights, you’re empowered to make informed decisions and achieve better patient outcomes. Explore our library of medical presentations to enhance your expertise today.\n\nSlideshare is your go-to resource for concise and well-structured health slideshows. Explore popular topics like medical technology, chronic disease, public health, and healthcare administration. Insightful subcategories dive deep into specific areas like cancer, cardiology, pediatrics, telehealth, health policy, hospital management, and more.\n\nOur library of health presentations provide value to professionals across healthcare roles. Doctors can discover the latest treatments, research, and clinical guidelines to provide better care. Nurses can learn best practices for patient education, helping them better serve patients and families. Researchers can showcase their expertise and findings to colleagues in their field, advancing collaboration through the exchange of knowledge.\n\nWith millions of uploads, Slideshare offers endless opportunities to expand your knowledge of health and medicine. Plus, you’ll gain access to insider perspectives you won’t find anywhere else.\n\nBy diving into our vast collection of health ppts, you’ll learn to collaborate with colleagues, make more informed decisions, and ultimately provide higher quality care that improves patient outcomes. Sign up for Slideshare to learn something new today.",
+          "url": "health-medicine",
+          "isFeatured": false
+        },
+        {
+          "id": "10",
+          "name": "Devices & Hardware",
+          "description": "Our large collection of hardware ppts cover topics like consumer electronics and manufacturing to spark innovation, help you stay competitive, and advance your career. Equipped with insights on emerging technologies, you’ll be able to lead the development of cutting-edge devices and solutions. Explore our library to enhance your hardware expertise today.\n\nSlideshare is your go-to resource for concise and well-structured hardware ppts. Stay current with presentations on IoT, industrial equipment, emerging technologies, and more. Popular subcategories explore smartphones, wearables, autonomous vehicles, robotics, 3D printing, semiconductors, and other fascinating areas.\n\nOur library of hardware presentations provide value to professionals across technology and manufacturing. Engineers can discover the latest materials, components, and design innovations to spark ideas. Manufacturers can gain insights on production processes, supply chain issues, and quality control to optimize operations. Developers can learn about consumer demand for product features. Enthusiasts can learn what’s latest and greatest in the industry.\n\nWith millions of uploads, Slideshare offers endless opportunities to expand your hardware knowledge. Plus, you’ll gain access to insider perspectives you won’t find anywhere else.\n\nLearn to make informed decisions, problem solve creatively, and showcase your expertise. Who knows, you might even feel inspired to develop a leading device or solution! Log in to begin expanding your knowledge today.",
+          "url": "devices-hardware",
+          "isFeatured": false
+        },
+        {
+          "id": "9",
+          "name": "Lifestyle",
+          "description": "Want to elevate your lifestyle? Look no further than our wide range of lifestyle presentations.\n\nWith topics ranging from fitness to nutrition, parenting, relationships, and more, you’ll discover motivational insights and practical how-tos to help achieve your goals. Explore our library to find inspiration for living your best life today.\n\nSlideshare is your go-to resource for concise and well-structured lifestyle presentations. Stay up-to-date on popular areas like personal growth, travel, pets, and beyond. Enriching subcategories explore weight loss, healthy recipes, yoga, meditation, productivity tips, gardening, automotive, and other lifestyle areas.\n\nOur library of lifestyle presentations provide value to consumers and professionals alike. Individuals can gain motivation and practical advice to pick up new hobbies, improve their health, and achieve personal goals. Health and lifestyle coaches can discover new tools and strategies to help their clients live healthier lives. Marketers can discover consumer insights to develop campaigns that truly resonate with target audiences.\n\nWith millions of uploads, Slideshare provides endless opportunities to enrich your personal and professional life. Plus, you’ll gain access to insider perspectives you won’t find anywhere else.\n\nGet inspired to become more active, find new sources of meaning, and discover opportunities for fulfillment. Sign up for Slideshare to take the next step on your journey today.",
+          "url": "lifestyle",
+          "isFeatured": false
+        }
+      ],
+      "edgeTestAssignments": [],
+      "countryCodeFromFastly": "TR",
+      "featureFlags": {
+        "slideshare_recommendation_tracking": true
+      },
+      "layout": {
+        "currentUser": null,
+        "fullPath": "https://www.slideshare.net/slideshow/2026-day-4-vibe-coding-agent-security-and-evaluation-google-ai-agents-course-pptx/288252631",
+        "origin": "https://www.slideshare.net",
+        "osanoId": "079b27eb-bb3f-48dd-9bd9-3feb8aec3c38",
+        "browserId": "7aa4b8dd-6d3f-41c9-a054-cc620a400f21"
+      },
+      "statsigClientInit": null,
+      "slideshow": {
+        "username": "vsivakumarmca1",
+        "allowEmbeds": true,
+        "canonicalUrl": "https://www.slideshare.net/slideshow/2026-day-4-vibe-coding-agent-security-and-evaluation-google-ai-agents-course-pptx/288252631",
+        "categories": [
+          {
+            "id": "16",
+            "name": "Technology",
+            "url": "technology"
+          }
+        ],
+        "createdAt": "2026-06-25 21:47:49 UTC",
+        "description": "\"Vibe Coding Agent Security and Evaluation\" whitepaper talks about redefining security and evaluation in non-deterministic AI workflows by establishing continuous \"Effective Trust\" through a strict 7-pillar architecture. It outlines practical safeguards such as ephemeral sandboxing, defenses against hallucinated \"slopsquatting\" packages, an active Red/Blue/Green security triad, and OpenTelemetry trajectory evaluation.\n\nRead the whitepaper here: https://www.kaggle.com/whitepaper-vibe-coding-agent-security-and-evaluation",
+        "downloadKey": "491c5697857bb58dbe18ed4bb6af881160ec2805c5f57471ed33e0a785b8ee19",
+        "editorsNotes": [],
+        "emailShareUrl": "mailto:?subject=Check out this presentation presentation&body=https://www.slideshare.net/slideshow/2026-day-4-vibe-coding-agent-security-and-evaluation-google-ai-agents-course-pptx/288252631",
+        "extension": "pptx",
+        "facebookShareUrl": "https://facebook.com/sharer.php?u=https%3A%2F%2Fwww.slideshare.net%2Fslideshow%2F2026-day-4-vibe-coding-agent-security-and-evaluation-google-ai-agents-course-pptx%2F288252631&t=2026+Day+4+-+Vibe+Coding+Agent+Security+and+Evaluation+-+Google+AI+Agents+Course.pptx",
+        "wordpressShareUrl": "[slideshare id=288252631&doc=2026day4-vibecodingagentsecurityandevaluation-googleaiagentscourse-260625214749-6131cd36]",
+        "formats": [
+          "PPTX",
+          "PDF"
+        ],
+        "genaiDescriptionCreatedAt": null,
+        "genaiTest": "control",
+        "id": "288252631",
+        "isConverted": false,
+        "isEmbedAllowed": true,
+        "iframeEmbed": {
+          "url": "https://www.slideshare.net/slideshow/embed_code/key/EP8AQaRqz7GjPR",
+          "height": 486,
+          "width": 597
+        },
+        "isIndexable": true,
+        "isLikedByCurrentUser": false,
+        "isPrivate": false,
+        "isUploadPreview": false,
+        "isViewable": true,
+        "language": "en",
+        "likes": 0,
+        "linkedinShareUrl": "https://www.linkedin.com/cws/share?url=https%3A%2F%2Fwww.slideshare.net%2Fslideshow%2F2026-day-4-vibe-coding-agent-security-and-evaluation-google-ai-agents-course-pptx%2F288252631&trk=SLIDESHARE",
+        "downloadCount": 0,
+        "secretUrl": "EP8AQaRqz7GjPR",
+        "shouldShowAds": true,
+        "smsShareUrl": "sms:?body=Check out this presentation : https://www.slideshare.net/slideshow/2026-day-4-vibe-coding-agent-security-and-evaluation-google-ai-agents-course-pptx/288252631",
+        "isPublished": true,
+        "strippedTitle": "2026-day-4-vibe-coding-agent-security-and-evaluation-google-ai-agents-course-pptx",
+        "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/2026day4-vibecodingagentsecurityandevaluation-googleaiagentscourse-260625214749-6131cd36-thumbnail.jpg?width=640&height=640&fit=bounds",
+        "title": "2026 Day 4 - Vibe Coding Agent Security and Evaluation - Google AI Agents Course.pptx",
+        "totalSlides": 15,
+        "transcript": [],
+        "twitterShareUrl": "https://twitter.com/intent/tweet?via=Slideshare&text=2026+Day+4+-+Vibe+Coding+Agent+Security+and+Evaluation+-+Google+AI+Agents+Cou...+%23agentevaluation+https%3A%2F%2Fwww.slideshare.net%2Fslideshow%2F2026-day-4-vibe-coding-agent-security-and-evaluation-google-ai-agents-course-pptx%2F288252631",
+        "type": "presentation",
+        "updatedAt": "2026-06-25 21:54:29 UTC",
+        "viewStats": {
+          "views": 1,
+          "viewsFromEmbeds": 0,
+          "topEmbeds": []
+        },
+        "recommendationsByLocation": {
+          "rightRail": [
+            {
+              "algorithmId": "-2",
+              "displayTitle": "Artificial Intelligence, Data and Competition – SCHREPEL – June 2024 OECD dis...",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 21,
+              "score": 0,
+              "slideshowId": "269644409",
+              "sourceName": "FEATURED",
+              "strippedTitle": "artificial-intelligence-data-and-competition-schrepel-june-2024-oecd-discussion",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/oecd-ai-data-and-competition-schrepel-june2024-240612112653-5042b083-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "This presentation by Thibault Schrepel, Associate Professor of Law at Vrije Universiteit Amsterdam University, was made during the discussion “Artificial Intelligence, Data and Competition” held at the 143rd meeting of the OECD Competition Committee on 12 June 2024. More papers and presentations on the topic can be found at oe.cd/aicomp.\n \nThis presentation was uploaded with the author’s consent.\n",
+              "tags": [
+                "competition"
+              ],
+              "url": "https://www.slideshare.net/slideshow/artificial-intelligence-data-and-competition-schrepel-june-2024-oecd-discussion/269644409",
+              "userLogin": "OECD-DAF",
+              "userName": "OECD Directorate for Financial and Enterprise Affairs",
+              "viewCount": 970626
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "2024 Trend Updates: What Really Works In SEO & Content Marketing",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 21,
+              "score": 0,
+              "slideshowId": "269746818",
+              "sourceName": "FEATURED",
+              "strippedTitle": "2024-trend-updates-what-really-works-in-seo-content-marketing",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/conductor-webinar-6182024-presentation-240618152603-d6c54198-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The document outlines key SEO and content marketing trends for 2024, emphasizing the impact of AI, the importance of E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness), and a shift towards user-centric content strategies. It advises against focusing on outdated trends like voice search and stresses the need for creating value-driven, authoritative content. Additionally, it highlights the need to leverage AI as a supportive tool rather than relying solely on it for content creation.",
+              "tags": [
+                "searchenginejournal",
+                "seo",
+                "content marketing"
+              ],
+              "url": "https://www.slideshare.net/slideshow/2024-trend-updates-what-really-works-in-seo-content-marketing/269746818",
+              "userLogin": "SearchEngineJournal",
+              "userName": "Search Engine Journal",
+              "viewCount": 1099646
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "Storytelling For The Web: Integrate Storytelling in your Design Process",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 39,
+              "score": 0,
+              "slideshowId": "269527754",
+              "sourceName": "FEATURED",
+              "strippedTitle": "storytelling-for-the-web-integrate-storytelling-in-your-design-process",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/storytellingfortheweb-240605180737-8eb6d37c-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The document outlines a livestream presentation by Chiara Aliotta on integrating storytelling into web design to enhance user experiences. It covers the storytelling process for designers, emphasizing aspects such as understanding the audience, structuring narratives, and creating emotional connections. The presentation also includes case studies and practical examples to demonstrate effective storytelling in UX/UI design.",
+              "tags": [
+                "storytelling",
+                "uxstorytelling",
+                "uxdesign"
+              ],
+              "url": "https://www.slideshare.net/slideshow/storytelling-for-the-web-integrate-storytelling-in-your-design-process/269527754",
+              "userLogin": "chiaraaliotta7",
+              "userName": "Chiara Aliotta",
+              "viewCount": 1014677
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "2024 State of Marketing Report – by Hubspot",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 43,
+              "score": 0,
+              "slideshowId": "266319371",
+              "sourceName": "FEATURED",
+              "strippedTitle": "2024-state-of-marketing-report-by-hubspot",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/1707826910254-240215090210-009c7a2b-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The State of Marketing 2024 report highlights the transformative impact of AI and automation, emphasizing the importance of personalization and engagement to drive growth in a competitive landscape. Marketers are focusing on optimizing budgets, leveraging social media for brand awareness, and utilizing AI tools to enhance efficiency across tasks. Key trends for 2024 include the rise of experiential marketing, content creation that meets user needs, and strengthened connections through personalized customer experiences.",
+              "tags": [],
+              "url": "https://www.slideshare.net/slideshow/2024-state-of-marketing-report-by-hubspot/266319371",
+              "userLogin": "mariussescu",
+              "userName": "Marius Sescu",
+              "viewCount": 242029
+            },
+            {
+              "algorithmId": "",
+              "displayTitle": "2026 Day 5 - Spec-Driven Production Grade Development in the Age of Vibe Codi...",
+              "extension": "pptx",
+              "isSavedByCurrentUser": false,
+              "pageCount": 15,
+              "score": 0,
+              "slideshowId": "288252678",
+              "sourceName": "MORE_FROM_USER",
+              "strippedTitle": "2026-day-5-spec-driven-production-grade-development-in-the-age-of-vibe-coding-google-ai-agents-course-pptx",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/2026day5-spec-drivenproductiongradedevelopmentintheageofvibecoding-googleaiagentscourse-260625214942-a8a0a1ca-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "\"Spec-Driven Production Grade Development in the Age of Vibe Coding\" whitepaper covers bridging the gap between fragile vibe-coded prototypes and production-grade enterprise software using Spec-Driven Development (SDD). It details how to treat code as disposable and behavior-driven Gherkin specifications as the source of truth, establishing safe, zero-trust development pipelines with automated code-review agents and hybrid Policy Servers.\n\nRead the whitepaper here: https://www.kaggle.com/whitepaper-spec-driven-production-grade-development-in-the-age-of-vibe-coding",
+              "tags": [
+                "ai agents",
+                "vibe coding",
+                "spec-driven development"
+              ],
+              "url": "https://www.slideshare.net/slideshow/2026-day-5-spec-driven-production-grade-development-in-the-age-of-vibe-coding-google-ai-agents-course-pptx/288252678",
+              "userLogin": "vsivakumarmca1",
+              "userName": "Sivakumar Viyalan",
+              "viewCount": 5
+            },
+            {
+              "algorithmId": "",
+              "displayTitle": "2026 Day 3 - Agent Skills - Google AI Agents Course.pptx",
+              "extension": "pptx",
+              "isSavedByCurrentUser": false,
+              "pageCount": 15,
+              "score": 0,
+              "slideshowId": "288252609",
+              "sourceName": "MORE_FROM_USER",
+              "strippedTitle": "2026-day-3-agent-skills-google-ai-agents-course-pptx",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/2026day3-agentskills-googleaiagentscourse-260625214611-145a69ab-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "\"Agent Skills\" whitepaper talks about managing dynamic context and avoiding \"context rot\" by equipping agents with portable \"Agent Skills\", directories structured around a central SKILL.md file. It explains how this framework uses progressive disclosure to keep system prompts lightweight, loading execution details and tools only on demand so that single agents can flex into hundreds of specialist roles efficiently.\n\nRead the whitepaper here: https://www.kaggle.com/whitepaper-agent-skills",
+              "tags": [
+                "agent skills",
+                "skill.md",
+                "progressive disclosure"
+              ],
+              "url": "https://www.slideshare.net/slideshow/2026-day-3-agent-skills-google-ai-agents-course-pptx/288252609",
+              "userLogin": "vsivakumarmca1",
+              "userName": "Sivakumar Viyalan",
+              "viewCount": 1
+            },
+            {
+              "algorithmId": "",
+              "displayTitle": "2026 Day 2 - Agent Tools & Interoperability - Google AI Agents Course.pptx",
+              "extension": "pptx",
+              "isSavedByCurrentUser": false,
+              "pageCount": 15,
+              "score": 0,
+              "slideshowId": "288252526",
+              "sourceName": "MORE_FROM_USER",
+              "strippedTitle": "2026-day-2-agent-tools-interoperability-google-ai-agents-course-pptx",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/2026day2-agenttoolsinteroperability-googleaiagentscourse-260625213950-6cc9b459-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "\"Agent Tools & Interoperability\" whitepaper talks about standardizing the plug-and-play AI ecosystem using open protocols to eliminate the complex technical debt of custom tool integrations. It details how the Model Context Protocol (MCP) connects models to data sources, outlines Agent2Agent (A2A) collaboration, showcases Agent-to-User Interface (A2UI) for generative UI, and introduces Agent Payments Protocol (AP2) and Universal Commerce Protocol (UCP) for secure machine-to-machine commerce.\n\nRead the whitepaper here: https://www.kaggle.com/whitepaper-agent-tools-and-interoperability",
+              "tags": [
+                "ai agents",
+                "mcp",
+                "a2a"
+              ],
+              "url": "https://www.slideshare.net/slideshow/2026-day-2-agent-tools-interoperability-google-ai-agents-course-pptx/288252526",
+              "userLogin": "vsivakumarmca1",
+              "userName": "Sivakumar Viyalan",
+              "viewCount": 3
+            },
+            {
+              "algorithmId": "",
+              "displayTitle": "2026 Day 1 - Introduction to Agents & Vibe Coding - Google AI Agents Course.pptx",
+              "extension": "pptx",
+              "isSavedByCurrentUser": false,
+              "pageCount": 14,
+              "score": 0,
+              "slideshowId": "288252418",
+              "sourceName": "MORE_FROM_USER",
+              "strippedTitle": "2026-day-1-introduction-to-agents-vibe-coding-google-ai-agents-course-pptx",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/2026day1-introductiontoagentsvibecoding-googleaiagentscourse-260625213217-8f5d43ff-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "\"The New SDLC with Vibe Coding\" whitepaper talks about the transition from manual syntax coding to intent-driven \"vibe coding\" and disciplined \"agentic engineering.\" It explores how AI agents compress the traditional software development life cycle (SDLC) and explains the \"factory model\" where developers act as system orchestrators who design the evaluation, constraint, and context harnesses that safely guide autonomous execution.\n\nRead the whitepaper here: https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding",
+              "tags": [
+                "ai agents",
+                "vibe coding",
+                "agentic engineering"
+              ],
+              "url": "https://www.slideshare.net/slideshow/2026-day-1-introduction-to-agents-vibe-coding-google-ai-agents-course-pptx/288252418",
+              "userLogin": "vsivakumarmca1",
+              "userName": "Sivakumar Viyalan",
+              "viewCount": 22
+            }
+          ],
+          "whatsHot": [],
+          "alsoLiked": [],
+          "similarTo": [],
+          "moreFromUser": [],
+          "featured": [
+            {
+              "algorithmId": "-2",
+              "displayTitle": "Everything You Need To Know About ChatGPT",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 19,
+              "score": 0,
+              "slideshowId": "266783915",
+              "sourceName": "FEATURED",
+              "strippedTitle": "everything-you-need-to-know-about-chatgpt-8ba3",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/everything-you-need-to-know-about-chatgpt-expeed-software-240314091646-b2188bc5-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "ChatGPT is an AI chatbot developed by OpenAI, built on advanced language models to facilitate human-like conversational interactions. Launched in November 2022, it utilizes a transformer architecture to understand and generate text, with applications ranging from content creation to customer service. Despite its capabilities, there are concerns about potential misuse and biases in its responses, which OpenAI aims to mitigate through moderation and user feedback.",
+              "tags": [
+                "chatgpt",
+                "ai",
+                "artificial intelligence"
+              ],
+              "url": "https://www.slideshare.net/slideshow/everything-you-need-to-know-about-chatgpt-8ba3/266783915",
+              "userLogin": "expeedmarketing",
+              "userName": "Expeed Software",
+              "viewCount": 255403
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "Product Design Trends in 2024 | Teenage Engineerings",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 8,
+              "score": 0,
+              "slideshowId": "265965777",
+              "sourceName": "FEATURED",
+              "strippedTitle": "product-design-trends-in-2024-teenage-engineerings",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/12-240130085857-1a293e4f-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The realm of product design is a constantly changing environment where technology and style intersect. Every year introduces fresh challenges and exciting trends that mold the future of this captivating art form. In this piece, we delve into the significant trends set to influence the look and functionality of product design in the year 2024.",
+              "tags": [
+                "trends",
+                "design",
+                "product"
+              ],
+              "url": "https://www.slideshare.net/slideshow/product-design-trends-in-2024-teenage-engineerings/265965777",
+              "userLogin": "AlexKukharenko",
+              "userName": "Pixeldarts",
+              "viewCount": 105445
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "How Race, Age and Gender Shape Attitudes Towards Mental Health",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 21,
+              "score": 0,
+              "slideshowId": "266922990",
+              "sourceName": "FEATURED",
+              "strippedTitle": "how-race-age-and-gender-shape-attitudes-towards-mental-health",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/mental-health-report-2023-240322141336-0775b908-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The November 2023 mental health report indicates that 70% of respondents rate their mental health as 'good' or 'excellent,' with higher diagnoses reported among African Americans and non-Hispanic whites compared to Hispanics and Asians. Younger generations, particularly Gen Z and millennials, are more likely to experience mental health challenges, seek information online, and report that their mental health impacts their work and relationships. Half of the respondents feel comfortable discussing their mental health with professionals, although Gen Z shows the least comfort in this area.",
+              "tags": [
+                "mental health",
+                "market research",
+                "market research reports"
+              ],
+              "url": "https://www.slideshare.net/slideshow/how-race-age-and-gender-shape-attitudes-towards-mental-health/266922990",
+              "userLogin": "ThinkNow_Research",
+              "userName": "ThinkNow",
+              "viewCount": 77270
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "AI Trends in Creative Operations 2024 by Artwork Flow.pdf",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 29,
+              "score": 0,
+              "slideshowId": "264146484",
+              "sourceName": "FEATURED",
+              "strippedTitle": "ai-trends-in-creative-operations-2024-by-artwork-flowpdf",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/aitrendsincreativeoperations2024byartworkflow-231201042742-f1924806-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Creative operations teams expect increased AI use in 2024. Currently, over half of tasks are not AI-enabled, but this is expected to decrease in the coming year. ChatGPT is the most popular AI tool currently. Business leaders are more actively exploring AI benefits than individual contributors. Most respondents do not believe AI will impact workforce size in 2024. However, some inhibitions still exist around AI accuracy and lack of understanding. Creatives primarily want to use AI to save time on mundane tasks and boost productivity.",
+              "tags": [
+                "#ai #creative"
+              ],
+              "url": "https://www.slideshare.net/slideshow/ai-trends-in-creative-operations-2024-by-artwork-flowpdf/264146484",
+              "userLogin": "marketingartwork",
+              "userName": "marketingartwork",
+              "viewCount": 108014
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "Skeleton Culture Code",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 28,
+              "score": 0,
+              "slideshowId": "260258909",
+              "sourceName": "FEATURED",
+              "strippedTitle": "skeleton-culture-code",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/220614-skeleton-culturecode-220614071958-e4634593-230828134319-46713c2f-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Organizational culture includes values, norms, systems, symbols, language, assumptions, beliefs, and habits that influence employee behaviors and how people interpret those behaviors. It is important because culture can help or hinder a company's success. Some key aspects of Netflix's culture that help it achieve results include hiring smartly so every position has stars, focusing on attitude over just aptitude, and having a strict policy against peacocks, whiners, and jerks.",
+              "tags": [
+                "skeleton technologies"
+              ],
+              "url": "https://www.slideshare.net/slideshow/skeleton-culture-code/260258909",
+              "userLogin": "SkeletonTech",
+              "userName": "Skeleton Technologies",
+              "viewCount": 60134
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "PEPSICO Presentation to CAGNY Conference Feb 2024",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 39,
+              "score": 0,
+              "slideshowId": "266422727",
+              "sourceName": "FEATURED",
+              "strippedTitle": "pepsico-presentation-to-cagny-conference-feb-2024",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/pep2024cagny-240221161133-4e23e446-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "PepsiCo provided a safe harbor statement noting that any forward-looking statements are based on currently available information and are subject to risks and uncertainties. It also provided information on non-GAAP measures and directing readers to its website for disclosure and reconciliation. The document then discussed PepsiCo's business overview, including that it is a global beverage and convenient food company with iconic brands, $91 billion in net revenue in 2023, and nearly $14 billion in core operating profit. It operates through a divisional structure with a focus on local consumers.",
+              "tags": [
+                "pep",
+                "pepsi",
+                "pepsico"
+              ],
+              "url": "https://www.slideshare.net/slideshow/pepsico-presentation-to-cagny-conference-feb-2024/266422727",
+              "userLogin": "Foodsfluidsandbeyond",
+              "userName": "Neil Kimberley",
+              "viewCount": 65149
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "Content Methodology: A Best Practices Report (Webinar)",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 50,
+              "score": 0,
+              "slideshowId": "61958880",
+              "sourceName": "FEATURED",
+              "strippedTitle": "content-methodology-a-best-practices-report-webinar",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/contentmethodologywebinarv2a-160512174950-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "This document provides an overview of content methodology best practices. It defines content methodology as establishing objectives, KPIs, and a culture of continuous learning and iteration. An effective methodology focuses on connecting with audiences, creating optimal content, and optimizing processes. It also discusses why a methodology is needed due to the competitive landscape, proliferation of channels, and opportunities for improvement. Components of an effective methodology include defining objectives and KPIs, audience analysis, identifying opportunities, and evaluating resources. The document concludes with recommendations around creating a content plan, testing and optimizing content over 90 days.",
+              "tags": [
+                "content strategy",
+                "content marketing"
+              ],
+              "url": "https://www.slideshare.net/slideshow/content-methodology-a-best-practices-report-webinar/61958880",
+              "userLogin": "contently",
+              "userName": "contently",
+              "viewCount": 38746
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "How to Prepare For a Successful Job Search for 2024",
+              "extension": "pptx",
+              "isSavedByCurrentUser": false,
+              "pageCount": 37,
+              "score": 0,
+              "slideshowId": "265133984",
+              "sourceName": "FEATURED",
+              "strippedTitle": "how-to-prepare-for-a-successful-job-search-for-2024",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/preparefor2024nova-240105000520-b3c4c2eb-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The document provides guidance on preparing a job search for 2024. It discusses the state of the job market, focusing on growth in AI and healthcare but also continued layoffs. It recommends figuring out what you want to do by researching interests and skills, then conducting informational interviews. The job search should involve building a personal brand on LinkedIn, actively applying to jobs, tailoring resumes and interviews, maintaining job hunting as a habit, and continuing self-improvement. Once hired, the document advises setting new goals and keeping skills and networking active in case of future opportunities.",
+              "tags": [
+                "career",
+                "job search",
+                "networking"
+              ],
+              "url": "https://www.slideshare.net/slideshow/how-to-prepare-for-a-successful-job-search-for-2024/265133984",
+              "userLogin": "AlbertQian",
+              "userName": "Albert Qian",
+              "viewCount": 59734
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "Social Media Marketing Trends 2024 // The Global Indie Insights",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 96,
+              "score": 0,
+              "slideshowId": "265256376",
+              "sourceName": "FEATURED",
+              "strippedTitle": "social-media-marketing-trends-2023-the-global-indie-insights-acb4",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/socialmediamarketingtrends2024-reportbythenetworkonexkurio-240109143244-06696c06-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The 2024 social media marketing trends report highlights significant shifts influenced by generative AI, including the emergence of personalized content, the rise of virtual influencers, and a stronger focus on user-generated content. Insights were gathered from 33 experts across 23 leading independent agencies, providing a perspective that emphasizes creativity and authenticity in marketing strategies. Key trends also include the blending of B2B and B2C approaches, reflecting changes in consumer behavior and the evolving landscape of social media engagement.",
+              "tags": [
+                "social media",
+                "social media marketing",
+                "social media trends"
+              ],
+              "url": "https://www.slideshare.net/slideshow/social-media-marketing-trends-2023-the-global-indie-insights-acb4/265256376",
+              "userLogin": "Kurio_Marketing",
+              "userName": "Kurio // The Social Media Age(ncy)",
+              "viewCount": 60772
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "Trends In Paid Search: Navigating The Digital Landscape In 2024",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 31,
+              "score": 0,
+              "slideshowId": "262411777",
+              "sourceName": "FEATURED",
+              "strippedTitle": "trends-in-paid-search-navigating-the-digital-landscape-in-2024",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/sej-iquanti-18-octwebinarwithomfpresentationfinal-231018123717-4487b5ab-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The document discusses trends in paid search for 2024, highlighting changes in user behavior, the implications for financial services, and privacy challenges. It emphasizes the importance of adapting search strategies, utilizing AI-driven tools like performance max and smart bidding, and leveraging first-party data for better marketing efficacy. Key takeaways include holistic SEO and SEM approaches, monitoring shifting user intents, and the need for continuous performance evaluation.",
+              "tags": [
+                "searchenginejournal",
+                "paid search",
+                "digital marketing"
+              ],
+              "url": "https://www.slideshare.net/slideshow/trends-in-paid-search-navigating-the-digital-landscape-in-2024/262411777",
+              "userLogin": "SearchEngineJournal",
+              "userName": "Search Engine Journal",
+              "viewCount": 37189
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "5 Public speaking tips from TED - Visualized summary",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 16,
+              "score": 0,
+              "slideshowId": "70788728",
+              "sourceName": "FEATURED",
+              "strippedTitle": "5-public-speaking-tips-from-ted-visualized-summary",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/5public-speakingtipsfromted-170108141442-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The document outlines five public speaking tips from Chris Anderson, TED Talks curator, emphasizing the importance of eye contact, vulnerability, humor, humility, and storytelling. These skills are presented as essential for engaging audiences effectively and are increasingly valuable in today's economy. The article posits that mastering these techniques can enhance speakers' ability to communicate ideas powerfully.",
+              "tags": [
+                "public speaking",
+                "public speaking tips",
+                "presentation tips"
+              ],
+              "url": "https://www.slideshare.net/slideshow/5-public-speaking-tips-from-ted-visualized-summary/70788728",
+              "userLogin": "SpeakerHub",
+              "userName": "SpeakerHub",
+              "viewCount": 36422
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "ChatGPT and the Future of Work - Clark Boyd ",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 69,
+              "score": 0,
+              "slideshowId": "256966846",
+              "sourceName": "FEATURED",
+              "strippedTitle": "chatgpt-and-the-future-of-work-clark-boyd",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/chatgptandthefutureofwork-clarkboyd1-230329144127-81b35f6b-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The document provides an overview of generative AI, particularly focusing on ChatGPT and its implications for business and the job market. It discusses the rapid growth of generative AI, its applications in marketing, and the skills needed for the AI era while addressing potential job displacement and the need for adaptation. The agenda includes a Q&A session and emphasizes rethinking work in collaboration with AI technology.",
+              "tags": [
+                "marketing",
+                "technology",
+                "tech"
+              ],
+              "url": "https://www.slideshare.net/slideshow/chatgpt-and-the-future-of-work-clark-boyd/256966846",
+              "userLogin": "ClarkBoyd",
+              "userName": "Clark Boyd",
+              "viewCount": 87006
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "Getting into the tech field. what next ",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 22,
+              "score": 0,
+              "slideshowId": "248578921",
+              "sourceName": "FEATURED",
+              "strippedTitle": "getting-into-the-tech-field-what-next",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/gettingintothetechfieldwhatnext-210526205624-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The document provides career advice for getting into the tech field, including:\n- Doing projects and internships in college to build a portfolio. \n- Learning about different roles and technologies through industry research.\n- Contributing to open source projects to build experience and network.  \n- Developing a personal brand through a website and social media presence.\n- Networking through events, communities, and finding a mentor.\n- Practicing interviews through mock interviews and whiteboarding coding questions.",
+              "tags": [],
+              "url": "https://www.slideshare.net/slideshow/getting-into-the-tech-field-what-next/248578921",
+              "userLogin": "Tessa99",
+              "userName": "Tessa Mero",
+              "viewCount": 37395
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "Google's Just Not That Into You: Understanding Core Updates & Search Intent",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 99,
+              "score": 0,
+              "slideshowId": "259699037",
+              "sourceName": "FEATURED",
+              "strippedTitle": "googles-just-not-that-into-you-understanding-core-updates-search-intent",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/mozcon23googlesjustnotthatintoyou-updated-230807140501-844b33e4-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "1. Core updates from Google periodically change how its algorithms assess and rank websites and pages. This can impact rankings through shifts in user intent, site quality issues being caught up to, world events influencing queries, and overhauls to search like the E-A-T framework.  \n2. There are many possible user intents beyond just transactional, navigational and informational. Identifying intent shifts is important during core updates. Sites may need to optimize for new intents through different content types and sections.\n3. Responding effectively to core updates requires analyzing \"before and after\" data to understand changes, identifying new intents or page types, and ensuring content matches appropriate intents across video, images, knowledge graphs and more.",
+              "tags": [
+                "seo",
+                "google",
+                "search engine optimization"
+              ],
+              "url": "https://www.slideshare.net/slideshow/googles-just-not-that-into-you-understanding-core-updates-search-intent/259699037",
+              "userLogin": "LilyRay1",
+              "userName": "Lily Ray",
+              "viewCount": 36758
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "How to have difficult conversations ",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 19,
+              "score": 0,
+              "slideshowId": "100823644",
+              "sourceName": "FEATURED",
+              "strippedTitle": "how-to-have-difficult-conversations",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/difficultconversationsbareincslideshare-180605235909-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The document provides essential tips on how to handle difficult conversations in a workplace setting, emphasizing the importance of preparation, environment, and timing. It highlights that many employees dread such conversations, often leading to avoidance and worsening situations. Ultimately, the guide aims to promote positive outcomes while maintaining professional relationships.",
+              "tags": [
+                "leadership",
+                "difficult conversations",
+                "performance management"
+              ],
+              "url": "https://www.slideshare.net/slideshow/how-to-have-difficult-conversations/100823644",
+              "userLogin": "RajivJayarajah",
+              "userName": "Rajiv Jayarajah, MAppComm, ACC",
+              "viewCount": 40165
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "Introduction to Data Science",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 51,
+              "score": 0,
+              "slideshowId": "254604795",
+              "sourceName": "FEATURED",
+              "strippedTitle": "introduction-to-data-science-254604795",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/datasciencecorner-221130165458-60b0d249-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The document discusses the rise and importance of data science and machine learning, highlighting the growing demand for data scientists and the challenges they face. It explains machine learning concepts such as supervised and unsupervised learning, along with various real-world applications and the necessary steps involved in a machine learning workflow. Additionally, the document emphasizes the iterative process of model improvement and feature engineering used to enhance machine learning outcomes.",
+              "tags": [
+                "datascience",
+                "machine learning",
+                "statistics"
+              ],
+              "url": "https://www.slideshare.net/slideshow/introduction-to-data-science-254604795/254604795",
+              "userLogin": "christyponnattil",
+              "userName": "Christy Abraham Joy",
+              "viewCount": 103952
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "Time Management & Productivity -  Best Practices",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 42,
+              "score": 0,
+              "slideshowId": "58032465",
+              "sourceName": "FEATURED",
+              "strippedTitle": "time-management-productivity-best-practices",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/timemanagementproductivity-bestpracticesbyvithorky-160209024645-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The document outlines best practices for time management and productivity, focusing on effective meeting habits, structured work blocks, and the importance of reflection and goal setting. It emphasizes the need for proper planning, the use of appropriate tools, and prioritizing tasks to enhance both personal and team efficiency. Additionally, personal anecdotes and strategies are shared to encourage a positive mindset and enjoyment in achieving work-related goals.",
+              "tags": [
+                "time",
+                "management",
+                "time management"
+              ],
+              "url": "https://www.slideshare.net/slideshow/time-management-productivity-best-practices/58032465",
+              "userLogin": "Inspiro",
+              "userName": "Vit Horky",
+              "viewCount": 187140
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "The six step guide to practical project management",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 27,
+              "score": 0,
+              "slideshowId": "58096360",
+              "sourceName": "FEATURED",
+              "strippedTitle": "the-six-step-guide-to-practical-project-management",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/practicalprojectmanagementebookbymindgenius-160210113840-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The document outlines a simplified six-step guide to project management designed for individuals lacking formal training. It emphasizes the importance of understanding project objectives, gathering stakeholder requirements, defining project scope, scheduling tasks, monitoring progress, and conducting a retrospective meeting. Additionally, it promotes the use of the MindGenius tool for effective project planning and execution.",
+              "tags": [
+                "projects",
+                "project scope",
+                "project scheduling"
+              ],
+              "url": "https://www.slideshare.net/slideshow/the-six-step-guide-to-practical-project-management/58096360",
+              "userLogin": "MindGenius",
+              "userName": "MindGenius",
+              "viewCount": 52239
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "Beginners Guide to TikTok for Search - Rachel Pearson - We are Tilt __ Bright...",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 21,
+              "score": 0,
+              "slideshowId": "257430073",
+              "sourceName": "FEATURED",
+              "strippedTitle": "beginners-guide-to-tiktok-for-search-rachel-pearson-we-are-tilt-brightonseo-finalpdf",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/beginnersguidetotiktokforsearch-rachelpearson-wearetiltbrightonseofinal-230417082258-46a37be4-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "A presentation for absolute beginners who have never touched TikTok and may be a bit scared of it!",
+              "tags": [],
+              "url": "https://www.slideshare.net/slideshow/beginners-guide-to-tiktok-for-search-rachel-pearson-we-are-tilt-brightonseo-finalpdf/257430073",
+              "userLogin": "RachelPearson36",
+              "userName": "RachelPearson36",
+              "viewCount": 28687
+            },
+            {
+              "algorithmId": "-2",
+              "displayTitle": "Unlocking the Power of ChatGPT and AI in Testing - A Real-World Look, present...",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 138,
+              "score": 0,
+              "slideshowId": "255675995",
+              "sourceName": "FEATURED",
+              "strippedTitle": "unlocking-the-power-of-chatgpt-and-ai-in-testing-a-realworld-look-presented-by-applitools",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/unlockingthepowerofchatgptandaiintesting-areal-worldlook-230203032621-89df6bc6-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "The document discusses the application of ChatGPT and AI in software testing and programming, including its strengths and limitations. It covers ChatGPT's capabilities, such as code writing, refactoring, and debugging, and emphasizes the importance of human expertise in the software development life cycle. Additionally, it highlights various AI tools, potential pitfalls, and offers strategies for integrating AI into testing practices.",
+              "tags": [
+                "ai automation",
+                "ai testing",
+                "chatgpt"
+              ],
+              "url": "https://www.slideshare.net/slideshow/unlocking-the-power-of-chatgpt-and-ai-in-testing-a-realworld-look-presented-by-applitools/255675995",
+              "userLogin": "Applitools",
+              "userName": "Applitools",
+              "viewCount": 68514
+            }
+          ],
+          "latest": [
+            {
+              "algorithmId": "4",
+              "displayTitle": "June 2026 OpenMetadata Community Spotlight - OpenMetadata & Tabby.pdf",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 7,
+              "score": 0,
+              "slideshowId": "288229976",
+              "sourceName": "LATEST",
+              "strippedTitle": "june-2026-openmetadata-community-spotlight-openmetadata-tabby-pdf",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/tabbyxopenmetadata-260624182253-79075545-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "These slides are from OpenMetadata's June 2026 Community Meetup that took place on Wednesday, June 24, 2026 @ 9:00 AM PST. \n\nCatch the next OpenMetadata Community Meetup @\n\nhttps://luma.com/collate\n\nMaksim Zolotarev, Head of Data Platform & ML at Tabby, will join us! At Tabby, Maksim is responsible for the development of the corporate Data Platform, which includes services and technologies for managing every stage of the data lifecycle. The Data Platform engineering teams place significant emphasis on the metadata and observability layers. OpenMetadata successfully combines everything needed to build a modern data catalog with the ability to leverage continuously accumulated knowledge through LLM tools and AI systems.\n\n",
+              "tags": [],
+              "url": "https://www.slideshare.net/slideshow/june-2026-openmetadata-community-spotlight-openmetadata-tabby-pdf/288229976",
+              "userLogin": "openmetadatacollate",
+              "userName": "OpenMetadata",
+              "viewCount": 17
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "Practical Audio Processing with Machine Learning: From Sound to AI Models",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 25,
+              "score": 0,
+              "slideshowId": "288275007",
+              "sourceName": "LATEST",
+              "strippedTitle": "practical-audio-processing-with-machine-learning-from-sound-to-ai-models",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/audiomlworkshop-260627085151-535c61ae-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Explore sound fundamentals, audio data representation, feature extraction techniques like MFCC and spectrograms, and machine learning applications in audio processing with Python tools and deployment strategies.",
+              "tags": [
+                "computer",
+                "computer science",
+                "computer vision"
+              ],
+              "url": "https://www.slideshare.net/slideshow/practical-audio-processing-with-machine-learning-from-sound-to-ai-models/288275007",
+              "userLogin": "MuhammadFahadBashir3",
+              "userName": "Muhammad Fahad Bashir",
+              "viewCount": 11
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "How is AI Transforming Prediction Market Analytics Development",
+              "extension": "pptx",
+              "isSavedByCurrentUser": false,
+              "pageCount": 7,
+              "score": 0,
+              "slideshowId": "288201141",
+              "sourceName": "LATEST",
+              "strippedTitle": "how-is-ai-transforming-prediction-market-analytics-development",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/howisaitransformingpredictionmarketanalyticsdevelopment-260623075020-c5a91e32-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "In this PPT about How is AI Transforming Prediction Market Analytics Development",
+              "tags": [
+                "prediction markets development",
+                "prediction market analytic"
+              ],
+              "url": "https://www.slideshare.net/slideshow/how-is-ai-transforming-prediction-market-analytics-development/288201141",
+              "userLogin": "blockchainxmarketing",
+              "userName": "Blockchainx",
+              "viewCount": 23
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "Vibe-Coding-Blockchain - Module 8 - Foundations & Mindset - Stellar Blockchai...",
+              "extension": "pptx",
+              "isSavedByCurrentUser": false,
+              "pageCount": 21,
+              "score": 0,
+              "slideshowId": "288241613",
+              "sourceName": "LATEST",
+              "strippedTitle": "vibe-coding-blockchain-module-8-foundations-mindset-stellar-blockchain-vibecoding-slides",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/vibe-coding-blockchain-module8-foundationsmindset-stellarblockchainvibecoding-260625094057-56fa329a-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Master the fundamentals of decentralized financial rails and high-speed AI development with this step-by-step introduction to the Stellar network and the vibecoding paradigm. This slide deck breaks down how absolute beginners can leverage plain-English conversational AI models to deploy live, secure financial logic straight to a blockchain explorer without writing a single line of manual code.\n\n1. The Stellar Financial Rail vs. The Legacy Status Quo\n\nGlobal Financial Inclusion: Understand Stellar's core architecture as an open-source, borderless framework optimized for settling cross-border remittances in 3 to 5 seconds.\n\nThe Economic Reality: Contrast slow legacy bank transfers and heavy middleman fees with Stellar’s microscopic transaction costs (~0.00001 XLM).\n\nThe Liquidity Engine: Explore the role of Anchors in bridging fiat currency directly to digital network tokens (like native USDC), creating seamless off-ramps back to local fiat systems.\n\n2. Cryptographic Account Anatomy & Security Primitives\n\nKeypair Topology: Demystify account components by separating public addresses (shareable routing addresses) from secret keys (the cryptographic PIN to your digital identity).\n\nThe Trustline Bouncer: Learn the mechanics of Stellar Trustlines—explicit opt-in requirements that explicitly allow accounts to hold custom tokens while permanently blocking malicious spam assets from flooding user wallets.\n\nLumens (XLM) Economics: Analyze how the network uses a 1 XLM minimum balance and tiny gas-like fees purely as defensive resource limits to keep the global ledger rapid and safe from spam.\n\n3. The Vibecoding Paradigm: Conversational Software Architecture\n\nThe Mindset Shift: Trade the traditional syntax-heavy, IDE-bound development model for goal-oriented software design, where conversational AI models manage code routing while humans verify logic and intent.\n\nThe Prompt-Verify-Iterate Loop: Trace the core development loop using terminal assistants like Claude Code to safely invoke the official Node.js SDK.\n\nZero-Cost Implementation: Walk through a practical 3-step project workbench setup: configuring a local project folder, prompting a public/private keypair script, and testing deployments for free on the Testnet sandbox using the automated Friendbot faucet before validating state updates live via the Stellar Expert explorer.",
+              "tags": [
+                "stellar network",
+                "vibecoding",
+                "no code blockchain"
+              ],
+              "url": "https://www.slideshare.net/slideshow/vibe-coding-blockchain-module-8-foundations-mindset-stellar-blockchain-vibecoding-slides/288241613",
+              "userLogin": "smwebsystems",
+              "userName": "SM Web Systems",
+              "viewCount": 21
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "Top RWA Tokenization Platform Development Companies in 2026: Leading Blockcha...",
+              "extension": "pptx",
+              "isSavedByCurrentUser": false,
+              "pageCount": 11,
+              "score": 0,
+              "slideshowId": "288225926",
+              "sourceName": "LATEST",
+              "strippedTitle": "top-rwa-tokenization-platform-development-companies-in-2026-leading-blockchain-innovators",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/rwatokenizationcompanies2026clean-260624140129-f9dfb014-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Explore the top 11 companies revolutionizing real-world asset tokenization on blockchain, including market trends, compliance, and platform capabilities for real estate, commodities, bonds, and more.",
+              "tags": [
+                "rwa tokenization",
+                "real world assets",
+                "tokenization"
+              ],
+              "url": "https://www.slideshare.net/slideshow/top-rwa-tokenization-platform-development-companies-in-2026-leading-blockchain-innovators/288225926",
+              "userLogin": "alexcarter1590",
+              "userName": "Alex Carter",
+              "viewCount": 6
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "A Practical Guide to Debugging Your FME Workflows with Confidence - Jun 30, 2026",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 58,
+              "score": 0,
+              "slideshowId": "288310063",
+              "sourceName": "LATEST",
+              "strippedTitle": "a-practical-guide-to-debugging-your-fme-workflows-with-confidence-jun-30-2026",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/apracticalguidetodebuggingyourfmeworkflowswithconfidence-jun302026-260629212705-48103a2a-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Have you ever built an FME workflow, only to hit an unexpected result or error message you weren’t sure how to resolve? You’re not alone. If troubleshooting has ever felt overwhelming or unclear, this webinar is for you.\n\nIn this practical, support-led session, our specialists will walk through the most common testing and debugging challenges users face in both FME Form and FME Flow. You’ll learn how to approach troubleshooting with confidence, using proven techniques to narrow down issues, understand what’s going wrong, and take the right next steps.\n\nWe’ll also look at real examples inspired by questions from the FME Community, showing how common problems are diagnosed and resolved in practice.\n\nBy the end of this webinar, you’ll have a stronger troubleshooting mindset, a clearer path for handling errors when they arise, and the tools to resolve issues more efficiently – so you can spend less time debugging, and more time working with your data.",
+              "tags": [],
+              "url": "https://www.slideshare.net/slideshow/a-practical-guide-to-debugging-your-fme-workflows-with-confidence-jun-30-2026/288310063",
+              "userLogin": "mktgapps",
+              "userName": "Safe Software Inc.",
+              "viewCount": 5
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "The State of the AI Economy - Exponential View",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 66,
+              "score": 0,
+              "slideshowId": "288297836",
+              "sourceName": "LATEST",
+              "strippedTitle": "the-state-of-the-ai-economy-exponential-view",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/ev-state-of-ai-economy-2026-260629061401-8b0f12cd-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Source: https://intelligence.exponentialview.co/assets/ev-state-of-ai-economy-2026.pdf",
+              "tags": [],
+              "url": "https://www.slideshare.net/slideshow/the-state-of-the-ai-economy-exponential-view/288297836",
+              "userLogin": "razinmustafiz",
+              "userName": "Razin Mustafiz",
+              "viewCount": 17
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "CopilotStudio_Agent | Udaiappa Ramachandran",
+              "extension": "pptx",
+              "isSavedByCurrentUser": false,
+              "pageCount": 23,
+              "score": 0,
+              "slideshowId": "288272187",
+              "sourceName": "LATEST",
+              "strippedTitle": "copilotstudio_agent-udaiappa-ramachandran",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/copilotstudioagent-260627041140-ef9f73d9-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "A practical, developer-focused walkthrough of building and integrating AI agents with Microsoft Copilot Studio — from your first no-code agent to autonomous, multi-agent systems. The deck covers the full Copilot Studio capability set, licensing and consumption models, and the three ways to connect agents to external apps: the Direct Line API, the Microsoft 365 Agents SDK (the recommended default for employee-facing apps, with built-in Entra ID SSO and Tenant Graph Grounding), and the Microsoft Agent Framework for multi-agent orchestration. Includes side-by-side C# and Python integration examples, an architecture call-flow diagram, an integration-path comparison, channel publishing (Teams, Web, custom), authentication and security best practices, and a live-demo walkthrough. Runnable .NET and Python sample apps included.\n\nBy Udaiappa Ramachandran (Udai) — CTO/CSO @ Akumina, Microsoft MVP (AI).",
+              "tags": [
+                "microsoft copilot studio",
+                "microsoft 365 agents sdk",
+                "direct line api"
+              ],
+              "url": "https://www.slideshare.net/slideshow/copilotstudio_agent-udaiappa-ramachandran/288272187",
+              "userLogin": "UdaiappaRamachandran",
+              "userName": "Udaiappa Ramachandran",
+              "viewCount": 22
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "How openSUSE Works: Inside the Community‑Driven Ecosystem",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 3,
+              "score": 0,
+              "slideshowId": "288268190",
+              "sourceName": "LATEST",
+              "strippedTitle": "how-opensuse-works-inside-the-community-driven-ecosystem",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/howopensuseworks-googleslides-260626173154-1eb603b9-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "This presentation provides a concise, beginner‑friendly overview of the openSUSE ecosystem. It presents openSUSE as a community‑driven Linux platform with two complementary release models: Leap, focused on long‑term stability and predictable updates, and Tumbleweed, a rolling release that delivers the latest upstream software.\n\nThe deck also introduces the core infrastructure that underpins both variants: the Open Build Service (OBS) for reproducible package and image builds, openQA for comprehensive automated testing, plus YaST as the central installation and system configuration tool.\n\nTogether, these slides show how openSUSE’s releases and tooling form an integrated pipeline from source code to end‑user systems, emphasizing the project’s focus on reliability, flexibility, as well as open community collaboration.",
+              "tags": [],
+              "url": "https://www.slideshare.net/slideshow/how-opensuse-works-inside-the-community-driven-ecosystem/288268190",
+              "userLogin": "rithullkallat",
+              "userName": "rithullkallat",
+              "viewCount": 24
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "VinomTV Review 2026 – Features, Streaming Quality & IPTV Guide",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 12,
+              "score": 0,
+              "slideshowId": "288293459",
+              "sourceName": "LATEST",
+              "strippedTitle": "vinomtv-review-2026-features-streaming-quality-iptv-guide",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/livesportsevents-260629001457-7692e697-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Learn about VinomTV, one of the leading IPTV services in 2026. This presentation covers its key features, streaming quality, supported devices, Video on Demand (VOD), Electronic Program Guide (EPG), sports coverage, and overall user experience. Explore whether VinomTV is the right IPTV solution for your entertainment needs",
+              "tags": [
+                "vinomtv",
+                "iptv",
+                "best iptv"
+              ],
+              "url": "https://www.slideshare.net/slideshow/vinomtv-review-2026-features-streaming-quality-iptv-guide/288293459",
+              "userLogin": "yasmeenfawzy88",
+              "userName": "yasmeenfawzy88",
+              "viewCount": 9
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "Certificate Of Completion, Anthropic Claude Platform 101",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 1,
+              "score": 0,
+              "slideshowId": "288225065",
+              "sourceName": "LATEST",
+              "strippedTitle": "certificate-of-completion-anthropic-claude-platform-101",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/certificateofcompletionclaudeplatform101-260624131322-d3fda525-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Certificate Of Completion, Anthropic Claude Platform 101",
+              "tags": [
+                "anthropic",
+                "claude",
+                "claude platform 101"
+              ],
+              "url": "https://www.slideshare.net/slideshow/certificate-of-completion-anthropic-claude-platform-101/288225065",
+              "userLogin": "GuramTochilashvili",
+              "userName": "Guram Tochilashvili",
+              "viewCount": 17
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "Comprehensive Fundamentals of IoT Networking Technologies and Security",
+              "extension": "pptx",
+              "isSavedByCurrentUser": false,
+              "pageCount": 21,
+              "score": 0,
+              "slideshowId": "288210317",
+              "sourceName": "LATEST",
+              "strippedTitle": "comprehensive-fundamentals-of-iot-networking-technologies-and-security",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/7-iotnetworkingfundamentals-260623184513-1328b0fa-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Explore IoT networking basics, communication protocols, physical layer technologies, and security considerations for Wi-Fi, BLE, Zigbee, and LoRa in diverse IoT applications.",
+              "tags": [],
+              "url": "https://www.slideshare.net/slideshow/comprehensive-fundamentals-of-iot-networking-technologies-and-security/288210317",
+              "userLogin": "HammadAli989482",
+              "userName": "HammadAli989482",
+              "viewCount": 12
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "SEO Write for Us – Submit Your SEO & Marketing Guest Post",
+              "extension": "pptx",
+              "isSavedByCurrentUser": false,
+              "pageCount": 16,
+              "score": 0,
+              "slideshowId": "288244978",
+              "sourceName": "LATEST",
+              "strippedTitle": "seo-write-for-us-submit-your-seo-marketing-guest-post",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/writeforusseoandmarketingguestposts-260625131914-74ca5941-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "We publish high-quality, informative, and actionable content related to SEO, digital marketing, and online business growth. Our goal is to help readers improve their website visibility, increase organic traffic, and stay updated with the latest industry trends.\n\nWe Publish Content On:\nSearch Engine Optimization (SEO)\nOn-Page SEO Techniques\nOff-Page SEO & Link Building\nTechnical SEO\nLocal SEO\nE-commerce SEO\nKeyword Research Strategies\nContent Marketing\nGoogle Search Console Tips\nGoogle Analytics Guides\nWebsite Audits & Optimization\nCore Web Vitals\nMobile SEO\nVoice Search Optimization\nAI in SEO & Digital Marketing\nBlogging Tips\nAffiliate Marketing\nDigital Marketing Strategies\nSocial Media Marketing\nConversion Rate Optimization (CRO)\nCase Studies & Success Stories\nSEO Tools Reviews & Comparisons\nSearch Engine Algorithm Updates\nOnline Business Growth Tips",
+              "tags": [
+                "#writeforus",
+                "#seowriteforus",
+                "#seoguestpost"
+              ],
+              "url": "https://www.slideshare.net/slideshow/seo-write-for-us-submit-your-seo-marketing-guest-post/288244978",
+              "userLogin": "ultimatetechnews",
+              "userName": "Write for us cybersecurity",
+              "viewCount": 11
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "Non consensual sexual acts with neural devices.pdf",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 10,
+              "score": 0,
+              "slideshowId": "288254404",
+              "sourceName": "LATEST",
+              "strippedTitle": "non-consensual-sexual-acts-with-neural-devices-pdf",
+              "type": "document",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/nonconsensualsexualactswithneuraldevices-260626004844-e682d0b5-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "An independent forensic examination of how Stevenson Charles's The Evolution of\r\nHuman Rights in the Context of Biotechnology (Zenodo, 2026) applies to the\r\ndocumented use of neural interface technologies — brain-computer interfaces,\r\nneurostimulation, and remote neural modulation — deployed without consent for the\r\npurpose of sexual violation.",
+              "tags": [
+                "#singularity #human #ai #robot"
+              ],
+              "url": "https://www.slideshare.net/slideshow/non-consensual-sexual-acts-with-neural-devices-pdf/288254404",
+              "userLogin": "StevensonCharles1",
+              "userName": "Stevenson  Charles ",
+              "viewCount": 8
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "Building Safe and Lean AI Systems: Strategies and Best Practices for 2026",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 23,
+              "score": 0,
+              "slideshowId": "288287402",
+              "sourceName": "LATEST",
+              "strippedTitle": "building-safe-and-lean-ai-systems-strategies-and-best-practices-for-2026",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/safelean-260628120722-ada8c4c7-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Explore lean AI development, safety challenges like prompt injection and behavioral control, and compliance strategies to build secure, efficient AI models with practical tools and workflows.",
+              "tags": [],
+              "url": "https://www.slideshare.net/slideshow/building-safe-and-lean-ai-systems-strategies-and-best-practices-for-2026/288287402",
+              "userLogin": "HusseinMalikMammadli",
+              "userName": "HusseinMalikMammadli",
+              "viewCount": 8
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "Why Cybersecurity Matters in the Age of Cloud Computing: Protecting Data and ...",
+              "extension": "pptx",
+              "isSavedByCurrentUser": false,
+              "pageCount": 7,
+              "score": 0,
+              "slideshowId": "288203342",
+              "sourceName": "LATEST",
+              "strippedTitle": "why-cybersecurity-matters-in-the-age-of-cloud-computing-protecting-data-and-driving-growth",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/cybersecurityintelart-260623101637-ab22d7a8-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Explore key cybersecurity strategies for cloud environments, including threat detection, risk management, compliance, and data analytics to safeguard business assets and enable sustainable innovation. https://intelartconsulting.blogspot.com/2026/06/why-cybersecurity-is-essential-for.html",
+              "tags": [
+                "cybersecurity",
+                "cybersecurity solutions"
+              ],
+              "url": "https://www.slideshare.net/slideshow/why-cybersecurity-matters-in-the-age-of-cloud-computing-protecting-data-and-driving-growth/288203342",
+              "userLogin": "DonnaSelvaraj1",
+              "userName": "DonnaSelvaraj1",
+              "viewCount": 32
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "Eaglemount Technologies: Global IT Solutions for Scalable Business Growth",
+              "extension": "pptx",
+              "isSavedByCurrentUser": false,
+              "pageCount": 7,
+              "score": 0,
+              "slideshowId": "288266944",
+              "sourceName": "LATEST",
+              "strippedTitle": "eaglemount-technologies-global-it-solutions-for-scalable-business-growth",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/eaglemountaboutglobalfocus-260626154715-d1ab41c6-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Discover Eaglemount Technologies' expertise in software development, cloud services, and IT consulting, delivering secure, scalable solutions with global standards and local trust to empower business growth worldwide. Visit: https://eaglemounttechnologies.com/",
+              "tags": [
+                "it consulting",
+                "social media",
+                "digital marketing"
+              ],
+              "url": "https://www.slideshare.net/slideshow/eaglemount-technologies-global-it-solutions-for-scalable-business-growth/288266944",
+              "userLogin": "EaglemountTechnologi",
+              "userName": "Eaglemount Technologies",
+              "viewCount": 5
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "Comprehensive Guide to Digital Marketing Strategies and Tools",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 9,
+              "score": 0,
+              "slideshowId": "288276907",
+              "sourceName": "LATEST",
+              "strippedTitle": "comprehensive-guide-to-digital-marketing-strategies-and-tools-5f3e",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/digitalmarketing1-260627120251-699d0eb2-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "To provide quality education, practical training, and professional digital services that help students achieve successful careers and businesses achieve digital growth.\n",
+              "tags": [
+                "digital media",
+                "google adwords",
+                "google ads"
+              ],
+              "url": "https://www.slideshare.net/slideshow/comprehensive-guide-to-digital-marketing-strategies-and-tools-5f3e/288276907",
+              "userLogin": "ravimdidminfoway",
+              "userName": "MDIDM INFOWAY",
+              "viewCount": 13
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "Comprehensive Guide to Gmail Accounts: Communication, Security, and Productivity",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 13,
+              "score": 0,
+              "slideshowId": "288265244",
+              "sourceName": "LATEST",
+              "strippedTitle": "comprehensive-guide-to-gmail-accounts-communication-security-and-productivity",
+              "type": "document",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/33bestplatformsforbuyingoldgmailaccounts20-260626141634-a5e24793-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Explore Gmail's features, security measures, business and personal uses, productivity tools, and best practices for managing multiple accounts effectively in this detailed guide.",
+              "tags": [
+                "gmail accounts",
+                "comprehensive guide to"
+              ],
+              "url": "https://www.slideshare.net/slideshow/comprehensive-guide-to-gmail-accounts-communication-security-and-productivity/288265244",
+              "userLogin": "rt8022697",
+              "userName": "rt8022697",
+              "viewCount": 5
+            },
+            {
+              "algorithmId": "4",
+              "displayTitle": "Different functional features of ERTMS/ETCS B3R2 and B4R1 OBUs of different S...",
+              "extension": "pdf",
+              "isSavedByCurrentUser": false,
+              "pageCount": 24,
+              "score": 0,
+              "slideshowId": "288211612",
+              "sourceName": "LATEST",
+              "strippedTitle": "different-functional-features-of-ertms-etcs-b3r2-and-b4r1-obus-of-different-svs-envelopes",
+              "type": "presentation",
+              "thumbnail": "https://cdn.slidesharecdn.com/ss_thumbnails/04jmarekazdvlastnostiobuetcsb3r2ab4r1entransl-260623205013-8246775c-thumbnail.jpg?width=640&height=640&fit=bounds",
+              "description": "Presentation about the differences between the ETCS OBU B3R2 vs. B4R1 of various system versions (full and reduced envelopes) as per the latest CCS TSI (EU) 2026/693. The presentation was given at the occasion of the seminar called \"K aktuálním problémům zabezpečovací techniky v dopravě XIX\" (\"On current problems of signalling systems in transport XIX\"), organised by the Faculty of Electrical Engineering, ZČU v Plzni (University of West Bohemia, Pilsen), 2nd June 2026. [https://zabtech.zcu.cz/zabtech_2026.php]",
+              "tags": [
+                "railway",
+                "interoperability",
+                "ertms"
+              ],
+              "url": "https://www.slideshare.net/slideshow/different-functional-features-of-ertms-etcs-b3r2-and-b4r1-obus-of-different-svs-envelopes/288211612",
+              "userLogin": "JakubMarek1",
+              "userName": "Jakub Marek",
+              "viewCount": 38
+            }
+          ],
+          "relatedGraphite": []
+        },
+        "slideDimensions": {
+          "height": 720,
+          "width": 1280
+        },
+        "allowDownloads": true,
+        "sectionSummaries": [],
+        "slides": {
+          "host": "https://image.slidesharecdn.com",
+          "title": "2026-Day-4-Vibe-Coding-Agent-Security-and-Evaluation-Google-AI-Agents-Course-pptx",
+          "imageLocation": "2026day4-vibecodingagentsecurityandevaluation-googleaiagentscourse-260625214749-6131cd36",
+          "imageSizes": [
+            {
+              "quality": 85,
+              "width": 320,
+              "format": "jpg"
+            },
+            {
+              "quality": 85,
+              "width": 638,
+              "format": "jpg"
+            },
+            {
+              "quality": 75,
+              "width": 2048,
+              "format": "webp"
+            }
+          ]
+        },
+        "tags": [
+          {
+            "indexableTag": {
+              "title": "Intelligent AI Agents",
+              "tagStrippedTitle": "ai-agents",
+              "indexed": true,
+              "tagLang": "fr",
+              "tagPillText": "Intelligent AI Agents"
+            }
+          },
+          {
+            "indexableTag": null
+          },
+          {
+            "indexableTag": null
+          }
+        ],
+        "topReadSlides": [],
+        "user": {
+          "id": "250615498",
+          "isFollowing": false,
+          "login": "vsivakumarmca1",
+          "name": "Sivakumar Viyalan",
+          "occupation": "",
+          "organization": "",
+          "photo": "https://cdn.slidesharecdn.com/profile-photo-vsivakumarmca1-48x48.jpg?cb=1782423431",
+          "photoExists": true,
+          "profileUrl": "https://www.slideshare.net/vsivakumarmca1",
+          "shortName": "Sivakumar Viyalan"
+        },
+        "views": 1
+      },
+      "messages": {
+        "common": {
+          "ad": {
+            "error": "Failed to load ad",
+            "fallbackText": "Ad for Scribd subscription",
+            "label": "Ad",
+            "close": "Close Ad",
+            "dismissIn": "Dismiss in",
+            "adInfoTitle": "Why are you seeing this?",
+            "adInfoDescription": "We use ads to keep content free and accessible for everyone. You can remove them by <link>signing up</link> for a Slideshare subscription."
+          },
+          "emailOptIn": {
+            "modal": {
+              "getTheMostOutOfSlideshare": "Get the most out of Slideshare",
+              "getAdFreeAccessAndDownload": "Get ad-free access and download any presentation you want across every topic and niche with a 30-day free trial.",
+              "sendMeEmailUpdates": "Send me email updates from Slideshare",
+              "continueWith30DayFreeTrial": "Continue with 30-day free trial",
+              "continueWithLimitedAccess": "Continue with limited access",
+              "cancelAnytime": "Cancel anytime."
+            }
+          },
+          "error": {
+            "deckNotAvailable": "Deck not available",
+            "favoriteAdd": "We couldn't add Slideshare to favorites",
+            "favoriteRemove": "We couldn't remove Slideshare from favorites",
+            "follow": "There was a problem following this user",
+            "unfollow": "There was a problem un-following this user",
+            "save": "Unable to save this item at this time.",
+            "removeSave": "We couldn't remove from your saved items",
+            "somethingWentWrongTitle": "Sorry! The page could not be loaded.",
+            "somethingWentWrongMessage": "This is probably a temporary error. Just refresh the page and retry. If the problem continues, please check back in 5-10 minutes.",
+            "notFoundTitle": "Sorry! We could not find what you were looking for.",
+            "notFoundMessage": "Don't worry, we will help you get to the right place. Are you looking for:",
+            "somethingWentWrongTitleV2": "There was an issue loading the page",
+            "somethingWentWrongMessageV2": "Something didn’t work as expected. Give it another try.",
+            "notFoundTitleV2": "Page no longer exists",
+            "notFoundMessageV2": "We said no blank pages! But it looks like that page was deleted from the deck...",
+            "privateTitle": "Looks like this one's off the shelf",
+            "privateMessage": "The presentation you're looking for was made private. But your next lightbulb moment might be one click away. Search top insights from every field.",
+            "rateLimitedTitle": "Too many password attempts",
+            "rateLimitedMessage": "You have exceeded the maximum number of password attempts. Please try again in {retryAfter} minutes."
+          },
+          "save": {
+            "addedToSavedPrefix": "Added to your",
+            "alreadySavedPrefix": "Already in your",
+            "addedToSavedSuffix": "Saved page",
+            "saveToSuccessPrefix": "Saved to ",
+            "allSaved": "All Saved"
+          },
+          "header": {
+            "hamburgerMenuAriaLabel": "Open navigation menu",
+            "logo": {
+              "alt": "Slideshare a Scribd company logo",
+              "title": "Return to the homepage"
+            },
+            "home": "Home",
+            "explore": "Explore",
+            "search": {
+              "placeholder": "Search",
+              "ariaLabel": "Search Slideshare",
+              "submit": "Submit search",
+              "clear": "Clear search"
+            },
+            "upload": "Upload",
+            "login": "Login",
+            "signIn": "Sign in",
+            "signup": {
+              "label": "Download free for 30 days",
+              "title": "Signup now for a Slideshare account",
+              "renewLabel": "Renew Subscription",
+              "renewTitle": "Renew your Slideshare subscription"
+            },
+            "user": {
+              "greeting": "Hi {name}!",
+              "ariaLabel": "User Settings",
+              "uploads": "My Uploads",
+              "analytics": "Analytics",
+              "settings": "Account Settings",
+              "support": "Support",
+              "logout": "Logout"
+            },
+            "categories": {
+              "education": "Education",
+              "healthMedicine": "Health & Medicine",
+              "technology": "Technology",
+              "business": "Business",
+              "design": "Design"
+            }
+          },
+          "sidebar": {
+            "language": "Language"
+          },
+          "footer": {
+            "link": {
+              "about": "About",
+              "support": "Support",
+              "terms": "Terms",
+              "privacy": "Privacy",
+              "copyright": "Copyright",
+              "cookie": "Cookie Preferences",
+              "yourPrivacyChoices": "Your Privacy Choices"
+            },
+            "languageSelector": {
+              "ariaLabel": "Change Language",
+              "hiddenText": "Current Language"
+            },
+            "copyright": "Slideshare from Scribd",
+            "social": {
+              "twitter": {
+                "ariaLabel": "Slideshare on Twitter",
+                "title": "Twitter"
+              },
+              "instagram": {
+                "ariaLabel": "Slideshare on Instagram",
+                "title": "Instagram"
+              },
+              "tiktok": {
+                "ariaLabel": "Slideshare on TikTok",
+                "title": "TikTok"
+              },
+              "linkedin": {
+                "ariaLabel": "Slideshare on LinkedIn",
+                "title": "LinkedIn"
+              },
+              "facebook": {
+                "ariaLabel": "Slideshare on Facebook",
+                "title": "Facebook"
+              }
+            }
+          },
+          "actions": {
+            "addToSaved": "Save for later",
+            "addToSavedA11y": "Save {title} for later",
+            "apply": "Apply",
+            "back": "Back",
+            "clearAll": "Clear all",
+            "close": "Close",
+            "cancel": "Cancel",
+            "embed": "Embed",
+            "save": "Save",
+            "saveSlide": "Save slide",
+            "saved": "Saved",
+            "submit": "Submit",
+            "next": "Next",
+            "previous": "Previous",
+            "nextSlide": "Next Slide",
+            "previousSlide": "Previous Slide",
+            "slidesRegion": "Slides",
+            "fullscreen": "View Fullscreen",
+            "removeSaved": "Remove from saved",
+            "removeSavedA11y": "Remove {title} from saved",
+            "scrollLeft": "Scroll Left",
+            "scrollRight": "Scroll Right",
+            "share": "Share",
+            "shareOnPlatforms": "Share on platforms",
+            "selectSlide": "Select slide",
+            "shareLinkedin": "Share on LinkedIn",
+            "shareFacebook": "Share on Facebook",
+            "shareTwitter": "Share on X",
+            "copyLink": "Copy link",
+            "copyToClipboard": "Copy to clipboard",
+            "linkCopied": "Link copied",
+            "view": "View",
+            "viewOnSlideshare": "View on Slideshare",
+            "exploreCategories": "Explore by category instead",
+            "refresh": "Refresh the page",
+            "removedFromList": "Saved item has been removed from the List",
+            "removedFromListError": "Could not remove the saved item from list"
+          },
+          "filter": {
+            "apply": "Apply"
+          },
+          "flash": {
+            "thanksForSigningUpHtml": "Thanks for signing up! Visit <a href={url}>account settings</a> to manage your info or upgrade to a free trial for unlimited downloads."
+          },
+          "form": {
+            "required": "Required"
+          },
+          "card": {
+            "slideshowType": {
+              "document": "Document",
+              "infographic": "Infographic",
+              "presentation": "Presentation",
+              "documents": "Documents",
+              "infographics": "Infographics",
+              "presentations": "Presentations",
+              "downloads": "Downloads",
+              "likes": "Likes"
+            },
+            "slideshowTypeUnit": {
+              "presentation": "Slide",
+              "document": "Page",
+              "infographic": "Page"
+            },
+            "pagesCount": "{count, plural, one {# page} other {# pages}}",
+            "slidesCount": "{count, plural, one {# slide} other {# slides}}",
+            "view": "{count, plural, one {view} other {views}}",
+            "by": "by",
+            "screenReaderText": "{title} by {author}",
+            "screenReaderTextExtended": "{title} by {author}, has {slideCount} slides with {viewCount} views."
+          },
+          "imageAlt": {
+            "studying": "Abstract image of a woman sitting on books and studying on a laptop"
+          },
+          "items": {
+            "count": "{count, plural, one {# item} other {# items}}"
+          },
+          "time": {
+            "second": "{count, plural, one {# second} other {# seconds}}"
+          },
+          "timeSince": {
+            "minutesAgo": "{count} min. ago",
+            "hoursAgo": "{count, plural, one {# hour ago} other {# hours ago}}",
+            "daysAgo": "{count, plural, one {# day ago} other {# days ago}}",
+            "monthsAgo": "{count, plural, one {# month ago} other {# months ago}}",
+            "yearsAgo": "{count, plural, one {# year ago} other {# years ago}}"
+          },
+          "seeMore": "See more",
+          "seeLess": "See Less",
+          "yes": "Yes",
+          "no": "No",
+          "signup": "Sign Up",
+          "nextLabel": "Next",
+          "previousLabel": "Previous",
+          "paginationLabel": "Pagination",
+          "paginationPageLabel": "Page {page}",
+          "public": "Public",
+          "private": "Private",
+          "confirmRemoveSaveModal": {
+            "title": "This saved item is also in a list.",
+            "description": "Removing from saved will also delete the item from your lists",
+            "cancelButtonLabel": "Cancel",
+            "deleteButtonLabel": "Delete",
+            "checkboxLabel": "Do not ask again"
+          },
+          "presentation": "Slideshow",
+          "presentationPlural": "Slideshows",
+          "redirecting": "Redirecting...",
+          "noContent": "No content to display.",
+          "results": {
+            "statusMessage": "{count, plural, one {# result found} other {# results found}}"
+          }
+        },
+        "slideshow": {
+          "actions": {
+            "allSaved": "All Saved",
+            "copyText": "Copy text",
+            "copyTextSuccess": "Text copied to clipboard",
+            "copyTextError": "Failed to copy the text. Please try again!",
+            "downloadPresentation": "Download presentation",
+            "downloadPresentationA11y": "Download presentation {title}",
+            "downloadSlide": "Download slide",
+            "downloadDocument": "Download document",
+            "downloadPage": "Download page",
+            "downloadNow": "Download now",
+            "download": "Download",
+            "favorite": "Favorite",
+            "removeFavorite": "Remove favorite",
+            "removeLike": "Remove like",
+            "like": "Like",
+            "follow": "Follow",
+            "unfollow": "Unfollow",
+            "moreOptions": "More options",
+            "overview": "Overview",
+            "related": "Related",
+            "share": "Share",
+            "saved": "Saved",
+            "removeFromList": "Remove from list {listname}",
+            "saveError": "Unable to save this item at this time.",
+            "saveToNewList": "New list",
+            "saveToList": "Save to list {listname}",
+            "seeMore": "See more",
+            "noSavedLists": "You don't have any lists created yet.",
+            "submit": "Submit"
+          },
+          "ads": {
+            "label": "Ad",
+            "skip": "Skip to next slide",
+            "skipCountdown": "You can skip to the next slide in",
+            "continueIn": "Continue in",
+            "changeVolume": "Change Volume",
+            "downloadReadAdFree": "Download to read ad-free",
+            "scroll": "Scroll to read more"
+          },
+          "adsForAccess": {
+            "title": "Unlock this presentation",
+            "description": "Subscribe to read and download this presentation",
+            "button": "Subscribe with a free trial",
+            "or": "OR",
+            "adCompleteMessage": "Read this slide once the ad is complete",
+            "skipAd": "Skip ad",
+            "skipAdIn": "Skip ad in {seconds}s"
+          },
+          "adBlockInterstitial": {
+            "title1": "Keep Slideshare free —",
+            "title2": "please disable your ad blocker.",
+            "buttonLabel": "Show me how",
+            "message": "Hate ads? Join Scribd to browse Slideshare and Scribd ad-free.",
+            "cta": "Try Scribd for free"
+          },
+          "author": {
+            "uploaded": "Uploaded",
+            "by": "by",
+            "follow": "Follow",
+            "following": "Following",
+            "keynoteAuthor": "Keynote Author"
+          },
+          "converted": {
+            "label": "Converted",
+            "description": "Content is converted to PPTX. Layout may be affected."
+          },
+          "download": {
+            "success": "Your Slideshare is downloading.",
+            "subscriptionRequired": "A subscription is required to download this presentation.",
+            "loginRequired": "Login to Slideshare to download.",
+            "genericError": "This presentation cannot be downloaded right now. Please try again."
+          },
+          "downloadModal": {
+            "amongKnowledgeSeekers": "You’re among 70M+ knowledge seekers on the world’s largest platform for creating and sharing presentations.",
+            "complimentaryAccess": "Enjoy complimentary access to Scribd's 195M+ docs",
+            "converted": " (Converted)",
+            "copyTextBuildNextBigIdea": "Copy text to build your next big idea",
+            "copyTextSparkNextBigIdea": "Copy text from slides to spark your next big idea",
+            "downloadAccessFavoritesAnytime": "Download and access your favorites anytime",
+            "downloadAnytimeLearning": "Download for anytime learning",
+            "downloadAs": "Download as:",
+            "downloadPresentation": "Download presentation",
+            "downloadStarted": "Your download has started",
+            "getMore": "Get more from Slideshare.",
+            "knowledgeSeekersTrustSlideshare": "70M+ knowledge seekers trust Slideshare.",
+            "presentationsOnAnyTopic": "195M+ presentations on any topic",
+            "uploadedBy": "Uploaded by {author}"
+          },
+          "editorsNotes": "Editor's Notes",
+          "embed": {
+            "title": "Embed presentation",
+            "fieldLabel": "Embed this in your website",
+            "sizeLabel": "Size"
+          },
+          "endOfReading": {
+            "loading": "Loading in",
+            "title": "Check these out next"
+          },
+          "metadata": {
+            "at": "at",
+            "aiTag": {
+              "descriptionLabel": "AI-enhanced description",
+              "descriptionTooltipTitle": "AI-Enhanced Description",
+              "descriptionTooltip": "Leveraging AI technology, we've optimized the description for improved clarity.",
+              "titleLabel": "AI-enhanced title",
+              "titleTooltipTitle": "AI-Enhanced Title",
+              "titleTooltip": "Leveraging AI technology, we've optimized the title for improved clarity.",
+              "titleAndDescriptionLabel": "AI-enhanced title and description",
+              "titleAndDescriptionTooltipTitle": "AI-Enhanced Title and Description",
+              "titleAndDescriptionTooltip": "Leveraging AI technology, we've optimized the title and description for improved clarity."
+            },
+            "download": {
+              "bottomSheetTitle": "Download format",
+              "labelShort": "Download",
+              "label": "Download now",
+              "description": "Download to read offline",
+              "downloadCount": "Downloaded {count} times"
+            },
+            "downloadAs": "Download as {formatTypes}",
+            "readMore": "Read more",
+            "readLess": "Read less",
+            "more": "more",
+            "category": {
+              "label": "Category",
+              "description": "View the featured presentations, documents and infographics in the"
+            },
+            "dateFormat": "MMM. D, YYYY",
+            "mostRead": "Most read",
+            "pages": "Pages",
+            "page": "Page",
+            "relatedTopics": "Related topics",
+            "slideshowPage": {
+              "descriptionDownloadFormatViewFree": "Download as a {formatTypes} or view online for free",
+              "descriptionViewFree": "View online for free"
+            },
+            "sections": {
+              "title": "In this document",
+              "poweredBy": "Powered by AI",
+              "view": "View",
+              "slide": "Slide",
+              "slides": "Slides",
+              "accordionLabel": "Document sections"
+            }
+          },
+          "navigation": {
+            "slidePreviewLabel": "Slide {slideNumber} of {totalSlides}",
+            "transcriptLinkLabel": "Slide {slideNumber}: {text}",
+            "slideCountOfTotalCount": "<span data-cy='current-slide-number' class='current-slide-number j-current-slide'>{slideCount}</span> of <span class='total-slides j-total-slides'>{totalCount}</span>",
+            "viewFullscreen": "View Fullscreen",
+            "zoomIn": "Zoom In",
+            "zoomOut": "Zoom Out"
+          },
+          "payNow": {
+            "continueReadingAdFreeOrUpgrade": "Continue reading ad-free with your trial or upgrade to a subscription to download hundreds of documents.",
+            "currentPaymentMethod": "Current payment method",
+            "downloadHundredsOfDocuments": "Download hundreds of presentations. Read ad-free. Access to Scribd, Slideshare, and Everand.",
+            "standardMonthly": "Standard Monthly",
+            "startingDate": "Starting {date}",
+            "subscribe": "Subscribe",
+            "subscriptionPaymentProcessed": "Subscription payment processed",
+            "thereWasAnIssueWithPaymentHtml": "There was an issue with your payment method. <a href=\"{resubscribePath}\">Update payment details</a> to continue.",
+            "update": "Update",
+            "upgradeYourTrial": "Upgrade your trial",
+            "youWillBeBilled": "You will be billed {amount} today",
+            "zeroDownloadsRemaining": "0 free downloads remaining in your trial"
+          },
+          "saveToDrive": {
+            "modal": {
+              "cancel": "Cancel",
+              "connectGoogleAccount": "Connect Google account",
+              "connectYourGoogleAccount": "Connect your Google account to save to Drive",
+              "tryAgain": "Try again",
+              "tryAgainError": "Something went wrong connecting Google Drive. Please try again."
+            },
+            "success": "Your Slideshare is saved to your Google Drive",
+            "button": "Save to Drive",
+            "errors": {
+              "didntFinishConnecting": "You didn't finish connecting Google Drive. Try again.",
+              "generic": "This Slideshare cannot be downloaded",
+              "wentWrong": "Something went wrong."
+            }
+          },
+          "share": "Share Slideshare",
+          "rec": {
+            "related": "Related slideshows",
+            "recommendedForYou": "Recommended for you",
+            "descTooltipTitle": "About the slideshow",
+            "recommended": {
+              "title": "Recommended",
+              "shortTitle": "Recommended"
+            },
+            "relatedContent": {
+              "title": "More Related Content",
+              "shortTitle": "More Related Content"
+            },
+            "featured": {
+              "title": "Featured",
+              "shortTitle": "Featured"
+            },
+            "forYou": {
+              "title": "Slideshows for you",
+              "shortTitle": "Slideshows for you"
+            },
+            "alsoLiked": {
+              "title": "Viewers also liked",
+              "shortTitle": "Viewers also liked"
+            },
+            "latest": {
+              "title": "Recently uploaded",
+              "shortTitle": "Recently uploaded"
+            },
+            "moreFromUser": {
+              "title": "More from {name}",
+              "shortTitle": "More from uploader"
+            },
+            "similarTo": {
+              "title": "Similar to {title}",
+              "shortTitle": "Similar to"
+            },
+            "whatsHot": {
+              "title": "What's hot",
+              "shortTitle": "What's hot"
+            },
+            "relatedGraphite": {
+              "title": "Related slideshows",
+              "shortTitle": "Related slideshows"
+            }
+          },
+          "rewriteAi": {
+            "beta": "AI beta",
+            "title": "AI commands",
+            "titleLabel": "AI commands for slide {slideNumber}",
+            "close": " AI commands close",
+            "slide": "Slide",
+            "page": "Page",
+            "moreOptionsAriaLabel": "More options",
+            "send": "Send prompt to AI",
+            "disclaimer": "This feature is powered by OpenAI and may make mistakes. Check important info.",
+            "inputPlaceholder": "“Rewrite in a way that’s easier to understand”",
+            "inputPlaceholderAudience": "“Fourth grade students”",
+            "clearHistory": "Clear history",
+            "welcomeDescription": "Select any slide to extract key points or adapt into unique content for your own presentations. ",
+            "welcomeDescriptionDoc": "Select any page to extract key points or adapt into unique content for your own documents. ",
+            "textCopied": "Text copied to clipboard",
+            "predefinedIntro": "What would you like to do with this slide’s content? Pick a preset or enter your own prompt.",
+            "predefinedIntroDoc": "What would you like to do with this page's content? Pick a preset or enter your own prompt.",
+            "predefinedPrompts": {
+              "simplify": "Simplify",
+              "rephrase": "Rephrase",
+              "keyPoints": "Key points",
+              "elaborate": "Elaborate",
+              "audienceAdapt": "Adapt for audience",
+              "audienceAdaptFor": "Rephrase for <b>{audience}</b>"
+            },
+            "audiencePrompts": {
+              "title": "Who is your audience? Choose an option below or enter your own.",
+              "highSchool": "High school students",
+              "investors": "Potential investors",
+              "generic": "Generic audience",
+              "back": "Options"
+            },
+            "suggestionPillsTitle": "What would you like to do next?",
+            "loading": "Analyzing the slide and crafting your response",
+            "loadingDoc": "Analyzing the page and crafting your response",
+            "copy": "Copy",
+            "retry": "Retry",
+            "thumbsUp": "Helpful",
+            "thumbsDown": "Unhelpful",
+            "aiResponse": "AI says",
+            "errors": {
+              "limitReached": "You've reached your daily limit for prompts. To ensure fair usage, we limit the number of rewrites per day. You can try again tomorrow.",
+              "invalidPrompt": "Invalid entry. Please revise your prompt or choose a suggested revision below.",
+              "generic": "Sorry, we're having technical difficulties. Please try again later."
+            }
+          },
+          "error": {
+            "save": "We couldn't save this item",
+            "unsave": "We couldn't remove from your saved items",
+            "blocked": "This user has blocked you",
+            "privateContent": "Private content!",
+            "privacyExplanation": "This content has been marked as private by the uploader.",
+            "enterPassword": "Enter password",
+            "fileProtected": "This file is password protected.",
+            "passwordIncorrect": "The password is incorrect.",
+            "privatePresentation": "Private Presentation",
+            "privateContentMessage": "This uploaded file has been marked private by the author. Sorry!",
+            "removedContentTitle": "Uploaded Content Removed",
+            "removedContentMessage": "The uploaded content has been removed and is no longer available.",
+            "redirectMessage": "Redirecting to the homepage in"
+          },
+          "saveToNewListModal": {
+            "title": "Add to a new list",
+            "listNameInputLabel": "What would you like to name this list?",
+            "listPrivacyLabel": "Make list private",
+            "cancelButtonLabel": "Cancel",
+            "saveListButtonLabel": "Save",
+            "success": "Saved to ",
+            "error": "We couldn't save this item to {listname}"
+          }
+        },
+        "metadata": {
+          "galleryView": "Gallery",
+          "galleryViewLabel": "Gallery View",
+          "like": "{count, plural, one {like} other {likes}}",
+          "likeWithCount": "{count, plural, one {# like} other {# likes}}",
+          "view": "{count, plural, one {view} other {views}}",
+          "saved": "{count, plural, one {saved} other {saved}}",
+          "fromEmbeds": "From embeds",
+          "numberOfEmbeds": "Number of embeds",
+          "onSlideshare": "On Slideshare",
+          "totalViews": "Total views",
+          "splitChar": ",",
+          "decimalPoint": ".",
+          "showMore": "Show More",
+          "likes": {
+            "emptyMessage": "Be the first to like this",
+            "loadingMessage": "Loading..."
+          },
+          "slide": "{count, plural, one {slide} other {slides}}",
+          "slideCountOfTotal": "of"
+        },
+        "report": {
+          "more": "More options",
+          "share": "Share",
+          "report": "Report",
+          "edit": "Edit",
+          "viewAnalytics": "View Analytics",
+          "flagAsInappropriate": "Report as inappropriate",
+          "error": "There was an error while reporting this slideshow. Please try again.",
+          "flag": "Flag",
+          "copyrightComplaint": "Copyright Complaint",
+          "selectAReason": "Select a reason",
+          "selectYourReason": "Select your reason for reporting this presentation as inappropriate.",
+          "none": "None",
+          "porn": "Pornographic",
+          "defamatory": "Defamatory",
+          "ultraviolence": "Extremely Violent or Promotes Terrorism",
+          "hateSpeech": "Hate Speech",
+          "offensive": "Offensive Language or Threatening",
+          "spam": "Spam or Scam",
+          "copyrightInfringement": {
+            "title": "Copyright infringement",
+            "description": "If you're the copyright owner of this document or someone authorized to act on a copyright owner's behalf, please <link>use the DMCA form</link> to report infringement."
+          },
+          "illegalContent": {
+            "title": "Illegal content",
+            "description": "If you believe this document contains illegal material, such as child sexual abuse, exploitation, terrorism, or other unlawful activity, please <link>contact our Customer Operations team</link>."
+          },
+          "reportIssue": {
+            "title": "Report an issue"
+          },
+          "form": {
+            "title": "Report content",
+            "description": "Reports are used to improve our systems and are not used for content moderation.",
+            "errorCategory": "Select a category to submit your report",
+            "errorSubtype": "Select a sub-category to submit your report",
+            "defaultSubtype": "Select an option...",
+            "category": {
+              "explicit": {
+                "label": "Explicit",
+                "description": "Content that is graphic, offensive, or disturbing.",
+                "subtypes": {
+                  "sexuallyExplicitContent": "Sexually Explicit",
+                  "shockingContent": "Shocking or Disturbing",
+                  "general": "Other"
+                }
+              },
+              "dangerousAndDeragatory": {
+                "label": "Dangerous & Derogatory",
+                "description": "Content that encourages harmful, threatening, or hateful behavior.",
+                "subtypes": {
+                  "menacing": "Threatening Behavior",
+                  "incitement": "Inciting Violence or Hatred",
+                  "selfHarm": "Self-harm",
+                  "general": "Other"
+                }
+              },
+              "deceptiveAndFraudulent": {
+                "label": "Deceptive & Fraudulent",
+                "description": "Content that intentionally misleads, deceives, or engages in fraudulent activities.",
+                "subtypes": {
+                  "academicIntegrity": "Academic Dishonesty",
+                  "misinformation": "Spreading False Information",
+                  "general": "Other"
+                }
+              },
+              "privacy": {
+                "label": "Privacy",
+                "description": "Content that misuses personal information.",
+                "subtypes": {
+                  "privacyGeneral": "General Privacy",
+                  "privacyChild": "Child Privacy"
+                }
+              },
+              "spam": {
+                "label": "Spam",
+                "description": "Unsolicited and repetitive content that disrupts your experience."
+              },
+              "lowQuality": {
+                "label": "Low Quality",
+                "description": "Content that fails to meet minimum standards for clarity, relevance, or completeness."
+              }
+            }
+          }
+        },
+        "share-modal": {
+          "close": "Close",
+          "embedTitle": "Embed",
+          "embedSize": "Size (px)",
+          "link": "Link",
+          "start": "Start on",
+          "title": "Share presentation",
+          "recommendations": "Related presentations",
+          "wordpressShortcode": "WordPress shortcode",
+          "shareFacebook": "Share on Facebook",
+          "shareLinkedin": "Share on Linkedin",
+          "shareTwitter": "Tweet on Twitter",
+          "labelFacebook": "Facebook",
+          "labelLinkedin": "Linkedin",
+          "labelTwitter": "X"
+        }
+      }
+    },
+    "__N_SSP": true
+  },
+  "page": "/slideshow/[title]/[id]",
+  "query": {
+    "title": "2026-day-4-vibe-coding-agent-security-and-evaluation-google-ai-agents-course-pptx",
+    "id": "288252631"
+  },
+  "buildId": "5594edf3a81d0991446f379c249a5ef80e857d68",
+  "assetPrefix": "https://public.slidesharecdn.com",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "dynamicIds": [
+    315794,
+    347500,
+    735018
+  ],
+  "gssp": true,
+  "scriptLoader": []
+}

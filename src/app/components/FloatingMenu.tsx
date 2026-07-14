@@ -1,35 +1,41 @@
 import React from 'react';
-import { FaHome, FaVideo, FaCamera, FaDesktop, FaCalendarAlt } from 'react-icons/fa';
+import Link from 'next/link';
+import { FaCarSide, FaAnchor, FaUmbrellaBeach, FaCompass, FaCalendarAlt } from 'react-icons/fa';
 
 const FloatingMenu = () => {
     return (
-        <div className="fixed bottom-6 right-6 z-50">
-            <div className="bg-white rounded-lg shadow-2xl border border-gray-200 p-2">
-                <div className="flex space-x-4">
+        <div className="fixed bottom-6 right-6 z-50 hidden md:block">
+            <div className="bg-white/90 backdrop-blur-md rounded-2xl shadow-2xl border border-slate-200/80 p-2 premium-shadow">
+                <div className="flex space-x-2">
                     <FloatingMenuItem 
-                        icon={<FaHome size={20} />}
-                        label="Заявки"
-                        sublabel="Подача заявлений"
+                        href="/services/transfers"
+                        icon={<FaCarSide size={20} />}
+                        label="Трансфер"
+                        sublabel="Из аэропорта DLM"
                     />
                     <FloatingMenuItem 
-                        icon={<FaVideo size={20} />}
-                        label="Видео галерея"
-                        sublabel="Все видеоматериалы"
+                        href="/services/yacht-rental"
+                        icon={<FaAnchor size={20} />}
+                        label="Аренда яхт"
+                        sublabel="Морские прогулки"
                     />
                     <FloatingMenuItem 
-                        icon={<FaCamera size={20} />}
-                        label="Фото галерея"
-                        sublabel="Все фотографии"
+                        href="/beaches"
+                        icon={<FaUmbrellaBeach size={20} />}
+                        label="Пляжи"
+                        sublabel="Лучшие бухты"
                     />
                     <FloatingMenuItem 
-                        icon={<FaDesktop size={20} />}
-                        label="Электронная мэрия"
-                        sublabel="Онлайн услуги"
+                        href="/services/excursions-tours"
+                        icon={<FaCompass size={20} />}
+                        label="Экскурсии"
+                        sublabel="Туры по Ликии"
                     />
                     <FloatingMenuItem 
+                        href="/articles/24_sobytiya_festivali_i_prazdniki"
                         icon={<FaCalendarAlt size={20} />}
-                        label="Мероприятия"
-                        sublabel="Все мероприятия"
+                        label="События"
+                        sublabel="Фестивали и праздники"
                     />
                 </div>
             </div>
@@ -37,20 +43,20 @@ const FloatingMenu = () => {
     );
 };
 
-const FloatingMenuItem = ({ icon, label, sublabel }: { icon: React.ReactNode, label: string, sublabel: string }) => (
-    <div className="flex flex-col items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer transition-colors duration-200 min-w-[80px]">
-        <div className="text-cyan-600 mb-2">
+const FloatingMenuItem = ({ href, icon, label, sublabel }: { href: string, icon: React.ReactNode, label: string, sublabel: string }) => (
+    <Link href={href} className="flex flex-col items-center p-3 hover:bg-cyan-50 rounded-xl cursor-pointer transition-all duration-200 min-w-[90px] group">
+        <div className="text-cyan-600 mb-2 group-hover:scale-110 transition-transform">
             {icon}
         </div>
         <div className="text-center">
-            <div className="text-xs font-semibold text-gray-800 leading-tight">
+            <div className="text-xs font-black text-slate-800 leading-tight group-hover:text-cyan-700 transition-colors">
                 {label}
             </div>
-            <div className="text-xs text-gray-500 mt-1 leading-tight">
+            <div className="text-[10px] font-medium text-slate-500 mt-1 leading-tight">
                 {sublabel}
             </div>
         </div>
-    </div>
+    </Link>
 );
 
 export default FloatingMenu; 
