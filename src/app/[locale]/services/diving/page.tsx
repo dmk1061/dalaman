@@ -1,17 +1,14 @@
-import PlaceholderPage from "@/app/components/PlaceholderPage";
+import ServiceLandingPage from "@/app/components/ServiceLandingPage";
 import React from "react";
 
-const DivingPage = ({ params }: { params: { locale: string } }) => {
+const ServiceRoutePage = ({ params }: { params: { locale: string } }) => {
     return (
-        <PlaceholderPage
-            keyId="diving"
+        <ServiceLandingPage
+            serviceKey="diving"
             locale={params.locale}
-            title="Дайвинг"
-            description="Этот раздел находится в разработке. Скоро здесь появится информация о дайвинг-центрах и лучших местах для погружений."
         />
     );
 };
-
 
 export async function generateStaticParams() {
     return [
@@ -22,4 +19,4 @@ export async function generateStaticParams() {
     ];
 }
 
-export default DivingPage; 
+export default ServiceRoutePage;

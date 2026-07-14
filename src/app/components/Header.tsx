@@ -40,7 +40,7 @@ const Header = async ({ locale = 'en' }: HeaderProps) => {
 
   const navItems = [
     {
-      name: dict.header.nav.preparation, href: '#', dropdown: [
+      name: dict.header.nav.preparation, href: localize('/articles'), dropdown: [
         { name: dict.header.nav.geography, href: '/articles/geography' },
         { name: dict.header.nav.transport, href: '/articles/transport' },
         { name: dict.header.nav.airport_dalaman, href: '/articles/airport-dalaman' },
@@ -51,7 +51,7 @@ const Header = async ({ locale = 'en' }: HeaderProps) => {
       ]
     },
     {
-      name: dict.header.nav.discoveries, href: '#', dropdown: [
+      name: dict.header.nav.discoveries, href: localize('/articles'), dropdown: [
         { name: dict.header.nav.all_cities, href: '/city-guide' },
         { name: dict.header.nav.best_beaches, href: '/beaches' },
         { name: dict.header.nav.ancient_cities, href: '/articles/ancient-cities' },
@@ -61,7 +61,7 @@ const Header = async ({ locale = 'en' }: HeaderProps) => {
       ]
     },
     {
-      name: dict.header.nav.experiences, href: '#', dropdown: [
+      name: dict.header.nav.experiences, href: localize('/articles'), dropdown: [
         { name: dict.header.nav.yachting, href: '/articles/yachting' },
         { name: dict.header.nav.diving, href: '/articles/diving' },
         { name: dict.header.nav.paragliding, href: '/articles/paragliding' },
@@ -77,7 +77,7 @@ const Header = async ({ locale = 'en' }: HeaderProps) => {
     <header className="glass-header">
       {/* Top Action Bar */}
       <div className="bg-cyan-600/90 text-white text-[10px] font-bold tracking-widest">
-        <div className="container mx-auto px-4 py-1.5 flex justify-between items-center">
+        <div className="w-full max-w-[2180px] mx-auto px-4 sm:px-6 md:px-11 lg:px-11 py-1.5 flex justify-between items-center">
           <div className="flex items-center space-x-6">
             <Link href={localize('/contacts')} className="flex items-center space-x-1 hover:text-cyan-200 transition-colors uppercase">
               <span>{dict.header.contact_us}</span>
@@ -114,7 +114,7 @@ const Header = async ({ locale = 'en' }: HeaderProps) => {
       </div>
 
       {/* Main Header & Navigation */}
-      <div className="container mx-auto px-4 py-4">
+      <div className="w-full max-w-[2180px] mx-auto px-4 sm:px-6 md:px-11 lg:px-11 py-4">
         {/* Line 1: Title and Cities */}
         <div className="flex justify-between items-center">
           <Link href={localize('/')} className="text-2xl font-bold text-cyan-700 hover:text-cyan-800">
@@ -137,7 +137,7 @@ const Header = async ({ locale = 'en' }: HeaderProps) => {
       {/* Divider */}
       <hr className="border-gray-200" />
       {/* Line 2: Main Navigation */}
-      <div className="container mx-auto px-4 pt-3 pb-3">
+      <div className="w-full max-w-[2180px] mx-auto px-4 sm:px-6 md:px-11 lg:px-11 pt-3 pb-3">
         <nav>
           <ul className="flex items-center space-x-8">
             {navItems.map((item) => (

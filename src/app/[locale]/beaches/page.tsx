@@ -112,7 +112,7 @@ const BeachesPage = async ({ params }: BeachesPageProps) => {
                 </div>
 
                 {/* Main dynamic section */}
-                <div className="container mx-auto px-4 -mt-10 relative z-30 pb-20">
+                <div className="w-full max-w-[2180px] mx-auto px-4 sm:px-6 md:px-8 -mt-10 relative z-30 pb-20">
                     <BeachesClient beaches={beaches} locale={locale} />
                 </div>
             </main>

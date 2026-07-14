@@ -1,17 +1,14 @@
-import PlaceholderPage from "@/app/components/PlaceholderPage";
+import ServiceLandingPage from "@/app/components/ServiceLandingPage";
 import React from "react";
 
-const TunaFishingPage = ({ params }: { params: { locale: string } }) => {
+const ServiceRoutePage = ({ params }: { params: { locale: string } }) => {
     return (
-        <PlaceholderPage
-            keyId="tuna-fishing"
+        <ServiceLandingPage
+            serviceKey="tuna-fishing"
             locale={params.locale}
-            title="Подводная охота на тунца"
-            description="Этот раздел находится в разработке. Скоро здесь появится информация об организации туров по подводной охоте."
         />
     );
 };
-
 
 export async function generateStaticParams() {
     return [
@@ -22,4 +19,4 @@ export async function generateStaticParams() {
     ];
 }
 
-export default TunaFishingPage; 
+export default ServiceRoutePage;

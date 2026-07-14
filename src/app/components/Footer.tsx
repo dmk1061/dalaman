@@ -19,7 +19,7 @@ const Footer = async ({ locale = 'en' }: FooterProps) => {
 
     return (
         <footer className="bg-cyan-700 text-white pt-10 pb-4">
-            <div className="container mx-auto px-4">
+            <div className="w-full max-w-[2180px] mx-auto px-4 sm:px-6 md:px-11 lg:px-11">
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-8">
                     <FooterColumn title={dict.footer.about_region} links={[
                         { name: dict.footer.links.geography_history, href: '/articles/geography' },

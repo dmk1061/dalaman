@@ -1,17 +1,14 @@
-import PlaceholderPage from "@/app/components/PlaceholderPage";
+import ServiceLandingPage from "@/app/components/ServiceLandingPage";
 import React from "react";
 
-const SmallTownsPage = ({ params }: { params: { locale: string } }) => {
+const ServiceRoutePage = ({ params }: { params: { locale: string } }) => {
     return (
-        <PlaceholderPage
-            keyId="small-towns"
+        <ServiceLandingPage
+            serviceKey="city-guide/small-towns"
             locale={params.locale}
-            title="Малые города и деревни"
-            description="Этот раздел находится в разработке. Скоро здесь появятся путеводители по очаровательным малым городам и деревням Ликийского побережья."
         />
     );
 };
-
 
 export async function generateStaticParams() {
     return [
@@ -22,4 +19,4 @@ export async function generateStaticParams() {
     ];
 }
 
-export default SmallTownsPage; 
+export default ServiceRoutePage;

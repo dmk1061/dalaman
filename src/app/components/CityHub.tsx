@@ -123,7 +123,7 @@ const CityHub = ({ location, locationName, info, beaches, sights, transport, ima
                 </div>
             </section>
 
-            <div className="container mx-auto px-4 -mt-24 relative z-10 pb-20">
+            <div className="w-full max-w-[2180px] mx-auto px-4 sm:px-6 md:px-8 -mt-24 relative z-10 pb-20">
                 {/* Glassmorphic Quick-Stats Bar */}
                 {(() => {
                     const statsObj = quickStatsByCity[location] || quickStatsByCity['dalaman'];

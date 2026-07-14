@@ -1,17 +1,14 @@
-import PlaceholderPage from "@/app/components/PlaceholderPage";
+import ServiceLandingPage from "@/app/components/ServiceLandingPage";
 import React from "react";
 
-const DalamanGuidePage = ({ params }: { params: { locale: string } }) => {
+const ServiceRoutePage = ({ params }: { params: { locale: string } }) => {
     return (
-        <PlaceholderPage
-            keyId="dalaman-guide"
+        <ServiceLandingPage
+            serviceKey="dalaman-guide"
             locale={params.locale}
-            title="Гид по Даламану"
-            description="Этот раздел находится в разработке. Скоро здесь появится подробный гид по городу Даламан и его окрестностям."
         />
     );
 };
-
 
 export async function generateStaticParams() {
     return [
@@ -22,4 +19,4 @@ export async function generateStaticParams() {
     ];
 }
 
-export default DalamanGuidePage; 
+export default ServiceRoutePage;

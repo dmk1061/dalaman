@@ -1,17 +1,14 @@
-import PlaceholderPage from "@/app/components/PlaceholderPage";
+import ServiceLandingPage from "@/app/components/ServiceLandingPage";
 import React from "react";
 
-const TransfersPage = ({ params }: { params: { locale: string } }) => {
+const ServiceRoutePage = ({ params }: { params: { locale: string } }) => {
     return (
-        <PlaceholderPage
-            keyId="transfers"
+        <ServiceLandingPage
+            serviceKey="transfers"
             locale={params.locale}
-            title="Трансферы"
-            description="Этот раздел находится в разработке. Скоро здесь появится информация о наших услугах по организации трансферов из аэропорта Даламан."
         />
     );
 };
-
 
 export async function generateStaticParams() {
     return [
@@ -22,4 +19,4 @@ export async function generateStaticParams() {
     ];
 }
 
-export default TransfersPage; 
+export default ServiceRoutePage;

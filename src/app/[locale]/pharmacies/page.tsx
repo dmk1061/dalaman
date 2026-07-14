@@ -1,17 +1,14 @@
-import PlaceholderPage from "@/app/components/PlaceholderPage";
+import ServiceLandingPage from "@/app/components/ServiceLandingPage";
 import React from "react";
 
-const PharmaciesPage = ({ params }: { params: { locale: string } }) => {
+const ServiceRoutePage = ({ params }: { params: { locale: string } }) => {
     return (
-        <PlaceholderPage
-            keyId="pharmacies"
+        <ServiceLandingPage
+            serviceKey="pharmacies"
             locale={params.locale}
-            title="Дежурные аптеки"
-            description="Этот раздел находится в разработке. Скоро здесь появится актуальный список и адреса дежурных аптек в регионе Даламан и окрестностях."
         />
     );
 };
-
 
 export async function generateStaticParams() {
     return [
@@ -22,4 +19,4 @@ export async function generateStaticParams() {
     ];
 }
 
-export default PharmaciesPage;
+export default ServiceRoutePage;

@@ -13,15 +13,15 @@ export default function Home({ params }: { params: { locale: string } }) {
         <div className="flex flex-col min-h-screen bg-slate-50">
             <Header locale={locale} />
             <Hero locale={locale} />
-            <div className="flex flex-grow w-full max-w-[1700px] mx-auto">
-                <div className="w-[18%] hidden lg:block px-4 py-8">
+            <div className="flex flex-grow w-full max-w-[2180px] mx-auto px-2 sm:px-4 md:px-6">
+                <div className="w-[19%] hidden lg:block px-3 py-8">
                     
                     <LeftSidebar locale={locale} />
                 </div>
                 <main className="flex-1 px-4 py-8 overflow-hidden">
                     <MainContent locale={locale} />
                 </main>
-                <div className="w-[22%] hidden xl:block px-4 py-8">
+                <div className="w-[23%] hidden xl:block px-3 py-8">
                     
                     <Sidebar locale={locale} />
                 </div>

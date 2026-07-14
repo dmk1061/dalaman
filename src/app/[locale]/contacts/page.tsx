@@ -1,17 +1,14 @@
-import PlaceholderPage from "@/app/components/PlaceholderPage";
+import ServiceLandingPage from "@/app/components/ServiceLandingPage";
 import React from "react";
 
-const ContactsPage = ({ params }: { params: { locale: string } }) => {
+const ServiceRoutePage = ({ params }: { params: { locale: string } }) => {
     return (
-        <PlaceholderPage
-            keyId="contacts"
+        <ServiceLandingPage
+            serviceKey="contacts"
             locale={params.locale}
-            title="Контакты"
-            description="Этот раздел находится в разработке. Скоро здесь появится форма обратной связи, наши телефоны и адрес."
         />
     );
 };
-
 
 export async function generateStaticParams() {
     return [
@@ -22,4 +19,4 @@ export async function generateStaticParams() {
     ];
 }
 
-export default ContactsPage; 
+export default ServiceRoutePage;

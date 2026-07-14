@@ -1,17 +1,14 @@
-import PlaceholderPage from "@/app/components/PlaceholderPage";
+import ServiceLandingPage from "@/app/components/ServiceLandingPage";
 import React from "react";
 
-const YachtRentalPage = ({ params }: { params: { locale: string } }) => {
+const ServiceRoutePage = ({ params }: { params: { locale: string } }) => {
     return (
-        <PlaceholderPage
-            keyId="yacht-rental"
+        <ServiceLandingPage
+            serviceKey="yacht-rental"
             locale={params.locale}
-            title="Аренда яхт"
-            description="Этот раздел находится в разработке. Скоро здесь появится информация об аренде яхт и морских прогулках."
         />
     );
 };
-
 
 export async function generateStaticParams() {
     return [
@@ -22,4 +19,4 @@ export async function generateStaticParams() {
     ];
 }
 
-export default YachtRentalPage; 
+export default ServiceRoutePage;

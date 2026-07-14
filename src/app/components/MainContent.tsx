@@ -108,12 +108,12 @@ const MainContent = ({ locale = 'en' }: MainContentProps) => {
     };
 
     const quickLinks = [
-        { icon: <FaPlane size={32} />, title: dict.main_content.quick_links.flights, href: '#' },
-        { icon: <FaBuilding size={32} />, title: dict.main_content.quick_links.hotels, href: '#' },
+        { icon: <FaPlane size={32} />, title: dict.main_content.quick_links.flights, href: localize('/articles/useful-contacts') },
+        { icon: <FaBuilding size={32} />, title: dict.main_content.quick_links.hotels, href: localize('/articles/useful-contacts') },
         { icon: <FaCar size={32} />, title: dict.main_content.quick_links.car_rental, href: localize('/services/car-rental') },
         { icon: <FaShip size={32} />, title: dict.main_content.quick_links.yacht_rental, href: localize('/services/yacht-rental') },
         { icon: <FaUsers size={32} />, title: dict.main_content.quick_links.excursions, href: localize('/services/excursions-tours') },
-        { icon: <FaConciergeBell size={32} />, title: dict.main_content.quick_links.other_services, href: '#' },
+        { icon: <FaConciergeBell size={32} />, title: dict.main_content.quick_links.other_services, href: localize('/articles/useful-contacts') },
     ];
 
     const mosaicItems = [
@@ -132,7 +132,7 @@ const MainContent = ({ locale = 'en' }: MainContentProps) => {
         {
             title: dict.main_content.mosaic.forums_title,
             description: dict.main_content.mosaic.forums_desc,
-            href: '#',
+            href: localize('/articles/useful-contacts'),
             image: "/dalaman2.jpg"
         }
     ];

@@ -22,7 +22,7 @@ const LeftSidebar = async ({ locale = 'en' }: LeftSidebarProps) => {
         { title: dict.left_sidebar.intercity_bus, href: '/articles/transport', icon: <FaBus /> },
         { title: dict.left_sidebar.city_transport, href: '/articles/transport', icon: <FaTaxi /> },
         { title: dict.left_sidebar.transfer, href: '/services/transfers', icon: <FaCarSide /> },
-        { title: dict.left_sidebar.companions, href: '#', icon: <FaUsers /> },
+        { title: dict.left_sidebar.companions, href: localize('/articles/guides-and-travel-agencies'), icon: <FaUsers /> },
     ];
 
     const usefulInfoLinks = [

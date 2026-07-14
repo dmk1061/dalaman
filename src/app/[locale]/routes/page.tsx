@@ -414,9 +414,9 @@ const RoutesPage = ({ params }: RoutesPageProps) => {
             
             <Header locale={locale} />
 
-            <main className="flex-grow container mx-auto px-4 py-12 pb-20">
+            <main className="flex-grow w-full max-w-[2180px] mx-auto px-4 sm:px-6 md:px-8 py-12 pb-20">
                 {/* Intro */}
-                <div className="text-center max-w-2xl mx-auto mb-16">
+                <div className="text-center max-w-2xl mx-auto mb-12">
                     <span className="text-cyan-600 font-black text-xs uppercase tracking-[0.3em] mb-2 block">{t.badge}</span>
                     <h1 className="text-4xl font-black text-slate-900 mb-4 uppercase italic">
                         {t.title}
@@ -426,8 +426,59 @@ const RoutesPage = ({ params }: RoutesPageProps) => {
                     </p>
                 </div>
 
+                {/* Specialized Interactive Hubs Banners */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16 w-full max-w-[2180px] mx-auto">
+                    <Link
+                        href={`/${locale}/routes/weekends`}
+                        className="group relative rounded-[2.5rem] p-8 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white shadow-2xl overflow-hidden border border-slate-700 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between"
+                    >
+                        <div className="absolute right-0 top-0 w-64 h-64 rounded-full bg-emerald-500/10 blur-3xl pointer-events-none" />
+                        <div>
+                            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 font-black text-[10px] uppercase tracking-widest mb-4">
+                                <FaCalendarAlt /> {locale === 'ru' ? '48-часовые сценарии' : '48-Hour Itineraries'}
+                            </span>
+                            <h3 className="text-2xl md:text-3xl font-black uppercase italic tracking-tight mb-3">
+                                {locale === 'ru' ? 'Идеи Выходного Дня (Уикенды)' : 'Weekend Getaway Plans'}
+                            </h3>
+                            <p className="text-slate-300 text-xs md:text-sm font-medium leading-relaxed mb-6">
+                                {locale === 'ru'
+                                    ? 'Готовые таймлайны с пятницы по воскресенье для Каша, Дальяна, Олюдениза и Датчи с расчетом бюджета в евро/лирах и чек-листами в дорогу.'
+                                    : 'Turnkey Friday-Sunday itineraries across Kas, Dalyan, Oludeniz, and Datca complete with inflation-shielded budgets and packing lists.'}
+                            </p>
+                        </div>
+                        <div className="pt-4 border-t border-slate-700/60 flex items-center justify-between text-xs font-black uppercase tracking-wider text-emerald-400 group-hover:text-emerald-300">
+                            <span>{locale === 'ru' ? 'Открыть все 4 уикенда' : 'Explore All 4 Weekends'}</span>
+                            <span className="w-8 h-8 rounded-full bg-emerald-600 text-white flex items-center justify-center group-hover:scale-110 transition-transform">→</span>
+                        </div>
+                    </Link>
+
+                    <Link
+                        href={`/${locale}/routes/trekking`}
+                        className="group relative rounded-[2.5rem] p-8 bg-gradient-to-br from-emerald-900 via-teal-950 to-slate-900 text-white shadow-2xl overflow-hidden border border-emerald-700/50 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between"
+                    >
+                        <div className="absolute right-0 top-0 w-64 h-64 rounded-full bg-teal-400/10 blur-3xl pointer-events-none" />
+                        <div>
+                            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/20 text-teal-300 font-black text-[10px] uppercase tracking-widest mb-4">
+                                <FaCompass /> {locale === 'ru' ? 'Ликийская & Карийская тропы' : 'Lycian & Carian Way'}
+                            </span>
+                            <h3 className="text-2xl md:text-3xl font-black uppercase italic tracking-tight mb-3">
+                                {locale === 'ru' ? 'Атлас Треккинга и Хайкинга' : 'Trekking & Trails Atlas'}
+                            </h3>
+                            <p className="text-emerald-100/90 text-xs md:text-sm font-medium leading-relaxed mb-6">
+                                {locale === 'ru'
+                                    ? '12+ интерактивных горных этапов: перепады высот, родники с питьевой водой, уровни сложности, GPS-координаты и рекомендации по экипировке.'
+                                    : '12+ interactive stages with elevation profiles, natural drinking fountains, difficulty filters, GPS waypoints, and gear advice.'}
+                            </p>
+                        </div>
+                        <div className="pt-4 border-t border-emerald-800/60 flex items-center justify-between text-xs font-black uppercase tracking-wider text-teal-300 group-hover:text-teal-200">
+                            <span>{locale === 'ru' ? 'Открыть атлас троп (12 этапов)' : 'Explore Trail Atlas (12 Stages)'}</span>
+                            <span className="w-8 h-8 rounded-full bg-teal-600 text-white flex items-center justify-center group-hover:scale-110 transition-transform">→</span>
+                        </div>
+                    </Link>
+                </div>
+
                 {/* Section 1: Itineraries */}
-                <div className="space-y-16 mb-24">
+                <div className="space-y-16 mb-24 max-w-6xl mx-auto">
                     <div className="border-b border-slate-200 pb-4 mb-8">
                         <h2 className="text-2xl font-black text-slate-800 uppercase italic flex items-center gap-2">
                             <FaRoute className="text-cyan-600" /> {t.routesHeader}

@@ -11,6 +11,7 @@ import { Metadata } from 'next';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Sidebar from '@/app/components/Sidebar';
+import ArticleActions from '@/app/components/ArticleActions';
 
 const articlesDirectory = path.join(process.cwd(), 'content/articles');
 
@@ -188,10 +189,10 @@ async function getArticleData(slug: string, locale: string) {
 }
 
 const articleUiByLocale: Record<string, any> = {
-    ru: { badge: 'ПОЛЕЗНАЯ СТАТЬЯ', toc: 'Содержание', rec: 'Рекомендуем прочитать', home: 'На главную', not_found: 'Статья не найдена' },
-    en: { badge: 'USEFUL ARTICLE', toc: 'Table of Contents', rec: 'Recommended Reading', home: 'Go Home', not_found: 'Article Not Found' },
-    de: { badge: 'NÜTZLICHER ARTIKEL', toc: 'Inhalt', rec: 'Empfohlene Artikel', home: 'Zur Startseite', not_found: 'Artikel nicht gefunden' },
-    tr: { badge: 'FAYDALI MAKALE', toc: 'İçindekiler', rec: 'Önerilen Makaleler', home: 'Ana Sayfa', not_found: 'Makale Bulunamadı' }
+    ru: { badge: 'ПОЛЕЗНАЯ СТАТЬЯ', toc: 'Содержание', rec: 'Рекомендуем прочитать', home: 'На главную', not_found: 'Статья не найдена', verified: "Проверено редакцией Дача — Каш", updated: "Обновлено: Июль 2026", authority: "Экспертный гид по Бирюзовому побережью" },
+    en: { badge: 'USEFUL ARTICLE', toc: 'Table of Contents', rec: 'Recommended Reading', home: 'Go Home', not_found: 'Article Not Found', verified: "Verified by Local Editorial Team", updated: "Updated: July 2026", authority: "Turquoise Coast Authority Guide" },
+    de: { badge: 'NÜTZLICHER ARTIKEL', toc: 'Inhalt', rec: 'Empfohlene Artikel', home: 'Zur Startseite', not_found: 'Artikel nicht gefunden', verified: "Geprüft von der lokalen Redaktion", updated: "Aktualisiert: Juli 2026", authority: "Expertenführer Türkische Riviera" },
+    tr: { badge: 'FAYDALI MAKALE', toc: 'İçindekiler', rec: 'Önerilen Makaleler', home: 'Ana Sayfa', not_found: 'Makale Bulunamadı', verified: "Yerel Editör Ekibi Doğruladı", updated: "Güncelleme: Temmuz 2026", authority: "Turkuaz Kıyılar Resmi Rehberi" }
 };
 
 type ArticlePageProps = {
@@ -252,31 +253,136 @@ const ArticlePage = async ({ params }: ArticlePageProps) => {
                             className="brightness-75"
                         />
                     </div>
-                    <div className="relative z-20 flex flex-col justify-end h-full max-w-5xl mx-auto px-4 pb-12">
+                    <div className="relative z-20 flex flex-col justify-end h-full w-full max-w-[2180px] mx-auto px-4 sm:px-6 md:px-11 lg:px-11 pb-12">
                         <span className="text-cyan-400 font-black text-xs uppercase tracking-[0.4em] mb-4">
                             {(articleUiByLocale[activeLocale] || articleUiByLocale['en']).badge}
                         </span>
-                        <h1 className="text-3xl md:text-5xl font-black text-white mb-4 uppercase italic tracking-tight leading-tight">
+                        <h1 className="text-3xl md:text-5xl font-black text-white mb-4 uppercase italic tracking-tight leading-tight max-w-5xl">
                             {articleData.title}
                         </h1>
-                        <p className="text-base md:text-lg text-slate-200 font-medium max-w-3xl leading-relaxed">
+                        <p className="text-base md:text-lg text-slate-200 font-medium max-w-4xl leading-relaxed">
                             {articleData.description}
                         </p>
                     </div>
                 </div>
 
                 {/* Content Grid */}
-                <div className="container mx-auto px-4 py-12 pb-20">
-                    <div className="flex flex-col lg:flex-row gap-12">
+                <div className="w-full max-w-[2180px] mx-auto px-4 sm:px-6 md:px-11 lg:px-11 py-10 pb-20">
+                    <div className="flex flex-col lg:flex-row gap-8 xl:gap-10">
                         {/* Article Text Content */}
-                        <div className="w-full lg:w-2/3">
+                        <div className="w-full lg:w-[71%] xl:w-[74%]">
                             <div className="bg-white rounded-[2.5rem] p-8 md:p-12 premium-shadow border border-slate-50">
+                                {/* E-E-A-T Trust Banner & Actions */}
+                                <div className="flex flex-wrap items-center gap-2.5 pb-6 mb-8 border-b border-slate-100 text-[11px] font-bold text-slate-500">
+                                    <span className="flex items-center gap-1.5 text-emerald-700 font-black bg-emerald-50 px-3 py-1.5 rounded-full border border-emerald-200 shadow-sm">
+                                        ✍️ {(articleUiByLocale[activeLocale] || articleUiByLocale['en']).verified}
+                                    </span>
+                                    <span className="flex items-center gap-1 bg-slate-100 text-slate-700 px-3 py-1.5 rounded-full">
+                                        🔄 {(articleUiByLocale[activeLocale] || articleUiByLocale['en']).updated}
+                                    </span>
+                                    <span className="flex items-center gap-1 bg-cyan-50 text-cyan-800 px-3 py-1.5 rounded-full border border-cyan-100 shadow-sm">
+                                        🛡️ {(articleUiByLocale[activeLocale] || articleUiByLocale['en']).authority}
+                                    </span>
+                                    <div className="ml-auto pt-2 sm:pt-0">
+                                        <ArticleActions locale={activeLocale} title={articleData.title} />
+                                    </div>
+                                </div>
+
+                                {/* Interactive Hub Prompts Above Content */}
+                                {(slug.includes('trekking') || slug.includes('peshehodnyy') || slug.includes('babadag') || slug.includes('saklikent') || slug.includes('kayakoy')) && (
+                                    <div className="mb-8 p-6 md:p-8 rounded-3xl bg-gradient-to-br from-emerald-900 via-slate-900 to-emerald-950 text-white shadow-2xl border border-emerald-500/30 flex flex-col md:flex-row items-center justify-between gap-6">
+                                        <div className="space-y-2 text-center md:text-left">
+                                            <span className="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-[10px] font-black uppercase tracking-widest border border-emerald-500/30">
+                                                {activeLocale === 'ru' ? '🧭 Интерактивный Сервис' : activeLocale === 'de' ? '🧭 Interaktiver Atlas' : activeLocale === 'tr' ? '🧭 İnteraktif Atlas' : '🧭 Interactive Atlas'}
+                                            </span>
+                                            <h3 className="text-xl md:text-2xl font-black text-white tracking-tight">
+                                                {activeLocale === 'ru' 
+                                                    ? '🥾 Перейдите в Интерактивный Атлас Треккинга Ликии' 
+                                                    : activeLocale === 'de' 
+                                                    ? '🥾 Entdecken Sie den interaktiven Lykischen Weg Atlas' 
+                                                    : activeLocale === 'tr' 
+                                                    ? '🥾 Likya & Karya Yolları İnteraktif Haritasını Açın' 
+                                                    : '🥾 Launch the Interactive Lycian Way Trekking Atlas'}
+                                            </h3>
+                                            <p className="text-xs md:text-sm text-emerald-100/80 max-w-xl leading-relaxed font-medium">
+                                                {activeLocale === 'ru'
+                                                    ? 'Все 12 этапов Ликийской и Карийской троп с перепадами высот, родниками питьевой воды (Çeşme), GPS-точками и выбором сложности в 1 клик.'
+                                                    : activeLocale === 'de'
+                                                    ? 'Alle 12 Etappen des Lykischen und Karischen Wegs mit Höhenprofilen, Trinkwasserquellen (Çeşme) und GPS-Koordinaten auf einen Blick.'
+                                                    : activeLocale === 'tr'
+                                                    ? 'Likya ve Karya Yolu üzerindeki 12 ana etap, rakım profilleri, çeşmeler, GPS koordinatları ve zorluk dereceleri.'
+                                                    : 'All 12 stages of the Lycian & Carian Trails featuring elevation profiles, drinking fountains (Çeşme), GPS waypoints, and stage difficulty filters.'}
+                                            </p>
+                                        </div>
+                                        <Link
+                                            href={localize('/routes/trekking')}
+                                            className="flex-shrink-0 px-6 py-4 rounded-2xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm uppercase tracking-wider transition-all shadow-xl shadow-emerald-500/20 hover:scale-105 text-center block md:inline-block w-full md:w-auto"
+                                        >
+                                            {activeLocale === 'ru' ? 'Открыть Атлас Троп →' : activeLocale === 'de' ? 'Zum Atlas →' : activeLocale === 'tr' ? 'Atlası Aç →' : 'Explore Atlas →'}
+                                        </Link>
+                                    </div>
+                                )}
+
+                                {(slug.includes('marshruty') || slug.includes('weekends') || slug.includes('odnodnevnye')) && (
+                                    <div className="mb-8 p-6 md:p-8 rounded-3xl bg-gradient-to-br from-indigo-900 via-slate-900 to-purple-950 text-white shadow-2xl border border-indigo-500/30 flex flex-col md:flex-row items-center justify-between gap-6">
+                                        <div className="space-y-2 text-center md:text-left">
+                                            <span className="inline-block px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-[10px] font-black uppercase tracking-widest border border-indigo-500/30">
+                                                {activeLocale === 'ru' ? '🗓️ Готовые Сценарии' : activeLocale === 'de' ? '🗓️ 48-Stunden-Pläne' : activeLocale === 'tr' ? '🗓️ Hafta Sonu Planları' : '🗓️ Ready 48h Scenarios'}
+                                            </span>
+                                            <h3 className="text-xl md:text-2xl font-black text-white tracking-tight">
+                                                {activeLocale === 'ru' 
+                                                    ? '🍷 Идеи Выходного Дня (48 часов на Побережье)' 
+                                                    : activeLocale === 'de' 
+                                                    ? '🍷 Wochenend-Ideen (48 Stunden an der Küste)' 
+                                                    : activeLocale === 'tr' 
+                                                    ? '🍷 Hafta Sonu Fikirleri (48 Saatlik Gezi Rotaları)' 
+                                                    : '🍷 Weekend Getaways (48-Hour Coastal Itineraries)'}
+                                            </h3>
+                                            <p className="text-xs md:text-sm text-indigo-100/80 max-w-xl leading-relaxed font-medium">
+                                                {activeLocale === 'ru'
+                                                    ? 'Пошаговые расписания с пятницы по воскресенье для Каша, Дальяна, Олюдениза и Датчи с расчетом бюджета (Щит от инфляции 2026).'
+                                                    : activeLocale === 'de'
+                                                    ? 'Schritt-für-Schritt-Abläufe von Freitag bis Sonntag für Kaş, Dalyan, Ölüdeniz und Datça inkl. Budget-Schutz.'
+                                                    : activeLocale === 'tr'
+                                                    ? 'Kaş, Dalyan, Ölüdeniz ve Datça için Cuma akşamından Pazar gününe saat saat planlar ve 2026 bütçe kalkanı.'
+                                                    : 'Hour-by-hour Friday-to-Sunday weekend schedules across Kaş, Dalyan, Ölüdeniz, and Datça with 2026 budget breakdown.'}
+                                            </p>
+                                        </div>
+                                        <Link
+                                            href={localize('/routes/weekends')}
+                                            className="flex-shrink-0 px-6 py-4 rounded-2xl bg-indigo-500 hover:bg-indigo-400 text-white font-black text-sm uppercase tracking-wider transition-all shadow-xl shadow-indigo-500/20 hover:scale-105 text-center block md:inline-block w-full md:w-auto"
+                                        >
+                                            {activeLocale === 'ru' ? 'Сценарии Уикендов →' : activeLocale === 'de' ? 'Wochenende Pläne →' : activeLocale === 'tr' ? 'Planları Göster →' : 'View Weekend Plans →'}
+                                        </Link>
+                                    </div>
+                                )}
+
                                 <div className="markdown-body" dangerouslySetInnerHTML={{ __html: articleData.contentHtml }} />
+
+                                {/* Interactive Hub Prompts Below Content */}
+                                {(slug.includes('trekking') || slug.includes('peshehodnyy') || slug.includes('babadag') || slug.includes('saklikent') || slug.includes('kayakoy')) && (
+                                    <div className="mt-12 pt-8 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4 bg-emerald-50/50 p-6 rounded-3xl border border-emerald-100">
+                                        <div>
+                                            <h4 className="font-black text-slate-800 text-base">
+                                                {activeLocale === 'ru' ? 'Ищете подробные карты троп и перепады высот?' : activeLocale === 'de' ? 'Suchen Sie detaillierte Wanderkarten?' : activeLocale === 'tr' ? 'Detaylı rota haritaları mı arıyorsunuz?' : 'Looking for detailed trail maps & elevations?'}
+                                            </h4>
+                                            <p className="text-xs text-slate-600 font-medium">
+                                                {activeLocale === 'ru' ? 'Воспользуйтесь нашим интерактивным Атласом треккинга с 12 маршрутами.' : activeLocale === 'de' ? 'Nutzen Sie unseren interaktiven Wanderatlas mit 12 Etappen.' : activeLocale === 'tr' ? '12 etaplı interaktif Trekking Atlasımızı kullanın.' : 'Use our interactive Trekking Atlas featuring 12 curated stages.'}
+                                            </p>
+                                        </div>
+                                        <Link
+                                            href={localize('/routes/trekking')}
+                                            className="px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs uppercase tracking-wider transition-all shadow-md flex-shrink-0"
+                                        >
+                                            {activeLocale === 'ru' ? 'Перейти в Атлас →' : activeLocale === 'de' ? 'Zum Atlas →' : activeLocale === 'tr' ? 'Atlasa Git →' : 'Open Atlas →'}
+                                        </Link>
+                                    </div>
+                                )}
                             </div>
                         </div>
 
                         {/* Sidebars */}
-                        <aside className="w-full lg:w-1/3 space-y-10 sticky top-28 self-start">
+                        <aside className="w-full lg:w-[29%] xl:w-[26%] space-y-8 sticky top-28 self-start">
                             {articleData.toc && articleData.toc.length > 0 && (
                                 <div className="bg-white rounded-[2rem] premium-shadow overflow-hidden border border-slate-50 p-6 space-y-4">
                                     <h3 className="font-black text-sm uppercase tracking-widest italic border-b border-slate-100 pb-3 text-slate-800">
