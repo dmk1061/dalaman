@@ -175,5 +175,23 @@
     "select_language": "Select Language",
     "welcome": "Welcome to the Turquoise Coast",
     "welcome_subtitle": "Your interactive guide to the Datça, Marmaris, Dalyan, Dalaman, Göcek, Fethiye, and Kaş regions."
+  },
+  "floating_menu": {
+    "transfer": "DLM Transfers",
+    "transfer_sub": "Airport Shuttles",
+    "yachts": "Yacht Rental",
+    "yachts_sub": "Blue Cruise Tours",
+    "beaches": "Best Beaches",
+    "beaches_sub": "Coves Map",
+    "tours": "Excursions",
+    "tours_sub": "Private Guides"
+  },
+  "side_menu": {
+    "menu_title": "NAVIGATION MENU",
+    "home": "HOME PAGE",
+    "cities": "CITIES & RESORTS",
+    "articles": "USEFUL GUIDES",
+    "services": "OUR SERVICES",
+    "contacts": "CONTACTS & PHARMACIES"
   }
 }

@@ -4,6 +4,7 @@ slug: "transport"
 description: "How to get around the Lycian Coast: dolmuses, taxis, car rentals, and water transport. Everything about the region's transport in one place."
 ---
 
+
 # Transportation System of the Dalaman Region
 
 **Well-planned travel around the region is the key to a rich and comfortable vacation. The transportation network here is well-developed but has its own specifics. From budget minibuses to comfortable transfers and rental cars—every tourist will find a suitable option.**
@@ -12,7 +13,7 @@ description: "How to get around the Lycian Coast: dolmuses, taxis, car rentals, 
 
 ---
 
-The Dalaman coast is not just a beautiful place, but also a well-designed transport network. From budget minibuses to comfortable transfers and rental cars, there is an option for every type of traveler. Understanding the local ways of getting around will make your trip significantly easier and richer.
+The [Dalaman](/en/dalaman) coast is not just a beautiful place, but also a well-designed transport network. From budget minibuses to comfortable transfers and rental cars, there is an option for every type of traveler. Understanding the local ways of getting around will make your trip significantly easier and richer.
 
 ## General Information on Transport
 
@@ -20,8 +21,8 @@ The region's transportation system has developed with tourism specifics in mind.
 
 Main transport hubs of the region:
 - Dalaman Airport (DLM)—the main aviation gateway
-- Hub cities: Fethiye and Marmaris
-- Göcek Port—the yachting capital of the region
+- Hub cities: [Fethiye](/en/fethiye) and [Marmaris](/en/marmaris)
+- [Göcek](/en/gocek) Port—the yachting capital of the region
 
 ## Dolmuses—The Main and Most Popular Mode of Transport
 
@@ -93,3 +94,12 @@ Public transport is safe, but late at night (especially after 10:00 PM), it is b
 The transport system of the Dalaman region is not perfect, but it is functional. For budget trips and everyday travel, dolmuses are the best choice. For comfort and evening travel, use taxis. For freedom of planning, opt for renting a car or a scooter.
 
 Over time, you will figure out your routes, favorite dolmus lines, and understand the mystery of local time. It is completely normal to be 10 minutes late—in Turkey, this is treated with understanding.
+
+---
+
+### 🔗 See Also: Useful Guides for the Lycian Coast
+- **[Useful Contacts & Nöbetçi Eczane Pharmacies](/articles/useful-contacts)**.
+- **[Airport Transfers from Dalaman (DLM)](/services/transfers)**.
+- **[Car, Scooter & Bike Rentals](/articles/vehicle-rental-cars-scooters-bikes)**.
+- **[Main Resorts Overview: Fethiye, Marmaris, Kaş & Datça](/articles/main-resorts)**.
+

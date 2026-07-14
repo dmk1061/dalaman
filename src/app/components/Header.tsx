@@ -55,7 +55,7 @@ const Header = async ({ locale = 'en' }: HeaderProps) => {
         { name: dict.header.nav.all_cities, href: '/city-guide' },
         { name: dict.header.nav.best_beaches, href: '/beaches' },
         { name: dict.header.nav.ancient_cities, href: '/articles/ancient-cities' },
-        { name: dict.header.nav.nature_parks, href: '/articles/flora-fauna' },
+        { name: dict.header.nav.nature_parks, href: '/articles/national-parks-and-nature-reserves' },
         { name: dict.header.nav.history, href: '/articles/history' },
         { name: dict.header.nav.culture_traditions, href: '/articles/culture-and-traditions' },
       ]
@@ -98,7 +98,7 @@ const Header = async ({ locale = 'en' }: HeaderProps) => {
               <FaChevronRight size={8} />
             </Link>
             <Link href={localize('/services/transfers')} className="flex items-center space-x-1 hover:text-cyan-200 transition-colors uppercase">
-              <span>{locale === 'ru' ? 'Трансфер из DLM' : 'DLM Transfers'}</span>
+              <span>{dict.floating_menu?.transfer || (locale === 'ru' ? 'Трансфер из DLM' : 'DLM Transfers')}</span>
               <FaChevronRight size={8} />
             </Link>
             <div className="relative group/search">

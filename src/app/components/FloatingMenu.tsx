@@ -1,41 +1,56 @@
-import React from 'react';
+"use client";
+
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { FaCarSide, FaAnchor, FaUmbrellaBeach, FaCompass, FaCalendarAlt } from 'react-icons/fa';
+import { useParams } from 'next/navigation';
+import { FaCarSide, FaAnchor, FaUmbrellaBeach, FaCompass } from 'react-icons/fa';
+
+import ru from '@/dictionaries/ru.json';
+import en from '@/dictionaries/en.json';
+import de from '@/dictionaries/de.json';
+import tr from '@/dictionaries/tr.json';
+
+const dicts: Record<string, any> = { ru, en, de, tr };
 
 const FloatingMenu = () => {
+    const params = useParams();
+    const locale = (params?.locale as string) || 'en';
+    const dict = dicts[locale] || dicts['en'];
+    const fm = dict.floating_menu || dicts['en'].floating_menu;
+
+    const localize = (path: string) => {
+        if (!path || path === '#' || path.startsWith('http') || path.startsWith('tel:')) return path;
+        const cleanPath = path.startsWith('/') ? path : `/${path}`;
+        return `/${locale}${cleanPath}`;
+    };
+
     return (
         <div className="fixed bottom-6 right-6 z-50 hidden md:block">
             <div className="bg-white/90 backdrop-blur-md rounded-2xl shadow-2xl border border-slate-200/80 p-2 premium-shadow">
                 <div className="flex space-x-2">
                     <FloatingMenuItem 
-                        href="/services/transfers"
+                        href={localize("/services/transfers")}
                         icon={<FaCarSide size={20} />}
-                        label="Трансфер"
-                        sublabel="Из аэропорта DLM"
+                        label={fm.transfer}
+                        sublabel={fm.transfer_sub}
                     />
                     <FloatingMenuItem 
-                        href="/services/yacht-rental"
+                        href={localize("/services/yacht-rental")}
                         icon={<FaAnchor size={20} />}
-                        label="Аренда яхт"
-                        sublabel="Морские прогулки"
+                        label={fm.yachts}
+                        sublabel={fm.yachts_sub}
                     />
                     <FloatingMenuItem 
-                        href="/beaches"
+                        href={localize("/beaches")}
                         icon={<FaUmbrellaBeach size={20} />}
-                        label="Пляжи"
-                        sublabel="Лучшие бухты"
+                        label={fm.beaches}
+                        sublabel={fm.beaches_sub}
                     />
                     <FloatingMenuItem 
-                        href="/services/excursions-tours"
+                        href={localize("/services/excursions-tours")}
                         icon={<FaCompass size={20} />}
-                        label="Экскурсии"
-                        sublabel="Туры по Ликии"
-                    />
-                    <FloatingMenuItem 
-                        href="/articles/24_sobytiya_festivali_i_prazdniki"
-                        icon={<FaCalendarAlt size={20} />}
-                        label="События"
-                        sublabel="Фестивали и праздники"
+                        label={fm.tours}
+                        sublabel={fm.tours_sub}
                     />
                 </div>
             </div>
@@ -43,20 +58,18 @@ const FloatingMenu = () => {
     );
 };
 
-const FloatingMenuItem = ({ href, icon, label, sublabel }: { href: string, icon: React.ReactNode, label: string, sublabel: string }) => (
-    <Link href={href} className="flex flex-col items-center p-3 hover:bg-cyan-50 rounded-xl cursor-pointer transition-all duration-200 min-w-[90px] group">
-        <div className="text-cyan-600 mb-2 group-hover:scale-110 transition-transform">
-            {icon}
-        </div>
-        <div className="text-center">
-            <div className="text-xs font-black text-slate-800 leading-tight group-hover:text-cyan-700 transition-colors">
-                {label}
+const FloatingMenuItem = ({ href, icon, label, sublabel }: { href: string, icon: React.ReactNode, label: string, sublabel: string }) => {
+    return (
+        <Link href={href} className="flex items-center space-x-3 py-2 px-3.5 rounded-xl hover:bg-cyan-50/80 text-gray-700 hover:text-cyan-700 transition-all duration-200 group">
+            <div className="text-cyan-600 group-hover:scale-110 transition-transform duration-200">
+                {icon}
             </div>
-            <div className="text-[10px] font-medium text-slate-500 mt-1 leading-tight">
-                {sublabel}
+            <div>
+                <div className="text-xs font-bold leading-tight">{label}</div>
+                <div className="text-[10px] text-gray-400 group-hover:text-cyan-600/80 font-medium leading-tight">{sublabel}</div>
             </div>
-        </div>
-    </Link>
-);
+        </Link>
+    );
+};
 
-export default FloatingMenu; 
+export default FloatingMenu;

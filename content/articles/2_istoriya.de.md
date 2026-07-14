@@ -4,13 +4,14 @@ slug: "history"
 description: "Das historische Erbe der Region Dalaman: Das geheimnisvolle Lykien, karische Seefahrer, römische Macht und osmanische Pracht. Ein Wegweiser durch die Jahrhunderte."
 ---
 
+
 # Geschichte der Türkisküste: Von den Lykiern bis zur Gegenwart
 
 **Die Türkisküste der Türkei ist eine wahre Chronik der Jahrtausende. Hier sind auf vergleichsweise kleinem Raum Denkmäler aus Lykien, Karien, Rom, Byzanz und dem Osmanischen Reich konzentriert. In den Fels gehauene Grabmäler, Ruinen antiker Theater und Höhlenkirchen – all diese Zeugnisse der Vergangenheit prägen das einzigartige Gesicht der Region.**
 
 ---
 
-Ohne die Geschichte zu kennen, ist es schwer zu erklären, warum Fethiye als das ehemalige Telmessos bezeichnet wird, wer den Lykischen Weg hinterlassen hat und warum in jeder Stadt etwas an eine große Vergangenheit erinnert.
+Ohne die Geschichte zu kennen, ist es schwer zu erklären, warum [Fethiye](/de/fethiye) als das ehemalige Telmessos bezeichnet wird, wer den Lykischen Weg hinterlassen hat und warum in jeder Stadt etwas an eine große Vergangenheit erinnert.
 
 ## Die lykische Zivilisation: Land des Lichts
 
@@ -22,9 +23,9 @@ Lykien wurde oft als „Land des Lichts“ bezeichnet. Es war eine unabhängige 
 
 ## Die Karer: Herrscher der Meere
 
-Nördlich von Lykien blühte Karien auf – eine Zivilisation geschickter Seefahrer. **Knidos**, am äußersten Ende der Datça-Halbinsel gelegen, war ein wissenschaftliches und kulturelles Zentrum. Hier befanden sich eine berühmte medizinische Schule und der Tempel der Aphrodite mit einer Statue von Praxiteles.
+Nördlich von Lykien blühte Karien auf – eine Zivilisation geschickter Seefahrer. **Knidos**, am äußersten Ende der [Datça](/de/dacha)-Halbinsel gelegen, war ein wissenschaftliches und kulturelles Zentrum. Hier befanden sich eine berühmte medizinische Schule und der Tempel der Aphrodite mit einer Statue von Praxiteles.
 
-Auf dem Gebiet des heutigen Marmaris lag der antike Hafen **Physkos**, während die Insel Sedir (Cleopatra-Strand) die Ruinen der karischen Stadt Kedrai bewahrt.
+Auf dem Gebiet des heutigen [Marmaris](/de/marmaris) lag der antike Hafen **Physkos**, während die Insel Sedir (Cleopatra-Strand) die Ruinen der karischen Stadt Kedrai bewahrt.
 
 ## Römisches und byzantinisches Erbe
 
@@ -34,8 +35,17 @@ Die **versunkene Stadt Kekova** ist Teil der antiken Siedlung Dolichiste, die na
 
 ## Osmanisches Reich und Moderne
 
-Mit der Ankunft der Osmanen erhielt die Region ein neues Gesicht. Die **Burg von Marmaris** wurde 1522 von Süleyman dem Prächtigen umgebaut. In **Dalyan** wurden die Felsengräber von Kaunos Teil der majestätischen Landschaft, die wir heute sehen.
+Mit der Ankunft der Osmanen erhielt die Region ein neues Gesicht. Die **Burg von Marmaris** wurde 1522 von Süleyman dem Prächtigen umgebaut. In **[Dalyan](/de/dalyan)** wurden die Felsengräber von Kaunos Teil der majestätischen Landschaft, die wir heute sehen.
 
 **Kayaköy (Levissi)** ist ein verlassenes griechisches Dorf in der Nähe von Fethiye, das nach dem Bevölkerungsaustausch von 1923 zu einer „Geisterstadt“ wurde. Es ist ein stummes Denkmal für die komplexe Geschichte des 20. Jahrhunderts.
 
 Fethiye erhielt seinen heutigen Namen im Jahr 1934 zu Ehren von Fethi Bey, einem der ersten türkischen Piloten. Heute lebt die Geschichte der Region in den Straßennamen, in der Küche der Einheimischen und in den Steinen der antiken Städte weiter, die weiterhin Reisende aus aller Welt willkommen heißen.
+
+---
+
+### 🔗 Siehe auch: Nützliche Ratgeber für die Lykische Küste
+- **[Wichtige Kontakte & Nöbetçi Eczane Apotheken](/articles/useful-contacts)**.
+- **[Flughafentransfers ab Dalaman (DLM)](/services/transfers)**.
+- **[Mietwagen, Roller & Fahrräder](/articles/vehicle-rental-cars-scooters-bikes)**.
+- **[Überblick über die wichtigsten Urlaubsorte: Fethiye, Marmaris, Kaş & Datça](/articles/main-resorts)**.
+

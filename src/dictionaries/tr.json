@@ -175,5 +175,23 @@
     "select_language": "Dil Seçin",
     "welcome": "Turkuaz Kıyılara Hoş Geldiniz",
     "welcome_subtitle": "Datça, Marmaris, Dalyan, Dalaman, Göcek, Fethiye ve Kaş bölgelerine yönelik etkileşimli rehberiniz."
+  },
+  "floating_menu": {
+    "transfer": "DLM Transfer",
+    "transfer_sub": "Havalimanı Servisi",
+    "yachts": "Tekne & Yat",
+    "yachts_sub": "Mavi Yolculuk",
+    "beaches": "Plajlar",
+    "beaches_sub": "Koylar Haritası",
+    "tours": "Turlar",
+    "tours_sub": "Rehberli Geziler"
+  },
+  "side_menu": {
+    "menu_title": "NAVİGASYON MENÜSÜ",
+    "home": "ANA SAYFA",
+    "cities": "ŞEHİRLER & KÖYLER",
+    "articles": "FAYDALI REHBERLER",
+    "services": "HİZMETLERİMİZ",
+    "contacts": "İLETİŞİM & ECZANELER"
   }
 }

@@ -175,5 +175,23 @@
     "select_language": "Sprache wählen",
     "welcome": "Willkommen an der Türkisküste",
     "welcome_subtitle": "Ihr interaktiver Führer für die Regionen Datça, Marmaris, Dalyan, Dalaman, Göcek, Fethiye und Kaş."
+  },
+  "floating_menu": {
+    "transfer": "DLM Transfers",
+    "transfer_sub": "Vom Flughafen DLM",
+    "yachts": "Yachtcharter",
+    "yachts_sub": "Blaue Reise Touren",
+    "beaches": "Strände",
+    "beaches_sub": "Buchtenkarte",
+    "tours": "Ausflüge",
+    "tours_sub": "Touren & Guides"
+  },
+  "side_menu": {
+    "menu_title": "NAVIGATIONSMENÜ",
+    "home": "STARTSEITE",
+    "cities": "STÄDTE & RESORTS",
+    "articles": "RATGEBER",
+    "services": "UNSERE DIENSTE",
+    "contacts": "KONTAKTE & APOTHEKEN"
   }
 }

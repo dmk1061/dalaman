@@ -1,52 +1,62 @@
 ---
-title: "Dalaman Havalimanı: Ulaşım ve Bilmeniz Gerekenler"
+title: "Dalaman Airport: How to Get There and What is Important to Know"
 slug: "airport-dalaman"
-description: "Dalaman Uluslararası Havalimanı (DLM): terminaller, uçuşlar, Fethiye, Marmaris, Kaş transferi — fiyatlar ve yöntemler"
+description: "Dalaman International Airport (DLM): terminals, flights, transfer to Fethiye, Marmaris, Kaş — prices and methods"
 ---
 
-# Dalaman Havalimanı: Turkuaz Kıyısı'nın Ana Hava Kapısı
 
-**Dalaman Uluslararası Havalimanı (IATA kodu: DLM), Türkiye'nin güneybatı kıyılarına hizmet veren üç önemli havalimanından biridir. Marmaris'ten Fethiye ve Kaş'a kadar uzanan tatil beldelerine giden turistlerin büyük çoğunluğu buraya iniş yapar. Bölgenin turizm altyapısında son derece önemli bir rol oynayan modern ve konforlu bir ulaşım merkezidir.**
+# Dalaman Airport: The Main Gateway to the Turquoise Coast
+
+**[Dalaman](/tr/dalaman) International Airport (IATA code: DLM) is one of the three key airports serving the southwestern coast of Turkey. This is where most tourists arrive who are heading to resorts ranging from [Marmaris](/tr/marmaris) to [Fethiye](/tr/fethiye) and [Kaş](/tr/kas). It is a modern and convenient transport hub that plays an essential role in the region's tourist infrastructure.**
 
 ---
 
-Dalaman Havalimanı, Turkuaz Kıyısı seyahatlerinin çoğunun başlangıç noktasıdır. Dalaman ilçesinin yaklaşık 6 km güneyinde yer alır ve sezon boyunca her gün binlerce turisti ağırlar.
+Dalaman Airport is the starting point for most journeys along the Turquoise Coast. It is located about 6 km south of the town of Dalaman and receives thousands of tourists every day during the season.
 
-## Terminaller ve Yönlendirme
+## Terminals and Navigation
 
-Dalaman Havalimanı'nda iki terminal bulunmaktadır: yeni dış hatlar terminali ve iç hatlar uçuşlarına hizmet edecek şekilde dönüştürülen eski dış hatlar terminali. 2018 yılında hizmete açılan dış hatlar terminali, büyük yolcu akışlarını yönetmek üzere tasarlanmış modern ve geniş bir binadır. Avrupa ve BDT ülkelerinden gelen charter uçuşları buraya iner.
+Dalaman Airport has two terminals: the new international terminal and the former international terminal, which was converted to serve domestic flights. The international terminal, opened in 2018, is a modern and spacious building designed to handle large passenger flows. This is where charter flights from Europe and CIS countries arrive.
 
-Eski terminal ise şu anda Türkiye içi hat uçuşlarına hizmet vermektedir. Boyut olarak daha küçüktür ancak gerekli tüm hizmetleri sunar. Terminaller birbirine çok yakın konumda olduğundan aralarında yürüyerek geçiş yapmak oldukça kolaydır.
+The old terminal now serves domestic flights within Turkey. It is smaller but provides all the necessary services. Moving between terminals is easy on foot as they are in close proximity to each other.
 
-## Havalimanındaki Hizmetler
+## Services at the Airport
 
-Havalimanında standart hizmet yelpazesi mevcuttur:
-- Duty-Free (Gümrüksüz Satış) mağazaları
-- Kafe ve restoranlar
-- VIP salonları ve iş dinlenme odaları (business lounge)
-- Araç kiralama ofisleri (Avis, Hertz, Sixt ve yerel şirketler)
-- Döviz büroları ve ATM'ler
-- Bagaj emanet ofisi ve ilk yardım merkezi
-- Ücretsiz Wi-Fi (süre sınırı olabilir)
+The airport offers a standard range of services:
+- Duty-Free shops
+- Cafes and restaurants
+- VIP lounges and business lounges
+- Car rental offices (Avis, Hertz, Sixt, and local companies)
+- Currency exchange offices and ATMs
+- Luggage storage and a medical aid station
+- Free Wi-Fi (may be time-limited)
 
-## Havalimanından Bölgedeki Şehirlere Ulaşım
+## How to Get from the Airport to the Cities of the Region
 
-### Taksi ve Transfer
+### Taxis and Transfers
 
-Taksi, tatil beldenize ulaşmanın en kolay yoludur. Terminalden çıktığınızda etrafınız hemen taksi sürücüleri tarafından sarılacaktır. Belirlenmiş sabit tarifeleri vardır, ancak fiyatlar genellikle TL veya Euro bazında belirtilir. Fethiye yaklaşık 800–1000 TL, Marmaris yaklaşık 1000–1200 TL ve Kaş yaklaşık 1500–1800 TL tutmaktadır.
+Taxi is the easiest way to get to your resort. As you exit the terminal, you will immediately be surrounded by drivers. They have fixed rates, but prices are often indicated in liras or euros. Fethiye costs about 800–1000 liras, Marmaris is about 1000–1200, and Kaş is around 1500–1800.
 
-Oteller genellikle sabit bir fiyat karşılığında transfer hizmeti sunar; bu seçeneğin avantajı, sürücünün varışta sizi isminizin yazılı olduğu bir tabela ile beklemesidir. Otel rezervasyonunuzu kendiniz yaptıysanız, önceden transfer ayarlayabilirsiniz; bu genellikle yoldan taksi çevirmekten daha ucuzdur. Ayrıca her zaman çevrimiçi olarak [bireysel transfer](/services/transfers) siparişi verebilirsiniz.
+Often, hotels offer transfers at a fixed price; this option is convenient because the driver waits for you upon arrival with a sign containing your name. If you booked the hotel on your own, you can arrange a transfer in advance, which is often cheaper than an on-the-street taxi. You can also always order an [individual transfer](/services/transfers) online.
 
-### Araç Kiralama
+### Car Rental
 
-Birçok araç kiralama şirketinin ofisi havalimanında yer almaktadır. Bölgeyi aktif bir şekilde keşfetmeyi planlıyorsanız araç kiralamak en iyi seçenektir. Fethiye'ye mesafe yaklaşık 50 km, Marmaris'e yaklaşık 95 km ve Kaş'a yaklaşık 140 km'dir.
+Offices of many car rental companies are located at the airport. If you plan to actively explore the region, renting a car is the best option. The distance to Fethiye is about 50 km, to Marmaris is about 95 km, and to Kaş is about 140 km.
 
-### Havaş ve Muttaş Otobüsleri
+### Havaş and Muttaş Buses
 
-Bu, bağımsız gezginler için Fethiye veya Marmaris'e ulaşmanın en popüler yoludur. Otobüs seferleri, uçuşların varış saatlerine göre düzenlenir. Otobüs durağı hemen terminal çıkışının önünde yer almaktadır.
+This is the most popular way to get to Fethiye or Marmaris for independent travelers. The buses run in accordance with flight arrival schedules. The bus stop is located right in front of the terminal exit.
 
-## Pratik İpuçları
+## Practical Tips
 
-Uçağınız indikten sonra küçük masraflarınız için yanınızda bir miktar Türk Lirası nakit bulundurmaya hazırlanın. Havalimanında ATM'ler mevcuttur ancak döviz kurları en avantajlı oranları sunmayabilir. Transfer saatine kadar vaktiniz varsa terminaldeki kafelerden birinde bir şeyler atıştırabilirsiniz, ancak havalimanındaki fiyatların şehir içine kıyasla önemli ölçüde yüksek olduğunu unutmayın.
+Upon arrival, prepare some cash in Turkish liras for small expenses. There are ATMs at the airport, but exchange rates may not be the most favorable. If you have time before your transfer, you can grab a bite at one of the terminal's cafes, but remember that prices at the airport are significantly higher than in the cities.
 
-Dalaman Havalimanı, masmavi koylar ve antik kalıntılar dünyasına açılan konforlu ve modern bir "kapı"dır. Turkuaz Kıyısı seyahatiniz burada konfor ve hoş izlenimlerle başlayacaktır.
+Dalaman Airport is a convenient and modern "gateway" to the world of azure bays and ancient ruins. Your journey along the Turquoise Coast starts here with comfort and pleasant impressions.
+
+---
+
+### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
+- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/articles/useful-contacts)**.
+- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/services/transfers)**.
+- **[Araç, Scooter ve Bisiklet Kiralama](/articles/vehicle-rental-cars-scooters-bikes)**.
+- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/articles/main-resorts)**.
+

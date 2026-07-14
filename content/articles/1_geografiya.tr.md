@@ -4,11 +4,12 @@ slug: "geography"
 description: "Dalaman bölgesinin eşsiz coğrafyası hakkında bilgi edinin: Türkiye'nin Turkuaz Kıyısı'nın manzaraları, dağları, nehirleri, kanyonları ve doğası."
 ---
 
+
 # Likya Kıyısı'nın Coğrafyası ve Doğası
 
-Türkiye'nin güneybatı kesimindeki bu harika bölge, Ege ve Akdeniz'in buluşma noktasıdır. Buradaki uzun sahil şeridi adeta koylar, körfezler, adalar ve burunlardan dokunmuş gibidir ve Akdeniz'in en pitoresk manzaralarından birini sunar. 60 km'den uzun olan Marmaris Yarımadası, aslında iki deniz arasında doğal bir sınır görevi görerek bölgeyi ülke ölçeğinde bile benzersiz kılmaktadır.
+Türkiye'nin güneybatı kesimindeki bu harika bölge, Ege ve Akdeniz'in buluşma noktasıdır. Buradaki uzun sahil şeridi adeta koylar, körfezler, adalar ve burunlardan dokunmuş gibidir ve Akdeniz'in en pitoresk manzaralarından birini sunar. 60 km'den uzun olan [Marmaris](/tr/marmaris) Yarımadası, aslında iki deniz arasında doğal bir sınır görevi görerek bölgeyi ülke ölçeğinde bile benzersiz kılmaktadır.
 
-Coğrafi konumu Dalaman'ı özel bir yer haline getiriyor: Burada Akdeniz ve Ege iklim kuşakları iç içe geçerek benzersiz bir ekosistem oluşturuyor. Dünyanın dört bir yanından gezginleri çeken Turkuaz Kıyı atmosferini yaratan da işte bu kombinasyondur.
+Coğrafi konumu [Dalaman'ı](/tr/dalaman) özel bir yer haline getiriyor: Burada Akdeniz ve Ege iklim kuşakları iç içe geçerek benzersiz bir ekosistem oluşturuyor. Dünyanın dört bir yanından gezginleri çeken Turkuaz Kıyı atmosferini yaratan da işte bu kombinasyondur.
 
 ## Coğrafi Genel Bakış
 
@@ -20,9 +21,9 @@ Manzaranın benzersizliği, Toros Dağları'nın yakınlığından kaynaklanmakt
 
 ### Koylar ve Körfezler
 
-Fethiye'nin doğal limanı, bölgenin en büyük ve en korunaklı körfezlerinden biridir. Suları fırtınalı denizlerde bile sakindir, bu da onu antik çağlardan beri önemli bir liman haline getirmiştir. Bugün burası yatçılığın merkezi ve "Likya Yolu" olarak adlandırılan rotada düzenlenen mavi turların başlangıç noktasıdır.
+[Fethiye'](/tr/fethiye)nin doğal limanı, bölgenin en büyük ve en korunaklı körfezlerinden biridir. Suları fırtınalı denizlerde bile sakindir, bu da onu antik çağlardan beri önemli bir liman haline getirmiştir. Bugün burası yatçılığın merkezi ve "Likya Yolu" olarak adlandırılan rotada düzenlenen mavi turların başlangıç noktasıdır.
 
-Göcek Körfezi, bölgenin kuzeydoğusundaki 12 küçük koyu birleştirir. Burası özel bir mikroiklim alanına sahip bir yerdir; burada sıcaklık daha az, nem ise daha yüksektir, bu da burayı Nisan ayından Kasım ayına kadar yatçılar için cazip kılmaktadır.
+[Göcek](/tr/gocek) Körfezi, bölgenin kuzeydoğusundaki 12 küçük koyu birleştirir. Burası özel bir mikroiklim alanına sahip bir yerdir; burada sıcaklık daha az, nem ise daha yüksektir, bu da burayı Nisan ayından Kasım ayına kadar yatçılar için cazip kılmaktadır.
 
 ### Dağlar ve Kanyonlar
 
@@ -32,13 +33,13 @@ Saklıkent Kanyonu benzersiz bir jeolojik yapıdır; 18 km uzunluğunda ve 300 m
 
 ### Nehir Sistemleri ve Deltalar
 
-Dalyan Nehri, bölgenin en önemli ekosistemlerinden birini oluşturur. 4,5 km uzunluğundaki deltası, nehrin tatlı sularını tuzlu denizden ayırarak benzersiz bir biyotop yaratır. Kırmızı Kitap'ta yer alan nesli tükenmekte olan caretta caretta deniz kaplumbağaları, tam da buradaki 5 kilometrelik kum kordonunda yuva yaparlar.
+[Dalyan](/tr/dalyan) Nehri, bölgenin en önemli ekosistemlerinden birini oluşturur. 4,5 km uzunluğundaki deltası, nehrin tatlı sularını tuzlu denizden ayırarak benzersiz bir biyotop yaratır. Kırmızı Kitap'ta yer alan nesli tükenmekte olan caretta caretta deniz kaplumbağaları, tam da buradaki 5 kilometrelik kum kordonunda yuva yaparlar.
 
-Köyceğiz Gölü, Dalyan nehir sistemi üzerinden denize bağlanan 52 km²'lik bir tatlı su gölüdür. Burası flamenkolar ve pelikanlar dahil olmak üzere yüzlerce kuş türüne ev sahipliği yapar. Burada yıl boyunca balık avına izin verilmesi, burayı hem yerel halk hem de turistler için popüler bir destinasyon haline getirmektedir.
+[Köyceğiz](/tr/koycegiz) Gölü, Dalyan nehir sistemi üzerinden denize bağlanan 52 km²'lik bir tatlı su gölüdür. Burası flamenkolar ve pelikanlar dahil olmak üzere yüzlerce kuş türüne ev sahipliği yapar. Burada yıl boyunca balık avına izin verilmesi, burayı hem yerel halk hem de turistler için popüler bir destinasyon haline getirmektedir.
 
 ### Yarımadalar ve Burunlar
 
-Datça Yarımadası, bölgenin batısında yer alan 100 kilometrelik uzatılmış bir burundur. Batı tarafında, çakıl taşlarının hakim olduğu bu bölgede altın sarısı kumların nadir örneklerinden olan Prenses Kleopatra plajları yer alır. Yarımada, yerel halkın tatil için buraya geldiği Temmuz sonuna kadar neredeyse tamamen sessizdir.
+[Datça](/tr/dacha) Yarımadası, bölgenin batısında yer alan 100 kilometrelik uzatılmış bir burundur. Batı tarafında, çakıl taşlarının hakim olduğu bu bölgede altın sarısı kumların nadir örneklerinden olan Prenses Kleopatra plajları yer alır. Yarımada, yerel halkın tatil için buraya geldiği Temmuz sonuna kadar neredeyse tamamen sessizdir.
 
 Marmaris Yarımadası'ndaki Gelibolu Burnu, kıta Türkiye'sinin en güneybatı noktasıdır. Buradan aynı anda hem Ege hem de Akdeniz manzaraları açılır; tek bir yerden iki denizi birden görmek için nadir bir fırsattır.
 
@@ -73,3 +74,12 @@ Coğrafyayı anlamak, dağlık arazi nedeniyle haritadaki mesafelerin yanıltıc
 ## Sonuç
 
 Likya Kıyısı'nın coğrafyası sadece bir harita değil, her taşında, her koyunda ve her kayalığında yazılı duran canlı bir tarihtir. Arazi yapısını bilmek, antik uygarlıkların neden burada geliştiğini ve bugün bu toprakların neden seyahat için Türkiye'nin en güzel bölgelerinden biri olarak kabul edildiğini anlamaya yardımcı olur.
+
+---
+
+### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
+- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/articles/useful-contacts)**.
+- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/services/transfers)**.
+- **[Araç, Scooter ve Bisiklet Kiralama](/articles/vehicle-rental-cars-scooters-bikes)**.
+- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/articles/main-resorts)**.
+

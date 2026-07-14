@@ -1,95 +1,105 @@
 ---
-title: "Dalaman Bölgesi Ulaşımı: Dolmuşlar, Otobüsler ve Taksiler"
+title: "Transportation in the Dalaman Region: Dolmuses, Buses, and Taxis"
 slug: "transport"
-description: "Likya Kıyısı'nda nasıl seyahat edilir: dolmuşlar, taksiler, araç kiralama ve deniz ulaşımı. Bölgedeki tüm ulaşım araçları tek bir yerde."
+description: "How to get around the Lycian Coast: dolmuses, taxis, car rentals, and water transport. Everything about the region's transport in one place."
 ---
 
-# Dalaman Bölgesi Ulaşım Sistemi
 
-**Bölgede iyi planlanmış bir ulaşım, dolu dolu ve konforlu bir tatilin anahtarıdır. Buradaki ulaşım ağı iyi gelişmiştir ancak kendine has özellikleri vardır. Bütçe dostu minibüslerden konforlu transferlere ve kiralık araçlara kadar her turist kendine uygun seçeneği bulacaktır.**
+# Transportation System of the Dalaman Region
 
-![Dalaman Kıyısı](/dalaman1.jpg)
+**Well-planned travel around the region is the key to a rich and comfortable vacation. The transportation network here is well-developed but has its own specifics. From budget minibuses to comfortable transfers and rental cars—every tourist will find a suitable option.**
+
+![Dalaman Coast](/dalaman1.jpg)
 
 ---
 
-Dalaman kıyısı sadece güzel bir yer olmakla kalmaz, aynı zamanda iyi tasarlanmış bir ulaşım ağına da sahiptir. Bütçe dostu dolmuşlardan konforlu transferlere ve kiralık araçlara kadar her türden gezgin için bir seçenek bulunur. Yerel ulaşım yöntemlerini anlamak, seyahatinizi önemli ölçüde kolaylaştıracak ve daha keyifli hale getirecektir.
+The [Dalaman](/tr/dalaman) coast is not just a beautiful place, but also a well-designed transport network. From budget minibuses to comfortable transfers and rental cars, there is an option for every type of traveler. Understanding the local ways of getting around will make your trip significantly easier and richer.
 
-## Ulaşım Hakkında Genel Bilgiler
+## General Information on Transport
 
-Bölgenin ulaşım sistemi, turizmin özellikleri göz önünde bulundurularak geliştirilmiştir. En önemli özellik; makul mesafedeki uluslararası havalimanlarının, yaygın dolmuş ağının ve komşu koylar arasındaki deniz rotalarının bir arada sunulmasıdır. Tatil beldelerinin çoğu, sezon boyunca 10-20 dakika aralıklarla çalışan yerel minibüsler olan dolmuşlarla birbirine bağlanmaktadır.
+The region's transportation system has developed with tourism specifics in mind. The main feature is the combination of international airports within reasonable reach, an extensive network of route taxis, and water routes between neighboring bays. Most resort areas are connected by dolmuses—local minibuses that run at intervals of 10-20 minutes during the season.
 
-Bölgenin ana ulaşım merkezleri:
-- Dalaman Havalimanı (DLM) — ana hava kapısı
-- Bağlantı şehirleri: Fethiye ve Marmaris
-- Göcek Limanı — bölgenin yatçılık merkezi
+Main transport hubs of the region:
+- Dalaman Airport (DLM)—the main aviation gateway
+- Hub cities: [Fethiye](/tr/fethiye) and [Marmaris](/tr/marmaris)
+- [Göcek](/tr/gocek) Port—the yachting capital of the region
 
-## Dolmuşlar — En Önemli ve Popüler Ulaşım Aracı
+## Dolmuses—The Main and Most Popular Mode of Transport
 
-Dolmuş, Türkiye'deki toplu taşımanın kalbidir. Belirli rotalarda çalışan minibüslerdir, ancak çok önemli bir özellikleri vardır: Yol boyunca el sallayarak istediğiniz yerde durdurabilirsiniz. Adı, "dolduktan sonra kalkan" anlamındaki "dolmuş" kelimesinden gelir; geçmişte sürücüler araç dolunca hareket ederdi ancak günümüzde sezon boyunca belirli saat tarifelerine göre çalışırlar.
+The dolmuş (dolmus) is the heart of Turkey's public transport. These are route minibuses running on fixed paths, but with a major difference: they can stop anywhere along the road at the wave of a hand. The name translates as "stuffed" or "full"—originally the driver would set off once half the passengers had gathered, but in practice during the season they simply run on schedules.
 
-### Dolmuş Nasıl Kullanılır?
+### How to Use a Dolmus
 
-Ödeme nakit olarak sürücüye doğrudan verilir veya önünüzdeki yolcuya iletilerek elden ele ulaştırılır. Yanınızda küçük banknotlar bulundurmanız önemlidir, zira sürücüler büyük paralardan üstünü verirken isteksiz olabilirler. İnmek için kapıya yaklaşın ve yüksek sesle: "İnecek var!" deyin.
+Payment is made in cash directly to the driver or handed to the passenger in front of you, who passes it along in a chain. It is important to have small bills—drivers can be reluctant to give change for large bills. To exit, stand closer to the door and say loudly: "İnecek var!" (in-e-jek var—meaning "there is someone getting off").
 
-### Ana Rotalar
+### Main Routes
 
-Fethiye'de dolmuşlar merkezi önemli noktalara bağlar:
-- Fethiye – Çalış (plaj merkezine, 20-30 dakika)
-- Fethiye – Ölüdeniz (40-50 dakika)
-- Fethiye – Kayaköy (25 dakika)
-- Ölüdeniz – Hisarönü (10 dakika)
+In Fethiye, dolmuses connect the center with key locations:
+- Fethiye – Çalış (to the center of the beach, 20-30 minutes)
+- Fethiye – Ölüdeniz (40-50 minutes)
+- Fethiye – Kayaköy (25 minutes)
+- Ölüdeniz – Hisarönü (10 minutes)
 
-Marmaris'te:
-- Marmaris – İçmeler (10 dakika)
-- Marmaris – Turunç (45 dakika)
-- Marmaris – Çiftlik (50 dakika)
+In Marmaris:
+- Marmaris – İçmeler (10 minutes)
+- Marmaris – Turunç (45 minutes)
+- Marmaris – Çiftlik (50 minutes)
 
-Dalaman'da:
-- Dalaman – Sarıgerme (20 dakika)
-- Dalaman – Göcek (20 dakika)
+In Dalaman:
+- Dalaman – Sarıgerme (20 minutes)
+- Dalaman – Göcek (20 minutes)
 
-Fiyatlar: şehir içi 10-15 TL, şehirler arası mesafeye göre 30-80 TL civarındadır.
+Prices: within a city—10-15 liras, between cities—30-80 liras depending on the distance.
 
-### Avantajları ve Sınırları
+### Advantages and Limitations
 
-Artıları bellidir: ucuzdur, sık çalışır, otantik ve çevre dostudur (otopark sorunu yoktur). Eksileri ise eski modellerde klima bulunmaması, yoğun saatlerde kalabalık olabilmesi ve özel isteklerinize göre değişmeyen sabit rotalarıdır. Akşam seyahatleri ve şehirler arası yollar için taksi gibi bir B planı bulundurmak en iyisidir.
+The pros are obvious: cheap, frequent, authentic, and eco-friendly (no parking worries). The cons are the lack of air conditioning in older models, potential crowding during peak hours, and fixed routes that do not adapt to your specific requests. For evening trips and intercity routes, it is best to have a Plan B like a taxi.
 
-## Taksiler ve Bireysel Transferler
+## Taxis and Individual Transfers
 
-Türkiye'deki tüm taksiler sarı renklidir ve taksimetre bulundurmak zorundadır. Araca bindiğinizde taksimetrenin açıldığından emin olun; bu temel bir gerekliliktir. Taksilerle seyahat ederken bazı faydalı ipuçları:
+All taxis in Turkey are yellow and must be equipped with a taximeter. When boarding, make sure the meter is turned on—this is a basic requirement. A few useful tips on using taxis:
 
-### Şehir İçi Taksi
+### City Taxis
 
-Ücret yaklaşık 20-30 TL açılış + kilometre başına 15-20 TL'dir. Akşam tarifeleri daha yüksek olabilir. Turizm merkezlerinde taksiler özel taksi duraklarında bulunur veya otelden çağrılabilir. Uzun mesafeli yolculuklar için bazen önceden transfer rezervasyonu yapmak daha ekonomik olabilir.
+The cost is approximately 20-30 liras for boarding + 15-20 liras per kilometer. Prices are higher in the evening. In tourist centers, taxis can be found at special taxi stands (taksi durağı) or called through your hotel. For long-distance trips, it is sometimes more economical to book a transfer in advance.
 
-### Bireysel Transfer
+### Individual Transfers
 
-Havalimanı-otel arası ulaşım için bireysel transfer sistemi mevcuttur. Çevrimiçi hizmetler, otel veya tur operatörü aracılığıyla rezerve edilebilir. Sürücü sizi havalimanında adınızın yazılı olduğu bir tabela ile karşılar, bagajınıza yardımcı olur ve doğrudan kapınıza kadar götürür. Ortalama fiyat: Dalaman'dan Marmaris veya Fethiye'ye grup için araç başına 40-60 Euro civarındadır.
+For airport-to-hotel trips and vice versa, a system of individual transfers is available. You can book them through online services, your hotel, or a tour operator. A car meets you at the airport with a name sign, helps with luggage, and delivers you right to your door. Average price: Dalaman to Marmaris or Fethiye is about 40-60 euros per car for a group.
 
-### Deniz Taksileri
+### Water Taxis
 
-Bazı bölgelerde deniz taksileri hizmet vermektedir. Fethiye'den Çalış'a, Marmaris'ten İçmeler'e özellikle sezonda tarifeli tekneler çalışır. Bu sadece bir ulaşım aracı değil, aynı zamanda kıyı boyunca yapılan küçük bir gezintidir. Ücreti genellikle mesafeye göre kara taksisinden daha yüksektir ancak manzara ve trafik stresinin olmaması bunu telafi eder.
+In some places, water taxis operate. From Fethiye to Çalış, or Marmaris to İçmeler, boats run on a schedule, especially during the season. This is not just transport, but also a mini-cruise along the coast. The price is usually higher than a land taxi for the same distance, but this is compensated by the views and lack of traffic jams.
 
-## Feribot Seferleri
+## Ferry Services
 
-Feribotlar, bölge yaşamının doğal bir parçasıdır. Göcek ve Marmaris'ten Yunan adalarına (Rodos, İstanköy/Kos) ulaşım sağlayabilirsiniz. Biletler limandan satın alınır; fiyatlar gemi sınıfına ve yılın dönemine göre değişir. Yunanistan'a giriş için Schengen vizenizin bulunması gerektiğini unutmayın.
+Ferries are a natural part of life in the region. From Göcek and Marmaris, you can reach the Greek islands (Rhodes, Kos). Tickets are bought at the pier; prices depend on the class of vessel and the time of year. It is important to have a Schengen visa to enter Greece.
 
-## Ulaşım Tüyoları
+## Travel Tips
 
-### Sezon Özellikleri
+### Seasonal Features
 
-Yaz aylarında (Haziran-Ağustos) Fethiye ile Ölüdeniz arasındaki dolmuşlar sabah 08:00'den gece yarısına kadar her 5-10 dakikada bir çalışır. Sezon dışında (Ekim-Nisan) sefer aralıkları 30-60 dakikaya çıkabilir ve bazı hatlar iptal edilebilir. Akşam saatlerinde yolcu az olabileceğinden, dolmuşlar bazen doldukça hareket edebilir.
+In summer (June–August), dolmuses between Fethiye and Ölüdeniz run every 5-10 minutes from 8 AM until midnight. In the off-season (October–April), the intervals can increase to 30-60 minutes, and some routes are shortened. Evening runs may have fewer passengers, so dolmuses might wait to fill up before departing.
 
-### Nakit Para ve Bozuk Para
+### Cash and Small Money
 
-Nakit para yerel hayatta her kapıyı açar. Taksilerde kart kabul edilse de yanınızda 10-20 TL'lik banknotlar bulundurmak en iyisidir. Dolmuşlarda ödeme zincirleme olarak elden ele iletilir. Gece seferlerinde ücretler yaklaşık %30-50 oranında artabilir.
+Cash is king in local daily life. Cards are accepted in some taxis, but it is best to have 10-20 lira bills. In dolmuses, payment is passed down the line: you hand money forward, and the change is passed back. For evening and night trips, taxi rates are about 30-50% higher.
 
-### Güvenlik
+### Safety
 
-Toplu taşıma güvenlidir ancak geç saatlerde (özellikle 22:00'den sonra) uzak bölgelere tek başınıza seyahat etmekten kaçınmanız önerilir. Taksimetresi açık bir taksi, adil fiyatın garantisidir. Araç kiraladığınızda "Otopark" levhalarına dikkat edin.
+Public transport is safe, but late at night (especially after 10:00 PM), it is best to avoid traveling to remote areas alone. A taxi with a running meter guarantees a fair price. When renting a car, look out for "Otopark" signs for parking.
 
-## Sonuç
+## Conclusion
 
-Dalaman bölgesinin ulaşım sistemi kusursuz olmasa da işlevseldir. Ekonomik ve günlük seyahatler için dolmuşlar en iyi seçimdir. Konfor ve akşam seyahatleri için taksiler tercih edilebilir. Seyahat özgürlüğü için ise araç veya scooter kiralamayı düşünebilirsiniz.
+The transport system of the Dalaman region is not perfect, but it is functional. For budget trips and everyday travel, dolmuses are the best choice. For comfort and evening travel, use taxis. For freedom of planning, opt for renting a car or a scooter.
 
-Zamanla kendi rotalarınızı, en sevdiğiniz dolmuş hatlarını belirleyecek ve yerel saat kavramının sırrını çözeceksiniz. Türkiye'de 10 dakika gecikmek tamamen normaldir; burada bu duruma anlayışla yaklaşılır.
+Over time, you will figure out your routes, favorite dolmus lines, and understand the mystery of local time. It is completely normal to be 10 minutes late—in Turkey, this is treated with understanding.
+
+---
+
+### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
+- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/articles/useful-contacts)**.
+- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/services/transfers)**.
+- **[Araç, Scooter ve Bisiklet Kiralama](/articles/vehicle-rental-cars-scooters-bikes)**.
+- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/articles/main-resorts)**.
+
