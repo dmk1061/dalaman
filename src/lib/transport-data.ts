@@ -8,11 +8,15 @@ export interface TaxiDestination {
   otogarName: Record<string, string>;
 }
 
+// SOURCE [15.07.2026]: Утвержденные тарифы UKOME Muğla Büyükşehir Belediyesi (URL: https://www.mugla.bel.tr/ukome) и Dalaman Havalimanı Taksiciler Kooperatifi (URL: https://www.dalaman-airport.com/taksi.html)
 export const UKOME_TAXI_RATES = {
-  OPENING_TRY: 40,
-  RATE_PER_KM_TRY: 30,
-  MIN_FARE_TRY: 100,
+  OPENING_TRY: 50,
+  RATE_PER_KM_TRY: 35,
+  MIN_FARE_TRY: 250,
+  // Минимальная реальная цена поездки между городом Даламан и аэропортом с учетом сборов за въезд/ожидание
+  AIRPORT_MIN_REALITY_TRY: 480,
 };
+
 
 export const TAXI_DESTINATIONS: TaxiDestination[] = [
   {

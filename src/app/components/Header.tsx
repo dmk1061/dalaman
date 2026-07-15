@@ -17,7 +17,7 @@ const cityNamesMap: Record<string, Record<string, string>> = {
   tr: { dacha: 'Datça', marmaris: 'Marmaris', koycegiz: 'Köyceğiz', dalyan: 'Dalyan', dalaman: 'Dalaman', gocek: 'Göcek', fethiye: 'Fethiye', kas: 'Kaş' }
 };
 
-const Header = async ({ locale = 'en' }: HeaderProps) => {
+const Header = async ({ locale = 'ru' }: HeaderProps) => {
   const dict = await getDictionary(locale as Locale);
   const cities = cityNamesMap[locale] || cityNamesMap['en'];
 
@@ -44,7 +44,7 @@ const Header = async ({ locale = 'en' }: HeaderProps) => {
         { name: dict.header.nav.geography, href: '/articles/geography' },
         { name: dict.header.nav.transport, href: '/articles/transport' },
         { name: dict.header.nav.airport_dalaman, href: '/articles/airport-dalaman' },
-        { name: dict.header.nav.accommodation, href: '/articles/accommodation' },
+        { name: dict.header.nav.accommodation, href: '/services/hotels' },
         { name: dict.header.nav.climate_and_seasons, href: '/articles/climate-and-seasons' },
         { name: dict.header.nav.residency, href: '/articles/residency-permit' },
         { name: dict.header.nav.useful_contacts, href: '/articles/useful-contacts' },

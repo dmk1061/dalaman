@@ -19,9 +19,9 @@ type SideMenuProps = {
 
 const SideMenu = ({ isOpen, onClose }: SideMenuProps) => {
     const params = useParams();
-    const locale = (params?.locale as string) || 'en';
-    const dict = dicts[locale] || dicts['en'];
-    const sm = dict.side_menu || dicts['en'].side_menu;
+    const locale = (params?.locale as string) || 'ru';
+    const dict = dicts[locale] || dicts['ru'];
+    const sm = dict.side_menu || dicts['ru'].side_menu;
 
     const localize = (path: string) => {
         if (!path || path === '#' || path.startsWith('http') || path.startsWith('tel:')) return path;

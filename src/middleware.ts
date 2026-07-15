@@ -25,14 +25,14 @@ export function middleware(request: NextRequest) {
 
   if (pathnameHasLocale) return;
 
-  // If visiting root '/', redirect to '/en' directly (as English is default)
+  // If visiting root '/', redirect to '/ru' directly (as Russian is default for now)
   if (pathname === '/') {
-    request.nextUrl.pathname = '/en';
+    request.nextUrl.pathname = '/ru';
     return NextResponse.redirect(request.nextUrl);
   }
 
-  // Redirect other unlocalized paths to /en/[path]
-  request.nextUrl.pathname = `/en${pathname}`;
+  // Redirect other unlocalized paths to /ru/[path]
+  request.nextUrl.pathname = `/ru${pathname}`;
   return NextResponse.redirect(request.nextUrl);
 }
 

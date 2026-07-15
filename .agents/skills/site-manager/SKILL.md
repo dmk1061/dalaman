@@ -49,6 +49,12 @@ triggers: [daily_standup, background_site_evolution, when_user_wants_plan, stage
 7. `daily_questions_queue.md` (Журнал асинхронных вопросов).
 8. `million_dollar_roadmap.md` (**[CRITICAL]** Живой стратегический план пути к $1 000 000, который ты ведешь и актуализируешь).
 
+- **[CRITICAL] Обязательное указание источников и точных URL-ссылок всех цифр и тарифов в комментариях к коду (`Strict Price & Number Source Attribution with URLs in Code Comments`):**
+  - При добавлении любых цен, тарифов, расписаний, расстояний или числовых ориентиров в код (`TSX`-компоненты, массивы данных, конфигурации) или в Markdown-контент, Агент **ОБЯЗАН** прямо над этими цифрами (или рядом с ними) оставлять подробный комментарий с указанием первоисточника (`Source / Первоисточник:`), **точной веб-ссылки (`URL: https://...`) на сайт первоисточника**, даты проверки и методики расчета.
+  - *Пример комментария в коде:*  
+    `// SOURCE [15.07.2026]: Тарифная сетка UKOME Muğla Büyükşehir Belediyesi (URL: https://www.mugla.bel.tr/ukome) + бенчмарк Dalaman Havalimanı Taksiciler Kooperatifi (URL: https://www.dalaman-airport.com/taksi.html) и прайс-листы GetTransfer (URL: https://gettransfer.com/ru/transfers/dalaman-airport/fethiye) на сезон 2026.`
+  - Категорически запрещено вставлять в код цифры тарифов, бюджета или времени в пути без документирования их происхождения и указания прямой URL-ссылки в комментариях!
+
 ---
 
 ## 🛑 3. Правило Заморозки во время Дейли (`Standup Code Freeze Protocol`)

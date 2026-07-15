@@ -15,7 +15,7 @@ type HeroProps = {
   locale?: string;
 };
 
-const Hero = ({ locale = 'en' }: HeroProps) => {
+const Hero = ({ locale = 'ru' }: HeroProps) => {
   const dict = dictionaries[locale] || dictionaries['en'];
 
   const localize = (path: string) => {

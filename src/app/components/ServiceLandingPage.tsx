@@ -4,6 +4,10 @@ import Image from "next/image";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import { FaShieldAlt, FaCheckCircle, FaBookOpen, FaExternalLinkAlt, FaInfoCircle, FaPhoneAlt, FaMapMarkerAlt, FaStar, FaChevronRight } from "react-icons/fa";
+import TransfersSmartHub from "@/app/components/TransfersSmartHub";
+import CarRentalSmartHub from "@/app/components/CarRentalSmartHub";
+import GeoSmartHotelHub from "@/app/components/GeoSmartHotelHub";
+import YachtRentalSmartHub from "@/app/components/YachtRentalSmartHub";
 
 interface ServiceItem {
     title: Record<string, string>;
@@ -346,6 +350,61 @@ const servicesRegistry: Record<string, ServiceItem> = {
         ],
         heroBg: "/api/images/locations/kas/ruines/kekova/kekova.jpg"
     },
+    "hotels": {
+        title: {
+            ru: "Отели, Апартаменты и Частные Виллы с Бассейном",
+            en: "Hotels, Apartments, and Private Pool Villas",
+            de: "Hotels, Ferienwohnungen und Luxusvillen mit Pool",
+            tr: "Oteller, Daireler ve Özel Havuzlu Villalar"
+        },
+        desc: {
+            ru: "Бронирование жилья на Бирюзовом побережье Турции: 100% легальные турецкие тарифы через официальный шлюз Otelz.com без предоплаты на картах, а также международное бронирование и прямая связь с владельцами бутик-отелей и вилл.",
+            en: "Accommodation booking across Turkey's Turquoise Coast: 100% legal domestic rates via official partner Otelz.com (pay at hotel with zero credit card block), plus international Booking.com gateways and direct boutique villa inquiries.",
+            de: "Unterkunftsbuchung an der Türkischen Riviera: 100% legale Inlandsraten über den offiziellen Partner Otelz.com (Bezahlung im Hotel ohne Kreditkartenblockade) sowie internationale Gateways und direkte Buchung von Luxusvillen.",
+            tr: "Turkuaz Kıyılarda konaklama rezervasyonu: Otelz.com resmi partnerliği ile otelde ödeme imkanı, uluslararası arama şebekesi ve komisyonsuz doğrudan butik villa kiralama rehberi."
+        },
+        features: {
+            ru: [
+                "100% соответствие Закону № 1618 (TÜRSAB) для бронирования внутри Турции",
+                "Опция «Оплата при заселении» через официальный шлюз Otelz.com",
+                "Лучшие бутик-отели и виллы в Фетхие, Гёчеке, Сарыгерме и Каше",
+                "Прямая связь в WhatsApp с консьержем по аренде вилл без комиссии",
+                "Интерактивный расчет стоимости проживания с учетом сезонных скидок"
+            ],
+            en: [
+                "100% compliance with Turkish Law No. 1618 for local Turkey bookings",
+                "'Pay at Check-in' options via official Turkey partner Otelz.com",
+                "Handpicked luxury pool villas and boutique hotels across Fethiye, Göcek, & Kaş",
+                "Direct WhatsApp concierge inquiries with property owners (no OTA commission)",
+                "Interactive live accommodation price estimation with duration discounts"
+            ],
+            de: [
+                "100% Übereinstimmung mit dem türkischen Gesetz Nr. 1618 für Inlandsbuchungen",
+                "Option 'Zahlen bei Ankunft' über den offiziellen Partner Otelz.com",
+                "Ausgewählte Luxusvillen und Boutique-Hotels in Fethiye, Göcek & Kaş",
+                "Direkter WhatsApp-Kontakt zu Villenbesitzern (keine OTA-Provision)",
+                "Interaktive Preisberechnung mit Langzeitrabatten"
+            ],
+            tr: [
+                "Türkiye içi rezervasyonlar için 1618 Sayılı TÜRSAB Kanununa %100 uygunluk",
+                "Otelz.com resmi partnerliği ile 'Otelde Ödeme' ve ön ödemesiz rezervasyon",
+                "Fethiye, Göcek, Sarıgerme ve Kaş'ta seçkin havuzlu villa ve butik otel portföyü",
+                "Platform komisyonu olmadan ev sahipleriyle doğrudan WhatsApp iletişimi",
+                "Uzun dönem konaklama indirimleri sunan canlı fiyat hesaplama motoru"
+            ]
+        },
+        priceNote: {
+            ru: "Ориентиры сезона 2026: Апартаменты у моря 1+1 (от €45/ночь), Бутик-отель 4★ с завтраком (от €95/ночь), 5★ Ultra All-Inclusive в Сарыгерме (от €210/ночь), Частная люкс-вилла 3+1 с бассейном в Гёчеке (от €320/ночь).",
+            en: "2026 Season Benchmarks: Beachside 1+1 apartments (from €45/night), 4★ Boutique hotels with breakfast (from €95/night), 5★ Ultra All-Inclusive in Sarıgerme (from €210/night), Private pool 3+1 luxury villas in Göcek (from €320/night).",
+            de: "Richtpreise 2026: Strandnahe 1+1 Wohnungen (ab 45 €/Nacht), 4★ Boutique-Hotels mit Frühstück (ab 95 €/Nacht), 5★ Ultra All-Inclusive (ab 210 €/Nacht), Luxusvillen mit Pool in Göcek (ab 320 €/Nacht).",
+            tr: "2026 Sezonu Referansları: Sahile yakın 1+1 daireler (45 €/gece'den başlar), Kahvaltılı 4★ Butik oteller (95 €/gece), Sarıgerme'de 5★ Ultra Her Şey Dahil (210 €/gece), Göcek'te özel havuzlu lüks villalar (320 €/gece)."
+        },
+        guides: [
+            { slug: "accommodation", label: { ru: "Где остановиться на Бирюзовом побережье: гид по курортам", en: "Where to Stay on the Turquoise Coast: Resort Guide", de: "Wo übernachten an der Türkischen Riviera", tr: "Turkuaz Kıyılarda Nerede Kalınır: Bölge Rehberi" } },
+            { slug: "real-estate", label: { ru: "Инвестиции в недвижимость и покупка вилл в Турции", en: "Property Investment & Buying Villas in Turkey", de: "Immobilienkauf und Investitionen in der Türkei", tr: "Türkiye'de Gayrimenkul Yatırımı ve Villa Satın Alma" } }
+        ],
+        heroBg: "/api/images/locations/kas/ruines/kekova/kekova.jpg"
+    },
     "tuna-fishing": {
         title: {
             ru: "Трофейная Морская Рыбалка на Тунца и Хищника",
@@ -669,6 +728,11 @@ const ServiceLandingPage = ({ serviceKey, locale }: ServiceLandingPageProps) => 
                             className="brightness-60 transform scale-105 transition-transform duration-1000"
                         />
                     </div>
+                    {(s.heroBg.includes('/dalaman') || s.heroBg.includes('/hero-bg')) && (
+                        <div className="absolute top-20 right-6 bg-black/60 backdrop-blur-sm text-white text-[9px] font-black px-2.5 py-1 rounded border border-white/20 z-20 tracking-wider uppercase">
+                            AI Placeholder / Сгенерировано ИИ
+                        </div>
+                    )}
                     <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-900/40 to-slate-50 z-10" />
 
                     <div className="relative z-20 max-w-4xl mx-auto space-y-6 pt-12">
@@ -712,6 +776,20 @@ const ServiceLandingPage = ({ serviceKey, locale }: ServiceLandingPageProps) => 
                                         </div>
                                     ))}
                                 </div>
+
+                                {/* TRANSFERS & CAR RENTAL SMART HUB INTEGRATION */}
+                                {serviceKey === "transfers" && (
+                                    <TransfersSmartHub locale={activeLocale} />
+                                )}
+                                {serviceKey === "car-rental" && (
+                                    <CarRentalSmartHub locale={activeLocale} />
+                                )}
+                                {(serviceKey === "real-estate" || serviceKey === "hotels") && (
+                                    <GeoSmartHotelHub locale={activeLocale} />
+                                )}
+                                {serviceKey === "yacht-rental" && (
+                                    <YachtRentalSmartHub locale={activeLocale} />
+                                )}
 
                                 {/* Inflation Shield & Price Note */}
                                 <div className="bg-amber-50 rounded-3xl p-6 md:p-8 border border-amber-200/60 flex items-start space-x-4">

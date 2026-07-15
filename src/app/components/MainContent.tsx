@@ -90,7 +90,7 @@ type MainContentProps = {
   locale?: string;
 };
 
-const MainContent = ({ locale = 'en' }: MainContentProps) => {
+const MainContent = ({ locale = 'ru' }: MainContentProps) => {
     const dict = dictionaries[locale] || dictionaries['en'];
     const sliderRef = useRef<Slider>(null);
     const [kaleidoscopeItems, setKaleidoscopeItems] = useState<KaleidoscopeItem[]>([]);
@@ -108,12 +108,12 @@ const MainContent = ({ locale = 'en' }: MainContentProps) => {
     };
 
     const quickLinks = [
-        { icon: <FaPlane size={32} />, title: dict.main_content.quick_links.flights, href: localize('/articles/useful-contacts') },
-        { icon: <FaBuilding size={32} />, title: dict.main_content.quick_links.hotels, href: localize('/articles/useful-contacts') },
+        { icon: <FaPlane size={32} />, title: dict.main_content.quick_links.flights, href: localize('/articles/airport-dalaman') },
+        { icon: <FaBuilding size={32} />, title: dict.main_content.quick_links.hotels, href: localize('/services/hotels') },
         { icon: <FaCar size={32} />, title: dict.main_content.quick_links.car_rental, href: localize('/services/car-rental') },
         { icon: <FaShip size={32} />, title: dict.main_content.quick_links.yacht_rental, href: localize('/services/yacht-rental') },
         { icon: <FaUsers size={32} />, title: dict.main_content.quick_links.excursions, href: localize('/services/excursions-tours') },
-        { icon: <FaConciergeBell size={32} />, title: dict.main_content.quick_links.other_services, href: localize('/articles/useful-contacts') },
+        { icon: <FaConciergeBell size={32} />, title: dict.main_content.quick_links.other_services, href: localize('/services') },
     ];
 
     const mosaicItems = [
@@ -132,7 +132,7 @@ const MainContent = ({ locale = 'en' }: MainContentProps) => {
         {
             title: dict.main_content.mosaic.forums_title,
             description: dict.main_content.mosaic.forums_desc,
-            href: localize('/articles/useful-contacts'),
+            href: localize('/contacts'),
             image: "/dalaman2.jpg"
         }
     ];
@@ -287,41 +287,58 @@ const QuickLinkCard = ({ icon, title, href }: { icon: React.ReactNode, title: st
     </Link>
 );
 
-const MosaicCard = ({ title, description, href, image, readMoreText }: { title: string, description: string, href: string, image: string, readMoreText: string }) => (
-    <div className="group bg-white rounded-[2.5rem] overflow-hidden premium-shadow flex flex-col h-full hover:-translate-y-2 transition-all duration-500 border border-slate-50">
-        <div className="relative h-60 w-full overflow-hidden">
-            <Image src={image} alt={title} layout="fill" objectFit="cover" className="group-hover:scale-110 transition-transform duration-700 ease-out" />
-            <div className="absolute top-6 left-6">
-                <span className="px-4 py-1.5 bg-white/90 backdrop-blur-md rounded-full text-[10px] font-black uppercase tracking-[0.2em] text-cyan-600">Travel</span>
+const MosaicCard = ({ title, description, href, image, readMoreText }: { title: string, description: string, href: string, image: string, readMoreText: string }) => {
+    const isPlaceholder = image && image.includes('/dalaman');
+    return (
+        <div className="group bg-white rounded-[2.5rem] overflow-hidden premium-shadow flex flex-col h-full hover:-translate-y-2 transition-all duration-500 border border-slate-50">
+            <div className="relative h-60 w-full overflow-hidden">
+                <Image src={image} alt={title} layout="fill" objectFit="cover" className="group-hover:scale-110 transition-transform duration-700 ease-out" />
+                <div className="absolute top-6 left-6">
+                    <span className="px-4 py-1.5 bg-white/90 backdrop-blur-md rounded-full text-[10px] font-black uppercase tracking-[0.2em] text-cyan-600">Travel</span>
+                </div>
+                {isPlaceholder && (
+                    <div className="absolute top-6 right-6 bg-black/60 backdrop-blur-sm text-white text-[8px] font-black px-2 py-0.5 rounded border border-white/20 z-10 tracking-wider uppercase">
+                        AI Placeholder / Сгенерировано ИИ
+                    </div>
+                )}
+            </div>
+            <div className="p-8 flex flex-col flex-grow">
+                <h3 className="font-black text-xl mb-4 text-slate-900 group-hover:text-cyan-600 transition-colors uppercase italic">{title}</h3>
+                <p className="text-slate-500 text-sm leading-relaxed mb-6 flex-grow">{description}</p>
+                <Link href={href} className="flex items-center gap-2 text-xs font-black uppercase tracking-widest text-slate-400 group-hover:text-cyan-500 transition-colors">
+                    {readMoreText} <FaChevronRight size={10} />
+                </Link>
             </div>
         </div>
-        <div className="p-8 flex flex-col flex-grow">
-            <h3 className="font-black text-xl mb-4 text-slate-900 group-hover:text-cyan-600 transition-colors uppercase italic">{title}</h3>
-            <p className="text-slate-500 text-sm leading-relaxed mb-6 flex-grow">{description}</p>
-            <Link href={href} className="flex items-center gap-2 text-xs font-black uppercase tracking-widest text-slate-400 group-hover:text-cyan-500 transition-colors">
-                {readMoreText} <FaChevronRight size={10} />
-            </Link>
-        </div>
-    </div>
-);
+    );
+};
 
-const CollectionCard = ({ title, count, image, tag }: { title: string, count: string, image: string, tag: string }) => (
-    <div className="group relative h-64 rounded-[2.5rem] overflow-hidden premium-shadow cursor-pointer">
-        <Image src={image} alt={title} layout="fill" objectFit="cover" className="group-hover:scale-110 transition-transform duration-700 ease-out" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
-        <div className="absolute top-6 right-6">
-            <span className="px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-[9px] font-black uppercase text-white border border-white/20">{tag}</span>
+const CollectionCard = ({ title, count, image, tag }: { title: string, count: string, image: string, tag: string }) => {
+    const isPlaceholder = image && image.includes('/dalaman');
+    return (
+        <div className="group relative h-64 rounded-[2.5rem] overflow-hidden premium-shadow cursor-pointer">
+            <Image src={image} alt={title} layout="fill" objectFit="cover" className="group-hover:scale-110 transition-transform duration-700 ease-out" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
+            <div className="absolute top-6 right-6">
+                <span className="px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-[9px] font-black uppercase text-white border border-white/20">{tag}</span>
+            </div>
+            {isPlaceholder && (
+                <div className="absolute top-6 left-6 bg-black/60 backdrop-blur-sm text-white text-[8px] font-black px-2 py-0.5 rounded border border-white/20 z-10 tracking-wider uppercase">
+                    AI Placeholder
+                </div>
+            )}
+            <div className="absolute inset-0 flex flex-col justify-end p-8">
+                <h3 className="text-white font-black text-lg leading-tight mb-1 group-hover:text-cyan-400 transition-colors">{title}</h3>
+                <p className="text-white/60 text-xs font-bold uppercase tracking-widest">{count}</p>
+            </div>
         </div>
-        <div className="absolute inset-0 flex flex-col justify-end p-8">
-            <h3 className="text-white font-black text-lg leading-tight mb-1 group-hover:text-cyan-400 transition-colors">{title}</h3>
-            <p className="text-white/60 text-xs font-bold uppercase tracking-widest">{count}</p>
-        </div>
-    </div>
-);
+    );
+};
 
 const KaleidoscopeCard = ({ title, image, href }: { title: string, image: string, href: string }) => {
     const [imgSrc, setImgSrc] = useState(image);
     const [isError, setIsError] = useState(false);
+    const isPlaceholder = imgSrc && imgSrc.includes('/dalaman');
 
     return (
         <Link href={href} className="block relative h-80 rounded-[2.5rem] overflow-hidden premium-shadow group">
@@ -338,6 +355,11 @@ const KaleidoscopeCard = ({ title, image, href }: { title: string, image: string
                     }
                 }}
             />
+            {isPlaceholder && (
+                <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-sm text-white text-[8px] font-black px-2 py-0.5 rounded border border-white/20 z-10 tracking-wider uppercase">
+                    AI Placeholder
+                </div>
+            )}
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent group-hover:from-cyan-900/90 group-hover:via-cyan-600/20 transition-all duration-500" />
             <div className="absolute bottom-0 left-0 right-0 p-8 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
                 <h3 className="font-bold text-white text-lg leading-tight drop-shadow-md">{title}</h3>

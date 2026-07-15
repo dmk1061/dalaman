@@ -472,9 +472,9 @@ const TransportClient = ({ locale }: TransportClientProps) => {
   // Calculate pricing based on UKOME formula
   const currentDest = TAXI_DESTINATIONS.find(d => d.id === calcDest) || TAXI_DESTINATIONS[4];
   
-  // Calculate UKOME Meter TRY
+  // Calculate UKOME Meter TRY with realistic airport short-trip threshold (AIRPORT_MIN_REALITY_TRY)
   const meterPriceTry = Math.max(
-    UKOME_TAXI_RATES.MIN_FARE_TRY,
+    currentDest.distanceKm <= 12 ? (UKOME_TAXI_RATES.AIRPORT_MIN_REALITY_TRY || 480) : UKOME_TAXI_RATES.MIN_FARE_TRY,
     UKOME_TAXI_RATES.OPENING_TRY + (currentDest.distanceKm * UKOME_TAXI_RATES.RATE_PER_KM_TRY)
   );
 

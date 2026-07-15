@@ -253,6 +253,11 @@ const ArticlePage = async ({ params }: ArticlePageProps) => {
                             className="brightness-75"
                         />
                     </div>
+                    {(articleData.image.includes('/dalaman') || articleData.image.includes('/hero-bg')) && (
+                        <div className="absolute top-24 right-6 bg-black/60 backdrop-blur-sm text-white text-[9px] font-black px-2.5 py-1 rounded border border-white/20 z-20 tracking-wider uppercase">
+                            AI Placeholder / Сгенерировано ИИ
+                        </div>
+                    )}
                     <div className="relative z-20 flex flex-col justify-end h-full w-full max-w-[2180px] mx-auto px-4 sm:px-6 md:px-11 lg:px-11 pb-12">
                         <span className="text-cyan-400 font-black text-xs uppercase tracking-[0.4em] mb-4">
                             {(articleUiByLocale[activeLocale] || articleUiByLocale['en']).badge}
@@ -357,6 +362,50 @@ const ArticlePage = async ({ params }: ArticlePageProps) => {
                                     </div>
                                 )}
 
+                                {(slug.includes('useful-contacts') || slug.includes('poleznye-ssylki') || slug.includes('pharmacies')) && (
+                                    <div className="mb-8 p-6 md:p-8 rounded-3xl bg-gradient-to-br from-rose-900 via-slate-900 to-rose-950 text-white shadow-2xl border border-rose-500/30 flex flex-col md:flex-row items-center justify-between gap-6">
+                                        <div className="space-y-2 text-center md:text-left">
+                                            <span className="inline-block px-3 py-1 rounded-full bg-rose-500/20 text-rose-300 text-[10px] font-black uppercase tracking-widest border border-rose-500/30">
+                                                {activeLocale === 'ru' ? '🏥 Официальный Онлайн-Сервис' : activeLocale === 'de' ? '🏥 Offizieller Notdienst' : activeLocale === 'tr' ? '🏥 Resmi Nöbetçi Eczane Sistemi' : '🏥 Official On-Duty Roster'}
+                                            </span>
+                                            <h3 className="text-xl md:text-2xl font-black text-white tracking-tight">
+                                                {activeLocale === 'ru' 
+                                                    ? '💊 Поиск дежурных аптек (Nöbetçi Eczane) 24/7' 
+                                                    : activeLocale === 'de' 
+                                                    ? '💊 Notdienstapotheken (Nöbetçi Eczane) 24/7' 
+                                                    : activeLocale === 'tr' 
+                                                    ? '💊 Muğla Nöbetçi Eczaneler Sorgulama 7/24' 
+                                                    : '💊 Find 24/7 On-Duty Pharmacies (Nöbetçi Eczane)'}
+                                            </h3>
+                                            <p className="text-xs md:text-sm text-rose-100/80 max-w-xl leading-relaxed font-medium">
+                                                {activeLocale === 'ru'
+                                                    ? 'Всегда проверяйте актуальный статус дежурных аптек в Даламане, Фетхие, Мармарисе и Каше на официальном портале Муглы (Muğla Eczacı Odası).'
+                                                    : activeLocale === 'de'
+                                                    ? 'Prüfen Sie den aktuellen Status der Notdienstapotheken in Dalaman, Fethiye, Marmaris und Kaş über das offizielle Portal Muğlas.'
+                                                    : activeLocale === 'tr'
+                                                    ? 'Dalaman, Fethiye, Marmaris ve Kaş bölgesindeki anlık nöbetçi eczaneleri Muğla Eczacı Odası resmi portalından sorgulayın.'
+                                                    : 'Verify real-time emergency pharmacy rosters across Dalaman, Fethiye, Marmaris, and Kaş via the official Muğla Pharmacists Association portal.'}
+                                            </p>
+                                        </div>
+                                        <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
+                                            <a
+                                                href="https://www.muglaeo.org.tr/nobetci-eczaneler/"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="px-6 py-4 rounded-2xl bg-rose-600 hover:bg-rose-500 text-white font-black text-xs uppercase tracking-wider transition-all shadow-xl shadow-rose-600/30 hover:scale-105 text-center block"
+                                            >
+                                                {activeLocale === 'ru' ? 'Открытый Список Аптек ↗' : activeLocale === 'de' ? 'Apothekenliste öffnen ↗' : activeLocale === 'tr' ? 'Nöbetçi Eczaneleri Aç ↗' : 'Open Pharmacy Roster ↗'}
+                                            </a>
+                                            <Link
+                                                href={localize('/pharmacies')}
+                                                className="px-5 py-4 rounded-2xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs uppercase tracking-wider border border-white/20 transition-all text-center block"
+                                            >
+                                                {activeLocale === 'ru' ? 'Гид по лекарствам →' : activeLocale === 'de' ? 'Medikamente Guide →' : activeLocale === 'tr' ? 'İlaç Rehberi →' : 'Medicine Guide →'}
+                                            </Link>
+                                        </div>
+                                    </div>
+                                )}
+
                                 <div className="markdown-body" dangerouslySetInnerHTML={{ __html: articleData.contentHtml }} />
 
                                 {/* Interactive Hub Prompts Below Content */}
@@ -439,6 +488,11 @@ const RecommendedWidget = ({ items, activeLocale }: { items: any[], activeLocale
                                 objectFit="cover"
                                 className="group-hover:scale-110 transition-transform duration-500"
                             />
+                            {(item.image.includes('/dalaman') || item.image.includes('/hero-bg')) && (
+                                <div className="absolute top-1 right-1 bg-black/60 backdrop-blur-sm text-white text-[6px] font-black px-1 py-0.5 rounded z-10 uppercase tracking-tighter">
+                                    AI
+                                </div>
+                            )}
                         </div>
                         <div className="flex-grow">
                             <h4 className="text-[13px] font-bold text-slate-800 leading-snug group-hover:text-cyan-600 transition-colors">

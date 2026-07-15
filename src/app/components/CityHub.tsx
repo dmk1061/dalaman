@@ -234,19 +234,27 @@ const CityHub = ({ location, locationName, info, beaches, sights, transport, ima
                         </Link>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-                        {beaches && beaches.slice(0, 8).map((beach: any, idx: number) => (
-                            <Link href={localize(beach.href)} key={idx} className="group relative h-72 rounded-[2rem] overflow-hidden premium-shadow">
-                                <Image src={beach.image || '/dalaman1.jpg'} alt={beach.name} layout="fill" objectFit="cover" className="group-hover:scale-110 transition-transform duration-700" />
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                                <div className="absolute bottom-6 left-6 text-white">
-                                    <h3 className="font-black text-lg uppercase italic">{beach.name}</h3>
-                                    <p className="text-xs text-white/70 font-bold uppercase tracking-widest mt-1">
-                                        {beach.label || "Пляж"}
-                                    </p>
-                                </div>
-                            </Link>
-                        ))}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        {beaches && beaches.slice(0, 8).map((beach: any, idx: number) => {
+                            const isPlaceholder = !beach.image || beach.image.includes('/dalaman');
+                            return (
+                                <Link href={localize(beach.href)} key={idx} className="group relative h-72 rounded-[2rem] overflow-hidden premium-shadow">
+                                    <Image src={beach.image || '/dalaman1.jpg'} alt={beach.name} layout="fill" objectFit="cover" className="group-hover:scale-110 transition-transform duration-700" />
+                                    {isPlaceholder && (
+                                        <div className="absolute top-3 right-3 bg-black/60 backdrop-blur-sm text-white text-[8px] font-black px-2 py-0.5 rounded border border-white/20 z-10 tracking-wider uppercase">
+                                            {locale === 'ru' ? 'AI Placeholder / Сгенерировано ИИ' : 'AI Placeholder'}
+                                        </div>
+                                    )}
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+                                    <div className="absolute bottom-6 left-6 text-white">
+                                        <h3 className="font-black text-lg uppercase italic">{beach.name}</h3>
+                                        <p className="text-xs text-white/70 font-bold uppercase tracking-widest mt-1">
+                                            {beach.label || "Пляж"}
+                                        </p>
+                                    </div>
+                                </Link>
+                            );
+                        })}
                     </div>
                 </div>
             </div>
@@ -254,20 +262,28 @@ const CityHub = ({ location, locationName, info, beaches, sights, transport, ima
     );
 };
 
-const FeatureHubCard = ({ title, description, icon, href, color, image, exploreText }: any) => (
-    <Link href={href} className="group relative h-[400px] rounded-[3rem] overflow-hidden premium-shadow flex flex-col justify-end p-10 hover:-translate-y-2 transition-all duration-500">
-        <Image src={image} alt={title} layout="fill" objectFit="cover" className="brightness-50 group-hover:brightness-[0.35] transition-all duration-500" />
-        <div className={`absolute top-10 left-10 p-4 rounded-2xl ${color} text-white shadow-xl transform -rotate-12 group-hover:rotate-0 transition-transform duration-500`}>
-            {icon}
-        </div>
-        <div className="relative z-10 text-white">
-            <h3 className="text-3xl font-black mb-3 uppercase italic leading-tight">{title}</h3>
-            <p className="text-white/80 font-medium mb-6 leading-relaxed">{description}</p>
-            <div className="flex items-center gap-2 text-xs font-black uppercase tracking-[0.2em] group-hover:text-cyan-400 transition-colors">
-                {exploreText} <FaChevronRight size={10} />
+const FeatureHubCard = ({ title, description, icon, href, color, image, exploreText }: any) => {
+    const isPlaceholder = image && image.includes('/dalaman');
+    return (
+        <Link href={href} className="group relative h-[400px] rounded-[3rem] overflow-hidden premium-shadow flex flex-col justify-end p-10 hover:-translate-y-2 transition-all duration-500">
+            <Image src={image} alt={title} layout="fill" objectFit="cover" className="brightness-50 group-hover:brightness-[0.35] transition-all duration-500" />
+            {isPlaceholder && (
+                <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-sm text-white text-[9px] font-black px-2.5 py-1 rounded border border-white/20 z-20 tracking-wider uppercase">
+                    AI Placeholder / Сгенерировано ИИ
+                </div>
+            )}
+            <div className={`absolute top-10 left-10 p-4 rounded-2xl ${color} text-white shadow-xl transform -rotate-12 group-hover:rotate-0 transition-transform duration-500`}>
+                {icon}
             </div>
-        </div>
-    </Link>
-);
+            <div className="relative z-10 text-white">
+                <h3 className="text-3xl font-black mb-3 uppercase italic leading-tight">{title}</h3>
+                <p className="text-white/80 font-medium mb-6 leading-relaxed">{description}</p>
+                <div className="flex items-center gap-2 text-xs font-black uppercase tracking-[0.2em] group-hover:text-cyan-400 transition-colors">
+                    {exploreText} <FaChevronRight size={10} />
+                </div>
+            </div>
+        </Link>
+    );
+};
 
 export default CityHub;

@@ -2,13 +2,14 @@ import React from 'react';
 import { FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import Link from 'next/link';
+import VisitorAnalyticsWidget from '@/app/components/VisitorAnalyticsWidget';
 import { getDictionary, Locale } from '@/lib/dictionary';
 
 type FooterProps = {
   locale?: string;
 };
 
-const Footer = async ({ locale = 'en' }: FooterProps) => {
+const Footer = async ({ locale = 'ru' }: FooterProps) => {
     const dict = await getDictionary(locale as Locale);
 
     const localize = (path: string) => {
@@ -68,6 +69,11 @@ const Footer = async ({ locale = 'en' }: FooterProps) => {
                             </li>
                         </ul>
                     </div>
+                </div>
+
+                {/* Visitor Analytics Pulse Banner (Plug & Play Preview) */}
+                <div className="text-slate-900 my-6">
+                    <VisitorAnalyticsWidget variant="footer" locale={locale} />
                 </div>
 
                 <div className="border-t border-cyan-600 mt-8 pt-4 flex justify-between items-center text-sm">

@@ -7,7 +7,7 @@ type SidebarProps = {
   locale?: string;
 };
 
-const Sidebar = async ({ locale = 'en' }: SidebarProps) => {
+const Sidebar = async ({ locale = 'ru' }: SidebarProps) => {
     const dict = await getDictionary(locale as Locale);
 
     const localize = (path: string) => {
@@ -76,6 +76,9 @@ const Sidebar = async ({ locale = 'en' }: SidebarProps) => {
                         objectFit="cover"
                         className="group-hover:scale-110 transition-transform duration-700 ease-out"
                     />
+                    <div className="absolute top-2 right-2 bg-black/60 backdrop-blur-sm text-white text-[9px] font-black px-2 py-0.5 rounded border border-white/20 z-10 tracking-wider uppercase">
+                        {locale === 'ru' ? 'AI Placeholder / Сгенерировано ИИ' : 'AI Placeholder'}
+                    </div>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                     <div className="absolute inset-0 flex flex-col justify-end p-6">
                         <p className="text-white text-sm font-bold mb-4">{dict.sidebar.scenarios_subtitle}</p>

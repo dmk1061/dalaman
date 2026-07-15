@@ -14,9 +14,9 @@ const dicts: Record<string, any> = { ru, en, de, tr };
 
 const FloatingMenu = () => {
     const params = useParams();
-    const locale = (params?.locale as string) || 'en';
-    const dict = dicts[locale] || dicts['en'];
-    const fm = dict.floating_menu || dicts['en'].floating_menu;
+    const locale = (params?.locale as string) || 'ru';
+    const dict = dicts[locale] || dicts['ru'];
+    const fm = dict.floating_menu || dicts['ru'].floating_menu;
 
     const localize = (path: string) => {
         if (!path || path === '#' || path.startsWith('http') || path.startsWith('tel:')) return path;
