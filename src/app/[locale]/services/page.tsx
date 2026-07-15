@@ -2,9 +2,15 @@ import React from 'react';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Link from 'next/link';
-import { FaCar, FaAnchor, FaMapMarkedAlt, FaHome, FaShuttleVan, FaFish, FaWater, FaChevronRight } from 'react-icons/fa';
+import { FaCar, FaAnchor, FaMapMarkedAlt, FaHome, FaShuttleVan, FaFish, FaWater, FaChevronRight, FaPlane } from 'react-icons/fa';
 
 const servicesConfig = [
+    {
+        key: "flights",
+        href: "/services/flights",
+        icon: <FaPlane size={28} />,
+        color: "bg-sky-600"
+    },
     {
         key: "transfers",
         href: "/services/transfers",
@@ -62,6 +68,10 @@ const translations: Record<string, {
         subtitle: "Everything you need for your comfortable holiday and stay on the Lycian coast: from organizing transfers to renting villas and yachts.",
         moreDetails: "More Details",
         items: {
+            flights: {
+                title: "Flights & Tickets",
+                description: "Direct charters and scheduled flights to Dalaman Airport (DLM) with Aviasales integration and smart benchmarks."
+            },
             transfers: {
                 title: "Transfers",
                 description: "Comfortable private transfers from Dalaman airport to any hotel or resort at a fixed price."
@@ -98,6 +108,10 @@ const translations: Record<string, {
         subtitle: "Всё необходимое для вашего комфортного отдыха и проживания на Ликийском побережье: от организации трансферов до аренды вилл и яхт.",
         moreDetails: "Подробнее",
         items: {
+            flights: {
+                title: "Авиабилеты",
+                description: "Прямые чартеры и регулярные рейсы в аэропорт Даламан (DLM) с поиском через Aviasales по лучшим ценам."
+            },
             transfers: {
                 title: "Трансферы",
                 description: "Комфортабельные индивидуальные трансферы из аэропорта Даламан до любого отеля или курорта по фиксированной цене."
@@ -134,6 +148,10 @@ const translations: Record<string, {
         subtitle: "Alles, was Sie für einen komfortablen Urlaub und Aufenthalt an der lykischen Küste benötigen: von der Organisation von Transfers bis zur Anmietung von Villen und Yachten.",
         moreDetails: "Details",
         items: {
+            flights: {
+                title: "Flüge & Tickets",
+                description: "Direkte Charter und Linienflüge zum Flughafen Dalaman (DLM) mit Aviasales-Integration und Live-Vergleich."
+            },
             transfers: {
                 title: "Transfers",
                 description: "Komfortable private Transfers vom Flughafen Dalaman zu jedem Hotel oder Resort zum Festpreis."
@@ -170,6 +188,10 @@ const translations: Record<string, {
         subtitle: "Likya kıyılarında konforlu bir tatil ve konaklama için ihtiyacınız olan her şey: transfer organizasyonundan villa ve yat kiralamaya kadar.",
         moreDetails: "Daha Fazla Bilgi",
         items: {
+            flights: {
+                title: "Uçak Bileti",
+                description: "Aviasales entegrasyonuyla Dalaman Havalimanı (DLM) yönüne en uygun doğrudan ve aktarmalı uçak biletleri."
+            },
             transfers: {
                 title: "Transferler",
                 description: "Dalaman Havalimanı'ndan herhangi bir otele veya tesise sabit fiyatla konforlu özel transferler."

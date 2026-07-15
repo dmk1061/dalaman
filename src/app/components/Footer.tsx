@@ -40,6 +40,7 @@ const Footer = async ({ locale = 'ru' }: FooterProps) => {
                         { name: dict.footer.links.markets_shopping, href: '/articles/markets-shopping' },
                     ]} localize={localize}/>
                     <FooterColumn title={dict.footer.services} links={[
+                        { name: locale === 'ru' ? 'Авиабилеты (Aviasales)' : locale === 'de' ? 'Flüge & Direktcharter' : locale === 'tr' ? 'Uçak Bileti & Çarter' : 'Flights & Direct Charters', href: '/services/flights' },
                         { name: dict.footer.links.transfers, href: '/services/transfers' },
                         { name: dict.footer.links.car_rental, href: '/services/car-rental' },
                         { name: dict.footer.links.real_estate, href: '/services/real-estate' },

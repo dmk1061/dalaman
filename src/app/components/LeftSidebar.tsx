@@ -27,6 +27,7 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
     ];
 
     const interactiveServicesLinks = [
+        { title: locale === 'ru' ? '✈️ Авиабилеты и Чартеры' : locale === 'de' ? '✈️ Flüge & Direktcharter' : locale === 'tr' ? '✈️ Uçak Bileti & Çarter' : '✈️ Flights & Direct Charters', href: '/services/flights', icon: <span className="text-sky-500 font-bold">🛫</span> },
         { title: locale === 'ru' ? '🧭 Интерактивный Атлас Троп' : locale === 'de' ? '🧭 Interaktiver Wanderatlas' : locale === 'tr' ? '🧭 İnteraktif Rota Atlası' : '🧭 Interactive Trekking Atlas', href: '/routes/trekking', icon: <span className="text-emerald-500 font-bold">🥾</span> },
         { title: locale === 'ru' ? '🗓️ Сценарии 48ч Уикендов' : locale === 'de' ? '🗓️ 48-Stunden-Wochenenden' : locale === 'tr' ? '🗓️ 48 Saatlik Hafta Sonu' : '🗓️ 48-Hour Weekend Guides', href: '/routes/weekends', icon: <span className="text-indigo-500 font-bold">🍷</span> },
         { title: locale === 'ru' ? '⛵ Аренда Яхт и Гулет' : locale === 'de' ? '⛵ Jacht- & Bootcharter' : locale === 'tr' ? '⛵ Kiralık Tekne ve Yatlar' : '⛵ Yacht & Gulet Charter', href: '/services/yacht-rental', icon: <span className="text-cyan-500 font-bold">⚓</span> },
@@ -44,9 +45,9 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
                     <ul className="space-y-4">
                         {transportLinks.map((link) => (
                             <li key={link.title}>
-                                <Link href={localize(link.href)} className="flex items-center space-x-4 group text-slate-700 hover:text-cyan-600 transition-colors">
-                                    <span className="w-8 h-8 flex items-center justify-center bg-slate-50 rounded-lg text-cyan-500 group-hover:bg-cyan-500 group-hover:text-white transition-all">{link.icon}</span>
-                                    <span className="font-bold text-[13px] group-hover:underline italic">{link.title}</span>
+                                <Link href={localize(link.href)} className="flex items-center space-x-3 text-slate-700 hover:text-cyan-600 transition-colors font-semibold text-sm">
+                                    <span className="text-cyan-500">{link.icon}</span>
+                                    <span>{link.title}</span>
                                 </Link>
                             </li>
                         ))}
@@ -54,15 +55,15 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
                 </div>
             </div>
 
-            {/* Interactive & Revenue Services Panel */}
+            {/* Interactive Services & Guides Panel */}
             <div className="bg-white rounded-[2rem] premium-shadow overflow-hidden border border-slate-50">
-                <div className="bg-gradient-to-r from-slate-900 to-cyan-900 text-white px-6 py-4">
+                <div className="bg-cyan-600 text-white px-6 py-4">
                     <h3 className="font-black text-sm uppercase tracking-widest italic">
-                        {locale === 'ru' ? '🔥 Главные Сервисы' : locale === 'de' ? '🔥 Top-Services & Guides' : locale === 'tr' ? '🔥 Öne Çıkan Rehberler' : '🔥 Top Interactive Guides'}
+                        {locale === 'ru' ? 'Умные Сервисы' : locale === 'de' ? 'Smart-Services' : locale === 'tr' ? 'Akıllı Servisler' : 'Smart Hubs & Guides'}
                     </h3>
                 </div>
                 <div className="p-6">
-                    <ul className="space-y-4">
+                    <ul className="space-y-3.5">
                         {interactiveServicesLinks.map((link) => (
                             <li key={link.title}>
                                 <Link href={localize(link.href)} className="flex items-center space-x-4 group text-slate-700 hover:text-cyan-600 transition-colors">
@@ -96,9 +97,9 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
                             <p className="text-white/80 text-[10px] italic">{dict.left_sidebar.direct_flights}</p>
                         </div>
                     </div>
-                    <button className="w-full bg-cyan-500 text-white font-black text-[11px] uppercase tracking-widest py-3 rounded-xl hover:bg-cyan-600 transition-all shadow-lg active:scale-95">
+                    <Link href={localize('/services/flights')} className="w-full block text-center bg-cyan-500 text-white font-black text-[11px] uppercase tracking-widest py-3 rounded-xl hover:bg-cyan-600 transition-all shadow-lg active:scale-95">
                         {dict.left_sidebar.find_ticket}
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

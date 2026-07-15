@@ -43,6 +43,7 @@ const Header = async ({ locale = 'ru' }: HeaderProps) => {
       name: dict.header.nav.preparation, href: localize('/articles'), dropdown: [
         { name: dict.header.nav.geography, href: '/articles/geography' },
         { name: dict.header.nav.transport, href: '/articles/transport' },
+        { name: locale === 'ru' ? '✈️ Авиабилеты (Aviasales)' : locale === 'de' ? '✈️ Flüge & Direktcharter' : locale === 'tr' ? '✈️ Uçak Bileti & Çarter' : '✈️ Flights & Direct Charters', href: '/services/flights' },
         { name: dict.header.nav.airport_dalaman, href: '/articles/airport-dalaman' },
         { name: dict.header.nav.accommodation, href: '/services/hotels' },
         { name: dict.header.nav.climate_and_seasons, href: '/articles/climate-and-seasons' },

@@ -108,7 +108,7 @@ const MainContent = ({ locale = 'ru' }: MainContentProps) => {
     };
 
     const quickLinks = [
-        { icon: <FaPlane size={32} />, title: dict.main_content.quick_links.flights, href: localize('/articles/airport-dalaman') },
+        { icon: <FaPlane size={32} />, title: dict.main_content.quick_links.flights, href: localize('/services/flights') },
         { icon: <FaBuilding size={32} />, title: dict.main_content.quick_links.hotels, href: localize('/services/hotels') },
         { icon: <FaCar size={32} />, title: dict.main_content.quick_links.car_rental, href: localize('/services/car-rental') },
         { icon: <FaShip size={32} />, title: dict.main_content.quick_links.yacht_rental, href: localize('/services/yacht-rental') },

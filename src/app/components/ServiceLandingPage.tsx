@@ -8,6 +8,8 @@ import TransfersSmartHub from "@/app/components/TransfersSmartHub";
 import CarRentalSmartHub from "@/app/components/CarRentalSmartHub";
 import GeoSmartHotelHub from "@/app/components/GeoSmartHotelHub";
 import YachtRentalSmartHub from "@/app/components/YachtRentalSmartHub";
+import FlightsSmartHub from "@/app/components/FlightsSmartHub";
+import ExcursionsSmartHub from "@/app/components/ExcursionsSmartHub";
 
 interface ServiceItem {
     title: Record<string, string>;
@@ -184,6 +186,61 @@ const servicesRegistry: Record<string, ServiceItem> = {
             { slug: "islands-bays", label: { ru: "Острова, бухты и заливы Ликийского побережья", en: "Top Islands, Bays, and Secluded Coves", de: "Schönste Inseln, Buchten und Ankerplätze", tr: "Likya Kıyılarının En Güzel Koyları ve Adaları" } }
         ],
         heroBg: "/api/images/locations/gocek/beach/dresort/dresort.jpg"
+    },
+    flights: {
+        title: {
+            ru: "Авиабилеты и Прямые Чартеры в Даламан (DLM)",
+            en: "Flights & Direct Charters to Dalaman Airport (DLM)",
+            de: "Flüge & Direktcharter zum Flughafen Dalaman (DLM)",
+            tr: "Dalaman Havalimanı (DLM) Uçak Bileti ve Çarter Seferleri"
+        },
+        desc: {
+            ru: "Ищите выгодные прямые перелёты и стыковочные рейсы через Стамбул. Сравнивайте цены всех авиакомпаний на одном экране с прямой реферальной интеграцией Aviasales и скидками без наценок агентств.",
+            en: "Search the best direct non-stop flights and budget connections via Istanbul. Compare fares across all major carriers in one intelligent dashboard powered by official Aviasales benchmarks.",
+            de: "Finden Sie günstige Direktflüge und Verbindungen über Istanbul. Vergleichen Sie die Tarife aller Fluggesellschaften in einem intelligenten Dashboard mit offiziellen Aviasales-Preisen.",
+            tr: "İstanbul aktarmalı veya doğrudan en uygun Dalaman (DLM) uçak biletlerini bulun. Aviasales ve resmi havayolu partnerliğiyle tüm firmaların fiyatlarını tek ekranda karşılaştırın."
+        },
+        features: {
+            ru: [
+                "Прямые чартерные и регулярные рейсы в сезон (июнь–октябрь)",
+                "Удобные стыковки через Стамбул (IST / SAW) круглый год",
+                "Интеграция с Aviasales, Turkish Airlines, Pegasus и Corendon",
+                "Анализ тарифов с багажом 20 кг и безбагажных лоукостеров",
+                "Бесплатная проверка расписания и помощь в планировании стыковок"
+            ],
+            en: [
+                "Direct seasonal charter and scheduled routes (June–October)",
+                "Convenient year-round connections via Istanbul (IST / SAW)",
+                "Official gateways with Aviasales, Turkish Airlines, and Pegasus",
+                "Smart breakdown of checked baggage (20kg) vs budget cabin luggage",
+                "Instant flight schedule benchmarks & transfer time recommendations"
+            ],
+            de: [
+                "Direkte saisonale Charter- und Linienflüge (Juni–Oktober)",
+                "Bequeme ganzjährige Verbindungen über Istanbul (IST / SAW)",
+                "Offizielle Partner von Aviasales, Turkish Airlines und SunExpress",
+                "Vergleich von 20kg Aufgabegepäck und Handgepäck-Tarifen",
+                "Sofortige Übersicht der Flugzeiten und Umsteigeempfehlungen"
+            ],
+            tr: [
+                "Sezon boyunca (Haziran-Ekim) doğrudan çarter ve tarifeli seferler",
+                "İstanbul (IST / SAW) üzerinden yıl boyu 15+ günlük bağlantı",
+                "Aviasales, Türk Hava Yolları, Pegasus ve AJet doğrudan sorgulama",
+                "20 kg bagajlı ve ekonomik el bagajlı biletlerin anlık analizi",
+                "Uçuş takvimi kontrolü ve havalimanı transfer önerileri"
+            ]
+        },
+        priceNote: {
+            ru: "Ориентиры цен 2026: Пряной перелёт из Москвы (~22,000–35,000 ₽ туда-обратно), через Стамбул (~16,000–24,000 ₽). Из Стамбула в Даламан (~3,500–6,500 ₽ / ~1,200 TRY).",
+            en: "2026 Price Benchmarks: Direct round-trip from Europe (~€220–400), via Istanbul (~€160–260). Domestic Istanbul to Dalaman flights (~€35–70 / ~1,200 TRY).",
+            de: "Richtpreise 2026: Direktflüge ab Deutschland (~220–400 € hin und zurück), über Istanbul (~160–260 €). Inlandsflüge Istanbul-Dalaman (~35–70 €).",
+            tr: "Tahmini 2026 Fiyatları: Avrupa'dan doğrudan gidiş-dönüş (~220-400 €), İstanbul aktarmalı (~160-260 €). İstanbul-Dalaman iç hat uçuşları (~1.200-2.500 TRY)."
+        },
+        guides: [
+            { slug: "airport-dalaman", label: { ru: "Полный гид по терминалам аэропорта Даламан (DLM) и дьюти-фри", en: "Comprehensive Dalaman Airport (DLM) Guide & Duty Free", de: "Ausführlicher Leitfaden zum Flughafen Dalaman (DLM)", tr: "Kapsamlı Dalaman Havalimanı (DLM) ve Duty Free Rehberi" } },
+            { slug: "transport", label: { ru: "Как добраться из аэропорта: автобусы Havaş, Muttaş и такси", en: "How to Get to Resorts: Havaş & Muttaş Airport Shuttles & Taxis", de: "Flughafentransfers: Havaş & Muttaş Shuttlebusse & Taxis", tr: "Havalimanından Ulaşım: Havaş, Muttaş ve Taksi Seçenekleri" } }
+        ],
+        heroBg: "/api/images/locations/dalaman/sights/airport/airport.jpg"
     },
     diving: {
         title: {
@@ -789,6 +846,12 @@ const ServiceLandingPage = ({ serviceKey, locale }: ServiceLandingPageProps) => 
                                 )}
                                 {serviceKey === "yacht-rental" && (
                                     <YachtRentalSmartHub locale={activeLocale} />
+                                )}
+                                {serviceKey === "flights" && (
+                                    <FlightsSmartHub locale={activeLocale} />
+                                )}
+                                {serviceKey === "excursions-tours" && (
+                                    <ExcursionsSmartHub locale={activeLocale} />
                                 )}
 
                                 {/* Inflation Shield & Price Note */}

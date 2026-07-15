@@ -37,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/transfers',
     '/services/tuna-fishing',
     '/services/yacht-rental',
+    '/services/flights',
     '/articles/airport-dalaman',
     '/articles/transport',
   ];
