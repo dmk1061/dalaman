@@ -1,9 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaPlane, FaBus, FaTaxi, FaCarSide, FaUsers, FaPassport, FaAddressBook, FaSun } from 'react-icons/fa';
+import { FaPlane, FaBus, FaTaxi, FaCarSide, FaUsers, FaSun } from 'react-icons/fa';
 import { getDictionary, Locale } from '@/lib/dictionary';
-import VisitorAnalyticsWidget from '@/app/components/VisitorAnalyticsWidget';
 
 type LeftSidebarProps = {
   locale?: string;
@@ -27,27 +26,32 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
     ];
 
     const interactiveServicesLinks = [
-        { title: locale === 'ru' ? '✈️ Авиабилеты и Чартеры' : locale === 'de' ? '✈️ Flüge & Direktcharter' : locale === 'tr' ? '✈️ Uçak Bileti & Çarter' : '✈️ Flights & Direct Charters', href: '/services/flights', icon: <span className="text-sky-500 font-bold">🛫</span> },
-        { title: locale === 'ru' ? '🧭 Интерактивный Атлас Троп' : locale === 'de' ? '🧭 Interaktiver Wanderatlas' : locale === 'tr' ? '🧭 İnteraktif Rota Atlası' : '🧭 Interactive Trekking Atlas', href: '/routes/trekking', icon: <span className="text-emerald-500 font-bold">🥾</span> },
-        { title: locale === 'ru' ? '🗓️ Сценарии 48ч Уикендов' : locale === 'de' ? '🗓️ 48-Stunden-Wochenenden' : locale === 'tr' ? '🗓️ 48 Saatlik Hafta Sonu' : '🗓️ 48-Hour Weekend Guides', href: '/routes/weekends', icon: <span className="text-indigo-500 font-bold">🍷</span> },
-        { title: locale === 'ru' ? '⛵ Аренда Яхт и Гулет' : locale === 'de' ? '⛵ Jacht- & Bootcharter' : locale === 'tr' ? '⛵ Kiralık Tekne ve Yatlar' : '⛵ Yacht & Gulet Charter', href: '/services/yacht-rental', icon: <span className="text-cyan-500 font-bold">⚓</span> },
-        { title: locale === 'ru' ? '🏝️ Секретные Бухты и Пляжи' : locale === 'de' ? '🏝️ Geheime Buchten & Strände' : locale === 'tr' ? '🏝️ Gizli Koylar ve Plajlar' : '🏝️ Secret Bays & Beaches', href: '/beaches', icon: <FaSun className="text-amber-500" /> },
+        { title: locale === 'ru' ? 'Авиабилеты и чартеры' : locale === 'de' ? 'Flüge & Direktcharter' : locale === 'tr' ? 'Uçak Bileti & Çarter' : 'Flights & Direct Charters', href: '/services/flights', icon: <span>🛫</span> },
+        { title: locale === 'ru' ? 'Интерактивный атлас троп' : locale === 'de' ? 'Interaktiver Wanderatlas' : locale === 'tr' ? 'İnteraktif Rota Atlası' : 'Interactive Trekking Atlas', href: '/routes/trekking', icon: <span>🥾</span> },
+        { title: locale === 'ru' ? 'Сценарии 48ч уикендов' : locale === 'de' ? '48-Stunden-Wochenenden' : locale === 'tr' ? '48 Saatlik Hafta Sonu' : '48-Hour Weekend Guides', href: '/routes/weekends', icon: <span>🍷</span> },
+        { title: locale === 'ru' ? 'Аренда яхт и гулет' : locale === 'de' ? 'Jacht- & Bootcharter' : locale === 'tr' ? 'Kiralık Tekne ve Yatlar' : 'Yacht & Gulet Charter', href: '/services/yacht-rental', icon: <span>⚓</span> },
+        { title: locale === 'ru' ? 'Секретные бухты и пляжи' : locale === 'de' ? 'Geheime Buchten & Strände' : locale === 'tr' ? 'Gizli Koylar ve Plajlar' : 'Secret Bays & Beaches', href: '/beaches', icon: <FaSun className="text-amber-500" /> },
     ];
 
     return (
-        <div className="space-y-10">
+        <div className="space-y-6">
             {/* Transport Panel */}
-            <div className="bg-white rounded-[2rem] premium-shadow overflow-hidden border border-slate-50">
-                <div className="bg-cyan-600 text-white px-6 py-4">
-                    <h3 className="font-black text-sm uppercase tracking-widest italic">{dict.left_sidebar.transport}</h3>
+            <div className="bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-200/70">
+                <div className="bg-cyan-600 text-white px-5 py-3.5">
+                    <h3 className="font-bold text-xs uppercase tracking-wider">{dict.left_sidebar.transport}</h3>
                 </div>
-                <div className="p-6">
-                    <ul className="space-y-4">
+                <div className="p-5">
+                    <ul className="space-y-3">
                         {transportLinks.map((link) => (
                             <li key={link.title}>
-                                <Link href={localize(link.href)} className="flex items-center space-x-3 text-slate-700 hover:text-cyan-600 transition-colors font-semibold text-sm">
-                                    <span className="text-cyan-500">{link.icon}</span>
-                                    <span>{link.title}</span>
+                                <Link
+                                    href={localize(link.href)}
+                                    className="flex items-center space-x-3 text-slate-700 hover:text-cyan-600 transition-colors font-medium text-sm group"
+                                >
+                                    <span className="w-7 h-7 rounded-lg bg-cyan-50 text-cyan-600 flex items-center justify-center flex-shrink-0 group-hover:bg-cyan-600 group-hover:text-white transition-colors text-xs">
+                                        {link.icon}
+                                    </span>
+                                    <span className="leading-snug">{link.title}</span>
                                 </Link>
                             </li>
                         ))}
@@ -56,19 +60,26 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
             </div>
 
             {/* Interactive Services & Guides Panel */}
-            <div className="bg-white rounded-[2rem] premium-shadow overflow-hidden border border-slate-50">
-                <div className="bg-cyan-600 text-white px-6 py-4">
-                    <h3 className="font-black text-sm uppercase tracking-widest italic">
-                        {locale === 'ru' ? 'Умные Сервисы' : locale === 'de' ? 'Smart-Services' : locale === 'tr' ? 'Akıllı Servisler' : 'Smart Hubs & Guides'}
+            <div className="bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-200/70">
+                <div className="bg-cyan-600 text-white px-5 py-3.5">
+                    <h3 className="font-bold text-xs uppercase tracking-wider">
+                        {locale === 'ru' ? 'Умные сервисы' : locale === 'de' ? 'Smart-Services' : locale === 'tr' ? 'Akıllı Servisler' : 'Smart Hubs & Guides'}
                     </h3>
                 </div>
-                <div className="p-6">
-                    <ul className="space-y-3.5">
+                <div className="p-5">
+                    <ul className="space-y-3">
                         {interactiveServicesLinks.map((link) => (
                             <li key={link.title}>
-                                <Link href={localize(link.href)} className="flex items-center space-x-4 group text-slate-700 hover:text-cyan-600 transition-colors">
-                                    <span className="w-8 h-8 flex items-center justify-center bg-slate-50 rounded-lg text-cyan-500 group-hover:bg-cyan-500 group-hover:text-white transition-all">{link.icon}</span>
-                                    <span className="font-bold text-[13px] group-hover:underline italic">{link.title}</span>
+                                <Link
+                                    href={localize(link.href)}
+                                    className="flex items-center space-x-3 group text-slate-700 hover:text-cyan-600 transition-colors"
+                                >
+                                    <span className="w-7 h-7 flex items-center justify-center bg-slate-100 rounded-lg text-sm flex-shrink-0 group-hover:bg-cyan-50 transition-colors">
+                                        {link.icon}
+                                    </span>
+                                    <span className="font-medium text-sm leading-snug group-hover:text-cyan-600 transition-colors">
+                                        {link.title}
+                                    </span>
                                 </Link>
                             </li>
                         ))}
@@ -76,28 +87,28 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
                 </div>
             </div>
 
-            {/* Live Telemetry Pulse Widget */}
-            <div className="w-full">
-                <VisitorAnalyticsWidget variant="sidebar" locale={locale} />
-            </div>
-
-            {/* Ad Block */}
-            <div className="bg-white rounded-[2rem] premium-shadow overflow-hidden border border-slate-50">
-                <div className="bg-cyan-600 text-white px-6 py-4">
-                    <h3 className="font-black text-sm uppercase tracking-widest italic">{dict.left_sidebar.flights}</h3>
+            {/* Flights Promo Block */}
+            <div className="bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-200/70">
+                <div className="bg-cyan-600 text-white px-5 py-3.5">
+                    <h3 className="font-bold text-xs uppercase tracking-wider">{dict.left_sidebar.flights}</h3>
                 </div>
-                <div className="p-6">
-                    <div className="relative h-40 mb-6 group/ad overflow-hidden rounded-2xl">
-                        <Image src="/dalaman1.jpg" layout="fill" objectFit="cover" alt="Dalaman ad" className="group-hover:scale-110 transition-transform duration-700" />
-                        <div className="absolute top-2 right-2 bg-black/60 backdrop-blur-sm text-white text-[9px] font-black px-2 py-0.5 rounded border border-white/20 z-10 tracking-wider uppercase">
-                            {locale === 'ru' ? 'AI Placeholder / Сгенерировано ИИ' : 'AI Placeholder'}
-                        </div>
-                        <div className="absolute inset-0 bg-gradient-to-t from-cyan-900/80 to-transparent flex flex-col justify-end p-4">
-                            <p className="text-white text-xs font-black uppercase tracking-widest mb-1">{dict.left_sidebar.best_prices}</p>
-                            <p className="text-white/80 text-[10px] italic">{dict.left_sidebar.direct_flights}</p>
+                <div className="p-5">
+                    <div className="relative h-36 mb-4 group/ad overflow-hidden rounded-xl">
+                        <Image
+                            src="/dalaman1.jpg"
+                            fill
+                            alt="Dalaman flights"
+                            className="object-cover group-hover/ad:scale-105 transition-transform duration-500"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-900/30 to-transparent flex flex-col justify-end p-3.5">
+                            <p className="text-white text-xs font-bold uppercase tracking-wider mb-0.5">{dict.left_sidebar.best_prices}</p>
+                            <p className="text-white/80 text-[11px]">{dict.left_sidebar.direct_flights}</p>
                         </div>
                     </div>
-                    <Link href={localize('/services/flights')} className="w-full block text-center bg-cyan-500 text-white font-black text-[11px] uppercase tracking-widest py-3 rounded-xl hover:bg-cyan-600 transition-all shadow-lg active:scale-95">
+                    <Link
+                        href={localize('/services/flights')}
+                        className="w-full block text-center bg-cyan-600 text-white font-bold text-xs uppercase tracking-wider py-2.5 rounded-xl hover:bg-cyan-700 transition-all shadow-sm"
+                    >
                         {dict.left_sidebar.find_ticket}
                     </Link>
                 </div>

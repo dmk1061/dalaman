@@ -2,27 +2,28 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin", "cyrillic", "latin-ext"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
-  title: "Путеводитель по побережью Турции: от Дачи до Каша",
-  description: "Твой гид по городам Дача, Мармарис, Дальян, Даламан, Фетхие и Каш.",
+  metadataBase: new URL("https://dalaman.info"),
+  title: "Dalaman.info — Путеводитель от Датчи до Каша",
+  description: "Ваш экспертный гид по Бирюзовому побережью Турции: Датча, Мармарис, Кёйджегиз, Дальян, Даламан, Гёджек, Фетхие и Каш.",
 };
 
 export default function RootLayout({
   children,
-  params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { locale?: string };
 }>) {
-  const locale = params?.locale || "en";
   return (
-    <html lang={locale}>
-      <body className={`${inter.className} bg-slate-50 text-slate-900 antialiased`}>
+    <html lang="ru" className={inter.variable}>
+      <body className={`${inter.className} antialiased text-slate-800 bg-slate-50 selection:bg-cyan-100 selection:text-cyan-900`}>
         {children}
       </body>
     </html>
   );
 }
-

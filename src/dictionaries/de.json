@@ -3,9 +3,9 @@
     "contact_us": "KONTAKT",
     "services": "DIENSTE",
     "excursions": "AUSFLÜGE",
-    "pharmacies": "APOTHEKEN",
-    "search_placeholder": "Suche...",
-    "logo_title": "Ihr Küstenführer",
+    "pharmacies": "APOTHEKEN & 112",
+    "search_placeholder": "Orte, Strände, Guides suchen...",
+    "logo_title": "Küstenführer Datça bis Kaş",
     "nav": {
       "preparation": "Vorbereitung",
       "discoveries": "Entdeckungen",
@@ -34,13 +34,13 @@
   },
   "footer": {
     "about_region": "Über die Region",
-    "where_to_go": "Wohin reisen",
+    "where_to_go": "Reiseziele",
     "what_to_do": "Aktivitäten",
     "services": "Dienstleistungen",
     "planning": "Planung",
-    "contacts": "Kontakte",
-    "rights_reserved": "© 2025 Ihr lykischer Führer. Alle Rechte vorbehalten.",
-    "developed_by": "Entwickelt von AI",
+    "contacts": "Redaktionskontakt",
+    "rights_reserved": "© 2026 Dalaman.info — Reiseführer von Datça bis Kaş. Alle Rechte vorbehalten.",
+    "developed_by": "Türkische Riviera (Karien & Lykien)",
     "links": {
       "geography_history": "Geografie & Geschichte",
       "climate_seasons": "Klima & Jahreszeiten",
@@ -67,103 +67,103 @@
   "hero": {
     "title_prefix": "Entdecken Sie die",
     "title_highlight": "Türkisküste",
-    "subtitle": "Ihr Premium-Führer durch die schönste Region der Türkei: vom gemütlichen Datça bis zum authentischen Kaş.",
-    "btn_beach": "Zum Strand",
-    "btn_history": "Tief in die Geschichte",
-    "btn_sea": "Bootsfahrten",
+    "subtitle": "Ihr Experten-Guide durch die schönste Küstenregion der Türkei: von Datça und Marmaris bis Fethiye und Kaş.",
+    "btn_beach": "Beste Strände",
+    "btn_history": "Antike Städte",
+    "btn_sea": "Yachting & Buchten",
     "btn_start": "Reise beginnen",
     "btn_more": "Mehr erfahren"
   },
   "city_hub": {
     "turkish_coast": "TÜRKISCHE KÜSTE",
-    "magic_prefix": "Die Magie von ",
+    "magic_prefix": "Entdecken Sie ",
     "magic_suffix": "mehr als ein Ferienort",
-    "default_desc": "Ein Ort, an dem die Zeit zwischen türkisfarbenen Wellen und antiken Ruinen stillsteht.",
-    "beaches_title": "Türkisfarbene Strände",
+    "default_desc": "Ein Ort, an dem die Zeit zwischen türkisfarbenen Buchten und antiken Ruinen stillsteht.",
+    "beaches_title": "Strände & Buchten",
     "beaches_desc": "Offene Buchten und geheime Lagunen mit kristallklarem Wasser.",
-    "history_title": "Echo der Geschichte",
-    "history_desc": "Antike Städte und Ruinen, die die Geheimnisse von Jahrtausenden bewahrt haben.",
-    "transport_title": "Anreise",
-    "transport_desc": "Alle Transportmöglichkeiten und bequeme Routen in die Stadt.",
+    "history_title": "Antikes Erbe",
+    "history_desc": "Antike Städte und Ruinen aus karischer und lykischer Zeit.",
+    "transport_title": "Anreise & Verkehr",
+    "transport_desc": "Verbindungen vom Flughafen Dalaman (DLM), Busse, Dolmuş und Fähren.",
     "gems_title": "Perlen in der Nähe",
-    "gems_subtitle": "Sehenswürdigkeiten im Umkreis von 20 km",
-    "full_guide": "Kompletter Führer",
+    "gems_subtitle": "Sehenswerte Strände und Buchten der Region",
+    "full_guide": "Kompletter Stadtführer",
     "explore": "Erkunden"
   },
   "main_content": {
     "quick_links": {
       "flights": "Flüge",
-      "hotels": "Hotels buchen",
+      "hotels": "Hotels & Villen",
       "car_rental": "Mietwagen",
       "yacht_rental": "Yachtcharter",
       "excursions": "Ausflüge",
-      "other_services": "Andere Dienste"
+      "other_services": "Alle Dienste"
     },
     "kaleidoscope": {
-      "title": "Kaleidoskop",
-      "subtitle": "Tägliche Zufallsentdeckungen an der Küste",
-      "all_locations": "ALLE ORTE",
-      "picking": "Interessante Orte auswählen..."
+      "title": "Küsten-Kaleidoskop",
+      "subtitle": "Strände, Buchten und antike Stätten von Datça bis Kaş",
+      "all_locations": "Alle Orte",
+      "picking": "Orte werden geladen..."
     },
     "mosaic": {
       "title": "Mosaik der Eindrücke",
-      "subtitle": "Tauchen Sie durch Geschichten, Tipps und Community-Chat in die Region ein.",
-      "blogs_title": "Blogs",
-      "blogs_desc": "Live-Berichte und Tipps von Reisenden, die schon hier waren.",
-      "guides_title": "Führer",
-      "guides_desc": "Finden Sie Ihren perfekten Küstenführer für einzigartige Ausflüge.",
-      "forums_title": "Foren",
-      "forums_desc": "Diskutieren Sie Routen, teilen Sie Erfahrungen und stellen Sie Fragen in unserer Community.",
+      "subtitle": "Tauchen Sie durch Routen, lokale Guides und Reisetipps in die Region ein.",
+      "blogs_title": "Reiseberichte",
+      "blogs_desc": "Erfahrungsberichte, Routen und praktische Tipps von Reisenden.",
+      "guides_title": "Ausflüge & Guides",
+      "guides_desc": "Individuelle Touren zu Buchten, Schluchten und antiken Städten.",
+      "forums_title": "Kontakt zur Redaktion",
+      "forums_desc": "Fragen zu Routen, Transfers oder Partnerschaften an der Küste.",
       "read_more": "Mehr lesen"
     },
     "collections": {
       "title": "Kuratierte Sammlungen",
-      "subtitle": "Speziell ausgewählte Routen und Orte für Ihren Geschmack",
+      "subtitle": "Ausgewählte Routen und Themen-Guides für Ihren Reisestil",
       "view_all": "Alle Sammlungen",
-      "romantic": "Romantik für zwei",
-      "romantic_desc": "12 Orte",
+      "romantic": "Romantik & Wochenenden",
+      "romantic_desc": "48-Stunden-Pläne",
       "family": "Familienurlaub",
-      "family_desc": "8 Standorte",
-      "gastro": "Gastro-Tour der Region",
-      "gastro_desc": "15 Restaurants",
+      "family_desc": "Flache Strände & Natur",
+      "gastro": "Regionale Gastronomie",
+      "gastro_desc": "Meze, Fisch & Märkte",
       "bays": "Versteckte Buchten",
-      "bays_desc": "10 Strände"
+      "bays_desc": "Strandkatalog"
     },
     "map": {
-      "title": "Regionalkarte",
-      "open_interactive": "Interaktive Version öffnen"
+      "title": "Interaktive Küstenkarte",
+      "open_interactive": "Vollbildkarte öffnen"
     }
   },
   "beaches_page": {
     "turquoise_coast": "TÜRKISKÜSTE",
     "title": "Die besten Strände der Region",
-    "subtitle": "Von den endlosen Sandstränden von Ölüdeniz bis zu den abgelegenen Felsbuchten von Datça"
+    "subtitle": "Von der Blauen Lagune in Ölüdeniz bis zu den abgelegenen Buchten von Datça und Kaputaş"
   },
   "sidebar": {
-    "plan_day": "Tagesplaner",
-    "routes": "Routen",
-    "scenarios_subtitle": "Fertige Szenarien für den perfekten Urlaub",
-    "view_all": "Alle ansehen",
-    "item_kaputas": "Kaputaş Strand: Paradies in einer türkisfarbenen Bucht",
-    "item_lycian_way": "Lykischer Weg: der beste Wanderweg der Türkei",
-    "item_kekova": "Geheimnisse der versunkenen Stadt Kekova",
-    "item_oludeniz": "Ölüdeniz: Welthauptstadt des Paragliding",
-    "item_dalyan": "Dalyan: Schildkröten, Gräber und Schlammbäder"
+    "plan_day": "Routen-Ideen",
+    "routes": "Reiserouten",
+    "scenarios_subtitle": "Fertige Routenpläne für 2 bis 14 Tage an der Küste",
+    "view_all": "Alle Routen",
+    "item_kaputas": "Kaputaş Strand: Türkisfarbene Schluchtbucht bei Kaş",
+    "item_lycian_way": "Lykischer Weg: Der schönste Küstenwanderweg der Türkei",
+    "item_kekova": "Versunkene Stadt Kekova & Burg Simena",
+    "item_oludeniz": "Ölüdeniz & Babadağ: Welthauptstadt des Paragliding",
+    "item_dalyan": "Dalyan: Schildkröten, Felsengräber und Schlammbäder"
   },
   "left_sidebar": {
-    "transport": "Transport",
+    "transport": "Transport & Logistik",
     "infrastructure": "Infrastruktur",
-    "flights": "Flüge",
-    "airport_dalaman": "Flughafen Dalaman",
+    "flights": "Flüge nach DLM",
+    "airport_dalaman": "Flughafen Dalaman (DLM)",
     "intercity_bus": "Fernbusse",
-    "city_transport": "Stadtverkehr",
-    "transfer": "Transfer",
-    "companions": "Reisepartner",
+    "city_transport": "Dolmuş & Taxis",
+    "transfer": "Privattransfer",
+    "companions": "Guides & Agenturen",
     "hospitals": "Krankenhäuser",
-    "police": "Polizei",
-    "best_prices": "Beste Preise",
-    "direct_flights": "Direktflüge nach Dalaman",
-    "find_ticket": "Ticket finden"
+    "police": "Notruf & Hilfe",
+    "best_prices": "Direkt- & Charterflüge",
+    "direct_flights": "Flüge zum Flughafen Dalaman (DLM)",
+    "find_ticket": "Flug finden"
   },
   "common": {
     "beaches": "Strände",
@@ -174,7 +174,7 @@
     "more": "Mehr Info",
     "select_language": "Sprache wählen",
     "welcome": "Willkommen an der Türkisküste",
-    "welcome_subtitle": "Ihr interaktiver Führer für die Regionen Datça, Marmaris, Dalyan, Dalaman, Göcek, Fethiye und Kaş."
+    "welcome_subtitle": "Ihr interaktiver Führer für Datça, Marmaris, Köyceğiz, Dalyan, Dalaman, Göcek, Fethiye und Kaş."
   },
   "floating_menu": {
     "transfer": "DLM Transfers",
@@ -187,11 +187,11 @@
     "tours_sub": "Touren & Guides"
   },
   "side_menu": {
-    "menu_title": "NAVIGATIONSMENÜ",
+    "menu_title": "PORTAL-NAVIGATION",
     "home": "STARTSEITE",
-    "cities": "STÄDTE & RESORTS",
-    "articles": "RATGEBER",
-    "services": "UNSERE DIENSTE",
+    "cities": "KÜSTENORTE",
+    "articles": "ALLE RATGEBER",
+    "services": "DIENSTLEISTUNGEN",
     "contacts": "KONTAKTE & APOTHEKEN"
   }
 }

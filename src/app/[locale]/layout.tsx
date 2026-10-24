@@ -1,3 +1,6 @@
+import React from 'react';
+import FloatingMenu from '../components/FloatingMenu';
+
 export async function generateStaticParams() {
   return [
     { locale: 'en' },
@@ -12,5 +15,10 @@ export default function LocaleLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <FloatingMenu />
+    </>
+  );
 }

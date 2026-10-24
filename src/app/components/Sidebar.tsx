@@ -45,13 +45,13 @@ const Sidebar = async ({ locale = 'ru' }: SidebarProps) => {
     ];
 
     return (
-        <div className="space-y-10">
+        <div className="space-y-6">
             {/* Day Planner */}
-            <div className="bg-white rounded-[2rem] premium-shadow overflow-hidden border border-slate-50">
-                <div className="bg-cyan-600 text-white px-6 py-4">
-                    <h3 className="font-black text-sm uppercase tracking-widest italic">{dict.sidebar.plan_day}</h3>
+            <div className="bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-200/70">
+                <div className="bg-cyan-600 text-white px-5 py-3.5">
+                    <h3 className="font-bold text-xs uppercase tracking-wider">{dict.sidebar.plan_day}</h3>
                 </div>
-                <div className="p-6 space-y-6">
+                <div className="p-5 space-y-4">
                     {dayPlanItems.map((item) => (
                         <ArticleItem
                             key={item.title}
@@ -64,25 +64,24 @@ const Sidebar = async ({ locale = 'ru' }: SidebarProps) => {
             </div>
 
             {/* Travel Plans */}
-            <div className="group bg-white rounded-[2rem] premium-shadow overflow-hidden border border-slate-50">
-                <div className="bg-cyan-600 text-white px-6 py-4">
-                    <h3 className="font-black text-sm uppercase tracking-widest italic">{dict.sidebar.routes}</h3>
+            <div className="group bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-200/70">
+                <div className="bg-cyan-600 text-white px-5 py-3.5">
+                    <h3 className="font-bold text-xs uppercase tracking-wider">{dict.sidebar.routes}</h3>
                 </div>
-                <div className="relative h-56 overflow-hidden">
+                <div className="relative h-52 overflow-hidden">
                     <Image
                         src="/dalaman2.jpg"
-                        alt="Планы путешествий"
-                        layout="fill"
-                        objectFit="cover"
-                        className="group-hover:scale-110 transition-transform duration-700 ease-out"
+                        alt={dict.sidebar.routes}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
                     />
-                    <div className="absolute top-2 right-2 bg-black/60 backdrop-blur-sm text-white text-[9px] font-black px-2 py-0.5 rounded border border-white/20 z-10 tracking-wider uppercase">
-                        {locale === 'ru' ? 'AI Placeholder / Сгенерировано ИИ' : 'AI Placeholder'}
-                    </div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                    <div className="absolute inset-0 flex flex-col justify-end p-6">
-                        <p className="text-white text-sm font-bold mb-4">{dict.sidebar.scenarios_subtitle}</p>
-                        <Link href={localize('/routes')} className="w-full text-center block bg-cyan-500 text-white py-3 rounded-xl hover:bg-cyan-600 font-black text-xs uppercase tracking-widest transition-all shadow-lg active:scale-95">
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-900/25 to-transparent" />
+                    <div className="absolute inset-0 flex flex-col justify-end p-5">
+                        <p className="text-white text-sm font-semibold mb-3.5 leading-snug">{dict.sidebar.scenarios_subtitle}</p>
+                        <Link
+                            href={localize('/routes')}
+                            className="w-full text-center block bg-cyan-500 text-white py-2.5 rounded-xl hover:bg-cyan-600 font-bold text-xs uppercase tracking-wider transition-all shadow-sm"
+                        >
                             {dict.sidebar.view_all}
                         </Link>
                     </div>
@@ -93,18 +92,17 @@ const Sidebar = async ({ locale = 'ru' }: SidebarProps) => {
 };
 
 const ArticleItem = ({ title, image, href }: { title: string, image: string, href: string }) => (
-    <Link href={href || '#'} className="flex items-center space-x-4 group">
-        <div className="flex-shrink-0 relative w-16 h-16 rounded-xl overflow-hidden premium-shadow border border-slate-100">
+    <Link href={href || '#'} className="flex items-center space-x-3.5 group">
+        <div className="flex-shrink-0 relative w-14 h-14 rounded-xl overflow-hidden border border-slate-200/80">
             <Image
                 src={image}
                 alt={title}
-                layout="fill"
-                objectFit="cover"
-                className="group-hover:scale-110 transition-transform duration-500"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-300"
             />
         </div>
-        <div className="flex-1">
-            <h4 className="text-[13px] font-bold text-slate-800 leading-snug group-hover:text-cyan-600 transition-colors">
+        <div className="flex-1 min-w-0">
+            <h4 className="text-xs sm:text-[13px] font-semibold text-slate-800 leading-snug group-hover:text-cyan-600 transition-colors line-clamp-2">
                 {title}
             </h4>
         </div>

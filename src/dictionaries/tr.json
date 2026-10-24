@@ -3,9 +3,9 @@
     "contact_us": "İLETİŞİM",
     "services": "HİZMETLER",
     "excursions": "TURLAR",
-    "pharmacies": "ECZANELER",
-    "search_placeholder": "Arama...",
-    "logo_title": "Sahil Rehberiniz",
+    "pharmacies": "ECZANELER & 112",
+    "search_placeholder": "Bölge, plaj veya rehber ara...",
+    "logo_title": "Datça'dan Kaş'a Sahil Rehberi",
     "nav": {
       "preparation": "Hazırlık",
       "discoveries": "Keşifler",
@@ -38,9 +38,9 @@
     "what_to_do": "Neler Yapılır",
     "services": "Hizmetler",
     "planning": "Planlama",
-    "contacts": "İletişim",
-    "rights_reserved": "© 2025 Likya Rehberiniz. Tüm hakları saklıdır.",
-    "developed_by": "Yapay Zeka Tarafından Geliştirildi",
+    "contacts": "İletişim Bilgileri",
+    "rights_reserved": "© 2026 Dalaman.info — Datça'dan Kaş'a Sahil Rehberi. Tüm hakları saklıdır.",
+    "developed_by": "Karya ve Likya Turkuaz Kıyılar Portalı",
     "links": {
       "geography_history": "Coğrafya & Tarih",
       "climate_seasons": "İklim & Sezonlar",
@@ -65,104 +65,104 @@
     }
   },
   "hero": {
-    "title_prefix": "Keşfedin",
-    "title_highlight": "Turkuaz Kıyıları",
-    "subtitle": "Türkiye'nin en güzel bölgesine yönelik premium rehberiniz: şirin Datça'dan otantik Kaş'a.",
-    "btn_beach": "Plaja Git",
-    "btn_history": "Tarihin Derinliklerine",
-    "btn_sea": "Tekne Turları",
+    "title_prefix": "Keşfedin:",
+    "title_highlight": "Turkuaz Kıyılar",
+    "subtitle": "Türkiye'nin en etkileyici sahil şeridine yönelik uzman rehberiniz: sakin Datça ve Marmaris'ten Fethiye ve Kaş'a.",
+    "btn_beach": "En İyi Plajlar",
+    "btn_history": "Antik Kentler",
+    "btn_sea": "Tekne & Koylar",
     "btn_start": "Yolculuğa Başla",
     "btn_more": "Daha Fazla Bilgi"
   },
   "city_hub": {
-    "turkish_coast": "TÜRKİYE KIYILARI",
-    "magic_prefix": "Büyüsü ",
-    "magic_suffix": "bir tatil yerinden fazlası",
-    "default_desc": "Turkuaz dalgalar ve antik kalıntılar arasında zamanın durduğu bir yer.",
-    "beaches_title": "Turkuaz Plajlar",
+    "turkish_coast": "TÜRKİYE TURKUAZ KIYILARI",
+    "magic_prefix": "Keşfedin: ",
+    "magic_suffix": "bir tatil beldesinden fazlası",
+    "default_desc": "Turkuaz koylar ve antik kalıntılar arasında zamanın durduğu eşsiz bir kıyı.",
+    "beaches_title": "Plajlar ve Koylar",
     "beaches_desc": "Kristal berraklığında suya sahip açık koylar ve gizli lagünler.",
-    "history_title": "Tarihin Yankıları",
-    "history_desc": "Milenyumların sırlarını saklayan antik kentler ve kalıntılar.",
-    "transport_title": "Ulaşım",
-    "transport_desc": "Şehre tüm ulaşım seçenekleri ve kolay rotalar.",
+    "history_title": "Antik Miras",
+    "history_desc": "Karya ve Likya antik kentleri, tiyatrolar ve kaya mezarları.",
+    "transport_title": "Ulaşım Rehberi",
+    "transport_desc": "Dalaman Havalimanı (DLM) bağlantıları, otobüsler, dolmuşlar ve feribotlar.",
     "gems_title": "Yakındaki İnciler",
-    "gems_subtitle": "20 km çapındaki mutlaka görülmesi gereken yerler",
-    "full_guide": "Tam Rehber",
+    "gems_subtitle": "Bölgedeki mutlaka görülmesi gereken koylar ve plajlar",
+    "full_guide": "Şehir Rehberi",
     "explore": "Keşfet"
   },
   "main_content": {
     "quick_links": {
       "flights": "Uçak Biletleri",
-      "hotels": "Otel Rezervasyonu",
+      "hotels": "Otel & Villa",
       "car_rental": "Araç Kiralama",
       "yacht_rental": "Yat Kiralama",
       "excursions": "Turlar",
-      "other_services": "Diğer Hizmetler"
+      "other_services": "Tüm Hizmetler"
     },
     "kaleidoscope": {
-      "title": "Keşifler",
-      "subtitle": "Sahilde her gün rastgele keşifler",
-      "all_locations": "TÜM YERLER",
-      "picking": "İlginç yerler seçiliyor..."
+      "title": "Sahil Seçkisi",
+      "subtitle": "Datça'dan Kaş'a öne çıkan plajlar, koylar ve antik kentler",
+      "all_locations": "Tüm Bölgeler",
+      "picking": "Konumlar yükleniyor..."
     },
     "mosaic": {
       "title": "İzlenimler Mozaiği",
-      "subtitle": "Hikayeler, ipuçları ve topluluk sohbeti ile bölgenin atmosferine dalın.",
-      "blogs_title": "Bloglar",
-      "blogs_desc": "Burada bulunmuş gezginlerin canlı hikayeleri ve ipuçları.",
-      "guides_title": "Rehberler",
-      "guides_desc": "Benzersiz turlar için mükemmel sahil rehberinizi bulun.",
-      "forums_title": "Forumlar",
-      "forums_desc": "Topluluğumuzda rotaları tartışın, deneyimleri paylaşın ve sorular sorun.",
-      "read_more": "Daha fazla"
+      "subtitle": "Rotalar, yerel rehberler ve gezgin ipuçları ile bölgenin atmosferini keşfedin.",
+      "blogs_title": "Gezgin Deneyimleri",
+      "blogs_desc": "Turkuaz kıyılarda seyahat edenlerin gerçek hikayeleri ve rota ipuçları.",
+      "guides_title": "Turlar ve Rehberler",
+      "guides_desc": "Koylara, kanyonlara ve antik kentlere özel ve grup turları.",
+      "forums_title": "İletişim & İşbirliği",
+      "forums_desc": "Rotalar, transferler veya yerel işbirlikleri hakkında bize yazın.",
+      "read_more": "İncele"
     },
     "collections": {
       "title": "Özel Seçkiler",
-      "subtitle": "Zevkinize uygun özel olarak seçilmiş rotalar ve yerler",
-      "view_all": "Tüm koleksiyonlar",
-      "romantic": "İki kişilik romantizm",
-      "romantic_desc": "12 yer",
-      "family": "Aile tatili",
-      "family_desc": "8 lokasyon",
-      "gastro": "Bölgenin gastro turu",
-      "gastro_desc": "15 restoran",
-      "bays": "Gizli koylar",
-      "bays_desc": "10 plaj"
+      "subtitle": "Tatil tarzınıza uygun seçilmiş rotalar ve tematik rehberler",
+      "view_all": "Tüm Seçkiler",
+      "romantic": "Romantik & Hafta Sonu",
+      "romantic_desc": "48 Saatlik Rotalar",
+      "family": "Aile Tatili",
+      "family_desc": "Sığ plajlar ve doğa",
+      "gastro": "Bölge Gastronomisi",
+      "gastro_desc": "Meze, deniz ürünleri & pazarlar",
+      "bays": "Gizli Koylar",
+      "bays_desc": "Plaj kataloğu"
     },
     "map": {
-      "title": "Bölge Haritası",
-      "open_interactive": "Etkileşimli sürümü aç"
+      "title": "İnteraktif Sahil Haritası",
+      "open_interactive": "Tam Ekran Haritayı Aç"
     }
   },
   "beaches_page": {
     "turquoise_coast": "TURKUAZ KIYILAR",
     "title": "Bölgenin En İyi Plajları",
-    "subtitle": "Ölüdeniz'in uçsuz bucaksız kumsallarından Datça'nın tenha kayalık koylarına kadar"
+    "subtitle": "Ölüdeniz Mavi Lagün ve İztuzu'ndan Datça koyları ve Kaputaş'a"
   },
   "sidebar": {
-    "plan_day": "Günlük Planlayıcı",
-    "routes": "Rotalar",
-    "scenarios_subtitle": "Mükemmel tatil için hazır rotalar",
-    "view_all": "Hepsini gör",
-    "item_kaputas": "Kaputaş Plajı: turkuaz koyda bir cennet",
-    "item_lycian_way": "Likya Yolu: Türkiye'nin en iyi yürüyüş rotası",
-    "item_kekova": "Batık şehir Kekova'nın sırları",
-    "item_oludeniz": "Ölüdeniz: yamaç paraşütünün dünya başkenti",
-    "item_dalyan": "Dalyan: kaplumbağalar, kaya mezarları ve çamur banyoları"
+    "plan_day": "Rota Fikirleri",
+    "routes": "Hazır Rotalar",
+    "scenarios_subtitle": "2 ila 14 günlük hazır sahil gezi planları",
+    "view_all": "Rotaları Gör",
+    "item_kaputas": "Kaputaş Plajı: Kaş ile Kalkan arasındaki turkuaz kanyon",
+    "item_lycian_way": "Likya Yolu: Türkiye'nin en ünlü yürüyüş rotası",
+    "item_kekova": "Batık Şehir Kekova ve Simena Kalesi",
+    "item_oludeniz": "Ölüdeniz ve Babadağ: yamaç paraşütünün dünya merkezi",
+    "item_dalyan": "Dalyan: Caretta kaplumbağaları, Kaunos ve çamur banyoları"
   },
   "left_sidebar": {
-    "transport": "Ulaşım",
+    "transport": "Ulaşım & Lojistik",
     "infrastructure": "Altyapı",
-    "flights": "Uçak Biletleri",
-    "airport_dalaman": "Dalaman Havalimanı",
+    "flights": "DLM Uçuşları",
+    "airport_dalaman": "Dalaman Havalimanı (DLM)",
     "intercity_bus": "Şehirlerarası Otobüsler",
-    "city_transport": "Şehir İçi Ulaşım",
-    "transfer": "Transfer",
-    "companions": "Yol Arkadaşlar",
+    "city_transport": "Dolmuş ve Taksi",
+    "transfer": "Özel Transfer",
+    "companions": "Rehberler & Acenteler",
     "hospitals": "Hastaneler",
-    "police": "Polis",
-    "best_prices": "En İyi Fiyatlar",
-    "direct_flights": "Dalaman'a direkt uçuşlar",
+    "police": "Acil Durum (112)",
+    "best_prices": "Direkt & Çarter Uçuşlar",
+    "direct_flights": "Dalaman Havalimanı (DLM) Uçuşları",
     "find_ticket": "Bilet Bul"
   },
   "common": {
@@ -174,7 +174,7 @@
     "more": "Daha Fazla",
     "select_language": "Dil Seçin",
     "welcome": "Turkuaz Kıyılara Hoş Geldiniz",
-    "welcome_subtitle": "Datça, Marmaris, Dalyan, Dalaman, Göcek, Fethiye ve Kaş bölgelerine yönelik etkileşimli rehberiniz."
+    "welcome_subtitle": "Datça, Marmaris, Köyceğiz, Dalyan, Dalaman, Göcek, Fethiye ve Kaş bölgelerine yönelik etkileşimli rehberiniz."
   },
   "floating_menu": {
     "transfer": "DLM Transfer",
@@ -187,10 +187,10 @@
     "tours_sub": "Rehberli Geziler"
   },
   "side_menu": {
-    "menu_title": "NAVİGASYON MENÜSÜ",
+    "menu_title": "PORTAL NAVİGASYONU",
     "home": "ANA SAYFA",
-    "cities": "ŞEHİRLER & KÖYLER",
-    "articles": "FAYDALI REHBERLER",
+    "cities": "SAHİL BÖLGELERİ",
+    "articles": "TÜM REHBERLER",
     "services": "HİZMETLERİMİZ",
     "contacts": "İLETİŞİM & ECZANELER"
   }

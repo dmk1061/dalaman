@@ -1,11 +1,11 @@
 {
   "header": {
-    "contact_us": "CONTACT US",
+    "contact_us": "CONTACTS",
     "services": "SERVICES",
     "excursions": "EXCURSIONS",
-    "pharmacies": "PHARMACIES",
-    "search_placeholder": "Search...",
-    "logo_title": "Your Coast Guide",
+    "pharmacies": "PHARMACIES & 112",
+    "search_placeholder": "Search resorts, beaches, guides...",
+    "logo_title": "Datça to Kaş Coast Guide",
     "nav": {
       "preparation": "Preparation",
       "discoveries": "Discoveries",
@@ -38,9 +38,9 @@
     "what_to_do": "What to Do",
     "services": "Services",
     "planning": "Planning",
-    "contacts": "Contacts",
-    "rights_reserved": "© 2025 Your Lycian Guide. All rights reserved.",
-    "developed_by": "Developed by AI",
+    "contacts": "Editorial Contacts",
+    "rights_reserved": "© 2026 Dalaman.info — Turquoise Coast Guide (Datça to Kaş). All rights reserved.",
+    "developed_by": "Caria & Lycia Coastal Portal",
     "links": {
       "geography_history": "Geography & History",
       "climate_seasons": "Climate & Seasons",
@@ -67,103 +67,103 @@
   "hero": {
     "title_prefix": "Discover the",
     "title_highlight": "Turquoise Coast",
-    "subtitle": "Your premium guide to the most beautiful region of Turkey: from cozy Datça to authentic Kaş.",
-    "btn_beach": "To the Beach",
-    "btn_history": "Deep into History",
-    "btn_sea": "Boat Trips",
+    "subtitle": "Your expert guide to Turkey's most breathtaking coastline: from tranquil Datça and Marmaris to Fethiye and bohemian Kaş.",
+    "btn_beach": "Best Beaches",
+    "btn_history": "Ancient Cities",
+    "btn_sea": "Yachting & Bays",
     "btn_start": "Start Journey",
     "btn_more": "Learn More"
   },
   "city_hub": {
-    "turkish_coast": "TURKISH COAST",
-    "magic_prefix": "The Magic of ",
+    "turkish_coast": "TURKISH TURQUOISE COAST",
+    "magic_prefix": "Discover ",
     "magic_suffix": "more than a resort",
-    "default_desc": "A place where time stands still among turquoise waves and ancient ruins.",
+    "default_desc": "A place where time stands still among turquoise bays and ancient ruins.",
     "beaches_title": "Turquoise Beaches",
-    "beaches_desc": "Open bays and secret lagoons with crystal water.",
-    "history_title": "Echo of History",
-    "history_desc": "Ancient cities and ruins that have kept secrets of millennia.",
+    "beaches_desc": "Open bays and secluded lagoons with crystal-clear water.",
+    "history_title": "Ancient Heritage",
+    "history_desc": "Carian and Lycian cities, amphitheaters, and rock-cut tombs.",
     "transport_title": "How to Get There",
-    "transport_desc": "All transport options and convenient routes to the city.",
+    "transport_desc": "Routes from Dalaman Airport (DLM), intercity buses, dolmuşes, and ferries.",
     "gems_title": "Nearby Gems",
-    "gems_subtitle": "Must-visit places within a 20 km radius",
-    "full_guide": "Full Guide",
+    "gems_subtitle": "Must-visit beaches and landmarks in the area",
+    "full_guide": "Complete City Guide",
     "explore": "Explore"
   },
   "main_content": {
     "quick_links": {
       "flights": "Flights",
-      "hotels": "Hotel Booking",
+      "hotels": "Hotels & Villas",
       "car_rental": "Car Rental",
-      "yacht_rental": "Yacht Rental",
+      "yacht_rental": "Yacht Charter",
       "excursions": "Excursions",
-      "other_services": "Other Services"
+      "other_services": "All Services"
     },
     "kaleidoscope": {
-      "title": "Kaleidoscope",
-      "subtitle": "Random discoveries on the coast every day",
-      "all_locations": "ALL LOCATIONS",
-      "picking": "Picking interesting places..."
+      "title": "Coastal Kaleidoscope",
+      "subtitle": "Iconic beaches, hidden coves, and ancient landmarks from Datça to Kaş",
+      "all_locations": "All Resorts",
+      "picking": "Loading locations..."
     },
     "mosaic": {
       "title": "Mosaic of Impressions",
-      "subtitle": "Immerse yourself in the region's atmosphere through stories, tips, and community chat.",
-      "blogs_title": "Blogs",
-      "blogs_desc": "Live stories and tips from travelers who have already been here.",
-      "guides_title": "Guides",
-      "guides_desc": "Find your perfect coast guide for unique excursions.",
-      "forums_title": "Forums",
-      "forums_desc": "Discuss routes, share experiences and ask questions in our community.",
-      "read_more": "Read more"
+      "subtitle": "Explore the region through curated itineraries, local guides, and traveler insights.",
+      "blogs_title": "Traveler Stories",
+      "blogs_desc": "First-hand tips, itineraries, and experiences along the Turquoise Coast.",
+      "guides_title": "Tours & Local Guides",
+      "guides_desc": "Private and small-group excursions to bays, canyons, and ancient cities.",
+      "forums_title": "Contact Editorial Team",
+      "forums_desc": "Ask a question about routes, transfers, or local partnerships.",
+      "read_more": "Explore"
     },
     "collections": {
       "title": "Curated Collections",
-      "subtitle": "Specially selected routes and places to suit your taste",
-      "view_all": "All collections",
-      "romantic": "Romance for two",
-      "romantic_desc": "12 places",
-      "family": "Family vacation",
-      "family_desc": "8 locations",
-      "gastro": "Gastro tour of the region",
-      "gastro_desc": "15 restaurants",
-      "bays": "Hidden bays",
-      "bays_desc": "10 beaches"
+      "subtitle": "Handpicked routes and thematic guides tailored to your travel style",
+      "view_all": "All Collections",
+      "romantic": "Romantic & Weekends",
+      "romantic_desc": "48-Hour Itineraries",
+      "family": "Family Vacation",
+      "family_desc": "Shallow bays & nature",
+      "gastro": "Regional Gastronomy",
+      "gastro_desc": "Meze, seafood & markets",
+      "bays": "Secret Bays",
+      "bays_desc": "Beach directory"
     },
     "map": {
-      "title": "Regional Map",
-      "open_interactive": "Open interactive version"
+      "title": "Interactive Coast Map",
+      "open_interactive": "Open Fullscreen Map"
     }
   },
   "beaches_page": {
     "turquoise_coast": "TURQUOISE COAST",
     "title": "Best Beaches of the Region",
-    "subtitle": "From the endless sandy beaches of Ölüdeniz to the secluded rocky bays of Datça"
+    "subtitle": "From the Blue Lagoon of Ölüdeniz and Iztuzu Turtle Beach to Datça coves and Kaputaş"
   },
   "sidebar": {
-    "plan_day": "Day Planner",
-    "routes": "Routes",
-    "scenarios_subtitle": "Ready-made scripts for the perfect vacation",
-    "view_all": "View all",
-    "item_kaputas": "Kaputaş Beach: paradise in a turquoise bay",
-    "item_lycian_way": "Lycian Way: Turkey's best hiking route",
-    "item_kekova": "Secrets of the sunken city of Kekova",
-    "item_oludeniz": "Ölüdeniz: world capital of paragliding",
-    "item_dalyan": "Dalyan: turtles, tombs and mud baths"
+    "plan_day": "Trip Ideas",
+    "routes": "Curated Itineraries",
+    "scenarios_subtitle": "Ready-made coastal itineraries from 2 to 14 days",
+    "view_all": "View Routes",
+    "item_kaputas": "Kaputaş Beach: turquoise canyon bay between Kaş and Kalkan",
+    "item_lycian_way": "Lycian Way: Turkey's premier coastal hiking trail",
+    "item_kekova": "Sunken City of Kekova & Simena Castle",
+    "item_oludeniz": "Ölüdeniz & Babadağ: world capital of paragliding",
+    "item_dalyan": "Dalyan: Caretta turtles, Kaunos tombs & mud baths"
   },
   "left_sidebar": {
-    "transport": "Transport",
+    "transport": "Transport & Logistics",
     "infrastructure": "Infrastructure",
-    "flights": "Flights",
-    "airport_dalaman": "Dalaman Airport",
+    "flights": "Flights to DLM",
+    "airport_dalaman": "Dalaman Airport (DLM)",
     "intercity_bus": "Intercity Buses",
-    "city_transport": "City Transport",
-    "transfer": "Transfer",
-    "companions": "Travel Companions",
-    "hospitals": "Hospitals",
-    "police": "Police",
-    "best_prices": "Best Prices",
-    "direct_flights": "Direct flights to Dalaman",
-    "find_ticket": "Find Ticket"
+    "city_transport": "Dolmuş & Taxis",
+    "transfer": "Private Transfers",
+    "companions": "Guides & Agencies",
+    "hospitals": "Hospitals & Clinics",
+    "police": "Emergency Services",
+    "best_prices": "Direct & Charter Flights",
+    "direct_flights": "Flights to Dalaman Airport (DLM)",
+    "find_ticket": "Find Flights"
   },
   "common": {
     "beaches": "Beaches",
@@ -174,7 +174,7 @@
     "more": "Read More",
     "select_language": "Select Language",
     "welcome": "Welcome to the Turquoise Coast",
-    "welcome_subtitle": "Your interactive guide to the Datça, Marmaris, Dalyan, Dalaman, Göcek, Fethiye, and Kaş regions."
+    "welcome_subtitle": "Your interactive guide to Datça, Marmaris, Köyceğiz, Dalyan, Dalaman, Göcek, Fethiye, and Kaş."
   },
   "floating_menu": {
     "transfer": "DLM Transfers",
@@ -187,11 +187,11 @@
     "tours_sub": "Private Guides"
   },
   "side_menu": {
-    "menu_title": "NAVIGATION MENU",
+    "menu_title": "PORTAL NAVIGATION",
     "home": "HOME PAGE",
-    "cities": "CITIES & RESORTS",
-    "articles": "USEFUL GUIDES",
-    "services": "OUR SERVICES",
+    "cities": "COASTAL RESORTS",
+    "articles": "ALL GUIDES & ARTICLES",
+    "services": "SERVICES",
     "contacts": "CONTACTS & PHARMACIES"
   }
 }

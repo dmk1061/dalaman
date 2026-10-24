@@ -20,7 +20,6 @@ async function getBeachData(location: string, beachName: string, locale: string)
         }
 
         const files = fs.readdirSync(beachDirectory);
-        // Find language specific text or fallback
         let textFile = files.find(file => file.toLowerCase() === `${beachName.toLowerCase()}.${locale}.txt`);
         if (!textFile) {
             textFile = files.find(file => file.toLowerCase() === `${beachName.toLowerCase()}.txt`);
@@ -37,7 +36,7 @@ async function getBeachData(location: string, beachName: string, locale: string)
             const lines = textContent.split('\n');
             title = lines[0] || beachName;
             const rawDescription = lines.slice(1).join('\n').trim();
-            
+
             const processedContent = await remark()
                 .use(html as any)
                 .process(rawDescription);
@@ -133,15 +132,15 @@ const defaultSpecsByLocale: Record<string, { cover: string, entry: string, ameni
 };
 
 const uiTextsByLocale: Record<string, any> = {
-    ru: { specs: 'Характеристики', cover: 'Покрытие:', entry: 'Вход в воду:', amenities: 'Удобства:', access: 'Доступность:', gmaps: 'Открыть на Google Maps', surr: 'Окрестности', explore: 'Исследовать' },
-    en: { specs: 'Specifications', cover: 'Cover:', entry: 'Entry:', amenities: 'Amenities:', access: 'Access:', gmaps: 'Open on Google Maps', surr: 'Surroundings', explore: 'Explore' },
-    de: { specs: 'Spezifikationen', cover: 'Belag:', entry: 'Einstieg:', amenities: 'Ausstattung:', access: 'Anfahrt:', gmaps: 'Auf Google Maps öffnen', surr: 'Umgebung', explore: 'Erkunden' },
-    tr: { specs: 'Özellikler', cover: 'Zemin:', entry: 'Deniz Girişi:', amenities: 'İmkanlar:', access: 'Ulaşım:', gmaps: 'Google Haritalarda Aç', surr: 'Çevresi', explore: 'Keşfet' }
+    ru: { specs: 'Характеристики пляжа', cover: 'Покрытие:', entry: 'Вход в воду:', amenities: 'Удобства:', access: 'Доступность:', gmaps: 'Открыть на Google Maps', surr: 'Окрестности', explore: 'Исследовать' },
+    en: { specs: 'Beach Specifications', cover: 'Cover:', entry: 'Entry:', amenities: 'Amenities:', access: 'Access:', gmaps: 'Open on Google Maps', surr: 'Surroundings', explore: 'Explore' },
+    de: { specs: 'Strandspezifikationen', cover: 'Belag:', entry: 'Einstieg:', amenities: 'Ausstattung:', access: 'Anfahrt:', gmaps: 'Auf Google Maps öffnen', surr: 'Umgebung', explore: 'Erkunden' },
+    tr: { specs: 'Plaj Özellikleri', cover: 'Zemin:', entry: 'Deniz Girişi:', amenities: 'İmkanlar:', access: 'Ulaşım:', gmaps: 'Google Haritalarda Aç', surr: 'Çevresi', explore: 'Keşfet' }
 };
 
 const locationNames: Record<string, Record<string, string>> = {
   en: { 'dacha': 'Datça', 'marmaris': 'Marmaris', 'dalyan': 'Dalyan', 'koycegiz': 'Köyceğiz', 'dalaman': 'Dalaman', 'gocek': 'Göcek', 'fethiye': 'Fethiye', 'kas': 'Kaş' },
-  ru: { 'dacha': 'Дача', 'marmaris': 'Мармарис', 'dalyan': 'Дальян', 'koycegiz': 'Кёйджегиз', 'dalaman': 'Даламан', 'gocek': 'Гёджек', 'fethiye': 'Фетхие', 'kas': 'Kaш' },
+  ru: { 'dacha': 'Датча', 'marmaris': 'Мармарис', 'dalyan': 'Дальян', 'koycegiz': 'Кёйджегиз', 'dalaman': 'Даламан', 'gocek': 'Гёджек', 'fethiye': 'Фетхие', 'kas': 'Каш' },
   de: { 'dacha': 'Datça', 'marmaris': 'Marmaris', 'dalyan': 'Dalyan', 'koycegiz': 'Köyceğiz', 'dalaman': 'Dalaman', 'gocek': 'Göcek', 'fethiye': 'Fethiye', 'kas': 'Kaş' },
   tr: { 'dacha': 'Datça', 'marmaris': 'Marmaris', 'dalyan': 'Dalyan', 'koycegiz': 'Köyceğiz', 'dalaman': 'Dalaman', 'gocek': 'Göcek', 'fethiye': 'Fethiye', 'kas': 'Kaş' }
 };
@@ -165,22 +164,20 @@ const BeachPage = async ({ params }: BeachPageProps) => {
 
     if (!beachData) {
         return (
-            <div className="flex flex-col min-h-screen">
-                
+            <div className="flex flex-col min-h-screen bg-slate-50">
                 <Header locale={activeLocale} />
                 <main className="flex-grow flex items-center justify-center p-20">
                     <div className="text-center">
-                        <h1 className="text-4xl font-black text-slate-900 mb-4">
+                        <h1 className="text-3xl font-extrabold text-slate-900 mb-3">
                             {activeLocale === 'ru' ? 'Пляж не найден' : 'Beach Not Found'}
                         </h1>
                         <p className="text-slate-500">
-                            {activeLocale === 'ru' 
-                                ? `К сожалению, мы не смогли найти информацию о пляже '${beachName}'.`
+                            {activeLocale === 'ru'
+                                ? `К сожалению, мы не смогли найти информацию о пляже «${beachName}».`
                                 : `Sorry, we could not find info for beach '${beachName}'.`}
                         </p>
                     </div>
                 </main>
-                
                 <Footer locale={activeLocale} />
             </div>
         );
@@ -190,148 +187,133 @@ const BeachPage = async ({ params }: BeachPageProps) => {
 
     return (
         <div className="flex flex-col min-h-screen bg-slate-50">
-            
             <Header locale={activeLocale} />
             <main className="flex-grow">
                 {/* Hero Section */}
-                <div className="relative h-[50vh] min-h-[400px] overflow-hidden">
+                <div className="relative h-[44vh] min-h-[340px] overflow-hidden flex items-center">
                     <Image
                         src={heroImage}
                         alt={beachData.title}
-                        layout="fill"
-                        objectFit="cover"
-                        className="brightness-[0.7] transform scale-105"
+                        fill
+                        priority
+                        className="object-cover"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-slate-50/20" />
-                    <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-                        <span className="text-cyan-400 font-black text-xs uppercase tracking-[0.5em] mb-4 drop-shadow-lg flex items-center gap-2">
-                            <FaUmbrellaBeach /> {activeLocale === 'ru' ? 'ЛУЧШИЕ ПЛЯЖИ' : 'BEST BEACHES'}
+                    <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-900/40 to-slate-950/75" />
+                    <div className="relative z-10 portal-container text-center px-4">
+                        <span className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white/15 backdrop-blur-md border border-white/25 text-cyan-300 font-bold text-xs uppercase tracking-widest mb-3">
+                            <FaUmbrellaBeach /> {locationName}
                         </span>
-                        <h1 className="text-5xl md:text-7xl font-black text-white mb-4 tracking-tighter drop-shadow-2xl uppercase italic">
+                        <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight drop-shadow-lg">
                             {beachData.title}
                         </h1>
                     </div>
                 </div>
 
-                <div className="container mx-auto px-4 -mt-10 relative z-10 pb-20">
+                <div className="portal-container py-8 md:py-10 pb-20">
                     {/* Breadcrumbs */}
-                    <nav className="flex items-center space-x-2 text-[10px] font-black uppercase tracking-[0.2em] mb-10 bg-white/80 backdrop-blur-md p-4 rounded-full w-fit premium-shadow border border-white/50">
-                        <Link href={localize('/')} className="text-slate-400 hover:text-cyan-600 flex items-center gap-1 transition-colors">
-                            <FaHome size={12} /> {activeLocale === 'ru' ? 'ГЛАВНАЯ' : 'HOME'}
+                    <nav className="flex flex-wrap items-center gap-2 text-xs font-semibold text-slate-500 mb-8 bg-white px-4 py-2.5 rounded-full w-fit shadow-sm border border-slate-200/70">
+                        <Link href={localize('/')} className="hover:text-cyan-600 flex items-center gap-1.5 transition-colors">
+                            <FaHome size={12} className="text-cyan-600" /> {activeLocale === 'ru' ? 'Главная' : 'Home'}
                         </Link>
-                        <FaChevronRight size={8} className="text-slate-300" />
-                        <Link href={localize(`/${location}`)} className="text-slate-400 hover:text-cyan-600 flex items-center gap-1 transition-colors">
-                            <FaCity size={12} /> {locationName}
+                        <FaChevronRight size={9} className="text-slate-300" />
+                        <Link href={localize(`/${location}`)} className="hover:text-cyan-600 flex items-center gap-1.5 transition-colors">
+                            <FaCity size={12} className="text-cyan-600" /> {locationName}
                         </Link>
-                        <FaChevronRight size={8} className="text-slate-300" />
-                        <Link href={localize(`/${location}/beaches`)} className="text-slate-400 hover:text-cyan-600 transition-colors">
-                            {activeLocale === 'ru' ? 'ПЛЯЖИ' : 'BEACHES'}
+                        <FaChevronRight size={9} className="text-slate-300" />
+                        <Link href={localize(`/${location}/beaches`)} className="hover:text-cyan-600 transition-colors">
+                            {activeLocale === 'ru' ? 'Пляжи' : 'Beaches'}
                         </Link>
-                        <FaChevronRight size={8} className="text-slate-300" />
-                        <span className="text-cyan-600">{beachData.title}</span>
+                        <FaChevronRight size={9} className="text-slate-300" />
+                        <span className="text-slate-900 font-bold">{beachData.title}</span>
                     </nav>
 
-                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                         {/* Main Content */}
-                        <article className="lg:col-span-8 bg-white rounded-[3rem] p-8 md:p-16 premium-shadow border border-white">
-                            <div className="markdown-body prose prose-slate prose-lg max-w-none">
-                                <div 
-                                    dangerouslySetInnerHTML={{ __html: beachData.description }}
-                                    className="text-slate-600 leading-relaxed font-medium"
-                                />
+                        <article className="lg:col-span-8 bg-white rounded-2xl p-6 sm:p-8 md:p-12 shadow-sm border border-slate-200/70">
+                            <div className="markdown-body max-w-none">
+                                <div dangerouslySetInnerHTML={{ __html: beachData.description }} />
                             </div>
 
                             {/* Gallery */}
                             {beachData.images.length > 1 && (
-                                <div className="mt-16">
-                                    <h2 className="text-2xl font-black text-slate-900 mb-8 uppercase italic border-l-4 border-cyan-500 pl-6">
-                                        {activeLocale === 'ru' ? 'Галерея пляжа' : 'Beach Gallery'}
+                                <div className="mt-12">
+                                    <h2 className="text-xl md:text-2xl font-bold text-slate-900 mb-6 border-l-4 border-cyan-500 pl-4">
+                                        {activeLocale === 'ru' ? 'Фотогалерея пляжа' : 'Beach Photo Gallery'}
                                     </h2>
-                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                                         {beachData.images.slice(1).map((image, index) => (
-                                            <div key={index} className="relative h-64 rounded-[2rem] overflow-hidden shadow-xl hover:scale-105 transition-transform duration-500 cursor-zoom-in">
-                                                <Image src={image} alt={`Photo ${index + 2}`} layout="fill" objectFit="cover" />
+                                            <div key={index} className="relative h-60 rounded-2xl overflow-hidden shadow-sm border border-slate-200/70">
+                                                <Image src={image} alt={`${beachData.title} ${index + 2}`} fill className="object-cover hover:scale-105 transition-transform duration-500" />
                                             </div>
                                         ))}
                                     </div>
                                 </div>
                             )}
 
-                            <div className="mt-16 pt-10 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-6">
-                                <Link href={localize(`/${location}/beaches`)} className="group flex items-center gap-3 text-sm font-black uppercase tracking-widest text-slate-400 hover:text-cyan-600 transition-all">
-                                    <span className="p-3 rounded-full bg-slate-50 group-hover:bg-cyan-50 transition-colors">←</span>
+                            <div className="mt-12 pt-8 border-t border-slate-100 flex justify-between items-center">
+                                <Link href={localize(`/${location}/beaches`)} className="group flex items-center gap-2.5 text-xs font-bold uppercase tracking-wider text-slate-600 hover:text-cyan-600 transition-all">
+                                    <span className="w-8 h-8 rounded-full bg-slate-100 group-hover:bg-cyan-50 flex items-center justify-center transition-colors">←</span>
                                     {activeLocale === 'ru' ? `Все пляжи ${locationName}` : `All beaches of ${locationName}`}
                                 </Link>
                             </div>
                         </article>
 
                         {/* Sidebar */}
-                        <aside className="lg:col-span-4 space-y-8">
-                            {/* Beach Specs */}
-                            <div className="bg-white rounded-[2.5rem] p-8 premium-shadow border border-white space-y-6">
-                                <h3 className="text-lg font-black text-slate-900 mb-4 uppercase italic border-b border-slate-100 pb-4">
+                        <aside className="lg:col-span-4 space-y-6 lg:sticky lg:top-28">
+                            <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-200/70 space-y-5">
+                                <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider border-b border-slate-100 pb-3">
                                     {ui.specs}
                                 </h3>
-                                <div className="space-y-4 text-xs font-medium text-slate-700">
-                                    <div className="flex justify-between py-1.5 border-b border-slate-50">
-                                        <span className="text-slate-400 font-bold uppercase tracking-wider">
-                                            {ui.cover}
-                                        </span>
-                                        <span className="text-slate-800 font-black">{spec.cover}</span>
+                                <div className="space-y-3 text-xs text-slate-700">
+                                    <div className="flex justify-between py-1.5 border-b border-slate-100">
+                                        <span className="text-slate-500 font-semibold">{ui.cover}</span>
+                                        <span className="text-slate-900 font-bold text-right">{spec.cover}</span>
                                     </div>
-                                    <div className="flex justify-between py-1.5 border-b border-slate-50">
-                                        <span className="text-slate-400 font-bold uppercase tracking-wider">
-                                            {ui.entry}
-                                        </span>
-                                        <span className="text-slate-800 font-black">{spec.entry}</span>
+                                    <div className="flex justify-between py-1.5 border-b border-slate-100">
+                                        <span className="text-slate-500 font-semibold">{ui.entry}</span>
+                                        <span className="text-slate-900 font-bold text-right">{spec.entry}</span>
                                     </div>
-                                    <div className="flex justify-between py-1.5 border-b border-slate-50">
-                                        <span className="text-slate-400 font-bold uppercase tracking-wider">
-                                            {ui.amenities}
-                                        </span>
-                                        <span className="text-slate-800 font-black text-right max-w-[180px] leading-tight">{spec.amenities}</span>
+                                    <div className="flex justify-between py-1.5 border-b border-slate-100">
+                                        <span className="text-slate-500 font-semibold">{ui.amenities}</span>
+                                        <span className="text-slate-900 font-bold text-right max-w-[180px]">{spec.amenities}</span>
                                     </div>
                                     <div className="flex justify-between py-1.5">
-                                        <span className="text-slate-400 font-bold uppercase tracking-wider">
-                                            {ui.access}
-                                        </span>
-                                        <span className="text-slate-800 font-black">{spec.access}</span>
+                                        <span className="text-slate-500 font-semibold">{ui.access}</span>
+                                        <span className="text-slate-900 font-bold text-right">{spec.access}</span>
                                     </div>
                                 </div>
                                 <a
                                     href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(beachData.title + ' beach ' + locationName)}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="w-full text-center block bg-cyan-600 text-white py-3.5 rounded-full font-black text-[10px] uppercase tracking-widest hover:bg-cyan-700 transition-all shadow-lg hover:shadow-cyan-100/50"
+                                    className="w-full text-center block bg-cyan-600 text-white py-3 rounded-xl font-bold text-xs uppercase tracking-wider hover:bg-cyan-700 transition-all shadow-sm"
                                 >
                                     {ui.gmaps}
                                 </a>
                             </div>
 
-                            <div className="bg-white rounded-[2.5rem] p-8 premium-shadow border border-white">
-                                <h3 className="text-lg font-black text-slate-900 mb-6 uppercase italic border-b border-slate-100 pb-4">
+                            <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-200/70">
+                                <h3 className="text-sm font-bold text-slate-900 mb-3 uppercase tracking-wider border-b border-slate-100 pb-3">
                                     {ui.surr}
                                 </h3>
-                                <div className="space-y-4">
-                                    <p className="text-xs text-slate-500 font-medium">
-                                        {activeLocale === 'ru' 
-                                            ? `Этот пляж находится недалеко от других интересных мест в регионе ${locationName}.`
-                                            : activeLocale === 'de'
-                                            ? `Dieser Strand befindet sich in der Nähe anderer interessanter Orte in der Region ${locationName}.`
-                                            : activeLocale === 'tr'
-                                            ? `Bu plaj, ${locationName} bölgesindeki diğer ilgi çekici yerlerin yakınında bulunmaktadır.`
-                                            : `This beach is located near other interesting spots in ${locationName}.`}
-                                    </p>
-                                    <Link href={localize(`/${location}`)} className="block w-full py-3.5 bg-slate-900 text-white text-[10px] font-black uppercase tracking-widest rounded-full text-center hover:bg-cyan-600 transition-all">
-                                        {`${ui.explore} ${locationName}`}
-                                    </Link>
-                                </div>
+                                <p className="text-xs text-slate-600 leading-relaxed mb-4">
+                                    {activeLocale === 'ru'
+                                        ? `Этот пляж находится недалеко от других бухт и достопримечательностей региона ${locationName}.`
+                                        : activeLocale === 'de'
+                                        ? `Dieser Strand befindet sich in der Nähe anderer interessanter Orte in der Region ${locationName}.`
+                                        : activeLocale === 'tr'
+                                        ? `Bu plaj, ${locationName} bölgesindeki diğer ilgi çekici yerlerin yakınında bulunmaktadır.`
+                                        : `This beach is located near other scenic spots in ${locationName}.`}
+                                </p>
+                                <Link href={localize(`/${location}`)} className="block w-full py-3 bg-slate-900 text-white text-xs font-bold uppercase tracking-wider rounded-xl text-center hover:bg-cyan-600 transition-all">
+                                    {`${ui.explore} ${locationName}`}
+                                </Link>
                             </div>
                         </aside>
                     </div>
                 </div>
             </main>
-            
+
             <Footer locale={activeLocale} />
         </div>
     );
@@ -396,10 +378,10 @@ export async function generateMetadata({ params }: BeachPageProps): Promise<Meta
     const locationName = (locationNames[activeLocale] || locationNames['en'])[location] || location;
 
     return {
-        title: `${beachData.title} | ${locationName} | Dolaman.info`,
+        title: `${beachData.title} | ${locationName} | Dalaman.info`,
         description: cleanDescription,
         openGraph: {
-            title: `${beachData.title} | ${locationName} | Dolaman.info`,
+            title: `${beachData.title} | ${locationName} | Dalaman.info`,
             description: cleanDescription,
             images: beachData.images.length > 0 ? [{ url: beachData.images[0] }] : []
         }

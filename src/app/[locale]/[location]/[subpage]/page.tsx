@@ -22,7 +22,7 @@ type SubPageProps = {
 
 const locationNames: Record<string, Record<string, string>> = {
   en: { 'dacha': 'Datça', 'marmaris': 'Marmaris', 'dalyan': 'Dalyan', 'koycegiz': 'Köyceğiz', 'dalaman': 'Dalaman', 'gocek': 'Göcek', 'fethiye': 'Fethiye', 'kas': 'Kaş' },
-  ru: { 'dacha': 'Дача', 'marmaris': 'Мармарис', 'dalyan': 'Дальян', 'koycegiz': 'Кёйджегиз', 'dalaman': 'Даламан', 'gocek': 'Гёджек', 'fethiye': 'Фетхие', 'kas': 'Каш' },
+  ru: { 'dacha': 'Датча', 'marmaris': 'Мармарис', 'dalyan': 'Дальян', 'koycegiz': 'Кёйджегиз', 'dalaman': 'Даламан', 'gocek': 'Гёджек', 'fethiye': 'Фетхие', 'kas': 'Каш' },
   de: { 'dacha': 'Datça', 'marmaris': 'Marmaris', 'dalyan': 'Dalyan', 'koycegiz': 'Köyceğiz', 'dalaman': 'Dalaman', 'gocek': 'Göcek', 'fethiye': 'Fethiye', 'kas': 'Kaş' },
   tr: { 'dacha': 'Datça', 'marmaris': 'Marmaris', 'dalyan': 'Dalyan', 'koycegiz': 'Köyceğiz', 'dalaman': 'Dalaman', 'gocek': 'Göcek', 'fethiye': 'Fethiye', 'kas': 'Kaş' }
 };
@@ -36,22 +36,20 @@ const LocationSubPage = async ({ params }: SubPageProps) => {
 
     if (!pageData) {
         return (
-            <div className="flex flex-col min-h-screen">
-                
+            <div className="flex flex-col min-h-screen bg-slate-50">
                 <Header locale={activeLocale} />
                 <main className="flex-grow flex items-center justify-center p-20">
                     <div className="text-center">
-                        <h1 className="text-4xl font-black text-slate-900 mb-4">
+                        <h1 className="text-3xl font-extrabold text-slate-900 mb-3">
                             {activeLocale === 'ru' ? 'Раздел не найден' : 'Section Not Found'}
                         </h1>
                         <p className="text-slate-500">
                             {activeLocale === 'ru'
-                                ? `К сожалению, мы не смогли найти информацию для '${location}/${subpage}'.`
+                                ? `К сожалению, мы не смогли найти информацию для «${location}/${subpage}».`
                                 : `Sorry, we could not find information for '${location}/${subpage}'.`}
                         </p>
                     </div>
                 </main>
-                
                 <Footer locale={activeLocale} />
             </div>
         );
@@ -72,8 +70,7 @@ const LocationSubPage = async ({ params }: SubPageProps) => {
     } catch (e) { }
 
     return (
-        <div className="flex flex-col min-h-screen">
-            
+        <div className="flex flex-col min-h-screen bg-slate-50">
             <Header locale={activeLocale} />
             <main className="flex-grow">
                 <CityArticle
@@ -83,9 +80,9 @@ const LocationSubPage = async ({ params }: SubPageProps) => {
                     location={location}
                     locationName={locationName}
                     heroImage={heroImage}
+                    locale={activeLocale}
                 />
             </main>
-            
             <Footer locale={activeLocale} />
         </div>
     );
