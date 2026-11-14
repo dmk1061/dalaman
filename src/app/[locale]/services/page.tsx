@@ -1,8 +1,10 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Link from 'next/link';
 import { FaCar, FaAnchor, FaMapMarkedAlt, FaHome, FaShuttleVan, FaFish, FaWater, FaChevronRight, FaPlane } from 'react-icons/fa';
+import { buildPageMetadata } from '@/lib/seo';
 
 const servicesConfig = [
     {
@@ -281,6 +283,18 @@ const ServicesPage = ({ params }: { params: { locale: string } }) => {
         </div>
     );
 };
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const locale = params.locale || 'en';
+  const t = translations[locale] || translations['en'];
+  return buildPageMetadata({
+    locale,
+    pathname: '/services',
+    title: t.title,
+    description: t.subtitle,
+    image: '/hero-bg.jpg',
+  });
+}
 
 export async function generateStaticParams() {
   return [

@@ -1,10 +1,43 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import MainContent from "../components/MainContent";
 import Sidebar from "../components/Sidebar";
 import LeftSidebar from "../components/LeftSidebar";
 import Footer from "../components/Footer";
+import { buildPageMetadata } from '@/lib/seo';
+
+const homeMetaByLocale: Record<string, { title: string; description: string }> = {
+    ru: {
+        title: 'Dalaman.info — Путеводитель от Датчи до Каша',
+        description: 'Ваш экспертный гид по Бирюзовому побережью Турции: Датча, Мармарис, Кёйджегиз, Дальян, Даламан, Гёджек, Фетхие и Каш. Пляжи, маршруты, трансферы и советы.',
+    },
+    en: {
+        title: 'Dalaman.info — Turquoise Coast Travel Guide (Datça to Kaş)',
+        description: 'Your authoritative guide to Turkey’s Turquoise Coast: Datça, Marmaris, Köyceğiz, Dalyan, Dalaman, Göcek, Fethiye, and Kaş. Beaches, routes, airport transfers, and local tips.',
+    },
+    de: {
+        title: 'Dalaman.info — Reiseführer für die Türkische Riviera (Datça bis Kaş)',
+        description: 'Ihr Experten-Guide für die lykische & karische Küste: Datça, Marmaris, Köyceğiz, Dalyan, Dalaman, Göcek, Fethiye und Kaş. Strände, Routen und lokale Tipps.',
+    },
+    tr: {
+        title: 'Dalaman.info — Turkuaz Kıyılar Gezi Rehberi (Datça’dan Kaş’a)',
+        description: 'Türkiye’nin Turkuaz Kıyıları için kapsamlı rehber: Datça, Marmaris, Köyceğiz, Dalyan, Dalaman, Göcek, Fethiye ve Kaş. Plajlar, rotalar ve seyahat ipuçları.',
+    },
+};
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+    const locale = params.locale || 'ru';
+    const meta = homeMetaByLocale[locale] || homeMetaByLocale['en'];
+    return buildPageMetadata({
+        locale,
+        pathname: '',
+        title: meta.title,
+        description: meta.description,
+        image: '/hero-bg.jpg',
+    });
+}
 
 export default function Home({ params }: { params: { locale: string } }) {
     const locale = params.locale || 'en';

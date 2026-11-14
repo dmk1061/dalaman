@@ -1,5 +1,10 @@
-import ServiceLandingPage from "@/app/components/ServiceLandingPage";
+import ServiceLandingPage, { generateServiceMetadata } from "@/app/components/ServiceLandingPage";
+import type { Metadata } from "next";
 import React from "react";
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+    return generateServiceMetadata("excursions-tours", params.locale, "/services/excursions-tours");
+}
 
 const ServiceRoutePage = ({ params }: { params: { locale: string } }) => {
     return (

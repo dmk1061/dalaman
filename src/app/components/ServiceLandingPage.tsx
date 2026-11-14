@@ -1,8 +1,10 @@
 import React from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
+import { buildPageMetadata } from "@/lib/seo";
 import { FaShieldAlt, FaCheckCircle, FaBookOpen, FaExternalLinkAlt, FaInfoCircle, FaPhoneAlt, FaMapMarkerAlt, FaStar, FaChevronRight } from "react-icons/fa";
 import TransfersSmartHub from "@/app/components/TransfersSmartHub";
 import CarRentalSmartHub from "@/app/components/CarRentalSmartHub";
@@ -751,6 +753,26 @@ const servicesRegistry: Record<string, ServiceItem> = {
 interface ServiceLandingPageProps {
     serviceKey: string;
     locale: string;
+}
+
+export function generateServiceMetadata(serviceKey: string, locale: string, pathname?: string): Metadata {
+    const activeLocale = locale || 'en';
+    const s = servicesRegistry[serviceKey] || servicesRegistry['contacts'];
+    const title = s.title[activeLocale] || s.title['en'];
+    const desc = s.desc[activeLocale] || s.desc['en'];
+    const cleanPathname = pathname || (
+        ['pharmacies', 'contacts', 'dalaman-guide', 'city-guide/small-towns'].includes(serviceKey)
+            ? `/${serviceKey}`
+            : `/services/${serviceKey}`
+    );
+
+    return buildPageMetadata({
+        locale: activeLocale,
+        pathname: cleanPathname,
+        title,
+        description: desc,
+        image: s.heroBg || '/hero-bg.jpg',
+    });
 }
 
 const ServiceLandingPage = ({ serviceKey, locale }: ServiceLandingPageProps) => {

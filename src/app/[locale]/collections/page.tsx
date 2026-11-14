@@ -6,17 +6,37 @@ import Link from 'next/link';
 import { FaHeart, FaUserFriends, FaUtensils, FaCompass, FaChevronRight, FaMountain, FaCalendarAlt } from 'react-icons/fa';
 import { getDictionary, Locale } from '@/lib/dictionary';
 import { Metadata } from 'next';
+import { buildPageMetadata } from '@/lib/seo';
+
+const collectionsMetaByLocale: Record<string, { title: string; description: string }> = {
+    ru: {
+        title: 'Коллекции впечатлений и Идеи выходного дня | Дача — Каш',
+        description: 'Авторские подборки маршрутов: романтические уикенды в Каше, семейный отдых в Дальяне, треккинговые тропы Ликии и гастрономические туры.',
+    },
+    en: {
+        title: 'Curated Collections & Weekend Getaway Ideas | Dalaman Guide',
+        description: 'Handpicked travel collections: romantic weekends in Kas, family retreats in Dalyan, Lycian Way trekking paths, and culinary road trips.',
+    },
+    de: {
+        title: 'Kuratiere Kollektionen & Wochenend-Ideen | Dalaman Guide',
+        description: 'Ausgewählte Reisesammlungen: romantische Wochenenden in Kaş, Familienurlaub in Dalyan, Wanderwege des Lykischen Weges und kulinarische Touren.',
+    },
+    tr: {
+        title: 'Seçkin Koleksiyonlar ve Hafta Sonu Fikirleri | Dalaman Rehberi',
+        description: 'Özenle hazırlanmış seyahat koleksiyonları: Kaş\'ta romantik hafta sonları, Dalyan\'da aile tatili, Likya Yolu yürüyüş rotaları ve gastronomi turları.',
+    },
+};
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-    const isRu = params.locale === 'ru';
-    return {
-        title: isRu
-            ? 'Коллекции впечатлений и Идеи выходного дня | Дача — Каш'
-            : 'Curated Collections & Weekend Getaway Ideas | Dalaman Guide',
-        description: isRu
-            ? 'Авторские подборки маршрутов: романтические уикенды в Каше, семейный отдых в Дальяне, треккинговые тропы Ликии и гастрономические туры.'
-            : 'Handpicked travel collections: romantic weekends in Kas, family retreats in Dalyan, Lycian Way trekking paths, and culinary road trips.'
-    };
+    const locale = params.locale || 'en';
+    const meta = collectionsMetaByLocale[locale] || collectionsMetaByLocale['en'];
+    return buildPageMetadata({
+        locale,
+        pathname: '/collections',
+        title: meta.title,
+        description: meta.description,
+        image: '/api/images/locations/kas/ruines/kastombs/kastombs.jpg',
+    });
 }
 
 const getCollections = (locale: string, dict: any) => [

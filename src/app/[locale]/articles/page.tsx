@@ -9,6 +9,7 @@ import { FaBookOpen, FaChevronRight, FaHome } from 'react-icons/fa';
 
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
+import { buildPageMetadata } from '@/lib/seo';
 
 const articlesDirectory = path.join(process.cwd(), 'content/articles');
 
@@ -78,47 +79,36 @@ interface ArticleSummary {
 
 function getAllArticlesForLocale(locale: string): ArticleSummary[] {
     const filePaths = getArticleFilePaths();
-    const slugMap = new Map<string, string>();
+    const fileMap = new Map<string, string>();
 
     for (const filePath of filePaths) {
         const isLocalized = ['.en.md', '.de.md', '.tr.md'].some(ext => filePath.endsWith(ext));
         if (!isLocalized) {
-            try {
-                const fileContents = fs.readFileSync(filePath, 'utf8');
-                const { data } = matter(fileContents);
-                if (data.slug) {
-                    slugMap.set(data.slug, filePath);
-                }
-            } catch (e) {}
+            fileMap.set(filePath, filePath);
         }
     }
 
     if (locale && locale !== 'ru') {
         for (const filePath of filePaths) {
             if (filePath.endsWith(`.${locale}.md`)) {
-                try {
-                    const fileContents = fs.readFileSync(filePath, 'utf8');
-                    const { data } = matter(fileContents);
-                    if (data.slug) {
-                        slugMap.set(data.slug, filePath);
-                    }
-                } catch (e) {}
+                const basePath = filePath.replace(/\.(en|de|tr)\.md$/, '.md');
+                fileMap.set(basePath, filePath);
             }
         }
     }
 
     const items: ArticleSummary[] = [];
-    for (const [slug, filePath] of Array.from(slugMap.entries())) {
+    for (const filePath of Array.from(fileMap.values())) {
         try {
             const fileContents = fs.readFileSync(filePath, 'utf8');
             const { data } = matter(fileContents);
-            if (data.title) {
+            if (data.title && data.slug) {
                 const relDir = path.relative(articlesDirectory, path.dirname(filePath));
                 items.push({
-                    slug,
+                    slug: data.slug,
                     title: data.title,
                     description: data.description || '',
-                    image: data.image || slugImages[slug] || '/dalaman1.jpg',
+                    image: data.image || slugImages[data.slug] || '/dalaman1.jpg',
                     category: relDir.split(path.sep)[0] || 'general',
                 });
             }
@@ -173,10 +163,13 @@ const hubTexts: Record<string, {
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
     const activeLocale = params.locale || 'ru';
     const t = hubTexts[activeLocale] || hubTexts['en'];
-    return {
-        title: `${t.title} | Dalaman.info`,
+    return buildPageMetadata({
+        locale: activeLocale,
+        pathname: '/articles',
+        title: t.title,
         description: t.subtitle,
-    };
+        image: '/hero-bg.jpg',
+    });
 }
 
 export default function ArticlesIndexPage({ params }: { params: { locale: string } }) {

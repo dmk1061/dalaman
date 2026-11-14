@@ -1,10 +1,12 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import fs from 'fs';
 import path from 'path';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import BeachesClient from './BeachesClient';
 import { getDictionary, Locale } from '@/lib/dictionary';
+import { buildPageMetadata } from '@/lib/seo';
 
 export interface BeachItem {
     id: string;
@@ -121,6 +123,18 @@ const BeachesPage = async ({ params }: BeachesPageProps) => {
         </div>
     );
 };
+
+export async function generateMetadata({ params }: BeachesPageProps): Promise<Metadata> {
+  const locale = params.locale || 'en';
+  const dict = await getDictionary(locale as Locale);
+  return buildPageMetadata({
+    locale,
+    pathname: '/beaches',
+    title: dict.beaches_page.title,
+    description: dict.beaches_page.subtitle,
+    image: '/hero-bg.jpg',
+  });
+}
 
 export async function generateStaticParams() {
   return [

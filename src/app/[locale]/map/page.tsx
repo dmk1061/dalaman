@@ -1,7 +1,9 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import InteractiveMap from './InteractiveMap';
+import { buildPageMetadata } from '@/lib/seo';
 
 const translations: Record<string, { badge: string; title: string; subtitle: string }> = {
     en: {
@@ -60,6 +62,18 @@ const MapPage = ({ params }: MapPageProps) => {
         </div>
     );
 };
+
+export async function generateMetadata({ params }: MapPageProps): Promise<Metadata> {
+  const locale = params.locale || 'en';
+  const t = translations[locale] || translations['en'];
+  return buildPageMetadata({
+    locale,
+    pathname: '/map',
+    title: t.title,
+    description: t.subtitle,
+    image: '/hero-bg.jpg',
+  });
+}
 
 export async function generateStaticParams() {
   return [

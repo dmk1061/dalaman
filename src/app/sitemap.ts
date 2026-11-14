@@ -1,12 +1,20 @@
 import { MetadataRoute } from 'next';
 import fs from 'fs';
 import path from 'path';
+import { getSiteUrl, SUPPORTED_LOCALES } from '@/lib/seo';
 
-const baseUrl = 'https://dalaman.info';
-const locales = ['ru', 'en', 'de', 'tr'];
 const locations = ['dacha', 'marmaris', 'koycegiz', 'dalyan', 'dalaman', 'gocek', 'fethiye', 'kas'];
 
+function buildAlternates(baseUrl: string, routePath: string) {
+  const languages: Record<string, string> = {};
+  for (const loc of SUPPORTED_LOCALES) {
+    languages[loc] = `${baseUrl}/${loc}${routePath}`;
+  }
+  return { languages };
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = getSiteUrl();
   const routes: MetadataRoute.Sitemap = [];
 
   // 1. Root and static locale pages
@@ -19,6 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticRoutes = [
     '',
+    '/articles',
     '/beaches',
     '/blogs',
     '/city-guide',
@@ -29,10 +38,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/map',
     '/pharmacies',
     '/routes',
+    '/routes/trekking',
+    '/routes/weekends',
     '/services',
     '/services/car-rental',
     '/services/diving',
     '/services/excursions-tours',
+    '/services/hotels',
     '/services/real-estate',
     '/services/transfers',
     '/services/tuna-fishing',
@@ -42,18 +54,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/articles/transport',
   ];
 
-  for (const locale of locales) {
+  for (const locale of SUPPORTED_LOCALES) {
     for (const route of staticRoutes) {
       routes.push({
         url: `${baseUrl}/${locale}${route}`,
         lastModified: new Date(),
         changeFrequency: route === '' ? 'daily' : 'weekly',
         priority: route === '' ? 0.9 : 0.8,
+        alternates: buildAlternates(baseUrl, route),
       });
     }
   }
 
-  // 2. All 83 articles across 4 locales
+  // 2. All articles across 4 locales
   const articlesDir = path.join(process.cwd(), 'content/articles');
   if (fs.existsSync(articlesDir)) {
     const files = fs.readdirSync(articlesDir);
@@ -72,12 +85,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     for (const slug of Array.from(baseSlugs)) {
-      for (const locale of locales) {
+      const routePath = `/articles/${slug}`;
+      for (const locale of SUPPORTED_LOCALES) {
         routes.push({
-          url: `${baseUrl}/${locale}/articles/${slug}`,
+          url: `${baseUrl}/${locale}${routePath}`,
           lastModified: new Date(),
           changeFrequency: 'weekly',
           priority: 0.7,
+          alternates: buildAlternates(baseUrl, routePath),
         });
       }
     }
@@ -87,23 +102,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const locationsDir = path.join(process.cwd(), 'content/locations');
   if (fs.existsSync(locationsDir)) {
     for (const loc of locations) {
-      for (const locale of locales) {
+      for (const locale of SUPPORTED_LOCALES) {
         // Main location page
         routes.push({
           url: `${baseUrl}/${locale}/${loc}`,
           lastModified: new Date(),
           changeFrequency: 'weekly',
           priority: 0.85,
+          alternates: buildAlternates(baseUrl, `/${loc}`),
         });
 
         // Hub subpages
         for (const sub of ['beaches', 'sights', 'transport', 'info']) {
-          routes.push({
-            url: `${baseUrl}/${locale}/${loc}/${sub}`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.75,
-          });
+          const subFile = path.join(locationsDir, loc, `${sub}.md`);
+          if (fs.existsSync(subFile)) {
+            routes.push({
+              url: `${baseUrl}/${locale}/${loc}/${sub}`,
+              lastModified: new Date(),
+              changeFrequency: 'monthly',
+              priority: 0.75,
+              alternates: buildAlternates(baseUrl, `/${loc}/${sub}`),
+            });
+          }
         }
 
         // Beaches
@@ -112,28 +132,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
           const beaches = fs.readdirSync(beachDir, { withFileTypes: true });
           for (const b of beaches) {
             if (b.isDirectory()) {
+              const beachPath = `/${loc}/beach/${b.name}`;
               routes.push({
-                url: `${baseUrl}/${locale}/${loc}/beach/${b.name}`,
+                url: `${baseUrl}/${locale}${beachPath}`,
                 lastModified: new Date(),
                 changeFrequency: 'monthly',
                 priority: 0.65,
+                alternates: buildAlternates(baseUrl, beachPath),
               });
             }
           }
         }
 
-        // Sights
-        for (const sightFolder of ['ruine', 'ruines']) {
+        // Sights (ruine, ruines, todo)
+        const seenSights = new Set<string>();
+        for (const sightFolder of ['ruine', 'ruines', 'todo']) {
           const sDir = path.join(locationsDir, loc, sightFolder);
           if (fs.existsSync(sDir)) {
             const sights = fs.readdirSync(sDir, { withFileTypes: true });
             for (const s of sights) {
-              if (s.isDirectory()) {
+              if (s.isDirectory() && !seenSights.has(s.name)) {
+                seenSights.add(s.name);
+                const sightPath = `/${loc}/sight/${s.name}`;
                 routes.push({
-                  url: `${baseUrl}/${locale}/${loc}/sight/${s.name}`,
+                  url: `${baseUrl}/${locale}${sightPath}`,
                   lastModified: new Date(),
                   changeFrequency: 'monthly',
                   priority: 0.65,
+                  alternates: buildAlternates(baseUrl, sightPath),
                 });
               }
             }

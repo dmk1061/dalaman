@@ -3,13 +3,16 @@
 
 # Next.js build output
 /.next
+/out
 
-# Local environment variables
+# Local & production environment variables
 .env.local
 .env*.local
+.env.production
 
-# Production build
-/out
+# Runtime data
+/data/analytics.json
+/tmp/
 
 # Log files
 npm-debug.log*
@@ -17,7 +20,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Editor directories and files
+# Editor & TypeScript artifacts
 .idea
 .vscode
 *.suo
@@ -25,7 +28,8 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+*.tsbuildinfo
 
-# macOS specific
-.DS_Store 
+# OS & temporary agent files
+.DS_Store
 .aider*

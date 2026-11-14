@@ -1,8 +1,11 @@
 import React from 'react';
+import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import CityArticle from '@/app/components/CityArticle';
 import { getMarkdownData } from '@/lib/markdown';
+import { buildPageMetadata } from '@/lib/seo';
 import path from 'path';
 import fs from 'fs';
 
@@ -35,24 +38,7 @@ const LocationSubPage = async ({ params }: SubPageProps) => {
     const locationName = (locationNames[activeLocale] || locationNames['en'])[location] || location;
 
     if (!pageData) {
-        return (
-            <div className="flex flex-col min-h-screen bg-slate-50">
-                <Header locale={activeLocale} />
-                <main className="flex-grow flex items-center justify-center p-20">
-                    <div className="text-center">
-                        <h1 className="text-3xl font-extrabold text-slate-900 mb-3">
-                            {activeLocale === 'ru' ? 'Раздел не найден' : 'Section Not Found'}
-                        </h1>
-                        <p className="text-slate-500">
-                            {activeLocale === 'ru'
-                                ? `К сожалению, мы не смогли найти информацию для «${location}/${subpage}».`
-                                : `Sorry, we could not find information for '${location}/${subpage}'.`}
-                        </p>
-                    </div>
-                </main>
-                <Footer locale={activeLocale} />
-            </div>
-        );
+        notFound();
     }
 
     let heroImage = `/api/images/locations/${location}/ruine/knidos/knidos.jpg`;
@@ -87,6 +73,35 @@ const LocationSubPage = async ({ params }: SubPageProps) => {
         </div>
     );
 };
+
+export async function generateMetadata({ params }: SubPageProps): Promise<Metadata> {
+    const { locale, location, subpage } = params;
+    const activeLocale = locale || 'en';
+    const pageData = await getLocationPageData(location, subpage, activeLocale);
+    const locationName = (locationNames[activeLocale] || locationNames['en'])[location] || location;
+
+    if (!pageData) {
+        return buildPageMetadata({
+            locale: activeLocale,
+            pathname: `/${location}/${subpage}`,
+            title: activeLocale === 'ru' ? 'Раздел не найден' : 'Section Not Found',
+            noIndex: true,
+        });
+    }
+
+    const plainDesc = (pageData.contentHtml || '')
+        .replace(/<[^>]*>/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .slice(0, 158);
+
+    return buildPageMetadata({
+        locale: activeLocale,
+        pathname: `/${location}/${subpage}`,
+        title: `${pageData.title || subpage} — ${locationName}`,
+        description: pageData.description || plainDesc,
+    });
+}
 
 export async function generateStaticParams() {
     const locationsDirectory = path.join(process.cwd(), 'content', 'locations');

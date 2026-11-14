@@ -1,12 +1,14 @@
 import { MetadataRoute } from 'next';
+import { getSiteUrl } from '@/lib/seo';
 
 export default function robots(): MetadataRoute.Robots {
+  const siteUrl = getSiteUrl();
   return {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/admin/'],
+      disallow: ['/admin/', '/api/car-prices', '/api/hotel-prices', '/api/analytics'],
     },
-    sitemap: 'https://dalaman.info/sitemap.xml',
+    sitemap: `${siteUrl}/sitemap.xml`,
   };
 }

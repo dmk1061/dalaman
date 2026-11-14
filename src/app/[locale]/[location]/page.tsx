@@ -1,8 +1,11 @@
 import React from 'react';
+import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import CityHub from '@/app/components/CityHub';
 import { getMarkdownData, getLocationData } from '@/lib/markdown';
+import { buildPageMetadata } from '@/lib/seo';
 import path from 'path';
 import fs from 'fs';
 
@@ -29,26 +32,7 @@ const LocationPage = async ({ params }: LocationPageProps) => {
   const infoData = await getMarkdownData(paths.infoPath, activeLocale);
 
   if (!infoData) {
-    return (
-      <div className="min-h-screen flex flex-col">
-        
-        <Header locale={activeLocale} />
-        <main className="flex-grow flex items-center justify-center p-20">
-          <div className="text-center">
-            <h1 className="text-4xl font-black text-slate-900 mb-4">
-              {activeLocale === 'ru' ? 'Локация не найдена' : 'Location Not Found'}
-            </h1>
-            <p className="text-slate-500">
-              {activeLocale === 'ru' 
-                ? 'К сожалению, мы еще не подготовили путеводитель по этому городу.' 
-                : 'Sorry, we have not prepared a guide for this city yet.'}
-            </p>
-          </div>
-        </main>
-        
-        <Footer locale={activeLocale} />
-      </div>
-    );
+    notFound();
   }
 
   // Fetch all "Gems" (Beaches, Ruins, ToDo)
@@ -104,6 +88,40 @@ const LocationPage = async ({ params }: LocationPageProps) => {
     </div>
   );
 };
+
+export async function generateMetadata({ params }: LocationPageProps): Promise<Metadata> {
+  const { locale, location } = params;
+  const activeLocale = locale || 'en';
+  const locationName = (locationNames[activeLocale] || locationNames['en'])[location] || location;
+  const paths = getLocationData(location);
+  const infoData = (await getMarkdownData(paths.infoPath, activeLocale)) as {
+    title?: string;
+    description?: string;
+    contentHtml?: string;
+  } | null;
+
+  if (!infoData) {
+    return buildPageMetadata({
+      locale: activeLocale,
+      pathname: `/${location}`,
+      title: activeLocale === 'ru' ? 'Локация не найдена' : 'Location Not Found',
+      noIndex: true,
+    });
+  }
+
+  const plainDesc = (infoData.contentHtml || '')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 158);
+
+  return buildPageMetadata({
+    locale: activeLocale,
+    pathname: `/${location}`,
+    title: infoData.title || locationName,
+    description: infoData.description || plainDesc,
+  });
+}
 
 export async function generateStaticParams() {
   const locations = ['dacha', 'marmaris', 'dalyan', 'koycegiz', 'dalaman', 'gocek', 'fethiye', 'kas'];

@@ -5,22 +5,37 @@ import WeekendHub from '@/app/components/WeekendHub';
 import Link from 'next/link';
 import { FaChevronLeft, FaCalendarAlt, FaCompass } from 'react-icons/fa';
 import { Metadata } from 'next';
+import { buildPageMetadata } from '@/lib/seo';
+
+const weekendsMetaByLocale: Record<string, { title: string; description: string }> = {
+    ru: {
+        title: 'Идеи выходного дня: Готовые 48-часовые уикенды на Ликийском побережье | Дача — Каш',
+        description: 'Пошаговые 48-часовые сценарии идеальных выходных в Каше, Дальяне, Олюденизе и Датче. Расписание по часам, бюджет на двоих в евро и лирах и чек-листы в дорогу.',
+    },
+    en: {
+        title: 'Weekend Getaway Ideas: Curated 48-Hour Itineraries | Dalaman Guide',
+        description: 'Turnkey 48-hour schedules for perfect weekends across Kaş, Dalyan, Ölüdeniz, and Datça. Hour-by-hour timelines, 2-person budget breakdowns, and packing checklists.',
+    },
+    de: {
+        title: 'Wochenend-Ideen: Fertige 48-Stunden-Reisepläne an der Küste | Dalaman Guide',
+        description: 'Fertige 48-Stunden-Pläne für ein perfektes Wochenende in Kaş, Dalyan, Ölüdeniz und Datça. Stundenpläne, Budgetübersichten in Euro & Lira und Packlisten.',
+    },
+    tr: {
+        title: 'Hafta Sonu Fikirleri: Hazır 48 Saatlik Kıyı Rotaları | Dalaman Rehberi',
+        description: 'Kaş, Dalyan, Ölüdeniz ve Datça için saatlik 48 saatlik hafta sonu planları. İki kişilik bütçe hesaplamaları, rota çizelgeleri ve seyahat kontrol listeleri.',
+    },
+};
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-    const isRu = params.locale === 'ru';
-    return {
-        title: isRu
-            ? 'Идеи выходного дня: Готовые 48-часовые уикенды на Ликийском побережье | Дача — Каш'
-            : 'Weekend Getaway Ideas: Curated 48-Hour Itineraries | Dalaman Guide',
-        description: isRu
-            ? 'Пошаговые 48-часовые сценарии идеальных выходных в Каше, Дальяне, Олюденизе и Датче. Расписание по часам, бюджет на двоих в евро и лирах и чек-листы в дорогу.'
-            : 'Turnkey 48-hour schedules for perfect weekends across Kaş, Dalyan, Ölüdeniz, and Datça. Hour-by-hour timelines, 2-person budget breakdowns, and packing checklists.',
-        openGraph: {
-            title: isRu ? 'Готовые 48-часовые уикенды в Турции' : 'Curated 48-Hour Weekend Getaways',
-            description: isRu ? 'С пятницы вечера по воскресенье: лучшие пошаговые планы отдыха на Бирюзовом побережье' : 'From Friday night to Sunday: best turnkey trip plans across the Turquoise Coast',
-            images: ['/api/images/locations/kas/ruines/kastombs/kastombs.jpg']
-        }
-    };
+    const locale = params.locale || 'en';
+    const meta = weekendsMetaByLocale[locale] || weekendsMetaByLocale['en'];
+    return buildPageMetadata({
+        locale,
+        pathname: '/routes/weekends',
+        title: meta.title,
+        description: meta.description,
+        image: '/api/images/locations/kas/ruines/kastombs/kastombs.jpg',
+    });
 }
 
 export default function WeekendRoutesPage({ params: { locale } }: { params: { locale: string } }) {

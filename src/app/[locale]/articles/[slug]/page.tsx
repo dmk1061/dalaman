@@ -7,6 +7,8 @@ import remarkHtml from 'remark-html';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import { buildPageMetadata } from '@/lib/seo';
 
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
@@ -14,6 +16,7 @@ import Sidebar from '@/app/components/Sidebar';
 import ArticleActions from '@/app/components/ArticleActions';
 
 const articlesDirectory = path.join(process.cwd(), 'content/articles');
+const STATIC_ARTICLE_ROUTES = new Set(['airport-dalaman', 'transport']);
 
 const slugImages: Record<string, string> = {
     'history': '/api/images/locations/dacha/ruine/knidos/knidos.jpg',
@@ -72,50 +75,37 @@ function getArticleFilePaths(dir: string = articlesDirectory): string[] {
 
 function getRecommendedArticles(currentSlug: string, locale: string) {
     const filePaths = getArticleFilePaths();
-    const slugMap = new Map<string, string>();
+    const fileMap = new Map<string, string>();
 
     for (const filePath of filePaths) {
         const isLocalized = ['.en.md', '.de.md', '.tr.md'].some(ext => filePath.endsWith(ext));
         if (!isLocalized) {
-            try {
-                const fileContents = fs.readFileSync(filePath, 'utf8');
-                const { data } = matter(fileContents);
-                if (data.slug) {
-                    slugMap.set(data.slug, filePath);
-                }
-            } catch (e) {}
+            fileMap.set(filePath, filePath);
         }
     }
 
     if (locale && locale !== 'ru') {
         for (const filePath of filePaths) {
             if (filePath.endsWith(`.${locale}.md`)) {
-                try {
-                    const fileContents = fs.readFileSync(filePath, 'utf8');
-                    const { data } = matter(fileContents);
-                    if (data.slug) {
-                        slugMap.set(data.slug, filePath);
-                    }
-                } catch (e) {}
+                const basePath = filePath.replace(/\.(en|de|tr)\.md$/, '.md');
+                fileMap.set(basePath, filePath);
             }
         }
     }
 
     const list: any[] = [];
-    for (const [slug, filePath] of Array.from(slugMap.entries())) {
-        if (slug !== currentSlug) {
-            try {
-                const fileContents = fs.readFileSync(filePath, 'utf8');
-                const { data } = matter(fileContents);
-                if (data.title) {
-                    list.push({
-                        title: data.title,
-                        slug: slug,
-                        image: slugImages[slug] || '/dalaman1.jpg'
-                    });
-                }
-            } catch (e) {}
-        }
+    for (const filePath of Array.from(fileMap.values())) {
+        try {
+            const fileContents = fs.readFileSync(filePath, 'utf8');
+            const { data } = matter(fileContents);
+            if (data.title && data.slug && data.slug !== currentSlug) {
+                list.push({
+                    title: data.title,
+                    slug: data.slug,
+                    image: slugImages[data.slug] || '/dalaman1.jpg'
+                });
+            }
+        } catch (e) {}
     }
 
     return list.sort(() => 0.5 - Math.random()).slice(0, 4);
@@ -123,35 +113,37 @@ function getRecommendedArticles(currentSlug: string, locale: string) {
 
 async function getArticleData(slug: string, locale: string) {
     const filePaths = getArticleFilePaths();
-    let fileContents = '';
+    let matchedPath = '';
 
+    for (const filePath of filePaths) {
+        try {
+            const currentFileContents = fs.readFileSync(filePath, 'utf8');
+            const matterResult = matter(currentFileContents);
+            if (matterResult.data.slug === slug) {
+                matchedPath = filePath;
+                break;
+            }
+        } catch (e) {}
+    }
+
+    if (!matchedPath) {
+        return null;
+    }
+
+    const basePath = matchedPath.replace(/\.(en|de|tr)\.md$/, '.md');
+    let targetPath = basePath;
     if (locale && locale !== 'ru') {
-        for (const filePath of filePaths) {
-            if (filePath.endsWith(`.${locale}.md`)) {
-                const currentFileContents = fs.readFileSync(filePath, 'utf8');
-                const matterResult = matter(currentFileContents);
-                if (matterResult.data.slug === slug) {
-                    fileContents = currentFileContents;
-                    break;
-                }
-            }
+        const localizedPath = basePath.replace(/\.md$/, `.${locale}.md`);
+        if (fs.existsSync(localizedPath)) {
+            targetPath = localizedPath;
         }
     }
 
-    if (!fileContents) {
-        for (const filePath of filePaths) {
-            const isLocalized = ['.en.md', '.de.md', '.tr.md'].some(ext => filePath.endsWith(ext));
-            if (!isLocalized) {
-                const currentFileContents = fs.readFileSync(filePath, 'utf8');
-                const matterResult = matter(currentFileContents);
-                if (matterResult.data.slug === slug) {
-                    fileContents = currentFileContents;
-                    break;
-                }
-            }
-        }
+    if (!fs.existsSync(targetPath)) {
+        targetPath = matchedPath;
     }
 
+    const fileContents = fs.readFileSync(targetPath, 'utf8');
     if (!fileContents) {
         return null;
     }
@@ -211,20 +203,7 @@ const ArticlePage = async ({ params }: ArticlePageProps) => {
     };
 
     if (!articleData) {
-        return (
-            <div className="flex flex-col min-h-screen bg-slate-50">
-                <Header locale={activeLocale} />
-                <main className="flex-grow portal-container py-16 text-center">
-                    <h1 className="text-3xl font-extrabold text-slate-900 mb-4">
-                        {ui.not_found}
-                    </h1>
-                    <Link href={localize('/articles')} className="inline-block mt-4 bg-cyan-600 text-white px-6 py-3 rounded-full font-bold text-sm">
-                        {ui.allArticles}
-                    </Link>
-                </main>
-                <Footer locale={activeLocale} />
-            </div>
-        );
+        notFound();
     }
 
     const recommended = getRecommendedArticles(slug, activeLocale);
@@ -492,7 +471,7 @@ export async function generateStaticParams() {
         }
     }).filter(item => item);
 
-    const uniqueSlugs = Array.from(new Set(slugs));
+    const uniqueSlugs = Array.from(new Set(slugs)).filter(slug => !STATIC_ARTICLE_ROUTES.has(slug));
     const paths = [];
     const locales = ['en', 'ru', 'de', 'tr'];
 
@@ -514,24 +493,27 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
     const articleData = await getArticleData(slug, activeLocale);
 
     if (!articleData) {
-        return {
+        return buildPageMetadata({
+            locale: activeLocale,
+            pathname: `/articles/${slug}`,
             title: activeLocale === 'ru' ? 'Статья не найдена' : 'Article Not Found',
-        };
+            noIndex: true,
+        });
     }
 
-    return {
-        title: `${articleData.title} | Dalaman.info`,
-        description: articleData.description,
-        openGraph: {
-            title: `${articleData.title} | Dalaman.info`,
-            description: articleData.description,
-            images: [
-                {
-                    url: articleData.image,
-                }
-            ]
-        }
-    };
+    const fallbackDesc = articleData.contentHtml
+        .replace(/<[^>]*>/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .slice(0, 158);
+
+    return buildPageMetadata({
+        locale: activeLocale,
+        pathname: `/articles/${slug}`,
+        title: articleData.title,
+        description: articleData.description || fallbackDesc,
+        image: articleData.image,
+    });
 }
 
 export default ArticlePage;

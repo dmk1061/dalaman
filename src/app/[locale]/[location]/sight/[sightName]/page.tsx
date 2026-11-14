@@ -7,6 +7,8 @@ import Header from '@/app/components/Header';
 import { FaHome, FaCity, FaHistory, FaChevronRight, FaCalendarAlt, FaLandmark, FaTicketAlt } from 'react-icons/fa';
 import Footer from '@/app/components/Footer';
 import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import { buildPageMetadata } from '@/lib/seo';
 
 import { remark } from 'remark';
 import html from 'remark-html';
@@ -169,22 +171,7 @@ const SightPage = async ({ params }: SightPageProps) => {
     };
 
     if (!sightData) {
-        return (
-            <div className="flex flex-col min-h-screen bg-slate-50">
-                <Header locale={activeLocale} />
-                <main className="flex-grow portal-container py-16 text-center">
-                    <h1 className="text-3xl font-extrabold text-slate-900 mb-3">
-                        {activeLocale === 'ru' ? 'Достопримечательность не найдена' : 'Sight Not Found'}
-                    </h1>
-                    <p className="text-slate-500">
-                        {activeLocale === 'ru'
-                            ? `К сожалению, мы не смогли найти информацию о достопримечательности «${sightName}» в ${locationName}.`
-                            : `Sorry, we could not find info for sight '${sightName}' in ${locationName}.`}
-                    </p>
-                </main>
-                <Footer locale={activeLocale} />
-            </div>
-        );
+        notFound();
     }
 
     const ui = uiTextsByLocale[activeLocale] || uiTextsByLocale['en'];
@@ -358,28 +345,29 @@ export async function generateMetadata({ params }: SightPageProps): Promise<Meta
     const sightData = await getSightData(location, sightName, activeLocale);
 
     if (!sightData) {
-        return {
+        return buildPageMetadata({
+            locale: activeLocale,
+            pathname: `/${location}/sight/${sightName}`,
             title: activeLocale === 'ru' ? 'Достопримечательность не найдена' : 'Sight Not Found',
-        };
+            noIndex: true,
+        });
     }
 
     const cleanDescription = sightData.description
         .replace(/<[^>]*>/g, '')
         .replace(/\s+/g, ' ')
         .trim()
-        .slice(0, 160) + '...';
+        .slice(0, 158);
 
     const locationName = (locationNames[activeLocale] || locationNames['en'])[location] || location;
 
-    return {
-        title: `${sightData.title} | ${locationName} | Dalaman.info`,
+    return buildPageMetadata({
+        locale: activeLocale,
+        pathname: `/${location}/sight/${sightName}`,
+        title: `${sightData.title} | ${locationName}`,
         description: cleanDescription,
-        openGraph: {
-            title: `${sightData.title} | ${locationName} | Dalaman.info`,
-            description: cleanDescription,
-            images: sightData.images.length > 0 ? [{ url: sightData.images[0] }] : []
-        }
-    };
+        image: sightData.images.length > 0 ? sightData.images[0] : '/hero-bg.jpg',
+    });
 }
 
 export default SightPage;

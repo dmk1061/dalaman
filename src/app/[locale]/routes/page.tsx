@@ -1,8 +1,10 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Link from 'next/link';
 import { FaCar, FaCalendarAlt, FaInfoCircle, FaMapMarkerAlt, FaClock, FaRoute, FaCompass } from 'react-icons/fa';
+import { buildPageMetadata } from '@/lib/seo';
 
 const translations: Record<string, {
     badge: string;
@@ -603,6 +605,18 @@ const RoutesPage = ({ params }: RoutesPageProps) => {
         </div>
     );
 };
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const locale = params.locale || 'en';
+  const t = translations[locale] || translations['en'];
+  return buildPageMetadata({
+    locale,
+    pathname: '/routes',
+    title: t.title,
+    description: t.subtitle,
+    image: '/api/images/locations/dacha/ruine/knidos/knidos.jpg',
+  });
+}
 
 export async function generateStaticParams() {
   return [

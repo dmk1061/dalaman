@@ -5,22 +5,37 @@ import TrekkingAtlas from '@/app/components/TrekkingAtlas';
 import Link from 'next/link';
 import { FaChevronLeft, FaRoute, FaCompass } from 'react-icons/fa';
 import { Metadata } from 'next';
+import { buildPageMetadata } from '@/lib/seo';
+
+const trekkingMetaByLocale: Record<string, { title: string; description: string }> = {
+    ru: {
+        title: 'Треккинг и Хайкинг в Турции: Атлас Ликийской и Карийской троп | Дача — Каш',
+        description: 'Исчерпывающий интерактивный атлас пешеходных маршрутов Ликийской и Карийской троп. Перепады высот, источники воды, GPS координаты и уровни сложности.',
+    },
+    en: {
+        title: 'Trekking & Hiking in Turkey: Lycian & Carian Trail Atlas | Dalaman Guide',
+        description: 'Definitive interactive atlas of hiking trails across the Lycian Way and Carian Trail. Elevation profiles, drinking fountains, GPS waypoints, and stage difficulty ratings.',
+    },
+    de: {
+        title: 'Trekking & Wandern in der Türkei: Lykischer & Karischer Weg Atlas | Dalaman Guide',
+        description: 'Interaktiver Wanderatlas für den Lykischen und Karischen Weg. Höhenprofile, Trinkwasserquellen, GPS-Koordinaten und Schwierigkeitsgrade aller Etappen.',
+    },
+    tr: {
+        title: 'Türkiye’de Trekking ve Yürüyüş: Likya ve Karya Yolu Atlası | Dalaman Rehberi',
+        description: 'Likya ve Karya Yolları için kapsamlı interaktif yürüyüş atlası. Rakım profilleri, içme suyu çeşmeleri, GPS koordinatları ve etap zorluk dereceleri.',
+    },
+};
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-    const isRu = params.locale === 'ru';
-    return {
-        title: isRu
-            ? 'Треккинг и Хайкинг в Турции: Атлас Ликийской и Карийской троп | Дача — Каш'
-            : 'Trekking & Hiking in Turkey: Lycian & Carian Trail Atlas | Dalaman Guide',
-        description: isRu
-            ? 'Исчерпывающий интерактивный атлас пешеходных маршрутов Ликийской и Карийской троп. Перепады высот, источники воды, GPS координаты и уровни сложности.'
-            : 'Definitive interactive atlas of hiking trails across the Lycian Way and Carian Trail. Elevation profiles, drinking fountains, GPS waypoints, and stage difficulty ratings.',
-        openGraph: {
-            title: isRu ? 'Атлас Треккинга Ликийской Тропы' : 'Lycian Way Trekking Atlas',
-            description: isRu ? 'Все этапы и тропы: от Оваджика до Каша и полуострова Датча' : 'All stages and trails: from Ovacik to Kas and Datca Peninsula',
-            images: ['/api/images/locations/fethiye/beach/belcekiz/belcekiz.jpg']
-        }
-    };
+    const locale = params.locale || 'en';
+    const meta = trekkingMetaByLocale[locale] || trekkingMetaByLocale['en'];
+    return buildPageMetadata({
+        locale,
+        pathname: '/routes/trekking',
+        title: meta.title,
+        description: meta.description,
+        image: '/api/images/locations/fethiye/beach/belcekiz/belcekiz.jpg',
+    });
 }
 
 export default function TrekkingRoutesPage({ params: { locale } }: { params: { locale: string } }) {

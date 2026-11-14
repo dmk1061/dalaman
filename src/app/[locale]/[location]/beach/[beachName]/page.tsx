@@ -7,6 +7,8 @@ import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import { FaChevronRight, FaHome, FaCity, FaUmbrellaBeach } from 'react-icons/fa';
 import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import { buildPageMetadata } from '@/lib/seo';
 
 import { remark } from 'remark';
 import html from 'remark-html';
@@ -163,24 +165,7 @@ const BeachPage = async ({ params }: BeachPageProps) => {
     };
 
     if (!beachData) {
-        return (
-            <div className="flex flex-col min-h-screen bg-slate-50">
-                <Header locale={activeLocale} />
-                <main className="flex-grow flex items-center justify-center p-20">
-                    <div className="text-center">
-                        <h1 className="text-3xl font-extrabold text-slate-900 mb-3">
-                            {activeLocale === 'ru' ? 'Пляж не найден' : 'Beach Not Found'}
-                        </h1>
-                        <p className="text-slate-500">
-                            {activeLocale === 'ru'
-                                ? `К сожалению, мы не смогли найти информацию о пляже «${beachName}».`
-                                : `Sorry, we could not find info for beach '${beachName}'.`}
-                        </p>
-                    </div>
-                </main>
-                <Footer locale={activeLocale} />
-            </div>
-        );
+        notFound();
     }
 
     const heroImage = beachData.images.length > 0 ? beachData.images[0] : `/api/images/locations/${location}/beach/${beachName}/hero.jpg`;
@@ -364,28 +349,29 @@ export async function generateMetadata({ params }: BeachPageProps): Promise<Meta
     const beachData = await getBeachData(location, beachName, activeLocale);
 
     if (!beachData) {
-        return {
+        return buildPageMetadata({
+            locale: activeLocale,
+            pathname: `/${location}/beach/${beachName}`,
             title: activeLocale === 'ru' ? 'Пляж не найден' : 'Beach Not Found',
-        };
+            noIndex: true,
+        });
     }
 
     const cleanDescription = beachData.description
         .replace(/<[^>]*>/g, '')
         .replace(/\s+/g, ' ')
         .trim()
-        .slice(0, 160) + '...';
+        .slice(0, 158);
 
     const locationName = (locationNames[activeLocale] || locationNames['en'])[location] || location;
 
-    return {
-        title: `${beachData.title} | ${locationName} | Dalaman.info`,
+    return buildPageMetadata({
+        locale: activeLocale,
+        pathname: `/${location}/beach/${beachName}`,
+        title: `${beachData.title} | ${locationName}`,
         description: cleanDescription,
-        openGraph: {
-            title: `${beachData.title} | ${locationName} | Dalaman.info`,
-            description: cleanDescription,
-            images: beachData.images.length > 0 ? [{ url: beachData.images[0] }] : []
-        }
-    };
+        image: beachData.images.length > 0 ? beachData.images[0] : '/hero-bg.jpg',
+    });
 }
 
 export default BeachPage;
