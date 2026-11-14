@@ -1,0 +1,14 @@
+node_modules
+.next
+.git
+.github
+.idea
+.vscode
+.aider*
+data
+tmp
+deploy
+*.log
+*.tsbuildinfo
+.env*
+!.env.example

@@ -1,0 +1,41 @@
+name: Deploy Dalaman.info to Contabo VPS
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: deploy-contabo-dalaman
+      cancel-in-progress: false
+
+    steps:
+      - name: Deploy over SSH to isolated /var/www/dalaman.info
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.CONTABO_HOST }}
+          username: ${{ secrets.CONTABO_USER }}
+          key: ${{ secrets.CONTABO_SSH_KEY }}
+          port: ${{ secrets.CONTABO_PORT || 22 }}
+          script_stop: true
+          script: |
+            set -e
+            APP_DIR="/var/www/dalaman.info"
+            if [ ! -d "$APP_DIR/.git" ]; then
+              echo "Directory $APP_DIR is not initialized. Run initial setup first."
+              exit 1
+            fi
+            cd "$APP_DIR"
+            git fetch origin main
+            git reset --hard origin/main
+            mkdir -p "$APP_DIR/data"
+            if [ ! -f "$APP_DIR/.env.production" ]; then
+              cp "$APP_DIR/.env.production.example" "$APP_DIR/.env.production"
+            fi
+            docker compose -f docker-compose.prod.yml up -d --build
+            docker image prune -f
+            echo "Dalaman.info successfully deployed on 127.0.0.1:3040"
