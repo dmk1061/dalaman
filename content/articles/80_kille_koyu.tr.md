@@ -1,33 +1,33 @@
 ---
-title: "Gezi ve Keşif Rehberi: Kille Bay"
+title: "Kille Koyu (Göcek): Çamların Altında Şemsiyesiz Yüzme ve Orman Yangını Uyarısı"
 slug: "kille-bay"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Göcek Kille Koyu rehberi: asırlık çam gölgesi, denizdeki soğuk kaynak suları, 7 km stabilize orman yolu, Bizans kilisesi kalıntısı ve kesin Haziran–Ekim mangal/ateş yasağı."
 ---
 
-# Gezi ve Keşif Rehberi: Kille Bay
+# Kille Koyu: Çam Gölgesinde Şemsiyesiz Kıyı ve Kesin Ateş Yasağı
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+**[Göcek](/tr/gocek)** Körfezi'nin iç ceplerinden birinde saklanan Kille Koyu, asırlık kızılçam ağaçlarının neredeyse denizin içine eğildiği bakir bir sığınaktır. Göcek marina merkezinden veya Dalaman Havalimanı'ndan karayoluyla yaklaşık **35–40 dakika** (Fethiye'den **~1 saat**) mesafede olmasına rağmen yerleşimden tamamen kopuktur; sahilin doğal ağaç örtüsü öylesine sıkıdır ki yaz ortasında bile **şemsiye taşımanıza gerek kalmaz**, doğrudan çamların serin gölgesine havlunuzu serebilirsiniz (**[Göcek rehberi](/tr/articles/gocek-guide)**).
 
-**Kille Bay ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+## Soğuk Kaynak Suları ve Ormandaki Bizans Kalıntısı
 
-## Öne Çıkan Özellikler ve Detaylar
-kille bay bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Kille Koyu'nun sahili çakıl ve taş karışımıdır (**deniz ayakkabısı** konforunuzu ikiye katlar) ve su çok berraktır (**[plaj rehberi](/tr/articles/beaches)**). Yüzerken koyun kıyı şeridinde suyun içine karışan **soğuk yeraltı tatlı su kaynaklarını** hemen hissedersiniz; sıcak Ağustos günlerinde bu serin cepler suyun içinde doğal klima etkisi yaratır. Havlunuzun arkasındaki çamlık açıklığa birkaç adım attığınızda ise duvar taşları yosun tutmuş sessiz bir **Bizans dönemi kilise kalıntısı** sizi karşılar.
 
-## Nasıl Gidilir ve Ulaşım Seçenekleri
-Bölgeye ulaşım, gelişmiş transfer ve toplu taşıma ağı sayesinde oldukça kolaydır. Dalaman Havalimanı'ndan (DLM) özel transfer araçlarını kullanabilir, terminalden araç kiralayabilir veya [Fethiye](/tr/fethiye) ve [Marmaris](/tr/marmaris) yönüne giden servis otobüslerini (`Havaş` / `Muttaş`) tercih edebilirsiniz. Çevre beldeler ve plajlar arasındaki ulaşım ise sabah erken saatlerden gece yarısına kadar düzenli çalışan dolmuşlarla sağlanır.
+## 7 Kilometrelik Orman Yolu ve Tekne Saatleri
 
-## Öne Çıkan Özellikler ve Detaylar
-kille bay bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Koya Dalaman–Göcek anayolunun yaklaşık **13. kilometresinden** sapılarak girilen **7 kilometrelik stabilize toprak orman yolu** ile inilir. Normal binek araçlar yolu yavaş ve taşlara dikkat ederek sorunsuz tamamlar; yüksek yaz sezonunda orman kapısında makul bir araç giriş ücreti alınabilir.
 
-### Öne Çıkan Özellikler ve Detaylar
-kille bay bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Öğle saatlerinde Göcek çıkışlı **12 Adalar** tur tekneleri Kille açıklarına demirler (**[koylar ve adalar](/tr/articles/islands-bays)**). Araçla geliyorsanız koyun en sessiz halini **08:30–11:30** arası veya teknelerin demir aldığı **16:00 sonrası** yakalarsınız. Komşu koy arayışındaysanız biraz batıdaki **[Sarsala Koyu](/tr/articles/sarsala-bay)** benzer vahşi doğa atmosferi sunar.
 
+## KRİTİK UYARI: Kesin Yangın ve Mangal Yasağı (Haziran–Ekim)
 
----
+Kille Koyu doğrudan birinci derece hassas kızılçam ormanı sınırları içindedir. Yaz aylarında Muğla Valiliği ve **Orman Genel Müdürlüğü (OGM)** kararları doğrultusunda sıkı **[orman yangını ve giriş yasakları](/tr/articles/national-parks-and-nature-reserves)** uygulanır:
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — Fethiye, Marmaris, [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+* **Ateş, Mangal ve Ocak Kesinlikle Yasak:** Kıyıda ve ağaç altında **mangal yakmak, kamp ateşi tutuşturmak, portatif gazlı piknik ocağı çalıştırmak ve yere izmarit atmak kesinlikle yasaktır** (**[eko-turizm ve çevre kuralları](/tr/articles/eco-tourism-and-volunteering)**). Jandarma ve orman muhafaza ekipleri düzenli devriye gezer; yüksek rüzgâr ve aşırı sıcaklık günlerinde giriş bariyeri tamamen kapatılabilir.
+* **Hazırlıklı Gelin:** Koyda büyük bir restoran, zincir market veya güçlü cep telefonu sinyali yoktur. Yanınıza önceden hazırlanmış soğuk sandviç, termos su, nakit ve **tüm çöplerinizi geri taşımak için poşet** almayı unutmayın (**[pratik kurallar](/tr/articles/useful-tips)**).
+
+## Çanta Kontrol Listesi, Yol Kontrolü ve Tekne Seçeneği
+
+* **Bagaja Koyulacaklar:** Gölgelik piknik için ince bir kilim veya katlanır kamp sandalyesi, bol içme suyu bidonu, kayalık kıyıda deniz ayakkabısı, çamlığın ardındaki yosun tutmuş **Bizans kilisesi kalıntısını** rahatça gezebilmek için kapalı yürüyüş ayakkabısı ve şnorkel takımı günü kusursuz kılar.
+* **Kış Yağışları ve Araçsız Ulaşım:** Kuru sezon olan **Mayıs–Ekim** aylarında 7 kilometrelik stabilize orman yolu standart bir binek otomobille sorunsuz geçilir; ancak sert kış ve erken ilkbahar sağanaklarının ardından yolda yer yer yağmur suyu yarıkları oluşabilir — bu dönemlerde orta çizgiyi takip edip hız düşürmek gerekir. Aracınız yoksa dağ yoluna girmek yerine Göcek çıkışlı **[yat ve günlük tekne turları](/tr/services/yacht-rental)** ile doğrudan koyun açıklarına demirleyebilirsiniz.
+
+<!-- SOURCE [19.11.2026]: Muğla Orman Bölge Müdürlüğü yaz dönemi orman yangını önlemleri ve Kille Koyu saha erişim bilgileri (URL: https://www.ogm.gov.tr/) -->

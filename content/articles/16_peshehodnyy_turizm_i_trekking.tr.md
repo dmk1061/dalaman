@@ -1,33 +1,53 @@
 ---
-title: "Gezi ve Keşif Rehberi: Trekking"
+title: "Dalaman Çevresinde Yürüyüş ve Trekking: Likya Yolu ve Karya Yolu"
 slug: "trekking"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Datça'dan Kaş'a günübirlik trekking rehberi: Likya ve Karya Yolunun en manzaralı parkurları, su kaynakları, kaygan kireçtaşı uyarısı ve yaz orman yasakları."
 ---
 
-# Gezi ve Keşif Rehberi: Trekking
+# Likya ve Karya Yolu: Çanta Taşımadan Günübirlik Yürüyüş Rotaları
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+**[Dalaman](/tr/dalaman)** kıyısının neredeyse tüm dağ geçitleri, D400 asfaltı dökülmeden yüzlerce yıl önce antik kentleri ve yayla köylerini birbirine bağlayan taş katır yollarıyla örülüydü. Bugün bu tarihî izler Türkiye'nin en ünlü iki işaretli uzun mesafe yürüyüş rotasına hayat veriyor: **Likya Yolu** ve daha sakin **Karya Yolu**.
 
-**Trekking ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+Bu manzaraları görmek için sırtınızda 15 kiloluk kamp çantasıyla iki hafta yürümek zorunda değilsiniz. Bölgenin en etkileyici etapları 2 ila 6 saatlik hafif günübirlik yürüyüşlerle tamamlanıp akşam denize ve sıcak akşam yemeğine dönülecek biçimde planlanabilir.
 
-### Öne Çıkan Özellikler ve Detaylar
-trekking bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+<!-- SOURCE [19.11.2026]: Likya Yolu (~540 km, 1999) ve Karya Yolu (~850 km) parkur uzunlukları (URL: https://www.cultureroutesinturkey.com); su çeşmeleri ve irtifa verileri src/app/components/TrekkingAtlas.tsx modülünden derlenmiştir -->
 
-### Öne Çıkan Özellikler ve Detaylar
-trekking bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Likya Yolu: Fethiye ve Kaş Arasındaki Klasikler
 
-### Nasıl Gidilir ve Ulaşım Seçenekleri
-Bölgeye ulaşım, gelişmiş transfer ve toplu taşıma ağı sayesinde oldukça kolaydır. Dalaman Havalimanı'ndan (DLM) özel transfer araçlarını kullanabilir, terminalden araç kiralayabilir veya [Fethiye](/tr/fethiye) ve [Marmaris](/tr/marmaris) yönüne giden servis otobüslerini (`Havaş` / `Muttaş`) tercih edebilirsiniz. Çevre beldeler ve plajlar arasındaki ulaşım ise sabah erken saatlerden gece yarısına kadar düzenli çalışan dolmuşlarla sağlanır.
+Ovacık'taki (Ölüdeniz sırtı) başlangıç takından Antalya yönüne doğru yaklaşık **540 kilometre** uzanan kırmızı-beyaz işaretli Likya Yolu'nun en güzel günübirlik üç etabı bölgemizde bulunur:
 
-### Öne Çıkan Özellikler ve Detaylar
-trekking bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+1. **[Kayaköy](/tr/articles/kayakoy-ghost-town) → Ölüdeniz (~6 km, 2–2,5 saat):** İlk kez yürüyecekler için ideal başlangıç parkuru. Mübadeleden kalma boş taş kiliselerin yanından başlayıp çam ormanının gölgesine dalar ve doğrudan Ölüdeniz Lagünü'nün masmavi koyuna iner.
+2. **Ovacık → Kirme → Faralya (~14 km, 4,5–5 saat):** Likya Yolu'nun ikonik tam gün etabı. **[Babadağ](/tr/articles/babadag)** yamacındaki yüksek toprak yoldan ve patikalardan ilerlerken yanınızdan süzülen paraşütleri izlersiniz; yürüyüşün ödülü ise **[Kelebekler Vadisi](/tr/articles/butterfly-valley)**'nin 350 metrelik dik kayalıklarının tepeden seyredildiği Faralya olur (dönüş Faralya'dan minibüsle yapılabilir).
+3. **Patara / Kalkan ve [Kaş](/tr/articles/kas-guide) → Limanağzı → Üçağız:** Doğu hattında zeytinlikler ve lahitlerin arasından geçip kıyı koylarına iner; Limanağzı etabını tamamladıktan sonra Kaş limanına dolmuş teknesiyle kolayca dönersiniz.
 
+## Karya Yolu: Datça ve Bozburun Yarımadaları
+
+Likya Yolu'ndan daha sonra işaretlenen (~850 km) **Karya Yolu**, Muğla coğrafyasını çevreler ve çok daha az kalabalıktır; antik teras duvarları, badem bahçeleri ve ıssız burunlar boyunca uzanır:
+
+* **Bozburun Yarımadası (Marmaris Güneyi):** **Turunç → Antik Amos → Kumlubük** kıyı etabı ile **Selimiye** ve **Bozburun** çevresindeki kekik kokulu deniz manzaralı sırt patikaları hem görsel hem orta zorluktadır.
+* **[Datça Yarımadası](/tr/articles/datca-peninsula):** **Eski Datça** taş sokaklarından çam gölgeli **Kargı Koyu**na (~3 km), oradan da **Palamutbükü** ve iki denizin birleştiği **Knidos** antik kentine uzanan esintili kıyı yürüyüşleri sunar.
+
+## Kısa ve Kolay Doğa Yürüyüşleri
+
+Tam günlük trekking donanımı gerektirmeyen, normal spor ayakkabıyla 1–2 saatte gezilecek kısa rotalar:
+
+* **[Marmaris](/tr/marmaris) Millî Parkı:** Cennet (Nimara) Yarımadası sırtından **Nimara Mağarası**na çıkan yaklaşık 30–40 dakikalık gölgeli orman parkuru.
+* **[Dalyan](/tr/articles/dalyan-guide):** Kayıkla nehrin karşısına geçip antik **Kaunos Akropolü**'ne tırmanarak tüm deltanın ve İztuzu'nun kuşbakışı manzarasını izlemek.
+* **Eski Datça ve Kumluk Yolu:** Sabah kahvaltısı sonrası badem ve begonvil sokaklarında tempolu yürüyüş.
+
+## Mevsim, Su ve Hayati Güvenlik Kuralları
+
+> [!TIP]
+> **Yaz Aylarında Neden Yürümemeli?** Temmuz ve Ağustos aylarında uzun trekking rotalarını kesinlikle planlamayın. İlk olarak açık kireçtaşı kayalarda sıcaklık +38 °C'nin üzerine çıkar ve haritada görünen pek çok yayla **çeşmesi** yaz ortasında kurur. İkincisi ve daha önemlisi: Muğla ve Antalya Valilikleri yangın riskine karşı Haziran–Ekim arasında dönemsel **Ormanlara Giriş Yasağı** uygular ve jandarma devriye gezer. İdeal trekking pencereleri **Nisan–Mayıs** ve **Eylül–Kasım** aylarıdır.
+
+* **Ayakkabı Seçimi:** Likya Yolu'nun beyaz kireçtaşı yüzyıllardır cilalanmış gibi pürüzsüz ve kaygandır. Düz tabanlı günlük sneaker veya sandaletle bilek burkulması riski çok yüksektir; mutlaka derin dişli **trekking ayakkabısı** giyin.
+* **Su ve Çevrimdışı Harita:** Yarım günlük çıkışta bile kişi başı en az **2,5–3 litre su** taşıyın. Ölüdeniz–Faralya–Kabak arasındaki vadilerde telefon sinyali sık sık kesildiği için çıkmadan önce `Organic Maps` veya `Wikiloc` uygulamalarına bölge haritasını ve su çeşmelerini çevrimdışı indirin.
+* **Başlangıç ve Dönüş Ulaşımı:** Fethiye'den Ovacık ve Kayaköy'e minibüsler sıktır; ancak Faralya, Kabak veya Knidos gibi uç noktalardan dönecekseniz son minibüs saatini sabah binişte şoförden teyit edin.
 
 ---
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — Fethiye, Marmaris, [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+### 🔗 İlgili Rehberler
+- **[İnteraktif Likya ve Karya Trekking Atlası](/tr/routes/trekking)** — 12 etabın irtifa profilleri, GPS izleri ve çeşme noktaları.
+- **[İklim ve Mevsim Takvimi](/tr/articles/climate-and-seasons)** — Sıcaksız yürüyüş aylarını seçme.
+- **[Millî Parklar ve Orman Yasakları](/tr/articles/national-parks-and-nature-reserves)** — Yaz dönemi yasak tarihleri ve kurallar.
+- **[Yamaç Paraşütü ve Aktif Tatil](/tr/articles/paragliding)** — Babadağ, rafting ve deniz kayağı seçenekleri.

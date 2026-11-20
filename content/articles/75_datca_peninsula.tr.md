@@ -1,42 +1,61 @@
 ---
-title: "Gezi ve Keşif Rehberi: Datca Peninsula"
+title: "Datça Yarımadası: Badem Çiçekleri, Eski Datça, Knidos ve Sessiz Koylar"
 slug: "datca-peninsula"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Datça Yarımadası kapsamlı rehberi: Kumluk Plajı, Can Yücel'in Eski Datça sokakları, Knidos Antik Kenti (MüzeKart geçerliliği), Palamutbükü koyları ve Bodrum feribotu."
 ---
 
-# Gezi ve Keşif Rehberi: Datca Peninsula
+# Datça Yarımadası: İki Denizin Arasında Badem ve Rüzgâr Ülkesi
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+**[Marmaris](/tr/marmaris)**'ten batıya dönüp dağ sırtını aştığınızda yarımada birden daralır: solunuzda Akdeniz'in lacivert Hisarönü Körfezi, sağınızda Ege'nin Gökova Körfezi... **80 kilometrelik** bu ince yarımada, Akdeniz nemini kıran kuru ve serin *meltem* rüzgârı, badem bahçeleri, yabani kekik kokusu ve şair Can Yücel'in dizeleriyle özdeşleşmiş dinginliğiyle **[bölgenin diğer tüm beldelerinden](/tr/dacha)** ayrı durur. Hakkını vermek ve virajlarda acele etmemek için en az **2–3 gece** ayırmak gerekir.
 
-**Datca Peninsula ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+## Merkezdeki Üç Ana Durak ve Knidos Ucu
 
-## Öne Çıkan Özellikler ve Detaylar
-datca peninsula bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+* **Kumluk Plajı (Merkez):** Gündüzleri şehir içi kumsalı olarak yüzülen dar şerit, güneş battıktan sonra masaların doğrudan kumun üstüne kurulduğu, dalgaların ayaklarınızın dibine vurduğu meşhur açık hava akşam sofralarına dönüşür.
+* **Eski Datça:** Merkezden iki kilometre içeride, begonvillerin taştan duvarlardan taştığı, trafik gürültüsünün girmediği mahalle. **Can Yücel**'in yaşamış olduğu evin bulunduğu sokak, küçük seramik atölyeleri ve kahve bahçeleri sabah erken saatlerde en fotojenik halindedir.
+* **Knidos Antik Kenti:** Yarımadanın en batı ucunda, Ege ile Akdeniz'in tam birleştiği **Deveboynu Feneri**'nin altında kurulu iki limanlı antik kent. Praksiteles'in ünü antik dünyayı aşan çıplak *Afrodit* heykelinin kaidesi, matematikçi Eudoksos'un güneş saati ve denize bakan antik tiyatro buradadır (**[antik kentler rehberi](/tr/articles/ancient-cities)**). **T.C. MüzeKart (2026: yıllık 300 ₺)** Knidos'ta **geçerlidir** (yabancı misafirler için giriş ~5 €).
 
-### Öne Çıkan Özellikler ve Detaylar
-datca peninsula bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Bükler: Hangi Koy Kime Göre?
 
-### Öne Çıkan Özellikler ve Detaylar
-datca peninsula bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Datça'nın asıl cevheri, güney kıyısı boyunca sıralanan ve "bük" denen korunaklı koylardır:
 
-### Öne Çıkan Özellikler ve Detaylar
-datca peninsula bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+<div class="overflow-x-auto my-6 rounded-xl border border-slate-200"><table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-slate-50 border-b border-slate-200">
+<th class="p-3 font-semibold text-slate-800">Koy / Bük</th>
+<th class="p-3 font-semibold text-slate-800">Zemin ve Su Yapısı</th>
+<th class="p-3 font-semibold text-slate-800">Öne Çıkan Özellik</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-slate-200">
+<tr>
+<td class="p-3 font-medium"><strong>Palamutbükü</strong></td>
+<td class="p-3">İri beyaz çakıl, cam gibi su</td>
+<td class="p-3">Yarımadanın en uzun sahili, gölgeli iskele restoranları</td>
+</tr>
+<tr>
+<td class="p-3 font-medium"><strong>Hayıtbükü</strong></td>
+<td class="p-3">İnce kum, sığ ve korunaklı</td>
+<td class="p-3">Küçük aile butik otelleri, çocuklu aileler için ideal</td>
+</tr>
+<tr>
+<td class="p-3 font-medium"><strong>Ovabükü</strong></td>
+<td class="p-3">Kum-çakıl karışımı</td>
+<td class="p-3">Geniş vadi tabanı, sakin pansiyon bahçeleri</td>
+</tr>
+<tr>
+<td class="p-3 font-medium"><strong>Kargı Koyu</strong></td>
+<td class="p-3">Pürüzsüz çakıl, serin su</td>
+<td class="p-3">Merkeze 3 km, kuzey rüzgârına tamamen kapalı</td>
+</tr>
+</tbody>
+</table></div>
 
-## Öne Çıkan Özellikler ve Detaylar
-datca peninsula bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Doğa yürüyüşü meraklıları içinse Gökova yakasındaki **Hurmalıbük** koyu, Türkiye'nin nadir endemik **Datça hurması (*Phoenix theophrasti*)** topluluklarından birini barındırır (**[flora ve fauna](/tr/articles/flora-fauna)**). Doğu girişindeki Kızlan–Gebekum şeridi ise rüzgâr sörfü ve **[kite surf tutkunlarının](/tr/articles/kitesurfing)** adresidir.
 
-## Nasıl Gidilir ve Ulaşım Seçenekleri
-Bölgeye ulaşım, gelişmiş transfer ve toplu taşıma ağı sayesinde oldukça kolaydır. Dalaman Havalimanı'ndan (DLM) özel transfer araçlarını kullanabilir, terminalden araç kiralayabilir veya [Fethiye](/tr/fethiye) ve [Marmaris](/tr/marmaris) yönüne giden servis otobüslerini (`Havaş` / `Muttaş`) tercih edebilirsiniz. Çevre beldeler ve plajlar arasındaki ulaşım ise sabah erken saatlerden gece yarısına kadar düzenli çalışan dolmuşlarla sağlanır.
+## Ulaşım, Bodrum Feribotu ve Yerel Alışveriş
 
-### Öne Çıkan Özellikler ve Detaylar
-datca peninsula bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Marmaris'ten Datça'ya **70 kilometrelik** (**~1 saat 15 dakika**), Dalaman Havalimanı'ndan ise toplam **~160 kilometrelik** (**~2,5 saat**) bir sürüş gerekir. Eğer devamında Bodrum rotasına geçecekseniz Gökova Körfezi'nin çevresini **3,5–4 saat** dolaşmak yerine **Körmen Limanı (Datça) ↔ Bodrum arabalı feribotunu** kullanabilirsiniz: yolculuk **1 saat 45 dakika** sürer (güncel sezonda yaya yolcu ~875–1.000 ₺, binek araç ~2.950–3.450 ₺ bandında; yüksek sezonda önceden bilet ayırtmak şarttır; bkz. **[ulaşım rehberi](/tr/articles/transport)**).
 
+**Cumartesi Pazarı**'ndan taze çağla veya kavrulmuş Datça bademi, kekik balı ve doğal **keçiboynuzu pekmezi** almadan dönmeyin (**[bölge pazarları](/tr/articles/markets-shopping)**).
 
----
-
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — Fethiye, Marmaris, [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+<!-- SOURCE [19.11.2026]: T.C. Kültür ve Turizm Bakanlığı Knidos Örenyeri verileri ve Datça Belediyesi yarımada rehberi (URL: https://muze.gov.tr/) -->

@@ -1,36 +1,36 @@
 ---
-title: "Gezi ve Keşif Rehberi: Icmeler"
+title: "İçmeler (Marmaris): Çam Kokulu Koyu, Şifalı Suları ve Eski Köyü ile Sakin Kaçamak"
 slug: "icmeler"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Marmaris'in hemen güneyindeki İçmeler'in kapsamlı gezi rehberi: 8 km sahil yolu, kum-çakıl plajı, Eski Köy sokakları, Çarşamba Pazarı ve deniz taksisi ulaşımı."
 ---
 
-# Gezi ve Keşif Rehberi: Icmeler
+# İçmeler (Marmaris): Şifalı Suların ve Çamların Arasında Sakin Kıyı
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+**[Marmaris](/tr/marmaris)**'in hareketli merkezinden yalnızca **8 kilometre** güneyde yer almasına rağmen İçmeler, virajı döndüğünüz anda bambaşka bir ritme geçer. Yarım ay biçimindeki koyun üç yanını kuşatan çam ormanları sıcağı yumuşatır; Barlar Sokağı'nın temposu yerini bisiklet zillerine, çocuk kahkahalarına ve sabah yürüyüşlerine bırakır. Bölgenin adı da eski çağlardan beri mide ve sindirim rahatsızlıklarına iyi geldiği bilinen doğal maden sularından (*içmeler*) gelir.
 
-**Icmeler ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+## Plaj Dokusu ve Deniz Karakteri
 
-## Öne Çıkan Özellikler ve Detaylar
-icmeler bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Körfezdeki pek çok koyun aksine **[İçmeler plajı](/tr/articles/beaches)** iri taneli altın-gri kum ve ince çakıl karışımından oluşur. Kıyıya paralel yükselen çam dağlarından süzülen soğuk tatlı su kaynakları denize karıştığı için su hem berraktır hem de Ağustos ortasında bile Marmaris merkezine kıyasla bir-iki derece daha serin ve ferah kalır. Kıyı eğimi çocuklu aileler ve yüzme bilenler için dengelidir; ilk birkaç adımda ani bir derinleşme yaşanmaz.
 
-## Öne Çıkan Özellikler ve Detaylar
-icmeler bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+* **Ücretsiz Halk Plajı ve İşletmeler:** Sahil şeridinin belirli bölümleri halka açık havluluk alan olarak bırakılmıştır. Kafe ve otellerin önündeki şezlong-şemsiyeler ise çoğunlukla içecek/yemek harcaması karşılığı ya da günlük makul kiralama bedeliyle sunulur.
+* **Su Sporları Düzeni:** Su kayağı, kano ve paraşüt gibi aktiviteler koy ortasındaki şamandıralı hatların dışına yönlendirilir; sabah 08:00–10:30 arası yüzmek için koyun en durgun saatleridir.
 
-## Öne Çıkan Özellikler ve Detaylar
-icmeler bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## 8 Kilometrelik Sahil Yürüyüş ve Bisiklet Yolu
 
-## Nasıl Gidilir ve Ulaşım Seçenekleri
-Bölgeye ulaşım, gelişmiş transfer ve toplu taşıma ağı sayesinde oldukça kolaydır. Dalaman Havalimanı'ndan (DLM) özel transfer araçlarını kullanabilir, terminalden araç kiralayabilir veya [Fethiye](/tr/fethiye) ve [Marmaris](/tr/marmaris) yönüne giden servis otobüslerini (`Havaş` / `Muttaş`) tercih edebilirsiniz. Çevre beldeler ve plajlar arasındaki ulaşım ise sabah erken saatlerden gece yarısına kadar düzenli çalışan dolmuşlarla sağlanır.
+İçmeler'i Marmaris'in diğer uydu beldelerinden ayıran en büyük artı, kıyı boyunca uzanan kesintisiz, araç trafiğine kapalı **8 kilometrelik yaya ve bisiklet yoludur**. Pamucak'tan Siteler üzerinden Marmaris Yat Limanı'na kadar uzanan bu hat düz zeminlidir; bebek arabasıyla, sabah koşusuyla veya akşamüstü bisiklet sürüşüyle yorulmadan tamamlanır. Yürüyerek yaklaşık **1–1,5 saat**, kiralık bisikletle ise **25 dakika** sürer. Akşam karanlığında **[gece hayatı](/tr/articles/nightlife-clubs-and-bars)** için Marmaris merkeze inip taksi ya da dolmuşla dönmek bu sayede zahmetsizdir.
 
-### Öne Çıkan Özellikler ve Detaylar
-icmeler bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Eski Köy, Çarşamba Pazarı ve Çevre Rotalar
 
+Sahil otellerinin arkasında kalan, gölgesini kaybetmemiş **Eski Köy** mahallesi günübirlikçilerin büyük bölümünün gözünden kaçar. Sahilden içe doğru **15–20 dakikalık** yürüyüşle ulaşılan taş evli dar sokaklarda köy kahveleri, begonvilli bahçeler ve sakin **[konaklama](/tr/articles/accommodation)** seçenekleri (butik apartlar, küçük aile pansiyonları) bulunur.
 
----
+Alışveriş için en hareketli gün ise haftada yalnızca bir kez, **Çarşamba günleri** kurulan **Çarşamba Pazarı**dır. Kapalı pazar alanı çevresindeki tezgâhlarda Datça bademi, dağ kekiği, köy zeytinyağı, taze sebze-meyve ve yazlık tekstil ürünleri satılır (diğer **[bölge pazarları](/tr/articles/markets-shopping)** ile karıştırmamak için günü not edin). Daha ıssız bir koy atmosferi arıyorsanız dağ yolundan **[Turunç](/tr/articles/turunc)** tarafına geçebilir veya daha güneydeki **[Çiftlik Koyu](/tr/articles/ciftlik-bay)** rotasına uzanabilirsiniz.
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — Fethiye, Marmaris, [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+## Ulaşım ve Pratik Bilgiler
+
+Dalaman Havalimanı'na (**DLM**) karayoluyla mesafe yaklaşık **105 kilometredir** (**1 saat 45 dakika**; ayrıntılar **[Dalaman Havalimanı rehberinde](/tr/articles/airport-dalaman)**). Bölge içi **[ulaşım ağı](/tr/articles/transport)** oldukça sıktır:
+
+* **Dolmuş ve MUTTAŞ:** Marmaris merkez ile İçmeler arasında gün boyu her **5–10 dakikada bir** turuncu dolmuşlar çalışır. Ayrıca **MuğlaKart** (veya temassız banka kartı) geçerli **MUTTAŞ** belediye otobüsleri düzenli sefer yapar.
+* **Deniz Taksisi:** Mayıs–Ekim döneminde sahil iskelesinden Marmaris merkeze ve Turunç'a tekne dolmuşlar kalkar (~**30 dakika**); asfalt sıcağından kaçınmak için keyifli bir alternatiftir.
+* **Eczane ve Banka:** Merkezde sağlık ocağı, eczaneler, süpermarketler ve yerli banka ATM'leri yürüyüş mesafesindedir; gece nöbetçi eczane sırası Marmaris merkezle ortak yürütülür.
+
+<!-- SOURCE [19.11.2026]: Muğla Büyükşehir Belediyesi MUTTAŞ sefer hatları ve Marmaris Belediyesi Çarşamba Pazarı saha kayıtları (URL: https://ulasim.mugla.bel.tr/) -->

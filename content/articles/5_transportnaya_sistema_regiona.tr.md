@@ -1,105 +1,97 @@
 ---
-title: "Transportation in the Dalaman Region: Dolmuses, Buses, and Taxis"
+title: "Datça'dan Kaş'a Ulaşım: Dolmuşlar, MUTTAŞ, MuğlaKart, Taksi ve Feribotlar"
 slug: "transport"
-description: "How to get around the Lycian Coast: dolmuses, taxis, car rentals, and water transport. Everything about the region's transport in one place."
+description: "Bölgede arabasız gezme rehberi: 2026 MuğlaKart ve MUTTAŞ ücretleri, ilçe dolmuşları, UKOME taksi tarifesi, Rodos/Meis kapıda vize ve Datça–Bodrum feribotu."
 ---
 
+# Datça'dan Kaş'a Ulaşım: Dolmuşlar, MUTTAŞ, Taksi ve Feribotlar
 
-# Transportation System of the Dalaman Region
+**[Dalaman](/tr/dalaman)** çevresindeki koy ve beldeleri kendi aracınız olmadan gezmek ilk bakışta göründüğünden çok daha kolaydır. Bölgenin tamamı tek bir ana omurga olan **D400 karayoluna** bağlanır; yarımadalar ve koylara ise düzenli dolmuş ve belediye hatları iner. Yerel minibüs kooperatiflerinin, **MUTTAŞ** otobüslerinin ve kıyı teknelerinin mantığını çözdüğünüzde aynı tatilde **[Fethiye](/tr/fethiye)**, **[Dalyan](/tr/dalyan)**, **[Kaş](/tr/kas)** ve hatta karşı yakadaki Yunan adalarını kolayca birleştirebilirsiniz.
 
-**Well-planned travel around the region is the key to a rich and comfortable vacation. The transportation network here is well-developed but has its own specifics. From budget minibuses to comfortable transfers and rental cars—every tourist will find a suitable option.**
+Tek önemli idari ayrıntı şudur: Datça'dan Eşen Çayı'na kadar uzanan kıyı şeridi **Muğla Büyükşehir Belediyesi** sorumluluğundadır; Patara'yı geçip Kalkan ve Kaş'a girdiğiniz anda **Antalya** il sınırına geçersiniz ve hem toplu taşıma kartı hem de minibüs işletmecileri değişir.
 
-![Dalaman Coast](/dalaman1.jpg)
+<!-- SOURCE [19.11.2026]: 2026 MuğlaKart ve MUTTAŞ otobüs tarifeleri (URL: https://www.muttas.com.tr); UKOME Muğla taksi tarifeleri (URL: https://www.mugla.bel.tr/ukome); Datça–Bodrum feribot tarifeleri (URL: https://www.bodrumferibot.com) ve src/lib/transport-data.ts verileri -->
 
----
+## Dolmuşlar ve MUTTAŞ: Kart, Temassız Ödeme ve Durak Düzeni
 
-The [Dalaman](/tr/dalaman) coast is not just a beautiful place, but also a well-designed transport network. From budget minibuses to comfortable transfers and rental cars, there is an option for every type of traveler. Understanding the local ways of getting around will make your trip significantly easier and richer.
+Kıyı içi ulaşımın belkemiğini belediyeye bağlı **MUTTAŞ** otobüsleri ile ilçe içi **ÖTTA / dolmuş** hatları oluşturur. Şehir merkezlerinde yalnızca `D` (*Durak*) tabelalarında duran araçlar, şehirlerarası kıyı yollarında ve köy girişlerinde el kaldırıldığında durur, inmek istediğiniz noktayı önceden şoföre söylediğinizde uygun bir cepte bırakır.
 
-## General Information on Transport
+* **Muğla İli Ödeme Sistemi (2026):** Dalaman, Marmaris, Göcek, Fethiye, Ölüdeniz ve Datça hatlarında elektronik **MuğlaKart** ile 0–10 km kısa mesafe biniş ücreti **50 ₺**'dir; otobüs içinden veya bayilerden alınan iki binişlik **Kullan-At** kartlarda tek biniş **71 ₺**'ye gelir. Birçok hatta cihazlar temassız banka/kredi kartlarını (NFC) kabul etse de özel kooperatif dolmuşlarında ve özellikle Antalya sınırındaki Kaş–Kalkan minibüslerinde nakit talep edilebildiği için cebinizde mutlaka 50, 100 ve 200 ₺ banknot bulundurun. Sık gezecekseniz otogardaki *Dolummatik* cihazlarından ya da yetkili büfelerden **MuğlaKart** edinmek anında tasarruf sağlar.
+* **Pratik Şehirlerarası Biletler:** Muğla veya Antalya dışına (İzmir, Bodrum, Antalya merkez) geçiş yapacaksanız *Pamukkale*, *Kamil Koç / FlixBus* ve *Metro* seferlerini **Obilet** üzerinden alabilir; Muğla il içi hat saatlerini ise resmi **MuğlaKart** uygulaması veya **Moovit** üzerinden anlık takip edebilirsiniz.
 
-The region's transportation system has developed with tourism specifics in mind. The main feature is the combination of international airports within reasonable reach, an extensive network of route taxis, and water routes between neighboring bays. Most resort areas are connected by dolmuses—local minibuses that run at intervals of 10-20 minutes during the season.
+## Ana Aktarma Merkezleri ve Hat Süreleri
 
-Main transport hubs of the region:
-- Dalaman Airport (DLM)—the main aviation gateway
-- Hub cities: [Fethiye](/tr/fethiye) and [Marmaris](/tr/marmaris)
-- [Göcek](/tr/gocek) Port—the yachting capital of the region
+Sistem yıldız mantığıyla işler: önce Fethiye veya Marmaris **Otogarı**'na ya da D400 üzerindeki ana kavşaklara ulaşıp oradan koy araçlarına binersiniz:
 
-## Dolmuses—The Main and Most Popular Mode of Transport
+* **Fethiye Çevresi (Yazın 5–15 dk arayla):**
+  * Fethiye ↔ Çalış Plajı: 20–25 dk (alternatif olarak su dolmuşu çalışır).
+  * Fethiye ↔ Ölüdeniz (Ovacık ve Hisarönü üzerinden): 35–45 dk.
+  * Fethiye ↔ Kayaköy: 20–25 dk (yaz sezonunda yaklaşık saat başı).
+  * Fethiye ↔ Kalkan / Kaş: *Batı Antalya* ve bölge dolmuşları Fethiye Otogarı'ndan Kalkan'a ~1 saat 45 dk, Kaş'a ~2 saat 15 dk sürede varır.
+* **Marmaris ve Datça Çevresi:**
+  * Marmaris ↔ İçmeler: 15–20 dk (turuncu minibüsler gece geç saatlere dek işler).
+  * Marmaris ↔ Turunç: Dağ yolundan 40–45 dk; yazın sahilden kalkan motorlar hem daha hızlı hem daha keyiflidir.
+  * Marmaris ↔ Datça: Yaklaşık 1 saat 15 dk; Datça merkezden yazın Palamutbükü ve Knidos'a yerel minibüsler kalkar.
+* **Dalaman ve Dalyan Çevresi:**
+  * Dalaman ↔ Sarıgerme / Göcek: Yaklaşık 20 dk.
+  * Ortaca (D400 kavşağı) ↔ Dalyan: Sezonda 15–20 dk arayla ~15–20 dk sürer.
 
-The dolmuş (dolmus) is the heart of Turkey's public transport. These are route minibuses running on fixed paths, but with a major difference: they can stop anywhere along the road at the wave of a hand. The name translates as "stuffed" or "full"—originally the driver would set off once half the passengers had gathered, but in practice during the season they simply run on schedules.
+## Sarı Taksiler ve Sokak Direklerindeki Çağırma Butonları
 
-### How to Use a Dolmus
+Bölgedeki tüm resmi taksiler sarıdır ve **taksimetre** açmak zorundadır. **2026 UKOME Muğla** tarifesine göre taksimetre açılışı **50 ₺**, kilometre başı ücret **35 ₺**, en kısa mesafe (*indi-bindi*) tutarı ise **250 ₺**'dir. Uzun havalimanı transferleri dışında her mesafede taksimetre geçerlidir.
 
-Payment is made in cash directly to the driver or handed to the passenger in front of you, who passes it along in a chain. It is important to have small bills—drivers can be reluctant to give change for large bills. To exit, stand closer to the door and say loudly: "İnecek var!" (in-e-jek var—meaning "there is someone getting off").
+Muğla beldelerinin en pratik özelliklerinden biri restoran çıkışlarında, plaj girişlerinde ve sokak başlarındaki direklere monte edilmiş sarı **taksi çağırma kutularıdır**. Düğmeye bastığınızda 3–5 dakika içinde en yakın duraktan araç gönderilir. Fethiye ve Marmaris merkezlerinde ayrıca **BiTaksi** ve **Uber** (sarı ticari taksi olarak) çağrılabilir.
 
-### Main Routes
+> [!TIP]
+> **Önemli Bilgi:** Türkiye'de taksimetrelerde uzun yıllardır **gece tarifesi farkı yoktur** — gündüz ve gece aynı tarife işler. Kısa şehir içi mesafelerde taksimetre açmak istemeyen şoför olursa inip bir başka araca ya da durak düğmesine yönelin.
 
-In Fethiye, dolmuses connect the center with key locations:
-- Fethiye – Çalış (to the center of the beach, 20-30 minutes)
-- Fethiye – Ölüdeniz (40-50 minutes)
-- Fethiye – Kayaköy (25 minutes)
-- Ölüdeniz – Hisarönü (10 minutes)
+## Deniz Ulaşımı: Su Dolmuşları, Datça–Bodrum ve Yunan Adaları Feribotları
 
-In Marmaris:
-- Marmaris – İçmeler (10 minutes)
-- Marmaris – Turunç (45 minutes)
-- Marmaris – Çiftlik (50 minutes)
+Dağlık coğrafya yüzünden deniz yolu sık sık karayolundan kısa sürer. Fethiye–Çalış arasında, Marmaris–İçmeler–Turunç hattında ve **[Dalyan](/tr/articles/dalyan-guide)**'dan **[İztuzu Plajı](/tr/articles/iztuzu-beach)**na kooperatif motorları düzenli sefer yapar.
 
-In Dalaman:
-- Dalaman – Sarıgerme (20 minutes)
-- Dalaman – Göcek (20 minutes)
+Bölgeden işleyen dört gerçek tarifeli feribot hattı ise şunlardır (**dikkat:** **Göcek'ten Yunan adalarına tarifeli feribot kalkmaz**, yalnızca özel yat geçişleri yapılır):
 
-Prices: within a city—10-15 liras, between cities—30-80 liras depending on the distance.
+<div class="overflow-x-auto my-6 rounded-xl border border-slate-200">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="border-b-2 border-slate-200 bg-slate-50 text-slate-700 text-xs font-black uppercase">
+<th class="py-3 px-4">Hat ve Liman</th>
+<th class="py-3 px-4">Yolculuk Süresi</th>
+<th class="py-3 px-4">2026 Bilet ve Ücret Referansı</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-slate-100 text-xs md:text-sm">
+<tr>
+<td class="py-3 px-4 font-bold text-slate-900">Kaş ↔ Meis / Kastellorizo (Yunanistan)</td>
+<td class="py-3 px-4 text-slate-600">10–30 dk</td>
+<td class="py-3 px-4 font-bold text-slate-800">~30 € tek yön / ~35–40 € gidiş-dönüş (+ ~5 € liman vergisi)</td>
+</tr>
+<tr>
+<td class="py-3 px-4 font-bold text-slate-900">Marmaris (Cruise Port) ↔ Rodos (Yunanistan)</td>
+<td class="py-3 px-4 text-slate-600">1 saat – 1 saat 30 dk</td>
+<td class="py-3 px-4 font-bold text-slate-800">~50–63 € tek yön / ~85–95 € gidiş-dönüş</td>
+</tr>
+<tr>
+<td class="py-3 px-4 font-bold text-slate-900">Fethiye (Yolcu Limanı) ↔ Rodos (Yunanistan)</td>
+<td class="py-3 px-4 text-slate-600">1 saat 30 dk – 2 saat</td>
+<td class="py-3 px-4 font-bold text-slate-800">~55–60 € tek yön / ~75–85 € gidiş-dönüş (+ liman vergileri)</td>
+</tr>
+<tr>
+<td class="py-3 px-4 font-bold text-slate-900">Datça (Körmen İskelesi) ↔ Bodrum</td>
+<td class="py-3 px-4 text-slate-600">1 saat 45 dk – 2 saat</td>
+<td class="py-3 px-4 font-bold text-slate-800">Yolcu 1.000 ₺ (~18 €), otomobil 3.450 ₺ (~62 €)</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-### Advantages and Limitations
-
-The pros are obvious: cheap, frequent, authentic, and eco-friendly (no parking worries). The cons are the lack of air conditioning in older models, potential crowding during peak hours, and fixed routes that do not adapt to your specific requests. For evening trips and intercity routes, it is best to have a Plan B like a taxi.
-
-## Taxis and Individual Transfers
-
-All taxis in Turkey are yellow and must be equipped with a taximeter. When boarding, make sure the meter is turned on—this is a basic requirement. A few useful tips on using taxis:
-
-### City Taxis
-
-The cost is approximately 20-30 liras for boarding + 15-20 liras per kilometer. Prices are higher in the evening. In tourist centers, taxis can be found at special taxi stands (taksi durağı) or called through your hotel. For long-distance trips, it is sometimes more economical to book a transfer in advance.
-
-### Individual Transfers
-
-For airport-to-hotel trips and vice versa, a system of individual transfers is available. You can book them through online services, your hotel, or a tour operator. A car meets you at the airport with a name sign, helps with luggage, and delivers you right to your door. Average price: Dalaman to Marmaris or Fethiye is about 40-60 euros per car for a group.
-
-### Water Taxis
-
-In some places, water taxis operate. From Fethiye to Çalış, or Marmaris to İçmeler, boats run on a schedule, especially during the season. This is not just transport, but also a mini-cruise along the coast. The price is usually higher than a land taxi for the same distance, but this is compensated by the views and lack of traffic jams.
-
-## Ferry Services
-
-Ferries are a natural part of life in the region. From Göcek and Marmaris, you can reach the Greek islands (Rhodes, Kos). Tickets are bought at the pier; prices depend on the class of vessel and the time of year. It is important to have a Schengen visa to enter Greece.
-
-## Travel Tips
-
-### Seasonal Features
-
-In summer (June–August), dolmuses between Fethiye and Ölüdeniz run every 5-10 minutes from 8 AM until midnight. In the off-season (October–April), the intervals can increase to 30-60 minutes, and some routes are shortened. Evening runs may have fewer passengers, so dolmuses might wait to fill up before departing.
-
-### Cash and Small Money
-
-Cash is king in local daily life. Cards are accepted in some taxis, but it is best to have 10-20 lira bills. In dolmuses, payment is passed down the line: you hand money forward, and the change is passed back. For evening and night trips, taxi rates are about 30-50% higher.
-
-### Safety
-
-Public transport is safe, but late at night (especially after 10:00 PM), it is best to avoid traveling to remote areas alone. A taxi with a running meter guarantees a fair price. When renting a car, look out for "Otopark" signs for parking.
-
-## Conclusion
-
-The transport system of the Dalaman region is not perfect, but it is functional. For budget trips and everyday travel, dolmuses are the best choice. For comfort and evening travel, use taxis. For freedom of planning, opt for renting a car or a scooter.
-
-Over time, you will figure out your routes, favorite dolmus lines, and understand the mystery of local time. It is completely normal to be 10 minutes late—in Turkey, this is treated with understanding.
+* **Yunan Adalarına Geçiş Kuralları (2026):** **Yeşil Pasaport (Hususi Damgalı)** sahipleri Rodos ve Meis'e **vizesiz** geçebilir. Bordo pasaportlu T.C. vatandaşları için uzatılan 12 adalık **Kapıda Vize** uygulaması Rodos, Meis ve Sömbeki'de geçerlidir (resmî vize harcı **60 €**, aracı acente ve evrak hizmet bedelleriyle toplam **~80–100 €** nakit avro; başvuru evrakları seferden birkaç gün önce feribot acentesine teslim edilir). Tüm dış hat geçişleri için **2026 Yurt Dışı Çıkış Harcı'nı (1.250 ₺)** Dijital Vergi Dairesi, GİB mobil veya banka uygulamaları üzerinden seferden önce ödeyip kalkıştan en az **1–1,5 saat önce** limanda pasaport kontrolüne girin.
+* **Datça–Bodrum Kestirmesi:** Arabalı yolcular için Körmen–Bodrum feribotu Gökova Körfezi çevresindeki 200 kilometreyi aşan dağ yolunu tek hamlede ortadan kaldırır.
 
 ---
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/articles/useful-contacts)**.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/services/transfers)**.
-- **[Araç, Scooter ve Bisiklet Kiralama](/articles/vehicle-rental-cars-scooters-bikes)**.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/articles/main-resorts)**.
-
+### 🔗 İlgili Rehberler
+- **[Dalaman Havalimanı (DLM): Terminaller ve MUTTAŞ](/tr/articles/airport-dalaman)** — Uçaktan iniş sonrası kıyıya geçiş planı.
+- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Kendi aracınızla gezmenin maliyeti ve kuralları.
+- **[Özel Havalimanı Transferi](/tr/services/transfers)** — Valizli ve kalabalık aileler için sabit fiyatlı transfer.
+- **[İnteraktif Bölge Haritası](/tr/map)** — Otogarlar, limanlar ve koyların konumu.

@@ -1,33 +1,31 @@
 ---
-title: "Gezi ve Keşif Rehberi: Sarigerme Guide"
+title: "Sarıgerme Gezi Rehberi: Dalaman'a 17 km Mesafede 7 Kilometrelik İnce Altın Kum"
 slug: "sarigerme-guide"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Sarıgerme gezi rehberi: Dalaman Havalimanı'na 15–20 dk mesafe, çocuklara uygun sığ altın kum plaj, SARÇED halk parkı, Baba Adası, rüzgâr sörfü ve konaklama."
 ---
 
-# Gezi ve Keşif Rehberi: Sarigerme Guide
+# Sarıgerme: Uçaktan İndikten 20 Dakika Sonra Ayaklarınız İnce Kumda
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+Dalaman Havalimanı'na (**DLM**) indikten hemen sonra uzun transfer saatleriyle uğraşmadan doğruca geniş bir kum sahile ulaşmak istiyorsanız adres **[havalimanına sadece 17 kilometre](/tr/articles/airport-dalaman)** (**15–20 dakika**) uzaklıktaki Sarıgerme'dir. Ortaca ilçesine bağlı bu derli toplu sahil beldesi, özellikle çocuklu ailelerin ve konforlu resort tatili arayanların Muğla kıyısındaki en rahat durağıdır (**[aile tatili rehberi](/tr/articles/family-vacation-kids-entertainment)**).
 
-**Sarigerme Guide ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+## 7 Kilometrelik Altın Kum ve Çocuk Dostu Sığ Deniz
 
-## Öne Çıkan Özellikler ve Detaylar
-sarigerme guide bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Sarıgerme'nin en büyük hazinesi **yaklaşık 7 kilometre** kesintisiz uzanan incecik altın kumlu sahilidir. Bölgedeki pek çok çakıllı koyun aksine burada ne deniz ayakkabısına ihtiyaç vardır ne de kıyıdan iki adım atınca boyu aşan ani bir derinlik oluşur:
 
-## Öne Çıkan Özellikler ve Detaylar
-sarigerme guide bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+* **30–40 Metre Boyunca Sığlık:** Deniz tabanı o kadar tatlı bir eğimle iner ki kıyıdan **30–40 metre açıldığınızda bile** su hâlâ bel hizası civarındadır. Bu özellik küçük çocukların güvenle oynaması ve yüzme öğrenenler için büyük rahatlık sağlar (**[plaj rehberi](/tr/articles/beaches)**).
+* **Sabah vs. Öğleden Sonra Ritmi:** En durgun, çarşaf gibi deniz **08:00–12:30** saatleri arasındadır — bebekli ve küçük çocuklu aileler bu dilimi kaçırmamalıdır. Öğleden sonra çıkan **7–12 knot** güneybatı esintisi ise sıcağı kırarken koyu başlangıç seviye rüzgâr sörfü ve *wingfoil* için eğlenceli hale getirir (**[kite surf ve rüzgâr rehberi](/tr/articles/kitesurfing)**).
 
-## Öne Çıkan Özellikler ve Detaylar
-sarigerme guide bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## SARÇED Halk Plajı ve Baba Adası
 
-### Öne Çıkan Özellikler ve Detaylar
-sarigerme guide bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Sahilin tam ortasındaki çam korusunun gölgesinde **SARÇED (Sarıgerme Çevre Eğitim Derneği) Plajı** hizmet verir:
 
+* **Uygun Giriş ve Ağaç Parkı:** Arabayla giren misafirler makul bir belediye/dernek araç otopark ücreti (**~250 ₺** bandında), yürüyerek girenler ise daha düşük yaya girişi öder. Çamların altındaki park alanında serbestçe dolaşan tavus kuşları ve papağanlar çocukların favorisidir; içeride duş, soyunma kabini ve sade kafe bulunur.
+* **Caretta Yuvaları ve Baba Adası:** Plajın batı ucu *Caretta caretta* koruma kumullarına uzanır; şemsiye sınırlarına saygı göstermek gerekir. Kıyının hemen açığındaki kayalık **Baba Adası**'na ise kano veya küçük teknelerle geçip berrak taşlı kıyıda şnorkel yapabilirsiniz.
 
----
+## Merkezi Üs ve Sezon Gerçeği
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — [Fethiye](/tr/fethiye), [Marmaris](/tr/marmaris), [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+Sarıgerme hem sakin **[konaklama](/tr/articles/accommodation)** tesisleriyle (Hilton Dalaman, kulüp otelleri ve küçük butik çarşı) kendi içine yeten düzenli bir kasabadır hem de çevre keşfi için çok merkezi bir kavşaktır: **[Dalyan](/tr/articles/dalyan-guide)** **30–35 dakika**, bakir **[Sarsala Koyu](/tr/articles/sarsala-bay)** ve yat limanı **[Göcek](/tr/gocek)** ise **35–40 dakika** sürüş mesafesindedir.
+
+Sezon **Mayıs–Ekim** ayları arasında canlıdır; Kasım sonrası çarşıdaki işletmelerin büyük kısmı kış uykusuna yatar. Sahilin açık kesimlerinde ağaç gölgesi olmadığından yazın geniş şapka ve yüksek faktörlü güneş kremi şarttır.
+
+<!-- SOURCE [19.11.2026]: Ortaca Belediyesi Sarıgerme SARÇED Plajı ve Dalaman Havalimanı kıyı ulaşım mesafeleri (URL: https://www.ortaca.bel.tr/) -->

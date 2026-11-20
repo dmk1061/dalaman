@@ -1,36 +1,62 @@
 ---
-title: "Gezi ve Keşif Rehberi: Ovacik Hisaronu"
+title: "Ovacık ve Hisarönü Rehberi (2026): Ölüdeniz Üzerindeki Yayla Konforu"
 slug: "ovacik-hisaronu"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Ovacık ile Hisarönü arasındaki farklar: Ölüdeniz'den 4–5 °C daha serin ve %25–40 daha ekonomik konaklama, Likya Yolu başlangıç takı, Babadağ Teleferik ve 250 m gürültü kuralı."
 ---
 
-# Gezi ve Keşif Rehberi: Ovacik Hisaronu
+# Ovacık ve Hisarönü: Ölüdeniz Üzerindeki Serin Plato ve Likya Yolu Kapısı
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+**[Fethiye](/tr/fethiye)** merkezinden **[Ölüdeniz](/tr/articles/oludeniz)**'e inerken sahile 4–5 kilometre kala deniz seviyesinden **300–350 metre yükseklikte** geniş bir çam vadisinden geçersiniz. Birbiriyle bitişik **Ovacık** ve **Hisarönü** mahalleleri bu serin platonun üzerinde yer alır.
 
-**Ovacik Hisaronu ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+Denize doğrudan kumdan adım atılmasa da bu tepe düzlüğünün üç güçlü avantajı vardır: Temmuz–Ağustos geceleri sahilden **3–5 °C daha serin ve nemsizdir**, otel ve özel havuzlu villalar Ölüdeniz birinci sırasına göre **%25–40 daha ekonomiktir** ve minibüsle plaja iniş yalnızca yedi dakika sürer.
 
-## Öne Çıkan Özellikler ve Detaylar
-ovacik hisaronu bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+<!-- SOURCE [19.11.2026]: 300–350 m plato rakımı, Babadağ Teleferik alt istasyonu ve Ovacık'taki Likya Yolu başlangıç kapısı (URL: https://www.babadagteleferik.com.tr, https://www.fethiye.bel.tr); Orka World Waterpark ve Fethiye–Ölüdeniz dolmuş hattı -->
 
-## Öne Çıkan Özellikler ve Detaylar
-ovacik hisaronu bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Hisarönü vs Ovacık: Aynı Tabelanın Ardındaki İki Ayrı Dünya
 
-## Öne Çıkan Özellikler ve Detaylar
-ovacik hisaronu bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Rezervasyon sitelerinde çoğu kez tek bölge gibi listelenen bu iki semt aslında birbirinden tamamen zıttır:
 
-## Nasıl Gidilir ve Ulaşım Seçenekleri
-Bölgeye ulaşım, gelişmiş transfer ve toplu taşıma ağı sayesinde oldukça kolaydır. Dalaman Havalimanı'ndan (DLM) özel transfer araçlarını kullanabilir, terminalden araç kiralayabilir veya [Fethiye](/tr/fethiye) ve [Marmaris](/tr/marmaris) yönüne giden servis otobüslerini (`Havaş` / `Muttaş`) tercih edebilirsiniz. Çevre beldeler ve plajlar arasındaki ulaşım ise sabah erken saatlerden gece yarısına kadar düzenli çalışan dolmuşlarla sağlanır.
+<div class="overflow-x-auto my-6 rounded-xl border border-slate-200">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-slate-50 border-b border-slate-200">
+<th class="py-3 px-4 text-xs font-black uppercase text-slate-700">Kriter</th>
+<th class="py-3 px-4 text-xs font-black uppercase text-slate-700">Hisarönü</th>
+<th class="py-3 px-4 text-xs font-black uppercase text-slate-700">Ovacık</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-slate-100 md:text-sm">
+<tr>
+<td class="py-3 px-4 font-bold text-slate-900">Atmosfer ve Yapılaşma</td>
+<td class="py-3 px-4 text-slate-600">Neonlu yaya barlar caddesi, publar, hamburger/steak mekânları, canlı eğlence ve 02:00–03:00'e kadar müzik</td>
+<td class="py-3 px-4 text-slate-600">Babadağ eteğine yaslanan yemyeşil yamaç: özel havuzlu villalar, bahçeli aile apartları ve sessiz sokaklar</td>
+</tr>
+<tr>
+<td class="py-3 px-4 font-bold text-slate-900">Kime En Uygun?</td>
+<td class="py-3 px-4 text-slate-600">Genç gruplar, hareketli gece ve çarşı gezisi sevenler, her şey kapının önünde olsun diyenler</td>
+<td class="py-3 px-4 text-slate-600">Çocuklu aileler, uzaktan çalışanlar, Likya Yolu yürüyüşçüleri ve sakin uyku arayanlar</td>
+</tr>
+<tr>
+<td class="py-3 px-4 font-bold text-slate-900">Öne Çıkan Avantaj</td>
+<td class="py-3 px-4 text-slate-600">Yürüme mesafesinde yüzlerce kafe, <strong>Migros / Carrefour</strong>, Kayaköy ve plaj yolları kavşağı</td>
+<td class="py-3 px-4 text-slate-600"><a href="/tr/articles/babadag">Babadağ Teleferik</a> alt istasyonu, <em>Orka World</em> su parkı ve Likya Yolu başlangıç takı</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-### Öne Çıkan Özellikler ve Detaylar
-ovacik hisaronu bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Yukarıda Yapılacak 4 Ana Aktivite
 
+1. **Likya Yolu'nun Sıfır Kilometre Kapısı:** Türkiye'nin dünyaca ünlü 540 kilometrelik yürüyüş rotası **Likya Yolu**, Antalya'ya doğru yürüyüşüne tam olarak **Ovacık**'taki Kirme/Kozağaç yolu başındaki ahşap takın altından başlar ([Trekking Rehberi](/tr/articles/trekking)).
+2. **Babadağ Teleferik ve Orka World Su Parkı:** 1.700–1.900 metreye çıkan teleferik istasyonu da bölgenin 13 kaydıraklı büyük su parkı **Orka World Waterpark** da doğrudan Ovacık sınırları içindedir ([Çocuklu Tatil](/tr/articles/family-vacation-kids-entertainment)).
+3. **4 Km'lik Çam Yoluyla Kayaköy Kaçamağı:** Hisarönü batı çemberinden çam ormanının içine giren kısa yolla yürüyerek veya scooterla 10–15 dakikada hayalet köy **[Kayaköy](/tr/articles/kayakoy-ghost-town)**e ve *kendin pişir* bahçelerine inersiniz.
+4. **Canlı Pub Akşamları:** Hisarönü çarşısı ağırlıklı İngiliz ziyaretçiler nedeniyle gece geç saate dek enerjiktir ([Gece Hayatı](/tr/articles/nightlife-clubs-and-bars)); yerel Türk mutfağı ve esnaf fiyatları içinse çarşı dışındaki ana cadde yanına ya da Kayaköy yoluna geçmek daha doğrudur.
 
----
+## Alışveriş, Kış Gerçeği ve Ulaşım Pratiği
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — Fethiye, Marmaris, [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+* **Zincir Marketler:** Ana cadde boyunca **Migros, CarrefourSA, BİM, A101 ve ŞOK** şubeleri ulusal sabit etiketle çalışır ([Tatil Bütçesi](/tr/articles/travel-budget-and-money-saving-tips)).
+* **Kışlama Farkı:** Kasım–Nisan arası Hisarönü çarşı kepenkleri büyük ölçüde kapanırken, hemen yanındaki **Ovacık**ta 12 ay yaşayan yerli-yabancı aileler ([İkamet Rehberi](/tr/articles/residency-permit)), okul servisleri ve açık köy fırınları hayatı canlı tutar.
+* **Denize Yürünmez, Dolmuş 7 Dk:** Temmuz öğleninde 300 metrelik dik tepeden sahile yürümek imkânsızdır ama buna gerek yoktur — **Fethiye–Ovacık–Hisarönü–Ölüdeniz** dolmuşları sabah 07:00'den yaz geceleri 01:00–02:00'ye kadar her **5–10 dakikada bir** geçer ([Bölge Ulaşımı](/tr/articles/transport)).
+
+> [!TIP]
+> **Gürültüsüz Uyku Kuralı (250 m):** Hisarönü merkezden konaklama seçiyorsanız haritada yaya barlar sokağından en az **250–350 metre içeride** bir sokak seçin ([Konaklama Rehberi](/tr/articles/accommodation)); Ovacık yamaçlarında ise gece yalnızca ağustos böcekleri ve Babadağ rüzgârını duyarsınız.

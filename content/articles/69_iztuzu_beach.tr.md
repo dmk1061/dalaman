@@ -1,33 +1,33 @@
 ---
-title: "Gezi ve Keşif Rehberi: Iztuzu Beach"
+title: "İztuzu Plajı (Dalyan): Tuzlu ve Tatlı Su Arasında Caretta Caretta Kumsalı"
 slug: "iztuzu-beach"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "İztuzu Plajı (Kaplumbağa Plajı) kapsamlı rehberi: tekne ve araç giriş uçları, DEKAMER rehabilitasyon merkezi, Caretta caretta kuralları ve kalabalıktan kaçış saatleri."
 ---
 
-# Gezi ve Keşif Rehberi: Iztuzu Beach
+# İztuzu Plajı: Tuzla Tatlı Su Arasındaki 5 Kilometrelik Koruma Kalkanı
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+Bir yanında turkuaz Akdeniz'in tuzlu dalgaları, diğer yanında sazlıklarla çevrili **[Dalyan Deltası](/tr/dalyan)**'nın durgun tatlı suyu... **4,5–5 kilometre** boyunca kesintisiz uzanan İztuzu kumsalı, arkasında tek bir beton otel kütlesi bulunmayan ender Akdeniz sahillerindendir. 1980'lerin sonunda dev bir otel projesine karşı Dalyan'da yaşayan İngiliz çevreci *Kaptan June* (*June Haimoff*) ve bilim insanlarının başlattığı direniş sayesinde ÖÇK (Özel Çevre Koruma Bölgesi) ilan edilmiş ve *Caretta caretta* deniz kaplumbağalarına kalmıştır.
 
-**Iztuzu Beach ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+## İki Su, İki Karakter ve Nil Kaplumbağaları
 
-## Öne Çıkan Özellikler ve Detaylar
-iztuzu beach bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Kumsal ince taneli altın kumu ve diz boyunu yavaş yavaş aşan sığ girişiyle deniz tarafında çocuklu aileler için çok güvenlidir; öğleden sonra hafif rüzgâr çıktığında tatlı bir dalga oyunu başlar. Sırtınızı denize döndüğünüzde gördüğünüz nehir-göl kanalı ise yalnızca tatlı su meraklısı nadir **Nil kaplumbağasına (*Trionyx triunguis*)** ev sahipliği yapar. Doğal çeşitliliği görmek için sahilin arka sazlıklarını dürbünle izlemek bile yeterlidir (**[flora ve fauna rehberi](/tr/articles/flora-fauna)**).
 
-## Öne Çıkan Özellikler ve Detaylar
-iztuzu beach bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Caretta Caretta İçin 4 Kesin Kural
 
-## Nasıl Gidilir ve Ulaşım Seçenekleri
-Bölgeye ulaşım, gelişmiş transfer ve toplu taşıma ağı sayesinde oldukça kolaydır. Dalaman Havalimanı'ndan (DLM) özel transfer araçlarını kullanabilir, terminalden araç kiralayabilir veya [Fethiye](/tr/fethiye) ve [Marmaris](/tr/marmaris) yönüne giden servis otobüslerini (`Havaş` / `Muttaş`) tercih edebilirsiniz. Çevre beldeler ve plajlar arasındaki ulaşım ise sabah erken saatlerden gece yarısına kadar düzenli çalışan dolmuşlarla sağlanır.
+İztuzu sadece güzel bir **[plaj](/tr/articles/beaches)** değil, aktif bir yuvalama laboratuvarıdır. Sahilde görev yapan biyologlar ve gönüllülerin koyduğu dört temel kural titizlikle uygulanır:
 
-### Öne Çıkan Özellikler ve Detaylar
-iztuzu beach bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+* **Gece Giriş Yasağı (20:00–08:00):** Yuvalama ve yavru çıkış dönemi olan **Mayıs–Eylül** ayları arasında saat 20:00'den sabah 08:00'e kadar plaja girmek, ışık yakmak ve fotoğraf flaşı kullanmak kesinlikle yasaktır.
+* **Şemsiye Sınırı:** Kuru kumun üst şeridi yumurta yuvalarıyla doludur (üzerleri metal kafeslerle işaretlenir). Kendi şemsiyenizi veya çubuğunuzu **yalnızca ıslak dalga çizgisine yakın şeride** dikebilirsiniz.
+* **Su Jeti ve Evcil Hayvan Yasağı:** Kıyıda gürültülü motorlu su sporları yapılmaz, yuvalara zarar vermemek için evcil hayvanla sahile girilmez.
+* **Ücretsiz DEKAMER Ziyareti:** Plajın karayolu giriş ucunda yer alan **DEKAMER (Deniz Kaplumbağaları Araştırma, Kurtarma ve Rehabilitasyon Merkezi)** kapılarını ziyaretçilere ücretsiz açar. Tekne pervanesi veya olta iğnesi nedeniyle yaralanıp tedavi edilen yetişkin kaplumbağaları havuzlarda görüp gönüllülerden bilgi alabilirsiniz.
 
+## Hangi Uçtan Gidilir? (Nehir Teknesi vs. Asfalt Yol)
 
----
+İztuzu iki farklı ucundan erişilebilen bir yarımada dilidir; tercihiniz günün atmosferini tamamen değiştirir:
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — Fethiye, Marmaris, [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+1. **Kuzey Ucu (Dalyan Boğazı / Tekne İskelesi):** **[Dalyan merkezdeki](/tr/articles/dalyan-guide)** kooperatif iskelesinden kalkan nehir tekneleriyle sazlık labirentleri ve Kaunos kaya mezarları önünden geçerek **35–45 dakikada** ulaşılır. Tekneye dönüşte son seferlerin genelde **18:00–18:30** sularında bittiğini unutmayın; ayrıca suyun Köyceğiz tarafından geldiği nehir girişinde akıntı ara sıra serin ve hafif bulanık olabilir.
+2. **Güney Ucu (Karayolu / DEKAMER Tarafı):** **[Köyceğiz](/tr/articles/koycegiz-lake)** veya Dalyan tarafından araçla veya dolmuşla Sülüngür Gölü kıyısından kıvrılan **12 kilometrelik** asfalt yoldan inilir. Tepedeki **İztuzu Seyir Tepesi**, tüm deltayı ve kumsalı tek kareye sığdırır. Güney ucunda belediye işletmesi şezlong, duş ve makul fiyatlı kafeterya vardır.
+
+**Kalabalıktan sıyrılma tüyosu:** Marmaris ve Fethiye'den gelen günlük tur tekneleri **12:00–15:30** arası iki uçtaki şezlongları doldurur. Oysa ortadaki **3 kilometrelik** şerit bakirdir; girişten havlunuzu alıp **400–500 metre** yürüyünce kilometrelerce boş kumsal size kalır (**[milli parklar rehberi](/tr/articles/national-parks-and-nature-reserves)**).
+
+<!-- SOURCE [19.11.2026]: DEKAMER koruma kuralları ve T.C. Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Tabiat Varlıklarını Koruma Genel Müdürlüğü kayıtları (URL: https://www.dekamer.org.tr/) -->

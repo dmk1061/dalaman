@@ -1,58 +1,57 @@
 ---
-title: "Flora and Fauna: Nature of the Lycian Coast"
+title: "Flora & Fauna Around Dalaman: Sweetgum Forests, Date Palms & Sea Turtles"
 slug: "flora-fauna"
-description: "Explore the rich natural diversity of the region: from pine forests and olive groves to rare animal species and the famous Caretta caretta turtles."
+description: "Wild nature between Datça and Kaş without tall tales: Ice-Age sweetgum trees (Liquidambar orientalis), wild Datça date palms, 200+ birds at Çalış, and loggerhead vs. Nile softshell turtles."
 ---
 
+# Flora & Fauna of the Dalaman Coast: What You'll Actually Spot in the Wild
 
-The region from [Datça](/en/dacha) to [Kaş](/en/kas), located on Turkey's Turquoise Coast, is the meeting point of the Aegean and Mediterranean seas. This gives it a unique geographical position and contributes to a rich diversity of flora and fauna. Extending from the remote Datça Peninsula in the west to the chic town of Kaş in the east, this area includes major tourist centers like [Marmaris](/en/marmaris) and [Fethiye](/en/fethiye), and offers a wide range of natural landscapes—from secluded beaches to mountain villages.
+Most travelers touch down in [Dalaman](/en/dalaman), [Fethiye](/en/fethiye), or [Marmaris](/en/marmaris) thinking purely of saltwater coves—barely noticing that the drive from baggage claim cuts straight through a botanical time capsule from before the Ice Age. Sitting where Aegean and Mediterranean ecozones collide, Muğla Province shelters relict river groves found almost nowhere else on Earth alongside migrating wetlands and endangered nesting reptiles.
 
-**Flora (Plant Life)**
+Here is an honest field guide free of campfire exaggerations—what genuinely blooms along footpaths, patrols reed marshes, and surfaces beside your swim ladder.
 
-The vegetation cover of the Marmaris region, which includes the city center and the Marmaris National Park, is one of the richest in Turkey and is protected. The forests here consist predominantly of **Turkish pine (Pinus brutia)**. In the Marmaris National Park and other protected areas, there are also **oak, plane trees, cypresses, wild olive, strawberry tree (Arbutus), sumac, carob (locust), oleander, and laurel**.
+<!-- SOURCE [19.11.2026]: Endemic Liquidambar orientalis (Sığla ağacı) habitat in Köyceğiz & Dalaman — General Directorate of Forestry OGM (URL: https://www.ogm.gov.tr); DEKAMER Caretta caretta data (URL: https://www.dekamer.org.tr); Marmaris Milli Parkı biodiversity (URL: https://www.tarimorman.gov.tr) -->
 
-In the Gökova region, which is also a special protected area, the forests of Turkish pine and **sweetgum trees (Liquidambar orientalis)** are of high value. Sweetgum trees are an endemic species and are concentrated in specific areas. Locals call the sweetgum "günlük," which gave the name to the Günnücek Bay.
+## Relict Trees & Fragrant Shrubs: Why the Lowlands Smell Like Incense
 
-In spring, an abundance of **wild herbs** is observed in the surroundings of Datça and the Bozburun Peninsula [previous answer]. **Almond trees** also grow in the Datça region, yielding unique almonds [previous answer]. In general, Gökova is characterized by Mediterranean plants such as **olive, red cedar, and almond**.
+Green hillsides across the peninsula wear dense blankets of **Turkish red pine (*Pinus brutia*)**—not only the visual trademark of Marmaris and Göcek, but also the biological source of Muğla's world-famous dark pine honeydew honey (*çam balı*). Step down into wet coastal floodplains, though, and rarer botanical treasures appear:
 
-Among the **endemic plants** of the Marmaris region, the following stand out:
-*   *Onopordum caricum* (a species of thistle).
-*   *Globularia dumulosa*.
-*   *Cyclamen trochopteranthum*.
-*   *Campanula fruticulosa*.
-*   **Sage, prickly daisy, and mullein (cow's tail)** are also found as endemic species.
-*   A species of date palm (*Phoenix theophrasti*), which was previously thought to grow only in Crete, is also mentioned.
-
-In the Fethiye district and along the hiking routes of the Lycian Way, you can see **thousands of different flowers**. In Kayaköy, the walls of the houses are covered with **bougainvillea**. In Turunç, there are many **pomegranates, mulberries, plums, and Seville oranges**, as well as **geraniums, oleanders, and bougainvillea**.
-
-**Fauna (Animal Life)**
-
-**Mammals:** In the Marmaris National Park and the Datça-Bozburun Special Environmental Protection Area, **wild goats (Capra aegagrus)** live, especially between Marmaris and [Köyceğiz](/en/koycegiz). Also found here are **bears, foxes, wild boars, red squirrels, weasels, hedgehogs, lynxes, martens, and jackals**.
-In Fethiye, **cats** are everywhere and are considered "kings"; they are treated with kindness, fed, and cared for. They can be found on park benches, in restaurants, and just lounging wherever they please. The Köşe Kahve Fethiye cafe has friendly neighborhood cats. **Dogs** are also present, especially in the Çalış Beach area; they are well-fed and usually keep to themselves if not given attention. On one of the beaches during the 12-island tour from [Göcek](/en/gocek)/Fethiye, **adorable goats** were spotted looking out from the beach and wandering the hills.
-
-**Birds:** In the Marmaris National Park, a variety of birds are found, including **eagles and falcons**, as well as **migratory birds**. In Bördübet Bay, there are many **songbirds**, and the bay's name comes from the abundance of birds, which British sailors during World War I called "bird's bed." In the bird sanctuary on Çalış Beach (Fethiye), there is a small uninhabited island that is home to **220 bird species**. In Lake Ilıca (Ilıca Gölü) in Datça, in addition to fish, **ducks** are believed to live.
-
-**Insects and other invertebrates:** **Bees** (*bambus bees* / bumblebees) help pollinate plants in the greenhouses of the Gökova region. **Butterflies**: The Butterfly Valley (Kelebekler Vadisi), located near Ölüdeniz/Fethiye, is named after more than **80 species of butterflies**, especially the **"Jersey Tiger butterfly"** (*Euplagia quadripunctaria*), which can be seen by the hundreds in June and October. On Fethiye's hiking trails, one can encounter thousands of different flowers and **extremely rare butterfly species**.
-
-**Reptiles (Turtles):** **Iztuzu Beach** ([Dalyan](/en/dalyan), near Marmaris) is an important **nesting site for loggerhead sea turtles (Caretta caretta)**. The beach is closed to visitors from 20:00 to 08:00 during the nesting season (May–October). At one end of the beach is the **Sea Turtle Research, Rescue and Rehabilitation Center (DEKAMER)**. **Patara Beach** (near Kaş) is also **critically important for the survival of the turtles**, as they lay their eggs here, and parts of the beach are closed to visitors for their protection. On Çalış Beach, you can also **see turtles** during the hatching season. In the waters near Ölüdeniz/Fethiye, **turtles** are often encountered during diving.
-
-**Marine Life:** The Mediterranean Sea near Marmaris historically had a relatively poor fish diversity compared to the Black Sea, which facilitated trade. However, in Dalyan, a local specialty is the **blue crab**, which is caught in the river and served grilled. In Marmaris, Çiftlik, Orhaniye, Selimiye, Bozburun, and the Söğüt Saranda area, there are restaurants offering fresh fish, squid, and shrimp. At the Fethiye Fish Market, you can choose fresh fish to be prepared in one of the surrounding restaurants. In Lake Ilıca (Datça), there are **fish**. When diving in Kaş, there is an opportunity to see **turtles and some shipwrecks**. It is noted that in the waters of Kaputaş Beach there are **no jellyfish or seaweed**.
-
-**Special Protected Areas:**
-*   **Marmaris National Park** and the special environmental protection areas of **Gökova** and **Datça-Bozburun** cover a significant part of the region.
-*   **Wetlands** in the region include the Gökova coast and river systems in Akyaka, Akçapınar, and Gökçe, as well as the Akbük and Hisarönü river systems.
-*   **Butterfly Valley** (Kelebekler Vadisi) is officially designated as a natural protected area where residential construction is prohibited.
-*   **Ölüdeniz Blue Lagoon** is a national nature reserve.
-*   Patara Beach is also part of a national park.
-*   Göcek is a "Registered Special Environmental Protection Area" where high-rise building is prohibited.
-
-This information highlights the rich natural diversity of the region from Datça to Kaş and its surroundings, making it highly attractive for ecotourism and nature lovers.
+* **Oriental Sweetgum (*Liquidambar orientalis*, Turkish *günlük* or *sığla ağacı*):** A living Tertiary-era survivor native almost exclusively to southwest Anatolia. Resembling tall, broad-canopied maples, protected sweetgum groves hug riverbanks around [Köyceğiz](/en/koycegiz), Kapıkargın, and the floodplain stretching between [Göcek](/en/gocek) and Dalaman. Scored bark weeps amber **storax resin (*sığla yağı*)**—coveted since Cleopatra's court for incense, luxury soaps, and natural healing balms.
+* **Cretan Date Palm (*Phoenix theophrasti*):** One of Europe's rarest wild palms, thriving naturally in only two pockets on the planet: Crete and southwest Turkey—notably **Hurmalıbük Bay** near the [Datça Peninsula](/en/dacha) / Bozburun boundary plus Kumluca farther east. Small, tough dates aside, standing inside a wild shoreline palm grove feels astonishingly prehistoric.
+* **Oleander, Bay Laurel & Forbidden Wild Orchids:** Dry gravel creek beds burst scarlet and cream all summer with **oleander (*zakkum*)**—stunning in photos, strictly toxic if snapped or ingested. Spring ridges carpet bright with Spanish broom, wild sage, culinary thyme, and delicate terrestrial orchids whose tubers traditionally thicken winter *salep* (uprooting wild orchids carries eye-watering statutory conservation fines across Turkey!).
 
 ---
 
-### 🔗 See Also: Useful Guides for the Lycian Coast
-- **[Useful Contacts & Nöbetçi Eczane Pharmacies](/articles/useful-contacts)**.
-- **[Airport Transfers from Dalaman (DLM)](/services/transfers)**.
-- **[Car, Scooter & Bike Rentals](/articles/vehicle-rental-cars-scooters-bikes)**.
-- **[Main Resorts Overview: Fethiye, Marmaris, Kaş & Datça](/articles/main-resorts)**.
+## Wildlife on Land, Marshes & Cliff Canyons
 
+Southwest Turkey feels far sunnier and rockier than northern mountain forests. Inside the 29,206 protected hectares of **Marmaris National Park** and up rugged Lycian limestone faces live secretive, heat-adapted species:
+
+* **Land Mammals:** Wild **bezoar ibex (*Capra aegagrus*)** balance cleanly along sheer sea crags between Ölüdeniz and Kapıdağ Peninsula. Lower foothills shelter **wild boar**—bold enough at dusk to rummage roadside bins near İçmeler, Dalyan, and Ovacık (never feed them, and give mothers with striped piglets wide clearance)—plus foxes, golden jackals, badgers, stone martens, and the ghostly, ultra-rare caracal lynx. *(Rumors of brown bears lounging behind coastal beaches are pure fantasy; tiny remnant populations stick strictly to remote high Taurus ranges well inland.)*
+* **Çalış Bird Sanctuary (*Çalış Kuş Cenneti*):** At the quiet northern edge of [Fethiye](/en/fethiye)'s Çalış shoreline sit reed-ringed coastal salt flats and brackish lagoons—not uninhabited islands, as careless blogs claim. On this prime migration flyway, birders log over **200 species** including pied kingfishers, purple herons, cormorants, black-winged stilts, and passing greater flamingos.
+* **Butterfly Valley's Real Star:** From June to August, shaded canyon walls in [Butterfly Valley](/en/articles/butterfly-valley) host **Jersey Tiger moths (*Euplagia quadripunctaria*)**. Skip brochure myths showing neon tropical swallowtails: Jersey Tigers sit camouflaged as striking black-and-cream-striped wings on cool tree trunks until disturbed, flashing scarlet underwings mid-flight.
+
+> [!TIP]
+> **Spotted mini-dragons sunning on dry stone walls?** Hiking early around [Dalyan](/en/dalyan) or Kaş, pause silently when a **starred agama lizard (*Stellagama stellio*)** does push-ups on a warm boulder—ancient Greek tombs and footpaths belong first to these harmless sunbathers before morning walkers arrive. Explore protected rules further in our [national parks guide](/en/articles/national-parks-and-nature-reserves).
+
+---
+
+## Turtles & Underwater Meadows: Coastal Marine Life
+
+Turkey's marquee wildlife headlines live offshore and glide up brackish delta bends:
+
+* **Loggerhead Sea Turtle (*Caretta caretta*):** Weighing up to 100–130 kg and living well past 60 years, loggerheads swim ashore between **May and September** to dig egg chambers in soft sand at **İztuzu** ([Dalyan](/en/dalyan)), **Patara**, and **Sarıgerme**. Injured turtles recover beside the sandbar at **DEKAMER**; check curfews and volunteering in our [beaches guide](/en/articles/beaches) and [eco-tourism feature](/en/articles/eco-tourism-and-volunteering).
+* **Nile Softshell Turtle (*Trionyx triunguis*):** Far fewer visitors know that the muddy reed bends of the Dalyan River and Lake Köyceğiz shelter huge freshwater softshell turtles sporting long snorkel-like snouts. Shy and almost wholly aquatic, they lurk near warm sulfur springs waiting for fishermen's blue-crab lines.
+* **Neptune Grass (*Posidonia oceanica*):** Those ribbons of brown marine vegetation washed ashore in Göcek and Datça aren't dirty seaweed—they're endemic Mediterranean seagrass. Underwater *Posidonia* meadows scrub bay water crystalline clear while oxygenating nurseries for juvenile bream, octopuses, and moray eels.
+
+> [!NOTE]
+> **Watch Your Step in Wild Brush:** Warm late-spring rocks off marked gravel trails—especially scrambling wild sections of [canyons and rivers](/en/articles/natural-attractions-canyons-rivers-lakes)—occasionally hide basking **Ottoman vipers (*Montivipera xanthina*, Turkish *şeritli engerek*)** or small ***Mesobuthus* scorpions**. Wear sturdy closed trail shoes, never poke bare fingers into dark limestone crevices, and shake out camping boots left outside overnight.
+
+Finally, Turkey's most visible coastal "residents" stroll calmly through outdoor cafés everywhere: plump community cats and large placid street dogs sporting numbered plastic ear tags—marking municipal vaccination, sterilization, and neighborhood care.
+
+---
+
+### 🔗 See Also
+- **[National Parks & Protected Reserves](/en/articles/national-parks-and-nature-reserves)** — turtle nesting curfews and protected forestry laws.
+- **[Eco-Tourism & DEKAMER Volunteering](/en/articles/eco-tourism-and-volunteering)** — working night patrols on İztuzu sandbar.
+- **[Canyons, Rivers & Lakes Around Dalaman](/en/articles/natural-attractions-canyons-rivers-lakes)** — spotting freshwater wildlife around Dalyan and Köyceğiz.
+- **[Best Beaches Around Dalaman](/en/articles/beaches)** — knowing where dogs, drones, and umbrellas stay restricted.

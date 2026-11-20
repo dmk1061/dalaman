@@ -1,39 +1,32 @@
 ---
-title: "Gezi ve Keşif Rehberi: Pamukkale Hierapolis"
+title: "Pamukkale ve Hierapolis Antik Kenti: Kar Beyazı Travertenler ve 2026 Kleopatra Havuzu"
 slug: "pamukkale-hierapolis"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Dalaman ve Fethiye'den Pamukkale-Hierapolis gezi rehberi: MüzeKart geçerliliği, Mayıs 2026'da yeniden açılan Kleopatra Antik Havuzu, 3 giriş kapısı ve otobüs turlarından kaçış rotası."
 ---
 
-# Gezi ve Keşif Rehberi: Pamukkale Hierapolis
+# Pamukkale ve Hierapolis: İç Anadolu Sınırında Kar Beyazı Bir Gün
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+Kıyıdaki çam ve deniz kokusundan yalnızca **200–220 kilometre** (~**3 saatlik** karayolu yolculuğu) içeride, Denizli ovasının yamacında birden kar yağmış gibi bembeyaz bir yamaç yükselir. UNESCO Dünya Mirası listesindeki **Pamukkale Travertenleri** ile sırtını yasladığı antik şifa kenti **Hierapolis**, Dalaman, Fethiye veya Marmaris tatilinize eklenebilecek en çarpıcı **[günübirlik veya bir gecelik kültür rotasıdır](/tr/articles/day-trips-and-itineraries)**.
 
-**Pamukkale Hierapolis ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+## Bilet, MüzeKart (2026) ve Mayısta Açılan Antik Havuz
 
-## Öne Çıkan Özellikler ve Detaylar
-pamukkale hierapolis bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+* **T.C. MüzeKart Avantajı:** Yıllık **300 ₺** bedelli T.C. **MüzeKart** ile hem beyaz travertenlere hem Hierapolis ören yerine hem de Hierapolis Arkeoloji Müzesi'ne **ek bilet almadan** girebilirsiniz. Yurt dışından gelen pasaportlu misafirler için giriş ücreti **30 €** (veya *MuseumPass Ege / Türkiye*) seviyesindedir.
+* **Kleopatra Antik Havuzu (Mayıs 2026 Güncellemesi):** MS 7. yüzyıl depremiyle devrilen mermer Roma sütunlarının arasında **+36 °C** maden suyuyla yüzülebilen efsanevi havuz, 2025–2026 dönemi kapsamlı restorasyon ve çevre düzenlemesinin ardından **Mayıs 2026 itibarıyla yeniden ziyarete açılmıştır**. Havuz bahçesini yürüyüp izlemek ören yeri biletine dâhildir; suya girmek isteyenler gişede ayrı ek ücret (~600 ₺ bandı) öder (**[termal rehber](/tr/articles/turkish-bath-hammam-and-spa)**).
 
-### Öne Çıkan Özellikler ve Detaylar
-pamukkale hierapolis bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Travertenler ve Hierapolis Gezisi Nasıl Planlanır?
 
-### Öne Çıkan Özellikler ve Detaylar
-pamukkale hierapolis bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Traverten yüzeyindeki hassas beyaz kalsit dokusunu korumak amacıyla alan üzerinde kesinlikle **yalınayak yürünür**; ayakkabılarınızı yanınıza alacağınız küçük bir bez torba veya sırt çantasında taşımanız gerekir. Güneş ışığının beyaz taşta oluşturduğu yansıma çok kuvvetli olduğundan **güneş gözlüğü, geniş şapka ve en az SPF 50 krem** şarttır. Sıcak su akışı, travertenlerin beyazlığını canlı tutmak için belirli bir programla farklı teras havuzlarına dönüşümlü olarak verilir.
 
-### Öne Çıkan Özellikler ve Detaylar
-pamukkale hierapolis bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Üst düzlükteki **Hierapolis** ise MÖ 2. yüzyıl Bergama Krallığı mirasını Roma ihtişamıyla birleştirir (**[antik kentler rehberi](/tr/articles/ancient-cities)**):
 
-## Nasıl Gidilir ve Ulaşım Seçenekleri
-Bölgeye ulaşım, gelişmiş transfer ve toplu taşıma ağı sayesinde oldukça kolaydır. Dalaman Havalimanı'ndan (DLM) özel transfer araçlarını kullanabilir, terminalden araç kiralayabilir veya [Fethiye](/tr/fethiye) ve [Marmaris](/tr/marmaris) yönüne giden servis otobüslerini (`Havaş` / `Muttaş`) tercih edebilirsiniz. Çevre beldeler ve plajlar arasındaki ulaşım ise sabah erken saatlerden gece yarısına kadar düzenli çalışan dolmuşlarla sağlanır.
+* **Büyük Antik Tiyatro:** 12.000–15.000 kişilik yarım daire oturma basamakları ve mermer sahne binası o kadar sağlamdır ki tepeden tüm vadiye hükmeder.
+* **Kuzey Nekropolü ve Müze:** Şehir surları dışında **2 kilometreden fazla** uzanan devasa taş lahitler ve anıt mezarlar caddesi, tepedeki St. Philip Martyrium kalıntısı ile eski Roma hamamı içindeki **Arkeoloji Müzesi** mutlaka görülmelidir.
 
-### Öne Çıkan Özellikler ve Detaylar
-pamukkale hierapolis bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## 3 Giriş Kapısı ve "05:30 Otobüs Turu" Tuzağı
 
+Günübirlik büyük tur otobüsleri sabah **05:30** civarında otellerden kalkar; yol üstündeki halı, deri veya oniks taşı mağazalarındaki uzun zorunlu molalar yüzünden öğlen saat 12:30 sularında, güneşin tam tepede yaktığı ve kalabalığın zirve yaptığı anda ören yerine ulaşır. Bunun yerine **[araba kiralayıp](/tr/articles/vehicle-rental-cars-scooters-bikes)** bağımsız hareket etmek çok daha rahattır (**[pratik seyahat tüyoları](/tr/articles/useful-tips)**):
 
----
+* **En İdeal Program:** Öğleden sonra kıyıdan çıkıp **17:00 sonrası** travertenlerdeki gün batımını izleyin; geceyi 5 km ilerideki kaplıca beldesi **Karahayıt** otellerinde geçirip ertesi sabah **08:00 açılışında** büyük tur otobüsleri gelmeden sessiz Pamukkale'nin tadını çıkarın.
+* **Hangi Kapı?** Özel aracınızla yukarıdan başlayıp yokuş aşağı inmek için **Güney Kapısı** (*South Gate*) en pratiktir; Merkez Kapısı yürüyerek tırmanmak isteyenlere, Kuzey Kapısı ise önce Nekropol'ü görmek isteyenlere uygundur.
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — Fethiye, Marmaris, [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+<!-- SOURCE [19.11.2026]: T.C. Kültür ve Turizm Bakanlığı Pamukkale Örenyeri MüzeKart tarifeleri ve Mayıs 2026 Kleopatra Havuzu açılış duyuruları (URL: https://muze.gov.tr/) -->

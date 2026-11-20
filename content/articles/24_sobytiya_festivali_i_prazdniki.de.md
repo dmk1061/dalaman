@@ -1,38 +1,54 @@
 ---
-title: "Reiseführer Annual Events, Festivals, and Holidays Calendar"
+title: "Feste, Feiertage & Festivals um Dalaman: Kalender 2026–2027"
 slug: "events-festivals"
-description: "Deutschsprachiger Don’t miss out on local celebrations: Datca Almond Blossom Festival, Gocek sailing regattas, and cultural music festivals."
+description: "Türkische Staats- und religiöse Feiertage 2026–2027 (Bayram-Termine!), Mandelblütenfest Datça, Pilzfest Yeşilüzümlü, Ölüdeniz Air Games und Herbstregatten."
 ---
 
-> [!NOTE]
-> **💡 Inflationsschutz ([Gültig für 2026]):** Die Preise in Türkischen Lira (TL) unterliegen in der Türkei regelmäßigen wirtschaftlichen Schwankungen. Die unten genannten Beträge dienen als **ungefähre Richtwerte**. Für genaue Kalkulationen empfehlen wir, die Preise vor Ort oder in Euro (EUR) zu prüfen.
+# Feste, Feiertage und Festivals: Wann an der Küste besonders viel los ist
 
-**Willkommen zu unserem ausführlichen Leitfaden über events festivals an der Türkischen Riviera. Die Region [Dalaman](/de/dalaman) (`DLM`) und ihre malerischen Küstenorte bieten erstklassige Erlebnisse, reiche Kultur und moderne touristische Infrastruktur.**
+Der Veranstaltungskalender rund um **[Dalaman](/de/dalaman)** folgt seinen eigenen Jahreszeiten: Im Februar feiert Datça die weiße Mandelblüte, im April sucht ein Bergdorf nach seltenen Morcheln, im Juni erklingen Konzerte im antiken Theater von Kaş, und im Oktober füllen hunderte Akrobatik-Gleitschirme sowie über hundert Segelyachten Himmel und Buchten.
 
-### Entdecken: Национальные праздники
+Ebenso wichtig für Ihre Urlaubsplanung sind die **nationalen und religiösen Feiertage der Türkei** — nicht nur wegen Fackelumzügen und Feuerwerken, sondern um volle Straßen rund um die großen Bayram-Reisewellen einzukalkulieren.
 
-Bei der Erkundung von **events festivals** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+<!-- SOURCE [19.11.2026]: Offizielle türkische Staatsfeiertage (inkl. 15 Temmuz) sowie Daten für Ramazan Bayramı & Kurban Bayramı 2026–2027 (URL: https://www.diyanet.gov.tr) und Festivaltermine Muğla & Kaş (URL: https://www.goturkiye.com) -->
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+## Staatliche Feiertage (Banken & Ämter geschlossen)
 
-### Entdecken: Религиозные праздники
+An diesen Daten bleiben Rathäuser, Notariate, Bankfilialen und Behörden geschlossen; an den Promenaden wehen tausende rote Fahnen:
 
-Bei der Erkundung von **events festivals** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+* **1. Januar:** Neujahr (*Yılbaşı*).
+* **23. April:** Tag der nationalen Souveränität und des Kindes (*Ulusal Egemenlik ve Çocuk Bayramı*).
+* **1. Mai:** Tag der Arbeit (*Emek ve Dayanışma Günü*).
+* **19. Mai:** Gedenktag Atatürks sowie Tag der Jugend und des Sports.
+* **15. Juli:** Tag der Demokratie und nationalen Einheit (*Demokrasi ve Millî Birlik Günü*).
+* **30. August:** Tag des Sieges (*Zafer Bayramı*).
+* **29. Oktober:** Tag der Republik (*Cumhuriyet Bayramı*) — der größte Nationalfeiertag mit Abendkonzerten, Fackelumzügen und Feuerwerken über Fethiye, Marmaris und Kaş.
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+## Religiöse Feiertage 2026–2027: Wichtige Termine für Ihre Planung
 
-### Entdecken: Местные фестивали и события
+Islamische Feste folgen dem Mondkalender und rücken jedes Jahr rund **10 bis 11 Tage nach vorn**:
 
-Bei der Erkundung von **events festivals** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+* **Fastenmonat Ramadan (*Ramazan*):** Auf die Urlaubsküste von Muğla und Antalya hat der Ramadan praktisch keine Einschränkungen für Reisende — Strände, Bars und Restaurants arbeiten ganz regulär; abends lockt an den Plätzen fröhliches Straßenleben rund um das Fastenbrechen (*İftar*).
+* **Zuckerfest (*Ramazan Bayramı*):** Drei freie Tage nach Ende des Fastenmonats. Im Jahr **2027** fällt es auf den **9.–11. März** (8. März halber Vortag *Arefe*).
+* **Opferfest (*Kurban Bayramı*):** Die längste Familien- und Urlaubswelle des Landes über vier Feiertage. Im Jahr **2027** liegt das Kurban Bayramı genau auf dem **16.–19. Mai** (und verbindet sich nahtlos mit dem 19. Mai — mitten in der beliebten Pfingst- und Vorsaison für Reisende aus Deutschland, Österreich und der Schweiz!).
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+Rund um beide *Bayram*-Wochen brechen Millionen Türken aus Istanbul, Ankara und İzmir ans Meer auf: Inlandsflüge und Mietwagen verteuern sich sprunghaft, Hotelkontingente schmelzen früh, und am ersten Festtag öffnen manche Familienlokale erst ab Mittag.
 
-### Entdecken: 🔗 Смотрите также: полезные материалы по Ликийскому побережью
+## Die schönsten Festivals zwischen Datça und Kaş
 
-Bei der Erkundung von **events festivals** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+* **Februar — Mandelblütenfest in [Datça](/de/articles/datca-peninsula) (*Badem Çiçeği Festivali*):** Wenn in Mitteleuropa Winter herrscht, blüht die Halbinsel weiß-rosa — mit Handwerksständen in Eski Datça, Mandelsüßigkeiten, Konzerten und geführten Wanderungen.
+* **April — Morchel-Festival in [Yeşilüzümlü](/de/articles/yesiluzumlu-village) (*Kuzugöbeği Mantar Festivali*):** Das Bergdorf oberhalb von Fethiye feiert wilde Frühlingsmorcheln mit Pilzwanderungen, lokalem Dorfwein und Webvorführungen der *Dastar*-Tücher.
+* **Juni — Kultur- und Kunstfestival in [Kaş](/de/kas):** Open-Air-Konzerte und abendliche Filmabende unter Sternen auf den Steinstufen des antiken Theaters.
+* **Ende Juni bis Juli — Schildkrötentage in [Dalyan](/de/dalyan):** Umweltaktionen und Veranstaltungen rund um die Eiablage von *Caretta caretta* am İztuzu-Strand.
+* **Oktober — International Air Games Festival in [Ölüdeniz](/de/articles/oludeniz):** Eines der spektakulärsten Events des Mittelmeerraums, wenn hunderte Paragliding- und Basejump-Profis aus aller Welt Kunstflug und Kostümflüge über den Strand Belcekız zaubern.
+* **Ende Oktober bis November — Herbstregatten (*Marmaris International Race Week* & Göcek Race Week):** Über hundert Segelyachten sorgen für lebendigen Marina-Ausklang der Saison.
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+> **Insider-Tipp für Mai 2027:** Fällt Ihre DACH-Frühlingsreise im **Mai 2027** auf das Zeitfenster rund um das **Kurban Bayramı (15.–23. Mai)**, buchen Sie Hotel, Mietwagen und eventuelle Istanbul-Weiterflüge mindestens sechs bis acht Wochen vorab — und meiden Sie lange Umzugs-Etappen auf der D400 am ersten Samstagmorgen sowie letzten Rückreisetag.
 
-## Empfohlene Artikel & verwandte Leitfäden
+---
 
-Für weitere Informationen und eine detaillierte Urlaubsplanung entdecken Sie unsere Stadtführer für [Marmaris](/de/marmaris), [Fethiye](/de/fethiye), [Kaş](/de/kas) und [Dalyan](/de/dalyan).
+### Siehe auch
+- **[Großer Event- und Jahrmarkt-Kalender](/de/articles/events-and-festivals-calendar)** — ausführliches Monatsverzeichnis für das ganze Jahr.
+- **[Klima und Reisezeiten](/de/articles/climate-and-seasons)** — wie sich Wetter und Feste optimal kombinieren lassen.
+- **[Yachting und Herbstregatten](/de/articles/yachting)** — alles zur Race Week in Marmaris und Göcek.
+- **[Paragliding vom Babadağ](/de/articles/paragliding)** — Saisonzeiten und Startplätze über Ölüdeniz.

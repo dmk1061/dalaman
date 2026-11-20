@@ -1,50 +1,53 @@
 ---
-title: "Islands, Bays, and Secluded Gulfs of the Lycian Coast"
+title: "Islands, Coves & Hidden Bays Around Dalaman: By Boat Only"
 slug: "islands-bays"
-description: "Discover the most picturesque islands and hidden bays of the Lycian and Turquoise Coasts: Blue Cruise destinations, Gocek islands, and secret beaches."
+description: "Boat-lover's guide to the Datça-to-Kaş coastline: Göcek's 12 Islands, Cleopatra's Bath Bay, Bedri Rahmi rock fish painting, Kekova sunken ruins, and 2026 boat tour prices."
 ---
 
-> [!NOTE]
-> **💡 Inflation Shield ([Valid for 2026]):** Prices in Turkish Liras (TL) in Turkey are subject to regular economic fluctuations. The figures listed below serve as helpful **approximate benchmarks**. For exact calculations, we recommend verifying local pricing or checking hard currency equivalents (EUR/USD).
+# Islands, Coves & Secret Bays: The Coast Seen Best from Deck
 
-**Welcome to our detailed guide on islands bays along the Turquoise Coast. The [Dalaman](/en/dalaman) region (`DLM`) and surrounding coastal gems offer exceptional experiences, rich cultural heritage, and modern travel amenities.**
+Some of the finest scenery between [Datça](/en/dacha) and [Kaş](/en/kas) doesn't appear on any road map. While the D400 highway loops inland over pine passes, the shoreline fractures into calm fjord-like inlets, tiny uninhabited islands, and pine-shaded anchorages where even mid-August brings little more than water lapping gently against wooden hulls.
 
-### Explore: Залив Фетхие и 12 островов
+Even if you have zero plans for a week-long charter, carving out one or two days aboard a boat across Fethiye–Göcek Bay, Bozburun, or sunken Kekova transforms how you experience southwestern Turkey.
 
-When exploring **islands bays** along the Dalaman Riviera, visitors are consistently impressed by the quality of service, pristine natural environment, and accessibility across top regional destinations. Whether your journey takes you through the lively harbor of [Fethiye](/en/fethiye), the scenic pine coves of [Marmaris](/en/marmaris), or the tranquil river channels of [Dalyan](/en/dalyan), each location provides unique opportunities tailored to every travel preference.
+<!-- SOURCE [19.11.2026]: Cove geography across Fethiye–Göcek Bay, 1974 Bedri Rahmi Eyüboğlu rock painting history (URL: https://www.kulturenvanteri.com, https://www.goturkiye.com) and 2026 boat excursion pricing benchmarks (URL: https://www.fethiyetours.com) -->
 
-To make the most of your experience, local experts recommend checking seasonal conditions, arranging bookings early during peak months, and taking advantage of reliable transport connections from [Dalaman](/en/dalaman) international airport (`DLM`). Combining outdoor activities with traditional Aegean hospitality ensures an unforgettable holiday along Turkey's Turquoise Coast.
+## Fethiye Bay & the "12 Islands of Göcek"
 
-#### Explore: Ключевые острова и бухты залива:
+Every harbor kiosk advertises **"12 Islands"** day cruises—a catch-all name covering the sheltered archipelago and deeply indented mainland Kapıdağ Peninsula stretching between [Fethiye](/en/fethiye) and [Göcek](/en/gocek). Ringed by peaks and islands, the gulf stays remarkably flat and forgiving, even for travelers prone to seasickness.
 
-When exploring **islands bays** along the Dalaman Riviera, visitors are consistently impressed by the quality of service, pristine natural environment, and accessibility across top regional destinations. Whether your journey takes you through the lively harbor of [Fethiye](/en/fethiye), the scenic pine coves of [Marmaris](/en/marmaris), or the tranquil river channels of [Dalyan](/en/dalyan), each location provides unique opportunities tailored to every travel preference.
+* **Cleopatra's Bath Bay (*Kleopatra Hamamı Koyu*):** Easily the route's standout stop—tucked into a deep cleft of the **mainland Kapıdağ Peninsula** opposite Tersane Island (not on Domuz Island, despite persistent boat-crew myths). Submerged stone arches and walls break right beneath the surface: in truth, they are flooded ruins of a **Byzantine monastery**, rebranded "Cleopatra's Bath" by local skippers for romantic flair.
+* **Tersane Island (*Tersane Adası*):** The gulf's largest island preserves calm deep-water anchorages lined with crumbling Ottoman boatyards (*tersane* literally means shipyard) and empty stone cottages of a Greek fishing settlement abandoned in 1923.
+* **Yassıca Islands (*Yassıca Adaları*):** A cluster of flat, pine-topped islets stitched together by a knee-deep sandy spit and warm lagoon—always a hit with young swimmers.
+* **Bedri Rahmi Bay (*Bedri Rahmi Koyu* / Taşyaka):** Combining freshwater springs and hillside Lycian tombs, this inlet earned modern fame during a 1974 Blue Cruise when celebrated Turkish painter and poet **Bedri Rahmi Eyüboğlu** sketched a stylized blue-and-red fish onto a smooth coastal boulder. Look closely inside the fish outlines to spot hidden silhouettes of six different creatures and a tiny sailboat.
+* **Mainland Coves & [Gemiler Island](/en/articles/st-nicholas-island):** Along Kapıdağ's south face shelter pine coves like Göbün, Boynuzbükü, [Sarsala](/en/articles/sarsala-bay), and [Kille](/en/articles/kille-bay), while slightly east off Ölüdeniz rises **St. Nicholas Island (Gemiler)**—crowned with 4th–6th-century Byzantine churches, a vaulted hilltop walkway, and dazzling sunset views across the bay.
 
-To make the most of your experience, local experts recommend checking seasonal conditions, arranging bookings early during peak months, and taking advantage of reliable transport connections from [Dalaman](/en/dalaman) international airport (`DLM`). Combining outdoor activities with traditional Aegean hospitality ensures an unforgettable holiday along Turkey's Turquoise Coast.
+## Gulfs of Gökova & Hisarönü (Marmaris, Datça & Bozburun)
 
-### Explore: Залив Хисароню и полуостров Датча (район Мармариса)
+Sail west past [Marmaris](/en/marmaris) and channels open wide, winds freshen, and bays feel noticeably wilder:
 
-When exploring **islands bays** along the Dalaman Riviera, visitors are consistently impressed by the quality of service, pristine natural environment, and accessibility across top regional destinations. Whether your journey takes you through the lively harbor of [Fethiye](/en/fethiye), the scenic pine coves of [Marmaris](/en/marmaris), or the tranquil river channels of [Dalyan](/en/dalyan), each location provides unique opportunities tailored to every travel preference.
+* **Sedir Island (Gulf of Gökova):** Ancient Carian city of Kedrai and the strictly protected oolitic sands of Cleopatra Beach.
+* **Dişlice Island (*Dişlice Adası* / "Tooth Island"):** A miniature volcanic outcrop in the Gulf of Hisarönü bristling with jagged, fang-like basalt crags beloved by snorkelers and sea kayakers.
+* **Kameriye Island (*Kameriye Adası*):** Uninhabited island off Bozburun holding an evocative ruined Greek chapel paved with decorative black-and-white pebble mosaics.
+* **[Ekincik Bay](/en/articles/ekincik-bay) & Bozburun Harbors:** Pine-fringed Ekincik outside Dalyan acts as the deep-water staging bay where larger yachts anchor while passengers hop onto flat-bottomed riverboats to visit ancient Kaunos; down the Bozburun Peninsula, Selimiye and Orhaniye deliver dreamy dockside dinners right off the stern.
 
-To make the most of your experience, local experts recommend checking seasonal conditions, arranging bookings early during peak months, and taking advantage of reliable transport connections from [Dalaman](/en/dalaman) international airport (`DLM`). Combining outdoor activities with traditional Aegean hospitality ensures an unforgettable holiday along Turkey's Turquoise Coast.
+## Eastern Horizon: The Kekova Archipelago
 
-#### Explore: Интересные места:
+Stretching between [Kaş](/en/kas) and Demre lies elongated **Kekova Island**, one of Turkey's most haunting maritime ruins. Along its northern flank, entire blocks of the ancient Lycian town of Dolichiste—stairs, stone doorframes, and quays—lie flooded visibly beneath translucent water after 2nd-century AD earthquakes. Dropping anchor or swimming directly over the sunken city walls is strictly banned by heritage law; instead, boats cruise slowly past before dropping ladders beside car-free **Kaleköy (ancient Simena)** and glassy Aquarium Bay, where you can snorkel around Lycian sarcophagi jutting straight out of the shallows.
 
-When exploring **islands bays** along the Dalaman Riviera, visitors are consistently impressed by the quality of service, pristine natural environment, and accessibility across top regional destinations. Whether your journey takes you through the lively harbor of [Fethiye](/en/fethiye), the scenic pine coves of [Marmaris](/en/marmaris), or the tranquil river channels of [Dalyan](/en/dalyan), each location provides unique opportunities tailored to every travel preference.
+## Choosing Your Boat & 2026 Budgets
 
-To make the most of your experience, local experts recommend checking seasonal conditions, arranging bookings early during peak months, and taking advantage of reliable transport connections from [Dalaman](/en/dalaman) international airport (`DLM`). Combining outdoor activities with traditional Aegean hospitality ensures an unforgettable holiday along Turkey's Turquoise Coast.
+1. **Group day cruise (~€25–35 per person):** High value and easy to book right at harbor quays in Fethiye, Göcek, Ölüdeniz, Marmaris, or Kaş. Departing around 10:00–10:30, boats make 4–5 swim stops with freshly grilled lunch included (drinks are nearly always charged separately at the bar).
+2. **Small wooden gulet or private day charter:** Fair warning—huge double-decker party boats out of Ölüdeniz and Marmaris frequently blast booming pop playlists and foam machines. Prefer calm water and conversation? Seek out smaller 10–14 guest boats in Göcek or Kaş, or split a **private day charter (€250–450/day** for 6–8 friends depending on boat and month)—often beating excursion tickets on cost while letting you steer your own schedule.
+3. **Sea kayaking:** Hands down the quietest way to glide right alongside submerged Kekova walls (launching from Üçağız) or slip into hidden sea caves along Kaş and Datça.
 
-### Explore: Способы исследования
+> [!TIP]
+> **Insider Tip:** Before handing over cash at any marina desk, check two non-negotiables: **whether loud music/animation is played** (look specifically for *"No Music / Chill Boat"* signs if you want peace) and **which harbor the boat actually returns to**. Even in scorching July, toss a light windbreaker into your dry bag: beating back into fresh afternoon headwinds in a wet swimsuit gets surprisingly brisk.
 
-When exploring **islands bays** along the Dalaman Riviera, visitors are consistently impressed by the quality of service, pristine natural environment, and accessibility across top regional destinations. Whether your journey takes you through the lively harbor of [Fethiye](/en/fethiye), the scenic pine coves of [Marmaris](/en/marmaris), or the tranquil river channels of [Dalyan](/en/dalyan), each location provides unique opportunities tailored to every travel preference.
+---
 
-To make the most of your experience, local experts recommend checking seasonal conditions, arranging bookings early during peak months, and taking advantage of reliable transport connections from [Dalaman](/en/dalaman) international airport (`DLM`). Combining outdoor activities with traditional Aegean hospitality ensures an unforgettable holiday along Turkey's Turquoise Coast.
-
-### Explore: 🔗 Смотрите также: морской отдых и лучшие курорты
-
-When exploring **islands bays** along the Dalaman Riviera, visitors are consistently impressed by the quality of service, pristine natural environment, and accessibility across top regional destinations. Whether your journey takes you through the lively harbor of [Fethiye](/en/fethiye), the scenic pine coves of [Marmaris](/en/marmaris), or the tranquil river channels of [Dalyan](/en/dalyan), each location provides unique opportunities tailored to every travel preference.
-
-To make the most of your experience, local experts recommend checking seasonal conditions, arranging bookings early during peak months, and taking advantage of reliable transport connections from [Dalaman](/en/dalaman) international airport (`DLM`). Combining outdoor activities with traditional Aegean hospitality ensures an unforgettable holiday along Turkey's Turquoise Coast.
-
-## Recommended Reading & Related Guides
-
-For further insights and comprehensive regional planning, explore our dedicated city guides for [Marmaris](/en/marmaris), [Fethiye](/en/fethiye), [Kaş](/en/kas), and [Dalyan](/en/dalyan).
+### 🔗 See Also
+- **[Yachting & Blue Cruises: Marinas and Charters](/en/articles/yachting)** — multi-day sailing routes and Göcek marina tips.
+- **[Sarsala Bay Near Dalaman](/en/articles/sarsala-bay)** — driving straight to one of the gulf's loveliest coves.
+- **[Kille Bay (Göcek)](/en/articles/kille-bay)** — reaching secluded pine bays without a boat.
+- **[Scuba Diving & Snorkeling](/en/articles/diving)** — underwater canyons, turtles, and sunken aircraft.

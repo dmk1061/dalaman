@@ -1,33 +1,34 @@
 ---
-title: "Gezi ve Keşif Rehberi: Sarsala Bay"
+title: "Sarsala Koyu (Dalaman): Havaalanına Yarım Saatlik Mesafede Orman İçi Demir Yeri"
 slug: "sarsala-bay"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Dalaman Sarsala Koyu gezi rehberi: Büyük ve Küçük Sarsala farkı, son 5-6 km dar dağ yolu ve nakit gişe uyarısı, akşamüstü dönüş uçağı öncesi son yüzme planı."
 ---
 
-# Gezi ve Keşif Rehberi: Sarsala Bay
+# Sarsala Koyu: Uçuş Öncesi Son Yüzme ve Sükûnet Koyu
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+**[Dalaman Havalimanı](/tr/articles/airport-dalaman)**'ndan sadece **15–20 kilometre** (**25–30 dakika**) ötede, Kapıkargın köyü üzerinden çam ormanlarının içine kıvrıldığınızda karşınıza Muğla kıyılarının en korunaklı yeşil koylarından **Sarsala** çıkar. Jet skilerin ve yüksek sesli sahil kulüplerinin giremediği bu derin koy, yalnızca doğanın sesini duymak isteyenlerin ve Mavi Tur guletlerinin değişmez durağıdır (**[koylar rehberi](/tr/articles/islands-bays)**).
 
-**Sarsala Bay ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+## Büyük Sarsala vs. Küçük Sarsala
 
-## Öne Çıkan Özellikler ve Detaylar
-sarsala bay bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Haritada yan yana duran iki koyun erişimi ve karakteri birbirinden farklıdır:
 
-## Nasıl Gidilir ve Ulaşım Seçenekleri
-Bölgeye ulaşım, gelişmiş transfer ve toplu taşıma ağı sayesinde oldukça kolaydır. Dalaman Havalimanı'ndan (DLM) özel transfer araçlarını kullanabilir, terminalden araç kiralayabilir veya [Fethiye](/tr/fethiye) ve [Marmaris](/tr/marmaris) yönüne giden servis otobüslerini (`Havaş` / `Muttaş`) tercih edebilirsiniz. Çevre beldeler ve plajlar arasındaki ulaşım ise sabah erken saatlerden gece yarısına kadar düzenli çalışan dolmuşlarla sağlanır.
+* **Büyük Sarsala (Araçla Ulaşım):** Karayolunun indiği ana koy. Sahil tabanı ince kum değil, pürüzsüz orta-ince çakıldır — ayağınızın rahatı için **deniz ayakkabısı** getirmek büyük fark yaratır. Deniz kısa sürede boyu aşar ama dalgasız ve cam gibi berraktır. Kıyıda belediye/işletme ahşap ve plastik şezlongları, sade bir büfe-kafe, duş ve tuvalet bulunur; gösterişli plaj kulüpleri yoktur.
+* **Küçük Sarsala (Yatlarla Ulaşım):** Ana koyun hemen yanındaki burnun arkasında gizlenir. Karayolu girişi yerine genellikle özel tekne ve yatların yanaştığı şık ahşap iskeleli balık restoranıyla bilinir (**[yatçılık rehberi](/tr/articles/yachting)**).
 
-## Öne Çıkan Özellikler ve Detaylar
-sarsala bay bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Son 5–6 Kilometre ve Kritik Saha Uyarıları
 
-### Öne Çıkan Özellikler ve Detaylar
-sarsala bay bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Sarsala'ya Kapıkargın'dan sonraki **son 5–6 kilometrelik** dağ yolu, dik yokuşlar ve **keskin kör U virajlardan** oluşur (**[araç kiralama tavsiyeleri](/tr/articles/vehicle-rental-cars-scooters-bikes)**):
 
+1. **Düşük Vites ve Nakit Giriş:** Dar yolda karşıdan gelen araca yol vermek için sakin ilerleyin. Yoldaki Dalaman Belediyesi kontrol gişesinde araç giriş ücreti tahsil edilir. Koy içinde GSM ve mobil veri sinyali çok zayıf veya kesik olduğundan POS cihazları çekmeyebilir — **yanınızda mutlaka nakit Türk Lirası** bulundurun.
+2. **Gece Aydınlatmasız Yol ve Yaban Hayatı:** Dağ yolunda sokak lambası yoktur. Güneş battıktan sonraki dönüşlerde asfalta çıkabilen **yaban domuzları ve kaplumbağalara** karşı hızınızı mutlaka düşürün.
 
----
+## Günün En Doğru Saati, Şnorkel ve Uçuş Öncesi Plan
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — Fethiye, Marmaris, [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+Kapıdağ Yarımadası'nın sığla (*günlük*) ağaçları ve kızılçamlarıyla çevrili Sarsala, yalnızca yüzmek için değil **kıyı şeridinde şnorkelle keşif** için de çok uygundur: koyun iki yanındaki kayalık duvarlar boyunca karagöz sürüleri ve gizlenen ahtapotlar rahatlıkla gözlemlenir.
+
+* **Saat 12:00–15:30 vs. Sessiz Saatler:** Öğle saatlerinde Göcek ve Fethiye'den kalkan **12 Adalar** tur tekneleri iskele ve açıklarına demirler (**[Göcek rehberi](/tr/articles/gocek-guide)**). Araçla gelenler için sabah **09:00–11:00** arası veya tüm teknelerin döndüğü **16:00 sonrası** koy tamamen size kalır; su altını ve yeşil çam manzarasını altın gün batımı ışığında fotoğraflamak için **16:00 sonrası** rakipsizdir.
+* **En Keyifli Dönem:** Mayıs–Haziran ile Eylül–Ekim ayları deniz suyu ve kalabalık dengesi açısından yılın en rahat dönemidir (**[iklim rehberi](/tr/articles/climate-and-seasons)**). Kışın işletmeler kapalı olsa da manzara seyri için yol açık kalır.
+* **Check-Out Sonrası Son Yüzme Planı:** Fethiye veya Kaş'taki otelinizden saat **11:00** civarında çıkış yapıp akşam uçağıyla Dalaman'dan dönecekseniz valizle bekleme salonunda vakit öldürmeyin. Eşyalarınızı bagajda bırakıp Sarsala'ya (veya kum sahil isterseniz **[Sarıgerme](/tr/articles/sarigerme-guide)**'ye) inin; 3–4 saat denizin tadını çıkarıp sahildeki tatlı su duşunda tuzunuzu attıktan sonra sadece **25 dakikalık** sürüşle tam vaktinde DLM terminaline varırsınız (**[Kille Koyu](/tr/articles/kille-bay)** da hemen yan yarımadadadır).
+* **Bagajda Bulunsun:** Burun üstündeki seyir patikasına çıkıp yukarıdan fotoğraf çekmek isterseniz yanınıza kapalı spor ayakkabı (**[fotoğraf noktaları](/tr/articles/photo-guide-best-instagram-spots)**), çakıllı giriş için deniz ayakkabısı ve dönüşteki karanlık orman yolu için su termosunuzu mutlaka alın.
+
+<!-- SOURCE [19.11.2026]: Dalaman Belediyesi Sarsala Koyu işletmesi ve karayolu erişim bilgileri (URL: https://www.dalaman.bel.tr/) -->

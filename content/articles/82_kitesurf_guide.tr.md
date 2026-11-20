@@ -1,99 +1,63 @@
 ---
-title: "Gezi ve Keşif Rehberi: Kitesurfing"
+title: "Dalaman Çevresinde Kitesurf: Akyaka, Datça, Sarıgerme ve Okul Rehberi"
 slug: "kitesurfing"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Dalaman çevresinde kitesurf rehberi: Akyaka Akçapınar, Datça Kızlan, Sarıgerme ve Çalış karşılaştırma tablosu, neden Kaş/Göcek/Ölüdeniz'de yapılmaz ve IKO kurs ücretleri."
 ---
 
-# Gezi ve Keşif Rehberi: Kitesurfing
+# Dalaman Çevresinde Kitesurf: Termal Rüzgârın ve Sığ Kumun Peşinde
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+**[Dalaman Havalimanı](/tr/articles/airport-dalaman)**'na yakın kıyı şeridi yalnızca sakin koylarıyla değil, yaz boyunca saat gibi işleyen düzenli termal rüzgârlarıyla Türkiye'nin en iyi **kitesurf** merkezlerine açılır. Doğru koyu seçmek rüzgâr yönünü ve sahil yapısını bilmekten geçer; çünkü her popüler tatil beldesi uçurtma kaldırmaya uygun değildir.
 
-**Kitesurfing ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+## Başlıca Kitesurf ve Rüzgâr Noktaları
 
-## Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+<div class="overflow-x-auto my-6 rounded-xl border border-slate-200"><table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-slate-50 border-b border-slate-200">
+<th class="p-3 font-semibold text-slate-800">Nokta</th>
+<th class="p-3 font-semibold text-slate-800">DLM Mesafesi / Rüzgâr</th>
+<th class="p-3 font-semibold text-slate-800">Su Yapısı ve Kimler İçin?</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-slate-200">
+<tr>
+<td class="p-3 font-medium"><strong>Akyaka (Akçapınar)</strong></td>
+<td class="p-3">~60 km / 12:00–18:00 arası <strong>14–20 knot</strong> termal</td>
+<td class="p-3">Diz–bel derinliğinde geniş kum bankı; <strong>başlangıç ve freestyle</strong> için 1 numara</td>
+</tr>
+<tr>
+<td class="p-3 font-medium"><strong>Datça (Kızlan – Gebekum)</strong></td>
+<td class="p-3">~150 km / Açık meltem</td>
+<td class="p-3">Daha derin ve çırpıntılı deniz; bağımsız sörfçüler (<em>Dirik Surf &amp; Beach Club</em>)</td>
+</tr>
+<tr>
+<td class="p-3 font-medium"><strong>Sarıgerme</strong></td>
+<td class="p-3">~17 km / Hafif 7–12 knot GB</td>
+<td class="p-3">Büyük m² kite, başlangıç <em>wingfoil</em> ve <em>hydrofoil</em> için</td>
+</tr>
+<tr>
+<td class="p-3 font-medium"><strong>Çalış Plajı (<a href="/tr/fethiye">Fethiye</a>)</strong></td>
+<td class="p-3">~45 km / Öğleden sonra esintisi</td>
+<td class="p-3">Rüzgâr sörfüne uygun; yoğun yüzücüler nedeniyle <strong>acemi kitesurf için kalabalık</strong></td>
+</tr>
+</tbody>
+</table></div>
 
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+**Akyaka / Akçapınar** sahilindeki 3 kilometrelik korunaklı kum sığlığı, düşen öğrencinin ayağını yere basabilmesi ve kıyıya paralel iten güvenli termal yönü sayesinde Avrupa'nın sayılı eğitim koylarından biridir. Daha sert meltem ve dalga isteyen ileri seviye sürücüler ise **[Datça Yarımadası](/tr/articles/datca-peninsula)** girişindeki Kızlan–Gebekum şeridine geçer; sadece hafif esintide süzülmek isteyenler **[Sarıgerme](/tr/articles/sarigerme-guide)**'de *foil* dener.
 
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Boşuna Çanta Taşımayın: Nerede Kitesurf YAPILMAZ?
 
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Üç meşhur belde doğası gereği kitesurf için tamamen elverişsizdir:
 
-## Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+* **[Kaş](/tr/articles/kas-guide):** Sahil hattı dik kayalıklardan oluşur; güvenli uçurtma serip kaldıracak geniş bir kum sahil alanı yoktur.
+* **[Göcek](/tr/gocek):** Körfez dar ve etrafı yüksek dağlarla kapalı olduğundan rüzgâr türbülanslıdır, ayrıca koylarda yüzlerce yat direği arasında manevra imkânsızdır.
+* **[Ölüdeniz](/tr/articles/oludeniz):** Babadağ'dan inen yamaç paraşütlerinin resmi iniş koridoru ve yoğun yüzücü kalabalığı nedeniyle kitesurf kesinlikle yasak ve tehlikelidir.
 
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Eğitim, Kiralama Fiyatları ve Ekipman Planı
 
-## Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+* **IKO Dersleri:** Sertifikalı tam başlangıç paketi (genellikle **9–12 saat**) ekipman dahil **~300–500 €** karşılığı; tek saatlik özel dersler ise **~80–120 €** bandındadır.
+* **Ekipman Kiralama:** Günlük tam set kiralama **~50–80 €** civarındadır. Okullar bağımsız kiralama için mutlaka **IKO Level 3+** (rüzgâr üstüne çıkabilen bağımsız sürücü) sertifikası ve ortalama **200–500 €** hasar depozitosu talep eder.
+* **Çanta Ölçüleri ve Neopren:** Termal sezonda yanınızda **9 / 11–12 / 14 m²** uçurtma aralığı bulundurmak neredeyse her günü kurtarır. Yazın yalnızca mayo-likra yeterliyken **Mayıs ve Ekim** aylarında **3/2 mm ince wetsuit** rüzgârda üşümeyi önler.
 
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Sahile çıkmadan önce poliçenizde **"ekstrem/su sporları teminatı"** olup olmadığını kontrol edin (**[pratik kurallar](/tr/articles/useful-tips)**), denizde diğer sörfçülere ve yüzme şamandıralarına **en az 50 metre** mesafe bırakın; su üstü acil durumlarda Sahil Güvenlik ve genel acil hat **112** üzerinden yönlendirilir.
 
-## Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-## Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-## Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-## Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-## Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-### Öne Çıkan Özellikler ve Detaylar
-kitesurfing bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
-
-
----
-
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — [Fethiye](/tr/fethiye), [Marmaris](/tr/marmaris), [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+<!-- SOURCE [19.11.2026]: IKO Gökova (Akyaka) ve Datça Kızlan rüzgâr sörfü merkezleri sezon verileri (URL: https://www.ikointl.com/) -->

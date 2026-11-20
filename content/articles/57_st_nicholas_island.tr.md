@@ -1,33 +1,35 @@
 ---
-title: "Gezi ve Keşif Rehberi: St Nicholas Island"
+title: "Gemiler Adası (Aziz Nikolaos Adası): Batık Liman, 160 m Galeri ve Günbatımı"
 slug: "st-nicholas-island"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Fethiye açıklarındaki Gemiler Adası rehberi: Osaka Üniversitesi kazıları, 4 Bizans bazilikası, su altındaki liman merdivenlerinde şnorkel, MüzeKart (300 TL) ve Gemile Plajı'ndan kayık."
 ---
 
-# Gezi ve Keşif Rehberi: St Nicholas Island
+# Gemiler Adası (Aziz Nikolaos): Batık Bizans Limanı ve Zirvede Günbatımı
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+**[Kayaköy](/tr/articles/kayakoy-ghost-town)** tepelerinin hemen arkasında, ana karadan yalnızca birkaç yüz metrelik bir boğazla ayrılan uzun ve kayalık **Gemiler Adası**, dışarıdan sıradan bir çamlık sırt gibi görünür. Oysa tekne iskeleye yanaşıp yamaca adım attığınız anda 5.–7. yüzyıllardan kalma erken Bizans döneminin neredeyse el değmemiş bir hac ve denizcilik yerleşiminin içine girersiniz.
 
-**St Nicholas Island ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+Adayı bölge haritasında benzersiz kılan iki şey vardır: şnorkelle hemen üzerinde yüzülen **batık antik liman basamakları** ve zirvedeki bazilikadan izlenen unutulmaz günbatımı.
 
-## Öne Çıkan Özellikler ve Detaylar
-st nicholas island bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+<!-- SOURCE [19.11.2026]: Osaka Üniversitesi Prof. Shigebumi Tsuji ve Kazuo Asano kazı bulguları (~160 m ana tonozlu / toplam 350 m hac yolu galerisi, 4 bazilika 5.–7. yy) (URL: https://www.bilkent.edu.tr); 2026 giriş MüzeKart kapsamı ve yabancı tarife 3 € — Kültür ve Turizm Bakanlığı (URL: https://muze.gov.tr) -->
 
-## Öne Çıkan Özellikler ve Detaylar
-st nicholas island bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Aziz Nikolaos Bağlantısı: Arkeologlar Ne Diyor?
 
-## Nasıl Gidilir ve Ulaşım Seçenekleri
-Bölgeye ulaşım, gelişmiş transfer ve toplu taşıma ağı sayesinde oldukça kolaydır. Dalaman Havalimanı'ndan (DLM) özel transfer araçlarını kullanabilir, terminalden araç kiralayabilir veya [Fethiye](/tr/fethiye) ve [Marmaris](/tr/marmaris) yönüne giden servis otobüslerini (`Havaş` / `Muttaş`) tercih edebilirsiniz. Çevre beldeler ve plajlar arasındaki ulaşım ise sabah erken saatlerden gece yarısına kadar düzenli çalışan dolmuşlarla sağlanır.
+Turistik anlatımlarda zaman zaman *"Aziz Nikolaos kesin burada gömülüydü"* dense de tarihsel tablo çok daha inceliklidir:
 
-### Öne Çıkan Özellikler ve Detaylar
-st nicholas island bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+* **Osaka Üniversitesi Kazıları:** 1990'lı yıllarda sanat tarihçisi ve arkeolog **Prof. Shigebumi Tsuji** ile **Kazuo Asano** başkanlığındaki Japon kazı ekibi adayı haritalandırdı ve 15.–16. yüzyıl denizcilik haritalarıyla (*portolan*) eşleştirdi. Ortaçağ kaptanları Gemiler'i açıkça **"Aziz Nikolaos Adası"** olarak işaretliyordu.
+* **Hac Duraklaması Hipotezi:** Tsuji'nin bilimsel değerlendirmesine göre, 650'lerdeki deniz akınları döneminde Gemiler Adası Kudüs'e giden hacılar için güvenli bir aktarma limanıydı ve **[Myra (Demre)](/tr/articles/myra-ancient-city)** Piskoposu Aziz Nikolaos'un saygı makamını (veya geçici bir emanet/hatıra mezarını) barındırmış olması güçlü bir ihtimaldir.
 
+## Adada ve Su Altında Görülmesi Gereken 4 Durak
 
----
+Adanın batıdan doğuya tam gezisi **1–1,5 saat** sürer:
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — Fethiye, Marmaris, [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+1. **Dört Erken Hıristiyan Bazilikası (5.–7. yy):** Yamaçlarda mozaik döşemeli dört kilise yer alır. En tepedeki **III. Kilise**'nin apsisinden Ölüdeniz burnundan açık Akdeniz'e 360 derecelik olağanüstü bir ufuk açılır.
+2. **Üstü Örtülü Tören Koridoru (~160 m Tonozlu Bölüm):** Aşağıdaki yerleşim alanıyla (IV. Kilise) zirvedeki katedrali birleştiren yaklaşık 2,5 m genişliğindeki tonozlu taş geçit (ana kapalı bölüm ~160 m, toplam yamaç geçiş sistemi ~350 m) hacıları yaz güneşinden ve kış yağmurundan korumak için yapılmıştı.
+3. **Su Altındaki Bizans Limanı (Şnorkelcenneti):** Bölgedeki depremler kıyı çizgisini yaklaşık iki metre aşağı çekmiştir. Adanın kuzey kıyısından — Gemile Boğazı tarafından — maskeyle suya girdiğinizde birkaç metre altınızda taş rıhtım basamakları, depo duvarları ve iskele temelleri tüm netliğiyle durur.
+4. **Sarnıçlar, Fırınlar ve Ambarlar:** Tatlı su kaynağı olmayan kayalık bir adada yüzlerce hacı ve tayfayı beslemek için kayalara oyulmuş dev yağmur sarnıçları ve fırın kalıntıları her basamakta görülür.
+
+## Işık Saati, MüzeKart ve Ulaşım (2026)
+
+* **Güneş ve Saat Taktikleri:** Su altı batık rıhtımında cam gibi görüş için sabah **11:00'den önce** şnorkelle girin; doğu güneşi suyu akvaryum gibi aydınlatırken henüz gezi tekneleri yanaşmamıştır. Yamaç kalıntılarını fotoğraflamak içinse **gün batımından 45 dakika önce** zirveye tırmanın ([Fotoğraf Rehberi](/tr/articles/photo-guide-best-instagram-spots)); aşağıda koyda demirleyen onlarca yelkenlinin güverte ışıkları eşliğinde apsis taşları pembe-altın renge boyanır.
+* **Nasıl Gidilir?** **[Ölüdeniz](/tr/articles/oludeniz)** günlük teknelerinin çoğu burada 45–60 dakikalık günbatımı molası verir — ancak zirveye çıkıp rahat gezmek için en keyiflisi kendi aracınızla Fethiye–Kayaköy üzerinden çamların arasından **Gemile Plajı**na inmek (~25 dk, plaj otoparkı sezonda cüzi ücretli) ve iskeledeki küçük yerel kayıkçılarla 5–10 dakikada karşıya geçmektir (gidiş-dönüş kişi başı ~300–450 ₺ / 5–8 €).
+* **Giriş ve Ekipman (2026):** Ada ören yeri kapısında T.C. vatandaşları için **300 ₺'lik MüzeKart geçerlidir** *(yabancı misafirler `muze.gov.tr` tarifesiyle **3 €** veya `MuseumPass Ege` ile girer)*. Yamaç taşları kaygan olduğundan **bağcıklı spor ayakkabı**, en az **1 litre su** ve **maske-şnorkel** setini mutlaka yanınıza alın.

@@ -1,33 +1,39 @@
 ---
-title: "Gezi ve Keşif Rehberi: Ekincik Bay"
+title: "Ekincik Koyu: Büyük Yatların Demirlediği Sessiz Çam Koyu"
 slug: "ekincik-bay"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Köyceğiz'in güneyindeki Ekincik Koyu gezi rehberi: My Marina, büyük yatların neden buraya demirlediği, 35 km virajlı dağ yolu ve benzin/ATM uyarısı."
 ---
 
-# Gezi ve Keşif Rehberi: Ekincik Bay
+# Ekincik Koyu: Büyük Guletlerin Gölgedeki Demir Yeri
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+Haritada **[Dalyan](/tr/articles/dalyan-guide)**'ın hemen batı komşusu gibi görünse de Ekincik'in ruhu bambaşkadır. Yaklaşık **2 kilometre** uzunluğundaki bu kavisli koyda ne yüksek sesli sahil kulüpleri ne de geniş otel zincirleri vardır; yalnızca çam kokulu yamaçlar, koyu renkli iri kumla ince çakılın karıştığı uzun bir **[plaj](/tr/articles/beaches)** ve açıklarda salınan beyaz direkli yelkenliler bulunur.
 
-**Ekincik Bay ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+## Yatlar Neden Dalyan Yerine Ekincik'te Durur?
 
-## Öne Çıkan Özellikler ve Detaylar
-ekincik bay bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Mavi Tur rotalarının vazgeçilmezi olan büyük guletler ve omurgalı yelkenliler, Ekincik Koyu ile ucundaki **My Marina** iskelesini önemli bir buluşma noktası olarak kullanır (**[yatçılık rehberi](/tr/articles/yachting)**). Bunun pratik bir denizcilik nedeni vardır:
 
-## Öne Çıkan Özellikler ve Detaylar
-ekincik bay bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+* **Sığ Kum Seti Engeli:** **[İztuzu Plajı](/tr/articles/iztuzu-beach)**'nın önündeki Dalyan Boğazı ağzı yalnızca **1,5–2,5 metre** civarında sığ bir kum setiyle kapalıdır; büyük tekneler buradan içeri geçemez.
+* **Tekne Aktarması:** Bu yüzden yat yolcuları Ekincik açıklarında tekneden inip bölgeye özel yapılmış düz tabanlı Dalyan kooperatif teknelerine biner, Kaunos Antik Kenti ve **[Sultaniye Kaplıcaları](/tr/articles/koycegiz-lake)** turunu yapıp akşam kendi yatlarına döner.
 
-## Nasıl Gidilir ve Ulaşım Seçenekleri
-Bölgeye ulaşım, gelişmiş transfer ve toplu taşıma ağı sayesinde oldukça kolaydır. Dalaman Havalimanı'ndan (DLM) özel transfer araçlarını kullanabilir, terminalden araç kiralayabilir veya [Fethiye](/tr/fethiye) ve [Marmaris](/tr/marmaris) yönüne giden servis otobüslerini (`Havaş` / `Muttaş`) tercih edebilirsiniz. Çevre beldeler ve plajlar arasındaki ulaşım ise sabah erken saatlerden gece yarısına kadar düzenli çalışan dolmuşlarla sağlanır.
+Sabah erken veya akşam saatlerinde yat trafiği azaldığında koy olağanüstü berraklaşır. Sahil kıyıda hızla derinleştiği için küçük çocuklar için dikkat gerekir; çakıllı girişte **deniz ayakkabısı**, koyun iki ucundaki kayalıklarda ise **maske-şnorkel** çok keyif verir.
 
-### Öne Çıkan Özellikler ve Detaylar
-ekincik bay bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## 35 Kilometrelik Virajlı Yol ve Kritik Lojistik Uyarı
 
+Ekincik'e karayoluyla **[Köyceğiz](/tr/articles/koycegiz-lake)** üzerinden **35 kilometrelik** dar, bol virajlı ama büyüleyici çam ormanı yoluyla ulaşılır; sürüş yaklaşık **45–50 dakika** (Dalaman Havalimanı'ndan toplam **~1 saat 15 dakika**) sürer. Toplu taşıma dolmuş seferleri gün içinde oldukça seyrektir; bağımsız hareket için kendi veya **[kiralık aracınızla](/tr/articles/vehicle-rental-cars-scooters-bikes)** gelmek şart gibidir.
 
----
+Yola çıkmadan önce koyun izole doğasını hesaba katmalısınız:
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — Fethiye, Marmaris, [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+* **Akaryakıt ve ATM Yok:** Ekincik sınırları içinde **benzin istasyonu ve banka ATM'si bulunmaz**. Köyceğiz merkezde deponuzu mutlaka doldurun ve yanınıza nakit Türk Lirası alın (dağ yamaçlarında zaman zaman GSM sinyali ve POS çekimi zayıflayabilir).
+* **Alışveriş ve Eczane:** Koyda küçük bakkal ve birkaç aile pansiyonu restoranı vardır; büyük zincir süpermarket ve nöbetçi eczane için en yakın adres yine Köyceğiz'dir. Temel piknik, su ve güneş kreminizi gelmeden tamamlamak günü sorunsuz geçirmenizi sağlar.
+
+## Ne Zaman Gidilir, Özel Tekne Geçişi ve Şnorkel
+
+Bölgedeki pek çok izole koy gibi Ekincik'in atmosferi de mevsime göre belirgin biçimde değişir (**[iklim rehberi](/tr/articles/climate-and-seasons)**):
+
+* **Mayıs–Haziran ve Eylül–Ekim:** Karadan ve denizden gelenler için en ideal aylar. Su sıcaklığı **+23…+26 °C** bandındadır, yaz ortasındaki delta sivrisinekleri azalır, *My Marina* terasında yer bulmak kolaydır ve akşamları çam reçinesi kokusu boğucu sıcak olmadan hissedilir.
+* **Temmuz–Ağustos:** Gulet ve yatların demirleme yoğunluğu zirvededir; akşamları teknelerin jeneratör uğultusu duyulabilir ancak geniş sahil bandı Fethiye veya Marmaris plajlarına kıyasla yine de yarı yarıya tenhadır. Büyük kalabalıktan uzak komşu duraklar ararsanız **[adalar ve koylar rehberimize](/tr/articles/islands-bays)** göz atabilirsiniz.
+* **Kasım–Nisan:** Sahildeki küçük pansiyon ve restoranların büyük bölümü kış sezonunda kapanır. Köyceğiz üzerinden inen dağ yolu açık kalsa da sağanak yağışlardan sonra virajlarda ufak taş düşmelerine dikkat etmek gerekir.
+
+**Denizden alternatif ve şnorkel tüyosu:** Koy iskelesindeki yerel teknecilerle doğrudan Dalyan'a veya karayolu olmayan ıssız komşu koylara **[özel tekne transferi](/tr/services/yacht-rental)** için anlaşmak mümkündür. Suya girerken koyun iki ucundaki kayalık duvarların altını mutlaka keşfedin; sabah durgunluğunda ahtapotları ve iri sardalya sürülerini izlemek için yalnızca basit bir maske ve şnorkel yeterlidir.
+
+<!-- SOURCE [19.11.2026]: Köyceğiz Kaymakamlığı Ekincik Kırsal Alan ve Kıyı Denizcilik Saha Bilgileri (URL: https://www.koycegiz.bel.tr/) -->

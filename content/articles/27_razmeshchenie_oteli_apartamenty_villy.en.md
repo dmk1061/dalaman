@@ -1,63 +1,47 @@
 ---
-title: "Accommodation: Hotels, Apartments, and Villas on the Lycian Coast"
+title: "Where to Stay Around Dalaman: All-Inclusive, Boutique Hotels & Law №7464 Villas (2026)"
 slug: "accommodation"
-description: "Where to stay in the region? Overview of accommodation options for every taste and budget: from luxury 'all-inclusive' hotels to cozy boutique hotels, apartments, and private villas."
+description: "Choosing stays from Datça to Kaş in 2026: nightly prices for resorts, apart-hotels, and private villas, Law №7464 short-term rental license checks, and Turkey's Booking.com IP block."
 ---
 
+# Where to Stay Between Datça and Kaş: Formats, 2026 Prices & Booking Pitfalls
 
-# Accommodation: Hotels, Apartments, Villas
+Picking where you sleep around [Dalaman](/en/dalaman) shapes your entire holiday rhythm. Unlike Antalya or Belek—where mile after mile of monolithic twelve-story resorts seals guests inside gated lawns—southwest Muğla stays low-slung by design. Environmental zoning in towns like Dalyan, Göcek, Kaş, and Datça strictly caps building heights, handing the shoreline to leafy *apart-otels*, intimate courtyard boutiques, and hillside pool villas.
 
-**The Lycian Coast offers a huge choice of accommodation options to satisfy the needs of any tourist, from backpackers to the most discerning public. The main thing is to understand the specifics of each resort and type of housing.**
+Before reserving anything, weigh these six accommodation tiers, real 2026 nightly budgets, and two quirky Turkish rules that routinely catch independent travelers off guard.
 
-**The [Dalaman](/en/dalaman) region offers the widest selection of accommodation for every taste, budget, and vacation style. Here you can find massive all-inclusive hotels, cozy boutique hotels in historical buildings, apartments for independent travelers, and luxurious villas with private pools.**
+<!-- SOURCE [19.11.2026]: Turkish Law №7464 on short-term touristic rentals ≤100 days (Turizm Amaçlı Kiralama İzin Belgesi) (URL: https://www.ktb.gov.tr); Booking.com domestic IP access restrictions (URL: https://www.turkishminute.com); 2026 coastal nightly rate benchmarks -->
 
----
+## Six Stay Formats & 2026 Nightly Budgets (Per Room / Property)
 
-### Accommodation Types
+* **All-Inclusive Resorts (*Her Şey Dahil*, ~€120–280 per couple):** Clustered tightly in purposeful pockets—chiefly **[Sarıgerme](/en/articles/sarigerme-guide)** (15–20 minutes from `DLM`), the seafront belt between **[Marmaris](/en/marmaris)** and İçmeler, and select pine-bay resorts outside **[Fethiye](/en/fethiye)** and Ölüdeniz. Best for families craving private slides, kids' clubs, and zero meal logistics.
+* **Boutique Hotels (*Butik Otel*, ~€80–180):** The soul of **[Kaş](/en/kas)**, Fethiye's historic Paspatur lanes, **[Göcek](/en/gocek)**, and stone-built Eski Datça. Think 8-to-20-room Mediterranean houses wrapped around citrus courtyards, nearly always bundling generous village-style *serpme kahvaltı* breakfast.
+* **Apart-Hotels (*Apart Otel*, ~€50–100):** Wildly popular across **[Dalyan](/en/dalyan)**, Ovacık, Hisarönü, Çalış Beach, and Dalaman town. You score a proper bedroom, kitchen-equipped lounge, breezy balcony, and shared garden pool—sweet value for self-catering mornings and neighborhood *lokanta* dinners.
+* **Private Pool Villas (*Villa Kiralama*, ~€150–400 per whole villa):** Unrivaled cult status in **Kalkan**, Kaş, cool hillside **Yeşilüzümlü**, Ovacık, and Dalyan gardens. Gathering 6–8 friends or multi-generational family under one roof with infinity pool views often beats paying for three separate upscale hotel rooms.
+* **Family *Pansiyon* Guesthouses (~€35–65):** Simple, spotless family-run inns stripping away marble lobbies in favor of warm hosts cooking home breakfasts. Easy to find across Fethiye, Datça, Dalyan, and Kaş backstreets.
+* **Woodland Bungalows & Glamping (~€30–90):** Rustic timber cabins and shaded canvas tents tucked deep into citrus groves and pine ravines in **Kabak Bay**, **Faralya**, and along Lycian Way trail stages.
 
-#### 1. "All-Inclusive" Hotels (Her Şey Dahil)
--   **Where:** Mainly in major resort areas—[Marmaris](/en/marmaris) (İçmeler), [Fethiye](/en/fethiye) (Çalış Beach, Ölüdeniz).
--   **For whom:** Ideal for families with children and those who want a completely carefree holiday. Large grounds, multiple pools, water parks, animation, food and drinks 24/7.
--   **Features:** This format allows you to plan your budget precisely since most expenses are already covered. However, it also "ties" you to the hotel territory.
+## Two Turkish Booking Rules You Cannot Ignore
 
-#### 2. Boutique Hotels
--   **Where:** [Kaş](/en/kas), Fethiye Old Town (Paspatur), [Göcek](/en/gocek).
--   **For whom:** For couples, romantics, and atmosphere lovers. These are small, stylish hotels, often located in restored historical buildings (Greek or Ottoman houses).
--   **Features:** Personalized service, unique design of each room, homemade breakfasts. There is no noise or animation here, but there is soul and character.
+> [!NOTE]
+> **1. `Booking.com` Stops Working Once You Land Inside Turkey:** Under a 2017 Turkish court ruling, `Booking.com` blocks searches for **domestic Turkish hotels whenever your device connects from a Turkish IP address**. Meaning: browsing and reserving rooms in Fethiye or Kaş from the UK, Europe, or North America works smoothly, **but the minute you land in Dalaman and join local Wi-Fi or a Turkish SIM**, your Turkish hotel listings vanish from search (affecting unplanned extensions or last-minute hops). Book flexible core stays **before flying**, rely on active platforms inside Turkey (**Otelz, Agoda, Hotels.com, Airbnb, ETS Tur**), or pull up hotels on Google Maps and message reception on WhatsApp—direct rates regularly beat aggregators by **10–15%**.
 
-#### 3. Apart-Hotels and Apartments (Apart Otel)
--   **Where:** Spread everywhere, especially in [Dalyan](/en/dalyan), Hisarönü, Ovacık.
--   **For whom:** For independent travelers and families who prefer flexibility.
--   **Features:** Apartments usually consist of one or two bedrooms and a living room combined with a kitchen. Having your own kitchen allows you to cook, which is convenient with young children and helps save on food costs. There is often a shared pool on the territory.
+> [!NOTE]
+> **2. Law №7464 on Short-Term Rentals (Up to 100 Days):** Turkey strictly enforces a tourism rental licensing law: any apartment or private villa rented out to holidaymakers for **100 days or less** must hold an official Ministry of Tourism permit (**Turizm Amaçlı Kiralama İzin Belgesi**)—and regular multi-unit apartment buildings require **100% unanimous consent from every neighbor** first. When browsing Airbnb or WhatsApp villa ads, check that the host visibly posts their official **license registration number** in the listing. Unlicensed flats risk sudden police sealing mid-stay.
 
-#### 4. Villa Rentals (Villa Kiralama)
--   **Where:** Kalkan, Kaş, Göcek, Ölüdeniz, Üzümlü.
--   **For whom:** For large groups, multiple families, or those seeking seclusion and privacy.
--   **Features:** Renting a villa gives you complete freedom. Most villas have a private pool, garden, barbecue area, and a fully equipped kitchen. In recent years, villas in secluded mountain villages (e.g., Üzümlü) with panoramic views have become especially popular. This is a luxurious but often more cost-effective option when the cost is split among a large group.
+## Matching Location to Your Itinerary
 
-#### 5. Guesthouses (Pansiyon)
--   **Where:** In all small towns and villages.
--   **For whom:** For budget travelers and backpackers.
--   **Features:** The simplest and most affordable type of housing. Usually, it is a family business where the owners live in the same building. The conditions are modest, but it is clean and homelike. Breakfast (kahvaltı) is usually included in the price and is often very tasty and hearty.
+1. **Traveling Car-Free:** Stay steps from main bus lines and harbor walks—central **Fethiye** (or Çalış promenade), **Marmaris / İçmeler**, downtown **Dalyan**, or central **Kaş**.
+2. **With a Rental Car:** Stretch space, quiet, and budget dramatically in **[Dalaman](/en/dalaman)** town, elevated villas above **Ölüdeniz / Ovacık**, breezy upland **[Yeşilüzümlü](/en/articles/yesiluzumlu-village)** (5–6 °C cooler in August), or southern **Datça** coves.
+3. **Winter Long-Stays (November–March):** Always confirm heating specifics before paying any deposit—many summer-built villas rely strictly on wall AC units, wood stoves (*soba*), or underfloor loops. Unheated stone walls feel bone-damp when January nights dip near +10 °C.
 
-#### 6. Campsites and Glampsites
--   **Where:** Along the coast, often in secluded bays (e.g., Kabak), along the Lycian Way.
--   **For whom:** For nature lovers and hikers.
--   **Features:** You can stay with your own tent or rent an already set-up tent, bungalow, or even a luxury glamping tent. Amenities can range from basic to quite comfortable.
+> [!TIP]
+> **Insider Tip:** For late July–August or Turkey's huge May **Kurban Bayramı** holiday rush (May 16–19 in 2027), top Kaş boutiques and Kalkan sea-view villas book dry **3–5 months out**. Yet turn up in **May, early June, or late September through November**, and family-owned apart-hotels routinely shave generous discounts off five-to-seven-night direct bookings.
 
 ---
 
-### Tips for Choosing
-
--   **Book in advance:** In the high season (July–August) and during national holidays (Eid al-Adha / Kurban Bayramı), the best options are booked up several months in advance.
--   **Read reviews:** Use popular booking sites (Booking.com, Airbnb) and travel forums to check recent reviews.
--   **Consider the location:** If you don't have a car, make sure your accommodation is close to the beach, public transport stops (dolmuses), and shops.
-
----
-
-### 🔗 See Also: Useful Guides for the Lycian Coast
-- **[Useful Contacts & Nöbetçi Eczane Pharmacies](/articles/useful-contacts)**.
-- **[Airport Transfers from Dalaman (DLM)](/services/transfers)**.
-- **[Car, Scooter & Bike Rentals](/articles/vehicle-rental-cars-scooters-bikes)**.
-- **[Main Resorts Overview: Fethiye, Marmaris, Kaş & Datça](/articles/main-resorts)**.
-
+### 🔗 See Also
+- **[Coastal Hotels & Villas Concierge](/en/services/hotels)** — tailored stays matched by town and budget.
+- **[Climate & Best Seasons Around Dalaman](/en/articles/climate-and-seasons)** — seasonal temperatures and winter moisture notes.
+- **[Real Estate: Long Rentals & Property Laws](/en/articles/real-estate)** — buying or signing 6-to-12-month leases safely.
+- **[Main Resorts Comparison Guide](/en/articles/main-resorts)** — picking the right coastal hub for your style.

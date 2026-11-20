@@ -1,33 +1,34 @@
 ---
-title: "Gezi ve Keşif Rehberi: Turunc"
+title: "Turunç (Marmaris): Dik Çam Geçidinin Ardındaki Mavi Bayraklı Koy ve Amos Kalıntıları"
 slug: "turunc"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Marmaris'in Turunç beldesi gezi rehberi: dağ yolundan veya deniz taksiyle ulaşım, Mavi Bayraklı koy, ücretsiz Amos Antik Kenti yürüyüşü ve yerel yaşam."
 ---
 
-# Gezi ve Keşif Rehberi: Turunc
+# Turunç: Çam Geçidinin Ardında Saklanan Mavi Bayraklı Koy
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+**[Marmaris](/tr/marmaris)** ve **[İçmeler](/tr/articles/icmeler)** ile arasındaki mesafe haritada kısacık görünse de arada yükselen keskin dağ sırtı Turunç'u büyük tatil kalabalıklarından korur. Eskiden yalnızca narenciye bahçeleri ve küçük balıkçı teknelerinin demirlediği belde, adını da bahçelerinde yetişen *turunç* ağaçlarından alır. Yüksek katlı tesislerin girmediği bu yarım kilometreye yakın hilal koyda, sabahları horoz sesleriyle uyanıp beş dakika içinde berrak sulara atlayabilirsiniz.
 
-**Turunc ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+## Koy, Plaj ve Su Kalitesi
 
-## Öne Çıkan Özellikler ve Detaylar
-turunc bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Yaklaşık **500 metrelik** koy, Mavi Bayrak ödüllü temiz suyu ve çam ağaçlarının neredeyse denize değen yeşil çerçevesiyle bilinir. Sahil zemini orta ve ince çakıl ile sertleşmiş kum karışımıdır; bulanıklığa yol açan ince mil olmadığı için su gün boyu cam berraklığını korur. İlk adımlarda çakıl hassasiyeti olanlar için deniz ayakkabısı rahatlık sağlar. Küçük bir kasaba ölçeğinde olduğundan her **[plaj işletmesinin](/tr/articles/beaches)** önü yürüyerek birkaç dakikalık mesafededir.
 
-## Öne Çıkan Özellikler ve Detaylar
-turunc bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Turunç'a Nasıl Gidilir? (3 Alternatif Yol)
 
-## Nasıl Gidilir ve Ulaşım Seçenekleri
-Bölgeye ulaşım, gelişmiş transfer ve toplu taşıma ağı sayesinde oldukça kolaydır. Dalaman Havalimanı'ndan (DLM) özel transfer araçlarını kullanabilir, terminalden araç kiralayabilir veya [Fethiye](/tr/fethiye) ve [Marmaris](/tr/marmaris) yönüne giden servis otobüslerini (`Havaş` / `Muttaş`) tercih edebilirsiniz. Çevre beldeler ve plajlar arasındaki ulaşım ise sabah erken saatlerden gece yarısına kadar düzenli çalışan dolmuşlarla sağlanır.
+Dalaman Havalimanı'na (**DLM**) karayolu mesafesi yaklaşık **120 kilometredir** (**~2 saat**; bkz. **[havalimanı ulaşımı](/tr/articles/airport-dalaman)**). Marmaris merkezden Turunç'a ise **20 kilometrelik** kıvrımlı bir geçiş gerekir ve üç farklı seçenek vardır:
 
-### Öne Çıkan Özellikler ve Detaylar
-turunc bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+1. **Deniz Taksisi (Mayıs–Ekim):** Sıcak asfalt virajlarını aşmak istemeyenler için en ferah yol. Marmaris merkez ve İçmeler iskelelerinden gün boyu tekne dolmuşlar kalkar; yolculuk yaklaşık **35–45 dakika** sürer (tek yön ortalama **5–8 €** karşılığı TL bandında ücretlendirilir).
+2. **Özel Araçla Dağ Geçidi:** İçmeler sırtından tırmanan dar ve keskin U virajlı 20 km'lik yol **30–35 dakika** sürer. Gün batımında İçmeler koyuna bakan seyir cepleri manzara molası için harikadır; akşam saatlerinde hız düşürüp karşı şeride dikkat etmek gerekir.
+3. **MUTTAŞ ve Turuncu Dolmuş:** Marmaris'ten düzenli toplu taşıma çalışır; ancak dağ hattında akşam **son sefer saatleri mevsime göre yaklaşık 21:00–22:00 aralığında** biter. Dönüş planı yaparken sürücüye son çıkış saatini sormakta fayda vardır (**[bölge ulaşım rehberi](/tr/articles/transport)**).
 
+## Yürüyerek Ulaşılan Antik Kent: Amos
 
----
+Turunç'un güney ucundaki **Asarcık Burnu** üzerinde, kumlu-çamlı manzaraya hâkim Rodos Birliği dönemi kenti **Amos** yükselir. MÖ 3.–2. yüzyıllara tarihlenen, yarım daire basamakları hâlâ sağlam duran küçük Hellenistik **[antik tiyatrosu](/tr/articles/ancient-cities)**, sur duvarları ve tapınak temelleri **tamamen ücretsiz** ve günün her saati ziyarete açıktır.
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — Fethiye, Marmaris, [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+* **Yürüyüş Rotası:** Turunç güney çıkışındaki *Amos Dağ Yolu* patikasından keçi yolu ve çam gölgesiyle **30–45 dakikada** tepeye çıkabilirsiniz (**[trekking rehberi](/tr/articles/trekking-routes-lycian-coast)**). Güneş altında tırmanmamak için sabah erken veya 17:00 sonrası ideal zamandır.
+* **Araçla Çıkış:** Profesör sitesi ve Kumlubük yönüne araçla **7–10 dakika** çıkıp park ettikten sonra **10 dakikalık** kısa bir patikayla tiyatroya varılır.
+
+## Günlük Yaşam, Pazar ve Alışveriş
+
+Turunç kendi yağıyla kavrulan pratik bir beldedir. Haftada bir gün, **Pazartesi** sabahları kurulan küçük semt pazarında çevre köylerin domatesi, balı ve zeytini bulunur. Günlük ihtiyaçlar için merkezde **ŞOK**, **Migros Jet**, yerel fırınlar, kasap ve eczane mevcuttur; gece acil ilaç gerektiğinde nöbetçi eczane için Marmaris merkezine geçilir. Tekneyle veya arabayla biraz daha güneye devam etmek isterseniz bakir **[Çiftlik Koyu](/tr/articles/ciftlik-bay)** hemen bir sonraki yarımadadır.
+
+<!-- SOURCE [19.11.2026]: Kültür ve Turizm Bakanlığı Amos Örenyeri envanteri ve Marmaris Belediyesi kıyı hatları rehberi (URL: https://mugla.ktb.gov.tr/) -->

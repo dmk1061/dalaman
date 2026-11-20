@@ -1,63 +1,47 @@
 ---
-title: "Konaklama: Likya Kıyısı'nda Oteller, Apartlar ve Villalar"
+title: "Dalaman'da Konaklama Rehberi: Oteller, Apartlar, Villalar ve 7464 Sayılı Kanun"
 slug: "accommodation"
-description: "Bölgede nerede kalınır? Her zevke ve bütçeye uygun konaklama seçeneklerine genel bakış: lüks her şey dahil otellerden şirin butik otellere, apartlara ve özel villalara kadar."
+description: "Datça'dan Kaş'a konaklama seçimi ve 2026 fiyatları: Her Şey Dahil, butik oteller, 7464 sayılı kısa dönem kiralama ruhsatı, Booking.com erişim notu ve kışlama ipuçları."
 ---
 
+# Datça'dan Kaş'a Konaklama Rehberi: Formatlar, Fiyatlar ve Hukuki İpuçları
 
-# Konaklama: Oteller, Apartlar, Villalar
+**[Dalaman](/tr/dalaman)** bölgesinde konaklama tercihi, tüm tatilin ritmini belirler. Belek veya Lara gibi yan yana dizilmiş dev resort bloklarının aksine, Dalyan, Göcek, Kaş ve Datça gibi merkezlerde kat yüksekliği ve kıyı koruma yasaları nedeniyle alçak katlı, bahçeli ve karakterli yapılar hâkimdir.
 
-**Likya Kıyısı, sırt çantalı gezginlerden en seçici kitleye kadar her turistin taleplerini karşılayabilecek çok geniş bir konaklama seçeneği yelpazesi sunar. Önemli olan, her bir beldenin ve konaklama türünün özelliklerini anlamaktır.**
+Rezervasyona geçmeden önce altı ana konaklama formatını, 2026 gecelik bütçe aralıklarını ve ev/villa kiralarken yasal sorun yaşamamak için bilmeniz gereken iki kuralı aşağıda topladık.
 
-**[Dalaman](/tr/dalaman) bölgesi her zevke, bütçeye ve tatil tarzına uygun geniş bir konaklama seçeneği sunar. Burada devasa "her şey dahil" oteller, tarihi binalarda yer alan şirin butik oteller, bağımsız gezginler için apart daireler ve özel havuzlu lüks villalar bulabilirsiniz.**
+<!-- SOURCE [19.11.2026]: 100 gün altı turizm amaçlı konut kiralama izin belgesi zorunluluğu — 7464 Sayılı Kanun (URL: https://www.ktb.gov.tr); Booking.com Türkiye içi arama erişim kısıtı (URL: https://www.turkishminute.com) ve 2026 bölgesel konaklama tarifeleri -->
 
----
+## Altı Konaklama Formatı ve 2026 Gecelik Ortalamaları
 
-### Konaklama Türleri
+* **Her Şey Dahil Resort Oteller (~6.700–16.000+ ₺ / 120–280 € çift kişilik):** Bölge genelinde dağınık değil, belirli odaklarda toplanır: DLM'ye 20 dakika mesafedeki **[Sarıgerme](/tr/articles/sarigerme-guide)**, **[Marmaris](/tr/marmaris)**–İçmeler sahili ve **[Fethiye](/tr/fethiye)**–Ölüdeniz arasındaki özel koylar. Çocuklu ailelerin sıfır mutfak planlı favorisidir.
+* **Butik Oteller (~4.500–10.000 ₺ / 80–180 €):** **[Kaş](/tr/kas)**, Fethiye **Paspatur**, **[Göcek](/tr/gocek)** ve **Eski Datça**'nın ruhu. 8–20 odalı, avlulu, yerel kahvaltının (*serpme kahvaltı*) genelde fiyata dâhil olduğu nitelikli tesislerdir.
+* **Apart Oteller (~2.800–5.600 ₺ / 50–100 €):** **[Dalyan](/tr/dalyan)**, Ovacık, Hisarönü, Çalış ve Dalaman merkezde çok yaygındır. Mutfaklı oturma odası, ayrı yatak odası ve ortak bahçe havuzuyla uzun kalan aileler için esnek bir fiyat-konfor dengesi kurar.
+* **Özel Havuzlu Kiralık Villalar (~8.400–22.500 ₺ / 150–400 € ev başı):** Kalkan, Kaş, Ovacık, **Yeşilüzümlü** ve Dalyan'da gerçek bir kültürdür. 3–4 yatak odalı bir villayı 6–8 kişilik arkadaş grubu ya da geniş aile bölüştüğünde kişi başı maliyet otel odasından uyguna gelir.
+* **Aile Pansiyonları (~2.000–3.600 ₺ / 35–65 €):** Fethiye, Datça, Dalyan ve Kaş arka sokaklarında samimi, sade ama temiz işletmeler.
+* **Bungalov ve Glamping (~1.700–5.000 ₺ / 30–90 €):** **Kabak Koyu**, **Faralya** ve Likya Yolu üzerindeki bahçeli ahşap kulübeler.
 
-#### 1. "Her Şey Dahil" Oteller (Her Şey Dahil)
--   **Nerede:** Ağırlıklı olarak büyük tatil bölgelerinde — [Marmaris](/tr/marmaris) (İçmeler), [Fethiye](/tr/fethiye) (Çalış Plajı, Ölüdeniz).
--   **Kimin için:** Çocuklu aileler ve olabildiğince sorunsuz bir tatil isteyenler için idealdir. Geniş alan, birden fazla havuz, su parkları, animasyon, 7/24 yiyecek ve içecek servisi.
--   **Özellikleri:** Bu format, masrafların çoğu önceden karşılandığı için bütçeyi kesin olarak planlamanıza olanak tanır. Ancak sizi otel alanına "bağlar".
+## Rezervasyon Yaparken Dikkat Edilecek İki Önemli Kural
 
-#### 2. Butik Oteller
--   **Nerede:** [Kaş](/tr/kas), Fethiye antik kenti (Paspatur), [Göcek](/tr/gocek).
--   **Kimin için:** Çiftler, romantikler ve atmosfere değer verenler için. Genellikle restore edilmiş tarihi binalarda (Rum veya Osmanlı evleri) yer alan küçük, şık otellerdir.
--   **Özellikleri:** Kişiselleştirilmiş hizmet, her odanın kendine özgü tasarımı, ev yapımı kahvaltılar. Burada gürültü ve animasyon yoktur, ancak ruh ve karakter vardır.
+> [!NOTE]
+> **1. `Booking.com` Yurt İçi Kısıtı:** 2017'deki mahkeme kararı uyarınca Türkiye IP adresi üzerinden `Booking.com`'da **Türkiye içindeki otellere arama ve rezervasyon yapılamaz** (yurt dışı otellerini görürsünüz ama yerli oteller listelenmez). Türkiye'den veya tatile geldikten sonra yerel ağa bağlandığınızda arayacağınız yerler için **ETS Tur, Otelz, Jolly Tur, Airbnb, Agoda, Hotels.com** platformlarını kullanın — ya da Google Haritalar'dan beğendiğiniz butik oteli bulup **doğrudan WhatsApp / telefonla** arayın; komisyon düşüldüğü için çoğunlukla %10–15 daha iyi fiyat alırsınız.
 
-#### 3. Apart Oteller ve Apart Daireler (Apart Otel)
--   **Nerede:** [Dalyan](/tr/dalyan), Hisarönü, Ovacık başta olmak üzere her yerde yaygındır.
--   **Kimin için:** Esnekliği tercih eden bağımsız gezginler ve aileler için.
--   **Özellikleri:** Apartlar genellikle bir veya iki yatak odası ve mutfakla birleştirilmiş bir oturma odasından oluşur. Kendinize ait bir mutfağın bulunması, kendi yemeğinizi pişirmenize olanak tanır; bu, küçük çocuklarla seyahat ederken kullanışlıdır ve yemek masraflarından tasarruf etmeye yardımcı olur. Tesis bünyesinde genellikle ortak bir havuz bulunur.
+> [!NOTE]
+> **2. 7464 Sayılı Kanun ve "Turizm Amaçlı Kiralama İzin Belgesi":** Türkiye'de konutların **100 gün veya daha kısa süreli** turizm amaçlı kiralanması Kültür ve Turizm Bakanlığı ruhsatına bağlanmıştır (apartman dairelerinde kat maliklerinin %100 oybirliği şartı aranır). Airbnb, sosyal medya veya acentelerden villa ve apart daire tutarken ilanda mutlaka resmi **Turizm Amaçlı Kiralama İzin Belgesi Numarası**nın yazılı olduğundan emin olun. Ruhsatsız evlerde denetim anında mühürleme ve konaklayanların tahliye riski doğabilir.
 
-#### 4. Villa Kiralama (Villa Kiralama)
--   **Nerede:** Kalkan, Kaş, Göcek, Ölüdeniz, Üzümlü.
--   **Kimin için:** Kalabalık gruplar, birkaç aile veya gözlerden uzak olmak ve mahremiyet isteyenler için.
--   **Özellikleri:** Villa kiralamak tam bir özgürlük sağlar. Villaların çoğunda özel havuz, bahçe, barbekü alanı ve tam donanımlı mutfak bulunur. Son yıllarda, özellikle gözlerden uzak dağ köylerinde (örneğin Üzümlü) yer alan ve panoramik manzaralar sunan villalar oldukça popüler hale gelmiştir. Ücret kalabalık bir grup arasında paylaşıldığında bu seçenek lüks olmasına rağmen genellikle daha ekonomik bir alternatif sunar.
+## Planınıza Göre Konum Seçimi
 
-#### 5. Pansiyonlar (Pansiyon)
--   **Nerede:** Tüm küçük kasaba ve köylerde.
--   **Kimin için:** Bütçe dostu gezginler ve sırt çantalı seyahat edenler için.
--   **Özellikleri:** En basit ve en uygun fiyatlı konaklama türüdür. Genellikle ev sahiplerinin de aynı binada yaşadığı bir aile işletmesidir. Koşullar mütevazıdır ancak temiz ve ev sıcaklığındadır. Kahvaltı genellikle fiyata dahildir, oldukça lezzetli ve doyurucudur.
+1. **Arabasız Tatil İçin:** Dolmuş ve otogar yürüyüş mesafesindeki **Fethiye merkez / Çalış**, **Marmaris / İçmeler**, **Dalyan merkez** ve **Kaş merkez**.
+2. **Araçlı Tatil ve Serinlik İçin:** Fiyat avantajlı **[Dalaman](/tr/dalaman)**, Fethiye sırtlarındaki **Ovacık / Hisarönü**, yaz sıcağında 5–6 °C serin **Yeşilüzümlü** ve Datça güney koyları (**Palamutbükü / Hayıtbükü**).
+3. **Kışlama ve Uzun Konaklama (Kasım — Mart):** Sahil beldelerindeki yazlık ev ve taş villaların çoğunda kalorifer veya doğalgaz bulunmaz. Kışın (+8…+10 °C geceler ve deniz nemi) üşümemek için sözleşme öncesi **ısıtmalı inverter klima, şömine/soba veya yerden ısıtma** ve gerçek **fiber internet** hızını mutlaka sorgulayın.
 
-#### 6. Kamp ve Glamping Alanları
--   **Nerede:** Kıyı boyunca, genellikle gözlerden uzak koylarda (örneğin Kabak) ve Likya Yolu üzerinde.
--   **Kimin için:** Doğaseverler ve yürüyüş meraklıları için.
--   **Özellikleri:** Kendi çadırınızla kalabilir veya önceden kurulmuş bir çadır, bungalov ya da lüks bir glamping çadırı kiralayabilirsiniz. Sunulan olanaklar basitten oldukça konforluya kadar değişiklik gösterebilir.
+> [!TIP]
+> **2027 ve Yaz Erken Rezervasyonu:** Temmuz ortası–Ağustos sonu pik haftaları ile **2027 Kurban Bayramı'nın 19 Mayıs'la birleştiği 15–23 Mayıs haftası** için Kaş butik otelleri ve Kalkan villaları 3–5 ay önceden dolar. Öte yandan Mayıs başı, Haziran ilk haftaları ve Ekim'de 5–7 gecelik direkt aramalarda ciddi sezon dışı indirimleri yakalanabilir.
 
 ---
 
-### Seçim Tüyoları
-
--   **Erken rezervasyon yapın:** Yüksek sezonda (Temmuz-Ağustos) ve bayram dönemlerinde (Kurban Bayramı) en iyi seçenekler aylar öncesinden tükenir.
--   **Yorumları okuyun:** Güncel yorumları incelemek için popüler rezervasyon sitelerini (Booking.com, Airbnb) ve seyahat forumlarını kullanın.
--   **Konumu göz önünde bulundurun:** Aracınız yoksa, konaklayacağınız yerin plaja, toplu taşıma araçlarına (dolmuşlara) ve marketlere yakın olduğundan emin olun.
-
----
-
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/articles/useful-contacts)**.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/services/transfers)**.
-- **[Araç, Scooter ve Bisiklet Kiralama](/articles/vehicle-rental-cars-scooters-bikes)**.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/articles/main-resorts)**.
-
+### 🔗 İlgili Rehberler
+- **[Bölgedeki Otel ve Villa Seçenekleri](/tr/services/hotels)** — Beldelere göre konaklama karşılaştırması.
+- **[İklim ve Mevsimler: Kış ve Yaz Koşulları](/tr/articles/climate-and-seasons)** — Aylara göre sıcaklık ve yağış takvimi.
+- **[Dalaman Çevresinde Emlak, Kiralama ve Tapu](/tr/articles/real-estate)** — Uzun dönem kiralama ve yatırım kuralları.
+- **[Ana Tatil Beldeleri Rehberi](/tr/articles/main-resorts)** — Size en uygun sahil kasabasını seçin.

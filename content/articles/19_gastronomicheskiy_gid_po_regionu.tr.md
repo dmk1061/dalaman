@@ -1,33 +1,45 @@
 ---
-title: "Gezi ve Keşif Rehberi: Gastronomy"
+title: "Dalaman'dan Kaş'a Gastronomi Rehberi: Ege Otları, Balık Pazarı ve Kıyı Sofraları"
 slug: "gastronomy"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Muğla ve Güney Ege mutfağının farkı: deniz börülcesi ve şevketibostan, Fethiye Balık Pazarı al-pişirt sistemi, Dalyan mavi yengeci, çam balı ve 2026 hesap kuralları."
 ---
 
-# Gezi ve Keşif Rehberi: Gastronomy
+# Bölge Gastronomi Rehberi: Datça'dan Kaş'a Ege Sofrasının Şifreleri
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+Muğla kıyılarının mutfağı, Türkiye'nin yoğun baharatlı ve et ağırlıklı doğu sofralarından da otellerin standart açık büfelerinden de bambaşka bir dünyadır. **[Datça](/tr/dacha)**'dan **[Kaş](/tr/kas)**'a kadar uzanan bu şeritte başrolde **soğuk sıkım zeytinyağı, dağdan ve kıyıdan toplanan yabani otlar**, serin yoğurtlu mezeler ve sabah ağdan çıkmış taze körfez balıkları vardır.
 
-**Gastronomy ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+Bölgenin her durağı kendine has bir lezzet ritüeli yaratmıştır. Neyi nerede ve nasıl sipariş edeceğinizi bildiğinizde hem turistik tuzaklardan uzak kalır hem kıyının gerçek damak tadını yakalarsınız.
 
-### Öne Çıkan Özellikler ve Detaylar
-gastronomy bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+<!-- SOURCE [19.11.2026]: Muğla mutfağı (Ege otları, çam balı, Datça bademi), Fethiye Balık Pazarı al-pişirt düzeni (URL: https://www.goturkiye.com, https://www.turkeysforlife.com) ve 2026 bölgesel yeme-içme fiyat aralıkları -->
 
-### Öne Çıkan Özellikler ve Detaylar
-gastronomy bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Güney Ege Kodu: Otlar, Mezeler ve Zeytinyağı
 
-### Öne Çıkan Özellikler ve Detaylar
-gastronomy bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Akşam kıyı lokantasına veya meyhaneye oturduğunuzda geceyi ana yemek değil, tepside gözle seçilen **meze** kültürü belirler. Muğla–Kaş hattında tepside mutlaka aramanız gereken yerel imzalar şunlardır:
 
-### Öne Çıkan Özellikler ve Detaylar
-gastronomy bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+* **Deniz Börülcesi:** Tuzlu kıyı bataklıklarında yetişen bu çıtır deniz otunun haşlanıp sarımsak, limon ve bol Ege zeytinyağıyla harmanlanmış hali meyhane sofralarının açılış cümlesidir.
+* **Yabani Ege Otları:** Kış sonu ve bahar aylarında pazarlardan toplanan **şevketibostan**, **radika**, **ebegümeci** ve **hardal otu**, kuzu etiyle ya da haşlanıp zeytinyağı-limonla servis edilir — büyük şehirlerde bu tazelikte bulmak zordur.
+* **Klasik Kardeşler:** Gerçek süzme yoğurt ve naneli **haydari**, köz patlıcanlı yoğurtlu **köpoğlu**, kuru bakladan **fava**, köz biberli cevizli mezeler ve keçi sütünden sert ezine veya köy peyniri.
 
+## Kıyının Dört Kült Lezzet Ritüeli
+
+1. **Fethiye Balık Pazarı'nın "Al-Pişirt" Sistemi:** Doğu yakasının en canlı akşam ritüeli. Kapalı çarşının ortasındaki buzlu tezgâhlardan gözünüzle taze çipura, levrek, kaya barbunu, kalamar veya karides seçip balıkçıya kilosunu ödersiniz. Ardından poşetinizle **çarşıyı çevreleyen restoranlardan dilediğiniz masaya** oturursunuz; işletme kişi başı sabit bir pişirme, taze salata ve sıcak ekmek bedeli karşılığında balığınızı 15–20 dakikada masaya getirir.
+2. **[Dalyan](/tr/articles/dalyan-guide) Mavi Yengeci:** Köyceğiz Gölü'nün tatlı suyuyla Akdeniz'in tuzlu suyunun karıştığı delta kanalında yetişen **mavi yengeç** (*Callinectes sapidus*), nehir kıyısı restoranlarında ve koylara çıkan teknelerin ızgarasında sarımsaklı tereyağı ve limonla sunulur.
+3. **Buz Gibi Çay Üstünde Alabalık:** Temmuz sıcağında **[Yuvarlakçay](/tr/articles/natural-attractions-canyons-rivers-lakes)** (Köyceğiz) veya Tlos yakınındaki **Yakapark**'a çıktığınızda, suların üzerindeki ahşap köşklerde güveçte tereyağlı sarımsaklı taze **alabalık** ve saç kavurma yemek kıyının klasik yayla kaçamağıdır.
+4. **Muğla Çam Balı ve Datça Nurlu Bademi:** Türkiye ve dünyanın en önemli **çam balı** üretim merkezi Muğla ormanlarıdır; çiçek ballarının aksine boğaz yakmaz, koyu renkli ve reçinemsi aromalıdır. **[Datça](/tr/dacha)** ucundan ise iri kabuksuz **Nurlu bademi** ve sert rüzgâr yemiş dağlardan gelen **kekik balı** alınır.
+
+## Bütçe Katmanları ve 2026 Masa Gerçekleri
+
+* **Esnaf Lokantaları (*Ev Yemekleri*):** İlçe merkezlerinde 12:00–15:30 arası tencere yemeği (mercimek/ezogelin çorbası, zeytinyağlılar, kuru fasulye, tas kebabı, pilav) çıkaran esnaf lokantaları hâlâ en sağlıklı ve adil fiyatlı öğle çözümüdür (**~280–500 ₺ / 5–9 €** kişi başı).
+* **Serpme Kahvaltı:** Kaya köy bahçelerinde, Yuvarlakçay kenarında veya Eski Datça avlularında iki saat süren taze börekli, menemenli, yerel ballı-reçelli serpme köy kahvaltısı iki kişi için ortalama **~1.000–1.700 ₺ (18–30 €)** civarındadır.
+* **Balık Restoranları ve Meyhaneler:** ÖTV ve turizm sezonu etkisiyle deniz kıyısında meze, ara sıcak, taze balık ve içkili bir akşam yemeği kişi başı kolayca **~1.400–2.500+ ₺ (25–45+ €)** bandına çıkar; özellikle alkollü içecekler adisyonun yarısını oluşturabilir.
+
+> [!TIP]
+> **Adisyon Sürprizi Yaşamamak İçin:** Sahil restoranlarında tezgâhtan seçeceğiniz sinarit, lahoz veya kaya barbunu gibi dip balıklarının **kilo fiyatını (`kilo fiyatı`) balığı tartıya koymadan önce mutlaka sorun** ve menüdeki rakamın *porsiyon* mu yoksa *100 gr / 1 kg* mı olduğunu netleştirin. Ayrıca faturanın altındaki *Kuver* ve *Servis Ücreti (%10)* satırlarını kontrol edin; servis ücreti zaten eklenmişse ekstra bahşiş zorunlu değildir, eklenmemişse hizmetten memnun kaldıysanız %10 bırakmak teamüldendir.
 
 ---
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — [Fethiye](/tr/fethiye), [Marmaris](/tr/marmaris), [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+### 🔗 İlgili Rehberler
+- **[Yöresel Lezzetler ve Kıyı Sofrası](/tr/articles/local-cuisine-traditional-turkish-dishes)** — Çökertme'den kabak çiçeği dolmasına mutlaka tadılacaklar.
+- **[Restoran, Kafe ve Bar Mahalleleri](/tr/articles/restaurants-cafes-and-bars-guide)** — Belde belde en doğru yeme-içme sokakları.
+- **[Ege Şarapları, Rakı ve Muğla Craft Birası](/tr/articles/alkogol-v-turtsii-chto-pit-i-gde-pokupat)** — 22:00 satış kuralı, Gara Guzu ve yerel bağlar.
+- **[Haftalık Halk Pazarları ve Alışveriş](/tr/articles/markets-shopping)** — Çam balı, zeytinyağı ve taze baharat takvimi.

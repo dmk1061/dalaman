@@ -1,44 +1,62 @@
 ---
-title: "Reiseführer Small Towns and Villages of the Coast: Authentic Turkish Charm"
+title: "Kleine Städte & Dörfer um Dalaman: Akyaka, Eski Datça, Selimiye & Kayaköy"
 slug: "small-towns-and-villages-overview"
-description: "Deutschsprachiger Off the beaten track: Akyaka, Gocek, Kayakoy, Selimiye, Bozburun, and Turunc. Experience authentic coastal village hospitality."
+description: "Türkei abseits der Hotelburgen: Holzschnitzerei in Akyaka, der Dichterort Eski Datça, Holzwerften in Bozburun, Dalyan, Sarıgerme und die verlassene Stadt Kayaköy."
 ---
 
-> [!NOTE]
-> **💡 Inflationsschutz ([Gültig für 2026]):** Die Preise in Türkischen Lira (TL) unterliegen in der Türkei regelmäßigen wirtschaftlichen Schwankungen. Die unten genannten Beträge dienen als **ungefähre Richtwerte**. Für genaue Kalkulationen empfehlen wir, die Preise vor Ort oder in Euro (EUR) zu prüfen.
+# Kleine Orte und Dörfer: Wo der Charakter der Küste zu Hause ist
 
-**Willkommen zu unserem ausführlichen Leitfaden über small towns and villages overview an der Türkischen Riviera. Die Region [Dalaman](/de/dalaman) (`DLM`) und ihre malerischen Küstenorte bieten erstklassige Erlebnisse, reiche Kultur und moderne touristische Infrastruktur.**
+Städte wie Fethiye oder Marmaris sorgen für Fährhäfen und Infrastruktur — die Seele der Region zwischen **[Datça](/de/dacha)** und **[Kaş](/de/kas)** entdecken Sie jedoch erst, wenn Sie von der D400 in die Seitentäler abbiegen. Im Schatten von Pinienkaps und Flusstälern bewahren kleine Küstenorte und Bergdörfer ihre eigene Baukultur, entspannte Wochenmärkte und einen Rhythmus weit jenseits der Clubmusik.
 
-### Entdecken: Дальян (Dalyan)
+Statt hoher Hotelblöcke prägen Naturstein und geschnitzte Holzerker das Straßenbild; gegessen wird auf Holzstegen über klarem Bergwasser, und am Dorfeingang riecht es am Morgen nach frischem Holzofenbrot.
 
-Bei der Erkundung von **small towns and villages overview** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+<!-- SOURCE [19.11.2026]: Architektur von Nail Çakırhan in Akyaka & Aga Khan Award 1983 (URL: https://archnet.org); Strandlänge Sarıgerme 7 km sowie Ortsdaten Dalyan & Kayaköy (URL: https://www.goturkiye.com, https://www.dalaman.bel.tr) -->
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+## Akyaka: Osmanisches Holzhandwerk und der eisige Azmak-Fluss
 
-### Entdecken: Сарыгерме (Sarıgerme)
+Am Ostende des Golfs von Gökova (rund 35 km nördlich von Marmaris und ca. 70 km vom Flughafen Dalaman) steht ein Ort, den in der Türkei strenge Baugestaltung vor Verwechselbarkeit schützte. Anfang der 1970er Jahre entwarf der Dichter und Autodidakt Nail Çakırhan hier ein Haus nach dem Vorbild traditioneller Herrenhäuser aus der Region Ula — mit weit auskragenden Ziegeldächern und kunstvoll geschnitzten Holzdecken. **1983** erhielt das Projekt den renommierten **Aga Khan Award for Architecture**, und seither schreibt die Gemeinde diesen Stil verbindlich für alle Neubauten vor.
 
-Bei der Erkundung von **small towns and villages overview** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+Hauptanziehungspunkt ist der **Fluss Azmak (*Kadın Azmağı*)**: Glasklares, ganzjährig nur etwa **+10 bis +12 °C** kaltes Quellwasser strömt hier aus Bergkarstspalten ins Meer. Über Schilfbänken und zwischen Flusskröten stehen Restaurants direkt auf Pfählen im Wasser, während vorne am Strand stetiger Thermikwind Akyaka zum ersten Hotspot für **[Kitesurfer](/de/articles/kitesurfing)** macht.
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+## Eski Datça: Bougainvillea und Gassen des Dichters Can Yücel
 
-### Entdecken: Ичмелер и Турунч (İçmeler & Turunç)
+Rund 2,5 km landeinwärts vom modernen Hafenort **[Datça](/de/articles/datca-peninsula)** duckt sich das historische Steinviertel **Eski Datça**. Ohne Mörtel aufgeschichtete Bruchsteinmauern, schmale gepflasterte Gassen und überbordende lila Bougainvillea lassen die Zeit stillstehen.
 
-Bei der Erkundung von **small towns and villages overview** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+In den 1990er Jahren zogen Künstler aus Istanbul und der berühmte türkische Dichter **Can Yücel** in den fast verlassenen Kern zurück. Seine nach ihm benannte Gasse beherbergt heute Keramikläden, winzige Cafés unter Platanen und ruhige Gästehäuser. Kommen Sie am besten gegen 09:30 Uhr zum türkischen Frühstück unter Olivenbäumen, bevor Tagesgäste aus Marmaris eintreffen.
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+## Selimiye, Orhaniye und Bozburun: Das stille Segler-Revier
 
-### Entdecken: Каякой (Kayaköy)
+Die gebirgige Halbinsel Bozburun südwestlich von **[Marmaris](/de/marmaris)** bekam erst spät ausgebaute Straßen — genau das konservierte ihr dörfliches Seefahrergesicht:
 
-Bei der Erkundung von **small towns and villages overview** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+* **Selimiye:** Eine ruhige Bucht mit spiegelglattem Wasser, deren Uferweg sich zu einer feinen Adresse für Fischliebhaber entwickelt hat. Abends machen Segelyachten direkt vor den Tischen der Tavernen fest.
+* **Orhaniye und die Landzunge Kızkumu:** Bekannt für die rund **600 Meter** lange, flache Sandbank **Kızkumu**, die von der Küste mitten ins Becken ragt — Spaziergänger darauf wirken aus der Ferne, als liefen sie übers Wasser.
+* **Bozburun:** Traditioneller Werftstandort für klassische türkische Holzschiffe, die berühmten **Gulets**. Bis heute zimmern Schiffbauer hier Rümpfe aus Kiefer und Eiche von Hand.
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+## Dalyan und Sarıgerme: Ungleiche Nachbarn am Flughafen
 
-### Entdecken: 🔗 Смотрите также: полезные материалы по Ликийскому побережью
+Nur zwanzig bis dreißig Fahrminuten von **[Dalaman](/de/dalaman)** liegen zwei höchst unterschiedliche, aber gleichermaßen überschaubare Orte:
 
-Bei der Erkundung von **small towns and villages overview** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+* **[Dalyan](/de/articles/dalyan-guide):** Naturschutzort entlang eines grünen Flussarms zwischen See und Meer. Dank strenger Höhenbegrenzung reihen sich gartenumstandene Villen und Familienpensionen auf; gegenüber locken lykische Felsengräber und halbstündliche Boote zur Sandnehrung **[İztuzu](/de/articles/iztuzu-beach)**.
+* **[Sarıgerme](/de/articles/sarigerme-guide):** Kompakter Ferienort nur 16 km vom Terminal `DLM` entfernt, entlang eines **7 Kilometer langen Feinsandstrandes** mit sehr flachem Wasser. Neben wenigen großen All-inclusive-Häusern am Strand punktet das Dorf mit einer ruhigen Hauptstraße voller Cafés und dem gepflegten Gemeindepark **SARÇED**.
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+## Berg-Lykien: Kayaköy, Yeşilüzümlü und Faralya
 
-## Empfohlene Artikel & verwandte Leitfäden
+Steigt die Straße über **[Fethiye](/de/fethiye)** und Ölüdeniz in die Kiefernberge hinauf, wechseln Temperatur und Atmosphäre schlagartig:
 
-Für weitere Informationen und eine detaillierte Urlaubsplanung entdecken Sie unsere Stadtführer für [Marmaris](/de/marmaris), [Fethiye](/de/fethiye), [Kaş](/de/kas) und [Dalyan](/de/dalyan).
+* **[Kayaköy](/de/articles/kayakoy-ghost-town) (einst Levissi):** Ein stilles Hochtal acht Kilometer südlich von Fethiye, über dessen Hang sich **über 500 bis 700 verlassene Steinhäuser** und zwei stattliche orthodoxe Kirchen aus der Zeit vor 1923 erstrecken. Rund um die Ruinen servieren Gartenlokale Holzkohlegrills im Prinzip *Kendin pişir kendin ye* („selbst am Tischgrill brutzeln“), daneben gibt es Reiterhöfe.
+* **[Yeşilüzümlü](/de/articles/yesiluzumlu-village):** Auf rund 500 m Höhe in einem kühlen Kiefertall (20 km ab Fethiye) bleibt es im Hochsommer 5 bis 6 °C frischer als am Meer. Bekannt ist das Dorf für lokales Winzerhandwerk, handgewebte *Dastar*-Baumwolltücher und das alljährliche Morchelfest im April.
+* **Faralya und das Kabak-Tal:** Winzige Ansiedlungen auf 350 m hohen Steilklippen unmittelbar über dem **[Schmetterlingstal](/de/articles/butterfly-valley)** — eine Welt aus Holz-Bungalows, Yoga-Terrassen und einsamen Blicken übers offene Meer.
+
+## Turunç und İçmeler: Die ruhigen Nachbarn von Marmaris
+
+Hinter dem grünen Kap westlich von Marmaris lockt zuerst **[İçmeler](/de/articles/icmeler)** am Ende der Strandpromenade mit breiterem Sand-Kies-Strand und Familienhotels, dahinter hinter steilen Kehren das fast dörfliche **[Turunç](/de/articles/turunc)** mit Blauer Flagge und antiken Amos-Ruinen auf dem Hügel. In der Sommersaison pendelt man zwischen beiden und Marmaris am schnellsten mit dem Taxiboot übers Wasser.
+
+> **Insider-Tipp:** Planen Sie Dörfer wie Selimiye, Eski Datça oder Yeşilüzümlü nicht als 20-Minuten-Kaffeestopp ein — und meiden Sie möglichst Freitagnachmittag bis Sonntag, wenn viele Einheimische aus İzmir und Muğla selbst zum Wochenende einfallen. An einem Werktag ab 17:00 Uhr erleben Sie die Gassen ruhig, mild beleuchtet und perfekt für ein langes Abendessen mit frischem Fisch und ägäischen Kräutern.
+
+---
+
+### Siehe auch
+- **[Die größeren Ferienorte im Vergleich](/de/articles/main-resorts)** — Übersicht über Marmaris, Fethiye, Kaş & Co.
+- **[Kayaköy: Das verlassene Dorf über Fethiye](/de/articles/kayakoy-ghost-town)** — Geschichte und Wanderwege bis ans Wasser.
+- **[Dalyan und der Köyceğiz-See](/de/articles/dalyan-guide)** — Programm für zwei ruhige Tage abseits der Massen.
+- **[Mietwagen und Roller rund um Dalaman](/de/articles/vehicle-rental-cars-scooters-bikes)** — warum man für abgelegene Dörfer flexibel mobil sein sollte.

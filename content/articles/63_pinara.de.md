@@ -1,38 +1,39 @@
 ---
-title: "Reiseführer Pinara Ancient City: Hundreds of Cliff-Face Rock Tombs"
+title: "Antikes Pinara: Felsenstadt mit 900 Gräbern & freiem Eintritt"
 slug: "pinara-ancient-city"
-description: "Deutschsprachiger Off-the-beaten-path guide to Pinara near Fethiye: astonishing honeycomb rock tombs, ancient theater, and peaceful mountain settings."
+description: "Geheimtipp 45 km südlich von Fethiye am Hang des Babadağ: Steilwand voller Waben-Gräber, Königsgrab mit Stadtreliefs, Herzsäulen-Tempel, kostenloser Eintritt 2026 & Anfahrt."
 ---
 
-> [!NOTE]
-> **💡 Inflationsschutz ([Gültig für 2026]):** Die Preise in Türkischen Lira (TL) unterliegen in der Türkei regelmäßigen wirtschaftlichen Schwankungen. Die unten genannten Beträge dienen als **ungefähre Richtwerte**. Für genaue Kalkulationen empfehlen wir, die Preise vor Ort oder in Euro (EUR) zu prüfen.
+# Pinara: Die vergessene Bienenwaben-Stadt am Fuß des Babadağ
 
-**Willkommen zu unserem ausführlichen Leitfaden über pinara ancient city an der Türkischen Riviera. Die Region [Dalaman](/de/dalaman) (`DLM`) und ihre malerischen Küstenorte bieten erstklassige Erlebnisse, reiche Kultur und moderne touristische Infrastruktur.**
+Während Reisebusse Tlos und Xanthos ansteuern, bleibt **Pinara** eine der stillsten und zauberhaftesten Ausgrabungen ganz Lykiens. Rund **45 km südlich von [Fethiye](/de/fethiye)** versteckt sich die Ruinenstadt in einem stillen Kiefern-Tal am Osthang des **[Babadağ](/de/articles/babadag)** (antiker Kragos).
 
-## Entdecken: Что посмотреть в Пинаре?
+Ihr lykischer Name bedeutet „rund“ — abgeleitet von der gewaltigen abgerundeten Felskuppe der Oberen Akropolis. Gegründet der Sage nach von Auswanderern aus dem überfüllten Xanthos, zählte Pinara bald zu den mächtigsten Städten des Lykischen Bundes. Doch selbst völlig ohne Vorkenntnisse bleibt Besuchern beim Anblick der Steilwand der Atem stehen.
 
-Bei der Erkundung von **pinara ancient city** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+<!-- SOURCE [19.11.2026]: Kostenloser freier Zugang Pinara 2026 — T.C. Kültür ve Turizm Bakanlığı (URL: https://muze.gov.tr); Beschreibung Waben-Nekropole, Königsgrab, Odeon & hellenistisches Theater -->
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+## Fünf Dinge, die Pinara unvergesslich machen
 
-## Entdecken: Особенность Пинара
+Hier gibt es weder Kassenhäuschen noch Absperrzäune — unter Zikadengesang wandern Sie über kiefernnadelbedeckte Wege durch echte Ruinen:
 
-Bei der Erkundung von **pinara ancient city** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+1. **Die „Bienenwaben“-Steilwand:** Das berühmte Bild von Pinara — eine fast senkrechte Felswand ist mit rund **900 rechteckigen Grabnischen** durchsiebt wie ein gigantischer Taubenschlag. Ohne Kletterseile bleibt der Fels völlig unzugänglich: Schon antike Steinmetze ließen sich an Seilen von oben ab, um Gräber vor Räubern zu schützen.
+2. **Das Königsgrab (*Untere Nekropole*):** Tiefer am Waldpfad steht ein besonders fein gearbeitetes Hausfassaden-Grab, in dessen Vorhalle einzigartige **Reliefs antiker Stadtmauern, Türme, Tore und Wohnhäuser** von Pinara in Stein gehauen sind.
+3. **Das hellenistische Theater:** Ein schlankes Theater am Gegenhang — von den oberen Sitzreihen fällt der Blick gleichzeitig über die Bühne ins Eşen-Tal und hinüber genau auf die löchrige Gräber-Felswand (**[Antike Städte](/de/articles/ancient-cities)**).
+4. **Aphrodite-Tempel mit Herzsäulen:** Achten Sie auf die umgestürzten Säulentrommeln auf der unteren Terrasse: Im Querschnitt bilden gekoppelte Doppelsäulen die klare Form eines **Herzens**.
+5. **Odeon, Agora & Sarkophage:** Um den zentralen Marktplatz ruhen Säulenreste und gewaltige lykische Spitzbogen-Sarkophagdeckel neben dem Ratssaal.
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+## Blüte, Erdbeben & der ideale Rundweg (1,5–2 Stunden)
 
-## Entdecken: Как добраться?
+Im 2. Jahrhundert n. Chr. half der berühmte lykische Stifter **Opramoas von Rhodiapolis** nach schweren Erdbeben beim Wiederaufbau von Theater und Bädern; erst ständige Steinschläge und schwindender Handel führten um das 9./10. Jahrhundert zum endgültigen Verlassen der Stadt.
 
-Bei der Erkundung von **pinara ancient city** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+**Beste Reihenfolge vor Ort:**
+1. Oben am Parkplatz direkt ins **Theater** für den Gesamtüberblick;
+2. Hinunter durch **Agora, Odeon und Aphrodite-Tempel** mit den Herzsäulen;
+3. Am Schluss rechts hinab zum **Königsgrab**, wenn spätes Nachmittagslicht die Mauerreliefs plastisch herausarbeitet.
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+---
 
-### Entdecken: 🔗 Смотрите также: полезные материалы по Ликийскому побережью
+## Anfahrt & Praxis 2026 (kostenlos, aber ohne Infrastruktur!)
 
-Bei der Erkundung von **pinara ancient city** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
-
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
-
-## Empfohlene Artikel & verwandte Leitfäden
-
-Für weitere Informationen und eine detaillierte Urlaubsplanung entdecken Sie unsere Stadtführer für [Marmaris](/de/marmaris), [Fethiye](/de/fethiye), [Kaş](/de/kas) und [Dalyan](/de/dalyan).
+* **Mit dem Auto:** Rund **40 km** ab Fethiye auf der **D400** Richtung Kalkan/Kaş fahren, dann am braunen Hinweisschild **Pinara** zum Dorf *Minare* abbiegen. Die letzten **4–5 km** steigen über schmale Dorf- und Forststraße hinauf (letzter Kilometer Schotter, trocken aber problemlos mit jedem normalen Pkw befahrbar; **[Tagesausflüge](/de/articles/day-trips-and-itineraries)**). Ohne Auto setzen Busse nur unten an der D400 ab — 5 km bergauf laufen im Juli ist kaum machbar.
+* **Eintritt komplett frei:** Kein Ticket, kein Drehkreuz — **kostenlos** von Sonnenauf- bis Sonnenuntergang zugänglich. **Kehrseite:** Oben an den Ruinen gibt es **weder Kiosk noch Toilette oder Wasserhahn** (erst unten am Dorfeingang von Minare wieder ein kleines Café). Packen Sie pro Person mindestens **1,5–2 Liter Wasser** und griffige Turnschuhe für losen Steinschotter ein — ideal vor 11:00 oder nach 16:00 Uhr ([Wandertipps](/de/articles/trekking)).

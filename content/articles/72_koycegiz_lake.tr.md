@@ -1,30 +1,34 @@
 ---
-title: "Gezi ve Keşif Rehberi: Koycegiz Lake"
+title: "Köyceğiz Gölü, Sultaniye Kaplıcaları ve Sığla Ormanları: Zamanı Yavaşlatan Vaha"
 slug: "koycegiz-lake"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Köyceğiz Gölü rehberi: Kordon okaliptüs yürüyüşü, Pazartesi Pazarı, endemik sığla ormanları, Sultaniye Kaplıcaları giriş tüyoları, Yuvarlakçay ve Toparlar Şelalesi."
 ---
 
-# Gezi ve Keşif Rehberi: Koycegiz Lake
+# Köyceğiz Gölü: Sığla Ormanları ve Okaliptüs Gölgesinde Bir Vaha
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+Dalaman Havalimanı'ndan sadece **35–40 dakika** batıya sürüp **[Köyceğiz](/tr/koycegiz)**'in sahil şeridine indiğinizde, kıyı turizminin telaşlı temposu bir anda kaybolur. Yaklaşık **52 kilometrekarelik** bu derin tektonik göl, denize yalnızca **[Dalyan](/tr/articles/dalyan-guide)**'ın dar kanallarıyla bağlandığı için ne yat kalabalığına ne de yüksek sezon gürültüsüne sahne olur. Kışın tepeleri hafifçe karlanan Sandras Dağı manzarası yazın bile suya serin bir nefes indirir (**[doğal güzellikler rehberi](/tr/articles/natural-attractions-canyons-rivers-lakes)**).
 
-**Koycegiz Lake ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+## Kordon Boyu ve Köklü Pazartesi Pazarı
 
-## Öne Çıkan Özellikler ve Detaylar
-koycegiz lake bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Köyceğiz'de hayat göl kıyısındaki geniş **Kordon** boyunca akar. Yüzyıllık dev okaliptüs ağaçlarının gölgesindeki çay bahçelerinde büyük tatil beldelerinin aksine hâlâ son derece makul mahalle fiyatlarıyla demli çay ve kahvaltı bulabilirsiniz.
 
-## Öne Çıkan Özellikler ve Detaylar
-koycegiz lake bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Haftanın asıl şenliği ise **Pazartesi Pazarı**dır. Çevre dağ köylerinden inen üreticilerin tezgâhlarında kışlık tarhana, köy tereyağı, susam helvası, taş baskı zeytinyağı ve bölgenin narenciyeleri satılır (**[pazar rehberi](/tr/articles/markets-shopping)**).
 
-### Öne Çıkan Özellikler ve Detaylar
-koycegiz lake bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Endemik Sığla Ormanları
 
+Köyceğiz, dünya üzerinde yalnızca Güneybatı Anadolu ve Rodos adasında doğal olarak yetişen buzul çağı kalıntısı **Sığla ağacının (*Liquidambar orientalis*)** en yoğun korularına ev sahipliği yapar. Gövdelerinden sızan ve eski Mısır'dan beri parfümeri ile eczacılıkta kullanılan hoş kokulu *sığla yağı*, özellikle ilkbahar ve sonbahar yürüyüşlerinde göl kıyısına eşsiz, reçineli bir vanilya-tütsü kokusu verir (**[flora ve fauna](/tr/articles/flora-fauna)**).
 
----
+## Sultaniye Kaplıcaları (+39–40 °C): Kalabalıktan Kaçış Planı
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — [Fethiye](/tr/fethiye), [Marmaris](/tr/marmaris), [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+Gölün güneybatı kıyısında, Helenistik dönemden beri şifa merkezi olarak kullanılan **Sultaniye Kaplıcaları** yer alır. Kükürt, kalsiyum ve düşük oranda radon içeren **+39–40 °C** sıcaklığındaki termal su, açık hava çamur havuzu ve kapalı kubbeli termal banyolar belediye tarafından işletilir; giriş ücreti kişi başı oldukça ekonomiktir (yaklaşık **100–150 ₺** bandında).
+
+* **En Doğru Saat:** Dalyan'dan tekne turları **11:30–15:30** arası iskeleyi doldurur. Oysa Köyceğiz tarafından karayoluyla veya erken tekneyle **08:30–09:00** ya da **16:00 sonrasında** gelirseniz havuzları neredeyse tek başınıza kullanırsınız.
+* **Sağlık ve Takı Uyarısı:** Sıcak termal suda tek seferde **15–20 dakikadan fazla kalmayın**. Yoğun kükürt buharı ve su **gümüş yüzük, kolye ve saatleri dakikalar içinde karartır** — girmeden önce mutlaka çıkarın. Kalp, yüksek tansiyon ve hamilelik durumlarında sıcak havuz öncesi hekim onayı gerekir (**[hamam ve termal rehberi](/tr/articles/turkish-bath-hammam-and-spa)**).
+
+## Çevredeki Soğuk Su Kaçamakları
+
+* **Yuvarlakçay:** Merkezin yaklaşık 15–20 dakika kuzeydoğusunda, Sandras Dağı kar sularının buz gibi çağladığı vadi. Dere üstüne kurulmuş ahşap köşklerde alabalık yenir, su üzerindeki halat salıncaklarda Ağustos sıcağı sıfırlanır.
+* **Toparlar Şelalesi:** Yuvarlakçay dönüşü kestirme çam patikasından yürüyerek ulaşılan, yüzülebilir doğal kaya havuzuna sahip sakin şelale.
+* **Ekincik Yolu:** Gölün güneybatı kıyısından devam eden 35 km'lik dağ yolu sizi doğrudan bakir **[Ekincik Koyu](/tr/articles/ekincik-bay)**'na indirir.
+
+<!-- SOURCE [19.11.2026]: Köyceğiz Belediyesi Sultaniye Kaplıcaları ve Orman Bölge Müdürlüğü Sığla Koruma Alanı bilgileri (URL: https://www.koycegiz.bel.tr/) -->

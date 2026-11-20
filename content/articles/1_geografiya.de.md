@@ -1,85 +1,60 @@
 ---
-title: "Geografie und Natur der Lykischen Küste: Vollständige Beschreibung"
+title: "Geografie der Lykischen Küste: Wo zwei Meere und das Taurusgebirge aufeinanderprallen"
 slug: "geography"
-description: "Erfahren Sie mehr über die einzigartige Geografie der Region Dalaman: Landschaften, Berge, Flüsse, Canyons und die Natur der Türkisküste der Türkei."
+description: "Vom Kap Deveboynu bei Datça bis zu den Klippen von Kaş: Wie die Küste um Dalaman aufgebaut ist, warum das Relief die Fahrzeit bestimmt und wo Amberbäume wachsen."
 ---
 
+# Geografie und Relief der Lykischen Küste: Wo zwei Meere aufeinanderprallen
 
-# Geografie und Natur der Lykischen Küste
+Das schmale Felsenkap Deveboynu ganz am westlichen Ende der Halbinsel Datça markiert jene Stelle, an der die Ägäis offiziell ins Mittelmeer übergeht. Von hier bis zu den Buchten von Kaş bricht die Südwestküste der Türkei in Hunderte fjordähnlicher Golfe, versteckter Lagunen und steiler Kalksteinabbrüche auf. Einheimische und Segler fassen diesen rund 300 Kilometer langen Küstenbogen als Region zwischen Datça und Kaş zusammen — mit **[Dalaman](/de/dalaman)** als geografischem und flugtechnischem Herzstück in der Mitte.
 
-Diese erstaunliche Region im Südwesten der Türkei ist der Treffpunkt der Ägäischen und des Mittelmeers. Die lange Küstenlinie scheint hier aus Buchten, Golfen, Inseln und Kapen gewebt zu sein, was eine der malerischsten Landschaften des Mittelmeerraums schafft. Die Halbinsel [Marmaris](/de/marmaris) mit einer Länge von über 60 km dient praktisch als natürliche Grenze zwischen den beiden Meeren und macht die Region selbst im nationalen Maßstab einzigartig.
+Das Relief prägt hier den Rhythmus jeder Reise stärker als jeder Hotelprospekt. Fährt man von der Küstenstraße D400 nur fünf Kilometer ins Landesinnere, lösen steile Kiefernwände des Westtaurus die Granatapfel- und Zitrushaine abrupt ab. Für Reisende heißt das zweierlei: dramatische Landschaftswechsel binnen einer halben Stunde — und die Notwendigkeit, für kurvenreiche Bergpässe großzügig Fahrzeit einzuplanen.
 
-Die geografische Lage macht [Dalaman](/de/dalaman) zu einem besonderen Ort: Hier verflechten sich die mediterrane und die ägäische Klimazone, was ein einzigartiges Ökosystem bildet. Genau diese Kombination schafft jene Atmosphäre der Türkisküste, die Reisende aus aller Welt anzieht.
+<!-- SOURCE [19.11.2026]: Geografie der Provinz Muğla, Relief und Länge des Flusses Dalaman Çayı (URL: https://www.ktb.gov.tr, https://www.mugla.bel.tr) sowie topografische Gipfeldaten des Westtaurus (URL: https://www.peakvisor.com) -->
 
-## Geografischer Überblick
+## Anatomie der Küste: Drei Landschaftszonen von Datça bis Kaş
 
-Die Küstenlinie der Region besteht aus 840 km abwechselnden malerischen Buchten, felsigen Kaps und langen Sandstränden. Das vom Meer zerklüftete Land bildet viele natürliche Häfen, die Schiffen über Jahrhunderte hinweg Schutz vor Stürmen boten. Aus diesem Grund blühten hier die antiken Handelsstädte Lykiens.
+Zwischen **[Datça](/de/dacha)** und **[Kaş](/de/kas)** gleicht kein Abschnitt dem anderen. Auf einer Fahrt von West nach Ost durchqueren Sie nacheinander drei völlig eigenständige Naturräume:
 
-Die Einzigartigkeit der Landschaft ist auf die Nähe der Ausläufer des Taurusgebirges zurückzuführen. Vom Meer zum Zentrum der Halbinsel hin steigt das Gelände an und bildet hügelige Plateaus und Schluchten. Der Berg Babadağ ist mit einer Höhe von 1969 Metern der höchste Punkt der Region, dessen Gipfel im Frühling mit Schnee bedeckt ist, was einen Kontrast zur türkisfarbenen Meeresoberfläche an seinem Fuß bildet.
+### 1. Die ägäischen Halbinseln (Datça, Bozburun und Marmaris)
+Der Westrand erinnert an einen Archipel, den nur schmale Landbrücken am Festland halten. Die **[Halbinsel Datça](/de/articles/datca-peninsula)** streckt sich rund 70 km weit nach Westen, südlich von **[Marmaris](/de/marmaris)** schiebt sich die schroffe Halbinsel Bozburun ins Wasser. Im Norden liegt der tiefe Golf von Gökova, dazwischen schneidet der Golf von Hisarönü ins Land. Pinienbewachsene Kaps wechseln mit glasklaren Buchten ab, und am äußersten Ende beim antiken Knidos treffen die Strömungen und Winde zweier Meere direkt aufeinander.
 
-## Wichtigste Naturdenkmäler
+> **Geografischer Faktencheck:** Der berühmte Kleopatra-Strand mit dem raren, kugeligen Oolith-Sand liegt nicht im Westen von Datça, sondern auf der Insel Sedir im Golf von Gökova nördlich von Marmaris. Die westlichen Buchten rund um Datça selbst (Palamutbükü, Knidos, Hayıtbükü) bieten überwiegend feinen Kiesel und Felsplateaus mit eiskalten Süßwasserquellen.
 
-### Buchten und Golfe
+### 2. Zentrale Ebene und Flussdelta (Dalaman, Köyceğiz und Dalyan)
+Rund um Dalaman weichen die Berge überraschend weit vom Ufer zurück und öffnen die breiteste fruchtbare Tiefebene an diesem Küstenabschnitt. Wegen dieser flachen Topografie entstand genau hier der internationale Flughafen, umgeben von Zitrus- und Granatapfelplantagen. Etwas weiter westlich schnürten Flussablagerungen einst eine alte Meeresbucht vom offenen Wasser ab: So entstand der rund 52 km² große tektonische Süßwassersee **[Köyceğiz](/de/koycegiz)**, den der gewundene Kanal von **[Dalyan](/de/dalyan)** bis zur 4,5 km langen Nehrung **[İztuzu](/de/articles/iztuzu-beach)** mit dem Meer verbindet.
 
-Der Naturhafen von [Fethiye](/de/fethiye) ist eine der größten und geschütztesten Buchten der Region. Seine Gewässer sind selbst bei stürmischer See ruhig, was ihn seit der Antike zu einem wichtigen Hafen machte. Heute ist er ein Zentrum des Segelsports und Ausgangspunkt für Kreuzfahrten auf dem sogenannten „Lykischen Weg“.
+### 3. Das vertikale Lykien (Göcek, Fethiye, Kalkan und Kaş)
+Östlich von **[Göcek](/de/gocek)** schießt die Küste erneut in die Höhe. Der geschützte Golf von **[Fethiye](/de/fethiye)** wirkt mit seinen vorgelagerten Inseln wie ein natürliches Hafenbecken fast ohne Dünung. Hinter Ölüdeniz stürzen die Berghänge senkrecht ab: Die Schlucht des **[Schmetterlingstals](/de/articles/butterfly-valley)** bricht aus 350 m Höhe zum Kiesufer hinunter, und zwischen Kalkan und Kaş klebt die Küstenstraße D400 direkt im Fels über türkisfarbenen Einschnitten wie der Kaputaş-Bucht.
 
-Die Bucht von [Göcek](/de/gocek) vereint 12 kleine Buchten im Nordosten der Region. Dies ist ein Ort mit einer besonderen Mikroklimazone – hier ist es weniger heiß und die Luftfeuchtigkeit ist höher, was ihn von April bis November für Segler attraktiv macht.
+## Das Gebirgsgerüst und seine Mikroklimata
 
-### Berge und Canyons
+Nach Norden hin schirmen die Ausläufer des Westtaurus die Küste gegen kontinentale Kaltluft vom anatolischen Hochland ab und stauen die mediterrane Wärme am Wasser:
 
-Das Taurusgebirge erstreckt sich entlang der gesamten Küste und bildet eine natürliche Barriere, die die Meeresfeuchtigkeit zurückhält und ein einzigartiges Mikroklima schafft. Einzelne Gipfel erreichen 2000 Meter und bieten einen Panoramablick auf das Meer – genau vom Babadağ aus starten die berühmten Paraglider nach Ölüdeniz.
+* **Babadağ (1.969 m)** über **[Ölüdeniz](/de/articles/oludeniz):** Nicht der höchste Gipfel der Region, aber topografisch spektakulär. Die Startrampen liegen auf 1.200 bis 1.965 m Höhe — horizontal nur vier bis fünf Kilometer vom Strand von Belcekız entfernt. Dieses steile Gefälle erzeugt zusammen mit der Seebrise verlässliche Aufwinde und macht den Berg zur Welthauptstadt des Tandem-Paraglidings.
+* **Akdağ-Massiv (bis 3.016 m):** Östlich des Eşen-Tals thront der höchste Kamm der Region, auf dessen schattigen Nordhängen oft bis weit in den Sommer hinein Schneefelder überdauern. Das Schmelzwasser hat in den Kalkstein die 18 km lange **[Saklıkent-Schlucht](/de/articles/saklikent-gorge)** mit bis zu 300 m hohen Wänden gefräst — selbst im August steigt die Wassertemperatur im engen Grund kaum über +8 bis +10 °C.
+* **Sandras Dağı (2.295 m):** Nördlich des Köyceğiz-Sees verstecken sich in den alten Schwarzkieferwäldern dieses Massivs der eiszeitliche Kartal-See (rund 1.900 m hoch) sowie die Kaskaden des Toparlar-Wasserfalls.
 
-Die Saklıkent-Schlucht ist ein einzigartiges geologisches Objekt, ein 18 km langer Canyon mit steilen Wänden von bis zu 300 Metern Höhe. Das eisige Wasser des Flusses fließt selbst an den heißesten Sommertagen tief in der Schlucht. Dieser Ort fühlt sich an wie der Eingang zu einer anderen Welt – kalt, feucht und atemberaubend.
+## Flüsse, Thermalspalten und tertiäre Amberbaumwälder
 
-### Flusssysteme und Deltas
+Die wichtigste Wasserader trägt denselben Namen wie die Ebene: Der rund **229 km** lange **Dalaman Çayı** hieß in der Antike *Indos*. Er entspringt im Bergland zwischen Denizli und Burdur, gräbt sich durch tiefe Schluchten (ein bekanntes Ziel für Wildwasser-Rafting der Stufen III–IV) und mündet westlich des Flughafens ins Meer. Über Jahrhunderte trennte sein reißender Lauf ganz natürlich die antiken Landschaften Karien und Lykien.
 
-Der Fluss [Dalyan](/de/dalyan) bildet eines der wichtigsten Ökosysteme der Region. Sein 4,5 km langes Delta trennt das Süßwasser des Flusses vom salzigen Meer und schafft ein einzigartiges Biotop. Genau hier, auf einer 5 km langen Landzunge, nisten die seltenen Unechten Karretschildkröten (Caretta caretta), die im Roten Buch eingetragen sind.
+Eine seltene botanisch-geografische Besonderheit gedeiht auf den feuchten Schwemmböden rund um Dalaman, Köyceğiz und Günlüklü: die **Reliktwälder des Orientalischen Amberbaums** (*Liquidambar orientalis*, türkisch *Günlük ağacı* oder *Sığla*). Diese Bäume aus dem Tertiär haben weltweit nur an wenigen Standorten überlebt. Aus ihrer angeritzten Rinde wird noch heute das aromatische Harz *Sığla yağı* gewonnen.
 
-Der [Köyceğiz](/de/koycegiz)-See ist ein 52 km² großer Süßwassersee, der über das Dalyan-Flusssystem mit dem Meer verbunden ist. Dieser Ort ist die Heimat von Hunderten von Vogelarten, darunter Flamingos und Pelikane. Das Angeln ist hier das ganze Jahr über erlaubt, was den See zu einem beliebten Ziel für Einheimische und Touristen macht.
+Entlang einer aktiven geothermischen Bruchlinie am Südufer des Köyceğiz-Sees unterhalb des Ölemez-Berges sprudeln zudem die **Thermalquellen von Sultaniye** mit +39 bis +40 °C warmem Mineralwasser. Und wer im Meer um Dalyan oder Göcek schwimmt, spürt vielerorts unvermittelt eiskalte Süßwasserschichten — Karstquellen, die unterirdisch direkt in die Buchten austreten.
 
-### Halbinseln und Kaps
+## Was die Geografie für Ihre Reiseplanung bedeutet
 
-Die [Datça](/de/dacha)-Halbinsel ist ein langgestrecktes, 100 km langes Kap im Westen der Region. Auf der Westseite befinden sich die Strände der Prinzessin Kleopatra – seltene Beispiele für goldfarbenen Sand in einer Region, die ansonsten von Kieselsteinen dominiert wird. Die Halbinsel ist bis Ende Juli, wenn die Einheimischen hier Urlaub machen, praktisch unbewohnt.
+> **Insider-Tipp:** Messen Sie Distanzen an dieser Küste niemals mit dem Lineal. Die rund 105 km zwischen Fethiye und Kaş oder die Anfahrt nach Knidos an der Spitze von Datça folgen schmalen Bergserpentinen, auf denen man selten mehr als 50 bis 60 km/h im Schnitt schafft. Wer dagegen **[Dalaman](/de/dalaman)** oder die Umgebung von **[Göcek](/de/gocek)** als Basis wählt, liegt exakt in der Mitte: Nach Ölüdeniz fährt man rund 50 Minuten, nach Dalyan 25 Minuten, nach Marmaris gut 75 Minuten.
 
-Das Kap Gelibolu auf der Halbinsel Marmaris ist der südwestlichste Punkt des kontinentalen Truthahnlandes. Von hier aus hat man gleichzeitig Blick auf das Ägäische und das Mittelmeer – eine seltene Gelegenheit, zwei Meere von einem Ort aus zu sehen.
-
-## Wassernetz
-
-Neben dem salzigen Meerwasser ist die Region reich an Süßwasserquellen. Gebirgsbäche bilden Wasserfälle und Becken, besonders in den Schluchten. Der Ilıca-See in Datça ist ein einzigartiges Beispiel für Süßwasser, das buchstäblich ins Meer fließt: Ein Fluss entspringt an seinen Ufern und mündet nur 200 Meter von der Quelle entfernt ins Meer.
-
-Die Wasserfälle in der Yaganlar-Schlucht (Yayanlar-Schlucht) sind ein beliebter Ort, um selbst im August in eiskaltem Bergwasser zu baden, wenn die Lufttemperatur im Schatten 35 °C überschreiten kann.
-
-## Klimazone
-
-Die Region befindet sich in einer trockenen mediterranen Klimazone mit folgenden Merkmalen:
-- Heißer, trockener Sommer (Juni–September) mit Temperaturen bis zu 40 °C im Schatten
-- Milder, regnerischer Winter (November–März) mit kühlen Nächten
-- Badesaison von April bis Oktober
-- Etwa 300 Sonnentage im Jahr
-
-Die Nähe zum Meer mildert extreme Temperaturen ab: Anstrengende Hitzewellen wie im Landesinneren der Türkei sind hier selten, aber die Nächte bleiben dank der Meeresbrise selbst mitten im Sommer kühl.
-
-## Moderne Bedeutung für den Tourismus
-
-Die einzigartige Geografie der Region bestimmt ihre touristische Attraktivität:
-
-1. **Vielfalt der Landschaften innerhalb von 1–2 Autostunden** – von Meeresstränden bis zu Berggipfeln
-2. **Geschützte Buchten für den Segelsport** – ideal für sicheren Bootstourismus
-3. **Canyons und Schluchten** – einzigartige Möglichkeiten für Ökotourismus und Trekking
-4. **Deltas und Seen** – reiche Flora und Fauna für Naturliebhaber
-5. **Klimatischer Komfort** – eine lange Saison ohne erschöpfende Hitze
-
-Das Verständnis der Geografie hilft dem Touristen, die Route effektiv zu planen. Dabei sollte berücksichtigt werden, dass Entfernungen auf der Karte aufgrund des bergigen Reliefs täuschen können: 50 km auf einer geraden Straße können auf einer kurvigen Bergstraße 2 Stunden dauern.
-
-## Fazit
-
-Die Geografie der Lykischen Küste ist nicht nur eine Karte, sondern eine lebendige Geschichte, die in jedem Stein, jeder Bucht und jeder Klippe niedergeschrieben ist. Die Kenntnis der Landschaft hilft zu verstehen, warum hier antike Zivilisationen blühten und warum diese Region heute als einer der schönsten Orte der Türkei für Reisen gilt.
+1. **Fahrzeug passend zum Terrain wählen:** In der Ebene von Dalyan oder Dalaman genügen Fahrrad oder 50er-Roller. Für die Steigungen von Kaş, Ölüdeniz und der Halbinsel Bozburun brauchen Sie ein Auto oder mindestens einen 125-ccm-Roller (mit entsprechendem Motorradführerschein).
+2. **Mikroklimata gezielt ausnutzen:** Im Juli und August staut sich in geschützten Talkesseln wie Dalyan oder Ölüdeniz oft die Hitze, während auf der windumtosten Spitze von Datça oder im Bergdorf Yeşilüzümlü oberhalb von Fethiye trockene Luft und 4 bis 6 °C weniger warten.
+3. **Das Auto auch mal stehen lassen:** Fast die Hälfte der schönsten Buchten zwischen Marmaris und Fethiye — von der Kille-Bucht über Sarsala bis zu den zwölf Inseln von Göcek — ist durch Kiefernberge abgeschirmt und offenbart ihre ganze Klasse am entspanntesten vom Wasser aus.
 
 ---
 
-### 🔗 Siehe auch: Nützliche Ratgeber für die Lykische Küste
-- **[Wichtige Kontakte & Nöbetçi Eczane Apotheken](/articles/useful-contacts)**.
-- **[Flughafentransfers ab Dalaman (DLM)](/services/transfers)**.
-- **[Mietwagen, Roller & Fahrräder](/articles/vehicle-rental-cars-scooters-bikes)**.
-- **[Überblick über die wichtigsten Urlaubsorte: Fethiye, Marmaris, Kaş & Datça](/articles/main-resorts)**.
-
+### Siehe auch
+- **[Geschichte der Küste von Datça bis Kaş](/de/articles/history)** — wie der Fluss Dalaman einst Karien und Lykien schied.
+- **[Klima und Reisezeiten im Monatsüberblick](/de/articles/climate-and-seasons)** — Luft- und Wassertemperaturen von März bis Dezember.
+- **[Nationalparks und Schutzgebiete](/de/articles/national-parks-and-nature-reserves)** — geschützte Buchten, Deltas und Schluchten der Region.
+- **[Verkehrssystem entlang der Küste](/de/articles/transport)** — wie Sie Etappen entlang der D400 sauber verknüpfen.

@@ -1,104 +1,43 @@
 ---
-title: "Reiseführer Traditional Crafts and Authentic Souvenirs to Buy"
+title: "Souvenirs & Kunsthandwerk Dalaman: Dastar, Pinienhonig & Zollverbote"
 slug: "suveniry-i-remesla"
-description: "Deutschsprachiger What to bring home from Turkey: handwoven carpets, Datca almond paste, pine honey, ceramic pottery, and olive oil soaps."
+description: "Echte Mitbringsel statt Massenware: handgewebter Dastar-Stoff, Amberbaum-Harz, Yörük-Kelims, Peştemal, Pinienhonig — und warum ein alter Stein vom Strand zur Festnahme am Zoll führt."
 ---
 
-> [!NOTE]
-> **💡 Inflationsschutz ([Gültig für 2026]):** Die Preise in Türkischen Lira (TL) unterliegen in der Türkei regelmäßigen wirtschaftlichen Schwankungen. Die unten genannten Beträge dienen als **ungefähre Richtwerte**. Für genaue Kalkulationen empfehlen wir, die Preise vor Ort oder in Euro (EUR) zu prüfen.
+# Souvenirs und Kunsthandwerk um Dalaman: Echtes Handwerk statt Plastikmagneten
 
-**Willkommen zu unserem ausführlichen Leitfaden über suveniry i remesla an der Türkischen Riviera. Die Region [Dalaman](/de/dalaman) (`DLM`) und ihre malerischen Küstenorte bieten erstklassige Erlebnisse, reiche Kultur und moderne touristische Infrastruktur.**
+In den Basargassen von **[Fethiye](/de/fethiye)** und **[Marmaris](/de/marmaris)** liegen zwei völlig getrennte Welten nebeneinander: grell bedruckte „İznik“-Schalen aus großen Werkshallen — und echtes Handwerk sowie Ernteprodukte, die keine 50 Kilometer vom Flughafen entfernt gefertigt werden.
 
-## Entdecken: Ручная работа и ремесла
+Fünf charakterstarke Mitbringsel zwischen **[Datça](/de/dacha)** und Kaş lohnen jeden Kofferplatz — daneben steht allerdings ein eisernes Zollgesetz, das schon so manchen unbedarften Schnorchler um seinen Rückflug gebracht hat.
 
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+<!-- SOURCE [19.11.2026]: Ausfuhrverbot für Kulturgüter & Antiken ohne Genehmigung — Gesetz Nr. 2863 & Türkische Zollverwaltung (URL: https://ticaret.gov.tr); traditionelle Dastar-Weberei in Yeşilüzümlü (URL: https://www.fethiye.bel.tr) -->
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+## Vier traditionelle Handwerke aus der Region
 
-### Entdecken: 1. Ковры и килимы (Halı ve Kilim)
+1. **Dastar-Webstoff aus Yeşilüzümlü:** Im Bergdorf **[Yeşilüzümlü](/de/articles/yesiluzumlu-village)** zwanzig Minuten oberhalb von Fethiye weben Frauen auf alten hölzernen Webstühlen (*Çekmen*) bis heute hauchfeine Baumwoll- und Leinenbahnen (**Dastar**). Entstehen daraus heute Schals, Strandtücher oder Tischläufer mit geknüpften Fransen, erkennt man Qualität sofort an der leicht strukturierten, griffigen Oberfläche.
+2. **Harz und Seife des Amberbaums (*Sığla yağı*):** Fast nirgends sonst auf der Welt wird der harzige Balsam (*Storax*) des tertiären Orientalischen Amberbaums (**[Flora & Fauna](/de/articles/flora-fauna)**) so intensiv gewonnen wie in den Tälern rund um **[Dalaman](/de/dalaman)** und Köyceğiz. In Dorfgenossenschaften gibt es dunkel-bernsteinfarbenes *Sığla yağı*, duftende Naturseifen und pflegende Balsame.
+3. **Handgewebte Yörük-Kelims:** Die Halbnomaden der Taurusberge (*Yörük*) knüpfen seit Jahrhunderten robuste Flachgewebe (**Kilim**) aus Schaf- und Ziegenwolle. Ein Fünf-Sekunden-Echtheitscheck im Laden: **Schauen Sie auf die Fransen** — bei echter Handarbeit wachsen sie direkt als Kettfäden aus dem Teppich heraus und sind nicht nachträglich maschinell angenäht; zudem erscheint das Muster auf der Rückseite fast genauso scharf wie vorn.
+4. **Baumwoll-*Peştemal* und Keramik aus Kaş:** Aus der nahen Textilprovinz Denizli kommen dichte, gewebte **[Hamamtücher (*Peştemal*)](/de/articles/turkish-bath-hammam-and-spa)** aus reiner Baumwolle oder Bambus — sie brauchen im Koffer kaum Platz und trocknen in dreißig Minuten im Wind. Gute gewebte Tücher kosten meist **6–12 €** (3-€-Billigware steckt fast immer voller Polyester). Schöne moderne Keramik und minimalistischen Silberschmuck finden Sie in den Gassen von Kaş.
 
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+---
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+## Köstlichkeiten für den Koffer
 
-### Entdecken: 2. Керамика (Seramik / Çini)
+Essbares aus der Region ist das ehrlichste Urlaubsandenken (alle Küchen-Tipps im **[Kulinarik-Guide](/de/articles/gastronomy)**):
 
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+* **Pinienhonig (*Çam balı*):** Muğla gilt weltweit als Hauptregion für diesen dunklen, kaum überzuckerten und lange flüssigen Waldhonig (**ca. 8–15 €** pro Kiloglas bei Imkern und Märkten um Marmaris, Osmaniye und Köyceğiz).
+* **Johannisbrotsirup (*Keçiboynuzu pekmezi*) & Mandeln von [Datça](/de/dacha):** Neben gerösteten Mandeln und Mandelcreme schätzen Türken dunklen Johannisbrotsirup als gesunden natürlichen Süßstoff.
+* **Olivenöl (*Soğuk sıkım zeytinyağı*):** Wählen Sie Flaschen oder Blechkanister mit dem Hinweis *Erken hasat* („Frühernte“) und maximal *0,3–0,5 %* Säure. Flüssigkeiten gehören zwingend ins aufgegebene **Aufgabegepäck**, niemals ins Handgepäck!
+* **Kaffee, Gewürze & frischer Lokum:** Fein gemahlenen Kaffee (*Kurukahveci Mehmet Efendi*) in vakuumierten Metalldosen oder Tüten holen Sie im Supermarkt (2–4 €); **Sumach**, **Pul Biber**, **Berg-Thymian (*Kekik*)** und **Berg-Salbei (*Adaçayı*)** kaufen Sie offen nach Gewicht auf dem **[Wochenmarkt (*Pazar*)](/de/articles/markets-shopping)** — nicht in ausgeblichenen Touristen-Klarsichtboxen.
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+> **Vorsicht bei hübschen Geschenk-Kartons:** Verführerisch bunte Souvenir-Schachteln mit *Lokum* am Hafen bestehen leider oft größtenteils aus Stärke und Zuckergelatine. Echten *Lokum* mit Antep-Pistazien oder Haselnüssen wählen Sie besser offen an der Glastheke einer guten *Pastane*, wo man vorab probieren darf.
 
-### Entdecken: 3. Изделия из меди (Bakır)
+---
 
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
+## Was NIEMALS in den Koffer darf (Gesetz Nr. 2863)
 
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
+Auf einer Küste voller **[antiker Stätten](/de/articles/ancient-cities)** greift das türkische Denkmalschutzgesetz Nr. 2863 kompromisslos durch:
 
-### Entdecken: 4. Пештемаль (Peştemal)
-
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
-
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
-
-### Entdecken: 5. Изделия из кожи (Deri)
-
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
-
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
-
-## Entdecken: Съедобные сувениры
-
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
-
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
-
-### Entdecken: 6. Оливковое масло (Zeytinyağı)
-
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
-
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
-
-### Entdecken: 7. Сыры (Peynir)
-
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
-
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
-
-### Entdecken: 8. Пекмез (Pekmez)
-
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
-
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
-
-### Entdecken: 9. Специи, травы и сладости
-
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
-
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
-
-## Entdecken: Простые, но душевные подарки
-
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
-
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
-
-### Entdecken: 10. "Глаз от сглаза" (Nazar Boncuğu)
-
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
-
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
-
-### Entdecken: 11. Турецкий кофе и принадлежности (Türk Kahvesi)
-
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
-
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
-
-### Entdecken: 🔗 Смотрите также: полезные материалы по Ликийскому побережью
-
-Bei der Erkundung von **suveniry i remesla** an der Dalaman-Riviera sind Besucher stets von der Qualität des Services, der unberührten Natur und der hervorragenden Erreichbarkeit der wichtigsten regionalen Ziele beeindruckt. Ob Ihre Reise durch den lebhaften Hafen von [Fethiye](/de/fethiye), die malerischen Pinienbuchten von [Marmaris](/de/marmaris) oder die ruhigen Flusskanäle von [Dalyan](/de/dalyan) führt – jeder Ort bietet einzigartige Möglichkeiten für jeden Urlaubsstil.
-
-Um Ihr Erlebnis optimal zu gestalten, empfehlen lokale Experten, die saisonalen Bedingungen zu beachten, in den Hauptreisemonaten frühzeitig zu buchen und die zuverlässigen Verkehrsverbindungen vom internationalen Flughafen [Dalaman](/de/dalaman) (`DLM`) zu nutzen. Die Kombination aus Outdoor-Aktivitäten und traditioneller ägäischer Gastfreundschaft garantiert einen unvergesslichen Urlaub an der Türkischen Riviera.
-
-## Empfohlene Artikel & verwandte Leitfäden
-
-Für weitere Informationen und eine detaillierte Urlaubsplanung entdecken Sie unsere Stadtführer für [Marmaris](/de/marmaris), [Fethiye](/de/fethiye), [Kaş](/de/kas) und [Dalyan](/de/dalyan).
+* **Keine „alten“ Steine, Scherben oder Münzen:** Wer beim Schnorcheln vor Kekova einen verkrusteten Amphorenhenkel mitnimmt, am Weg bei Knidos ein bearbeitetes Marmorstück einsteckt oder unterwegs „alte römische Münzen“ erwirbt, riskiert bei der Gepäckdurchleuchtung am **[Flughafen Dalaman](/de/articles/airport-dalaman)** Anklage wegen Antiken-Schmuggels — mit Festnahme, Flugverlust und hohen Geldstrafen!
+* **Bei teuren Neuwaren immer Quittung aufheben:** Kaufen Sie einen größeren handgeknüpften Teppich oder antikisierende moderne Keramik, lassen Sie sich zwingend einen regulären Kassenbeleg (**Fatura**) sowie eine Herkunftsbescheinigung für die Ausreisekontrolle aushändigen.
+* **Muscheln, Korallen & Sand:** Ebenfalls verboten ist die Ausfuhr größerer Meeresschnecken sowie von Sand geschützter Strände wie der Insel Sedir.

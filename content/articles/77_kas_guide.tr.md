@@ -1,30 +1,35 @@
 ---
-title: "Gezi ve Keşif Rehberi: Kas Guide"
+title: "Kaş Gezi Rehberi: Uzun Çarşı, Antik Tiyatro ve Meis Feribotu (2026 Kapıda Vize)"
 slug: "kas-guide"
-description: "Dalaman, Fethiye ve Likya kıyısı için detaylı gezi rehberi, ulaşım bilgileri ve öneriler."
+description: "Kaş gezi rehberi: Dalaman'dan 2,5 saatlik kıyı yolu, platform plaj gerçeği, ücretsiz 26 sıralı antik tiyatro, Meis Adası feribotu, Yeşil Pasaport, Kapıda Vize ve 1.250 ₺ çıkış harcı."
 ---
 
-# Gezi ve Keşif Rehberi: Kas Guide
+# Kaş: Kayalara Kurulu Taş Kasaba, Dalış ve Meis Kapısı
 
-> [!NOTE]
-> **💡 Enflasyon Koruması (2026 Güncel):** Türkiye'deki Türk Lirası (TL) fiyatları dalgalanmalara ve enflasyona tabidir. Aşağıda belirtilen tutarlar **tahminidir**. Kesin hesaplama için güncel döviz kurunu (USD/EUR) veya resmi web sitelerindeki güncel fiyat listelerini kontrol etmenizi öneririz.
+Antalya il sınırında, Dalaman Havalimanı'ndan D400 kıyı yoluyla yaklaşık **150 kilometre** (**2–2,5 saat**) doğuda yer alan **[Kaş](/tr/kas)**, Muğla ile Antalya kıyıları arasında bambaşka bir dünyadır (**[Dalaman ulaşımı](/tr/articles/airport-dalaman)**). Burada büyük her şey dahil otel kompleksleri yoktur; bunun yerine begonvilli eski Rum-Türk taş evleri, butik pansiyonlar, bohem teras barlar ve her köşe başında dalış tüpü taşıyan denizciler vardır.
 
-**Kas Guide ve çevresi hakkında hazırladığımız kapsamlı rehbere hoş geldiniz. Muğla iline bağlı [Dalaman](/tr/dalaman) bölgesi, Akdeniz'in eşsiz doğasını, antik Likya'nın tarihi mirasını ve dünya çapında turizm olanaklarını bir arada sunar. İster ailenizle huzurlu bir tatil planlıyor, ister doğa sporları macerası arıyor olun, bu rehberde seyahatiniz için ihtiyaç duyacağınız tüm pratik bilgileri ve yerel önerileri bulacaksınız.**
+## Kasaba Ruhu, Dalış ve Ücretsiz Gün Batımı Tiyatrosu
 
-## Öne Çıkan Özellikler ve Detaylar
-kas guide bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Kaş'ın kalbi, iki yanı el işi seramik dükkânları ve kahvelerle dolu **Uzun Çarşı** ile tepesindeki MÖ 4. yüzyıl **Aslanlı Lahit** (*Kral Lahdi*) arasında atar. Merkezin hemen batısındaki Antiphellos tepesinde ise **26 oturma sıralı Hellenistik antik tiyatro** yükselir (**[antik kentler rehberi](/tr/articles/ancient-cities)**). Bilet gişesi veya turnikesi olmayan bu taş basamaklar **günün 24 saati ücretsizdir**; akşamüstü soğuk bir şeyler alıp karşınızdaki Meis Adası üzerinde güneşin batışını izlemek Kaş'ın değişmez ritüelidir.
 
-## Öne Çıkan Özellikler ve Detaylar
-kas guide bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+Gündüzleri ise Kaş Türkiye'nin tartışmasız **[dalış başkentidir](/tr/articles/diving)** (Canyon, Dimitri Batığı ve berrak resifler) ve Kekova Batık Kent tekne çıkışlarının merkezidir. Merkezdeki yokuşları ve bar sesini sevmeyen, sakin deniz manzaralı havuzlu villaları tercih edenler için ise karşıdaki **Çukurbağ Yarımadası** ideal konaklama adresidir.
 
-### Öne Çıkan Özellikler ve Detaylar
-kas guide bölgesini keşfetmek, Ege ve Akdeniz yaşam tarzını, doğasını ve kültürel zenginliklerini yakından tanımanızı sağlar. Yerel halkın geleneksel misafirperverliği sayesinde seyahatiniz boyunca kendinizi evinizde hissedeceksiniz.
+## Plaj Gerçeği: Kaş Merkezde Kum Yoktur
 
+Kaş'a ilk kez gelenlerin bilmesi gereken en net gerçek şudur: **Kaş merkezde kum plaj bulunmaz.** Denize dik kayaların üzerine kurulmuş ahşap platformlardan ve merdivenlerden doğrudan derin, cam gibi suya inilir:
 
----
+* **Küçük Çakıl ve Büyük Çakıl:** Merkeze yürüme mesafesindeki iki koy. Özellikle **Büyük Çakıl**'da kayaların altından denize sızan soğuk tatlı dağ kaynakları suyu serinletir.
+* **Limanağzı:** Karayolu bağlantısı olmayan korunaklı koya merkez limandan yarım saatte bir kalkan dolmuş teknelerle geçilir (gidiş-dönüş **~4–6 €** karşılığı TL).
+* **Kum ve Dalga Arayanlara:** 20 km batıdaki turkuaz **Kaputaş** veya 12–18 km uzaktaki uçsuz bucaksız **Patara** kumulları aradığınız sahili sunar (**[plaj rehberi](/tr/articles/beaches)**). Kaş merkezinden D400 üzerinde **[Myra / Demre](/tr/articles/myra-ancient-city)** ve **[Xanthos](/tr/articles/xanthos-ancient-city)** de yarım saatlik mesafelerdedir.
 
-### 🔗 İlgili Bağlantılar: Likya Kıyısı İçin Faydalı Rehberler
-- **[Önemli İletişim Bilgileri ve Nöbetçi Eczaneler](/tr/articles/useful-contacts)** — Acil numaralar ve 24 saat nöbetçi eczane bulucu.
-- **[Dalaman Havalimanı (DLM) Transfer Hizmetleri](/tr/services/transfers)** — [Fethiye](/tr/fethiye), [Marmaris](/tr/marmaris), [Kaş](/tr/kas) ve [Datça'](/tr/dacha)ya güvenilir özel transferler.
-- **[Araç, Scooter ve Bisiklet Kiralama](/tr/articles/vehicle-rental-cars-scooters-bikes)** — Gizli koyları ve dağ yollarını özgürce keşfedin.
-- **[Ana Tatil Beldeleri Rehberi: Fethiye, Marmaris, Kaş ve Datça](/tr/articles/main-resorts)** — Turkuaz Kıyısı'ndaki en iyi tatil yerlerini karşılaştırın.
+## Meis Adası (Kastellorizo) Feribotu ve 2026 Vize/Harç Kuralları
+
+Limandan yalnızca **6–7 kilometre** karşınızda Yunanistan'ın en doğudaki adası **Meis** görünür. Günlük katamaran/feribotlar sabah **09:30–10:00** arası kalkar, **~16:00**'da geri döner; deniz yolculuğu sadece **20–30 dakika** sürer. Güncel biletler tek yön **~25 €**, günübirlik gidiş-dönüş **~30–35 €**, açık tarihli **~37,5–40 €** bandındadır (limanda TR **~3 €** + GR **~5 €** liman çıkış vergisi eklenebilir; pasaport sırası için kalkıştan **1 saat önce** limanda olun).
+
+* **Yeşil (Hususi) Pasaport:** T.C. Yeşil Pasaport sahipleri Meis'e **vizesiz** geçer.
+* **Bordo Pasaport ve Kapıda Vize (2026):** Geçerli çok girişli Schengen vizeniz yoksa Yunanistan'ın Meis'i de kapsayan **Kapıda Vize (*Visa on Arrival*)** programı 2026'da sürmektedir. Resmi vize harcı **60 €**, acente başvuru ve dosya işlemiyle toplam ödeme **~80–100 €** (nakit Euro) seviyesindedir; evrakları seferden **birkaç gün önce** Kaş'taki feribot acentesine teslim etmeniz şarttır. *(Not: T.C. vatandaşı olmayan yabancı pasaportlu misafirlerin geçerli çok girişli Schengen vizesi bulunmalıdır.)*
+* **Yurt Dışı Çıkış Harcı (2026):** Deniz kapısından çıkış yapan her T.C. vatandaşı **1.250 ₺** tutarındaki güncel Yurt Dışı Çıkış Harcı'nı GİB/Dijital Vergi Dairesi veya banka uygulamalarından önceden yatırmalıdır (**[pratik tüyolar](/tr/articles/useful-tips)**).
+
+**Merdiven ve Festival Uyarısı:** Her Ağustos'ta düzenlenen **[Kaş Caz Festivali](/tr/articles/events-and-festivals-calendar)** kasabaya ayrı bir enerji katar. Merkez sokakları çok dik taş merdivenlerle dolu olduğundan pusetli aileler ve yürümekte zorlanan misafirler için Çukurbağ Yarımadası'nda konaklamak çok daha rahattır.
+
+<!-- SOURCE [19.11.2026]: T.C. GİB 2026 Yurt Dışı Çıkış Harcı tarifesi, Yunanistan Kapıda Vize uygulaması ve Kaş–Meis feribot sefer düzeni (URL: https://www.kas.bel.tr/) -->

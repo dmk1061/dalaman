@@ -1,55 +1,52 @@
 ---
-title: "Inseln, Buchten und Lagunen: Die verborgenen Schätze der Lykischen Küste"
+title: "Inseln, Buchten & Golfe um Dalaman: Fethiye, Göcek, Gökova & Kekova"
 slug: "islands-bays"
-description: "Erkunden Sie die schönsten Buchten und Inseln der Region Dalaman, Göcek und Fethiye: Versunkene Ruinen, einsame Strände und die besten Ankerplätze für Yachtausflüge."
+description: "Die schönsten Ankerbuchten auf dem Wasserweg: 12 Inseln von Göcek, Kleopatra-Bäder, Bedri Rahmi, Hisarönü und die versunkene Stadt Kekova inkl. Preise 2026."
 ---
 
-> [!NOTE]
-> **💡 Inflationsschutz ([Gültig für 2026]):** Die Preise in Türkischen Lira (TL) unterliegen in der Türkei regelmäßigen wirtschaftlichen Schwankungen. Die unten genannten Beträge dienen als **ungefähre Richtwerte**. Für genaue Kalkulationen empfehlen wir, die Preise vor Ort oder in Euro (EUR) zu prüfen.
+# Inseln, Buchten und Golfe: Die Highlights vom Wasser aus
 
-# Inseln, Buchten und Lagunen der Region Dalaman
+Die beeindruckendsten Ecken zwischen **[Datça](/de/dacha)** und **[Kaş](/de/kas)** erreichen Sie auf keiner Straße. Während sich die Küstenstraße D400 hinter bewaldeten Bergzügen windet, öffnet sich draußen ein geschütztes Labyrinth aus Fjordarmen, stillen Ankerbuchten und unbewohnten Inseln, auf denen selbst im August nur das Plätschern an der Bordwand zu hören ist.
 
-**Die Küste im Bereich von [Dalaman](/de/dalaman), [Göcek](/de/gocek) und [Fethiye](/de/fethiye) ist weltberühmt für ihre spektakulär gegliederte Küstenlinie. Tausende idyllische Buchten, malerische Lagunen und unbewohnte Inseln machen diese Region zu einem wahren Paradies für Segler, Yachtbegeisterte und Naturliebhaber.**
+Auch ohne eigenen Segelschein verändern ein oder zwei Tage auf dem Wasser im Golf von Fethiye–Göcek, vor Bozburun oder bei Kekova den gesamten Blick auf Südwestanatolien nachhaltiger als jede Busfahrt.
 
----
+<!-- SOURCE [19.11.2026]: Topografie des Golfs von Fethiye-Göcek, Felsbild von Bedri Rahmi 1974 (URL: https://www.kulturenvanteri.com, https://www.goturkiye.com) sowie Richtwerte der Bootstouren Saison 2026 (URL: https://www.fethiyetours.com) -->
 
-## Der Golf von Fethiye und die 12 Inseln
+## Der Golf von Fethiye und die „12 Inseln“ von Göcek
 
-Der Golf von Fethiye, in dem sowohl die Stadt [Fethiye](/de/fethiye) als auch das exklusive Yacht-Zentrum [Göcek](/de/gocek) liegen, ist ein einzigartiges Naturreservat. Der Golf ist übersät mit zahlreichen großen und kleinen Inseln, die bei Reisenden oft unter dem Sammelbegriff **"Die 12 Inseln von Göcek"** bekannt sind. Eine Bootstour zu diesen Inseln gehört zum Pflichtprogramm jedes Urlaubs.
+Der populäre Name **„12 Inseln“** meint ein weitläufiges Geflecht aus kleinen Eilanden und der tief zerklüfteten Festlandhalbinsel Kapıdağ zwischen **[Fethiye](/de/fethiye)** und **[Göcek](/de/gocek)**. Weil Berge und Inselkette das offene Meer abschirmen, herrscht hier fast durchgehend ruhiges Wasser — ideal auch für Gäste mit empfindlichem Magen.
 
-### Wichtigste Inseln und Ankerplätze im Golf:
-- **Tersane-Insel (Tersane Adası):** Die größte Insel im Golf von Fethiye. In ihrer tief eingeschnittenen, geschützten Bucht befinden sich die Ruinen einer historischen griechischen Siedlung und einer alten Werft ("Tersane"), die der Insel ihren Namen gab.
-- **Yassıca-Inseln (Yassıca Adaları):** Eine Gruppe aus mehreren flachen, malerischen Inseln, die durch natürliche Sandbänke miteinander verbunden sind. Ein äußerst beliebter Ort zum Schwimmen, Schnorcheln und Entspannen im flachen Wasser.
-- **Kleopatra-Bucht (Cleopatra Hamamı Koyu):** Diese berühmte Bucht liegt an der Insel Domuz. Im kristallklaren Wasser direkt am Ufer sind die antiken Ruinen römischer Thermalbäder zu sehen, in denen laut Legende einst Königin Kleopatra badete.
-- **Gemiler-Insel (St. Nikolaus Insel):** Etwas weiter südlich, direkt gegenüber den Stränden von Ölüdeniz gelegen. Die Insel ist ein echtes Freilichtmuseum: Sie ist vollständig bedeckt mit gut erhaltenen Ruinen byzantinischer Kirchen, Kapellen und Wohngebäuden aus dem 5. bis 11. Jahrhundert. Von der Kuppe der Insel genießt man einen unvergesslichen Sonnenuntergang über dem Mittelmeer.
+* **Hamam-Bucht (Kleopatra-Bäder / *Kleopatra Hamamı Koyu*):** Eine der bekanntesten Buchten der Route liegt tief eingeschnitten an der **Festlandhalbinsel Kapıdağ** (gegenüber der Insel Tersane, nicht auf Domuz Adası). Unmittelbar am Ufer stehen halb versunkene Steinbögen im Wasser — tatsächlich die Überreste eines **byzantinischen Klosters**, die Kapitäne liebevoll in „Bäder der Kleopatra“ umtauften.
+* **Tersane-Insel (*Tersane Adası*):** Größte Insel im Golf. In der geschützten Tiefwasserbucht ruhen Mauern alter osmanischer Schiffswerften (*Tersane* bedeutet Werft) sowie Steinhäuser einer 1923 verlassenen griechischen Siedlung.
+* **Yassıca-Inseln (*Yassıca Adaları*):** Gruppe flacher Kieferninselchen mit einer seichten Sandzunge und warmer Lagune, besonders beliebt bei Familien mit kleineren Kindern.
+* **Bedri-Rahmi-Bucht (*Taşyaka*):** Neben Süßwasserquelle und lykischen Hanggräbern trägt die Bucht eine besondere Künstlersignatur: **1974** malte der berühmte türkische Maler und Dichter Bedri Rahmi Eyüboğlu während einer *Blauen Reise* einen stilisierten Fisch auf einen Felsen am Ufer — bei näherem Hinsehen erkennt man in seinen Linien mehrere Tiere und ein Segelboot.
+* **Festlandbuchten und [Nikolaus-Insel (Gemiler)](/de/articles/st-nicholas-island):** Am Südrand der Kapıdağ-Halbinsel ducken sich die Kiefern-Ankerplätze Göbün, Boynuzbükü, **[Sarsala](/de/articles/sarsala-bay)** und **[Kille](/de/articles/kille-bay)**. Östlich vor Ölüdeniz liegt zudem die **Insel Gemiler** mit frühchristlichen Basiliken aus dem 4. bis 6. Jahrhundert und grandiosem Gipfelblick zum Sonnenuntergang.
 
----
+## Golfe von Gökova und Hisarönü (Marmaris, Datça & Bozburun)
 
-## Die Halbinsel Datça und der Hisarönü-Golf
+Westlich von **[Marmaris](/de/marmaris)** öffnet sich der Horizont, der Wind frischt nachmittags auf, und die Natur wirkt rauer:
 
-Westlich von [Marmaris](/de/marmaris) erstreckt sich die wildromantische Halbinsel [Datça](/de/dacha), die das Ägäische Meer vom Mittelmeer trennt. Der Hisarönü-Golf südlich von Datça bietet ruhige, kristallklare Gewässer und abgeriegelte Pinienbuchten, die selbst in der Hochsaison angenehm friedlich bleiben.
+* **Insel Sedir (Golf von Gökova):** Antike Ruinen der karischen Stadt Kedrai und der streng geschützte Kleopatra-Strand mit einzigartigem Oolith-Sand.
+* **Dişlice-Insel (Golf von Hisarönü):** Kleine Vulkaninsel mit gezackten Felstürmen, ein spannendes Ziel für Kajakfahrer und Taucher.
+* **Kameriye-Insel:** Unbewohnte Insel vor Bozburun mit alter griechischer Kapelle, deren Vorplatz aus kunstvollem Schwarz-Weiß-Kieselmosaik besteht.
+* **Die [Bucht von Ekincik](/de/articles/ekincik-bay) und Bozburun:** In der tiefen Kiefernbucht Ekincik ankern große Yachten auf dem Weg zwischen Göcek und Marmaris, um Passagiere in flachbodige Flussboote Richtung Kaunos und Dalyan umsteigen zu lassen. Weiter südlich bieten **Selimiye** und **Orhaniye** geschützte Übernachtungsbuchten direkt vor kleinen Restaurants.
 
-### Highlights der Region Datça & Marmaris:
-- **Bencik-Bucht:** Ein fjordartiger Einschnitt an der engsten Stelle der Datça-Halbinsel, umgeben von dichten Pinienwäldern – ideal zum Ankern in absolut stiller Natur.
-- **Çiftlik-Bucht:** Bekannt für ihren feinen, hellen Sandstrand und exzellente Fischrestaurants direkt am Wasser.
-- **Knidos (Kap Tekir):** An der äußersten Spitze der Halbinsel Datça treffen Ägäis und Mittelmeer aufeinander. Hier liegen die faszinierenden Ruinen der antiken Hafen- und Wissenschaftsstadt Knidos.
+## Der Osten: Archipel von Kekova
 
----
+Zwischen **[Kaş](/de/kas)** und Demre schirmt die schmale Insel **Kekova** eine stille Wasserstraße ab. Entlang ihres Nordufers zeichnen sich unter der spiegelglatten Oberfläche die versunkenen Mauern, Treppen und Hafenkaianlagen der lykischen Stadt **Dolichiste** ab, die ein schweres Erdbeben im 2. Jahrhundert n. Chr. absinken ließ. Das Ankern und Schwimmen direkt über den Ruinen ist aus Denkmalschutzgründen streng verboten; direkt gegenüber im autofreien Burgdorf **Kaleköy (Simena)** sowie in der nahen **Aquarium-Bucht** schnorcheln Sie dafür frei um halb im Wasser stehende antike Sarkophage herum.
 
-## Kekova und die versunkene Stadt bei Kaş
+## Welcher Bootstyp passt zu Ihnen? Preise 2026
 
-Weiter östlich, in der Nähe der böhmischen Taucherstadt [Kaş](/de/kas), befindet sich die Insel Kekova. Ein verheerendes Erdbeben in der Antike ließ Teile der antiken Stadt Dolichiste im Meer versinken. Heute gleiten Ausflugsboote und Kajaks über die Reste versunkener Treppen, Mauern und Amphoren direkt unter der glasklaren Wasseroberfläche.
+1. **Tagestour in der Gruppe (~25–35 € pro Person):** Die preiswerteste Option. Ausflugsboote legen gegen 10:00–10:30 Uhr in Fethiye, Göcek, Ölüdeniz, Marmaris oder Kaş ab, steuern vier bis fünf Badebuchten an und servieren ein Bord-Mittagessen (Getränke meist extra).
+2. **Kleines Holzboot oder Privat-Charter:** Große Doppeldecker-Schiffe in Ölüdeniz oder Marmaris schallen teils mit lauter Musik und Schaumpartys über das Wasser. Wer Ruhe bevorzugt, sucht am Kai von Göcek oder Kaş nach kleineren Holzbooten (10–14 Gäste) oder mietet für 6–8 Personen ein privates Boot für den Tag (**ca. 250–450 €** je nach Saison und Schiff) — oft kaum teurer als Einzelausflüge, aber zeitlich völlig flexibel.
+3. **Seekajak:** Die stillste Art, ab Üçağız nahe an die versunkenen Mauern von Kekova oder entlang der Steilküste von Kaş und Datça zu paddeln.
 
----
-
-## Praktische Tipps für Boots- und Inseltouren
-
-1. **Tägliche Bootsausflüge (Günlük Tekne Turu):** Von den Häfen in Fethiye, Göcek, Marmaris und Kaş starten täglich Holzschiffe (Gulets) zu den "12-Inseln-Touren". Preise liegen meist zwischen 35 und 60 EUR pro Person inkl. Mittagessen.
-2. **Privater Gulet- oder Yachtcharter:** Für Familien und Gruppen empfiehlt sich das Mieten eines privaten Bootes (ab ca. 300–600 EUR/Tag), um die Fahrroute individuell festzulegen und die Buchten vor den großen Ausflugsschiffen zu erreichen.
-3. **Wasserschuhe & Schnorchelausrüstung:** Da viele historische Buchten felsigen Untergrund oder antike Steine aufweisen, sind Badeschuhe sowie eine Tauchmaske unerlässlich.
+> **Insider-Tipp vor dem Einstieg:** Klären Sie bei Hafen-Touren vorab genau zwei Dinge: Erstens, ob es ein ruhiges Boot ohne Animation ist (achten Sie auf Hinweise wie *„No Music / Chill Boat“*), und zweitens, in welchem Hafen genau Sie abends wieder anlegen. Und packen Sie selbst im Hochjuli einen dünnen Windbreaker ein — auf der späten Rückfahrt gegen den Nachmittagswind wird es im nassen Badezeug schnell kühl.
 
 ---
 
-## Empfohlene Artikel & verwandte Leitfäden
-
-Für die weitere Urlaubsplanung entdecken Sie unsere Leitfäden für [Göcek](/de/gocek), [Marmaris](/de/marmaris), [Fethiye](/de/fethiye) und [Kaş](/de/kas) sowie unseren Artikel über [Yachting und Bootsausflüge](/de/articles/yachting).
+### Siehe auch
+- **[Yachting und Blaue Reisen](/de/articles/yachting)** — Marinas, Gulet-Routen und mehrtägige Törns.
+- **[Sarsala-Bucht bei Dalaman](/de/articles/sarsala-bay)** — Anfahrt mit dem Auto zu einer Top-Ankerbucht.
+- **[Kille-Bucht bei Göcek](/de/articles/kille-bay)** — schattiges Naturufer unweit der D400.
+- **[Tauchen und Schnorcheln](/de/articles/diving)** — Unterwasserhöhlen, Wracks und Schildkröten vor Kaş.
