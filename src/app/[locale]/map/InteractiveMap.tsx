@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaChevronRight } from 'react-icons/fa';
@@ -87,14 +87,39 @@ const tooltipPositionClasses: Record<NonNullable<Pin['tooltipAlign']>, string> =
 
 const InteractiveMap = ({ locale = 'en' }: { locale?: string }) => {
     const [activeSlug, setActiveSlug] = useState<string | null>(null);
+    const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
     const activeLocale = locale || 'en';
     const activePins = pinTranslations[activeLocale] || pinTranslations['en'];
     const t = mapTranslations[activeLocale] || mapTranslations['en'];
 
+    const cancelClose = () => {
+        if (closeTimerRef.current) {
+            clearTimeout(closeTimerRef.current);
+            closeTimerRef.current = null;
+        }
+    };
+
+    const handleEnter = (slug: string) => {
+        cancelClose();
+        setActiveSlug(slug);
+    };
+
+    const handleLeave = (slug: string) => {
+        cancelClose();
+        closeTimerRef.current = setTimeout(() => {
+            setActiveSlug((prev) => (prev === slug ? null : prev));
+        }, 220);
+    };
+
+    useEffect(() => () => cancelClose(), []);
+
     return (
         <div
             className="w-full overflow-x-auto rounded-[2rem] bg-[#142c52] border border-slate-200/80"
-            onClick={() => setActiveSlug(null)}
+            onClick={() => {
+                cancelClose();
+                setActiveSlug(null);
+            }}
         >
             <div className="relative w-full min-w-[680px] aspect-[1376/768] overflow-hidden">
                 {/* Base Diorama Map Image */}
@@ -119,39 +144,47 @@ const InteractiveMap = ({ locale = 'en' }: { locale?: string }) => {
                     const alignClass = tooltipPositionClasses[pin.tooltipAlign || 'center'];
                     const labelPositionClass =
                         pin.labelPos === 'bottom'
-                            ? 'top-full mt-1.5'
-                            : 'bottom-full mb-1.5';
+                            ? 'top-full'
+                            : 'bottom-full';
+                    const tooltipBridgePadding =
+                        pin.labelPos === 'bottom'
+                            ? 'pb-3'
+                            : 'pb-6';
 
                     return (
                         <div
                             key={pin.slug}
-                            className={`absolute group ${isActive ? 'z-40' : 'z-20 hover:z-40'}`}
+                            className={`absolute -translate-x-1/2 -translate-y-1/2 ${isActive ? 'z-40' : 'z-20'}`}
                             style={{ top: pin.top, left: pin.left }}
-                            onMouseEnter={() => setActiveSlug(pin.slug)}
-                            onMouseLeave={() => setActiveSlug((prev) => (prev === pin.slug ? null : prev))}
+                            onMouseEnter={() => handleEnter(pin.slug)}
+                            onMouseLeave={() => handleLeave(pin.slug)}
                             onClick={(e) => e.stopPropagation()}
                         >
-                            {/* Hover / Tap tooltip card */}
+                            {/* Hover / Tap tooltip card with continuous padding hover-bridge */}
                             <div
-                                className={`absolute bottom-full ${alignClass} mb-7 bg-white/95 backdrop-blur-md text-slate-800 p-3.5 rounded-2xl shadow-xl border border-slate-100 w-52 transition-all duration-200 z-30 ${
+                                onMouseEnter={() => handleEnter(pin.slug)}
+                                onMouseLeave={() => handleLeave(pin.slug)}
+                                className={`absolute bottom-full ${alignClass} ${tooltipBridgePadding} z-30 transition-all duration-200 ${
                                     isActive
                                         ? 'opacity-100 translate-y-0 visible pointer-events-auto'
-                                        : 'opacity-0 translate-y-2 invisible pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible group-hover:pointer-events-auto'
+                                        : 'opacity-0 translate-y-2 invisible pointer-events-none'
                                 }`}
                             >
-                                <h4 className="font-black text-xs uppercase tracking-wider text-cyan-600 mb-1">
-                                    {cityName}
-                                </h4>
-                                <p className="text-[11px] text-slate-500 font-medium mb-3 leading-relaxed">
-                                    {cityDesc}
-                                </p>
-                                <Link
-                                    href={`/${activeLocale}/${pin.slug}`}
-                                    className="flex items-center justify-between text-[10px] font-black uppercase tracking-wider text-slate-700 bg-slate-50 px-3 py-1.5 rounded-lg hover:bg-cyan-600 hover:text-white transition-all"
-                                >
-                                    <span>{t.explore}</span>
-                                    <FaChevronRight size={8} />
-                                </Link>
+                                <div className="bg-white/95 backdrop-blur-md text-slate-800 p-3 rounded-2xl shadow-xl border border-slate-100 w-52">
+                                    <h4 className="font-black text-xs uppercase tracking-wider text-cyan-600 mb-1">
+                                        {cityName}
+                                    </h4>
+                                    <p className="text-[11px] text-slate-500 font-medium mb-3 leading-relaxed">
+                                        {cityDesc}
+                                    </p>
+                                    <Link
+                                        href={`/${activeLocale}/${pin.slug}`}
+                                        className="flex items-center justify-between text-[10px] font-black uppercase tracking-wider text-slate-700 bg-slate-50 px-3 py-1.5 rounded-lg hover:bg-cyan-600 hover:text-white transition-all"
+                                    >
+                                        <span>{t.explore}</span>
+                                        <FaChevronRight size={8} />
+                                    </Link>
+                                </div>
                             </div>
 
                             {/* Marker Pin */}
@@ -159,24 +192,27 @@ const InteractiveMap = ({ locale = 'en' }: { locale?: string }) => {
                                 type="button"
                                 aria-label={cityName}
                                 aria-expanded={isActive}
-                                onClick={() => setActiveSlug((prev) => (prev === pin.slug ? null : pin.slug))}
-                                className="relative flex items-center justify-center -translate-x-1/2 -translate-y-1/2 cursor-pointer focus:outline-none"
+                                onClick={() => {
+                                    cancelClose();
+                                    setActiveSlug((prev) => (prev === pin.slug ? null : pin.slug));
+                                }}
+                                className="relative flex items-center justify-center p-1.5 cursor-pointer focus:outline-none"
                             >
                                 {/* Soft ping halo */}
-                                <span className="animate-ping absolute inline-flex h-6 w-6 rounded-full bg-cyan-400 opacity-50" />
+                                <span className="animate-ping absolute inline-flex h-6 w-6 rounded-full bg-cyan-400 opacity-50 pointer-events-none" />
 
                                 {/* Luminous dot */}
                                 <span
                                     className={`relative inline-flex rounded-full h-3.5 w-3.5 border-2 border-white shadow-md transition-transform duration-200 ${
                                         isActive
                                             ? 'bg-cyan-400 scale-125'
-                                            : 'bg-cyan-500 group-hover:bg-cyan-400 group-hover:scale-125'
+                                            : 'bg-cyan-500 hover:bg-cyan-400 hover:scale-125'
                                     }`}
                                 />
 
-                                {/* Editorial glass label */}
+                                {/* Editorial glass label (interactive so cursor stays inside marker while moving to card) */}
                                 <span
-                                    className={`absolute left-1/2 -translate-x-1/2 ${labelPositionClass} bg-slate-900/85 backdrop-blur-md text-white border border-cyan-300/40 px-2 py-0.5 rounded-md text-[10px] font-bold tracking-wider whitespace-nowrap pointer-events-none select-none shadow-md transition-colors ${
+                                    className={`absolute left-1/2 -translate-x-1/2 ${labelPositionClass} bg-slate-900/85 backdrop-blur-md text-white border border-cyan-300/40 px-2 py-0.5 rounded-md text-[10px] font-bold tracking-wider whitespace-nowrap select-none shadow-md transition-colors ${
                                         isActive ? 'border-cyan-300 bg-slate-900/95' : ''
                                     }`}
                                 >
