@@ -59,12 +59,16 @@ export default function VisitorAnalyticsWidget({
         }
         const sessionId = visitorIdRef.current;
 
+        const currentPath = pathname || '/';
+        const shouldCountView = lastTrackedPathRef.current !== currentPath;
+        lastTrackedPathRef.current = currentPath;
+
         const sendBeat = async (registerView: boolean) => {
             try {
                 const res = await fetch('/api/analytics', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ sessionId, registerView }),
+                    body: JSON.stringify({ sessionId, registerView, pathname: currentPath }),
                     cache: 'no-store',
                 });
                 if (res.ok) {
@@ -81,10 +85,6 @@ export default function VisitorAnalyticsWidget({
                 // Silent fail on network abort
             }
         };
-
-        const currentPath = pathname || '/';
-        const shouldCountView = lastTrackedPathRef.current !== currentPath;
-        lastTrackedPathRef.current = currentPath;
 
         sendBeat(shouldCountView);
 

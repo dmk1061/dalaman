@@ -12,7 +12,7 @@ import { getKaleidoscopeLocations } from '@/lib/kaleidoscope';
 const homeMetaByLocale: Record<string, { title: string; description: string }> = {
     ru: {
         title: 'Dalaman.info — Путеводитель по Даламану и курортам побережья (Мармарис, Фетхие, Дальян, Датча, Каш)',
-        description: 'Ваш экспертный гид по Даламану и курортам двух морей Турции: Даламан, Сарыгерме, Дальян, Кёйджегиз, Мармарис, Датча, Гёджек, Фетхие, Олюдениз и Каш. Пляжи, маршруты, трансферы и советы.',
+        description: 'Ваш экспертный гид по Даламану и курортам юго-запада Турции: Даламан, Сарыгерме, Дальян, Кёйджегиз, Мармарис, Датча, Гёджек, Фетхие, Олюдениз и Каш. Пляжи, маршруты, трансферы и советы.',
     },
     en: {
         title: 'Dalaman.info — Turquoise Coast Travel Guide (Dalaman, Fethiye, Marmaris,Datça, Kaş)',

@@ -148,31 +148,34 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
 
   return (
     <div className="space-y-6">
-      {/* Transport & Airport Logistics Panel */}
+      {/* 1. Top Priority: Dalaman Gateway Spotlight Block */}
       <div className="bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-200/70">
         <div className="bg-cyan-600 text-white px-5 py-3.5">
-          <h3 className="font-bold text-xs uppercase tracking-wider">{dict.left_sidebar.transport}</h3>
+          <h3 className="font-bold text-xs uppercase tracking-wider">{gatewayTitle}</h3>
         </div>
         <div className="p-5">
-          <ul className="space-y-3">
-            {transportLinks.map((link) => (
-              <li key={link.title}>
-                <Link
-                  href={localize(link.href)}
-                  className="flex items-center space-x-3 text-slate-700 hover:text-cyan-600 transition-colors font-medium text-sm group"
-                >
-                  <span className="w-7 h-7 rounded-lg bg-cyan-50 text-cyan-600 flex items-center justify-center flex-shrink-0 group-hover:bg-cyan-600 group-hover:text-white transition-colors text-xs">
-                    {link.icon}
-                  </span>
-                  <span className="leading-snug">{link.title}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <Link href={localize('/dalaman')} className="block relative h-40 mb-4 group/ad overflow-hidden rounded-xl">
+            <Image
+              src="/api/images/locations/dalaman/beach/Sarsala/sarsala.jpg"
+              fill
+              alt="Sarsala Bay Dalaman"
+              className="object-cover group-hover/ad:scale-105 transition-transform duration-500"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-900/30 to-transparent flex flex-col justify-end p-3.5">
+              <p className="text-white text-xs font-bold leading-snug mb-0.5">{gatewayPlace}</p>
+              <p className="text-cyan-200 text-[11px] font-medium">{gatewaySub}</p>
+            </div>
+          </Link>
+          <Link
+            href={localize('/dalaman')}
+            className="w-full block text-center bg-cyan-600 text-white font-bold text-xs uppercase tracking-wider py-2.5 rounded-xl hover:bg-cyan-700 transition-all shadow-sm"
+          >
+            {gatewayBtn}
+          </Link>
         </div>
       </div>
 
-      {/* Interactive Guides & Navigators Panel */}
+      {/* 2. Interactive Guides & Navigators Panel */}
       <div className="bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-200/70">
         <div className="bg-cyan-600 text-white px-5 py-3.5">
           <h3 className="font-bold text-xs uppercase tracking-wider">
@@ -206,30 +209,27 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
         </div>
       </div>
 
-      {/* Dalaman Gateway Spotlight Block (Authentic Photo of Sarsala Bay) */}
+      {/* 3. Transport & Airport Logistics Panel (Moved below Gateway & Navigator) */}
       <div className="bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-200/70">
         <div className="bg-cyan-600 text-white px-5 py-3.5">
-          <h3 className="font-bold text-xs uppercase tracking-wider">{gatewayTitle}</h3>
+          <h3 className="font-bold text-xs uppercase tracking-wider">{dict.left_sidebar.transport}</h3>
         </div>
         <div className="p-5">
-          <Link href={localize('/dalaman')} className="block relative h-40 mb-4 group/ad overflow-hidden rounded-xl">
-            <Image
-              src="/api/images/locations/dalaman/beach/Sarsala/sarsala.jpg"
-              fill
-              alt="Sarsala Bay Dalaman"
-              className="object-cover group-hover/ad:scale-105 transition-transform duration-500"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-900/30 to-transparent flex flex-col justify-end p-3.5">
-              <p className="text-white text-xs font-bold leading-snug mb-0.5">{gatewayPlace}</p>
-              <p className="text-cyan-200 text-[11px] font-medium">{gatewaySub}</p>
-            </div>
-          </Link>
-          <Link
-            href={localize('/dalaman')}
-            className="w-full block text-center bg-cyan-600 text-white font-bold text-xs uppercase tracking-wider py-2.5 rounded-xl hover:bg-cyan-700 transition-all shadow-sm"
-          >
-            {gatewayBtn}
-          </Link>
+          <ul className="space-y-3">
+            {transportLinks.map((link) => (
+              <li key={link.title}>
+                <Link
+                  href={localize(link.href)}
+                  className="flex items-center space-x-3 text-slate-700 hover:text-cyan-600 transition-colors font-medium text-sm group"
+                >
+                  <span className="w-7 h-7 rounded-lg bg-cyan-50 text-cyan-600 flex items-center justify-center flex-shrink-0 group-hover:bg-cyan-600 group-hover:text-white transition-colors text-xs">
+                    {link.icon}
+                  </span>
+                  <span className="leading-snug">{link.title}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>

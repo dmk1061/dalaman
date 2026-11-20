@@ -269,8 +269,8 @@ const MainContent = ({ locale = 'ru', locationsPool = [] }: MainContentProps) =>
     },
   ];
 
-  // Regional Pulse: Local News, Seasonal Updates & Coastal Events (Replaces artificial "Curated Collections")
-  const regionalPulseItems = [
+  // Regional Pulse: Initial items hydrated instantly, then dynamically enriched by /api/regional-pulse live RSS parser
+  const initialPulseItems = [
     {
       category: locale === 'ru' ? 'Аэропорт DLM и логистика' : locale === 'de' ? 'Flughafen DLM' : locale === 'tr' ? 'DLM Havalimanı' : 'DLM Airport & Shuttles',
       dateLabel: locale === 'ru' ? 'Актуально • Сезон 2026' : 'Live • 2026 Season',
@@ -288,6 +288,7 @@ const MainContent = ({ locale = 'ru', locationsPool = [] }: MainContentProps) =>
           : 'Direct bus connections from DLM Domestic ramp to Fethiye, Marmaris, and Datça Harbor.',
       href: localize('/articles/airport-dalaman'),
       image: '/api/images/locations/dalaman/beach/Kayacik/kayacik.jpg',
+      isExternal: false,
     },
     {
       category: locale === 'ru' ? 'Экология и пляжи' : locale === 'de' ? 'Natur & Strände' : locale === 'tr' ? 'Doğa ve Plajlar' : 'Nature & Beaches',
@@ -306,6 +307,7 @@ const MainContent = ({ locale = 'ru', locationsPool = [] }: MainContentProps) =>
           : 'Visiting hours, DEKAMER rescue center open tours, and conservation rules along the coast.',
       href: localize('/articles/iztuzu-beach'),
       image: '/api/images/locations/dalyan/beach/Istuzu/istuzu.jpg',
+      isExternal: false,
     },
     {
       category: locale === 'ru' ? 'События и фестивали' : locale === 'de' ? 'Events & Festivals' : locale === 'tr' ? 'Festival ve Etkinlikler' : 'Events & Regattas',
@@ -324,6 +326,7 @@ const MainContent = ({ locale = 'ru', locationsPool = [] }: MainContentProps) =>
           : 'Key cultural festivals, culinary fairs, open-water swims, and international yacht regattas month by month.',
       href: localize('/articles/events-and-festivals-calendar'),
       image: '/api/images/locations/gocek/beach/tersane/tersane.jpg',
+      isExternal: false,
     },
     {
       category: locale === 'ru' ? 'Горы и маршруты' : locale === 'de' ? 'Berge & Routen' : locale === 'tr' ? 'Doğa ve Rotalar' : 'Trails & Mountains',
@@ -342,8 +345,26 @@ const MainContent = ({ locale = 'ru', locationsPool = [] }: MainContentProps) =>
           : 'Lift operating hours, 1700m–1969m viewpoints, alpine dining, and tandem paragliding takeoffs.',
       href: localize('/articles/babadag'),
       image: '/api/images/locations/fethiye/beach/kelebekler/kelebekler.jpg',
+      isExternal: false,
     },
   ];
+
+  const [regionalPulseItems, setRegionalPulseItems] = useState(initialPulseItems);
+
+  useEffect(() => {
+    let active = true;
+    fetch(`/api/regional-pulse?locale=${encodeURIComponent(locale)}`)
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (active && Array.isArray(data?.items) && data.items.length > 0) {
+          setRegionalPulseItems(data.items);
+        }
+      })
+      .catch(() => {});
+    return () => {
+      active = false;
+    };
+  }, [locale]);
 
   const sliderSettings = {
     dots: false,
