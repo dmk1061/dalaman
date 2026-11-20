@@ -12,6 +12,7 @@ export const SITE_CONFIG = {
     sputnik8PartnerId: process.env.NEXT_PUBLIC_SPUTNIK8_PARTNER_ID || '',
     tripsterPartnerId: process.env.NEXT_PUBLIC_TRIPSTER_PARTNER_ID || '',
     getyourguidePartnerId: process.env.NEXT_PUBLIC_GYG_PARTNER_ID || '',
+    travelpayoutsDriveScript: process.env.NEXT_PUBLIC_TP_DRIVE_SCRIPT || 'https://emrldtp.com/NjA0MTM1.js?t=604135',
   },
   analytics: {
     ga4MeasurementId: process.env.NEXT_PUBLIC_GA4_ID || '',
