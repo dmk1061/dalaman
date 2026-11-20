@@ -10,8 +10,8 @@ import { buildPageMetadata } from '@/lib/seo';
 
 const homeMetaByLocale: Record<string, { title: string; description: string }> = {
     ru: {
-        title: 'Dalaman.info — Путеводитель от Датчи до Каша',
-        description: 'Ваш экспертный гид по Бирюзовому побережью Турции: Датча, Мармарис, Кёйджегиз, Дальян, Даламан, Гёджек, Фетхие и Каш. Пляжи, маршруты, трансферы и советы.',
+        title: 'Dalaman.info — Путеводитель по Даламану и курортам побережья (Мармарис, Фетхие, Дальян, Датча, Каш)',
+        description: 'Ваш экспертный гид по Даламану и курортам двух морей Турции: Даламан, Сарыгерме, Дальян, Кёйджегиз, Мармарис, Датча, Гёджек, Фетхие, Олюдениз и Каш. Пляжи, маршруты, трансферы и советы.',
     },
     en: {
         title: 'Dalaman.info — Turquoise Coast Travel Guide (Datça to Kaş)',
@@ -48,9 +48,9 @@ export default function Home({ params }: { params: { locale: string } }) {
             <Hero locale={locale} />
 
             <div className="portal-container flex-grow py-4 lg:py-6">
-                <div className="flex flex-col lg:flex-row gap-8 items-start">
+                <div className="flex flex-col lg:flex-row gap-6 items-start">
                     {/* Left Sidebar (Desktop) */}
-                    <aside className="w-[260px] flex-shrink-0 hidden lg:block">
+                    <aside className="w-[275px] flex-shrink-0 hidden lg:block">
                         <LeftSidebar locale={locale} />
                     </aside>
 
@@ -60,7 +60,7 @@ export default function Home({ params }: { params: { locale: string } }) {
                     </main>
 
                     {/* Right Sidebar (Wide Desktop) */}
-                    <aside className="w-[300px] flex-shrink-0 hidden xl:block">
+                    <aside className="w-[310px] flex-shrink-0 hidden xl:block">
                         <Sidebar locale={locale} />
                     </aside>
                 </div>

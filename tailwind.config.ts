@@ -11,19 +11,19 @@ const config: Config = {
       container: {
         center: true,
         padding: {
-          DEFAULT: '1rem',
-          sm: '1.5rem',
-          md: '1.5rem',
-          lg: '2rem',
-          xl: '2rem',
-          '2xl': '2rem',
+          DEFAULT: '0.75rem',
+          sm: '1.25rem',
+          md: '1.25rem',
+          lg: '1.5rem',
+          xl: '1.5rem',
+          '2xl': '1.5rem',
         },
         screens: {
           sm: '640px',
           md: '768px',
           lg: '1024px',
-          xl: '1280px',
-          '2xl': '1440px',
+          xl: '1440px',
+          '2xl': '1740px',
         },
       },
       colors: {

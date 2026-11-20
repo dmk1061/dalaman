@@ -46,8 +46,8 @@ export default function TrekkingRoutesPage({ params: { locale } }: { params: { l
             <Header />
 
             {/* Sub-Header Breadcrumb & Navigation */}
-            <div className="bg-slate-900 text-white pt-24 pb-12 px-4 border-b border-slate-800">
-                <div className="w-full max-w-[2180px] mx-auto px-4 sm:px-6 md:px-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div className="bg-slate-900 text-white pt-16 pb-12 border-b border-slate-800">
+                <div className="portal-container flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                     <div>
                         <Link 
                             href={`/${locale}/routes`}
@@ -83,8 +83,8 @@ export default function TrekkingRoutesPage({ params: { locale } }: { params: { l
             </div>
 
             {/* Main Interactive Atlas Section */}
-            <div className="flex-grow py-12 md:py-20 px-4">
-                <div className="w-full max-w-[2180px] mx-auto px-4 sm:px-6 md:px-8">
+            <div className="flex-grow py-12 md:py-16">
+                <div className="portal-container">
                     <TrekkingAtlas locale={locale} />
                 </div>
             </div>

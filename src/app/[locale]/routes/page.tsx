@@ -416,7 +416,7 @@ const RoutesPage = ({ params }: RoutesPageProps) => {
             
             <Header locale={locale} />
 
-            <main className="flex-grow w-full max-w-[2180px] mx-auto px-4 sm:px-6 md:px-8 py-12 pb-20">
+            <main className="flex-grow portal-container py-12 pb-20">
                 {/* Intro */}
                 <div className="text-center max-w-2xl mx-auto mb-12">
                     <span className="text-cyan-600 font-black text-xs uppercase tracking-[0.3em] mb-2 block">{t.badge}</span>
@@ -429,7 +429,7 @@ const RoutesPage = ({ params }: RoutesPageProps) => {
                 </div>
 
                 {/* Specialized Interactive Hubs Banners */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16 w-full max-w-[2180px] mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
                     <Link
                         href={`/${locale}/routes/weekends`}
                         className="group relative rounded-[2.5rem] p-8 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white shadow-2xl overflow-hidden border border-slate-700 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between"

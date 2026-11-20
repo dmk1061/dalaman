@@ -99,7 +99,7 @@ const CollectionsPage = async ({ params }: { params: { locale: string } }) => {
         <div className="flex flex-col min-h-screen bg-slate-50 text-slate-800 font-sans">
             <Header locale={locale} />
             
-            <main className="flex-grow w-full max-w-[2180px] mx-auto px-4 sm:px-6 md:px-8 py-24 pb-20">
+            <main className="flex-grow portal-container py-16 md:py-20 pb-20">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-50 text-emerald-700 text-xs font-black uppercase tracking-widest mb-4 border border-emerald-200/60 shadow-sm">
                         <FaCompass className="text-emerald-600" /> {locale === 'ru' ? 'АВТОРСКИЕ ГАЙДЫ И ПОДБОРКИ' : 'CURATED GUIDES & HUB'}

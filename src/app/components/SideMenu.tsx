@@ -3,7 +3,19 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
-import { FaTimes, FaBars, FaCompass, FaUmbrellaBeach, FaBookOpen, FaConciergeBell, FaRoute, FaPhoneAlt, FaChevronRight } from 'react-icons/fa';
+import {
+  FaTimes,
+  FaBars,
+  FaCompass,
+  FaUmbrellaBeach,
+  FaBookOpen,
+  FaConciergeBell,
+  FaRoute,
+  FaPlaneArrival,
+  FaMapMarkedAlt,
+  FaChevronRight,
+} from 'react-icons/fa';
+import LivePortalInformers from './LivePortalInformers';
 
 import ru from '@/dictionaries/ru.json';
 import en from '@/dictionaries/en.json';
@@ -12,46 +24,46 @@ import tr from '@/dictionaries/tr.json';
 
 const dicts: Record<string, any> = { ru, en, de, tr };
 
-const cityMap: Record<string, { slug: string; name: string }[]> = {
+const cityMap: Record<string, { slug: string; name: string; isGateway?: boolean }[]> = {
   ru: [
-    { slug: 'dacha', name: 'Датча' },
-    { slug: 'marmaris', name: 'Мармарис' },
-    { slug: 'koycegiz', name: 'Кёйджегиз' },
-    { slug: 'dalyan', name: 'Дальян' },
-    { slug: 'dalaman', name: 'Даламан' },
-    { slug: 'gocek', name: 'Гёджек' },
+    { slug: 'dalaman', name: '✈️ Даламан', isGateway: true },
     { slug: 'fethiye', name: 'Фетхие' },
+    { slug: 'marmaris', name: 'Мармарис' },
     { slug: 'kas', name: 'Каш' },
+    { slug: 'dalyan', name: 'Дальян' },
+    { slug: 'gocek', name: 'Гёджек' },
+    { slug: 'dacha', name: 'Датча' },
+    { slug: 'koycegiz', name: 'Кёйджегиз' },
   ],
   en: [
-    { slug: 'dacha', name: 'Datça' },
-    { slug: 'marmaris', name: 'Marmaris' },
-    { slug: 'koycegiz', name: 'Köyceğiz' },
-    { slug: 'dalyan', name: 'Dalyan' },
-    { slug: 'dalaman', name: 'Dalaman' },
-    { slug: 'gocek', name: 'Göcek' },
+    { slug: 'dalaman', name: '✈️ Dalaman', isGateway: true },
     { slug: 'fethiye', name: 'Fethiye' },
+    { slug: 'marmaris', name: 'Marmaris' },
     { slug: 'kas', name: 'Kaş' },
+    { slug: 'dalyan', name: 'Dalyan' },
+    { slug: 'gocek', name: 'Göcek' },
+    { slug: 'dacha', name: 'Datça' },
+    { slug: 'koycegiz', name: 'Köyceğiz' },
   ],
   de: [
-    { slug: 'dacha', name: 'Datça' },
-    { slug: 'marmaris', name: 'Marmaris' },
-    { slug: 'koycegiz', name: 'Köyceğiz' },
-    { slug: 'dalyan', name: 'Dalyan' },
-    { slug: 'dalaman', name: 'Dalaman' },
-    { slug: 'gocek', name: 'Göcek' },
+    { slug: 'dalaman', name: '✈️ Dalaman', isGateway: true },
     { slug: 'fethiye', name: 'Fethiye' },
+    { slug: 'marmaris', name: 'Marmaris' },
     { slug: 'kas', name: 'Kaş' },
+    { slug: 'dalyan', name: 'Dalyan' },
+    { slug: 'gocek', name: 'Göcek' },
+    { slug: 'dacha', name: 'Datça' },
+    { slug: 'koycegiz', name: 'Köyceğiz' },
   ],
   tr: [
-    { slug: 'dacha', name: 'Datça' },
-    { slug: 'marmaris', name: 'Marmaris' },
-    { slug: 'koycegiz', name: 'Köyceğiz' },
-    { slug: 'dalyan', name: 'Dalyan' },
-    { slug: 'dalaman', name: 'Dalaman' },
-    { slug: 'gocek', name: 'Göcek' },
+    { slug: 'dalaman', name: '✈️ Dalaman', isGateway: true },
     { slug: 'fethiye', name: 'Fethiye' },
+    { slug: 'marmaris', name: 'Marmaris' },
     { slug: 'kas', name: 'Kaş' },
+    { slug: 'dalyan', name: 'Dalyan' },
+    { slug: 'gocek', name: 'Göcek' },
+    { slug: 'dacha', name: 'Datça' },
+    { slug: 'koycegiz', name: 'Köyceğiz' },
   ],
 };
 
@@ -125,10 +137,18 @@ const SideMenu = ({ isOpen: controlledOpen, onClose, locale: propLocale }: SideM
         </div>
 
         {/* Scrollable Content */}
-        <div className="flex-1 overflow-y-auto p-5 space-y-6">
+        <div className="flex-1 overflow-y-auto p-5 space-y-5">
+          {/* Live Weather & Currency Informers */}
+          <div>
+            <div className="text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-2">
+              {locale === 'ru' ? 'Погода и курс лиры' : locale === 'de' ? 'Wetter & Wechselkurs' : locale === 'tr' ? 'Hava Durumu & Kur' : 'Live Weather & TRY Rate'}
+            </div>
+            <LivePortalInformers locale={locale} variant="drawer" />
+          </div>
+
           {/* Cities Grid */}
           <div>
-            <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2.5">
+            <div className="text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-2">
               {locale === 'ru' ? 'Курорты побережья' : locale === 'de' ? 'Küstenstädte' : locale === 'tr' ? 'Sahil Şehirleri' : 'Coastal Resorts'}
             </div>
             <div className="grid grid-cols-2 gap-2">
@@ -137,10 +157,14 @@ const SideMenu = ({ isOpen: controlledOpen, onClose, locale: propLocale }: SideM
                   key={c.slug}
                   href={localize(`/${c.slug}`)}
                   onClick={handleClose}
-                  className="px-3 py-2 rounded-xl bg-slate-50 hover:bg-cyan-50 text-slate-700 hover:text-cyan-700 text-xs font-bold border border-slate-200/60 transition-colors flex items-center justify-between"
+                  className={`px-3 py-2 rounded-xl text-xs font-bold border transition-colors flex items-center justify-between ${
+                    c.isGateway
+                      ? 'bg-cyan-600 text-white border-cyan-600 hover:bg-cyan-700'
+                      : 'bg-slate-50 hover:bg-cyan-50 text-slate-700 hover:text-cyan-700 border-slate-200/60'
+                  }`}
                 >
                   <span>{c.name}</span>
-                  <FaChevronRight size={9} className="text-slate-300" />
+                  <FaChevronRight size={9} className={c.isGateway ? 'text-cyan-200' : 'text-slate-300'} />
                 </Link>
               ))}
             </div>
@@ -148,16 +172,37 @@ const SideMenu = ({ isOpen: controlledOpen, onClose, locale: propLocale }: SideM
 
           {/* Main Navigation */}
           <div>
-            <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">
-              {locale === 'ru' ? 'Разделы портала' : 'Navigation'}
+            <div className="text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-2">
+              {locale === 'ru' ? 'Разделы путеводителя' : 'Guide Navigation'}
             </div>
             <div className="divide-y divide-slate-100 border border-slate-200/70 rounded-2xl overflow-hidden">
               <MenuItem icon={<FaCompass className="text-cyan-600" />} title={sm.home} href={localize('/')} onClose={handleClose} />
-              <MenuItem icon={<FaUmbrellaBeach className="text-amber-500" />} title={dict.header?.nav?.best_beaches || 'Пляжи'} href={localize('/beaches')} onClose={handleClose} />
-              <MenuItem icon={<FaRoute className="text-emerald-600" />} title={locale === 'ru' ? 'Маршруты и Атлас троп' : 'Routes & Trails'} href={localize('/routes')} onClose={handleClose} />
+              <MenuItem
+                icon={<FaPlaneArrival className="text-sky-600" />}
+                title={locale === 'ru' ? 'ПРИЛЁТ В ДАЛАМАН (DLM)' : 'DALAMAN AIRPORT (DLM)'}
+                href={localize('/articles/airport-dalaman')}
+                onClose={handleClose}
+              />
+              <MenuItem
+                icon={<FaMapMarkedAlt className="text-teal-600" />}
+                title={locale === 'ru' ? 'ИНТЕРАКТИВНАЯ КАРТА' : 'INTERACTIVE MAP'}
+                href={localize('/map')}
+                onClose={handleClose}
+              />
+              <MenuItem
+                icon={<FaUmbrellaBeach className="text-amber-500" />}
+                title={locale === 'ru' ? 'ЛУЧШИЕ ПЛЯЖИ И БУХТЫ' : 'BEST BEACHES & BAYS'}
+                href={localize('/beaches')}
+                onClose={handleClose}
+              />
+              <MenuItem
+                icon={<FaRoute className="text-emerald-600" />}
+                title={locale === 'ru' ? 'МАРШРУТЫ И АТЛАС ТРОП' : 'ROUTES & TRAILS'}
+                href={localize('/routes')}
+                onClose={handleClose}
+              />
               <MenuItem icon={<FaBookOpen className="text-indigo-500" />} title={sm.articles} href={localize('/articles')} onClose={handleClose} />
-              <MenuItem icon={<FaConciergeBell className="text-sky-600" />} title={sm.services} href={localize('/services')} onClose={handleClose} />
-              <MenuItem icon={<FaPhoneAlt className="text-rose-500" />} title={sm.contacts} href={localize('/articles/useful-contacts')} onClose={handleClose} />
+              <MenuItem icon={<FaConciergeBell className="text-cyan-600" />} title={sm.services} href={localize('/services')} onClose={handleClose} />
             </div>
           </div>
         </div>
@@ -170,7 +215,7 @@ const MenuItem = ({ icon, title, href, onClose }: { icon: React.ReactNode; title
   <Link
     href={href}
     onClick={onClose}
-    className="flex items-center justify-between px-4 py-3.5 bg-white hover:bg-slate-50 transition-colors"
+    className="flex items-center justify-between px-4 py-3 bg-white hover:bg-slate-50 transition-colors"
   >
     <div className="flex items-center gap-3">
       {icon}

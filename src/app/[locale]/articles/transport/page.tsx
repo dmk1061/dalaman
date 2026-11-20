@@ -50,15 +50,17 @@ const TransportPage = async ({ params }: PageProps) => {
   return (
     <div className="flex flex-col min-h-screen bg-slate-50">
       <Header locale={locale} />
-      <div className="flex flex-grow w-full max-w-[1700px] mx-auto">
-        <div className="w-[18%] hidden lg:block px-4 py-8">
-          <LeftSidebar locale={locale} />
-        </div>
-        <main className="flex-1 px-4 py-8 overflow-hidden">
-          <TransportClient locale={locale} />
-        </main>
-        <div className="w-[22%] hidden xl:block px-4 py-8">
-          <Sidebar locale={locale} />
+      <div className="portal-container flex-grow py-6 lg:py-8">
+        <div className="flex flex-col lg:flex-row gap-6 items-start">
+          <aside className="w-[270px] flex-shrink-0 hidden lg:block">
+            <LeftSidebar locale={locale} />
+          </aside>
+          <main className="flex-1 min-w-0 w-full overflow-hidden">
+            <TransportClient locale={locale} />
+          </main>
+          <aside className="w-[300px] flex-shrink-0 hidden xl:block">
+            <Sidebar locale={locale} />
+          </aside>
         </div>
       </div>
       <Footer locale={locale} />
