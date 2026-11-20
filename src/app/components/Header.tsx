@@ -329,32 +329,10 @@ const Header = async ({ locale = 'ru' }: HeaderProps) => {
               <FaMapMarkedAlt className="text-cyan-200" size={12} />
               <span>{topMapText}</span>
             </Link>
-
-            <LivePortalInformers locale={locale} variant="topbar" />
           </div>
 
-          <div className="flex items-center gap-3 sm:gap-5">
-            <Link
-              href={localize('/services/transfers')}
-              className="hidden md:flex items-center gap-1 text-cyan-100 hover:text-white transition-colors"
-            >
-              <span>{locale === 'ru' ? 'Трансфер из DLM' : 'DLM Transfers'}</span>
-              <FaChevronRight size={8} />
-            </Link>
-            <Link
-              href={localize('/services/car-rental')}
-              className="hidden lg:flex items-center gap-1 text-cyan-100 hover:text-white transition-colors"
-            >
-              <span>{topCarText}</span>
-              <FaChevronRight size={8} />
-            </Link>
-            <Link
-              href={localize('/services/excursions-tours')}
-              className="hidden xl:flex items-center gap-1 text-cyan-100 hover:text-white transition-colors"
-            >
-              <span>{dict.header.excursions}</span>
-              <FaChevronRight size={8} />
-            </Link>
+          <div className="flex items-center gap-3 sm:gap-4">
+            <LivePortalInformers locale={locale} variant="topbar" />
             <LanguageSwitcher currentLocale={locale} />
           </div>
         </div>
