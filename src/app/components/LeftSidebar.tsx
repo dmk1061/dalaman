@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaPlane, FaBus, FaTaxi, FaCarSide, FaKey, FaCompass, FaSun, FaUtensils, FaWallet } from 'react-icons/fa';
+import { FaPlane, FaBus, FaTaxi, FaCarSide, FaKey, FaCompass, FaSun, FaUtensils, FaLandmark } from 'react-icons/fa';
 import { getDictionary, Locale } from '@/lib/dictionary';
 
 type LeftSidebarProps = {
@@ -99,14 +99,14 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
     {
       title:
         locale === 'ru'
-          ? 'Бюджет поездки и цены 2026'
+          ? 'Античные города Карии и Ликии'
           : locale === 'de'
-          ? 'Reisebudget & Preise 2026'
+          ? 'Antike Städte (Karien & Lykien)'
           : locale === 'tr'
-          ? 'Tatil Bütçesi ve Fiyatlar'
-          : 'Travel Budget & Prices 2026',
-      href: '/articles/travel-budget-and-money-saving-tips',
-      icon: <FaWallet className="text-cyan-600" />,
+          ? 'Antik Kentler (Karya ve Likya)'
+          : 'Ancient Cities of Caria & Lycia',
+      href: '/articles/ancient-cities',
+      icon: <FaLandmark className="text-indigo-600" />,
     },
   ];
 

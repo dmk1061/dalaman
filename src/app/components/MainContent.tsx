@@ -13,8 +13,13 @@ import {
   FaCarSide,
   FaChevronLeft,
   FaChevronRight,
+  FaPlay,
+  FaComments,
+  FaBookReader,
+  FaBullhorn,
 } from 'react-icons/fa';
 import InteractiveMap from '@/app/[locale]/map/InteractiveMap';
+import type { KaleidoscopeLocationItem } from '@/lib/kaleidoscope';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -25,175 +30,6 @@ import de from '@/dictionaries/de.json';
 import tr from '@/dictionaries/tr.json';
 
 const dictionaries: Record<string, any> = { ru, en, de, tr };
-
-interface KaleidoscopeItem {
-  title: Record<string, string>;
-  region: Record<string, string>;
-  image: string;
-  href: string;
-}
-
-const allKaleidoscopeItems: KaleidoscopeItem[] = [
-  // Dalaman
-  {
-    title: { ru: 'Пляж Сарыгерме', en: 'Sarıgerme Beach', de: 'Sarıgerme Strand', tr: 'Sarıgerme Plajı' },
-    region: { ru: 'Даламан', en: 'Dalaman', de: 'Dalaman', tr: 'Dalaman' },
-    image: '/api/images/locations/dalaman/beach/Sarigerme/sarigerme.jpg',
-    href: '/dalaman/beach/Sarigerme',
-  },
-  {
-    title: { ru: 'Бухта Сарсала', en: 'Sarsala Bay', de: 'Sarsala Bucht', tr: 'Sarsala Koyu' },
-    region: { ru: 'Даламан', en: 'Dalaman', de: 'Dalaman', tr: 'Dalaman' },
-    image: '/api/images/locations/dalaman/beach/Sarsala/sarsala.jpg',
-    href: '/dalaman/beach/Sarsala',
-  },
-  {
-    title: { ru: 'Пляж Каяджик', en: 'Kayacık Beach', de: 'Kayacık Strand', tr: 'Kayacık Sahili' },
-    region: { ru: 'Даламан', en: 'Dalaman', de: 'Dalaman', tr: 'Dalaman' },
-    image: '/api/images/locations/dalaman/beach/Kayacik/kayacik.jpg',
-    href: '/dalaman/beach/Kayacik',
-  },
-
-  // Fethiye
-  {
-    title: { ru: 'Голубая лагуна Олюдениз', en: 'Ölüdeniz Blue Lagoon', de: 'Ölüdeniz Blaue Lagune', tr: 'Ölüdeniz Mavi Lagün' },
-    region: { ru: 'Фетхие', en: 'Fethiye', de: 'Fethiye', tr: 'Fethiye' },
-    image: '/api/images/locations/fethiye/beach/bluelagoon/bluelagoon.jpg',
-    href: '/fethiye/beach/bluelagoon',
-  },
-  {
-    title: { ru: 'Долина Бабочек', en: 'Butterfly Valley', de: 'Schmetterlingstal', tr: 'Kelebekler Vadisi' },
-    region: { ru: 'Фетхие', en: 'Fethiye', de: 'Fethiye', tr: 'Fethiye' },
-    image: '/api/images/locations/fethiye/beach/kelebekler/kelebekler.jpg',
-    href: '/fethiye/beach/kelebekler',
-  },
-  {
-    title: { ru: 'Город-призрак Каякёй', en: 'Kayaköy Ghost Town', de: 'Geisterstadt Kayaköy', tr: 'Kayaköy Antik Köyü' },
-    region: { ru: 'Фетхие', en: 'Fethiye', de: 'Fethiye', tr: 'Fethiye' },
-    image: '/api/images/locations/fethiye/ruines/kayakoy/kayakoy.jpg',
-    href: '/fethiye/sight/kayakoy',
-  },
-
-  // Dalyan
-  {
-    title: { ru: 'Черепаший пляж Изтузу', en: 'İztuzu Turtle Beach', de: 'İztuzu Schildkrötenstrand', tr: 'İztuzu Plajı' },
-    region: { ru: 'Дальян', en: 'Dalyan', de: 'Dalyan', tr: 'Dalyan' },
-    image: '/api/images/locations/dalyan/beach/Istuzu/istuzu.jpg',
-    href: '/dalyan/beach/Istuzu',
-  },
-  {
-    title: { ru: 'Ликийские скальные гробницы', en: 'Lycian Rock Tombs', de: 'Lykische Felsengräber', tr: 'Kaunos Kral Mezarları' },
-    region: { ru: 'Дальян', en: 'Dalyan', de: 'Dalyan', tr: 'Dalyan' },
-    image: '/api/images/locations/dalyan/ruine/LycianTombs/lyciantombs.jpg',
-    href: '/dalyan/sight/LycianTombs',
-  },
-  {
-    title: { ru: 'Бухта Аши Кёю', en: 'Aşı Koyu Bay', de: 'Aşı-Bucht', tr: 'Aşı Koyu' },
-    region: { ru: 'Дальян', en: 'Dalyan', de: 'Dalyan', tr: 'Dalyan' },
-    image: '/api/images/locations/dalyan/beach/asikoyu/asikoyu.jpg',
-    href: '/dalyan/beach/asikoyu',
-  },
-
-  // Marmaris
-  {
-    title: { ru: 'Пляж Ичмелер', en: 'İçmeler Beach', de: 'İçmeler Strand', tr: 'İçmeler Plajı' },
-    region: { ru: 'Мармарис', en: 'Marmaris', de: 'Marmaris', tr: 'Marmaris' },
-    image: '/api/images/locations/marmaris/beach/Icmeler/icmeler.jpg',
-    href: '/marmaris/beach/Icmeler',
-  },
-  {
-    title: { ru: 'Бухта Турунч', en: 'Turunç Bay', de: 'Turunç Bucht', tr: 'Turunç Koyu' },
-    region: { ru: 'Мармарис', en: 'Marmaris', de: 'Marmaris', tr: 'Marmaris' },
-    image: '/api/images/locations/marmaris/beach/Turunc/turunc.jpg',
-    href: '/marmaris/beach/Turunc',
-  },
-  {
-    title: { ru: 'Акьяка и река Азмак', en: 'Akyaka & Azmak River', de: 'Akyaka & Azmak-Fluss', tr: 'Akyaka ve Azmak Nehri' },
-    region: { ru: 'Мармарис', en: 'Marmaris', de: 'Marmaris', tr: 'Marmaris' },
-    image: '/api/images/locations/marmaris/beach/Akyaka/Akyaka.jpg',
-    href: '/marmaris/beach/Akyaka',
-  },
-  {
-    title: { ru: 'Бухта и каньон Амос', en: 'Amos Bay & Ruins', de: 'Amos-Bucht', tr: 'Amos Koyu' },
-    region: { ru: 'Мармарис', en: 'Marmaris', de: 'Marmaris', tr: 'Marmaris' },
-    image: '/api/images/locations/marmaris/beach/AmosBay/amosBay.jpg',
-    href: '/marmaris/beach/AmosBay',
-  },
-  {
-    title: { ru: 'Остров Клеопатры (Седир)', en: 'Cleopatra Sedir Island', de: 'Kleopatra-Insel (Sedir)', tr: 'Sedir Adası (Kleopatra)' },
-    region: { ru: 'Мармарис', en: 'Marmaris', de: 'Marmaris', tr: 'Marmaris' },
-    image: '/api/images/locations/marmaris/beach/CleopatraSedir/cleo-sedir.jpg',
-    href: '/marmaris/beach/CleopatraSedir',
-  },
-
-  // Kas
-  {
-    title: { ru: 'Пляж Капуташ', en: 'Kaputaş Beach', de: 'Kaputaş Strand', tr: 'Kaputaş Plajı' },
-    region: { ru: 'Каш и Калкан', en: 'Kaş & Kalkan', de: 'Kaş & Kalkan', tr: 'Kaş & Kalkan' },
-    image: '/api/images/locations/kas/beach/kaputas/kaputas.jpg',
-    href: '/kas/beach/kaputas',
-  },
-  {
-    title: { ru: 'Дюны и пляж Патара', en: 'Patara Beach & Dunes', de: 'Patara Strand & Dünen', tr: 'Patara Plajı' },
-    region: { ru: 'Каш', en: 'Kaş', de: 'Kaş', tr: 'Kaş' },
-    image: '/api/images/locations/kas/beach/patara/patara.jpg',
-    href: '/kas/beach/patara',
-  },
-  {
-    title: { ru: 'Затонувший город Кекова', en: 'Kekova Sunken City', de: 'Versunkene Stadt Kekova', tr: 'Kekova Batık Şehir' },
-    region: { ru: 'Каш', en: 'Kaş', de: 'Kaş', tr: 'Kaş' },
-    image: '/api/images/locations/kas/ruines/kekova/kekova.jpg',
-    href: '/kas/sight/kekova',
-  },
-
-  // Gocek
-  {
-    title: { ru: 'Бухта Бедри Рахми', en: 'Bedri Rahmi Bay', de: 'Bedri-Rahmi-Bucht', tr: 'Bedri Rahmi Koyu' },
-    region: { ru: 'Гёджек', en: 'Göcek', de: 'Göcek', tr: 'Göcek' },
-    image: '/api/images/locations/gocek/beach/bedri/bedri.jpg',
-    href: '/gocek/beach/bedri',
-  },
-  {
-    title: { ru: 'Остров Терсане', en: 'Tersane Island', de: 'Tersane-Insel', tr: 'Tersane Adası' },
-    region: { ru: 'Гёджек', en: 'Göcek', de: 'Göcek', tr: 'Göcek' },
-    image: '/api/images/locations/gocek/beach/tersane/tersane.jpg',
-    href: '/gocek/beach/tersane',
-  },
-
-  // Datca
-  {
-    title: { ru: 'Античный Книдос', en: 'Ancient Knidos', de: 'Antikes Knidos', tr: 'Knidos Antik Kenti' },
-    region: { ru: 'Датча', en: 'Datça', de: 'Datça', tr: 'Datça' },
-    image: '/api/images/locations/dacha/ruine/knidos/knidos.jpg',
-    href: '/dacha/sight/knidos',
-  },
-  {
-    title: { ru: 'Пляж Паламутбюкю', en: 'Palamutbükü Beach', de: 'Palamutbükü Strand', tr: 'Palamutbükü Sahili' },
-    region: { ru: 'Датча', en: 'Datça', de: 'Datça', tr: 'Datça' },
-    image: '/api/images/locations/dacha/beach/Palamutbuku/palamutbuku.jpg',
-    href: '/dacha/beach/Palamutbuku',
-  },
-  {
-    title: { ru: 'Эски Датча (Старый город)', en: 'Old Datça (Eski Datça)', de: 'Alt-Datça (Eski Datça)', tr: 'Eski Datça Sokakları' },
-    region: { ru: 'Датча', en: 'Datça', de: 'Datça', tr: 'Datça' },
-    image: '/api/images/locations/dacha/todo/eskidacha/eski_dacha.jpg',
-    href: '/dacha/sight/eskidacha',
-  },
-
-  // Koycegiz
-  {
-    title: { ru: 'Бухта Экинчик', en: 'Ekincik Bay', de: 'Ekincik-Bucht', tr: 'Ekincik Koyu' },
-    region: { ru: 'Кёйджегиз', en: 'Köyceğiz', de: 'Köyceğiz', tr: 'Köyceğiz' },
-    image: '/api/images/locations/koycegiz/beach/Ekincik/ekincik.jpg',
-    href: '/koycegiz/beach/Ekincik',
-  },
-  {
-    title: { ru: 'Термы Султание на озере', en: 'Sultaniye Hot Springs', de: 'Sultaniye-Thermalquellen', tr: 'Sultaniye Kaplıcaları' },
-    region: { ru: 'Кёйджегиз', en: 'Köyceğiz', de: 'Köyceğiz', tr: 'Köyceğiz' },
-    image: '/api/images/locations/koycegiz/todo/Sultanye/sultanye.jpg',
-    href: '/koycegiz/sight/Sultanye',
-  },
-];
 
 interface ResortShowcaseItem {
   slug: string;
@@ -295,7 +131,7 @@ const resortsShowcase: ResortShowcaseItem[] = [
   },
 ];
 
-const shuffleArray = (array: KaleidoscopeItem[]) => {
+const shuffleArray = <T,>(array: T[]): T[] => {
   const newArray = [...array];
   for (let i = newArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -306,19 +142,23 @@ const shuffleArray = (array: KaleidoscopeItem[]) => {
 
 type MainContentProps = {
   locale?: string;
+  locationsPool?: KaleidoscopeLocationItem[];
 };
 
-const MainContent = ({ locale = 'ru' }: MainContentProps) => {
+const MainContent = ({ locale = 'ru', locationsPool = [] }: MainContentProps) => {
   const dict = dictionaries[locale] || dictionaries['en'];
   const sliderRef = useRef<Slider>(null);
-  const [kaleidoscopeItems, setKaleidoscopeItems] = useState<KaleidoscopeItem[]>(
-    allKaleidoscopeItems.slice(0, 9)
+
+  // Initial deterministic slice prevents hydration mismatch; useEffect shuffles across the full dynamic pool of 55+ locations
+  const [kaleidoscopeItems, setKaleidoscopeItems] = useState<KaleidoscopeLocationItem[]>(
+    locationsPool.slice(0, 12)
   );
 
   useEffect(() => {
-    const shuffled = shuffleArray(allKaleidoscopeItems).slice(0, 12);
-    setKaleidoscopeItems(shuffled);
-  }, []);
+    if (locationsPool.length > 0) {
+      setKaleidoscopeItems(shuffleArray(locationsPool).slice(0, 18));
+    }
+  }, [locationsPool]);
 
   const localize = (path: string) => {
     if (!path || path === '#' || path.startsWith('http') || path.startsWith('tel:')) return path;
@@ -359,41 +199,149 @@ const MainContent = ({ locale = 'ru' }: MainContentProps) => {
     },
   ];
 
+  // Mosaic of Impressions: strictly Personal Experience (Traveler Diaries, Video/YouTube Reviews, Forum Discussions)
   const mosaicItems = [
     {
-      badge: locale === 'ru' ? 'Главные ворота' : locale === 'de' ? 'Haupttor DLM' : locale === 'tr' ? 'Bölgenin Kapısı' : 'Gateway Hub',
+      badge: locale === 'ru' ? 'Личный опыт' : locale === 'de' ? 'Erfahrungen' : locale === 'tr' ? 'Gezgin Deneyimi' : 'First-Hand Stories',
+      icon: <FaBookReader size={12} />,
       title:
         locale === 'ru'
-          ? 'Даламан — больше чем аэропорт'
+          ? 'Дневники и отчёты туристов'
           : locale === 'de'
-          ? 'Dalaman — mehr als nur ein Flughafen'
+          ? 'Reisetagebücher & Berichte'
           : locale === 'tr'
-          ? 'Dalaman — Havalimanından Fazlası'
-          : 'Dalaman — More Than an Airport',
+          ? 'Gezgin Günlükleri ve Notlar'
+          : 'Traveler Diaries & Trip Reports',
       description:
         locale === 'ru'
-          ? 'Пляж Сарыгерме, секретная бухта Сарсала, серные термы и горный рафтинг в 20 минутах от прилёта.'
+          ? 'Живые истории поездок, личные впечатления от пляжей и отелей, реальные расходы и маршруты от первого лица.'
           : locale === 'de'
-          ? 'Sarıgerme-Strand, Sarsala-Bucht, Schwefelthermen und Rafting nur 20 Minuten nach der Landung.'
+          ? 'Echte Reiseberichte, persönliche Eindrücke von Stränden und Routen aus erster Hand.'
           : locale === 'tr'
-          ? 'Sarıgerme Plajı, Sarsala Koyu, kükürtlü kaplıcalar ve Dalaman Çayı rafting rotaları.'
-          : 'Sarıgerme sandy beach, secret Sarsala Bay, thermal springs, and river rafting 20 minutes from DLM.',
-      href: localize('/dalaman'),
-      image: '/api/images/locations/dalaman/beach/Sarigerme/sarigerme.jpg',
-    },
-    {
-      badge: locale === 'ru' ? 'Приключения' : locale === 'de' ? 'Erlebnisse' : locale === 'tr' ? 'Deneyimler' : 'Adventures',
-      title: dict.main_content.mosaic.guides_title,
-      description: dict.main_content.mosaic.guides_desc,
-      href: localize('/services/excursions-tours'),
-      image: '/api/images/locations/fethiye/todo/saklikent/saklikent.jpg',
-    },
-    {
-      badge: locale === 'ru' ? 'Опыт и маршруты' : locale === 'de' ? 'Reiseberichte' : locale === 'tr' ? 'Gezi Notları' : 'Travel Stories',
-      title: dict.main_content.mosaic.blogs_title,
-      description: dict.main_content.mosaic.blogs_desc,
+          ? 'Gerçek gezi hikayeleri, plaj ve rota deneyimleri, birinci ağızdan tatil izlenimleri.'
+          : 'Real trip stories, personal impressions of beaches and towns, and candid itineraries from travelers.',
       href: localize('/blogs'),
       image: '/api/images/locations/gocek/beach/bedri/bedri.jpg',
+    },
+    {
+      badge: locale === 'ru' ? 'Видео и YouTube' : locale === 'de' ? 'Video-Guides' : locale === 'tr' ? 'Video İncelemeler' : 'Video & YouTube',
+      icon: <FaPlay size={11} />,
+      title:
+        locale === 'ru'
+          ? 'Видеообзоры курортов и дорог'
+          : locale === 'de'
+          ? 'Video-Reviews der Küste & Straßen'
+          : locale === 'tr'
+          ? 'Koylar ve Yollar Video Rehberi'
+          : 'Coastal Video Guides & Vlogs',
+      description:
+        locale === 'ru'
+          ? 'Подборка лучших видеообзоров региона: проезды по серпантинам, полёты с Бабадага, яхтинг и пляжи без фильтров.'
+          : locale === 'de'
+          ? 'Die besten Video-Einblicke: Küstenstraßen, Paragliding vom Babadağ, Yachting und Buchten ohne Filter.'
+          : locale === 'tr'
+          ? 'Bölgenin en iyi video incelemeleri: sahil yolları, Babadağ uçuşları, yat turları ve plajlar.'
+          : 'Curated video reviews of the region: coastal drives, Babadağ paragliding, yachting, and beaches unfiltered.',
+      href: localize('/blogs'),
+      image: '/api/images/locations/fethiye/todo/babadag/babadag.jpg',
+    },
+    {
+      badge: locale === 'ru' ? 'Сообщество' : locale === 'de' ? 'Community' : locale === 'tr' ? 'Topluluk & Forum' : 'Community & Forums',
+      icon: <FaComments size={12} />,
+      title:
+        locale === 'ru'
+          ? 'Обсуждения, форумы и попутчики'
+          : locale === 'de'
+          ? 'Diskussionen, Foren & Mitreisende'
+          : locale === 'tr'
+          ? 'Forumlar, Tartışmalar ve Yol Arkadaşı'
+          : 'Forums, Discussions & Travel Buddies',
+      description:
+        locale === 'ru'
+          ? 'Обмен свежим опытом, ссылки на профильные ветки форумов и чаты побережья, поиск компании для аренды авто или лодки.'
+          : locale === 'de'
+          ? 'Erfahrungsaustausch, Links zu regionalen Foren & Chats sowie Mitfahrgelegenheiten für Mietwagen und Boote.'
+          : locale === 'tr'
+          ? 'Güncel bilgi paylaşımı, bölge forumları ve tekne/araç paylaşımı için yol arkadaşı bulma.'
+          : 'Exchange fresh tips, explore regional forum threads and chats, and find companions to share a car or boat.',
+      href: localize('/blogs'),
+      image: '/api/images/locations/dacha/todo/port/port.png',
+    },
+  ];
+
+  // Regional Pulse: Local News, Seasonal Updates & Coastal Events (Replaces artificial "Curated Collections")
+  const regionalPulseItems = [
+    {
+      category: locale === 'ru' ? 'Аэропорт DLM и логистика' : locale === 'de' ? 'Flughafen DLM' : locale === 'tr' ? 'DLM Havalimanı' : 'DLM Airport & Shuttles',
+      dateLabel: locale === 'ru' ? 'Актуально • Сезон 2026' : 'Live • 2026 Season',
+      title:
+        locale === 'ru'
+          ? 'Расписание шаттлов Havaş и Muttaş под прилёты в аэропорт Даламан'
+          : locale === 'de'
+          ? 'Havaş & Muttaş Shuttle-Fahrpläne ab Flughafen Dalaman (DLM)'
+          : locale === 'tr'
+          ? 'Dalaman Havalimanı Havaş ve Muttaş Güncel Ulaşım Rehberi'
+          : 'Havaş & Muttaş Shuttle Schedules Synchronized with Dalaman Arrivals',
+      summary:
+        locale === 'ru'
+          ? 'Как быстро уехать из терминала DLM в Мармарис, Фетхие и Датчу: стоянки автобусов, оплата картами и тарифы.'
+          : 'Direct bus connections from DLM Domestic ramp to Fethiye, Marmaris, and Datça Harbor.',
+      href: localize('/articles/airport-dalaman'),
+      image: '/api/images/locations/dalaman/beach/Kayacik/kayacik.jpg',
+    },
+    {
+      category: locale === 'ru' ? 'Экология и пляжи' : locale === 'de' ? 'Natur & Strände' : locale === 'tr' ? 'Doğa ve Plajlar' : 'Nature & Beaches',
+      dateLabel: locale === 'ru' ? 'Дальян и Сарыгерме' : 'Dalyan & Sarıgerme',
+      title:
+        locale === 'ru'
+          ? 'Сезон морских черепах Caretta caretta на косе Изтузу и пляжах Даламана'
+          : locale === 'de'
+          ? 'Caretta-caretta-Schildkrötensaison am İztuzu-Strand & in Dalaman'
+          : locale === 'tr'
+          ? 'İztuzu ve Sarıgerme Sahillerinde Caretta Caretta Koruma Sezonu'
+          : 'Caretta caretta Sea Turtle Nesting Season at İztuzu & Sarıgerme',
+      summary:
+        locale === 'ru'
+          ? 'Часы доступа на заповедную косу, работа госпиталя черепах DEKAMER и правила вечернего посещения.'
+          : 'Visiting hours, DEKAMER rescue center open tours, and conservation rules along the coast.',
+      href: localize('/articles/iztuzu-beach'),
+      image: '/api/images/locations/dalyan/beach/Istuzu/istuzu.jpg',
+    },
+    {
+      category: locale === 'ru' ? 'События и фестивали' : locale === 'de' ? 'Events & Festivals' : locale === 'tr' ? 'Festival ve Etkinlikler' : 'Events & Regattas',
+      dateLabel: locale === 'ru' ? 'Афиша побережья' : 'Coastal Calendar',
+      title:
+        locale === 'ru'
+          ? 'Календарь событий региона: от парусных регат в Гёджеке до фестивалей в Датче и Фетхие'
+          : locale === 'de'
+          ? 'Veranstaltungskalender: Von den Göcek-Regatten bis zu den Festspielen in Datça'
+          : locale === 'tr'
+          ? 'Bölge Etkinlik Takvimi: Göcek Regattalarından Datça ve Fethiye Festivallerine'
+          : 'Regional Event Calendar: From Göcek Regattas to Datça & Fethiye Festivals',
+      summary:
+        locale === 'ru'
+          ? 'Главные культурные праздники, гастрономические ярмарки, заплывы и регаты по месяцам года.'
+          : 'Key cultural festivals, culinary fairs, open-water swims, and international yacht regattas month by month.',
+      href: localize('/articles/events-and-festivals-calendar'),
+      image: '/api/images/locations/gocek/beach/tersane/tersane.jpg',
+    },
+    {
+      category: locale === 'ru' ? 'Горы и маршруты' : locale === 'de' ? 'Berge & Routen' : locale === 'tr' ? 'Doğa ve Rotalar' : 'Trails & Mountains',
+      dateLabel: locale === 'ru' ? 'Фетхие и Олюдениз' : 'Fethiye & Ölüdeniz',
+      title:
+        locale === 'ru'
+          ? 'Канатная дорога Бабадаг (Babadağ Teleferik) и панорамные станции над Олюденизом'
+          : locale === 'de'
+          ? 'Babadağ-Seilbahn (Teleferik) und Aussichtsplattformen über Ölüdeniz'
+          : locale === 'tr'
+          ? 'Babadağ Teleferik İstasyonları ve Ölüdeniz Seyir Terasları'
+          : 'Babadağ Cable Car Stations & Panoramic Decks Above Ölüdeniz',
+      summary:
+        locale === 'ru'
+          ? 'Режим работы подъёмников, смотровые площадки на высоте 1700–1969 м и старты тандем-парапланов.'
+          : 'Lift operating hours, 1700m–1969m viewpoints, alpine dining, and tandem paragliding takeoffs.',
+      href: localize('/articles/babadag'),
+      image: '/api/images/locations/fethiye/beach/kelebekler/kelebekler.jpg',
     },
   ];
 
@@ -441,9 +389,27 @@ const MainContent = ({ locale = 'ru' }: MainContentProps) => {
       ? 'Dalaman merkezinden batıda Marmaris ve Datça’ya, doğuda Fethiye, Ölüdeniz ve Kaş’a uzanan kıyı kuşağı'
       : 'From Dalaman Gateway west to Marmaris & Datça — and east to Fethiye, Ölüdeniz & Kaş';
 
+  const pulseTitle =
+    locale === 'ru'
+      ? 'Пульс региона: новости, сезон и события'
+      : locale === 'de'
+      ? 'Puls der Region: Aktuelles, Saison & Events'
+      : locale === 'tr'
+      ? 'Bölgenin Nabzı: Güncel Haberler ve Etkinlikler'
+      : 'Regional Pulse: Local News, Season & Events';
+
+  const pulseSubtitle =
+    locale === 'ru'
+      ? 'Главные новости побережья, изменения в логистике, природные сезоны и календарь фестивалей'
+      : locale === 'de'
+      ? 'Wichtige Küsten-Updates, Logistik, Natursaisons und Veranstaltungskalender'
+      : locale === 'tr'
+      ? 'Sahil hattından güncel gelişmeler, ulaşım, doğa sezonları ve festival takvimi'
+      : 'Key coastal updates, transport logistics, wildlife seasons, and the regional festival calendar';
+
   return (
     <div className="space-y-12 pb-12">
-      {/* 1. 8 Coastal Resorts Showcase (Editorial Priority #1) */}
+      {/* 1. 8 Coastal Resorts Showcase */}
       <section>
         <div className="flex flex-col sm:flex-row justify-between sm:items-end mb-5 gap-2">
           <div>
@@ -496,7 +462,7 @@ const MainContent = ({ locale = 'ru' }: MainContentProps) => {
         </div>
       </section>
 
-      {/* 2. Compact Service Tools Bar (6 Trip Essentials) */}
+      {/* 2. Compact Service Tools Bar */}
       <section>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
           {quickLinks.map((link, idx) => (
@@ -505,10 +471,17 @@ const MainContent = ({ locale = 'ru' }: MainContentProps) => {
         </div>
       </section>
 
-      {/* 3. Kaleidoscope Section (Clean Single-Language Titles + Geo Badges) */}
+      {/* 3. Kaleidoscope Section (100% Dynamic from all location folders in content/locations) */}
       <section className="relative">
         <div className="flex flex-col sm:flex-row justify-between sm:items-end mb-5 gap-4">
           <div>
+            <div className="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-cyan-600 mb-1">
+              <span>
+                {locale === 'ru'
+                  ? `Случайная лента • ${locationsPool.length} локаций в базе`
+                  : `Dynamic Randomizer • ${locationsPool.length} Locations`}
+              </span>
+            </div>
             <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight mb-1">
               {dict.main_content.kaleidoscope.title}
             </h2>
@@ -535,18 +508,19 @@ const MainContent = ({ locale = 'ru' }: MainContentProps) => {
               href={localize('/beaches')}
               className="ml-2 px-5 py-2.5 bg-slate-900 text-white text-xs font-bold tracking-wider rounded-full hover:bg-cyan-600 transition-all uppercase"
             >
-              {locale === 'ru' ? 'Все пляжи и бухты' : 'All Beaches'}
+              {locale === 'ru' ? 'Все пляжи и места' : 'All Locations'}
             </Link>
           </div>
         </div>
 
         <div className="-mx-2">
           <Slider ref={sliderRef} {...sliderSettings}>
-            {kaleidoscopeItems.map((item: KaleidoscopeItem, index: number) => (
-              <div key={index} className="px-2.5 py-2">
+            {kaleidoscopeItems.map((item) => (
+              <div key={item.id} className="px-2.5 py-2">
                 <KaleidoscopeCard
-                  title={item.title[locale] || item.title['en']}
-                  region={item.region[locale] || item.region['en']}
+                  title={item.title}
+                  subtitle={item.subtitle}
+                  region={item.regionName}
                   image={item.image}
                   href={localize(item.href)}
                 />
@@ -556,19 +530,24 @@ const MainContent = ({ locale = 'ru' }: MainContentProps) => {
         </div>
       </section>
 
-      {/* 4. Mosaic Section (Authentic Photos + Dalaman Gateway Feature instead of Contact Form) */}
+      {/* 4. Mosaic of Impressions (Personal Experience: Diaries, Video Reviews & Community Forums) */}
       <section>
         <div className="mb-6 text-center max-w-2xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight mb-1.5">
             {dict.main_content.mosaic.title}
           </h2>
-          <p className="text-sm text-slate-500 font-medium">{dict.main_content.mosaic.subtitle}</p>
+          <p className="text-sm text-slate-500 font-medium">
+            {locale === 'ru'
+              ? 'Живой опыт от первого лица: дневники путешественников, видеообзоры с YouTube и обсуждения на форумах'
+              : dict.main_content.mosaic.subtitle}
+          </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {mosaicItems.map((item, idx) => (
             <MosaicCard
               key={idx}
               badge={item.badge}
+              icon={item.icon}
               title={item.title}
               description={item.description}
               href={item.href}
@@ -579,51 +558,61 @@ const MainContent = ({ locale = 'ru' }: MainContentProps) => {
         </div>
       </section>
 
-      {/* 5. Curated Collections Section (100% Authentic Location Photos) */}
+      {/* 5. Regional Pulse: Local News, Season & Events (Replaces Curated Collections) */}
       <section>
         <div className="flex flex-col sm:flex-row justify-between sm:items-end mb-5 gap-2">
           <div>
+            <div className="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-emerald-600 mb-1">
+              <FaBullhorn size={11} />
+              <span>{locale === 'ru' ? 'Дайджест побережья Даламан — Мугла' : 'Dalaman & Muğla Coast Digest'}</span>
+            </div>
             <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight mb-1">
-              {dict.main_content.collections.title}
+              {pulseTitle}
             </h2>
-            <p className="text-sm text-slate-500 font-medium">{dict.main_content.collections.subtitle}</p>
+            <p className="text-sm text-slate-500 font-medium">{pulseSubtitle}</p>
           </div>
           <Link
-            href={localize('/collections')}
-            className="text-cyan-600 font-bold text-xs hover:text-cyan-700 flex items-center gap-1.5 uppercase tracking-wider"
+            href={localize('/articles/events-and-festivals-calendar')}
+            className="text-cyan-600 font-bold text-xs hover:text-cyan-700 flex items-center gap-1.5 uppercase tracking-wider flex-shrink-0"
           >
-            {dict.main_content.collections.view_all} <FaChevronRight size={10} />
+            {locale === 'ru' ? 'Календарь событий' : 'Event Calendar'} <FaChevronRight size={10} />
           </Link>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          <CollectionCard
-            title={dict.main_content.collections.romantic}
-            count={dict.main_content.collections.romantic_desc}
-            image="/api/images/locations/dacha/todo/eskidacha/eski_dacha.jpg"
-            tag={locale === 'ru' ? 'Уикенды' : 'Weekends'}
-            href={localize('/routes/weekends')}
-          />
-          <CollectionCard
-            title={dict.main_content.collections.family}
-            count={dict.main_content.collections.family_desc}
-            image="/api/images/locations/dalyan/beach/Istuzu/istuzu.jpg"
-            tag={locale === 'ru' ? 'Семья' : 'Family'}
-            href={localize('/articles/family-vacation-kids-entertainment')}
-          />
-          <CollectionCard
-            title={dict.main_content.collections.gastro}
-            count={dict.main_content.collections.gastro_desc}
-            image="/api/images/locations/koycegiz/todo/Seafront/seafront.jpg"
-            tag={locale === 'ru' ? 'Кухня' : 'Food'}
-            href={localize('/articles/gastronomy')}
-          />
-          <CollectionCard
-            title={dict.main_content.collections.bays}
-            count={dict.main_content.collections.bays_desc}
-            image="/api/images/locations/marmaris/beach/AmosBay/amosBay.jpg"
-            tag={locale === 'ru' ? 'Бухты' : 'Bays'}
-            href={localize('/beaches')}
-          />
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          {regionalPulseItems.map((news, idx) => (
+            <Link
+              key={idx}
+              href={news.href}
+              className="group bg-white rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md hover:border-cyan-300 transition-all duration-300 overflow-hidden flex flex-col sm:flex-row"
+            >
+              <div className="relative w-full sm:w-40 h-44 sm:h-auto flex-shrink-0 overflow-hidden">
+                <Image
+                  src={news.image}
+                  alt={news.title}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="p-4 sm:p-5 flex flex-col justify-between flex-1 min-w-0">
+                <div>
+                  <div className="flex items-center justify-between gap-2 mb-2">
+                    <span className="px-2.5 py-0.5 rounded-full bg-cyan-50 text-cyan-700 text-[10px] font-bold uppercase tracking-wider">
+                      {news.category}
+                    </span>
+                    <span className="text-[11px] font-medium text-slate-400">{news.dateLabel}</span>
+                  </div>
+                  <h3 className="font-bold text-sm sm:text-base text-slate-900 group-hover:text-cyan-700 transition-colors leading-snug mb-1.5">
+                    {news.title}
+                  </h3>
+                  <p className="text-xs text-slate-600 leading-relaxed line-clamp-2">{news.summary}</p>
+                </div>
+                <span className="mt-3 inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-cyan-600 group-hover:text-cyan-700">
+                  {locale === 'ru' ? 'Читать подробнее' : 'Read update'} <FaChevronRight size={9} />
+                </span>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
 
@@ -666,6 +655,7 @@ const QuickLinkCard = ({ icon, title, href }: { icon: React.ReactNode; title: st
 
 const MosaicCard = ({
   badge,
+  icon,
   title,
   description,
   href,
@@ -673,6 +663,7 @@ const MosaicCard = ({
   readMoreText,
 }: {
   badge: string;
+  icon: React.ReactNode;
   title: string;
   description: string;
   href: string;
@@ -691,8 +682,9 @@ const MosaicCard = ({
         className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
       />
       <div className="absolute top-3.5 left-3.5">
-        <span className="px-3 py-1 bg-white/90 backdrop-blur-md rounded-full text-[10px] font-bold uppercase tracking-wider text-cyan-700 shadow-xs">
-          {badge}
+        <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/95 backdrop-blur-md rounded-full text-[10px] font-bold uppercase tracking-wider text-cyan-700 shadow-xs">
+          {icon}
+          <span>{badge}</span>
         </span>
       </div>
     </div>
@@ -708,51 +700,15 @@ const MosaicCard = ({
   </Link>
 );
 
-const CollectionCard = ({
-  title,
-  count,
-  image,
-  tag,
-  href,
-}: {
-  title: string;
-  count: string;
-  image: string;
-  tag: string;
-  href: string;
-}) => (
-  <Link
-    href={href}
-    className="group relative h-60 rounded-2xl overflow-hidden shadow-sm border border-slate-200/60 block hover:-translate-y-1 hover:shadow-md transition-all duration-300"
-  >
-    <Image
-      src={image}
-      alt={title}
-      fill
-      className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
-    />
-    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/35 to-transparent" />
-    <div className="absolute top-3.5 right-3.5">
-      <span className="px-2.5 py-1 bg-white/20 backdrop-blur-md rounded-full text-[10px] font-bold uppercase tracking-wider text-white border border-white/25">
-        {tag}
-      </span>
-    </div>
-    <div className="absolute inset-0 flex flex-col justify-end p-5">
-      <h3 className="text-white font-bold text-base leading-snug mb-1 group-hover:text-cyan-300 transition-colors">
-        {title}
-      </h3>
-      <p className="text-white/80 text-xs font-medium">{count}</p>
-    </div>
-  </Link>
-);
-
 const KaleidoscopeCard = ({
   title,
+  subtitle,
   region,
   image,
   href,
 }: {
   title: string;
+  subtitle?: string;
   region: string;
   image: string;
   href: string;
@@ -763,7 +719,7 @@ const KaleidoscopeCard = ({
   return (
     <Link
       href={href}
-      className="block relative h-68 sm:h-72 rounded-2xl overflow-hidden shadow-sm border border-slate-200/70 group"
+      className="block relative h-72 rounded-2xl overflow-hidden shadow-sm border border-slate-200/70 group"
     >
       <Image
         src={imgSrc}
@@ -778,15 +734,18 @@ const KaleidoscopeCard = ({
         }}
       />
       <div className="absolute top-3.5 left-3.5 z-10">
-        <span className="px-2.5 py-1 rounded-full bg-slate-900/70 backdrop-blur-md text-cyan-200 border border-white/15 text-[10px] font-bold uppercase tracking-wider">
+        <span className="px-2.5 py-1 rounded-full bg-slate-900/75 backdrop-blur-md text-cyan-200 border border-white/15 text-[10px] font-bold uppercase tracking-wider">
           {region}
         </span>
       </div>
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-900/20 to-transparent group-hover:from-cyan-950/90 transition-all duration-300" />
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/25 to-transparent group-hover:from-cyan-950/90 transition-all duration-300" />
       <div className="absolute bottom-0 left-0 right-0 p-5">
         <h3 className="font-bold text-white text-base leading-snug drop-shadow-sm group-hover:text-cyan-200 transition-colors">
           {title}
         </h3>
+        {subtitle && (
+          <p className="text-white/75 text-xs font-medium mt-1 line-clamp-1">{subtitle}</p>
+        )}
         <div className="w-8 h-1 bg-cyan-400 mt-2.5 rounded-full transform scale-x-50 group-hover:scale-x-100 transition-transform origin-left duration-300" />
       </div>
     </Link>

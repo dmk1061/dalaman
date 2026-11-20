@@ -7,6 +7,7 @@ import Sidebar from "../components/Sidebar";
 import LeftSidebar from "../components/LeftSidebar";
 import Footer from "../components/Footer";
 import { buildPageMetadata } from '@/lib/seo';
+import { getKaleidoscopeLocations } from '@/lib/kaleidoscope';
 
 const homeMetaByLocale: Record<string, { title: string; description: string }> = {
     ru: {
@@ -14,16 +15,16 @@ const homeMetaByLocale: Record<string, { title: string; description: string }> =
         description: 'Ваш экспертный гид по Даламану и курортам двух морей Турции: Даламан, Сарыгерме, Дальян, Кёйджегиз, Мармарис, Датча, Гёджек, Фетхие, Олюдениз и Каш. Пляжи, маршруты, трансферы и советы.',
     },
     en: {
-        title: 'Dalaman.info — Turquoise Coast Travel Guide (Datça to Kaş)',
-        description: 'Your authoritative guide to Turkey’s Turquoise Coast: Datça, Marmaris, Köyceğiz, Dalyan, Dalaman, Göcek, Fethiye, and Kaş. Beaches, routes, airport transfers, and local tips.',
+        title: 'Dalaman.info — Turquoise Coast Travel Guide (Dalaman, Fethiye, Marmaris,Datça, Kaş)',
+        description: 'Your authoritative guide to Turkey’s Turquoise Coast around Dalaman (DLM): Datça, Marmaris, Köyceğiz, Dalyan, Dalaman, Göcek, Fethiye, and Kaş. Beaches, routes, airport transfers, and local tips.',
     },
     de: {
-        title: 'Dalaman.info — Reiseführer für die Türkische Riviera (Datça bis Kaş)',
-        description: 'Ihr Experten-Guide für die lykische & karische Küste: Datça, Marmaris, Köyceğiz, Dalyan, Dalaman, Göcek, Fethiye und Kaş. Strände, Routen und lokale Tipps.',
+        title: 'Dalaman.info — Reiseführer für Dalaman & die Küste (Marmaris, Fethiye, Datça, Kaş)',
+        description: 'Ihr Experten-Guide für die Küste rund um Dalaman (DLM): Datça, Marmaris, Köyceğiz, Dalyan, Dalaman, Göcek, Fethiye und Kaş. Strände, Routen und lokale Tipps.',
     },
     tr: {
-        title: 'Dalaman.info — Turkuaz Kıyılar Gezi Rehberi (Datça’dan Kaş’a)',
-        description: 'Türkiye’nin Turkuaz Kıyıları için kapsamlı rehber: Datça, Marmaris, Köyceğiz, Dalyan, Dalaman, Göcek, Fethiye ve Kaş. Plajlar, rotalar ve seyahat ipuçları.',
+        title: 'Dalaman.info — Dalaman ve Kıyı Bölgeleri Gezi Rehberi (Marmaris, Fethiye, Datça, Kaş)',
+        description: 'Dalaman ve çevresi için kapsamlı gezi rehberi: Datça, Marmaris, Köyceğiz, Dalyan, Dalaman, Göcek, Fethiye ve Kaş. Plajlar, rotalar ve seyahat ipuçları.',
     },
 };
 
@@ -41,6 +42,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 
 export default function Home({ params }: { params: { locale: string } }) {
     const locale = params.locale || 'en';
+    const locationsPool = getKaleidoscopeLocations(locale);
 
     return (
         <div className="flex flex-col min-h-screen bg-slate-50">
@@ -56,7 +58,7 @@ export default function Home({ params }: { params: { locale: string } }) {
 
                     {/* Center Main Content */}
                     <main className="flex-1 min-w-0 w-full">
-                        <MainContent locale={locale} />
+                        <MainContent locale={locale} locationsPool={locationsPool} />
                     </main>
 
                     {/* Right Sidebar (Wide Desktop) */}
