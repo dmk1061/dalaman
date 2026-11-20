@@ -37,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/dalaman-guide',
     '/map',
     '/pharmacies',
+    '/privacy',
     '/routes',
     '/routes/trekking',
     '/routes/weekends',

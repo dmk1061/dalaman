@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { FaCar, FaCalendarAlt, FaMapMarkerAlt, FaCheckCircle, FaShieldAlt, FaGasPump, FaCog, FaUsers, FaSearch, FaWhatsapp, FaKey } from 'react-icons/fa';
+import { FaCar, FaCalendarAlt, FaMapMarkerAlt, FaShieldAlt, FaCog, FaSearch, FaWhatsapp, FaMotorcycle, FaExternalLinkAlt } from 'react-icons/fa';
+import { getLocalrentUrl, getBikesBookingUrl, AFFILIATE_LINK_REL } from '@/lib/affiliates';
 
 export interface CarOption {
     id: string;
@@ -102,14 +103,19 @@ export default function CarRentalSmartHub({ locale = "ru" }: { locale?: string }
         liveApiBadge: isRu ? "⚡ Расчет сервера в реальном времени" : "⚡ Live Dynamic Server Calculation",
         emptyText: isRu ? "По вашим фильтрам не найдено машин. Попробуйте выбрать 'Все классы' или изменить условия залога." : "No cars match your exact filter. Try selecting 'All Classes' or loosening deposit restrictions.",
         whyTrustTitle: isRu ? "💡 Почему в Турции не стоит арендовать авто с блокировкой €1000 на кредитке?" : "💡 Why avoid €1000 credit card blocks in Turkey?",
-        whyTrustDesc: isRu ? "В аэропорту Даламан (DLM) крупные международные сети (Hertz, Avis, Enterprise) часто блокируют от €800 до €1500 на кредитной карте и требуют международные права. В 90% случаев туристы и экспаты выбирают проверенные локальные турецкие автопарки (через агрегатор Localrent или наш прямой контакт), где залог составляет всего €0 - €100 наличными или дебетовой картой, а выдача занимает ровно 10 минут прямо у выхода из терминала." : "Major international chains at DLM Airport often block €800-€1500 on credit cards and enforce strict policies. Over 90% of regional travelers prefer verified Turkish local fleets (via Localrent aggregator or direct inquiry), where deposits are just €0-€100 cash/debit, with 10-minute curbside terminal delivery."
+        whyTrustDesc: isRu ? "В аэропорту Даламан (DLM) крупные международные сети (Hertz, Avis, Enterprise) часто блокируют от €800 до €1500 на кредитной карте и требуют международные права. В 90% случаев туристы и экспаты выбирают проверенные локальные турецкие автопарки (через агрегатор Localrent или наш прямой контакт), где залог составляет всего €0 - €100 наличными или дебетовой картой, а выдача занимает ровно 10 минут прямо у выхода из терминала." : "Major international chains at DLM Airport often block €800-€1500 on credit cards and enforce strict policies. Over 90% of regional travelers prefer verified Turkish local fleets (via Localrent aggregator or direct inquiry), where deposits are just €0-€100 cash/debit, with 10-minute curbside terminal delivery.",
+        bikesTitle: isRu ? "Нужен скутер, мотоцикл или велосипед?" : isDe ? "Roller, Motorrad oder Fahrrad mieten?" : isTr ? "Motosiklet, Scooter veya Bisiklet mi Lazım?" : "Need a Scooter, Motorbike, or Bicycle?",
+        bikesDesc: isRu
+            ? "Сравнивайте проверенные пункты проката скутеров, мопедов и велосипедов в Фетхие, Мармарисе, Каше и Даламане с онлайн-бронированием на BikesBooking."
+            : isDe
+                ? "Vergleichen Sie geprüfte Verleiher für Roller, Motorräder und Fahrräder in Fethiye, Marmaris, Kaş und Dalaman direkt über BikesBooking."
+                : isTr
+                    ? "Fethiye, Marmaris, Kaş ve Dalaman bölgesindeki güvenilir scooter, motosiklet ve bisiklet kiralama noktalarını BikesBooking ile karşılaştırın."
+                    : "Compare verified scooter, motorbike, and bicycle rental shops across Fethiye, Marmaris, Kaş, and Dalaman with instant booking via BikesBooking.",
+        bikesBtn: isRu ? "Арендовать скутер / байк (BikesBooking)" : isDe ? "Roller & Bikes buchen (BikesBooking)" : isTr ? "Scooter & Bisiklet Kirala (BikesBooking)" : "Rent Scooters & Bikes (BikesBooking)"
     };
 
-    const handleLocalrentSearch = (car: CarOption) => {
-        // Build clean search URL for external aggregator
-        const baseUrl = "https://localrent.com/ru/turkey/dalaman/";
-        window.open(baseUrl, "_blank");
-    };
+    const bikesBookingUrl = getBikesBookingUrl({ locale, subId: "car_hub_bikes" });
 
     const handleWhatsAppBooking = (car: CarOption) => {
         const text = encodeURIComponent(
@@ -353,13 +359,19 @@ export default function CarRentalSmartHub({ locale = "ru" }: { locale?: string }
 
                                 {/* Booking Call To Actions */}
                                 <div className="space-y-2 pt-2">
-                                    <button
-                                        onClick={() => handleLocalrentSearch(car)}
+                                    <a
+                                        href={getLocalrentUrl({
+                                            location: pickupLocation,
+                                            locale,
+                                            subId: `car_hub_${car.tier}`,
+                                        })}
+                                        target="_blank"
+                                        rel={AFFILIATE_LINK_REL}
                                         className="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-black py-3.5 px-4 rounded-2xl text-xs md:text-sm flex items-center justify-center space-x-2 shadow-lg shadow-cyan-600/20 hover:scale-[1.01] transition-all"
                                     >
                                         <FaSearch size={14} />
                                         <span>{t.btnAggregator} (Localrent)</span>
-                                    </button>
+                                    </a>
                                     
                                     <button
                                         onClick={() => handleWhatsAppBooking(car)}
@@ -373,6 +385,32 @@ export default function CarRentalSmartHub({ locale = "ru" }: { locale?: string }
                         ))}
                     </div>
                 )}
+
+                {/* BikesBooking Scooter & Bike Rental Strip */}
+                <div className="mt-8 bg-white/90 rounded-3xl p-6 border border-cyan-200/80 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                    <div className="flex items-start gap-4">
+                        <div className="w-11 h-11 rounded-2xl bg-amber-500 flex items-center justify-center text-white flex-shrink-0 shadow-md">
+                            <FaMotorcycle size={20} />
+                        </div>
+                        <div className="space-y-1">
+                            <h3 className="text-sm md:text-base font-black text-slate-900">
+                                {t.bikesTitle}
+                            </h3>
+                            <p className="text-xs text-slate-600 leading-relaxed max-w-2xl">
+                                {t.bikesDesc}
+                            </p>
+                        </div>
+                    </div>
+                    <a
+                        href={bikesBookingUrl}
+                        target="_blank"
+                        rel={AFFILIATE_LINK_REL}
+                        className="flex-shrink-0 bg-slate-900 hover:bg-slate-800 text-white font-black py-3.5 px-5 rounded-2xl text-xs uppercase tracking-wider flex items-center justify-center gap-2 shadow-md hover:scale-[1.01] transition-all"
+                    >
+                        <FaExternalLinkAlt size={12} className="text-amber-400" />
+                        <span>{t.bikesBtn}</span>
+                    </a>
+                </div>
             </div>
 
             {/* Why Trust Local Turkish Fleets Note */}

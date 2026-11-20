@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useMemo } from 'react';
-import { FaCompass, FaMapMarkedAlt, FaUsers, FaUserTie, FaSearch, FaExternalLinkAlt, FaStar, FaClock, FaCheckCircle, FaShieldAlt, FaMountain, FaShip, FaLandmark, FaTree } from 'react-icons/fa';
+import { FaCompass, FaMapMarkedAlt, FaUsers, FaUserTie, FaSearch, FaExternalLinkAlt, FaCheckCircle, FaShieldAlt, FaMountain } from 'react-icons/fa';
+import { getSputnik8Url, getTripsterUrl, getGetYourGuideUrl, AFFILIATE_LINK_REL } from '@/lib/affiliates';
 
 export interface ExcursionItem {
     id: string;
@@ -152,24 +153,9 @@ export default function ExcursionsSmartHub({ locale = "ru" }: { locale?: string 
         return tr ? "Dalaman Bölgesi Grup Turları ve Özel Rehberli Geziler" : "Group Excursions & Private Custom Tours with Local Guides";
     }
 
-    const handleSputnikSearch = () => {
-        let destination = "fethiye";
-        if (selectedResort === "marmaris") destination = "marmaris";
-        else if (selectedResort === "kas") destination = "kas";
-        else if (selectedResort === "dalyan") destination = "dalyan";
-        window.open(`https://www.sputnik8.com/ru/${destination}`, "_blank");
-    };
-
-    const handleTripsterSearch = () => {
-        let destination = "Fethiye";
-        if (selectedResort === "marmaris") destination = "Marmaris";
-        else if (selectedResort === "kas") destination = "Kas";
-        window.open(`https://experience.tripster.ru/experience/${destination}/`, "_blank");
-    };
-
-    const handleGetYourGuideSearch = () => {
-        window.open("https://www.getyourguide.com/fethiye-l1373/", "_blank");
-    };
+    const sputnikUrl = getSputnik8Url(selectedResort, "excursions_hub");
+    const tripsterUrl = getTripsterUrl(selectedResort, "excursions_hub");
+    const getYourGuideUrl = getGetYourGuideUrl(selectedResort, "excursions_hub");
 
     return (
         <section className="w-full space-y-12 my-8">
@@ -328,21 +314,25 @@ export default function ExcursionsSmartHub({ locale = "ru" }: { locale?: string 
 
                                 {/* Booking Gateway button depending on best match */}
                                 {exc.format === "group" ? (
-                                    <button
-                                        onClick={handleSputnikSearch}
+                                    <a
+                                        href={sputnikUrl}
+                                        target="_blank"
+                                        rel={AFFILIATE_LINK_REL}
                                         className="w-full bg-teal-600 hover:bg-teal-500 text-white font-black py-4 px-4 rounded-2xl text-xs sm:text-sm flex items-center justify-center space-x-2 shadow-lg hover:scale-[1.01] transition-all"
                                     >
                                         <FaSearch size={15} />
                                         <span>{isRu ? "🎟️ Забронировать на Sputnik8 (Групповой со скидкой)" : "🎟️ Book Group Tour on Sputnik8"}</span>
-                                    </button>
+                                    </a>
                                 ) : (
-                                    <button
-                                        onClick={handleTripsterSearch}
+                                    <a
+                                        href={tripsterUrl}
+                                        target="_blank"
+                                        rel={AFFILIATE_LINK_REL}
                                         className="w-full bg-purple-600 hover:bg-purple-500 text-white font-black py-4 px-4 rounded-2xl text-xs sm:text-sm flex items-center justify-center space-x-2 shadow-lg hover:scale-[1.01] transition-all"
                                     >
                                         <FaUserTie size={15} />
                                         <span>{isRu ? "👑 Забронировать на Tripster (Авторский индивидуальный тур)" : "👑 Book Private Guide on Tripster"}</span>
-                                    </button>
+                                    </a>
                                 )}
                             </div>
                         ))}
@@ -355,29 +345,35 @@ export default function ExcursionsSmartHub({ locale = "ru" }: { locale?: string 
                         {isRu ? "🔗 Быстрый переход в каталоги партнёров-агрегаторов (Фетхие, Мармарис, Каш, Дальян)" : "🔗 Direct Gateway to Official Tour Aggregators"}
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                        <button
-                            onClick={handleSputnikSearch}
+                        <a
+                            href={sputnikUrl}
+                            target="_blank"
+                            rel={AFFILIATE_LINK_REL}
                             className="w-full bg-teal-700 hover:bg-teal-600 text-white font-black py-4 px-4 rounded-2xl text-xs flex items-center justify-center space-x-2 shadow-md transition-all"
                         >
                             <FaExternalLinkAlt size={13} />
                             <span>{t.btnSputnik}</span>
-                        </button>
+                        </a>
 
-                        <button
-                            onClick={handleTripsterSearch}
+                        <a
+                            href={tripsterUrl}
+                            target="_blank"
+                            rel={AFFILIATE_LINK_REL}
                             className="w-full bg-purple-700 hover:bg-purple-600 text-white font-black py-4 px-4 rounded-2xl text-xs flex items-center justify-center space-x-2 shadow-md transition-all"
                         >
                             <FaExternalLinkAlt size={13} />
                             <span>{t.btnTripster}</span>
-                        </button>
+                        </a>
 
-                        <button
-                            onClick={handleGetYourGuideSearch}
+                        <a
+                            href={getYourGuideUrl}
+                            target="_blank"
+                            rel={AFFILIATE_LINK_REL}
                             className="w-full bg-amber-500 hover:bg-amber-400 text-slate-900 font-black py-4 px-4 rounded-2xl text-xs flex items-center justify-center space-x-2 shadow-md transition-all"
                         >
                             <FaExternalLinkAlt size={13} />
                             <span>{t.btnGetYourGuide}</span>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>

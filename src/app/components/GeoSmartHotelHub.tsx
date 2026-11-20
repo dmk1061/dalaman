@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { FaHotel, FaCalendarAlt, FaMapMarkerAlt, FaShieldAlt, FaUsers, FaSearch, FaWhatsapp, FaHome, FaStar, FaInfoCircle, FaCheckCircle, FaGlobe, FaFlag } from 'react-icons/fa';
+import { FaHotel, FaCalendarAlt, FaMapMarkerAlt, FaShieldAlt, FaUsers, FaSearch, FaWhatsapp, FaStar, FaCheckCircle, FaFlag } from 'react-icons/fa';
+import { getBookingSearchUrl, getOtelzSearchUrl, AFFILIATE_LINK_REL } from '@/lib/affiliates';
 
 export interface AccommodationItem {
     id: string;
@@ -103,14 +104,12 @@ export default function GeoSmartHotelHub({ locale = "ru" }: { locale?: string })
         legalNoteDesc: isRu ? "Согласно решению турецких судов и Закону № 1618 (TÜRSAB), зарубежные платформы (такие как Booking.com) не могут предлагать бронирование турецких отелей пользователям с турецких IP-адресов. Переключив наш шлюз в режим «🇹🇷 Я в Турции», вы попадаете в официальную турецкую систему Otelz.com — где представлены абсолютно те же отели Даламана, Фетхие и Каша с гарантией лучшей цены, плюс уникальная опция «Оплата при заселении на ресепшне» без блокировки средств на картах!" : "By order of Turkish courts and TÜRSAB Law No. 1618, international platforms (like Booking.com) restrict domestic Turkish hotel reservations from local Turkish IP addresses. By selecting our '🇹🇷 Inside Turkey' mode, you are connected directly to official Turkish partner Otelz.com — featuring the exact same hotel inventory across Dalaman, Fethiye, and Kaş with 'Pay at Hotel' options and zero upfront credit card prepayment!"
     };
 
-    const handleGatewaySearch = (item: AccommodationItem) => {
+    const getGatewayUrl = (item: AccommodationItem) => {
+        const dest = item.locationNameEn.split('/')[0].trim();
         if (geoMode === 'tr') {
-            // Route to official Otelz search gateway
-            window.open(`https://www.otelz.com/en/search?destination=${encodeURIComponent(item.locationNameEn.split('/')[0].trim())}`, "_blank");
-        } else {
-            // Route to Booking.com
-            window.open(`https://www.booking.com/searchresults.html?ss=${encodeURIComponent(item.locationNameEn.split('/')[0].trim())}`, "_blank");
+            return getOtelzSearchUrl(dest);
         }
+        return getBookingSearchUrl(dest, `hotel_hub_${item.type}`);
     };
 
     const handleWhatsAppDirect = (item: AccommodationItem) => {
@@ -386,13 +385,15 @@ export default function GeoSmartHotelHub({ locale = "ru" }: { locale?: string })
 
                                 {/* Booking Call to Actions */}
                                 <div className="space-y-2 pt-2">
-                                    <button
-                                        onClick={() => handleGatewaySearch(item)}
+                                    <a
+                                        href={getGatewayUrl(item)}
+                                        target="_blank"
+                                        rel={AFFILIATE_LINK_REL}
                                         className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-black py-3.5 px-4 rounded-2xl text-xs md:text-sm flex items-center justify-center space-x-2 shadow-lg shadow-indigo-600/20 hover:scale-[1.01] transition-all"
                                     >
                                         <FaSearch size={14} />
                                         <span>{t.btnGateway}</span>
-                                    </button>
+                                    </a>
 
                                     <button
                                         onClick={() => handleWhatsAppDirect(item)}

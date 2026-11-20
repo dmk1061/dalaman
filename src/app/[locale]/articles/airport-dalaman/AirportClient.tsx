@@ -15,8 +15,12 @@ import {
   FaArrowRight,
   FaVideo,
   FaRegBuilding,
-  FaSuitcase
+  FaSuitcase,
+  FaWifi,
+  FaShieldAlt,
+  FaCarSide
 } from 'react-icons/fa';
+import { getAiraloTurkeyUrl, getCompensairUrl, getKiwitaxiUrl, AFFILIATE_LINK_REL } from '@/lib/affiliates';
 
 interface AirportClientProps {
   locale: string;
@@ -88,7 +92,15 @@ const clientTranslations: Record<string, any> = {
     lounge_desc: "Relax before your flight in the Premium CIP Lounge (International T2). Offers free Wi-Fi, open buffet, drinks, and children's playroom.",
     transfer_title: "Need to Get to Your Resort?",
     transfer_desc: "Muttaş and Havaş shuttles depart from the domestic terminal exit after flight arrivals. You can also pre-book an individual VIP transfer.",
-    transfer_btn: "View Shuttles & Estimator"
+    transfer_btn: "View Shuttles & Estimator",
+    kiwitaxi_btn: "Book Transfer (Kiwitaxi)",
+    esim_title: "Mobile Internet eSIM in Turkey (Airalo)",
+    esim_desc: "Stay online immediately after landing at DLM without airport SIM queues or expensive roaming. Instant digital activation before your flight.",
+    esim_btn: "Get Turkey eSIM on Airalo",
+    // SOURCE [20.11.2026]: Регламент EC 261/2004 и правила турецкого регулятора SHY-Yolcu о компенсациях до 600 EUR за задержку/отмену рейса / Compensair (URL: https://www.compensair.com/en/)
+    comp_title: "Flight Delay or Cancellation Compensation",
+    comp_desc: "If your flight to or from Dalaman was delayed 3+ hours or cancelled, check if you are eligible for up to €600 compensation via Compensair.",
+    comp_btn: "Check Flight on Compensair"
   },
   ru: {
     title: "АЭРОПОРТ ДАЛАМАН (DLM)",
@@ -122,7 +134,15 @@ const clientTranslations: Record<string, any> = {
     lounge_desc: "Проведите время перед вылетом в CIP-зале Premium (международный Терминал 2). Доступен шведский стол, напитки, детский уголок и безлимитный Wi-Fi.",
     transfer_title: "Как добраться до вашего отеля?",
     transfer_desc: "Автобусы Havaş и Muttaş отправляются прямо от выхода из терминала по прибытии внутренних рейсов. Также доступен заказ VIP-трансферов.",
-    transfer_btn: "Перейти к трансферам и ценам"
+    transfer_btn: "Перейти к трансферам и ценам",
+    kiwitaxi_btn: "Заказать трансфер (Kiwitaxi)",
+    esim_title: "Мобильный интернет eSIM в Турции (Airalo)",
+    esim_desc: "Оставайтесь на связи сразу после посадки в Даламане без очередей за местной сим-картой и дорогого роуминга. Цифровая активация за 2 минуты.",
+    esim_btn: "Купить eSIM для Турции на Airalo",
+    // SOURCE [20.11.2026]: Регламент EC 261/2004 и правила турецкого регулятора SHY-Yolcu о компенсациях до 600 EUR за задержку/отмену рейса / Compensair (URL: https://www.compensair.com/en/)
+    comp_title: "Компенсация за задержку или отмену рейса",
+    comp_desc: "Если ваш рейс в Даламан или обратно задержали на 3+ часа либо отменили, проверьте право на компенсацию до €600 через Compensair.",
+    comp_btn: "Проверить рейс на Compensair"
   },
   de: {
     title: "FLUGHAFEN DALAMAN (DLM)",
@@ -156,7 +176,15 @@ const clientTranslations: Record<string, any> = {
     lounge_desc: "Entspannen Sie in der Premium CIP Lounge (Internationales T2) mit Buffet, Getränken und kostenlosem WLAN.",
     transfer_title: "Brauchen Sie einen Transfer?",
     transfer_desc: "Die Muttaş- und Havaş-Shuttles fahren direkt nach der Landung am Inlands-Ausgang ab. VIP-Transfers sind ebenfalls verfügbar.",
-    transfer_btn: "Shuttles & Preise anzeigen"
+    transfer_btn: "Shuttles & Preise anzeigen",
+    kiwitaxi_btn: "Transfer buchen (Kiwitaxi)",
+    esim_title: "Mobiles Internet eSIM für die Türkei (Airalo)",
+    esim_desc: "Direkt nach der Landung in Dalaman online sein – ohne Warteschlangen am Flughafen und ohne hohe Roaming-Kosten.",
+    esim_btn: "Türkei-eSIM bei Airalo holen",
+    // SOURCE [20.11.2026]: Регламент EC 261/2004 и правила турецкого регулятора SHY-Yolcu о компенсациях до 600 EUR за задержку/отмену рейса / Compensair (URL: https://www.compensair.com/en/)
+    comp_title: "Entschädigung bei Flugverspätung oder Ausfall",
+    comp_desc: "War Ihr Flug nach oder ab Dalaman über 3 Stunden verspätet oder annulliert? Prüfen Sie Ihren Anspruch auf bis zu €600 über Compensair.",
+    comp_btn: "Anspruch auf Compensair prüfen"
   },
   tr: {
     title: "DALAMAN HAVALİMANI (DLM)",
@@ -190,7 +218,15 @@ const clientTranslations: Record<string, any> = {
     lounge_desc: "Dış Hatlar T2 terminalindeki Premium CIP salonunda zengin ikramlar, internet ve çocuk oyun alanı eşliğinde dinlenebilirsiniz.",
     transfer_title: "Ulaşım Desteği mi Gerekiyor?",
     transfer_desc: "Muttaş ve Havaş servisleri uçuş iniş saatlerine göre terminal önünden hareket eder. Özel VIP transfer de kiralayabilirsiniz.",
-    transfer_btn: "Servis Saatleri ve Fiyatlar"
+    transfer_btn: "Servis Saatleri ve Fiyatlar",
+    kiwitaxi_btn: "Transfer Rezervasyonu (Kiwitaxi)",
+    esim_title: "Türkiye Seyahat eSIM İnternet (Airalo)",
+    esim_desc: "Dalaman'a indiğiniz anda yüksek dolaşım ücretleri ve sıra beklemeden hızlı mobil internete bağlanın.",
+    esim_btn: "Airalo'dan Türkiye eSIM Al",
+    // SOURCE [20.11.2026]: Регламент EC 261/2004 и правила турецкого регулятора SHY-Yolcu о компенсациях до 600 EUR за задержку/отмену рейса / Compensair (URL: https://www.compensair.com/en/)
+    comp_title: "Uçuş Rötarı veya İptal Tazminatı",
+    comp_desc: "Dalaman uçuşunuz 3 saatten fazla geciktiyse veya iptal edildiyse, €600'a kadar tazminat hakkınızı Compensair üzerinden ücretsiz kontrol edin.",
+    comp_btn: "Compensair ile Kontrol Et"
   }
 };
 
@@ -457,6 +493,57 @@ const AirportClient = ({ locale }: AirportClientProps) => {
           </div>
         </div>
 
+        {/* Useful Services for DLM Passengers (Airalo eSIM & Compensair) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Airalo eSIM */}
+          <div className="bg-white rounded-[2.5rem] p-8 premium-shadow border border-slate-50 flex flex-col justify-between gap-5">
+            <div className="space-y-3">
+              <div className="flex items-center gap-3 text-cyan-600">
+                <FaWifi size={24} />
+                <h3 className="font-black text-lg text-slate-800 italic uppercase">
+                  {t.esim_title}
+                </h3>
+              </div>
+              <p className="text-slate-500 text-xs font-semibold leading-relaxed">
+                {t.esim_desc}
+              </p>
+            </div>
+            <a
+              href={getAiraloTurkeyUrl({ subId: 'airport_dlm_esim' })}
+              target="_blank"
+              rel={AFFILIATE_LINK_REL}
+              className="w-full py-3.5 px-6 bg-cyan-600 hover:bg-cyan-500 text-white font-black text-xs uppercase tracking-wider rounded-2xl flex items-center justify-center gap-2 shadow-md transition-all"
+            >
+              <FaExternalLinkAlt size={11} />
+              <span>{t.esim_btn}</span>
+            </a>
+          </div>
+
+          {/* Compensair */}
+          <div className="bg-white rounded-[2.5rem] p-8 premium-shadow border border-slate-50 flex flex-col justify-between gap-5">
+            <div className="space-y-3">
+              <div className="flex items-center gap-3 text-amber-600">
+                <FaShieldAlt size={24} />
+                <h3 className="font-black text-lg text-slate-800 italic uppercase">
+                  {t.comp_title}
+                </h3>
+              </div>
+              <p className="text-slate-500 text-xs font-semibold leading-relaxed">
+                {t.comp_desc}
+              </p>
+            </div>
+            <a
+              href={getCompensairUrl({ locale, subId: 'airport_dlm_compensair' })}
+              target="_blank"
+              rel={AFFILIATE_LINK_REL}
+              className="w-full py-3.5 px-6 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs uppercase tracking-wider rounded-2xl flex items-center justify-center gap-2 shadow-md transition-all"
+            >
+              <FaExternalLinkAlt size={11} />
+              <span>{t.comp_btn}</span>
+            </a>
+          </div>
+        </div>
+
         {/* Transfers CTA */}
         <div className="bg-gradient-to-r from-slate-900 to-cyan-950 text-white rounded-[2.5rem] p-8 md:p-10 premium-shadow border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-2 text-center md:text-left">
@@ -467,13 +554,24 @@ const AirportClient = ({ locale }: AirportClientProps) => {
               {t.transfer_desc}
             </p>
           </div>
-          <Link
-            href={`/${locale}/articles/transport`}
-            className="py-4 px-8 bg-cyan-600 hover:bg-cyan-700 transition-all font-black text-xs uppercase tracking-widest rounded-full flex items-center gap-2 shadow-lg shadow-cyan-600/25 flex-shrink-0"
-          >
-            <span>{t.transfer_btn}</span>
-            <FaArrowRight size={10} />
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
+            <Link
+              href={`/${locale}/articles/transport`}
+              className="py-4 px-7 bg-cyan-600 hover:bg-cyan-700 transition-all font-black text-xs uppercase tracking-widest rounded-full flex items-center justify-center gap-2 shadow-lg shadow-cyan-600/25"
+            >
+              <span>{t.transfer_btn}</span>
+              <FaArrowRight size={10} />
+            </Link>
+            <a
+              href={getKiwitaxiUrl({ subId: 'airport_dlm_transfer' })}
+              target="_blank"
+              rel={AFFILIATE_LINK_REL}
+              className="py-4 px-7 bg-amber-500 hover:bg-amber-400 text-slate-950 transition-all font-black text-xs uppercase tracking-widest rounded-full flex items-center justify-center gap-2 shadow-lg"
+            >
+              <FaCarSide size={13} />
+              <span>{t.kiwitaxi_btn}</span>
+            </a>
+          </div>
         </div>
 
       </div>

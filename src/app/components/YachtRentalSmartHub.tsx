@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { FaShip, FaCalendarAlt, FaMapMarkerAlt, FaCheckCircle, FaShieldAlt, FaUsers, FaSearch, FaWhatsapp, FaAnchor, FaCompass, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaShip, FaCalendarAlt, FaMapMarkerAlt, FaShieldAlt, FaAnchor, FaCompass, FaWhatsapp, FaExternalLinkAlt } from 'react-icons/fa';
+import { AFFILIATE_LINK_REL } from '@/lib/affiliates';
 
 export interface YachtOption {
     id: string;
@@ -191,16 +192,11 @@ export default function YachtRentalSmartHub({ locale = "ru" }: { locale?: string
         whyTrustDesc: isRu ? "Залив Гёчека («12 островов Skopea») считается главной яхтенной Меккой восточного Средиземноморья благодаря идеальной защите от волн и десяткам бухт с ресторанными причалами. Мы интегрируем реферальные шлюзы международных агрегаторов (Click&Boat, GetMyBoat) и прямые контакты проверенных локальных судовладельцев, что гарантирует лучшую цену без переплат." : "Göcek Bay ('12 Islands of Skopea') is the premier yachting sanctuary of the Eastern Mediterranean, famed for protected waters and dozens of bay restaurants with mooring jetties. We connect you via top international gateways and direct fleet owners."
     };
 
-    const handleClickAndBoatSearch = (yacht: YachtOption) => {
-        const url = portLocation === 'gocek' 
-            ? "https://www.clickandboat.com/ru/arenda-yaht/turtsiya/gocek" 
-            : "https://www.clickandboat.com/ru/arenda-yaht/turtsiya/fethiye";
-        window.open(url, "_blank");
-    };
+    const clickAndBoatUrl = portLocation === 'gocek'
+        ? "https://www.clickandboat.com/ru/arenda-yaht/turtsiya/gocek"
+        : "https://www.clickandboat.com/ru/arenda-yaht/turtsiya/fethiye";
 
-    const handleViraviraSearch = (yacht: YachtOption) => {
-        window.open("https://www.viravira.co/en/yacht-charter/gocek", "_blank");
-    };
+    const viraviraUrl = "https://www.viravira.co/en/yacht-charter/gocek";
 
     const handleWhatsAppDirect = (yacht: YachtOption) => {
         const text = encodeURIComponent(
@@ -452,21 +448,25 @@ export default function YachtRentalSmartHub({ locale = "ru" }: { locale?: string
                                 {/* Booking Call To Actions */}
                                 <div className="space-y-2 pt-2">
                                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                                        <button
-                                            onClick={() => handleClickAndBoatSearch(yacht)}
+                                        <a
+                                            href={clickAndBoatUrl}
+                                            target="_blank"
+                                            rel={AFFILIATE_LINK_REL}
                                             className="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-black py-3 px-3 rounded-2xl text-xs flex items-center justify-center space-x-1.5 shadow-md hover:scale-[1.01] transition-all"
                                         >
                                             <FaExternalLinkAlt size={12} />
                                             <span>Click&Boat</span>
-                                        </button>
+                                        </a>
 
-                                        <button
-                                            onClick={() => handleViraviraSearch(yacht)}
+                                        <a
+                                            href={viraviraUrl}
+                                            target="_blank"
+                                            rel={AFFILIATE_LINK_REL}
                                             className="w-full bg-slate-900 hover:bg-slate-800 text-white font-black py-3 px-3 rounded-2xl text-xs flex items-center justify-center space-x-1.5 shadow-md hover:scale-[1.01] transition-all"
                                         >
                                             <FaCompass size={13} className="text-amber-400" />
                                             <span>GetMyBoat / Viravira</span>
-                                        </button>
+                                        </a>
                                     </div>
                                     
                                     <button

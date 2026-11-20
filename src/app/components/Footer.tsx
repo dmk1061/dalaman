@@ -21,6 +21,22 @@ const Footer = async ({ locale = 'ru' }: FooterProps) => {
         location: locale === 'ru' ? 'Даламан / Мугла, Турция' : locale === 'de' ? 'Dalaman / Muğla, Türkei' : locale === 'tr' ? 'Dalaman / Muğla, Türkiye' : 'Dalaman / Muğla, Türkiye',
         emergency: locale === 'ru' ? 'Экстренные службы (112) и аптеки' : locale === 'de' ? 'Notruf (112) & Apotheken' : locale === 'tr' ? 'Acil Yardım (112) & Eczaneler' : 'Emergency (112) & Pharmacies',
         contactPage: locale === 'ru' ? 'Форма обратной связи →' : locale === 'de' ? 'Kontaktformular →' : locale === 'tr' ? 'İletişim Formu →' : 'Contact & Partnership →',
+        privacyLink:
+            locale === 'ru'
+                ? 'Политика конфиденциальности и партнёрские ссылки'
+                : locale === 'de'
+                    ? 'Datenschutz & Affiliate-Hinweis'
+                    : locale === 'tr'
+                        ? 'Gizlilik Politikası ve İş Ortaklığı Bildirimi'
+                        : 'Privacy Policy & Affiliate Disclosure',
+        affiliateDisclaimer:
+            locale === 'ru'
+                ? 'Портал может получать партнёрскую комиссию с бронирований без доплаты для вас.'
+                : locale === 'de'
+                    ? 'Dieses Portal kann bei Buchungen eine Affiliate-Provision ohne Mehrkosten für Sie erhalten.'
+                    : locale === 'tr'
+                        ? 'Bu portal, rezervasyonlardan size ek maliyet yansıtmadan iş ortaklığı komisyonu kazanabilir.'
+                        : 'This site may earn an affiliate commission from bookings at no extra cost to you.',
     };
 
     return (
@@ -99,9 +115,20 @@ const Footer = async ({ locale = 'ru' }: FooterProps) => {
                     <VisitorAnalyticsWidget variant="footer" locale={locale} />
                 </div>
 
-                <div className="border-t border-cyan-600/80 mt-6 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-cyan-100">
-                    <p>{dict.footer.rights_reserved}</p>
-                    <p className="text-cyan-200/90">{dict.footer.developed_by}</p>
+                <div className="border-t border-cyan-600/80 mt-6 pt-6 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-cyan-100 text-center md:text-left">
+                    <div className="space-y-1">
+                        <p>{dict.footer.rights_reserved}</p>
+                        <p className="text-[11px] text-cyan-200/85">
+                            {contactLabels.affiliateDisclaimer}{' '}
+                            <Link
+                                href={localize('/privacy')}
+                                className="underline decoration-cyan-300/60 underline-offset-2 hover:text-white font-semibold"
+                            >
+                                {contactLabels.privacyLink}
+                            </Link>
+                        </p>
+                    </div>
+                    <p className="text-cyan-200/90 flex-shrink-0">{dict.footer.developed_by}</p>
                 </div>
             </div>
         </footer>

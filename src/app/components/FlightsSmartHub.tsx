@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { FaPlane, FaPlaneDeparture, FaPlaneArrival, FaCalendarAlt, FaUsers, FaSearch, FaShieldAlt, FaExternalLinkAlt, FaCheckCircle, FaExclamationTriangle, FaInfoCircle, FaTicketAlt } from 'react-icons/fa';
+import { FaPlane, FaPlaneDeparture, FaPlaneArrival, FaCalendarAlt, FaUsers, FaSearch, FaShieldAlt, FaExternalLinkAlt, FaCheckCircle, FaTicketAlt } from 'react-icons/fa';
+import { getAviasalesSearchUrl, getCompensairUrl, AFFILIATE_LINK_REL } from '@/lib/affiliates';
 
 export interface FlightRouteBenchmark {
     id: string;
@@ -146,8 +147,9 @@ export default function FlightsSmartHub({ locale = "ru" }: { locale?: string }) 
         }, 300);
 
         return () => clearTimeout(timer);
-    }, [originCity, departMonth, tripType, passengers]);
+    }, [originCity, departMonth, tripType, passengers, isRu]);
 
+    // SOURCE [20.11.2026]: Регламент EC 261/2004 и правила SHY-Yolcu о компенсациях до 600 EUR за задержку/отмену рейса / Compensair (URL: https://www.compensair.com/en/)
     const t = {
         badge: isRu ? "Интерактивный Авиа-Агрегатор 2026" : isDe ? "Flugsuche & DLM-Verbindungen 2026" : isTr ? "Uçak Bileti & DLM Bağlantıları 2026" : "Live Flight Search & DLM Hub 2026",
         title: isRu ? "Подбор и сравнение авиабилетов в аэропорт Даламан (DLM)" : isDe ? "Günstige Flüge nach Dalaman (DLM) vergleichen" : isTr ? "Dalaman Havalimanı (DLM) Uçak Bileti Karşılaştırma" : "Compare & Book Flights to Dalaman Airport (DLM)",
@@ -161,24 +163,27 @@ export default function FlightsSmartHub({ locale = "ru" }: { locale?: string }) 
         btnAviasales: isRu ? "✈️ Найти билеты на Aviasales (Реферальный поиск по спецтарифам)" : "✈️ Search Tickets on Aviasales (Official Partner Search)",
         btnTurkish: isRu ? "🔴 Проверить рейсы Turkish Airlines" : "🔴 Check Turkish Airlines Fleet",
         btnPegasus: isRu ? "🟡 Лоукостер Pegasus Airlines" : "🟡 Check Pegasus Airlines Budget Flights",
+        compensairTitle: isRu ? "Задержали или отменили рейс в Даламан?" : isDe ? "Flug nach Dalaman verspätet oder annulliert?" : isTr ? "Dalaman uçuşunuz rötar mı yaptı veya iptal mi oldu?" : "Delayed or Cancelled Flight to/from Dalaman?",
+        compensairDesc: isRu
+            ? "Если ваш рейс задержали на 3+ часа или отменили, вы можете получить компенсацию до €600 (по правилам EC 261 или турецкому регламенту SHY-Yolcu). Проверка заявки бесплатна."
+            : isDe
+                ? "Bei mehr als 3 Stunden Verspätung oder Annullierung haben Sie Anspruch auf bis zu €600 Entschädigung (gemäß EU-VO 261 / SHY-Yolcu). Kostenlose Prüfung über Compensair."
+                : isTr
+                    ? "Uçuşunuz 3 saatten fazla geciktiyse veya iptal edildiyse SHY-Yolcu / EC 261 kuralları kapsamında €600'a kadar tazminat alabilirsiniz. Ücretsiz kontrol edin."
+                    : "If your flight was delayed 3+ hours or cancelled, you may be entitled to up to €600 compensation under EU 261 or Turkish SHY-Yolcu rules. Free eligibility check.",
+        compensairBtn: isRu ? "Проверить компенсацию на Compensair" : isDe ? "Entschädigung mit Compensair prüfen" : isTr ? "Compensair ile Tazminat Kontrolü" : "Check Compensation via Compensair",
         whyTitle: isRu ? "💡 Советы по перелёту в Даламан (DLM) в 2026 году" : "💡 Pro Tips for Flying into Dalaman (DLM)",
         whyDesc: isRu ? "Аэропорт Даламан (код IATA: DLM) — главная воздушная гавань бирюзового побережья Турции (Фетхие, Гёчек, Мармарис, Датча, Каш). В высокий сезон (июнь–сентябрь) сюда совершают прямые рейсы Аэрофлот, S7, Turkish Airlines, Pegasus и европейские чартеры (SunExpress, TUI). Если прямые билеты разобраны, выгоднее всего брать перелёт через Стамбул (Сабиха Гёкчен SAW или Новый Аэропорт IST) — между Стамбулом и Даламаном летает до 15 внутренних рейсов в день." : "Dalaman Airport (DLM) is the gateway to Turkey's Turquoise Coast (Fethiye, Göcek, Marmaris, Kaş). During peak season, major non-stop charters operate daily. If direct seats are sold out, connecting via Istanbul (IST or SAW) offers up to 15 daily domestic shuttles at budget rates."
     };
 
-    const handleAviasalesSearch = () => {
-        // Build direct referral URL for Aviasales with prefilled origin and destination (DLM)
-        const baseUrl = isRu ? "https://www.aviasales.ru/search" : "https://www.aviasales.com/search";
-        const url = `${baseUrl}?origin_iata=${originCity}&destination_iata=DLM&passengers=${passengers}&trip_class=Y&with_request=true`;
-        window.open(url, "_blank");
-    };
-
-    const handleTurkishSearch = () => {
-        window.open("https://www.turkishairlines.com/", "_blank");
-    };
-
-    const handlePegasusSearch = () => {
-        window.open("https://www.flypgs.com/", "_blank");
-    };
+    const aviasalesUrl = getAviasalesSearchUrl({
+        originIata: originCity,
+        destinationIata: "DLM",
+        passengers,
+        locale,
+        subId: "flights_hub",
+    });
+    const compensairUrl = getCompensairUrl({ locale, subId: "flights_hub_compensair" });
 
     return (
         <section className="w-full space-y-12 my-8">
@@ -370,13 +375,15 @@ export default function FlightsSmartHub({ locale = "ru" }: { locale?: string }) 
                                     </div>
 
                                     {/* Main Call to action */}
-                                    <button
-                                        onClick={handleAviasalesSearch}
+                                    <a
+                                        href={aviasalesUrl}
+                                        target="_blank"
+                                        rel={AFFILIATE_LINK_REL}
                                         className="w-full bg-sky-600 hover:bg-sky-500 text-white font-black py-4 px-4 rounded-2xl text-xs sm:text-sm flex items-center justify-center space-x-2 shadow-lg hover:scale-[1.01] transition-all"
                                     >
                                         <FaSearch size={15} />
                                         <span>{t.btnAviasales}</span>
-                                    </button>
+                                    </a>
                                 </div>
                             ))}
                         </div>
@@ -385,22 +392,48 @@ export default function FlightsSmartHub({ locale = "ru" }: { locale?: string }) 
 
                 {/* Additional Airline Quick Search Buttons */}
                 <div className="mt-8 pt-6 border-t border-slate-200/80 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <button
-                        onClick={handleTurkishSearch}
+                    <a
+                        href="https://www.turkishairlines.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="w-full bg-slate-900 hover:bg-slate-800 text-white font-black py-3.5 px-4 rounded-2xl text-xs flex items-center justify-center space-x-2 shadow-md transition-all"
                     >
                         <FaExternalLinkAlt className="text-red-500" />
                         <span>{t.btnTurkish}</span>
-                    </button>
+                    </a>
 
-                    <button
-                        onClick={handlePegasusSearch}
+                    <a
+                        href="https://www.flypgs.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="w-full bg-amber-500 hover:bg-amber-400 text-slate-900 font-black py-3.5 px-4 rounded-2xl text-xs flex items-center justify-center space-x-2 shadow-md transition-all"
                     >
                         <FaExternalLinkAlt className="text-slate-900" />
                         <span>{t.btnPegasus}</span>
-                    </button>
+                    </a>
                 </div>
+            </div>
+
+            {/* Compensair Flight Delay Compensation Banner */}
+            <div className="bg-gradient-to-r from-amber-50 via-white to-orange-50/70 rounded-[2rem] p-6 md:p-8 border border-amber-200/80 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 shadow-md">
+                <div className="space-y-2">
+                    <div className="flex items-center space-x-3 text-amber-800 font-black text-sm md:text-base uppercase tracking-tight">
+                        <FaShieldAlt size={20} className="text-amber-600 flex-shrink-0" />
+                        <span>{t.compensairTitle}</span>
+                    </div>
+                    <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-medium max-w-3xl">
+                        {t.compensairDesc}
+                    </p>
+                </div>
+                <a
+                    href={compensairUrl}
+                    target="_blank"
+                    rel={AFFILIATE_LINK_REL}
+                    className="flex-shrink-0 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black py-3.5 px-6 rounded-2xl text-xs uppercase tracking-wider flex items-center justify-center gap-2 shadow-md hover:scale-[1.01] transition-all"
+                >
+                    <FaExternalLinkAlt size={12} />
+                    <span>{t.compensairBtn}</span>
+                </a>
             </div>
 
             {/* Airport Guide Info Banner */}

@@ -4,7 +4,9 @@ export const SITE_CONFIG = {
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '905300000000',
   telegramBot: process.env.NEXT_PUBLIC_TELEGRAM_BOT || 'dalaman_concierge_bot',
   affiliates: {
-    enabled: process.env.NEXT_PUBLIC_AFFILIATES_ENABLED === 'true',
+    enabled: process.env.NEXT_PUBLIC_AFFILIATES_ENABLED !== 'false',
+    travelpayoutsMarker: process.env.NEXT_PUBLIC_TP_MARKER || '809006',
+    travelpayoutsTrs: process.env.NEXT_PUBLIC_TP_TRS || '604146',
     aviasalesMarker: process.env.NEXT_PUBLIC_AVIASALES_MARKER || '',
     localrentPartnerId: process.env.NEXT_PUBLIC_LOCALRENT_PARTNER_ID || '',
     bookingAid: process.env.NEXT_PUBLIC_BOOKING_AID || '',

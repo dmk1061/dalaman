@@ -4,8 +4,9 @@ import React, { useState } from "react";
 import { 
     FaCarSide, FaBus, FaTaxi, FaWhatsapp, FaTelegramPlane, 
     FaClock, FaMapMarkerAlt, FaCheckCircle, FaShieldAlt, 
-    FaInfoCircle, FaUsers, FaSuitcaseRolling, FaBabyCarriage 
+    FaInfoCircle, FaUsers, FaExternalLinkAlt
 } from "react-icons/fa";
+import { getKiwitaxiUrl, getGetTransferUrl, AFFILIATE_LINK_REL } from "@/lib/affiliates";
 
 interface TransferRoute {
     id: string;
@@ -799,6 +800,54 @@ export default function TransfersSmartHub({ locale = "ru" }: { locale?: string }
                                     ? "🔒 Гарантия честной цены: Вы связываетесь с диспетчером напрямую без скрытых комиссий и наценок за пробки." 
                                     : "🔒 Honest Price Guarantee: Direct connection with dispatchers with zero hidden fees or traffic delays surcharges."}
                             </span>
+                        </div>
+
+                        {/* ONLINE INSTANT BOOKING AGGREGATORS */}
+                        <div className="pt-5 border-t border-white/10 space-y-3">
+                            <div>
+                                <h5 className="text-xs md:text-sm font-black uppercase tracking-wider text-cyan-300">
+                                    {isRu
+                                        ? "⚡ Онлайн-бронирование с мгновенным подтверждением и оплатой картой"
+                                        : isDe
+                                            ? "⚡ Online-Sofortbuchung mit garantierter Bestätigung & Kartenzahlung"
+                                            : isTr
+                                                ? "⚡ Anında Onay ve Kartla Ödeme ile Online Transfer Rezervasyonu"
+                                                : "⚡ Instant Online Booking with Card Payment & Confirmed Driver"}
+                                </h5>
+                                <p className="text-[11px] text-slate-300 mt-1">
+                                    {isRu
+                                        ? "Предпочитаете сразу оплатить картой онлайн и получить ваучер? Сравните предложения международных агрегаторов из аэропорта Даламан (DLM):"
+                                        : isDe
+                                            ? "Sie möchten direkt online per Karte zahlen und sofort einen Voucher erhalten? Vergleichen Sie internationale Transfer-Plattformen ab DLM:"
+                                            : isTr
+                                                ? "Kredi kartıyla anında online ödeme yapıp kupon almak ister misiniz? DLM havalimanı için uluslararası transfer platformlarını karşılaştırın:"
+                                                : "Prefer to pay online by card and receive an instant booking voucher? Compare fixed rates on official international transfer platforms from DLM:"}
+                                </p>
+                            </div>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <a
+                                    href={getKiwitaxiUrl({ subId: `transfers_hub_${dropoffId}` })}
+                                    target="_blank"
+                                    rel={AFFILIATE_LINK_REL}
+                                    className="py-3.5 px-5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs uppercase tracking-wider rounded-2xl shadow-lg transition-all flex items-center justify-center gap-2 hover:scale-[1.01]"
+                                >
+                                    <FaExternalLinkAlt size={12} />
+                                    <span>
+                                        {isRu ? "Заказать на Kiwitaxi (фикс. цена)" : isDe ? "Bei Kiwitaxi buchen (Festpreis)" : isTr ? "Kiwitaxi ile Sabit Fiyatlı Rezervasyon" : "Book on Kiwitaxi (Fixed Price)"}
+                                    </span>
+                                </a>
+                                <a
+                                    href={getGetTransferUrl({ locale, subId: `transfers_hub_${dropoffId}` })}
+                                    target="_blank"
+                                    rel={AFFILIATE_LINK_REL}
+                                    className="py-3.5 px-5 bg-white/10 hover:bg-white/20 text-white border border-white/20 font-black text-xs uppercase tracking-wider rounded-2xl shadow-lg transition-all flex items-center justify-center gap-2 hover:scale-[1.01]"
+                                >
+                                    <FaExternalLinkAlt size={12} className="text-cyan-400" />
+                                    <span>
+                                        {isRu ? "Выбрать авто на GetTransfer" : isDe ? "Angebote auf GetTransfer vergleichen" : isTr ? "GetTransfer Tekliflerini Gör" : "Compare Bids on GetTransfer"}
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
