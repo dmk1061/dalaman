@@ -5,6 +5,7 @@ import Image from "next/image";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import { buildPageMetadata } from "@/lib/seo";
+import { SITE_CONFIG } from "@/lib/site-config";
 import { FaShieldAlt, FaCheckCircle, FaBookOpen, FaExternalLinkAlt, FaInfoCircle, FaPhoneAlt, FaMapMarkerAlt, FaStar, FaChevronRight } from "react-icons/fa";
 import TransfersSmartHub from "@/app/components/TransfersSmartHub";
 import CarRentalSmartHub from "@/app/components/CarRentalSmartHub";
@@ -598,28 +599,28 @@ const servicesRegistry: Record<string, ServiceItem> = {
         },
         features: {
             ru: [
-                "Электронная почта редакции: info@dalaman.info",
+                `Электронная почта редакции: ${SITE_CONFIG.contactEmail}`,
                 "Локальная координация и проверка данных: Даламан, Фетхие, Каш",
                 "Сотрудничество с лицензированными трансферными компаниями и яхт-клубами",
                 "Размещение проверенных объектов недвижимости и отелей в каталоге",
                 "Открытая линия для сообщения об изменениях в расписании паромов и автобусов"
             ],
             en: [
-                "Official editorial inquiry email: info@dalaman.info",
+                `Official editorial inquiry email: ${SITE_CONFIG.contactEmail}`,
                 "On-the-ground regional verification: Dalaman, Fethiye, Kaş, and Marmaris",
                 "Partnership opportunities for licensed TURSAB agencies and yacht marinas",
                 "Curated listing applications for high-end villas and boutique hotels",
                 "Open community line for updating ferry schedules and bus timetable changes"
             ],
             de: [
-                "Offizielle Redaktions-E-Mail: info@dalaman.info",
+                `Offizielle Redaktions-E-Mail: ${SITE_CONFIG.contactEmail}`,
                 "Lokale Datenüberprüfung vor Ort: Dalaman, Fethiye, Kaş und Marmaris",
                 "Kooperationen für lizenzierte TURSAB-Agenturen und Yacht-Marinas",
                 "Aufnahmeanträge für ausgewählte Ferienvillen und Boutique-Hotels",
                 "Meldekanal für Fahrplanänderungen bei Fähren und Bussen"
             ],
             tr: [
-                "Resmi editör ve iletişim e-posta adresi: info@dalaman.info",
+                `Resmi editör ve iletişim e-posta adresi: ${SITE_CONFIG.contactEmail}`,
                 "Bölgesel saha doğrulaması: Dalaman, Fethiye, Kaş ve Marmaris merkezleri",
                 "TÜRSAB lisanslı acenteler ve yat marinaları için işbirliği fırsatları",
                 "Seçkin villa ve butik oteller için rehberde yer alma başvuruları",

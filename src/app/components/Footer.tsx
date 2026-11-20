@@ -3,6 +3,7 @@ import { FaMapMarkerAlt, FaMedkit, FaEnvelope } from 'react-icons/fa';
 import Link from 'next/link';
 import VisitorAnalyticsWidget from '@/app/components/VisitorAnalyticsWidget';
 import { getDictionary, Locale } from '@/lib/dictionary';
+import { SITE_CONFIG } from '@/lib/site-config';
 
 type FooterProps = {
   locale?: string;
@@ -84,8 +85,8 @@ const Footer = async ({ locale = 'ru' }: FooterProps) => {
                         <ul className="space-y-3 text-sm text-cyan-50">
                             <li className="flex items-start gap-2.5">
                                 <FaEnvelope className="mt-1 text-cyan-300 flex-shrink-0" size={13} />
-                                <a href="mailto:info@dalaman.info" className="hover:text-white transition-colors font-medium break-all">
-                                    info@dalaman.info
+                                <a href={`mailto:${SITE_CONFIG.contactEmail}`} className="hover:text-white transition-colors font-medium break-all">
+                                    {SITE_CONFIG.contactEmail}
                                 </a>
                             </li>
                             <li className="flex items-start gap-2.5">

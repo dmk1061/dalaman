@@ -1,6 +1,9 @@
 export const SITE_CONFIG = {
   siteUrl: (process.env.NEXT_PUBLIC_SITE_URL || 'https://dalaman.info').replace(/\/+$/, ''),
-  contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'info@dalaman.info',
+  contactEmail:
+    process.env.NEXT_PUBLIC_CONTACT_EMAIL && process.env.NEXT_PUBLIC_CONTACT_EMAIL !== 'info@dalaman.info'
+      ? process.env.NEXT_PUBLIC_CONTACT_EMAIL
+      : 'dmk1061@gmail.com',
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '905300000000',
   telegramBot: process.env.NEXT_PUBLIC_TELEGRAM_BOT || 'dalaman_concierge_bot',
   affiliates: {

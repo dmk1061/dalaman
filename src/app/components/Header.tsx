@@ -4,6 +4,7 @@ import { FaChevronRight, FaCompass, FaShieldAlt } from 'react-icons/fa';
 import { FiChevronDown } from 'react-icons/fi';
 import Link from 'next/link';
 import { getDictionary, Locale } from '@/lib/dictionary';
+import { SITE_CONFIG } from '@/lib/site-config';
 import LanguageSwitcher from './LanguageSwitcher';
 import GlobalSearch from './GlobalSearch';
 import SideMenu from './SideMenu';
@@ -102,9 +103,9 @@ const Header = async ({ locale = 'ru' }: HeaderProps) => {
               <span>{dict.header.contact_us}</span>
               <FaChevronRight size={8} />
             </Link>
-            <a href="mailto:info@dalaman.info" className="hidden sm:flex items-center gap-1.5 text-cyan-100 hover:text-white transition-colors">
+            <a href={`mailto:${SITE_CONFIG.contactEmail}`} className="hidden sm:flex items-center gap-1.5 text-cyan-100 hover:text-white transition-colors">
               <MdEmail size={13} />
-              <span>info@dalaman.info</span>
+              <span>{SITE_CONFIG.contactEmail}</span>
             </a>
             <Link href={localize('/articles/useful-contacts')} className="hidden md:flex items-center gap-1 text-cyan-100 hover:text-white transition-colors">
               <FaShieldAlt size={11} />
