@@ -39,3 +39,12 @@ Direkt vor dem Hafen (*Kaş Limanı*) liegt zum Greifen nah das winzige griechis
 - **Wichtige Einreise- und Passregeln (DACH & Drittstaaten):** **Deutsche und österreichische Staatsbürger** überqueren diese EU-Außengrenze visumfrei mit gültigem **Personalausweis** oder **Reisepass**; **Schweizer Staatsbürgern** wird die Mitnahme eines gültigen **Reisepasses** empfohlen. Lassen Sie sich von Schlagzeilen über ein griechisches 7-Tage-*Gate Visa* nicht verwirren: Dieses Sonderprogramm richtet sich ausschließlich an türkische Staatsbürger. Reisende mit Pässen visumpflichtiger Drittstaaten benötigen zwingend ein gültiges **Multi-Entry-Schengen-Visum** (eine türkische Aufenthaltserlaubnis *İkamet* ersetzt kein Schengen-Visum!). Beachten Sie zudem für Ihren gesamten Türkeiaufenthalt, dass ein Tagesausflug nach Meis die visumfreien türkischen Aufenthaltstage nicht automatisch neu startet.
 
 > **Insider-Tipp zu Reisezeit und Quartier:** Am zauberhaftesten zeigt sich Kaş im **Mai–Juni und September–Oktober**, wenn keine bleierne Mittagshitze über den Gassen hängt; Ende August lädt zudem das atmosphärische *Kaş Caz Festivali* (siehe [Veranstaltungskalender](/de/articles/events-and-festivals-calendar)). Da die Altstadt sehr steil gebaut ist und viele Treppen aufweist, wohnen Reisende mit Kinderwagen oder eingeschränkter Mobilität deutlich entspannter auf den ebenen Panoramaterrassen der Halbinsel Çukurbağ oder etwas abseits der lauten Nachtbars (Auswahlhilfen liefert unser Guide zu [Hotels und Villen](/de/articles/accommodation)). Aus [Dalaman](/de/articles/transport) fahren regelmäßige Linienbusse mit Umstieg in Fethiye direkt nach Kaş.
+
+
+---
+
+### 🔗 Siehe auch
+- **[Kalkan Guide (2026)](/de/articles/kalkan-guide)** — weiße Villen, Dachterrassen und Badeplattformen 25 km westlich.
+- **[Kekova & Simena (Kaleköy)](/de/articles/kekova-simena-kalekoy)** — versunkene Ruinen und das autofreie Burgdorf per Boot oder Kajak.
+- **[Patara Guide (2026)](/de/articles/patara-guide)** — 18 km Sanddünen, antikes Parlament und Dorf Gelemiş.
+- **[Demre & das antike Myra](/de/articles/myra-ancient-city)** — Felsengräber und Nikolauskirche 50 Minuten östlich.

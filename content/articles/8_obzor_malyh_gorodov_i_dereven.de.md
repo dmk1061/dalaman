@@ -14,7 +14,7 @@ Statt hoher Hotelblöcke prägen Naturstein und geschnitzte Holzerker das Straß
 
 ## Akyaka: Osmanisches Holzhandwerk und der eisige Azmak-Fluss
 
-Am Ostende des Golfs von Gökova (rund 35 km nördlich von Marmaris und ca. 70 km vom Flughafen Dalaman) steht ein Ort, den in der Türkei strenge Baugestaltung vor Verwechselbarkeit schützte. Anfang der 1970er Jahre entwarf der Dichter und Autodidakt Nail Çakırhan hier ein Haus nach dem Vorbild traditioneller Herrenhäuser aus der Region Ula — mit weit auskragenden Ziegeldächern und kunstvoll geschnitzten Holzdecken. **1983** erhielt das Projekt den renommierten **Aga Khan Award for Architecture**, und seither schreibt die Gemeinde diesen Stil verbindlich für alle Neubauten vor.
+Am Ostende des Golfs von Gökova (rund 35 km nördlich von Marmaris und ca. 70 km vom Flughafen Dalaman) steht mit **[Akyaka](/de/articles/akyaka-azmak)** ein Ort, den in der Türkei strenge Baugestaltung vor Verwechselbarkeit schützte. Anfang der 1970er Jahre entwarf der Dichter und Autodidakt Nail Çakırhan hier ein Haus nach dem Vorbild traditioneller Herrenhäuser aus der Region Ula — mit weit auskragenden Ziegeldächern und kunstvoll geschnitzten Holzdecken. **1983** erhielt das Projekt den renommierten **Aga Khan Award for Architecture**, und seither schreibt die Gemeinde diesen Stil verbindlich für alle Neubauten vor.
 
 Hauptanziehungspunkt ist der **Fluss Azmak (*Kadın Azmağı*)**: Glasklares, ganzjährig nur etwa **+10 bis +12 °C** kaltes Quellwasser strömt hier aus Bergkarstspalten ins Meer. Über Schilfbänken und zwischen Flusskröten stehen Restaurants direkt auf Pfählen im Wasser, während vorne am Strand stetiger Thermikwind Akyaka zum ersten Hotspot für **[Kitesurfer](/de/articles/kitesurfing)** macht.
 
@@ -26,7 +26,7 @@ In den 1990er Jahren zogen Künstler aus Istanbul und der berühmte türkische D
 
 ## Selimiye, Orhaniye und Bozburun: Das stille Segler-Revier
 
-Die gebirgige Halbinsel Bozburun südwestlich von **[Marmaris](/de/marmaris)** bekam erst spät ausgebaute Straßen — genau das konservierte ihr dörfliches Seefahrergesicht:
+Die gebirgige **[Halbinsel Bozburun](/de/articles/bozburun-selimiye-orhaniye)** südwestlich von **[Marmaris](/de/marmaris)** bekam erst spät ausgebaute Straßen — genau das konservierte ihr dörfliches Seefahrergesicht:
 
 * **Selimiye:** Eine ruhige Bucht mit spiegelglattem Wasser, deren Uferweg sich zu einer feinen Adresse für Fischliebhaber entwickelt hat. Abends machen Segelyachten direkt vor den Tischen der Tavernen fest.
 * **Orhaniye und die Landzunge Kızkumu:** Bekannt für die rund **600 Meter** lange, flache Sandbank **Kızkumu**, die von der Küste mitten ins Becken ragt — Spaziergänger darauf wirken aus der Ferne, als liefen sie übers Wasser.
@@ -45,7 +45,7 @@ Steigt die Straße über **[Fethiye](/de/fethiye)** und Ölüdeniz in die Kiefer
 
 * **[Kayaköy](/de/articles/kayakoy-ghost-town) (einst Levissi):** Ein stilles Hochtal acht Kilometer südlich von Fethiye, über dessen Hang sich **über 500 bis 700 verlassene Steinhäuser** und zwei stattliche orthodoxe Kirchen aus der Zeit vor 1923 erstrecken. Rund um die Ruinen servieren Gartenlokale Holzkohlegrills im Prinzip *Kendin pişir kendin ye* („selbst am Tischgrill brutzeln“), daneben gibt es Reiterhöfe.
 * **[Yeşilüzümlü](/de/articles/yesiluzumlu-village):** Auf rund 500 m Höhe in einem kühlen Kiefertall (20 km ab Fethiye) bleibt es im Hochsommer 5 bis 6 °C frischer als am Meer. Bekannt ist das Dorf für lokales Winzerhandwerk, handgewebte *Dastar*-Baumwolltücher und das alljährliche Morchelfest im April.
-* **Faralya und das Kabak-Tal:** Winzige Ansiedlungen auf 350 m hohen Steilklippen unmittelbar über dem **[Schmetterlingstal](/de/articles/butterfly-valley)** — eine Welt aus Holz-Bungalows, Yoga-Terrassen und einsamen Blicken übers offene Meer.
+* **[Faralya und das Kabak-Tal](/de/articles/faralya-kabak):** Winzige Ansiedlungen auf 350 m hohen Steilklippen unmittelbar über dem **[Schmetterlingstal](/de/articles/butterfly-valley)** — eine Welt aus Holz-Bungalows, Yoga-Terrassen und einsamen Blicken übers offene Meer.
 
 ## Turunç und İçmeler: Die ruhigen Nachbarn von Marmaris
 
@@ -56,6 +56,7 @@ Hinter dem grünen Kap westlich von Marmaris lockt zuerst **[İçmeler](/de/arti
 ---
 
 ### Siehe auch
+- **[Alle Küstenorte, Badeorte & Dörfer](/de/city-guide#satellites)** — interaktiver Vergleich aller Urlaubsorte von Datça bis Kaş.
 - **[Die größeren Ferienorte im Vergleich](/de/articles/main-resorts)** — Übersicht über Marmaris, Fethiye, Kaş & Co.
 - **[Kayaköy: Das verlassene Dorf über Fethiye](/de/articles/kayakoy-ghost-town)** — Geschichte und Wanderwege bis ans Wasser.
 - **[Dalyan und der Köyceğiz-See](/de/articles/dalyan-guide)** — Programm für zwei ruhige Tage abseits der Massen.

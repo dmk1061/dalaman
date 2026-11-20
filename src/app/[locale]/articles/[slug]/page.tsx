@@ -57,6 +57,13 @@ const slugImages: Record<string, string> = {
     'myra-ancient-city': '/api/images/locations/kas/ruines/kekova/kekova.jpg',
     'pamukkale-hierapolis': '/dalaman1.jpg',
     'st-nicholas-island': '/api/images/locations/fethiye/beach/belcekiz/belcekiz2.jpg',
+    'akyaka-azmak': '/api/images/locations/marmaris/beach/Akyaka/Akyaka.jpg',
+    'faralya-kabak': '/api/images/locations/fethiye/beach/kabakkoyu/kabakkoyu.jpg',
+    'kekova-simena-kalekoy': '/api/images/locations/kas/ruines/kekova/kekova.jpg',
+    'patara-guide': '/api/images/locations/kas/beach/patara/patara.jpg',
+    'yuvarlakcay-guide': '/api/images/locations/koycegiz/todo/Youvarlakcay/youvarklakcay.jpg',
+    'sarigerme-guide': '/api/images/locations/dalaman/beach/Sarigerme/sarigerme.jpg',
+    'sarsala-bay': '/api/images/locations/dalaman/beach/Sarsala/sarsala.jpg',
 };
 
 function getArticleFilePaths(dir: string = articlesDirectory): string[] {

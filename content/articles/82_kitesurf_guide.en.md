@@ -79,6 +79,7 @@ Close the browser tab immediately on any clickbait page urging kiteboards toward
 ---
 
 ### 🔗 See Also
+- **[Akyaka & Azmak River Guide (2026)](/en/articles/akyaka-azmak)** — wooden architecture, ice-cold spring river, and Akçapınar kite hub.
 - **[Datça Peninsula Guide](/en/articles/datca-peninsula)** — reaching Kızlan/Gebekum wind beaches and ferry crossings.
 - **[Sarıgerme Guide (2026)](/en/articles/sarigerme-guide)** — calm 7–12 kt family breezes 20 minutes from `DLM`.
 - **[Çalış Beach in Fethiye](/en/articles/calis-beach)** — afternoon windsurfing scenes by *Surf Cafe*.

@@ -33,3 +33,12 @@ Limandan yalnızca **6–7 kilometre** karşınızda Yunanistan'ın en doğudaki
 **Merdiven ve Festival Uyarısı:** Her Ağustos'ta düzenlenen **[Kaş Caz Festivali](/tr/articles/events-and-festivals-calendar)** kasabaya ayrı bir enerji katar. Merkez sokakları çok dik taş merdivenlerle dolu olduğundan pusetli aileler ve yürümekte zorlanan misafirler için Çukurbağ Yarımadası'nda konaklamak çok daha rahattır.
 
 <!-- SOURCE [19.11.2026]: T.C. GİB 2026 Yurt Dışı Çıkış Harcı tarifesi, Yunanistan Kapıda Vize uygulaması ve Kaş–Meis feribot sefer düzeni (URL: https://www.kas.bel.tr/) -->
+
+
+---
+
+### 🔗 İlgili Rehberler
+- **[Kalkan Gezi Rehberi (2026)](/tr/articles/kalkan-guide)** — 25 km batıda beyaz taşlı villalar, teraslar ve plaj kulüpleri.
+- **[Kekova ve Simena (Kaleköy)](/tr/articles/kekova-simena-kalekoy)** — batık kent, arabasız kale köyü ve sabah kano turları.
+- **[Patara Plajı ve Antik Kenti](/tr/articles/patara-guide)** — 18 km kumullar, antik Likya Meclisi ve Gelemiş köyü.
+- **[Demre ve Antik Myra](/tr/articles/myra-ancient-city)** — Kaş doğusunda kaya mezarları ve Noel Baba Kilisesi.

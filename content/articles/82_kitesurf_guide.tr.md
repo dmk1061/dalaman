@@ -61,3 +61,11 @@ description: "Dalaman çevresinde kitesurf rehberi: Akyaka Akçapınar, Datça K
 Sahile çıkmadan önce poliçenizde **"ekstrem/su sporları teminatı"** olup olmadığını kontrol edin (**[pratik kurallar](/tr/articles/useful-tips)**), denizde diğer sörfçülere ve yüzme şamandıralarına **en az 50 metre** mesafe bırakın; su üstü acil durumlarda Sahil Güvenlik ve genel acil hat **112** üzerinden yönlendirilir.
 
 <!-- SOURCE [19.11.2026]: IKO Gökova (Akyaka) ve Datça Kızlan rüzgâr sörfü merkezleri sezon verileri (URL: https://www.ikointl.com/) -->
+
+
+---
+
+### 🔗 İlgili Rehberler
+- **[Akyaka ve Kadın Azmağı Rehberi (2026)](/tr/articles/akyaka-azmak)** — Ula ahşap mimarisi, buz gibi nehir ve Akçapınar kite plajı.
+- **[Sarıgerme Gezi Rehberi (2026)](/tr/articles/sarigerme-guide)** — Dalaman'a 20 dakika mesafede hafif başlangıç rüzgârları.
+- **[Datça Yarımadası](/tr/articles/datca-peninsula)** — Kızlan rüzgâr sörfü kıyıları ve Knidos.

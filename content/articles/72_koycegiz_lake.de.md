@@ -41,3 +41,11 @@ Nur **15 bis 20 Fahrminuten** nordöstlich von Köyceğiz Richtung Bergdörfer B
 - **Toparlar-Wasserfall (*Toparlar Şelalesi*):** Ein kurzer, unkomplizierter Spaziergang durch Oleander und Wald führt zu zwei kühlen Kaskaden samt natürlichem Süßwasserbecken zum Eintauchen.
 
 > **Insider-Tipp für Übernachtungen am See:** Köyceğiz passt nicht für Badeurlauber, die vom Balkon direkt in salzige Wellen springen möchten – die nächsten Meeresstrände liegen 35 km entfernt in der [Bucht von Ekincik](/de/articles/ekincik-bay) oder bei İztuzu. Wer dagegen auf einer Rundreise per Mietwagen (oder ruhig im Winterhalbjahr) für ein, zwei Tage in einem Apartment oder einer Pension inmitten von Zitrushainen zur Ruhe kommen will, erlebt hier eine selten authentische Türkei. Am Steg nahe der Promenade verleihen lokale Anbieter morgens Kajaks und SUP-Boards fürs spiegelglatte Wasser, und zwei Kilometer südlich lockt ein gemütlicher Campingplatz an der Flussmündung – abgerundet von abendlichem Tee unter Eukalypten bei +24 °C.
+
+
+---
+
+### 🔗 Siehe auch
+- **[Yuvarlakçay Guide (2026)](/de/articles/yuvarlakcay-guide)** — eiskalter Bergfluss (+10 °C), Holzpodeste über dem Strom, Schaukeln & Forellen.
+- **[Dalyan-Guide (2026)](/de/articles/dalyan-guide)** — vom See flussabwärts vorbei an den Felsengräbern nach İztuzu.
+- **[Bucht von Ekincik](/de/articles/ekincik-bay)** — ruhige Seglerbucht 35 km über den Pass.

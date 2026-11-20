@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaPlane, FaBus, FaTaxi, FaCarSide, FaKey, FaCompass, FaSun, FaUtensils, FaLandmark } from 'react-icons/fa';
+import { FaPlane, FaBus, FaTaxi, FaCarSide, FaKey, FaCompass, FaSun, FaUtensils, FaLandmark, FaMapMarkedAlt } from 'react-icons/fa';
 import { getDictionary, Locale } from '@/lib/dictionary';
 
 type LeftSidebarProps = {
@@ -48,6 +48,18 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
   ];
 
   const interactiveServicesLinks = [
+    {
+      title:
+        locale === 'ru'
+          ? 'Все курорты: куда поехать?'
+          : locale === 'de'
+          ? 'Alle Orte: Wohin reisen?'
+          : locale === 'tr'
+          ? 'Tüm Bölgeler: Nereye Gitmeli?'
+          : 'All Resorts: Where to Go?',
+      href: '/city-guide',
+      icon: <FaMapMarkedAlt className="text-cyan-600" />,
+    },
     {
       title:
         locale === 'ru'

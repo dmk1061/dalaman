@@ -168,6 +168,22 @@ const SideMenu = ({ isOpen: controlledOpen, onClose, locale: propLocale }: SideM
                 </Link>
               ))}
             </div>
+            <Link
+              href={localize('/city-guide')}
+              onClick={handleClose}
+              className="mt-2.5 w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-cyan-50 hover:bg-cyan-100 text-cyan-800 border border-cyan-200/80 text-xs font-bold transition-colors"
+            >
+              <span>
+                {locale === 'ru'
+                  ? 'Сравнить все 8 курортов'
+                  : locale === 'de'
+                  ? 'Alle 8 Orte vergleichen'
+                  : locale === 'tr'
+                  ? '8 Bölgeyi Karşılaştır'
+                  : 'Compare All 8 Resorts'}
+              </span>
+              <FaChevronRight size={10} className="text-cyan-600" />
+            </Link>
           </div>
 
           {/* Main Navigation */}

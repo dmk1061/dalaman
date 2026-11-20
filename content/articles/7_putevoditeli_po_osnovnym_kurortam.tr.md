@@ -101,7 +101,7 @@ Daha batıya uzandığınızda **[Datça Yarımadası](/tr/articles/datca-penins
 
 ## Doğu Ucu: Kalkan ve Kaş
 
-**[Kalkan](/tr/kas)** beyaz taşlı yamaç boyunca basamak basamak denize inen manzaralı villaları ve teras restoranlarıyla öne çıkar. Buradan 25 kilometre doğudaki **[Kaş](/tr/articles/kas-guide)** ise büyük tur operatörlerinden bağımsız bohem ruhunu korumuştur: begonvilli taş çarşı, liman çevresindeki dalış okulları, **antik tiyatro** basamaklarında günbatımı ve 20 dakikalık Yunanistan Meis feribotu. Merkezde kumsal olmadığını bilerek gidin — gündüz ahşap platformlardan derin suya atlanır, kum veya çakıl içinse Kaputaş ve Patara'ya sürülür.
+**[Kalkan](/tr/articles/kalkan-guide)** ([Kaş & Kalkan özeti](/tr/kas)) beyaz taşlı yamaç boyunca basamak basamak denize inen manzaralı villaları ve teras restoranlarıyla öne çıkar. Buradan 25 kilometre doğudaki **[Kaş](/tr/articles/kas-guide)** ise büyük tur operatörlerinden bağımsız bohem ruhunu korumuştur: begonvilli taş çarşı, liman çevresindeki dalış okulları, **antik tiyatro** basamaklarında günbatımı, **[batık kent Kekova ve Simena](/tr/articles/kekova-simena-kalekoy)** tekne turları ve 20 dakikalık Yunanistan Meis feribotu. Merkezde kumsal olmadığını bilerek gidin — gündüz ahşap platformlardan derin suya atlanır, kum veya çakıl içinse Kaputaş ve **[Patara](/tr/articles/patara-guide)**'ya sürülür.
 
 > [!TIP]
 > **Rota Stratejisi:** Elinizde 10–14 gün ve araç varsa tüm tatili tek otele kilitlemeyin. Bölgeyi ilk kez keşfetmenin en verimli yolu konaklamayı ikiye bölmektir: ilk 5–7 gece batı/merkez hatta (örneğin **[Dalyan](/tr/dalyan)**, **[Dalaman](/tr/dalaman)** veya **[Datça](/tr/dacha)**), kalan 5–7 gece doğuda (**[Fethiye](/tr/fethiye)** veya **[Kaş](/tr/kas)**). Böylece D400 virajlarında her gün 4–5 saat direksiyon sallamaktan kurtulursunuz.
@@ -109,6 +109,7 @@ Daha batıya uzandığınızda **[Datça Yarımadası](/tr/articles/datca-penins
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif Bölge Karşılaştırma ve Seçici](/tr/city-guide)** — DLM'den mesafe, plaj tipi ve tatil tarzına göre 8 beldeyi filtreleyin.
 - **[Küçük Kasabalar ve Otantik Köyler](/tr/articles/small-towns-and-villages-overview)** — Akyaka, Eski Datça, Selimiye ve Kayaköy.
 - **[Kıyı Plajları Rehberi: Kum, Lagün ve Koylar](/tr/articles/beaches)** — Hangi sahil çocuk dostu, hangisi derin ve kayalık?
 - **[Dalaman Havalimanı (DLM) Servis ve Transferleri](/tr/articles/airport-dalaman)** — Havalimanından tüm beldelere süre ve bütçeler.

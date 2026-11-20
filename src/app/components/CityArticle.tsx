@@ -18,60 +18,65 @@ interface CityArticleProps {
 
 const uiByLocale: Record<string, {
     home: string;
+    allResorts: string;
     backTo: string;
     otherSections: string;
     beaches: string;
     sights: string;
     transport: string;
-    guide: string;
+    allResortsOverview: string;
     needHelpTitle: string;
     needHelpDesc: string;
     contactUs: string;
 }> = {
     ru: {
         home: 'Главная',
+        allResorts: 'Все курорты',
         backTo: 'Назад в',
         otherSections: 'Другие разделы курорта',
         beaches: 'Пляжи и бухты',
         sights: 'Достопримечательности',
         transport: 'Транспорт и как добраться',
-        guide: 'Полный гид по городу',
+        allResortsOverview: 'Все курорты региона (обзор)',
         needHelpTitle: 'Нужна помощь в планировании?',
         needHelpDesc: 'Наши эксперты помогут составить маршрут, подобрать яхту или индивидуальный трансфер по побережью.',
         contactUs: 'Связаться с нами',
     },
     en: {
         home: 'Home',
+        allResorts: 'All Resorts',
         backTo: 'Back to',
         otherSections: 'Other Resort Sections',
         beaches: 'Beaches & Bays',
         sights: 'Sights & Ruins',
         transport: 'Transport & Access',
-        guide: 'Complete City Guide',
+        allResortsOverview: 'All Resorts Overview',
         needHelpTitle: 'Need Help Planning?',
         needHelpDesc: 'Our local team can help you craft the ideal coastal itinerary, yacht charter, or private transfer.',
         contactUs: 'Contact Us',
     },
     de: {
         home: 'Startseite',
+        allResorts: 'Alle Küstenorte',
         backTo: 'Zurück nach',
         otherSections: 'Weitere Bereiche',
         beaches: 'Strände & Buchten',
         sights: 'Sehenswürdigkeiten',
         transport: 'Transport & Anreise',
-        guide: 'Kompletter Stadtführer',
+        allResortsOverview: 'Alle Küstenorte (Übersicht)',
         needHelpTitle: 'Hilfe bei der Planung?',
         needHelpDesc: 'Unsere Experten helfen Ihnen bei der Zusammenstellung Ihrer Reiseroute, Yachtcharter oder privatem Transfer.',
         contactUs: 'Kontaktieren Sie uns',
     },
     tr: {
         home: 'Ana Sayfa',
+        allResorts: 'Tüm Bölgeler',
         backTo: 'Geri dön:',
         otherSections: 'Diğer Bölümler',
         beaches: 'Plajlar ve Koylar',
         sights: 'Gezilecek Yerler',
         transport: 'Ulaşım Rehberi',
-        guide: 'Şehir Rehberi',
+        allResortsOverview: 'Tüm Bölgeler (Genel Bakış)',
         needHelpTitle: 'Planlama Yardımı İster misiniz?',
         needHelpDesc: 'Uzman ekibimiz rota planlama, yat kiralama veya özel transfer konularında size yardımcı olabilir.',
         contactUs: 'Bize Ulaşın',
@@ -124,6 +129,10 @@ const CityArticle = ({ title, description, contentHtml, location, locationName, 
                         <FaHome size={12} className="text-cyan-600" /> {ui.home}
                     </Link>
                     <FaChevronRight size={9} className="text-slate-300" />
+                    <Link href={localize('/city-guide')} className="hover:text-cyan-600 transition-colors">
+                        {ui.allResorts}
+                    </Link>
+                    <FaChevronRight size={9} className="text-slate-300" />
                     <Link href={localize(`/${location}`)} className="hover:text-cyan-600 flex items-center gap-1.5 transition-colors">
                         <FaCity size={12} className="text-cyan-600" /> {locationName}
                     </Link>
@@ -162,7 +171,7 @@ const CityArticle = ({ title, description, contentHtml, location, locationName, 
                                 <SidebarLink href={localize(`/${location}/beaches`)} label={ui.beaches} />
                                 <SidebarLink href={localize(`/${location}/sights`)} label={ui.sights} />
                                 <SidebarLink href={localize(`/${location}/transport`)} label={ui.transport} />
-                                <SidebarLink href={localize(`/${location}/guide`)} label={ui.guide} />
+                                <SidebarLink href={localize('/city-guide')} label={ui.allResortsOverview} />
                             </ul>
                         </div>
 

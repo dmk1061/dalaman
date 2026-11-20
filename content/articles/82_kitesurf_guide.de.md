@@ -74,3 +74,11 @@ Lesen Sie irgendwo einen Werbetext zum Thema „Kitesurfen in Kaş, im Hafen von
 - **Was ins Gepäck gehört:** Von Juni bis September genügen Lycra, Boardshorts, Neoprenschuhe (in Akyaka wegen einzelner kleiner Muschelschalen im Sand) und eine schwimmfähige Sonnenbrille; für Mai und Oktober empfiehlt sich ein kurzer oder dünner **3/2-mm-Neoprenanzug**. Die meistgefahrenen Schirmgrößen der Region sind **9, 11–12 und 14 m²** – und unterschätzen Sie trotz kühlender 20-Knoten-Brise die Sonne nicht (siehe unseren [Klima- und Saison-Guide](/de/articles/climate-and-seasons)).
 
 > **Schutz- und Versicherungshinweis:** Eine normale Reisekrankenversicherung deckt Unfälle beim Kitesurfen oft nicht ab – schließen Sie für Ihren DACH-Schutz unbedingt ausdrücklich den Baustein **„Risiko-/Wassersport (Kitesurfen)“** mit ein. Halten Sie auf dem Wasser mindestens 50 Meter Abstand zu Badegästen, meiden Sie Hafenausfahrten sowie ankernde Yachten und wählen Sie im Notfall auf See oder an Land von jedem Telefon die kostenlose einheitliche Notrufnummer **112** (darüber wird auch die türkische Küstenwache alarmiert; alle Nummern bündelt unsere Übersicht zu [wichtigen Kontakten](/de/articles/useful-contacts)).
+
+
+---
+
+### 🔗 Siehe auch
+- **[Akyaka & Fluss Azmak (2026)](/de/articles/akyaka-azmak)** — Ula-Holzarchitektur, eiskalte Quellen und der Kite-Spot Akçapınar.
+- **[Sarıgerme Guide (2026)](/de/articles/sarigerme-guide)** — sanfte 7–12-Knoten-Brise 20 Minuten vom Flughafen Dalaman.
+- **[Halbinsel Datça](/de/articles/datca-peninsula)** — Kite-Strände bei Kızlan und ruhige Buchten.

@@ -5,6 +5,20 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['react-icons', 'lucide-react', 'framer-motion'],
   },
+  async redirects() {
+    return [
+      {
+        source: '/:locale(ru|en|de|tr)/city-guide/small-towns',
+        destination: '/:locale/city-guide#satellites',
+        permanent: true,
+      },
+      {
+        source: '/city-guide/small-towns',
+        destination: '/ru/city-guide#satellites',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

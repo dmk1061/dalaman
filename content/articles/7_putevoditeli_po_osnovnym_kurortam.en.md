@@ -101,7 +101,7 @@ Keep heading west past Marmaris and the crowds evaporate onto the **[Datça Peni
 
 ## The Eastern Edge: Kalkan & Kaş
 
-Cascading down steep cliffs in whitewashed tiers of luxury infinity-pool villas and rooftop fine dining, **Kalkan** draws upscale villa renters and sunset diners. Twenty-five kilometers further east, **[Kaş](/en/kas)** ([full guide](/en/articles/kas-guide)) keeps an artistic, bohemian soul free of package-tour mega-resorts: bougainvillea-draped streets, dive boats loading cylinders at dawn, twilight drinks atop an ancient sea-view theater, and 20-minute ferries across to tiny Greek Kastellorizo (Meis). Trade-off: don't expect long sand beaches right in town—you sunbathe on cliffside wooden decks or shuttle 20 minutes west to dramatic Kaputaş and endless Patara.
+Cascading down steep cliffs in whitewashed tiers of luxury infinity-pool villas and rooftop fine dining, **[Kalkan](/en/articles/kalkan-guide)** draws upscale villa renters and sunset diners. Twenty-five kilometers further east, **[Kaş](/en/kas)** ([full guide](/en/articles/kas-guide)) keeps an artistic, bohemian soul free of package-tour mega-resorts: bougainvillea-draped streets, dive boats loading cylinders at dawn, twilight drinks atop an ancient sea-view theater, day cruises to **[sunken Kekova and Simena](/en/articles/kekova-simena-kalekoy)**, and 20-minute ferries across to tiny Greek Kastellorizo (Meis). Trade-off: don't expect long sand beaches right in town—you sunbathe on cliffside wooden decks or shuttle 20 minutes west to dramatic Kaputaş and endless **[Patara](/en/articles/patara-guide)**.
 
 > [!TIP]
 > **Insider Tip:** Have 10–14 days and a rental car? Skip locking yourself into one zip code. Split the stay down the middle: spend 5–7 nights exploring the western or central belt (**[Dalyan](/en/dalyan)**, **[Dalaman](/en/dalaman)**, or **[Datça](/en/dacha)**) and 5–7 nights anchored east (**[Fethiye](/en/fethiye)** or **[Kaş](/en/kas)**). You'll easily claw back four or five hours wasted doubling back along D400 switchbacks.
@@ -109,6 +109,7 @@ Cascading down steep cliffs in whitewashed tiers of luxury infinity-pool villas 
 ---
 
 ### 🔗 See Also
+- **[Interactive Resort Finder & Comparison](/en/city-guide)** — filter all 8 coastal hubs by vibe, beach type, budget, and transfer time from DLM.
 - **[Small Towns & Hidden Villages](/en/articles/small-towns-and-villages-overview)** — Akyaka, Eski Datça, Selimiye, and ghostly Kayaköy.
 - **[Beaches of the Turquoise Coast](/en/articles/beaches)** — sorting true sands from calm pebble coves.
 - **[Dalaman Airport (DLM) Transfers](/en/articles/airport-dalaman)** — bus fares and taxi times to every hub.

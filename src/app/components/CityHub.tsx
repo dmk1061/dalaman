@@ -3,7 +3,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaUmbrellaBeach, FaHistory, FaBus, FaChevronRight, FaPlaneArrival, FaSun, FaHeart } from 'react-icons/fa';
+import { FaUmbrellaBeach, FaHistory, FaBus, FaChevronRight, FaPlaneArrival, FaSun, FaHeart, FaHome, FaCompass } from 'react-icons/fa';
+import { ALL_SATELLITES, type LocaleCode } from '@/lib/resorts-data';
 
 import ru from '@/dictionaries/ru.json';
 import en from '@/dictionaries/en.json';
@@ -70,6 +71,73 @@ const statsUiLabels: Record<string, { airport: string, season: string, vibe: str
     tr: { airport: 'Havalimanı Ulaşım', season: 'En İyi Sezon', vibe: 'Atmosfer ve Öne Çıkanlar' }
 };
 
+const hubNavLabels: Record<string, {
+    home: string;
+    allResorts: string;
+    satellitesTitle: string;
+    satellitesSubtitle: string;
+    satellitesAllLink: string;
+    satelliteBadgeBeach: string;
+    satelliteBadgeVillage: string;
+    readGuide: string;
+    compareTitle: string;
+    compareDesc: string;
+    compareBtn: string;
+}> = {
+    ru: {
+        home: 'Главная',
+        allResorts: 'Все курорты',
+        satellitesTitle: 'Спутники и атмосферные места рядом',
+        satellitesSubtitle: 'Популярные пляжные базы и колоритные деревни, до которых удобно добираться из этого узла',
+        satellitesAllLink: 'Все 15 спутников на карте обзора →',
+        satelliteBadgeBeach: 'Пляжный спутник',
+        satelliteBadgeVillage: 'Атмосферная деревня',
+        readGuide: 'Читать гид',
+        compareTitle: 'Сравнить с другими курортами побережья',
+        compareDesc: 'Посмотрите расстояния от аэропорта DLM, тип пляжей, бюджет и кому какой из 8 курортов подойдёт лучше всего.',
+        compareBtn: 'Смотреть и сравнить все 8 курортов',
+    },
+    en: {
+        home: 'Home',
+        allResorts: 'All Resorts',
+        satellitesTitle: 'Nearby Satellites & Authentic Villages',
+        satellitesSubtitle: 'Popular neighboring beach towns and half-day villages linked directly to this coastal hub',
+        satellitesAllLink: 'See all 15 satellites in the overview →',
+        satelliteBadgeBeach: 'Beach Satellite',
+        satelliteBadgeVillage: 'Authentic Village',
+        readGuide: 'Read Guide',
+        compareTitle: 'Compare with Other Resorts on the Coast',
+        compareDesc: 'Check DLM airport transfer times, beach types, budget levels, and find the best match among all 8 coastal hubs.',
+        compareBtn: 'Compare All 8 Coastal Resorts',
+    },
+    de: {
+        home: 'Startseite',
+        allResorts: 'Alle Küstenorte',
+        satellitesTitle: 'Badeorte & authentische Dörfer in der Nähe',
+        satellitesSubtitle: 'Beliebte Strandorte und charaktervolle Dörfer rund um diesen Küstenort im direkten Überblick',
+        satellitesAllLink: 'Alle 15 Orte im Regionen-Guide →',
+        satelliteBadgeBeach: 'Badeort',
+        satelliteBadgeVillage: 'Authentisches Dorf',
+        readGuide: 'Guide lesen',
+        compareTitle: 'Mit anderen Küstenorten vergleichen',
+        compareDesc: 'Transferzeiten ab DLM, Strandtypen und Reisestile für alle 8 Urlaubsorte von Datça bis Kaş im Überblick.',
+        compareBtn: 'Alle 8 Küstenorte vergleichen',
+    },
+    tr: {
+        home: 'Ana Sayfa',
+        allResorts: 'Tüm Bölgeler',
+        satellitesTitle: 'Yakındaki Uydu Beldeler ve Otantik Köyler',
+        satellitesSubtitle: 'Bu merkeze bağlı popüler sahil koyları ve yarım günlük gezi köyleri',
+        satellitesAllLink: 'Tüm 15 uydu beldeyi karşılaştır →',
+        satelliteBadgeBeach: 'Sahil Beldesi',
+        satelliteBadgeVillage: 'Otantik Köy',
+        readGuide: 'Rehberi Oku',
+        compareTitle: 'Kıyıdaki Diğer Beldelerle Karşılaştırın',
+        compareDesc: 'DLM’den transfer sürelerini, plaj tiplerini ve tüm 8 tatil merkezinin öne çıkan özelliklerini inceleyin.',
+        compareBtn: 'Tüm 8 Tatil Beldesini Karşılaştır',
+    },
+};
+
 interface CityHubProps {
     location: string;
     locationName: string;
@@ -87,6 +155,9 @@ interface CityHubProps {
 
 const CityHub = ({ location, locationName, info, beaches, images = [], locale = 'en' }: CityHubProps) => {
     const dict = dictionaries[locale] || dictionaries['en'];
+    const navUi = hubNavLabels[locale] || hubNavLabels['en'];
+    const activeLoc: LocaleCode = (['ru', 'en', 'de', 'tr'].includes(locale) ? locale : 'en') as LocaleCode;
+    const citySatellites = ALL_SATELLITES.filter((s) => s.parentSlug === location);
     const heroImage = images.length > 0 ? images[0] : `/api/images/locations/${location}/ruine/knidos/knidos.jpg`;
 
     const localize = (path: string) => {
@@ -109,6 +180,23 @@ const CityHub = ({ location, locationName, info, beaches, images = [], locale = 
                 <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-900/35 to-slate-950/75" />
 
                 <div className="relative z-10 portal-container text-center px-4">
+                    <div className="mb-4 flex justify-center">
+                        <nav
+                            aria-label="Breadcrumb"
+                            className="inline-flex flex-wrap items-center justify-center gap-2 text-xs font-semibold text-white/85 bg-slate-900/50 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-white/15"
+                        >
+                            <Link href={localize('/')} className="hover:text-cyan-300 inline-flex items-center gap-1.5 transition-colors">
+                                <FaHome size={11} className="text-cyan-300" />
+                                <span>{navUi.home}</span>
+                            </Link>
+                            <FaChevronRight size={9} className="text-white/40" />
+                            <Link href={localize('/city-guide')} className="hover:text-cyan-300 transition-colors">
+                                {navUi.allResorts}
+                            </Link>
+                            <FaChevronRight size={9} className="text-white/40" />
+                            <span className="text-white font-bold">{locationName}</span>
+                        </nav>
+                    </div>
                     <span className="inline-block px-4 py-1.5 rounded-full bg-white/15 backdrop-blur-md border border-white/25 text-cyan-300 font-bold text-xs uppercase tracking-widest mb-4">
                         {dict.city_hub.turkish_coast}
                     </span>
@@ -227,10 +315,10 @@ const CityHub = ({ location, locationName, info, beaches, images = [], locale = 
                             </p>
                         </div>
                         <Link
-                            href={localize(`/${location}/guide`)}
+                            href={localize(`/${location}/beaches`)}
                             className="text-cyan-600 font-bold text-xs hover:text-cyan-700 flex items-center gap-1.5 uppercase tracking-wider"
                         >
-                            {dict.city_hub.full_guide} <FaChevronRight size={10} />
+                            {dict.city_hub.beaches_title} <FaChevronRight size={10} />
                         </Link>
                     </div>
 
@@ -264,6 +352,90 @@ const CityHub = ({ location, locationName, info, beaches, images = [], locale = 
                                 </Link>
                             );
                         })}
+                    </div>
+
+                    {/* Nearby Satellites & Authentic Villages */}
+                    {citySatellites.length > 0 && (
+                        <div className="mt-12">
+                            <div className="flex flex-col sm:flex-row justify-between sm:items-end mb-6 gap-3">
+                                <div>
+                                    <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight mb-1">
+                                        {navUi.satellitesTitle}
+                                    </h2>
+                                    <p className="text-xs sm:text-sm text-slate-500 font-medium">
+                                        {navUi.satellitesSubtitle}
+                                    </p>
+                                </div>
+                                <Link
+                                    href={localize('/city-guide#satellites')}
+                                    className="text-cyan-600 font-bold text-xs hover:text-cyan-700 whitespace-nowrap flex-shrink-0"
+                                >
+                                    {navUi.satellitesAllLink}
+                                </Link>
+                            </div>
+
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                {citySatellites.map((sat) => {
+                                    const isBeach = sat.kind === 'beach_hub';
+                                    return (
+                                        <Link
+                                            key={sat.id}
+                                            href={localize(sat.href)}
+                                            className="group bg-white rounded-2xl p-5 shadow-sm border border-slate-200/70 hover:border-cyan-300 hover:shadow-md transition-all flex flex-col justify-between gap-3"
+                                        >
+                                            <div className="space-y-2">
+                                                <div className="flex items-center justify-between gap-2">
+                                                    <span
+                                                        className={`px-2.5 py-0.5 rounded-full text-[10px] font-bold ${
+                                                            isBeach ? 'bg-cyan-50 text-cyan-700' : 'bg-emerald-50 text-emerald-700'
+                                                        }`}
+                                                    >
+                                                        {isBeach ? navUi.satelliteBadgeBeach : navUi.satelliteBadgeVillage}
+                                                    </span>
+                                                    <span className="text-[11px] font-medium text-slate-400 truncate">
+                                                        {sat.meta[activeLoc] || sat.meta.en}
+                                                    </span>
+                                                </div>
+                                                <h3 className="text-base font-extrabold text-slate-900 group-hover:text-cyan-700 transition-colors leading-snug">
+                                                    {sat.name[activeLoc] || sat.name.en}
+                                                </h3>
+                                                <p className="text-xs text-slate-600 leading-relaxed">
+                                                    {sat.summary[activeLoc] || sat.summary.en}
+                                                </p>
+                                            </div>
+                                            <span className="inline-flex items-center gap-1.5 text-xs font-bold text-cyan-600 group-hover:text-cyan-700 pt-1">
+                                                <span>{navUi.readGuide}</span>
+                                                <FaChevronRight size={9} />
+                                            </span>
+                                        </Link>
+                                    );
+                                })}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Compare all resorts CTA strip */}
+                    <div className="mt-12 bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200/70 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                        <div className="flex items-start gap-4">
+                            <div className="w-11 h-11 rounded-xl bg-cyan-50 text-cyan-600 flex items-center justify-center flex-shrink-0">
+                                <FaCompass size={20} />
+                            </div>
+                            <div>
+                                <h3 className="text-base sm:text-lg font-extrabold text-slate-900 mb-1">
+                                    {navUi.compareTitle}
+                                </h3>
+                                <p className="text-xs sm:text-sm text-slate-600 font-medium">
+                                    {navUi.compareDesc}
+                                </p>
+                            </div>
+                        </div>
+                        <Link
+                            href={localize('/city-guide')}
+                            className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-cyan-600 hover:bg-cyan-700 text-white text-xs font-bold uppercase tracking-wider transition-colors shadow-sm flex-shrink-0"
+                        >
+                            <span>{navUi.compareBtn}</span>
+                            <FaChevronRight size={10} />
+                        </Link>
                     </div>
                 </div>
             </div>

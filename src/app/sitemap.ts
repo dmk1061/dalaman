@@ -31,7 +31,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/beaches',
     '/blogs',
     '/city-guide',
-    '/city-guide/small-towns',
     '/collections',
     '/contacts',
     '/dalaman-guide',

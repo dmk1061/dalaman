@@ -14,7 +14,7 @@ Zero concrete all-inclusive blocks, zero aggressive menu touts: here, houses ris
 
 ## Akyaka: Carved Pine Eaves & the Ice-Cold Azmak River
 
-Perched at the far eastern edge of the Gulf of Gökova (~35 km north of Marmaris and ~70 km from Dalaman Airport), **Akyaka** stands out immediately for sheer architectural cohesion. In the early 1970s, journalist, poet, and self-taught builder Nail Çakırhan designed his own home here honoring traditional Ottoman houses of nearby Ula—broad overhanging tiled roofs paired with intricate wooden ceilings. In **1983**, the house won the prestigious **Aga Khan Award for Architecture**, prompting the town to mandate that every new structure follow that timeless timber-and-whitewash blueprint.
+Perched at the far eastern edge of the Gulf of Gökova (~35 km north of Marmaris and ~70 km from Dalaman Airport), **[Akyaka](/en/articles/akyaka-azmak)** stands out immediately for sheer architectural cohesion. In the early 1970s, journalist, poet, and self-taught builder Nail Çakırhan designed his own home here honoring traditional Ottoman houses of nearby Ula—broad overhanging tiled roofs paired with intricate wooden ceilings. In **1983**, the house won the prestigious **Aga Khan Award for Architecture**, prompting the town to mandate that every new structure follow that timeless timber-and-whitewash blueprint.
 
 The village centerpiece is the **Kadın Azmağı (Azmak River)**: an astonishingly clear, icy (+10–12 °C year-round) spring river gushing straight out of coastal karst caves. Restaurants line its reeds on wooden pilings as small sightseeing boats drift silently above river turtles and waving underwater grass. Each afternoon, steady thermal winds pour up the gulf, transforming Akyaka's sandy bay into Turkey's [kitesurfing capital](/en/articles/kitesurfing).
 
@@ -26,7 +26,7 @@ Half-abandoned for decades, the village experienced a gentle renaissance when Is
 
 ## Selimiye, Orhaniye & Bozburun: Sailors' Villages
 
-South-west of [Marmaris](/en/marmaris), the mountainous Bozburun Peninsula remained cut off from modern coastal roads for generations—preserving a hushed, sea-centered village life:
+South-west of [Marmaris](/en/marmaris), the mountainous [Bozburun Peninsula](/en/articles/bozburun-selimiye-orhaniye) remained cut off from modern coastal roads for generations—preserving a hushed, sea-centered village life:
 
 * **Selimiye:** A glass-calm bay edged by whitewashed guesthouses and waterfront fish tavernas whose piers welcome cruising yachts straight up to candlelit dinner tables.
 * **Orhaniye & Kızkumu Sandbar:** Famous for **Kızkumu**—a submerged, shallow 600-meter red-sand bar jutting straight into the middle of the bay, making waders appear from afar as though they're walking across open water.
@@ -45,7 +45,7 @@ Climb inland above [Fethiye](/en/fethiye) and Ölüdeniz, and both temperature a
 
 * **[Kayaköy](/en/articles/kayakoy-ghost-town) (Ancient Levissi):** Barely 8 km south of Fethiye, roughly **500–700 roofless stone houses** and two monumental Orthodox churches cascade across a sun-bleached slope—abandoned after the 1923 Greek-Turkish population exchange. At the valley floor wait atmospheric orchard restaurants serving *kendin pişir, kendin ye* ("cook-your-own" lamb chops at your table's wood charcoal grill) alongside horse-riding stables.
 * **[Yeşilüzümlü](/en/articles/yesiluzumlu-village):** Set 500 m up in the pine hills (20 km from Fethiye), running 5–6 °C cooler than the steamy coast in summer. Known for small-batch local winemaking, hand-loomed *dastar* cotton textiles, and April's lively Morel Mushroom Festival (*Kuzugöbeği*).
-* **Faralya & Kabak Valley:** A string of sleepy hamlets balanced on 350-meter sea cliffs directly above [Butterfly Valley](/en/articles/butterfly-valley)—all timber bungalows, yoga decks, and unobstructed sunset horizons.
+* **[Faralya & Kabak Valley](/en/articles/faralya-kabak):** A string of sleepy hamlets balanced on 350-meter sea cliffs directly above [Butterfly Valley](/en/articles/butterfly-valley)—all timber bungalows, yoga decks, and unobstructed sunset horizons.
 
 ## Turunç & İçmeler: Marmaris' Quieter Neighbors
 
@@ -57,6 +57,7 @@ Round the pine-clad headland west of Marmaris harbor and bustle softens fast: fi
 ---
 
 ### 🔗 See Also
+- **[All Resorts, Satellites & Villages](/en/city-guide#satellites)** — interactive finder comparing every base from Datça to Kaş.
 - **[Main Resorts Guide: Datça to Kaş](/en/articles/main-resorts)** — how the bigger resort hubs compare.
 - **[Kayaköy Ghost Town](/en/articles/kayakoy-ghost-town)** — history of Levissi and the hike down to Ölüdeniz.
 - **[Dalyan & Lake Köyceğiz](/en/articles/dalyan-guide)** — planning a two-day river escape.

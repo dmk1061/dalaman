@@ -93,10 +93,6 @@ const Header = async ({ locale = 'ru' }: HeaderProps) => {
           href: '/city-guide',
         },
         {
-          name: locale === 'ru' ? 'Малые города и посёлки (Сарыгерме, Акьяка)' : locale === 'de' ? 'Kleinstädte & Dörfer (Sarıgerme, Akyaka)' : locale === 'tr' ? 'Kasabalar ve Köyler (Sarıgerme, Akyaka)' : 'Small Towns & Villages (Sarıgerme, Akyaka)',
-          href: '/city-guide/small-towns',
-        },
-        {
           name: dict.header.nav.best_beaches,
           href: '/beaches',
         },
@@ -115,10 +111,6 @@ const Header = async ({ locale = 'ru' }: HeaderProps) => {
         {
           name: dict.header.nav.nature_parks,
           href: '/articles/national-parks-and-nature-reserves',
-        },
-        {
-          name: dict.header.nav.history,
-          href: '/articles/history',
         },
       ],
     },

@@ -693,61 +693,6 @@ const servicesRegistry: Record<string, ServiceItem> = {
             { slug: "airport-dalaman", label: { ru: "Аэропорт Даламан (DLM): терминалы и трансферы", en: "Dalaman Airport (DLM): Terminals & Transport Hub", de: "Flughafen Dalaman (DLM): Terminals & Anreise", tr: "Dalaman Havalimanı (DLM): Terminal ve Ulaşım Rehberi" } }
         ],
         heroBg: "/api/images/locations/fethiye/beach/belcekiz/belcekiz.jpg"
-    },
-    "city-guide/small-towns": {
-        title: {
-            ru: "Малые Города и Уединенные Поселки Побережья",
-            en: "Charming Small Towns and Hidden Coastal Villages",
-            de: "Malerische Kleinstädte und verborgene Küstendörfer",
-            tr: "Şirin Sahil Kasabaları ve Saklı Ege Köyleri"
-        },
-        desc: {
-            ru: "Вдали от шумных отелей: откройте аутентичное очарование Акиaka, Селимиye, Турунча, Бозбуруна, Оваджика и тихих рыбацких деревень полуострова Датча.",
-            en: "Step away from crowded resorts: discover the authentic Aegean charm of Akyaka, Selimiye, Turunç, Bozburun, Ovacık, and peaceful fishing hamlets across the Datça Peninsula.",
-            de: "Abseits der großen Resorts: Entdecken Sie den authentischen Charme von Akyaka, Selimiye, Turunç, Bozburun, Ovacık und ruhigen Fischerdörfern auf der Halbinsel Datça.",
-            tr: "Kalabalık tatil köylerinden uzakta: Akyaka, Selimiye, Turunç, Bozburun, Ovacık ve Datça Yarımadası'nın huzurlu balıkçı köylerinin otantik Ege cazibesini keşfedin."
-        },
-        features: {
-            ru: [
-                "Акьяка (Akyaka): столица кайт-серфинга с уникальной османской архитектурой и рекой Азмак",
-                "Селимие и Бозбурун (Selimiye & Bozburun): уютные бухты, яхты и лучшие рыбные рестораны",
-                "Турунч (Turunç): тихая бухта с Голубым флагом в окружении сосновых гор недалеко от Мармариса",
-                "Оваджик и Хисароню (Ovacık & Hisarönü): горный свежий воздух над Олюденизом и старт Ликийской тропы",
-                "Старая Датча (Eski Datça): каменные улочки, бугенвиллии и миндальные сады поэта Джана Yücel"
-            ],
-            en: [
-                "Akyaka: famous kite-surfing capital known for traditional Ottoman woodwork architecture and Azmak River",
-                "Selimiye & Bozburun: boutique harbors renowned for crystal coves, wooden gulet building, and seafood",
-                "Turunç: peaceful Blue Flag beach cove framed by dramatic pine hills just south of Marmaris",
-                "Ovacık & Hisarönü: mountain breeze retreats above Oludeniz serving as the official start of the Lycian Way",
-                "Old Datça (`Eski Datça`): bougainvillea-draped stone lanes and almond orchards celebrated by poet Can Yücel"
-            ],
-            de: [
-                "Akyaka: berühmtes Kitesurf-Zentrum mit traditioneller Holzarchitektur und dem glasklaren Azmak-Fluss",
-                "Selimiye & Bozburun: malerische Buchten, traditioneller Gulet-Bau und erstklassige Fischrestaurants",
-                "Turunç: ruhige Blaue-Flagge-Bucht umgeben von Pinienbergen südlich von Marmaris",
-                "Ovacık & Hisarönü: kühle Bergluft über Ölüdeniz und offizieller Startpunkt des Lykischen Weges",
-                "Alt-Datça (Eski Datça): steinerne Gassen, Bougainvilleen und Mandelhaine des Dichters Can Yücel"
-            ],
-            tr: [
-                "Akyaka: kendine özgü ahşap mimarisi, Azmak Nehri ve dünya çapındaki uçurtma sörfü (kitesurf) plajı",
-                "Selimiye ve Bozburun: butik koylar, geleneksel gulet yapımı ve Ege'nin en seçkin deniz ürünleri restoranları",
-                "Turunç: Marmaris'in hemen güneyinde çam ormanlarıyla çevrili huzurlu Mavi Bayraklı sahil kasabası",
-                "Ovacık ve Hisarönü: Ölüdeniz üzerindeki serin dağ havası ve tarihi Likya Yolu'nun resmi başlangıç noktası",
-                "Eski Datça: begonvillerle süslü taş sokaklar, badem bahçeleri ve şair Can Yücel'in edebi mirası"
-            ]
-        },
-        priceNote: {
-            ru: "В малых поселках преобладают бутик-отели, пансионы и апартаменты. Рекомендуется бронировать заранее на июль и август.",
-            en: "Boutique hotels, family pensions, and villas predominate in smaller hamlets. Early reservation is highly advised for July and August.",
-            de: "In kleineren Orten überwiegen Boutique-Hotels, Pensionen und Ferienhäuser. Für Juli und August wird eine frühzeitige Buchung empfohlen.",
-            tr: "Küçük kasabalarda butik oteller, aile pansiyonları ve müstakil villalar yaygındır. Temmuz ve ağustos ayları için erken rezervasyon tavsiye edilir."
-        },
-        guides: [
-            { slug: "ovacik-hisaronu", label: { ru: "Гид по Оваджику и Хисароню (Олюдениз)", en: "Ovacık & Hisarönü Mountain Resort Guide", de: "Ovacık & Hisarönü Leitfaden", tr: "Ovacık ve Hisarönü Yayla Tatili Rehberi" } },
-            { slug: "gocek-guide", label: { ru: "Гёджек: элитный поселок и марины", en: "Göcek: Exclusive Marinas & Island Gateway", de: "Göcek: Exklusive Marinas & Inseln", tr: "Göcek: Seçkin Marinalar ve Koylar" } }
-        ],
-        heroBg: "/api/images/locations/dacha/ruine/knidos/knidos.jpg"
     }
 };
 
@@ -762,7 +707,7 @@ export function generateServiceMetadata(serviceKey: string, locale: string, path
     const title = s.title[activeLocale] || s.title['en'];
     const desc = s.desc[activeLocale] || s.desc['en'];
     const cleanPathname = pathname || (
-        ['pharmacies', 'contacts', 'dalaman-guide', 'city-guide/small-towns'].includes(serviceKey)
+        ['pharmacies', 'contacts', 'dalaman-guide'].includes(serviceKey)
             ? `/${serviceKey}`
             : `/services/${serviceKey}`
     );
@@ -935,7 +880,7 @@ const ServiceLandingPage = ({ serviceKey, locale }: ServiceLandingPageProps) => 
 
                                 <div className="pt-4 border-t border-white/10">
                                     <Link
-                                        href={localize('/dalaman')}
+                                        href={localize('/city-guide')}
                                         className="block w-full py-3.5 bg-cyan-600 text-white text-[11px] font-black uppercase tracking-widest rounded-full text-center hover:bg-cyan-500 transition-all shadow-lg shadow-cyan-600/40"
                                     >
                                         {activeLocale === 'ru' ? '← Все курорты региона' : activeLocale === 'de' ? '← Alle Urlaubsorte' : activeLocale === 'tr' ? '← Tüm Tatil Beldeleri' : '← Explore All Resorts'}

@@ -44,6 +44,9 @@ Right across morning espresso tables looms pastel-painted Greek **Kastellorizo**
 ---
 
 ### 🔗 See Also
+- **[Kalkan Guide (2026)](/en/articles/kalkan-guide)** — whitewashed villas, rooftop restaurants, and sea-deck clubs 25 km west.
+- **[Kekova & Simena (Kaleköy)](/en/articles/kekova-simena-kalekoy)** — boat and kayak trips over sunken Lycian ruins.
+- **[Patara Beach & Ancient City Guide](/en/articles/patara-guide)** — 18 km sand dunes and restored Lycian Parliament ruins.
 - **[Diving & Snorkeling Around Dalaman](/en/articles/diving)** — C-47 wreck details, Canyon drops, and €40–80 2026 dive packages.
 - **[Myra & Demre Guide (2026)](/en/articles/myra-ancient-city)** — cliff tombs and St. Nicholas Church 50 minutes east of Kaş.
 - **[Timed Day Trips Around Dalaman](/en/articles/day-trips-and-itineraries)** — combining Kaputaş, Patara, and Meis cleanly.

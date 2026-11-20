@@ -32,3 +32,11 @@ Gölün güneybatı kıyısında, Helenistik dönemden beri şifa merkezi olarak
 * **Ekincik Yolu:** Gölün güneybatı kıyısından devam eden 35 km'lik dağ yolu sizi doğrudan bakir **[Ekincik Koyu](/tr/articles/ekincik-bay)**'na indirir.
 
 <!-- SOURCE [19.11.2026]: Köyceğiz Belediyesi Sultaniye Kaplıcaları ve Orman Bölge Müdürlüğü Sığla Koruma Alanı bilgileri (URL: https://www.koycegiz.bel.tr/) -->
+
+
+---
+
+### 🔗 İlgili Rehberler
+- **[Yuvarlakçay Rehberi (2026)](/tr/articles/yuvarlakcay-guide)** — +10 °C dere serinliği, su üstü köşkler, nehir salıncakları ve kiremitte alabalık.
+- **[Dalyan Gezi Rehberi (2026)](/tr/articles/dalyan-guide)** — gölden denize nehir tekneleri ve Kaunos.
+- **[Ekincik Koyu Rehberi](/tr/articles/ekincik-bay)** — dağ geçidi ardındaki sakin yat koyu.

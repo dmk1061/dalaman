@@ -12,7 +12,7 @@ Fethiye ve Marmaris gibi büyük merkezler alışverişi, feribotları ve otogar
 
 ## Akyaka: Ula Mimarisi ve Buz Gibi Kadın Azmağı
 
-Gökova Körfezi'nin en doğu ucunda (Marmaris'e ~35 km, Dalaman Havalimanı'na ~70 km) yer alan **Akyaka**, Türk kıyı mimarisinin en nadir başarı öykülerinden biridir. 1970'lerin başında gazeteci, şair ve mimarlık eğitimi olmamasına rağmen büyük bir usta olan **Nail Çakırhan**, geleneksel Ula evlerinden ilham alarak geniş saçaklı, oymalı ahşap tavanlı kendi evini inşa etti. Bu yapı **1983 yılında uluslararası Ağa Han Mimarlık Ödülü**'nü kazanınca, belde yönetimi yeni yapılacak her evin bu tek tip yerel mimariye uymasını zorunlu kıldı.
+Gökova Körfezi'nin en doğu ucunda (Marmaris'e ~35 km, Dalaman Havalimanı'na ~70 km) yer alan **[Akyaka](/tr/articles/akyaka-azmak)**, Türk kıyı mimarisinin en nadir başarı öykülerinden biridir. 1970'lerin başında gazeteci, şair ve mimarlık eğitimi olmamasına rağmen büyük bir usta olan **Nail Çakırhan**, geleneksel Ula evlerinden ilham alarak geniş saçaklı, oymalı ahşap tavanlı kendi evini inşa etti. Bu yapı **1983 yılında uluslararası Ağa Han Mimarlık Ödülü**'nü kazanınca, belde yönetimi yeni yapılacak her evin bu tek tip yerel mimariye uymasını zorunlu kıldı.
 
 Beldenin kalbi ise yılın her mevsimi +10…+12 °C sıcaklığında akan ve dibindeki bitki örtüsünü cam gibi gösteren **Kadın Azmağı Deresi**'dir. Kaynak sularının beslediği sazlıkların üzerinde kazıklarla yükseltilmiş balık restoranları sıralanır, küçük tekneler su kaplumbağalarının üzerinden sessizce süzülür. Öğleden sonra körfezde yükselen düzenli termal rüzgâr ise Akyaka sahilini bölgenin en ünlü **[kitesurf](/tr/articles/kitesurfing)** merkezine dönüştürür.
 
@@ -24,7 +24,7 @@ Bir dönem boşalmaya yüz tutan mahalle, 1990'lardan itibaren İstanbul'dan gel
 
 ## Selimiye, Orhaniye ve Bozburun: Denizcilerin Sakin Limanları
 
-**[Marmaris](/tr/marmaris)**'in güneybatısındaki dağlık Bozburun Yarımadası'na karayolunun geç ulaşması, üç komşu köyün özgün kıyı kültürünü bugüne dek korudu:
+**[Marmaris](/tr/marmaris)**'in güneybatısındaki dağlık **[Bozburun Yarımadası](/tr/articles/bozburun-selimiye-orhaniye)**'na karayolunun geç ulaşması, üç komşu köyün özgün kıyı kültürünü bugüne dek korudu:
 
 * **Selimiye:** Durgunsulardaki berrak koyuyla son yılların gastronomi durağına dönüştü; balıkçı tekneleri ve yelkenliler doğrudan restoran iskelelerinin önüne yanaşır.
 * **Orhaniye ve Kızkumu:** Koyun ortasına doğru yaklaşık 600 metre boyunca uzanan sığ kum seti **Kızkumu**, üzerinde yürüyenlere suyun üstünde adım atıyormuş görüntüsü verir.
@@ -43,7 +43,7 @@ Dalaman Havalimanı'ndan 20–30 dakikada birbirinden farklı karaktere sahip ik
 
 * **[Kayaköy](/tr/articles/kayakoy-ghost-town) (Antik Levissi):** Fethiye'den 8 kilometre içerideki vadide 1923 Mübadelesi sonrasında terk edilen **500–700 çatısız taş ev** ve iki büyük kilise açık hava müzesi olarak durur. Çevredeki bahçelerde yerlilerin çok sevdiği *"kendin pişir kendin ye"* ocakbaşı restoranları ve at çiftlikleri vardır.
 * **[Yeşilüzümlü](/tr/articles/yesiluzumlu-village):** Fethiye merkezden yaklaşık 20 kilometre yukarıda, 500 metre rakımlı serin bir çam vadisi köyü. Yaz gecelerinde kıyıdan 5–6 °C daha serindir; el dokuması **dastar** bezleri, ev yapımı şarapları ve Nisan ayındaki **Kuzugöbeği Festivali** ile meşhurdur.
-* **Faralya ve Kabak Koyu:** **[Kelebekler Vadisi](/tr/articles/butterfly-valley)**'nin 350 metrelik dik uçurumunun hemen tepesindeki dağ köyleri. Büyük oteller yerine ahşap bungalovlar, doğa kampları ve günbatımı terasları bulunur.
+* **[Faralya ve Kabak Koyu](/tr/articles/faralya-kabak):** **[Kelebekler Vadisi](/tr/articles/butterfly-valley)**'nin 350 metrelik dik uçurumunun hemen tepesindeki dağ köyleri. Büyük oteller yerine ahşap bungalovlar, doğa kampları ve günbatımı terasları bulunur.
 
 ## Turunç ve İçmeler: Marmaris'in Yeşil Komşuları
 
@@ -55,6 +55,7 @@ Marmaris merkezinin gürültüsünden çam tepesinin ardına saklanan **[İçmel
 ---
 
 ### 🔗 İlgili Rehberler
+- **[Tüm Tatil Beldeleri, Uydu Koylar ve Köyler](/tr/city-guide#satellites)** — Datça'dan Kaş'a konaklama seçici ve karşılaştırma.
 - **[Ana Tatil Beldeleri Karşılaştırması](/tr/articles/main-resorts)** — Dalaman, Fethiye, Marmaris ve Kaş incelemesi.
 - **[Kayaköy: Tarih ve Yürüyüş Rotaları](/tr/articles/kayakoy-ghost-town)** — Hayalet köyden Ölüdeniz'e inen patika.
 - **[Dalyan, Kaunos ve İztuzu Rehberi](/tr/articles/dalyan-guide)** — Tekne kooperatifi ve göl çevresi.

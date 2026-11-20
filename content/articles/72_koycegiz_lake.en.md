@@ -47,6 +47,7 @@ Head just 15–20 minutes northeast up pine valleys toward Beyobası and Pınar 
 ---
 
 ### 🔗 See Also
+- **[Yuvarlakçay River Valley (2026)](/en/articles/yuvarlakcay-guide)** — ice-cold (+10 °C) springs, over-water swings, and trout 15 min northeast.
 - **[Dalyan Guide (2026)](/en/articles/dalyan-guide)** — gliding straight downstream from the lake past cliff tombs to İztuzu.
 - **[Canyons, Rivers & Lakes Around Dalaman](/en/articles/natural-attractions-canyons-rivers-lakes)** — deep dive into Yuvarlakçay, Toparlar, and Kapıkargın springs.
 - **[Ekincik Bay Guide](/en/articles/ekincik-bay)** — jumping over the 35 km mountain pass straight to calm yachting water.

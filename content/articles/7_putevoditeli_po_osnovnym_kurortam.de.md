@@ -101,13 +101,14 @@ Noch weiter westlich streckt sich die **[Halbinsel Datça](/de/articles/datca-pe
 
 ## Der Osten: Kalkan und Kaş
 
-**Kalkan** zieht sich in einem terrassierten weißen Halbrund aus Villen, Infinity-Pools und Dachterrassen den Hang hinab. 25 Kilometer weiter bewahrt **[Kaş](/de/articles/kas-guide)** bis heute seinen bohemienhaften Zauber ohne Massentourismus: blühende Bougainvillea-Gassen, Tauchboote am Kai, Sonnenuntergänge auf den Stufen des antiken Theaters und eine 20-Minuten-Fähre zur griechischen Insel Meis. Statt Sandstränden springt man hier von Holzdecks ins tiefe Blau oder fährt an die Kaputaş-Bucht und nach Patara.
+**[Kalkan](/de/articles/kalkan-guide)** zieht sich in einem terrassierten weißen Halbrund aus Villen, Infinity-Pools und Dachterrassen den Hang hinab. 25 Kilometer weiter bewahrt **[Kaş](/de/articles/kas-guide)** bis heute seinen bohemienhaften Zauber ohne Massentourismus: blühende Bougainvillea-Gassen, Tauchboote am Kai, Sonnenuntergänge auf den Stufen des antiken Theaters, Bootstouren ins **[versunkene Kekova & Simena](/de/articles/kekova-simena-kalekoy)** und eine 20-Minuten-Fähre zur griechischen Insel Meis. Statt Sandstränden springt man hier von Holzdecks ins tiefe Blau oder fährt an die Kaputaş-Bucht und nach **[Patara](/de/articles/patara-guide)**.
 
 > **Insider-Tipp zur Routenplanung:** Bei zehn bis 14 Urlaubstagen mit Mietwagen lohnt es sich, den Aufenthalt genau zu teilen: fünf bis sieben Nächte im Westen oder Zentrum (etwa **[Dalyan](/de/dalyan)**, **[Dalaman](/de/dalaman)** oder **[Datça](/de/dacha)**) und fünf bis sieben Nächte im Osten (**[Fethiye](/de/fethiye)** oder **[Kaş](/de/kas)**). So sparen Sie sich vier bis fünf Stunden doppelte Fahrzeit auf den Serpentinen der D400.
 
 ---
 
 ### Siehe auch
+- **[Interaktiver Küstenorte-Vergleich](/de/city-guide)** — alle 8 Urlaubsorte filtern nach Stil, Strandtyp, Budget und Fahrzeit ab DLM.
 - **[Kleine Orte und authentische Dörfer](/de/articles/small-towns-and-villages-overview)** — Akyaka, Eski Datça, Selimiye und Kayaköy.
 - **[Großer Strandguide von Datça bis Kaş](/de/articles/beaches)** — wo Feinsand, wo Kiesel und wo Holzplattformen warten.
 - **[Flughafen Dalaman (DLM): Transferzeiten](/de/articles/airport-dalaman)** — Distanzen und Kosten in alle Regionen.
