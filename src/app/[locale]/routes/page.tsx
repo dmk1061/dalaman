@@ -456,25 +456,25 @@ const RoutesPage = ({ params }: RoutesPageProps) => {
 
                     <Link
                         href={`/${locale}/routes/trekking`}
-                        className="group relative rounded-[2.5rem] p-8 bg-gradient-to-br from-emerald-900 via-teal-950 to-slate-900 text-white shadow-2xl overflow-hidden border border-emerald-700/50 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between"
+                        className="group relative rounded-[2.5rem] p-8 bg-gradient-to-br from-slate-900 via-slate-900 to-cyan-950 text-white shadow-2xl overflow-hidden border border-cyan-500/30 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between"
                     >
-                        <div className="absolute right-0 top-0 w-64 h-64 rounded-full bg-teal-400/10 blur-3xl pointer-events-none" />
+                        <div className="absolute right-0 top-0 w-64 h-64 rounded-full bg-cyan-400/10 blur-3xl pointer-events-none" />
                         <div>
-                            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/20 text-teal-300 font-black text-[10px] uppercase tracking-widest mb-4">
+                            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/20 text-cyan-300 font-black text-[10px] uppercase tracking-widest mb-4">
                                 <FaCompass /> {locale === 'ru' ? 'Ликийская & Карийская тропы' : 'Lycian & Carian Way'}
                             </span>
                             <h3 className="text-2xl md:text-3xl font-black uppercase italic tracking-tight mb-3">
                                 {locale === 'ru' ? 'Атлас Треккинга и Хайкинга' : 'Trekking & Trails Atlas'}
                             </h3>
-                            <p className="text-emerald-100/90 text-xs md:text-sm font-medium leading-relaxed mb-6">
+                            <p className="text-slate-300 text-xs md:text-sm font-medium leading-relaxed mb-6">
                                 {locale === 'ru'
-                                    ? '12+ интерактивных горных этапов: перепады высот, родники с питьевой водой, уровни сложности, GPS-координаты и рекомендации по экипировке.'
-                                    : '12+ interactive stages with elevation profiles, natural drinking fountains, difficulty filters, GPS waypoints, and gear advice.'}
+                                    ? '15 проверенных горных этапов по 4 зонам побережья: 3D-рельеф, перепады высот, родники с питьевой водой, GPX-треки и рекомендации по экипировке.'
+                                    : '15 verified stages across 4 coastal zones with 3D terrain maps, elevation profiles, drinking springs, GPX tracks, and gear advice.'}
                             </p>
                         </div>
-                        <div className="pt-4 border-t border-emerald-800/60 flex items-center justify-between text-xs font-black uppercase tracking-wider text-teal-300 group-hover:text-teal-200">
-                            <span>{locale === 'ru' ? 'Открыть атлас троп (12 этапов)' : 'Explore Trail Atlas (12 Stages)'}</span>
-                            <span className="w-8 h-8 rounded-full bg-teal-600 text-white flex items-center justify-center group-hover:scale-110 transition-transform">→</span>
+                        <div className="pt-4 border-t border-cyan-800/50 flex items-center justify-between text-xs font-black uppercase tracking-wider text-cyan-300 group-hover:text-cyan-200">
+                            <span>{locale === 'ru' ? 'Открыть атлас троп (15 этапов)' : 'Explore Trail Atlas (15 Stages)'}</span>
+                            <span className="w-8 h-8 rounded-full bg-cyan-600 text-white flex items-center justify-center group-hover:scale-110 transition-transform">→</span>
                         </div>
                     </Link>
                 </div>

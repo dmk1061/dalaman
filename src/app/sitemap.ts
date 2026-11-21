@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import fs from 'fs';
 import path from 'path';
 import { getSiteUrl, SUPPORTED_LOCALES } from '@/lib/seo';
+import { DETAILED_TRAIL_SLUGS } from '@/lib/trekking-data';
 
 const locations = ['dacha', 'marmaris', 'koycegiz', 'dalyan', 'dalaman', 'gocek', 'fethiye', 'kas'];
 
@@ -39,6 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/privacy',
     '/routes',
     '/routes/trekking',
+    ...DETAILED_TRAIL_SLUGS.map((slug) => `/routes/trekking/${slug}`),
     '/routes/weekends',
     '/services',
     '/services/car-rental',
