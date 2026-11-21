@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { SITE_CONFIG } from "@/lib/site-config";
+import GoogleAnalytics from "@/app/components/GoogleAnalytics";
 
 const inter = Inter({
   subsets: ["latin", "cyrillic", "latin-ext"],
@@ -44,6 +45,7 @@ export default function RootLayout({
         ) : null}
       </head>
       <body className={`${inter.className} antialiased text-slate-800 bg-slate-50 selection:bg-cyan-100 selection:text-cyan-900`}>
+        <GoogleAnalytics />
         {children}
       </body>
     </html>

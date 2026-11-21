@@ -52,8 +52,37 @@ export default function VisitorAnalyticsWidget({
     const [isUpdating, setIsUpdating] = useState<boolean>(false);
     const visitorIdRef = useRef<string | null>(null);
     const lastTrackedPathRef = useRef<string | null>(null);
+    const hasSentEntryRef = useRef<boolean>(false);
 
     useEffect(() => {
+        // Проверяем, скрыты ли визиты владельца сайта в этом браузере
+        let ignoreSelf = false;
+        try {
+            ignoreSelf = window.localStorage.getItem('dalaman_ignore_analytics') === '1';
+        } catch {
+            ignoreSelf = false;
+        }
+
+        if (ignoreSelf) {
+            const fetchReadOnly = async () => {
+                try {
+                    const res = await fetch('/api/analytics', { cache: 'no-store' });
+                    if (res.ok) {
+                        const data = await res.json();
+                        setMetrics({
+                            onlineNow: typeof data.onlineNow === 'number' ? data.onlineNow : 0,
+                            views24h: typeof data.views24h === 'number' ? data.views24h : 0,
+                            visitors30d: typeof data.visitors30d === 'number' ? data.visitors30d : 0,
+                        });
+                    }
+                } catch {
+                    // Игнорируем сетевую ошибку в режиме чтения
+                }
+            };
+            fetchReadOnly();
+            return;
+        }
+
         if (!visitorIdRef.current) {
             visitorIdRef.current = getOrCreateVisitorId();
         }
@@ -63,12 +92,48 @@ export default function VisitorAnalyticsWidget({
         const shouldCountView = lastTrackedPathRef.current !== currentPath;
         lastTrackedPathRef.current = currentPath;
 
+        // Внешний referrer фиксируем только на самом первом просмотре захода (до SPA-переходов)
+        const isEntry = shouldCountView && !hasSentEntryRef.current;
+        let externalReferrer = '';
+        if (isEntry) {
+            hasSentEntryRef.current = true;
+            try {
+                if (document.referrer) {
+                    const refHost = new URL(document.referrer).hostname.replace(/^www\./, '');
+                    const curHost = window.location.hostname.replace(/^www\./, '');
+                    if (refHost && refHost !== curHost) {
+                        externalReferrer = document.referrer;
+                    }
+                }
+            } catch {
+                externalReferrer = '';
+            }
+        }
+
+        const browserLang = typeof navigator !== 'undefined' ? (navigator.language || '') : '';
+        const clientSignals = {
+            webdriver: Boolean(typeof navigator !== 'undefined' && navigator.webdriver),
+            screenW: typeof window !== 'undefined' ? (window.screen?.width || 0) : 0,
+            screenH: typeof window !== 'undefined' ? (window.screen?.height || 0) : 0,
+            languagesCount: typeof navigator !== 'undefined'
+                ? (Array.isArray(navigator.languages) ? navigator.languages.length : (navigator.language ? 1 : 0))
+                : 0,
+        };
+
         const sendBeat = async (registerView: boolean) => {
             try {
                 const res = await fetch('/api/analytics', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ sessionId, registerView, pathname: currentPath }),
+                    body: JSON.stringify({
+                        sessionId,
+                        registerView,
+                        pathname: currentPath,
+                        referrer: registerView ? externalReferrer : '',
+                        browserLang,
+                        isEntry: registerView ? isEntry : false,
+                        clientSignals,
+                    }),
                     cache: 'no-store',
                 });
                 if (res.ok) {
@@ -121,19 +186,10 @@ export default function VisitorAnalyticsWidget({
             : "Datça • Marmaris • Köyceğiz • Dalyan • Dalaman • Göcek • Fethiye • Kaş",
     };
 
-    const ga4Id = SITE_CONFIG.analytics.ga4MeasurementId;
     const ymId = SITE_CONFIG.analytics.yandexMetrikaId;
 
     const externalScripts = (
         <>
-            {ga4Id && (
-                <>
-                    <Script src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`} strategy="afterInteractive" />
-                    <Script id="ga4-init" strategy="afterInteractive">
-                        {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${ga4Id}');`}
-                    </Script>
-                </>
-            )}
             {ymId && (
                 <Script id="ym-init" strategy="afterInteractive">
                     {`(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date(); for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }} k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(${Number(ymId)}, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true });`}

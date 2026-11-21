@@ -14,6 +14,12 @@ import {
   FaFileAlt,
   FaClock,
   FaArrowLeft,
+  FaRobot,
+  FaEyeSlash,
+  FaSignOutAlt,
+  FaLanguage,
+  FaLink,
+  FaSearch,
 } from 'react-icons/fa';
 
 interface CityGeoNode {
@@ -52,17 +58,53 @@ interface VisitLogEntry {
   lat: number;
   lon: number;
   path: string;
+  userAgent?: string;
+  device?: string;
+  referrer?: string;
+  source?: string;
+  browserLang?: string;
+}
+
+interface BotLogEntry {
+  ts: number;
+  country: string;
+  countryCode: string;
+  city: string;
+  path: string;
+  botName: string;
+  reason: string;
+  userAgent: string;
+}
+
+interface TrafficSourceItem {
+  source: string;
+  count: number;
+}
+
+interface BrowserLangItem {
+  lang: string;
+  count: number;
+}
+
+interface BotAgentItem {
+  name: string;
+  count: number;
 }
 
 interface DetailedAnalyticsData {
   onlineNow: number;
   views24h: number;
   visitors30d: number;
+  botViews24h?: number;
   dailyHistory: DailyHistoryItem[];
   countries: CountryStat[];
   cityNodes: CityGeoNode[];
   topPages: TopPageItem[];
+  trafficSources?: TrafficSourceItem[];
+  browserLangs?: BrowserLangItem[];
+  botAgents?: BotAgentItem[];
   recentLog: VisitLogEntry[];
+  recentBotLog?: BotLogEntry[];
 }
 
 function countryCodeToFlag(code: string): string {
@@ -418,6 +460,8 @@ export default function AdminStatsPage({ params }: { params: { locale: string } 
   const [data, setData] = useState<DetailedAnalyticsData | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [authError, setAuthError] = useState<boolean>(false);
+  const [ignoreSelf, setIgnoreSelf] = useState<boolean>(false);
+  const [logTab, setLogTab] = useState<'humans' | 'bots'>('humans');
 
   const fetchStats = async (keyToUse: string) => {
     if (!keyToUse) {
@@ -433,13 +477,22 @@ export default function AdminStatsPage({ params }: { params: { locale: string } 
       if (res.status === 401) {
         setAuthError(true);
         setData(null);
+        try {
+          window.localStorage.removeItem('dalaman_admin_key');
+        } catch {
+          // игнорируем ошибку storage
+        }
         setLoading(false);
         return;
       }
       if (res.ok) {
         const json = await res.json();
         setData(json);
-        window.localStorage.setItem('dalaman_admin_key', keyToUse);
+        try {
+          window.localStorage.setItem('dalaman_admin_key', keyToUse);
+        } catch {
+          // игнорируем ошибку storage
+        }
       }
     } catch {
       // network error
@@ -449,10 +502,22 @@ export default function AdminStatsPage({ params }: { params: { locale: string } 
   };
 
   useEffect(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const fromUrl = urlParams.get('key');
-    const fromStorage = window.localStorage.getItem('dalaman_admin_key');
-    const resolvedKey = fromUrl || fromStorage || 'dalaman2026';
+    let resolvedKey = '';
+    try {
+      const urlParams = new URLSearchParams(window.location.search);
+      const fromUrl = urlParams.get('key');
+      const fromStorage = window.localStorage.getItem('dalaman_admin_key');
+      resolvedKey = fromUrl || fromStorage || '';
+      setIgnoreSelf(window.localStorage.getItem('dalaman_ignore_analytics') === '1');
+    } catch {
+      resolvedKey = '';
+    }
+
+    if (!resolvedKey) {
+      setLoading(false);
+      return;
+    }
+
     setAdminKey(resolvedKey);
     setInputKey(resolvedKey);
     fetchStats(resolvedKey);
@@ -460,8 +525,36 @@ export default function AdminStatsPage({ params }: { params: { locale: string } 
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    setAdminKey(inputKey.trim());
-    fetchStats(inputKey.trim());
+    const cleaned = inputKey.trim();
+    if (!cleaned) return;
+    setAdminKey(cleaned);
+    fetchStats(cleaned);
+  };
+
+  const handleLogout = () => {
+    try {
+      window.localStorage.removeItem('dalaman_admin_key');
+    } catch {
+      // игнорируем ошибку storage
+    }
+    setData(null);
+    setAdminKey('');
+    setInputKey('');
+    setAuthError(false);
+  };
+
+  const toggleIgnoreSelf = () => {
+    const next = !ignoreSelf;
+    setIgnoreSelf(next);
+    try {
+      if (next) {
+        window.localStorage.setItem('dalaman_ignore_analytics', '1');
+      } else {
+        window.localStorage.removeItem('dalaman_ignore_analytics');
+      }
+    } catch {
+      // игнорируем ошибку storage
+    }
   };
 
   if (!data && !loading) {
@@ -495,7 +588,7 @@ export default function AdminStatsPage({ params }: { params: { locale: string } 
               type="password"
               value={inputKey}
               onChange={(e) => setInputKey(e.target.value)}
-              placeholder="Введите ключ (по умолчанию: dalaman2026)"
+              placeholder="Введите секретный ключ доступа"
               className="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-white text-sm focus:outline-none focus:border-cyan-500"
             />
           </div>
@@ -513,12 +606,21 @@ export default function AdminStatsPage({ params }: { params: { locale: string } 
 
   const totalCountryViews =
     data?.countries.reduce((acc, c) => acc + c.views, 0) || 1;
+  const trafficSources = data?.trafficSources || [];
+  const totalSourceCount =
+    trafficSources.reduce((acc, s) => acc + s.count, 0) || 1;
+  const browserLangs = data?.browserLangs || [];
+  const botAgents = data?.botAgents || [];
+  const totalBotAgentCount =
+    botAgents.reduce((acc, b) => acc + b.count, 0) || 1;
+  const recentHumans = data?.recentLog || [];
+  const recentBots = data?.recentBotLog || [];
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-[1600px] mx-auto space-y-8">
         {/* Top Bar */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-5">
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-b border-slate-800 pb-5">
           <div>
             <Link
               href={`/${locale}`}
@@ -532,17 +634,41 @@ export default function AdminStatsPage({ params }: { params: { locale: string } 
             </h1>
           </div>
 
-          <button
-            onClick={() => fetchStats(adminKey)}
-            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold uppercase tracking-wider transition-colors self-start sm:self-auto"
-          >
-            <FaSyncAlt className={loading ? 'animate-spin' : ''} size={12} />
-            <span>Обновить данные</span>
-          </button>
+          <div className="flex flex-wrap items-center gap-2.5">
+            <button
+              onClick={toggleIgnoreSelf}
+              title="Не учитывать посещения с этого браузера в общей статистике"
+              className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider transition-colors border ${
+                ignoreSelf
+                  ? 'bg-emerald-500/15 hover:bg-emerald-500/25 border-emerald-500/40 text-emerald-300'
+                  : 'bg-slate-800 hover:bg-slate-700 border-slate-700 text-slate-200'
+              }`}
+            >
+              <FaEyeSlash size={12} />
+              <span>{ignoreSelf ? 'Мои визиты скрыты' : 'Скрыть мои визиты'}</span>
+            </button>
+
+            <button
+              onClick={() => fetchStats(adminKey)}
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold uppercase tracking-wider transition-colors"
+            >
+              <FaSyncAlt className={loading ? 'animate-spin' : ''} size={12} />
+              <span>Обновить данные</span>
+            </button>
+
+            <button
+              onClick={handleLogout}
+              title="Сбросить ключ доступа в этом браузере"
+              className="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-300 text-xs font-bold uppercase tracking-wider transition-colors"
+            >
+              <FaSignOutAlt size={12} />
+              <span>Выйти</span>
+            </button>
+          </div>
         </div>
 
         {/* Summary KPI Cards */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
           <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-5">
             <div className="flex items-center gap-2 text-xs font-bold text-emerald-400 uppercase tracking-wider mb-1">
               <FaUsers /> Сейчас онлайн
@@ -575,6 +701,14 @@ export default function AdminStatsPage({ params }: { params: { locale: string } 
               {data?.countries.length ?? 0} / {data?.cityNodes.length ?? 0}
             </div>
             <div className="text-[11px] text-slate-400 mt-1">Стран и городов на глобусе</div>
+          </div>
+
+          <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 col-span-2 lg:col-span-1">
+            <div className="flex items-center gap-2 text-xs font-bold text-rose-400 uppercase tracking-wider mb-1">
+              <FaRobot /> Отсеяно ботов (24ч)
+            </div>
+            <div className="text-3xl font-extrabold text-white">{data?.botViews24h ?? 0}</div>
+            <div className="text-[11px] text-slate-400 mt-1">Не влияют на статистику гостей</div>
           </div>
         </div>
 
@@ -643,6 +777,107 @@ export default function AdminStatsPage({ params }: { params: { locale: string } 
           </div>
         </div>
 
+        {/* Middle Grid: Traffic Sources & Browser Languages + Bot Indexers */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {/* 1. Traffic Sources & Browser Languages */}
+          <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 space-y-5">
+            <h2 className="text-base font-extrabold text-white flex items-center gap-2">
+              <FaLink className="text-emerald-400" />
+              <span>Источники трафика и языки гостей (живые)</span>
+            </h2>
+
+            {trafficSources.length > 0 ? (
+              <div className="space-y-3 max-h-[210px] overflow-y-auto pr-1">
+                {trafficSources.map((item) => {
+                  const pct = Math.round((item.count / totalSourceCount) * 100);
+                  return (
+                    <div key={item.source} className="space-y-1">
+                      <div className="flex items-center justify-between text-xs">
+                        <span className="font-bold text-slate-100 truncate pr-2">{item.source}</span>
+                        <span className="text-slate-300 font-semibold flex-shrink-0">
+                          {item.count} ({pct}%)
+                        </span>
+                      </div>
+                      <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
+                        <div
+                          className="h-full bg-gradient-to-r from-emerald-500 to-cyan-400 rounded-full"
+                          style={{ width: `${Math.max(4, pct)}%` }}
+                        />
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <p className="text-xs text-slate-400">
+                Данные об источниках переходов накапливаются по мере новых живых заходов.
+              </p>
+            )}
+
+            <div className="border-t border-slate-800 pt-4">
+              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3 flex items-center gap-1.5">
+                <FaLanguage className="text-cyan-400" size={14} />
+                <span>Языки браузера гостей</span>
+              </h3>
+              {browserLangs.length > 0 ? (
+                <div className="flex flex-wrap gap-2">
+                  {browserLangs.map((item) => (
+                    <span
+                      key={item.lang}
+                      className="px-2.5 py-1 rounded-full bg-slate-950 border border-slate-800 text-xs font-bold text-slate-200"
+                    >
+                      <span className="text-cyan-400 uppercase">{item.lang}</span>
+                      <span className="text-slate-500 mx-1">•</span>
+                      <span>{item.count}</span>
+                    </span>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-xs text-slate-400">Статистика языков браузера появится с новыми входами.</p>
+              )}
+            </div>
+          </div>
+
+          {/* 2. Search Engines & Bots */}
+          <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 space-y-4">
+            <h2 className="text-base font-extrabold text-white flex items-center gap-2">
+              <FaSearch className="text-rose-400" />
+              <span>Поисковики и боты (индексация)</span>
+            </h2>
+
+            {botAgents.length > 0 ? (
+              <div className="space-y-3 max-h-[290px] overflow-y-auto pr-1">
+                {botAgents.map((bot) => {
+                  const pct = Math.round((bot.count / totalBotAgentCount) * 100);
+                  return (
+                    <div key={bot.name} className="space-y-1">
+                      <div className="flex items-center justify-between text-xs">
+                        <span className="font-bold text-slate-100 flex items-center gap-2 truncate pr-2">
+                          <FaRobot className="text-rose-400 flex-shrink-0" size={11} />
+                          <span className="truncate">{bot.name}</span>
+                        </span>
+                        <span className="text-slate-300 font-semibold flex-shrink-0">
+                          {bot.count} просм. ({pct}%)
+                        </span>
+                      </div>
+                      <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
+                        <div
+                          className="h-full bg-gradient-to-r from-rose-500 to-amber-400 rounded-full"
+                          style={{ width: `${Math.max(4, pct)}%` }}
+                        />
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <p className="text-xs text-slate-400">
+                Запросы от поисковых краулеров, AI-ботов и headless-клиентов будут отображаться здесь после фильтрации.
+              </p>
+            )}
+          </div>
+        </div>
+
         {/* Bottom Grid: Daily History by Date + Top Pages + Live Recent Visits Log */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* 1. Daily History by Date */}
@@ -696,31 +931,126 @@ export default function AdminStatsPage({ params }: { params: { locale: string } 
             </div>
           </div>
 
-          {/* 3. Live Recent Visits Log */}
+          {/* 3. Live Recent Visits Log (Люди / Боты) */}
           <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 space-y-4">
-            <h2 className="text-base font-extrabold text-white flex items-center gap-2">
-              <FaClock className="text-emerald-400" />
-              <span>Журнал последних визитов</span>
-            </h2>
-            <div className="divide-y divide-slate-800/80 max-h-80 overflow-y-auto">
-              {(data?.recentLog || []).length > 0 ? (
-                data!.recentLog.map((entry, idx) => (
-                  <div key={idx} className="py-2.5 flex items-center justify-between gap-2 text-xs">
-                    <div className="min-w-0">
-                      <div className="font-bold text-slate-200 truncate">
-                        {countryCodeToFlag(entry.countryCode)} {entry.city}, {entry.country}
+            <div className="flex items-center justify-between gap-2">
+              <h2 className="text-base font-extrabold text-white flex items-center gap-2">
+                <FaClock className="text-emerald-400" />
+                <span>Журнал последних визитов</span>
+              </h2>
+              <div className="inline-flex rounded-xl bg-slate-950 border border-slate-800 p-0.5 text-[11px] font-bold">
+                <button
+                  type="button"
+                  onClick={() => setLogTab('humans')}
+                  className={`px-2.5 py-1 rounded-lg transition-colors ${
+                    logTab === 'humans'
+                      ? 'bg-emerald-500/20 text-emerald-300'
+                      : 'text-slate-400 hover:text-slate-200'
+                  }`}
+                >
+                  Люди ({recentHumans.length})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setLogTab('bots')}
+                  className={`px-2.5 py-1 rounded-lg transition-colors ${
+                    logTab === 'bots'
+                      ? 'bg-rose-500/20 text-rose-300'
+                      : 'text-slate-400 hover:text-slate-200'
+                  }`}
+                >
+                  Боты ({recentBots.length})
+                </button>
+              </div>
+            </div>
+
+            {logTab === 'humans' ? (
+              <div className="divide-y divide-slate-800/80 max-h-80 overflow-y-auto pr-1">
+                {recentHumans.length > 0 ? (
+                  recentHumans.map((entry, idx) => (
+                    <div
+                      key={idx}
+                      className="py-2.5 space-y-1 text-xs"
+                      title={entry.userAgent || undefined}
+                    >
+                      <div className="flex items-center justify-between gap-2">
+                        <div className="font-bold text-slate-200 truncate">
+                          {countryCodeToFlag(entry.countryCode)} {entry.city}, {entry.country}
+                        </div>
+                        <span className="text-[11px] text-slate-400 flex-shrink-0 font-mono">
+                          {new Date(entry.ts).toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit' })}
+                        </span>
                       </div>
                       <div className="text-[11px] font-mono text-cyan-400 truncate">{entry.path}</div>
+                      {(entry.source || entry.browserLang || entry.device || entry.referrer) && (
+                        <div className="flex flex-wrap items-center gap-1.5 text-[10px] text-slate-400">
+                          {entry.source && (
+                            <span className="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 font-semibold">
+                              {entry.source}
+                            </span>
+                          )}
+                          {entry.browserLang && (
+                            <span className="px-1.5 py-0.5 rounded bg-slate-800 text-cyan-300 font-mono uppercase">
+                              {entry.browserLang}
+                            </span>
+                          )}
+                          {entry.device && (
+                            <span
+                              className="px-1.5 py-0.5 rounded bg-slate-800/80 text-slate-300"
+                              title={entry.userAgent || undefined}
+                            >
+                              {entry.device}
+                            </span>
+                          )}
+                          {entry.referrer && (
+                            <span
+                              className="truncate max-w-[180px] text-slate-400"
+                              title={entry.referrer}
+                            >
+                              ← {entry.referrer}
+                            </span>
+                          )}
+                        </div>
+                      )}
                     </div>
-                    <span className="text-[11px] text-slate-400 flex-shrink-0 font-mono">
-                      {new Date(entry.ts).toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit' })}
-                    </span>
-                  </div>
-                ))
-              ) : (
-                <p className="text-xs text-slate-400 py-2">Журнал визитов заполняется в реальном времени.</p>
-              )}
-            </div>
+                  ))
+                ) : (
+                  <p className="text-xs text-slate-400 py-2">Журнал визитов заполняется в реальном времени.</p>
+                )}
+              </div>
+            ) : (
+              <div className="divide-y divide-slate-800/80 max-h-80 overflow-y-auto pr-1">
+                {recentBots.length > 0 ? (
+                  recentBots.map((entry, idx) => (
+                    <div key={idx} className="py-2.5 space-y-1 text-xs">
+                      <div className="flex items-center justify-between gap-2">
+                        <div className="font-bold text-slate-200 truncate">
+                          {countryCodeToFlag(entry.countryCode)} {entry.city}, {entry.country}
+                        </div>
+                        <span className="text-[11px] text-slate-400 flex-shrink-0 font-mono">
+                          {new Date(entry.ts).toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit' })}
+                        </span>
+                      </div>
+                      <div className="text-[11px] font-mono text-cyan-400 truncate">{entry.path}</div>
+                      <div className="flex flex-wrap items-center gap-1.5 text-[10px]">
+                        <span className="px-1.5 py-0.5 rounded bg-rose-500/20 text-rose-300 font-bold">
+                          {entry.botName}
+                        </span>
+                        <span className="text-slate-400">({entry.reason})</span>
+                      </div>
+                      <div
+                        className="text-[10px] font-mono text-slate-500 truncate"
+                        title={entry.userAgent}
+                      >
+                        {entry.userAgent || 'Empty User-Agent'}
+                      </div>
+                    </div>
+                  ))
+                ) : (
+                  <p className="text-xs text-slate-400 py-2">Отфильтрованные боты пока не зафиксированы.</p>
+                )}
+              </div>
+            )}
           </div>
         </div>
       </div>

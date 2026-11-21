@@ -20,7 +20,8 @@ export const SITE_CONFIG = {
     travelpayoutsDriveScript: process.env.NEXT_PUBLIC_TP_DRIVE_SCRIPT || 'https://emrldtp.com/NjA0MTQ2.js?t=604146',
   },
   analytics: {
-    ga4MeasurementId: process.env.NEXT_PUBLIC_GA4_ID || '',
+    // SOURCE [21.11.2026]: Google Analytics 4 поток данных dalaman.info (Stream ID: 16387303225, Measurement ID: G-P5HJ4VQVLV, URL: https://analytics.google.com)
+    ga4MeasurementId: process.env.NEXT_PUBLIC_GA4_ID || 'G-P5HJ4VQVLV',
     yandexMetrikaId: process.env.NEXT_PUBLIC_YM_ID || '',
   },
 };
