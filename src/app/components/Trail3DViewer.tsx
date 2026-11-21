@@ -6,11 +6,18 @@ import { FaCube, FaDownload, FaExternalLinkAlt, FaLayerGroup, FaMapMarkedAlt } f
 import type { LocaleCode } from '@/lib/trekking-data';
 import type { ProfileWaypointItem } from './TrailElevationProfile';
 
+export interface TrailSideBranchProp {
+  label: string;
+  distanceKm: number;
+  points: [number, number, number][];
+}
+
 interface Trail3DViewerProps {
   trailId: string;
   trailName: string;
+  totalKm: number;
   points: [number, number, number, number][];
-  sideBranchSogukSu: [number, number, number][];
+  sideBranch?: TrailSideBranchProp;
   waypoints: ProfileWaypointItem[];
   activeWaypointIdx: number | null;
   onSelectWaypoint: (idx: number) => void;
@@ -21,19 +28,76 @@ interface Trail3DViewerProps {
 
 type ViewPreset = 'overview' | 'start' | 'finish' | 'topo';
 
+interface CameraPreset {
+  center: [number, number];
+  zoom: number;
+  pitch: number;
+  bearing: number;
+}
+
+const KAYAKOY_PRESET_VIEWS: Record<ViewPreset, CameraPreset> = {
+  overview: { center: [29.1035, 36.562], zoom: 13.7, pitch: 62, bearing: 40 },
+  start: { center: [29.0926, 36.5715], zoom: 15.1, pitch: 65, bearing: 120 },
+  finish: { center: [29.1115, 36.5535], zoom: 14.8, pitch: 64, bearing: 115 },
+  topo: { center: [29.1035, 36.562], zoom: 13.8, pitch: 0, bearing: 0 },
+};
+
+function computeCameraPresets(
+  trailId: string,
+  points: [number, number, number, number][]
+): Record<ViewPreset, CameraPreset> {
+  if (trailId === 'kayakoy-oludeniz' || points.length < 2) {
+    return KAYAKOY_PRESET_VIEWS;
+  }
+
+  let minLon = Infinity;
+  let maxLon = -Infinity;
+  let minLat = Infinity;
+  let maxLat = -Infinity;
+  for (const [lon, lat] of points) {
+    if (lon < minLon) minLon = lon;
+    if (lon > maxLon) maxLon = lon;
+    if (lat < minLat) minLat = lat;
+    if (lat > maxLat) maxLat = lat;
+  }
+
+  const centerLon = (minLon + maxLon) / 2;
+  const centerLat = (minLat + maxLat) / 2;
+  const cosLat = Math.cos((centerLat * Math.PI) / 180);
+
+  const start = points[0];
+  const end = points[points.length - 1];
+  const dLon = (end[0] - start[0]) * cosLat;
+  const dLat = end[1] - start[1];
+  const az = ((Math.atan2(dLon, dLat) * 180) / Math.PI + 360) % 360;
+
+  // Choose perpendicular bearing (az - 90) so Start stays on the left & Finish on the right, matching the elevation profile
+  const overviewBearing = (az - 90 + 360) % 360;
+  const spanDeg = Math.hypot((maxLon - minLon) * cosLat, maxLat - minLat);
+  const rawZoom = 11.3 - Math.log2(Math.max(spanDeg, 0.015) / 0.12);
+  const overviewZoom = Math.min(14.4, Math.max(11.4, rawZoom));
+  const detailZoom = Math.min(15.2, overviewZoom + 1.3);
+
+  return {
+    overview: { center: [centerLon, centerLat], zoom: overviewZoom, pitch: 60, bearing: overviewBearing },
+    start: { center: [start[0], start[1]], zoom: detailZoom, pitch: 64, bearing: az },
+    finish: { center: [end[0], end[1]], zoom: detailZoom, pitch: 64, bearing: (az + 180) % 360 },
+    topo: { center: [centerLon, centerLat], zoom: overviewZoom + 0.1, pitch: 0, bearing: 0 },
+  };
+}
+
 const UI_COPY: Record<
   LocaleCode,
   {
     badge3d: string;
     presetOverview: string;
-    presetStart: string;
-    presetFinish: string;
+    startPrefix: string;
+    finishPrefix: string;
     presetTopo: string;
     downloadGpx: string;
     openGoogleMaps: string;
     legendMain: string;
-    legendBranch: string;
-    controlsHint: string;
+    controlsHint: (count: number) => string;
     fallbackTitle: string;
     fallbackDesc: string;
     mUnit: string;
@@ -43,15 +107,15 @@ const UI_COPY: Record<
   ru: {
     badge3d: 'Интерактивная 3D-карта полёта птицы',
     presetOverview: 'Весь трек (3D)',
-    presetStart: 'Старт: Каякёй и гребень',
-    presetFinish: 'Финиш: лагуна Олюдениз',
+    startPrefix: 'Старт',
+    finishPrefix: 'Финиш',
     presetTopo: 'Топокарта (2D)',
     downloadGpx: 'Скачать GPX',
     openGoogleMaps: 'Google Maps',
-    legendMain: 'Основной трек OSM (5,3 км)',
-    legendBranch: 'Ветка в бухту Soğuk Su (+1,7 км)',
-    controlsHint: 'ЛКМ — сдвиг · ПКМ / Ctrl+ЛКМ — наклон и поворот 3D-рельефа · Клик 1–7 — точка',
-    fallbackTitle: '3D-карта недоступна в текущем браузере (нет WebGL)',
+    legendMain: 'Основной трек OSM',
+    controlsHint: (count) =>
+      `ЛКМ — сдвиг · ПКМ / Ctrl+ЛКМ — наклон и поворот 3D-рельефа · Клик 1–${count} — точка`,
+    fallbackTitle: '3D-карта недоступна в текущем брауере (нет WebGL)',
     fallbackDesc: 'Вы можете скачать реальный GPX-трек OpenStreetMap или открыть маршрут в Google Maps.',
     mUnit: 'м',
     kmUnit: 'км',
@@ -59,14 +123,14 @@ const UI_COPY: Record<
   en: {
     badge3d: 'Interactive 3D Bird’s-Eye Map',
     presetOverview: 'Full Trail (3D)',
-    presetStart: 'Start: Kayaköy & Crest',
-    presetFinish: 'Finish: Ölüdeniz Lagoon',
+    startPrefix: 'Start',
+    finishPrefix: 'Finish',
     presetTopo: 'Topo Map (2D)',
     downloadGpx: 'Download GPX',
     openGoogleMaps: 'Google Maps',
-    legendMain: 'Main OSM Track (5.3 km)',
-    legendBranch: 'Soğuk Su Cove Branch (+1.7 km)',
-    controlsHint: 'Drag to pan · Right-click / Ctrl+Drag to tilt & rotate 3D terrain · Click pins 1–7',
+    legendMain: 'Main OSM Track',
+    controlsHint: (count) =>
+      `Drag to pan · Right-click / Ctrl+Drag to tilt & rotate 3D terrain · Click pins 1–${count}`,
     fallbackTitle: '3D WebGL view is unavailable in this browser',
     fallbackDesc: 'You can still download the verified OpenStreetMap GPX file or open the trail in Google Maps.',
     mUnit: 'm',
@@ -75,14 +139,14 @@ const UI_COPY: Record<
   de: {
     badge3d: 'Interaktive 3D-Vogelperspektive',
     presetOverview: 'Gesamtroute (3D)',
-    presetStart: 'Start: Kayaköy & Kamm',
-    presetFinish: 'Ziel: Lagune Ölüdeniz',
+    startPrefix: 'Start',
+    finishPrefix: 'Ziel',
     presetTopo: 'Topo-Karte (2D)',
     downloadGpx: 'GPX laden',
     openGoogleMaps: 'Google Maps',
-    legendMain: 'Haupttrack OSM (5,3 km)',
-    legendBranch: 'Abzweig Soğuk Su (+1,7 km)',
-    controlsHint: 'Ziehen = Bewegen · Rechtsklick / Strg+Ziehen = 3D-Ansicht kippen · Klick auf 1–7',
+    legendMain: 'Haupttrack OSM',
+    controlsHint: (count) =>
+      `Ziehen = Bewegen · Rechtsklick / Strg+Ziehen = 3D-Ansicht kippen · Klick auf 1–${count}`,
     fallbackTitle: '3D-WebGL-Ansicht wird von diesem Browser nicht unterstützt',
     fallbackDesc: 'Sie können den verifizierten OpenStreetMap-GPX-Track herunterladen oder Google Maps öffnen.',
     mUnit: 'm',
@@ -91,29 +155,19 @@ const UI_COPY: Record<
   tr: {
     badge3d: 'İnteraktif 3D Kuş Bakışı Harita',
     presetOverview: 'Tüm Parkur (3D)',
-    presetStart: 'Başlangıç: Kayaköy & Sırt',
-    presetFinish: 'Bitiş: Ölüdeniz Lagünü',
+    startPrefix: 'Başlangıç',
+    finishPrefix: 'Bitiş',
     presetTopo: 'Topo Harita (2D)',
     downloadGpx: 'GPX İndir',
     openGoogleMaps: 'Google Maps',
-    legendMain: 'Ana OSM Parkuru (5,3 km)',
-    legendBranch: 'Soğuk Su Koyu Ayrımı (+1,7 km)',
-    controlsHint: 'Sürükle = Gezin · Sağ tık / Ctrl+Sürükle = 3D eğim & döndürme · 1–7 noktalarına tıkla',
+    legendMain: 'Ana OSM Parkuru',
+    controlsHint: (count) =>
+      `Sürükle = Gezin · Sağ tık / Ctrl+Sürükle = 3D eğim & döndürme · 1–${count} noktalarına tıkla`,
     fallbackTitle: 'Bu tarayıcıda 3D WebGL desteği kullanılamıyor',
     fallbackDesc: 'Doğrulanmış OpenStreetMap GPX dosyasını indirebilir veya Google Haritalar’da açabilirsiniz.',
     mUnit: 'm',
     kmUnit: 'km',
   },
-};
-
-const PRESET_VIEWS: Record<
-  ViewPreset,
-  { center: [number, number]; zoom: number; pitch: number; bearing: number }
-> = {
-  overview: { center: [29.1035, 36.562], zoom: 13.7, pitch: 62, bearing: 40 },
-  start: { center: [29.0926, 36.5715], zoom: 15.1, pitch: 65, bearing: 120 },
-  finish: { center: [29.1115, 36.5535], zoom: 14.8, pitch: 64, bearing: 115 },
-  topo: { center: [29.1035, 36.562], zoom: 13.8, pitch: 0, bearing: 0 },
 };
 
 function escapeXml(str: string): string {
@@ -166,8 +220,9 @@ function showWaypointPopup(
 export default function Trail3DViewer({
   trailId,
   trailName,
+  totalKm,
   points,
-  sideBranchSogukSu,
+  sideBranch,
   waypoints,
   activeWaypointIdx,
   onSelectWaypoint,
@@ -176,6 +231,10 @@ export default function Trail3DViewer({
   locale,
 }: Trail3DViewerProps) {
   const t = UI_COPY[locale] || UI_COPY.en;
+  const presets = React.useMemo(() => computeCameraPresets(trailId, points), [trailId, points]);
+  const presetsRef = useRef(presets);
+  presetsRef.current = presets;
+
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<any>(null);
   const maplibreRef = useRef<any>(null);
@@ -191,6 +250,8 @@ export default function Trail3DViewer({
   activePresetRef.current = activePreset;
   const unitsRef = useRef({ kmUnit: t.kmUnit, mUnit: t.mUnit });
   unitsRef.current = { kmUnit: t.kmUnit, mUnit: t.mUnit };
+
+  const branchKey = sideBranch ? `${sideBranch.label}:${sideBranch.points.length}` : 'none';
 
   useEffect(() => {
     let isCancelled = false;
@@ -213,6 +274,8 @@ export default function Trail3DViewer({
         if (isCancelled || !containerRef.current) return;
         maplibreRef.current = maplibregl;
 
+        const hasBranch = Boolean(sideBranch && sideBranch.points.length > 1);
+
         const mainLineGeoJson = {
           type: 'Feature',
           properties: { name: trailName },
@@ -224,68 +287,70 @@ export default function Trail3DViewer({
 
         const branchLineGeoJson = {
           type: 'Feature',
-          properties: { name: 'Soğuk Su Koyu Branch' },
+          properties: { name: sideBranch?.label || '' },
           geometry: {
             type: 'LineString',
-            coordinates: sideBranchSogukSu.map((p) => [p[0], p[1]]),
+            coordinates: hasBranch ? sideBranch!.points.map((p) => [p[0], p[1]]) : [],
           },
         };
 
-        const styleConfig: any = {
-          version: 8,
-          sources: {
-            esri: {
-              type: 'raster',
-              tiles: [
-                'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-              ],
-              tileSize: 256,
-              maxzoom: 17,
-            },
-            opentopo: {
-              type: 'raster',
-              tiles: ['https://a.tile.opentopomap.org/{z}/{x}/{y}.png'],
-              tileSize: 256,
-              maxzoom: 17,
-            },
-            terrainSource: {
-              type: 'raster-dem',
-              tiles: ['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'],
-              tileSize: 256,
-              encoding: 'terrarium',
-              maxzoom: 14,
-            },
-            'main-trail': {
-              type: 'geojson',
-              data: mainLineGeoJson,
-            },
-            'branch-trail': {
-              type: 'geojson',
-              data: branchLineGeoJson,
-            },
+        const sources: Record<string, any> = {
+          esri: {
+            type: 'raster',
+            tiles: [
+              'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+            ],
+            tileSize: 256,
+            maxzoom: 17,
           },
-          terrain: {
-            source: 'terrainSource',
-            exaggeration: 1.8,
+          opentopo: {
+            type: 'raster',
+            tiles: ['https://a.tile.opentopomap.org/{z}/{x}/{y}.png'],
+            tileSize: 256,
+            maxzoom: 17,
           },
-          layers: [
-            {
-              id: 'background',
-              type: 'background',
-              paint: { 'background-color': '#0f172a' },
-            },
-            {
-              id: 'esri-satellite',
-              type: 'raster',
-              source: 'esri',
-              layout: { visibility: 'visible' },
-            },
-            {
-              id: 'opentopo-layer',
-              type: 'raster',
-              source: 'opentopo',
-              layout: { visibility: 'none' },
-            },
+          terrainSource: {
+            type: 'raster-dem',
+            tiles: ['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'],
+            tileSize: 256,
+            encoding: 'terrarium',
+            maxzoom: 14,
+          },
+          'main-trail': {
+            type: 'geojson',
+            data: mainLineGeoJson,
+          },
+        };
+
+        if (hasBranch) {
+          sources['branch-trail'] = {
+            type: 'geojson',
+            data: branchLineGeoJson,
+          };
+        }
+
+        const layers: any[] = [
+          {
+            id: 'background',
+            type: 'background',
+            paint: { 'background-color': '#0f172a' },
+          },
+          {
+            id: 'esri-satellite',
+            type: 'raster',
+            source: 'esri',
+            layout: { visibility: 'visible' },
+          },
+          {
+            id: 'opentopo-layer',
+            type: 'raster',
+            source: 'opentopo',
+            layout: { visibility: 'none' },
+          },
+        ];
+
+        if (hasBranch) {
+          layers.push(
             {
               id: 'branch-trail-casing',
               type: 'line',
@@ -305,35 +370,48 @@ export default function Trail3DViewer({
                 'line-width': 3,
                 'line-dasharray': [2, 1.5],
               },
+            }
+          );
+        }
+
+        layers.push(
+          {
+            id: 'main-trail-casing',
+            type: 'line',
+            source: 'main-trail',
+            layout: { 'line-cap': 'round', 'line-join': 'round' },
+            paint: {
+              'line-color': '#ffffff',
+              'line-width': 6.5,
+              'line-opacity': 0.9,
             },
-            {
-              id: 'main-trail-casing',
-              type: 'line',
-              source: 'main-trail',
-              layout: { 'line-cap': 'round', 'line-join': 'round' },
-              paint: {
-                'line-color': '#ffffff',
-                'line-width': 6.5,
-                'line-opacity': 0.9,
-              },
+          },
+          {
+            id: 'main-trail-line',
+            type: 'line',
+            source: 'main-trail',
+            layout: { 'line-cap': 'round', 'line-join': 'round' },
+            paint: {
+              'line-color': '#ef4444',
+              'line-width': 3.8,
             },
-            {
-              id: 'main-trail-line',
-              type: 'line',
-              source: 'main-trail',
-              layout: { 'line-cap': 'round', 'line-join': 'round' },
-              paint: {
-                'line-color': '#ef4444',
-                'line-width': 3.8,
-              },
-            },
-          ],
+          }
+        );
+
+        const styleConfig: any = {
+          version: 8,
+          sources,
+          terrain: {
+            source: 'terrainSource',
+            exaggeration: 1.8,
+          },
+          layers,
         };
 
         mapInstance = new maplibregl.Map({
           container: containerRef.current,
           style: styleConfig,
-          ...PRESET_VIEWS.overview,
+          ...presetsRef.current.overview,
           maxPitch: 75,
           attributionControl: false,
         });
@@ -389,7 +467,6 @@ export default function Trail3DViewer({
         });
 
         mapInstance.on('error', (ev: any) => {
-          // Ignore single tile errors; only fallback if context creation itself fails
           if (ev?.error?.message && /webgl/i.test(ev.error.message)) {
             setWebglError(true);
           }
@@ -403,14 +480,14 @@ export default function Trail3DViewer({
 
     return () => {
       isCancelled = true;
-      if (popupRef.current) popupRef.current.remove();
+      popupRef.current = null;
       if (mapInstance) {
         mapInstance.remove();
       }
       mapRef.current = null;
       markerElsRef.current = [];
     };
-  }, [points, sideBranchSogukSu, trailName, waypoints]);
+  }, [branchKey, points, sideBranch, trailName, waypoints]);
 
   // Sync active waypoint highlight & fly camera when changed externally (e.g., from elevation profile)
   useEffect(() => {
@@ -458,7 +535,7 @@ export default function Trail3DViewer({
     map.setTerrain(isTopo ? null : { source: 'terrainSource', exaggeration: 1.8 });
 
     map.flyTo({
-      ...PRESET_VIEWS[preset],
+      ...presets[preset],
       speed: 0.95,
       essential: true,
     });
@@ -483,12 +560,19 @@ export default function Trail3DViewer({
       )
       .join('\n');
 
-    const branchTrkPts = sideBranchSogukSu
-      .map(
-        ([lon, lat, ele]) =>
-          `      <trkpt lat="${lat.toFixed(6)}" lon="${lon.toFixed(6)}"><ele>${ele}</ele></trkpt>`
-      )
-      .join('\n');
+    const hasBranch = Boolean(sideBranch && sideBranch.points.length > 1);
+    const branchXml = hasBranch
+      ? `\n  <trk>\n` +
+        `    <name>${escapeXml(sideBranch!.label)}</name>\n` +
+        `    <trkseg>\n` +
+        sideBranch!.points
+          .map(
+            ([lon, lat, ele]) =>
+              `      <trkpt lat="${lat.toFixed(6)}" lon="${lon.toFixed(6)}"><ele>${ele}</ele></trkpt>`
+          )
+          .join('\n') +
+        `\n    </trkseg>\n  </trk>`
+      : '';
 
     const gpx =
       `<?xml version="1.0" encoding="UTF-8"?>\n` +
@@ -503,13 +587,7 @@ export default function Trail3DViewer({
       `    <trkseg>\n` +
       `${mainTrkPts}\n` +
       `    </trkseg>\n` +
-      `  </trk>\n` +
-      `  <trk>\n` +
-      `    <name>Soğuk Su Koyu Branch (Cold Water Bay)</name>\n` +
-      `    <trkseg>\n` +
-      `${branchTrkPts}\n` +
-      `    </trkseg>\n` +
-      `  </trk>\n` +
+      `  </trk>${branchXml}\n` +
       `</gpx>\n`;
 
     const blob = new Blob([gpx], { type: 'application/gpx+xml;charset=utf-8' });
@@ -522,6 +600,14 @@ export default function Trail3DViewer({
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
   };
+
+  const startShort = waypoints[0]?.shortLabel || t.startPrefix;
+  const endShort = waypoints[waypoints.length - 1]?.shortLabel || t.finishPrefix;
+  const formattedTotalKm =
+    locale === 'ru' || locale === 'de' || locale === 'tr'
+      ? totalKm.toFixed(1).replace('.', ',')
+      : totalKm.toFixed(1);
+  const hasVisibleBranch = Boolean(sideBranch && sideBranch.points.length > 1);
 
   return (
     <div className="bg-slate-900 text-white rounded-2xl border border-slate-800 shadow-lg overflow-hidden">
@@ -536,8 +622,8 @@ export default function Trail3DViewer({
             {(
               [
                 { id: 'overview', label: t.presetOverview },
-                { id: 'start', label: t.presetStart },
-                { id: 'finish', label: t.presetFinish },
+                { id: 'start', label: `${t.startPrefix}: ${startShort}` },
+                { id: 'finish', label: `${t.finishPrefix}: ${endShort}` },
                 { id: 'topo', label: t.presetTopo },
               ] as { id: ViewPreset; label: string }[]
             ).map((btn) => (
@@ -611,17 +697,21 @@ export default function Trail3DViewer({
           <div className="absolute left-3 top-3 z-10 bg-slate-900/85 backdrop-blur-md border border-white/15 rounded-xl px-3 py-2 text-[11px] space-y-1 pointer-events-none">
             <div className="flex items-center gap-2 text-white font-semibold">
               <span className="w-4 h-1 rounded bg-red-500 inline-block" />
-              <span>{t.legendMain}</span>
+              <span>
+                {t.legendMain} ({formattedTotalKm} {t.kmUnit})
+              </span>
             </div>
-            <div className="flex items-center gap-2 text-cyan-200 font-semibold">
-              <span className="w-4 border-t-2 border-dashed border-cyan-400 inline-block" />
-              <span>{t.legendBranch}</span>
-            </div>
+            {hasVisibleBranch && sideBranch && (
+              <div className="flex items-center gap-2 text-cyan-200 font-semibold">
+                <span className="w-4 border-t-2 border-dashed border-cyan-400 inline-block" />
+                <span>{sideBranch.label}</span>
+              </div>
+            )}
           </div>
 
           {/* Bottom Interaction Hint */}
           <div className="hidden sm:block absolute left-3 bottom-3 z-10 bg-slate-900/80 backdrop-blur-md border border-white/15 rounded-lg px-2.5 py-1 text-[11px] text-slate-300 pointer-events-none">
-            {t.controlsHint}
+            {t.controlsHint(waypoints.length)}
           </div>
         </div>
       )}

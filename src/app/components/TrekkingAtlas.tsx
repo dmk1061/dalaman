@@ -84,11 +84,11 @@ const ATLAS_UI_BY_LOCALE: Record<LocaleCode, AtlasUiCopy> = {
     showAllZonesBtn: (total) => `Показать все ${total} троп`,
     trailsCountSuffix: (count) =>
       count === 1 ? '1 тропа' : count >= 2 && count <= 4 ? `${count} тропы` : `${count} троп`,
-    featuredEyebrow: 'TREK 07 · ЭТАЛОННЫЙ РАЗВОРОТ С 3D-РЕЛЬЕФОМ',
-    featuredTitle: 'Каякёй → Олюдениз (+ ветка в бухту Soğuk Su)',
+    featuredEyebrow: 'ВСЕ 15 ТРОП В 3D · СТАРТ С TREK 07',
+    featuredTitle: 'Все 15 маршрутов теперь с 3D-рельефом, профилем высот и GPX',
     featuredDesc:
-      'Живая 3D-карта полёта птицы, реальный трек OpenStreetMap (5,3 км + 1,7 км к холодным родникам), профиль высот Copernicus DEM со временем по отрезкам и скачивание GPX.',
-    featuredCta: 'Открыть детальный 3D-гид, профиль высот и GPX →',
+      'Каждый этап от Датчи до Каша получил отдельную страницу с 3D-картой полёта птицы, 2D Topo-режимом, профилем Copernicus DEM и скачиванием GPX. Для первого знакомства начните с TREK 07: Каякёй → Олюдениз (+ ветка Soğuk Su).',
+    featuredCta: 'Открыть TREK 07 в 3D, профиль и GPX →',
     inflationShieldTitle: 'Щит от инфляции и сборы в парках 2026',
     inflationShieldDesc:
       'Вход на открытые участки Ликийской и Карийской троп бесплатен. Плата берётся только в нацпарках и на территории охраняемых руин (Книдос, Каунос, Каякёй, Саклыкент, Симена) — актуальные тарифы muze.gov.tr привязаны к евро. В горные деревни всегда берите наличные лиры.',
@@ -140,11 +140,11 @@ const ATLAS_UI_BY_LOCALE: Record<LocaleCode, AtlasUiCopy> = {
     overviewMapAlt: '3D coastline overview from Datça to Kaş showing four numbered trekking zones',
     showAllZonesBtn: (total) => `Show all ${total} trails`,
     trailsCountSuffix: (count) => (count === 1 ? '1 trail' : `${count} trails`),
-    featuredEyebrow: 'TREK 07 · SIGNATURE 3D TRAIL SPREAD',
-    featuredTitle: 'Kayaköy → Ölüdeniz Blue Lagoon (+ Soğuk Su Branch)',
+    featuredEyebrow: 'ALL 15 TRAILS IN 3D · START WITH TREK 07',
+    featuredTitle: 'Every Route Now Features 3D Terrain, Elevation Profile & GPX',
     featuredDesc:
-      'Live 3D bird’s-eye terrain, verified OpenStreetMap track (5.3 km + 1.7 km cold-spring branch), Copernicus DEM elevation profile with segment times, and GPX export.',
-    featuredCta: 'Open Detailed 3D Guide, Profile & GPX →',
+      'All 15 trails from Datça to Kaş now open in interactive bird’s-eye 3D views with 2D Topo mode, Copernicus DEM elevation charts, and GPX downloads. Start with signature TREK 07: Kayaköy → Ölüdeniz (+ Soğuk Su branch).',
+    featuredCta: 'Explore TREK 07 3D Guide & GPX →',
     inflationShieldTitle: '2026 Inflation Shield & Park Fees',
     inflationShieldDesc:
       'Open stretches of the Lycian Way and Carian Trail are 100% free. Entrance fees apply only at fenced ruins and national parks (Knidos, Kaunos, Kayaköy, Saklıkent, Simena) — check current EUR-indexed tariffs at muze.gov.tr and carry Turkish Lira cash for mountain villages.',
@@ -196,11 +196,11 @@ const ATLAS_UI_BY_LOCALE: Record<LocaleCode, AtlasUiCopy> = {
     overviewMapAlt: '3D-Übersichtskarte der Küste von Datça bis Kaş mit vier Wanderzonen',
     showAllZonesBtn: (total) => `Alle ${total} Routen zeigen`,
     trailsCountSuffix: (count) => (count === 1 ? '1 Route' : `${count} Routen`),
-    featuredEyebrow: 'TREK 07 · DETAIL-ETAPPE MIT 3D-GELÄNDE',
-    featuredTitle: 'Kayaköy → Blaue Lagune Ölüdeniz (+ Abzweig Soğuk Su)',
+    featuredEyebrow: 'ALLE 15 ROUTEN IN 3D · EMPFEHLUNG TREK 07',
+    featuredTitle: 'Jede Route jetzt mit 3D-Gelände, Höhenprofil & GPX',
     featuredDesc:
-      'Interaktive 3D-Vogelperspektive, verifizierter OpenStreetMap-Track (5,3 km + 1,7 km Seitenpfad), Copernicus-DEM-Höhenprofil mit Gehzeiten und GPX-Download.',
-    featuredCta: '3D-Guide, Höhenprofil & GPX öffnen →',
+      'Alle 15 Etappen von Datça bis Kaş öffnen sich nun in der interaktiven 3D-Vogelperspektive mit 2D-Topo-Karte, Copernicus-DEM-Profil und GPX-Export. Ideal für den Einstieg: TREK 07 Kayaköy → Ölüdeniz.',
+    featuredCta: 'TREK 07 in 3D & GPX öffnen →',
     inflationShieldTitle: 'Inflationsschutz & Parkgebühren 2026',
     inflationShieldDesc:
       'Freie Abschnitte des Lykischen und Karischen Weges sind kostenlos. Eintritt gilt nur in Nationalparks und umzäunten Ruinen (Knidos, Kaunos, Kayaköy, Saklıkent, Simena) — Tarife unter muze.gov.tr prüfen und Lira-Bargeld für Bergdörfer mitnehmen.',
@@ -252,11 +252,11 @@ const ATLAS_UI_BY_LOCALE: Record<LocaleCode, AtlasUiCopy> = {
     overviewMapAlt: 'Datça’dan Kaş’a dört yürüyüş bölgesini gösteren 3D kıyı haritası',
     showAllZonesBtn: (total) => `Tüm ${total} rotayı göster`,
     trailsCountSuffix: (count) => `${count} rota`,
-    featuredEyebrow: 'PARKUR 07 · ÖRNEK 3D ROTA REHBERİ',
-    featuredTitle: 'Kayaköy → Ölüdeniz Mavi Lagün (+ Soğuk Su Ayrımı)',
+    featuredEyebrow: '15 ROTA ARTIK 3D HARİTADA · ÖNERİLEN PARKUR 07',
+    featuredTitle: 'Tüm 15 Parkur İçin Canlı 3D Arazi, Rakım Profili ve GPX İndirme',
     featuredDesc:
-      'Canlı 3D kuş bakışı arazi haritası, doğrulanmış OpenStreetMap izi (5,3 km + 1,7 km soğuk kaynak ayrımı), Copernicus DEM rakım profili ve GPX indirme.',
-    featuredCta: 'Detaylı 3D Rehber, Rakım Profili ve GPX →',
+      'Datça’dan Kaş’a kadar tüm 15 rota artık 3D kuş bakışı harita, 2D Topo görünümü, Copernicus DEM rakım grafiği ve GPX dosyasıyla açılıyor. İlk keşif için TREK 07: Kayaköy → Ölüdeniz ile başlayın.',
+    featuredCta: 'TREK 07 3D Rehber ve GPX’i Aç →',
     inflationShieldTitle: '2026 Enflasyon Koruması ve Milli Park Ücretleri',
     inflationShieldDesc:
       'Likya ve Karya Yollarının açık patikaları ücretsizdir. Giriş ücreti yalnızca ören yerleri ve milli park kapılarında alınır (Knidos, Kaunos, Kayaköy, Saklıkent, Simena) — güncel tarifeler için muze.gov.tr adresini kontrol edin ve dağ köyleri için nakit TL taşıyın.',

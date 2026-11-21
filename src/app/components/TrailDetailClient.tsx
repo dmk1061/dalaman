@@ -18,33 +18,11 @@ import {
 import type {
   DetailedTrailGuideCopy,
   LocaleCode,
+  RawTrailTrackData,
   TrailStage,
 } from '@/lib/trekking-data';
 import Trail3DViewer from './Trail3DViewer';
 import TrailElevationProfile, { type ProfileWaypointItem } from './TrailElevationProfile';
-
-interface RawTrailTrackData {
-  id: string;
-  osmRelationId: number;
-  attribution: string;
-  totalKm: number;
-  sogukSuBranchKm: number;
-  elevationGainM: number;
-  elevationLossM: number;
-  minElevationM: number;
-  maxElevationM: number;
-  points: [number, number, number, number][];
-  sideBranchSogukSu: [number, number, number][];
-  waypoints: {
-    id: 'start' | 'ridge' | 'saddle' | 'junction' | 'cove-descent' | 'headland' | 'finish';
-    pointIndex: number;
-    lon: number;
-    lat: number;
-    ele: number;
-    km: number;
-    segmentMinutesFromPrev: number;
-  }[];
-}
 
 interface TrailDetailClientProps {
   locale: LocaleCode;
@@ -66,7 +44,8 @@ const STAT_LABELS: Record<
     mUnit: string;
     hourUnit: string;
     openMap: string;
-    waypointsStrip: string;
+    waypointsStrip: (count: number) => string;
+    open3dCta: string;
   }
 > = {
   ru: {
@@ -79,7 +58,8 @@ const STAT_LABELS: Record<
     mUnit: 'м',
     hourUnit: 'ч.',
     openMap: 'Открыть в Google Maps',
-    waypointsStrip: 'Контрольные точки на карте и профиле:',
+    waypointsStrip: (count) => `Контрольные точки 1–${count}:`,
+    open3dCta: 'Открыть 3D-гид',
   },
   en: {
     dist: 'Distance',
@@ -91,7 +71,8 @@ const STAT_LABELS: Record<
     mUnit: 'm',
     hourUnit: 'h',
     openMap: 'Open in Google Maps',
-    waypointsStrip: 'Interactive checkpoints:',
+    waypointsStrip: (count) => `Checkpoints 1–${count}:`,
+    open3dCta: 'Open 3D Guide',
   },
   de: {
     dist: 'Distanz',
@@ -103,7 +84,8 @@ const STAT_LABELS: Record<
     mUnit: 'm',
     hourUnit: 'Std.',
     openMap: 'In Google Maps öffnen',
-    waypointsStrip: 'Wegpunkte 1–7:',
+    waypointsStrip: (count) => `Wegpunkte 1–${count}:`,
+    open3dCta: '3D-Guide öffnen',
   },
   tr: {
     dist: 'Mesafe',
@@ -115,7 +97,8 @@ const STAT_LABELS: Record<
     mUnit: 'm',
     hourUnit: 'sa.',
     openMap: 'Google Haritalar’da aç',
-    waypointsStrip: 'Kontrol noktaları 1–7:',
+    waypointsStrip: (count) => `Kontrol noktaları 1–${count}:`,
+    open3dCta: '3D Rehberi Aç',
   },
 };
 
@@ -131,8 +114,12 @@ export default function TrailDetailClient({
 
   const localizedWaypoints: ProfileWaypointItem[] = useMemo(
     () =>
-      track.waypoints.map((wp) => {
-        const copy = guide.waypointLabels[wp.id];
+      track.waypoints.map((wp, idx) => {
+        const copy = guide.waypointLabels[wp.id] || {
+          title: `Point ${idx + 1}`,
+          shortLabel: `#${idx + 1}`,
+          note: `${wp.km.toFixed(1)} km · ${wp.ele} m`,
+        };
         return {
           ...wp,
           title: copy.title,
@@ -144,6 +131,16 @@ export default function TrailDetailClient({
   );
 
   const stageTitle = stage.title[locale] || stage.title.en;
+  const sideBranchProp = useMemo(() => {
+    if (!track.sideBranch || track.sideBranch.points.length < 2) return undefined;
+    return {
+      label:
+        guide.sideBranchLabel ||
+        `${track.sideBranch.id} (+${track.sideBranch.distanceKm} ${stats.kmUnit})`,
+      distanceKm: track.sideBranch.distanceKm,
+      points: track.sideBranch.points,
+    };
+  }, [guide.sideBranchLabel, stats.kmUnit, track.sideBranch]);
 
   return (
     <div className="space-y-10">
@@ -249,7 +246,10 @@ export default function TrailDetailClient({
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-3">
           <div>
             <span className="eyebrow-badge mb-1.5">
-              <FaMountain /> OSM RELATION #{track.osmRelationId} + COPERNICUS DEM
+              <FaMountain />{' '}
+              {track.osmRelationId !== null
+                ? `OSM RELATION #${track.osmRelationId} + COPERNICUS DEM`
+                : 'OPENSTREETMAP + COPERNICUS DEM'}
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
               {guide.mapSectionTitle}
@@ -262,7 +262,9 @@ export default function TrailDetailClient({
 
         {/* Checkpoint Quick Pills */}
         <div className="flex flex-wrap items-center gap-1.5">
-          <span className="text-xs font-bold text-slate-500 mr-1">{stats.waypointsStrip}</span>
+          <span className="text-xs font-bold text-slate-500 mr-1">
+            {stats.waypointsStrip(localizedWaypoints.length)}
+          </span>
           {localizedWaypoints.map((wp, idx) => {
             const isSelected = activeWaypointIdx === idx;
             return (
@@ -292,8 +294,9 @@ export default function TrailDetailClient({
         <Trail3DViewer
           trailId={track.id}
           trailName={stageTitle}
+          totalKm={track.totalKm}
           points={track.points}
-          sideBranchSogukSu={track.sideBranchSogukSu}
+          sideBranch={sideBranchProp}
           waypoints={localizedWaypoints}
           activeWaypointIdx={activeWaypointIdx}
           onSelectWaypoint={(idx) => setActiveWaypointIdx(idx)}
@@ -435,7 +438,7 @@ export default function TrailDetailClient({
           {nearbyStages.map((near) => (
             <Link
               key={near.id}
-              href={`/${locale}/routes/trekking#trek-${near.id}`}
+              href={`/${locale}/routes/trekking/${near.id}`}
               className="portal-card p-4 flex flex-col justify-between gap-3 group"
             >
               <div>
@@ -453,7 +456,7 @@ export default function TrailDetailClient({
                 </p>
               </div>
               <span className="inline-flex items-center gap-1 text-xs font-bold text-cyan-700">
-                <span>{guide.backToAtlas}</span> <FaChevronRight size={9} />
+                <span>{stats.open3dCta}</span> <FaChevronRight size={9} />
               </span>
             </Link>
           ))}

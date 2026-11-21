@@ -8,13 +8,12 @@ import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import TrailDetailClient from '@/app/components/TrailDetailClient';
 import { buildPageMetadata } from '@/lib/seo';
+import { getDetailedTrailGuide, getTrailTrackData } from '@/lib/trail-guides';
 import {
   DETAILED_TRAIL_SLUGS,
-  KAYAKOY_DETAILED_GUIDE,
   TRAIL_STAGES,
   type LocaleCode,
 } from '@/lib/trekking-data';
-import kayakoyTrackRaw from '@/lib/trails/kayakoy-oludeniz.json';
 
 const SUPPORTED_LOCALES: LocaleCode[] = ['en', 'ru', 'de', 'tr'];
 
@@ -75,7 +74,10 @@ export async function generateMetadata({
     return {};
   }
 
-  const guide = KAYAKOY_DETAILED_GUIDE[activeLocale] || KAYAKOY_DETAILED_GUIDE.en;
+  const guide = getDetailedTrailGuide(params.slug, activeLocale);
+  if (!guide) {
+    return {};
+  }
   const brand = CRUMB_LABELS[activeLocale].metaBrand;
 
   return buildPageMetadata({
@@ -83,7 +85,7 @@ export async function generateMetadata({
     pathname: `/routes/trekking/${params.slug}`,
     title: `${guide.h1} | ${brand}`,
     description: guide.lead,
-    image: '/api/images/locations/fethiye/ruines/kayakoy/kayakoy.jpg',
+    image: stage.image,
   });
 }
 
@@ -99,38 +101,16 @@ export default function DetailedTrailPage({
   }
 
   const stage = TRAIL_STAGES.find((s) => s.id === params.slug);
-  if (!stage) {
+  const guide = getDetailedTrailGuide(params.slug, activeLocale);
+  const trackData = getTrailTrackData(params.slug);
+  if (!stage || !guide || !trackData) {
     notFound();
   }
 
-  const guide = KAYAKOY_DETAILED_GUIDE[activeLocale] || KAYAKOY_DETAILED_GUIDE.en;
   const crumbs = CRUMB_LABELS[activeLocale];
   const nearbyStages = TRAIL_STAGES.filter(
     (s) => s.zoneId === stage.zoneId && s.id !== stage.id
   );
-
-  const trackData = {
-    id: kayakoyTrackRaw.id,
-    osmRelationId: kayakoyTrackRaw.osmRelationId,
-    attribution: kayakoyTrackRaw.attribution,
-    totalKm: kayakoyTrackRaw.totalKm,
-    sogukSuBranchKm: kayakoyTrackRaw.sogukSuBranchKm,
-    elevationGainM: kayakoyTrackRaw.elevationGainM,
-    elevationLossM: kayakoyTrackRaw.elevationLossM,
-    minElevationM: kayakoyTrackRaw.minElevationM,
-    maxElevationM: kayakoyTrackRaw.maxElevationM,
-    points: kayakoyTrackRaw.points as [number, number, number, number][],
-    sideBranchSogukSu: kayakoyTrackRaw.sideBranchSogukSu as [number, number, number][],
-    waypoints: kayakoyTrackRaw.waypoints as {
-      id: 'start' | 'ridge' | 'saddle' | 'junction' | 'cove-descent' | 'headland' | 'finish';
-      pointIndex: number;
-      lon: number;
-      lat: number;
-      ele: number;
-      km: number;
-      segmentMinutesFromPrev: number;
-    }[],
-  };
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col font-sans">
@@ -140,7 +120,7 @@ export default function DetailedTrailPage({
         {/* Compact Hero Banner */}
         <section className="relative min-h-[280px] sm:min-h-[320px] flex items-center overflow-hidden">
           <Image
-            src="/api/images/locations/fethiye/ruines/kayakoy/kayakoy.jpg"
+            src={stage.image}
             alt={guide.h1}
             fill
             priority

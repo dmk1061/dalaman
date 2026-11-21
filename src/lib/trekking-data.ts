@@ -1,7 +1,10 @@
-// SOURCE [21.11.2026]: Геометрия, узлы и характеристики этапов сверены с OpenStreetMap
-// (URL: https://www.openstreetmap.org/relation/51855, https://www.openstreetmap.org/relation/7235931, https://www.openstreetmap.org/relation/11827824),
-// официальными справочниками Culture Routes Society (URL: https://www.cultureroutesinturkey.com), Carian Trail (URL: https://www.cariantrail.com)
-// и моделью рельефа Copernicus DEM через Open-Meteo Elevation API (URL: https://api.open-meteo.com/v1/elevation).
+// SOURCE [21.11.2026]: Геометрия, узлы и характеристики всех 15 этапов сверены с OpenStreetMap
+// (URL: https://www.openstreetmap.org/relation/51855, https://www.openstreetmap.org/relation/7235931,
+// https://www.openstreetmap.org/relation/19836740, https://www.openstreetmap.org/relation/19834307,
+// https://www.openstreetmap.org/relation/11827824, https://www.openstreetmap.org/relation/13418707),
+// официальными справочниками Culture Routes Society (URL: https://www.cultureroutesinturkey.com),
+// Carian Trail (URL: https://www.cariantrail.com) и моделью рельефа Copernicus DEM через
+// Open-Meteo Elevation API (URL: https://api.open-meteo.com/v1/elevation).
 
 export type LocaleCode = 'ru' | 'en' | 'de' | 'tr';
 
@@ -129,28 +132,29 @@ export const TRAIL_STAGES: TrailStage[] = [
     zoneId: 'datca-bozburun',
     region: 'carian',
     difficulty: 2,
-    distanceKm: 10.5,
-    elevationGainM: 470,
-    elevationLossM: 470,
-    maxElevationM: 240,
-    durationHours: '3.5 - 4.5',
+    distanceKm: 17.5,
+    elevationGainM: 347,
+    elevationLossM: 388,
+    maxElevationM: 257,
+    durationHours: '5.0 - 6.0',
+    hasDetailedGuide: true,
     title: {
-      ru: 'Старая Датча ➔ Бухта Каргы ➔ Домузчукуру',
-      en: 'Old Datça ➔ Kargı Bay ➔ Domuzçukuru Cove',
-      de: 'Alt-Datça ➔ Kargı-Bucht ➔ Domuzçukuru',
-      tr: 'Eski Datça ➔ Kargı Koyu ➔ Domuzçukuru',
+      ru: 'Старая Датча ➔ Перевал Каргы ➔ Бухта Домузчукуру',
+      en: 'Old Datça ➔ Kargı Pass ➔ Domuzçukuru Cove',
+      de: 'Alt-Datça ➔ Kargı-Pass ➔ Domuzçukuru',
+      tr: 'Eski Datça ➔ Kargı Sırtı ➔ Domuzçukuru',
     },
     subtitle: {
-      ru: 'Этап Карийской тропы: миндальные рощи, каменные улочки и уединённая бухта',
-      en: 'Carian Trail stage through almond groves to a roadless Aegean cove',
+      ru: 'Этап Карийской тропы: миндальные рощи, панорама залива Каргы и уединённая бухта',
+      en: 'Carian Trail stage over coastal pine ridges to a roadless Aegean cove',
       de: 'Etappe des Karischen Weges durch Mandelgärten in eine einsame Bucht',
       tr: 'Karia Yolu etabı: badem bahçelerinden karayolu olmayan bakir koya',
     },
     description: {
-      ru: 'Один из самых атмосферных отрезков полуострова Датча (этап 10/10a Карийской тропы). От каменных переулков Старой Датчи тропа выводит к спокойной галечной бухте Каргы, а затем поднимается на сосновый прибрежный гребень и спускается в дикую бухту Домузчукуру (Domuzçukuru), куда нет автомобильной дороги.',
-      en: 'One of the finest stretches of the Datça Peninsula (Carian Trail stage 10/10a). Leaving the stone alleys of Old Datça, the trail descends to sheltered Kargı Bay before climbing a pine-clad coastal headland and dropping into secluded Domuzçukuru Cove, accessible only on foot or by boat.',
-      de: 'Einer der schönsten Abschnitte der Halbinsel Datça (Karischer Weg Etappe 10/10a). Von Alt-Datça wandern Sie zur Kargı-Bucht und weiter über den Küstenkamm in die autofreie Bucht Domuzçukuru.',
-      tr: 'Datça Yarımadası’nın en keyifli Karia Yolu etaplarından biri (10/10a). Eski Datça’nın taş sokaklarından Kargı Koyu’na, oradan da çam sırtlarını aşarak karayolu bağlantısı bulunmayan sakin Domuzçukuru Koyu’na ulaşır.',
+      ru: 'Один из самых атмосферных отрезков полуострова Датча (этап Карийской тропы 19836740). От каменных переулков Старой Датчи трек выходит на сосновые склоны над заливом Каргы (с опциональным коротким спуском к воде в Каргы), пересекает гребень 257 м и спускается к морю в дикую бухту Домузчукуру, куда нет асфальтированной дороги.',
+      en: 'One of the finest stretches of the Datça Peninsula along Carian Trail relation #19836740. Leaving Old Datça’s stone alleys, the path skirts coastal hills above Kargı Bay (with an optional spur down to the beach), climbs over a 257 m ridge, and drops to sea level in secluded Domuzçukuru Cove.',
+      de: 'Einer der schönsten Abschnitte der Halbinsel Datça (Karischer Weg #19836740). Von Alt-Datça führt der Track oberhalb der Kargı-Bucht über einen 257-m-Pass hinab in die autofreie Bucht Domuzçukuru.',
+      tr: 'Datça Yarımadası’nın en özel Karia Yolu etaplarından biri (#19836740). Eski Datça sokaklarından Kargı üstündeki sırtlara (isteğe bağlı Kargı Koyu inişiyle) geçip 257 m geçidi aşarak karayolu olmayan Domuzçukuru sahiline iner.',
     },
     startPoint: {
       ru: 'Старая Датча (Eski Datça, у каменной площади)',
@@ -202,7 +206,7 @@ export const TRAIL_STAGES: TrailStage[] = [
       de: 'Ideal von Feb–Mai (Mandelblüte) und Sep–Nov. Profilschuhe und Badesachen einpacken; Rückfahrt per Boot oder Weiterweg nach Mesudiye planen.',
       tr: 'Şubat–Mayıs (badem çiçeği dönemi) ve Eylül–Kasım ayları idealdir. Kaymaz yürüyüş ayakkabısı giyin; dönüş için tekne veya Mesudiye bağlantısı planlayın.',
     },
-    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.7433,27.6746&waypoints=36.7069,27.6696&destination=36.6878,27.6245&travelmode=walking',
+    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.7433,27.6746&destination=36.6804,27.6149&travelmode=walking',
     image: '/api/images/locations/koycegiz/ruine/Kaunos/kaunos.jpg',
   },
   {
@@ -211,11 +215,12 @@ export const TRAIL_STAGES: TrailStage[] = [
     zoneId: 'datca-bozburun',
     region: 'carian',
     difficulty: 3,
-    distanceKm: 13.0,
-    elevationGainM: 420,
-    elevationLossM: 420,
-    maxElevationM: 290,
-    durationHours: '4.0 - 5.0',
+    distanceKm: 17.5,
+    elevationGainM: 409,
+    elevationLossM: 403,
+    maxElevationM: 229,
+    durationHours: '5.0 - 6.0',
+    hasDetailedGuide: true,
     title: {
       ru: 'Паламутбюкю / Мурдала ➔ Античный Книдос и маяк Девебойну',
       en: 'Palamutbükü / Murdala ➔ Ancient Knidos & Deveboynu Lighthouse',
@@ -292,12 +297,13 @@ export const TRAIL_STAGES: TrailStage[] = [
     trekNumber: 3,
     zoneId: 'datca-bozburun',
     region: 'dayhike',
-    difficulty: 1,
-    distanceKm: 4.5,
-    elevationGainM: 180,
-    elevationLossM: 180,
-    maxElevationM: 130,
-    durationHours: '1.5 - 2.0',
+    difficulty: 2,
+    distanceKm: 6.5,
+    elevationGainM: 429,
+    elevationLossM: 344,
+    maxElevationM: 326,
+    durationHours: '2.0 - 3.0',
+    hasDetailedGuide: true,
     title: {
       ru: 'Турунч ➔ Античный Амос ➔ Бухта Кумлубюк (Под Мармарисом)',
       en: 'Turunç ➔ Ancient Amos ➔ Kumlubük Bay (Near Marmaris)',
@@ -305,16 +311,16 @@ export const TRAIL_STAGES: TrailStage[] = [
       tr: 'Turunç ➔ Antik Amos ➔ Kumlubük Koyu (Marmaris)',
     },
     subtitle: {
-      ru: 'Лёгкий видовой хайк к бесплатному эллинистическому театру над бирюзовым заливом',
-      en: 'Accessible coastal walk to a hilltop Hellenistic theater overlooking the sea',
-      de: 'Leichte Küstenwanderung zum hellenistischen Theater über dem Meer',
-      tr: 'Denize bakan antik tiyatroya uzanan kolay ve keyifli sahil yürüyüşü',
+      ru: 'Видовой хайк по хребту 326 м мимо античного театра Амоса к просторному заливу Кумлубюк',
+      en: 'Scenic 326 m ridge traverse past ancient Amos theater to Kumlubük Bay',
+      de: 'Aussichtsreiche 326-m-Kammwanderung vorbei an Amos zur Kumlubük-Bucht',
+      tr: 'Antik Amos yanından 326 m sırtı aşarak Kumlubük Koyu’na uzanan manzaralı yürüyüş',
     },
     description: {
-      ru: 'Идеальный короткий маршрут из окрестностей Мармариса. От южной окраины посёлка Турунч тропа поднимается через хвойный лесок на холм Асарджик, где стоит отлично сохранившийся античный театр полиса Амос, а затем спускается в просторную бухту Кумлубюк.',
-      en: 'The best short coastal walk near Marmaris. Leaving the southern end of Turunç, a pine trail climbs Asarcık Hill to the well-preserved Hellenistic theater of ancient Amos with sweeping bay panoramas before descending to Kumlubük beach.',
-      de: 'Die beste Kurzwanderung bei Marmaris. Vom Südende von Turunç steigt der Waldpfad zum Hügel von Asarcık mit dem hellenistischen Theater von Amos hinauf und endet am Strand von Kumlubük.',
-      tr: 'Marmaris çevresindeki en güzel kısa doğa yürüyüşü. Turunç’un güneyinden orman içi patikayla Asarcık Tepesi’ndeki antik Amos tiyatrosuna çıkar ve Kumlubük sahiline iner.',
+      ru: 'Самый живописный короткий маршрут из окрестностей Мармариса по Карийской тропе (#19834307). От Турунча путь поднимается на сосновый хребет 326 м с видами на залив (с коротким 200-метровым выходом к амфитеатру Амоса) и спускается прямо к воде просторной бухты Кумлубюк.',
+      en: 'The finest short coastal trek near Marmaris following Carian Trail #19834307. Climbing from Turunç over a 326 m pine ridge (with a 200 m spur to the Hellenistic theater of Amos), the route descends along the shoreline to sunny Kumlubük Bay.',
+      de: 'Die schönste Kurzwanderung bei Marmaris auf dem Karischen Weg (#19834307). Von Turunç steigen Sie über den 326-m-Kamm (kurzer 200-m-Abstecher zum Theater von Amos) hinab zur Kumlubük-Bucht.',
+      tr: 'Marmaris çevresindeki en güzel Karia Yolu yürüyüşü (#19834307). Turunç’tan 326 m sırtına çıkıp (Amos tiyatrosuna 200 m kısa yan geçişle) Kumlubük koyu sahiline iner.',
     },
     startPoint: {
       ru: 'Южная окраина посёлка Турунч (набережная)',
@@ -366,7 +372,7 @@ export const TRAIL_STAGES: TrailStage[] = [
       de: 'Auch für Einsteiger geeignet. Griffige Turnschuhe und Badesachen mitnehmen; Rückfahrt per Dolmuş oder Wassertaxi.',
       tr: 'Başlangıç seviyesi için uygundur. Kaymaz spor ayakkabı ve mayo alın; dönüşte Turunç ve Marmaris’e dolmuş veya deniz taksisi vardır.',
     },
-    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.7745,28.2484&waypoints=36.7576,28.2602&destination=36.7525,28.2571&travelmode=walking',
+    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.7745,28.2484&destination=36.7415,28.2698&travelmode=walking',
     image: '/api/images/locations/kas/ruines/theater/theaterkas.jpg',
   },
   {
@@ -375,11 +381,12 @@ export const TRAIL_STAGES: TrailStage[] = [
     zoneId: 'datca-bozburun',
     region: 'carian',
     difficulty: 4,
-    distanceKm: 16.5,
-    elevationGainM: 640,
-    elevationLossM: 950,
-    maxElevationM: 430,
-    durationHours: '5.5 - 6.5',
+    distanceKm: 15.9,
+    elevationGainM: 457,
+    elevationLossM: 736,
+    maxElevationM: 426,
+    durationHours: '5.0 - 6.0',
+    hasDetailedGuide: true,
     title: {
       ru: 'Ташлыджа (Античный Феникс) ➔ Крепость Лорима (Бозуккале)',
       en: 'Taşlıca (Ancient Phoenix) ➔ Loryma Fortress (Bozukkale)',
@@ -448,7 +455,7 @@ export const TRAIL_STAGES: TrailStage[] = [
       de: 'Scharfkantiger Kalkstein ohne Schatten — feste Bergschuhe, mind. 3 L Wasser, Offline-GPS und Rücktransfer einplanen.',
       tr: 'Keskin karstik taşlar ve gölgesiz parkur — sert tabanlı bot, 3 L su, çevrimdışı harita ve önceden ayarlanmış araç/tekne dönüşü şarttır.',
     },
-    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.6305,28.1180&waypoints=36.6203,28.0968&destination=36.5653,28.0124&travelmode=walking',
+    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.6305,28.1180&destination=36.5653,28.0124&travelmode=walking',
     image: '/api/images/locations/fethiye/ruines/lycaintombs/lyciantombs.jpg',
   },
 
@@ -458,41 +465,42 @@ export const TRAIL_STAGES: TrailStage[] = [
     trekNumber: 5,
     zoneId: 'dalyan-gocek',
     region: 'dayhike',
-    difficulty: 3,
-    distanceKm: 9.5,
-    elevationGainM: 520,
-    elevationLossM: 520,
-    maxElevationM: 460,
-    durationHours: '3.5 - 4.5',
+    difficulty: 2,
+    distanceKm: 3.8,
+    elevationGainM: 306,
+    elevationLossM: 98,
+    maxElevationM: 237,
+    durationHours: '2.5 - 3.5',
+    hasDetailedGuide: true,
     title: {
-      ru: 'Античный Каунос ➔ Смотровая «Радар» над дельтой Дальяна и Изтузу',
-      en: 'Ancient Kaunos ➔ Radar Viewpoint above Dalyan Delta & İztuzu',
-      de: 'Antikes Kaunos ➔ Radar-Gipfel über Dalyan-Delta & İztuzu',
-      tr: 'Antik Kaunos ➔ Dalyan Deltası ve İztuzu Radar Seyir Tepesi',
+      ru: 'Античный Каунос ➔ Утёс Чандыр (Смотровая над дельтой Дальяна и Изтузу)',
+      en: 'Ancient Kaunos ➔ Çandır Cliff Viewpoint (Dalyan Delta & İztuzu)',
+      de: 'Antikes Kaunos ➔ Çandır-Aussichtsfelsen (Dalyan-Delta & İztuzu)',
+      tr: 'Antik Kaunos ➔ Çandır Seyir Kayalıkları (Dalyan Deltası ve İztuzu)',
     },
     subtitle: {
-      ru: 'Панорама лабиринта тростниковых каналов и 4,5-километровой косы Изтузу с высоты 460 м',
-      en: '360° summit panorama overlooking the reed delta, Lake Köyceğiz, and Turtle Beach',
-      de: 'Panoramagipfel über dem Schilfdelta von Dalyan und dem Strand İztuzu',
-      tr: '460 m yükseklikten Dalyan sazlık labirenti ve İztuzu Kumsalı panoraması',
+      ru: 'Панорама лабиринта каналов и 4,5-километровой косы Изтузу с высоты 237 м (3,8 км в одну сторону / ~7,5 км туда-обратно)',
+      en: 'Bird’s-eye view of the reed delta & İztuzu Spit from 237 m cliffside (3.8 km one-way / ~7.5 km round-trip)',
+      de: 'Panoramablick auf Schilfdelta und İztuzu aus 237 m Höhe (3,8 km einfach / ~7,5 km hin & zurück)',
+      tr: '237 m yükseklikten Dalyan deltası ve İztuzu panoraması (3,8 km tek yön / ~7,5 km gidiş-dönüş)',
     },
     description: {
-      ru: 'Лучший горный видовой хайк в центре региона Даламан. Переправившись на лодке через реку Дальян в деревню Чандыр, вы проходите мимо руин древнего Кауноса и поднимаетесь по сосновому склону на хребет Бозбурун-Тепе («Радар»), откуда открывается открыточный вид на всю дельту, озеро Сюлюнгюр и косу Изтузу.',
-      en: 'The premier viewpoint hike in the heart of the Dalaman region. After a quick rowboat ferry across the Dalyan River to Çandır, hike past the ruins of ancient Kaunos up pine-clad slopes to the Bozburun Tepe ("Radar") summit for an aerial view of the entire delta and İztuzu sandspit.',
-      de: 'Die aussichtsreichste Bergtour im Raum Dalyan. Nach der Flussüberfahrt Richtung Çandır steigen Sie an den Ruinen von Kaunos vorbei auf den Gipfel („Radar“) mit Blick auf Delta und İztuzu.',
-      tr: 'Dalaman bölgesinin tam merkezindeki en iyi seyir rotası. Dalyan nehrini sandalla geçip Çandır tarafındaki Kaunos antik kenti yanından çam ormanıyla Bozburun Tepe’ye (Radar) tırmanarak tüm delta ve İztuzu manzarasını izlersiniz.',
+      ru: 'Лучший видовой хайк в центре региона Даламан. Переправившись на лодке через реку Дальян в Чандыр, вы проходите мимо руин античного Кауноса и поднимаетесь на западный смотровой утёс Чандыр (237 м над уровнем моря) — именно его туристы часто ищут по запросу «Радар», хотя одноимённая горная вышка Гёкбель лежит на восточном берегу. Отсюда открывается открыточный ракурс на дельту и косу Изтузу.',
+      en: 'The premier viewpoint hike in central Dalaman. Ferry across the Dalyan River to Çandır, pass ancient Kaunos ruins, and climb 3.8 km (~7.5 km round-trip) to the dramatic 237 m western Çandır cliff balcony — often informally searched as the Dalyan "Radar" viewpoint (while the eastern Gökbel Radar ridge sits across the river). Unrivaled panorama over İztuzu Spit.',
+      de: 'Die aussichtsreichste Kurztour bei Dalyan: Nach der Flussüberfahrt nach Çandır steigen Sie an den Ruinen von Kaunos vorbei 3,8 km (ca. 7,5 km hin & zurück) hinauf zum 237 m hohen Aussichtsfelsen über dem İztuzu-Strand.',
+      tr: 'Dalaman merkezindeki en ikonik seyir yürüyüşü. Dalyan’dan sandalla Çandır yakasına geçip antik Kaunos yanından yükselen 237 m Çandır seyir kayalıklarına (tek yön 3,8 km / gidiş-dönüş ~7,5 km) çıkılır; sıklıkla karşı kıyıdaki Gökbel Radar Tepesi ile karıştırılsa da en ünlü delta ve İztuzu kumsalı fotoğrafı buradan çekilir.',
     },
     startPoint: {
-      ru: 'Лодочная переправа в Дальяне → вход к руинам Кауноса (деревня Чандыр)',
-      en: 'Dalyan rowboat crossing → Kaunos ruins trailhead (Çandır)',
-      de: 'Flussfähre Dalyan → Ruinen von Kaunos (Çandır)',
-      tr: 'Dalyan sandal iskelesi → Kaunos ören yeri (Çandır)',
+      ru: 'Лодочная переправа в Дальяне → вход к руинам Кауноса (деревня Чандыр, 29 м)',
+      en: 'Dalyan rowboat crossing → Kaunos ruins trailhead (Çandır, 29 m)',
+      de: 'Flussfähre Dalyan → Ruinen von Kaunos (Çandır, 29 m)',
+      tr: 'Dalyan sandal iskelesi → Kaunos ören yeri girişi (Çandır, 29 m)',
     },
     endPoint: {
-      ru: 'Вершина «Радар» (460 м) и спуск обратно к Кауносу / переправе',
-      en: 'Radar Summit (460 m) & loop return to Kaunos crossing',
-      de: 'Radar-Gipfel (460 m) und Rückweg zur Fähre',
-      tr: 'Radar Seyir Tepesi (460 m) ve Kaunos iskelesine dönüş',
+      ru: 'Западный смотровой утёс Чандыр над Изтузу (237 м) и возврат тем же путём',
+      en: 'Çandır Cliff Balcony (237 m) above İztuzu & return to crossing',
+      de: 'Çandır-Aussichtsfelsen (237 m) & Rückweg zur Fähre',
+      tr: 'Çandır Seyir Tepesi (237 m) ve Kaunos iskelesine dönüş',
     },
     waterSources: {
       ru: 'Кафе в Чандыре и у переправы; на самом подъёме на вершину источников нет — берите 2 л воды на человека.',
@@ -532,7 +540,7 @@ export const TRAIL_STAGES: TrailStage[] = [
       de: 'Teils steile Schotter- und Waldpfade — feste Schuhe tragen und früh am Morgen starten.',
       tr: 'Bazı kısımlar dik ve taşlıktır — iyi tabanlı ayakkabı giyin ve sıcak basmadan sabah erken başlayın.',
     },
-    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.8253,28.6227&destination=36.7988,28.6061&travelmode=walking',
+    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.8253,28.6227&destination=36.8130,28.6057&travelmode=walking',
     image: '/api/images/locations/dalyan/todo/radar/radar.jpg',
   },
   {
@@ -541,40 +549,41 @@ export const TRAIL_STAGES: TrailStage[] = [
     zoneId: 'dalyan-gocek',
     region: 'dayhike',
     difficulty: 3,
-    distanceKm: 11.0,
-    elevationGainM: 380,
-    elevationLossM: 380,
-    maxElevationM: 320,
-    durationHours: '3.5 - 4.5',
+    distanceKm: 10.1,
+    elevationGainM: 696,
+    elevationLossM: 567,
+    maxElevationM: 527,
+    durationHours: '4.0 - 5.0',
+    hasDetailedGuide: true,
     title: {
-      ru: 'Полуостров Капыдаг (Гёджек): бухты и руины античного Лидая',
-      en: 'Kapıdağ Peninsula (Göcek): Hidden Bays & Ancient Lydae',
-      de: 'Halbinsel Kapıdağ (Göcek): Buchten & Antikes Lydae',
-      tr: 'Kapıdağ Yarımadası (Göcek): Saklı Koylar ve Antik Lydae',
+      ru: 'Бухта Сарсала ➔ Залив Хамам ➔ Руины Лидая (Полуостров Капыдаг)',
+      en: 'Sarsala Bay ➔ Hamam (Cleopatra) Bay ➔ Ancient Lydae (Kapıdağ)',
+      de: 'Sarsala-Bucht ➔ Hamam-Bucht ➔ Antikes Lydae (Kapıdağ)',
+      tr: 'Sarsala Koyu ➔ Hamam Koyu ➔ Antik Lydae (Kapıdağ)',
     },
     subtitle: {
-      ru: 'Затерянные в горах карийско-ликийские руины над яхтенным заливом Фетхие',
-      en: 'Secluded classical ruins and pine coves towering over Göcek’s yachting gulf',
-      de: 'Versteckte Ruinen und Buchten über dem Segelrevier von Göcek',
-      tr: 'Göcek yat koylarının üzerindeki çam ormanlarında saklı antik kent',
+      ru: 'Горный хребет 527 м над заливом Гёджек, затопленные бани Клеопатры и лесные мавзолеи Лидая',
+      en: '527 m coastal ridge above Göcek Gulf linking sunken Cleopatra Baths with forest ruins of Lydae',
+      de: '527-m-Küstenkamm über dem Golf von Göcek zwischen Kleopatra-Bad und den Ruinen von Lydae',
+      tr: 'Göcek körfezi üzerinde 527 m sırt geçişi, batık Kleopatra Hamamı ve orman içi Lydae kalıntıları',
     },
     description: {
-      ru: 'Живописный круговой маршрут по лесистому полуострову Капыдаг между бухтой Сарсала, заливом Клеопатры (Хамам) и горной седловиной с развалинами античного города Лидай (Lydae). Сюда почти не добираются обычные туристы на автобусах — только яхтсмены и любители тихих лесных троп.',
-      en: 'A rewarding loop on the forested Kapıdağ Peninsula connecting coves near Hamam (Cleopatra’s Bath) and Sarsala with the remote mountain ruins of Lydae. Far removed from resort crowds, the path offers serene bay vistas framed by maritime pines.',
-      de: 'Abwechslungsreiche Rundtour auf der bewaldeten Halbinsel Kapıdağ zwischen einsamen Buchten und den versteckten Bergruinen von Lydae hoch über dem Golf von Fethiye.',
-      tr: 'Kapıdağ Yarımadası’nın çam ormanları içinde Hamam Koyu (Kleopatra), Sarsala ve dağlık sırtlardaki antik Lydae harabelerini bağlayan ıssız ve büyüleyici bir yürüyüş rotası.',
+      ru: 'Живописный переход по лесистому полуострову Капыдаг между заливом Сарсала, бухтой Клеопатры (Хамам) и горной седловиной с развалинами античного полиса Лидай (Lydae). От причала Сарсалы тропа набирает 527 м на панорамный лесной гребень над островами Гёджека, спускается к руинам римских бань у воды в бухте Хамам и далее поднимается к древним мавзолеям и цистернам Лидая.',
+      en: 'A rewarding point-to-point traverse on the forested Kapıdağ Peninsula connecting Sarsala Bay, Hamam (Cleopatra’s Bath) cove, and the secluded highland ruins of Lydae. Climbing a 527 m forested saddle with wide vistas across Göcek’s islands, the trail drops past sunken seaside ruins at Hamam before ascending to ancient stone mausoleums.',
+      de: 'Abwechslungsreiche Traverse auf der bewaldeten Halbinsel Kapıdağ von Sarsala über den 527-m-Kamm hinab zur Hamam-Bucht (Kleopatra-Bad) und hinauf zu den verborgenen Bergruinen von Lydae.',
+      tr: 'Kapıdağ Yarımadası’nın çam ormanları içinde Sarsala Koyu’nu 527 m sırt üzerinden Kleopatra Hamamı’na ve yamaçtaki antik Lydae harabelerine bağlayan ıssız yürüyüş rotası.',
     },
     startPoint: {
-      ru: 'Бухта Хамам (Cleopatra Bay) / подъезд со стороны Капынарга',
-      en: 'Hamam Bay (Cleopatra’s Bath) / Kapıkargın access road',
-      de: 'Hamam-Bucht (Kleopatra-Bad) / Zufahrt Kapıkargın',
-      tr: 'Hamam Koyu (Kleopatra Hamamı) / Kapıkargın yolu',
+      ru: 'Бухта Сарсала (пляж и причал, 36.6627, 28.8518)',
+      en: 'Sarsala Bay beach & jetty (36.6627, 28.8518)',
+      de: 'Strand & Steg der Bucht Sarsala (36.6627, 28.8518)',
+      tr: 'Sarsala Koyu sahili ve iskelesi (36.6627, 28.8518)',
     },
     endPoint: {
-      ru: 'Руины Лидая и возврат к бухте Хамам / Сарсала',
-      en: 'Lydae ruins & return to Hamam / Sarsala cove',
-      de: 'Ruinen von Lydae und Rückweg zur Bucht',
-      tr: 'Lydae antik kalıntıları ve koya dönüş',
+      ru: 'Руины античного Лидая над заливом Гёгджек (36.6215, 28.8569)',
+      en: 'Ancient Lydae ruins ridge (36.6215, 28.8569)',
+      de: 'Antike Ruinen von Lydae (36.6215, 28.8569)',
+      tr: 'Antik Lydae kalıntıları (36.6215, 28.8569)',
     },
     waterSources: {
       ru: 'Питьевой воды на тропе нет (кафе у бухты Хамам и Сарсала работают только в навигацию с мая по октябрь). Несите весь запас воды с собой.',
@@ -614,8 +623,8 @@ export const TRAIL_STAGES: TrailStage[] = [
       de: 'Mobilfunknetz lückenhaft — Offline-Karte herunterladen. Bei Anfahrt mit dem Auto vorsichtig auf den Bergserpentinen fahren.',
       tr: 'Telefon sinyali yer yer kesilir — çevrimdışı harita indirin. Araçla ulaşacaksanız toprak dağ yolunda dikkatli sürün.',
     },
-    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.6498,28.8673&destination=36.6352,28.8598&travelmode=walking',
-    image: '/api/images/locations/fethiye/ruines/castle/castle.jpg',
+    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.6627,28.8518&waypoints=36.6408,28.8549&destination=36.6215,28.8569&travelmode=walking',
+    image: '/api/images/locations/gocek/beach/hamam/hamam.jpg',
   },
 
   // ================= ЗОНА 03: ФЕТХИЕ, ОЛЮДЕНИЗ И БАБАДАГ =================
@@ -708,11 +717,12 @@ export const TRAIL_STAGES: TrailStage[] = [
     zoneId: 'fethiye-oludeniz',
     region: 'lycian',
     difficulty: 3,
-    distanceKm: 14.0,
-    elevationGainM: 765,
-    elevationLossM: 410,
-    maxElevationM: 740,
+    distanceKm: 13.8,
+    elevationGainM: 627,
+    elevationLossM: 608,
+    maxElevationM: 797,
     durationHours: '4.5 - 5.5',
+    hasDetailedGuide: true,
     title: {
       ru: 'Оваджик ➔ Кирме ➔ Фаралья (Официальный старт Ликийской тропы)',
       en: 'Ovacık ➔ Kirme ➔ Faralya (Official Lycian Way Stage 1)',
@@ -720,22 +730,22 @@ export const TRAIL_STAGES: TrailStage[] = [
       tr: 'Ovacık ➔ Kirme ➔ Faralya (Resmi Likya Yolu 1. Etap)',
     },
     subtitle: {
-      ru: 'Траверс западного плеча Бабадага с открыточной панорамой Голубой лагуны',
-      en: 'Mountain traverse along Babadağ’s western slope above Oludeniz Lagoon',
-      de: 'Höhenwanderung am Westabhang des Babadağ über der Blauen Lagune',
-      tr: 'Babadağ batı yamacından Ölüdeniz Lagünü ve Kelebekler Vadisi manzarası',
+      ru: 'Траверс западного плеча Бабадага до перевала 797 м с открыточной панорамой Голубой лагуны',
+      en: '797 m mountain traverse along Babadağ’s western slope above Ölüdeniz Lagoon',
+      de: '797-m-Höhenwanderung am Westabhang des Babadağ über der Blauen Lagune',
+      tr: 'Babadağ batı yamacından 797 m geçide çıkan Ölüdeniz ve Kelebekler Vadisi etabı',
     },
     description: {
-      ru: 'Классический первый день 540-километровой Ликийской тропы. От каменной стартовой арки в Оваджике тропа набирает высоту до ~740 м по западному склону Бабадага, огибая горные террасы мимо деревень Козагач и Кирме и выходя к краю обрыва над Долиной Бабочек в Фаралье.',
-      en: 'The iconic Stage 1 of the 540 km Lycian Way. Leaving the stone arch in Ovacık, the path climbs steadily to ~740 m along the flank of Mount Babadağ, sweeping high above Oludeniz Lagoon through Kozağaç and Kirme before ending above Butterfly Valley in Faralya.',
-      de: 'Die klassische erste Etappe des 540 km langen Lykischen Weges. Vom Tor in Ovacık führt der Weg auf bis zu ~740 m am Babadağ entlang über Kozağaç und Kirme nach Faralya über dem Schmetterlingstal.',
-      tr: '540 km’lik Likya Yolu’nun efsanevi ilk etabı. Ovacık başlangıç takından Babadağ’ın batı yamacına tırmanan patika, Kozağaç ve Kirme köylerinden geçerek Kelebekler Vadisi üzerindeki Faralya köyüne varır.',
+      ru: 'Классический первый день 540-километровой Ликийской тропы (OSM Relation #51855). От каменной стартовой арки в Оваджике тропа набирает высоту до 797 м по западному склону Бабадага, огибая горные террасы мимо деревень Козагач и Кирме и выходя к краю обрыва над Долиной Бабочек в Фаралье.',
+      en: 'The iconic Stage 1 of the 540 km Lycian Way (OSM Relation #51855). Leaving the stone arch in Ovacık, the path climbs steadily to 797 m along the flank of Mount Babadağ, sweeping high above Ölüdeniz Lagoon through Kozağaç and Kirme before ending above Butterfly Valley in Faralya.',
+      de: 'Die klassische erste Etappe des 540 km langen Lykischen Weges (OSM Relation #51855). Vom Tor in Ovacık führt der Weg auf bis zu 797 m am Babadağ entlang über Kozağaç und Kirme nach Faralya über dem Schmetterlingstal.',
+      tr: '540 km’lik Likya Yolu’nun efsanevi ilk etabı (OSM Relation #51855). Ovacık başlangıç takından Babadağ’ın batı yamacına 797 m rakıma tırmanan patika, Kozağaç ve Kirme köylerinden geçerek Kelebekler Vadisi üzerindeki Faralya köyüne varır.',
     },
     startPoint: {
-      ru: 'Оваджик, стартовая арка Ликийской тропы (36.5786, 29.1419)',
-      en: 'Ovacık Lycian Way Gate (36.5786, 29.1419)',
-      de: 'Startbogen des Lykischen Weges in Ovacık (36.5786, 29.1419)',
-      tr: 'Ovacık Likya Yolu Başlangıç Takı (36.5786, 29.1419)',
+      ru: 'Оваджик, стартовая арка Ликийской тропы (36.5664, 29.1379, 296 м)',
+      en: 'Ovacık Lycian Way Gate (36.5664, 29.1379, 296 m)',
+      de: 'Startbogen des Lykischen Weges in Ovacık (36.5664, 29.1379, 296 m)',
+      tr: 'Ovacık Likya Yolu Başlangıç Takı (36.5664, 29.1379, 296 m)',
     },
     endPoint: {
       ru: 'Деревня Фаралья (смотровая над Долиной Бабочек)',
@@ -776,12 +786,12 @@ export const TRAIL_STAGES: TrailStage[] = [
       ],
     },
     gearAdvice: {
-      ru: 'Суммарный набор +765 м по каменистому грунту ощутим для колен: берите треккинговые палки и высокие ботинки. Назад в Олюдениз/Фетхие ходят долмуши из Фаральи.',
-      en: 'Sustained +765 m ascent on stony ground — trekking poles and ankle-supporting boots strongly advised. Return via Faralya–Fethiye dolmuş.',
-      de: 'Langer +765-m-Aufstieg auf Geröll — Trekkingstöcke und knöchelhohe Schuhe empfohlen. Rückfahrt per Dolmuş ab Faralya.',
-      tr: 'Taşlık zeminde +765 m tırmanış için trekking botu ve baton önerilir. Faralya’dan Fethiye’ye dolmuşla dönülebilir.',
+      ru: 'Суммарный набор +627 м и затяжной спуск −608 м по каменистому грунту ощутимы для колен: берите треккинговые палки и высокие ботинки. Назад в Олюдениз/Фетхие ходят долмуши из Фаральи.',
+      en: 'Sustained +627 m climbing and −608 m stony descent — trekking poles and ankle-supporting boots strongly advised. Return via Faralya–Fethiye dolmuş.',
+      de: 'Langer +627-m-Aufstieg und −608-m-Abstieg auf Geröll — Trekkingstöcke und knöchelhohe Schuhe empfohlen. Rückfahrt per Dolmuş ab Faralya.',
+      tr: 'Taşlık zeminde +627 m tırmanış ve −608 m iniş için trekking botu ve baton önerilir. Faralya’dan Fethiye’ye dolmuşla dönülebilir.',
     },
-    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.5786,29.1419&waypoints=36.5356,29.1436&destination=36.4946,29.1319&travelmode=walking',
+    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.5664,29.1379&waypoints=36.5356,29.1436&destination=36.4946,29.1319&travelmode=walking',
     image: '/api/images/locations/fethiye/beach/kelebekler/kelebekler.jpg',
   },
   {
@@ -790,11 +800,12 @@ export const TRAIL_STAGES: TrailStage[] = [
     zoneId: 'fethiye-oludeniz',
     region: 'lycian',
     difficulty: 2,
-    distanceKm: 7.5,
-    elevationGainM: 320,
-    elevationLossM: 450,
-    maxElevationM: 460,
-    durationHours: '2.5 - 3.5',
+    distanceKm: 5.9,
+    elevationGainM: 369,
+    elevationLossM: 630,
+    maxElevationM: 653,
+    durationHours: '2.5 - 3.0',
+    hasDetailedGuide: true,
     title: {
       ru: 'Фаралья ➔ Обзор Долины Бабочек ➔ Бухта Кабак',
       en: 'Faralya ➔ Butterfly Valley Overlook ➔ Kabak Bay',
@@ -872,28 +883,29 @@ export const TRAIL_STAGES: TrailStage[] = [
     zoneId: 'fethiye-oludeniz',
     region: 'lycian',
     difficulty: 5,
-    distanceKm: 6.5,
-    elevationGainM: 900,
-    elevationLossM: 200,
-    maxElevationM: 780,
-    durationHours: '3.5 - 4.5',
+    distanceKm: 6.3,
+    elevationGainM: 799,
+    elevationLossM: 111,
+    maxElevationM: 742,
+    durationHours: '3.0 - 4.0',
+    hasDetailedGuide: true,
     title: {
-      ru: 'Бухта Кабак ➔ Алинджа (Опция продолжения до Гей / Семь Мысов)',
-      en: 'Kabak Bay ➔ Alınca (Optional Extension to Gey / Seven Capes)',
-      de: 'Kabak-Bucht ➔ Alınca (Optional weiter nach Gey)',
-      tr: 'Kabak Koyu ➔ Alınca (Opsiyonel: Gey / Yediburunlar)',
+      ru: 'Бухта Кабак ➔ Алинджа (+ ветка к Гей / Семь Мысов)',
+      en: 'Kabak Bay ➔ Alınca (+ Optional Branch to Gey / Seven Capes)',
+      de: 'Kabak-Bucht ➔ Alınca (+ Abzweig nach Gey / Sieben Kaps)',
+      tr: 'Kabak Koyu ➔ Alınca (+ Gey / Yediburunlar Yan Hattı)',
     },
     subtitle: {
-      ru: 'Самый крутой прибрежный подъём Западной Ликии (+900 м от уровня моря в «орлиное гнездо»)',
-      en: 'Steepest vertical climb of Western Lycia (+900 m from sea level to eagle-nest vistas)',
-      de: 'Der steilste Aufstieg Westlykiens (+900 m direkt vom Meer hinauf)',
-      tr: 'Batı Likya’nın deniz seviyesinden +900 m tırmanan en dik etabı',
+      ru: 'Самый крутой прибрежный подъём Западной Ликии (+799 м от уровня моря в «орлиное гнездо» 742 м)',
+      en: 'Steepest vertical climb of Western Lycia (+799 m from sea level up to 742 m eagle-nest terraces)',
+      de: 'Der steilste Aufstieg Westlykiens (+799 m vom Meer hinauf ins Bergdorf auf 742 m)',
+      tr: 'Batı Likya’nın deniz seviyesinden 742 m Alınca sırtına çıkan en dik (+799 m) etabı',
     },
     description: {
-      ru: 'Мощный горный этап: от пляжа Кабак тропа за 6,5 км поднимается почти на +900 метров вверх мимо сезонного водопада в ущелье к горному селению Алинджа (высота ~750–780 м), нависающему над обрывом. Опытные туристы могут продлить день ещё на ~7,5 км по хребту до деревни Гей с видом на знаменитые «Семь мысов» (Yediburunlar).',
-      en: 'A relentless vertical challenge: climbing nearly +900 m in just 6.5 km from Kabak beach past the seasonal canyon waterfall up to the cliff-perched hamlet of Alınca (~780 m). Strong hikers can extend another ~7.5 km along the ridge to Gey for the iconic Seven Capes (Yediburunlar) panorama.',
-      de: 'Eine schweißtreibende Bergetappe: Auf nur 6,5 km klettern Sie fast +900 Höhenmeter vom Strand bis ins Bergdorf Alınca (~780 m). Geübte Wanderer können um 7,5 km bis nach Gey verlängern.',
-      tr: 'Likya Yolu’nun en zorlu tırmanışlarından biri: Kabak sahilinden sadece 6,5 km içinde yaklaşık +900 m yükselerek uçurum kenarındaki Alınca köyüne (~780 m) çıkar. Enerjisi kalanlar Yediburunlar manzaralı Gey köyüne (+7,5 km) devam edebilir.',
+      ru: 'Мощный горный этап: от пляжа Кабак тропа за 6,3 км поднимается почти на +800 метров вверх мимо сезонного водопада в ущелье к горному селению Алинджа (высота 742 м), нависающему над обрывом. Опытные туристы могут продлить день ещё на 6,5 км по хребту до деревни Гей с видом на знаменитые «Семь мысов» (Yediburunlar) — этот отрезок нанесён на 3D-карте пунктиром.',
+      en: 'A relentless vertical challenge: climbing +799 m in just 6.3 km from Kabak beach past the seasonal canyon waterfall up to cliff-perched Alınca (742 m). Strong hikers can continue another 6.5 km (shown as the dashed spur on the 3D map) toward Gey and the iconic Seven Capes (Yediburunlar) panorama.',
+      de: 'Eine schweißtreibende Bergetappe: Auf nur 6,3 km klettern Sie +799 Höhenmeter vom Strand bis ins Bergdorf Alınca (742 m). Geübte Wanderer folgen der gestrichelten 6,5-km-Linie bis Gey.',
+      tr: 'Likya Yolu’nun en zorlu tırmanışlarından biri: Kabak sahilinden sadece 6,3 km içinde +799 m yükselerek uçurum kenarındaki Alınca köyüne (742 m) çıkar. Gücü kalanlar 3D haritada kesikli çizilen +6,5 km’lik Gey / Yediburunlar hattına devam edebilir.',
     },
     startPoint: {
       ru: 'Пляж бухты Кабак (Kabak Sahili, уровень моря)',
@@ -945,7 +957,7 @@ export const TRAIL_STAGES: TrailStage[] = [
       de: 'EXTREMER ANSTIEG. Im Hochsommer (Juli–Aug) meiden. Stöcke, feste Bergstiefel und Start im Morgengrauen zwingend.',
       tr: 'ZORLU TIRMANIŞ. Temmuz–Ağustos sıcaklarında kesinlikle çıkmayın. Baton, bilekli bot ve gün doğumu çıkışı şarttır.',
     },
-    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.4631,29.1243&destination=36.4337,29.1332&travelmode=walking',
+    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.4631,29.1243&destination=36.4478,29.1431&travelmode=walking',
     image: '/api/images/locations/fethiye/todo/babadag/babadag2.jpg',
   },
   {
@@ -954,11 +966,12 @@ export const TRAIL_STAGES: TrailStage[] = [
     zoneId: 'fethiye-oludeniz',
     region: 'canyon',
     difficulty: 3,
-    distanceKm: 3.0,
-    elevationGainM: 50,
-    elevationLossM: 50,
-    maxElevationM: 180,
+    distanceKm: 1.6,
+    elevationGainM: 425,
+    elevationLossM: 248,
+    maxElevationM: 406,
     durationHours: '2.0 - 2.5',
+    hasDetailedGuide: true,
     title: {
       ru: 'Каньон Саклыкент (Водный каньонинговый маршрут)',
       en: 'Saklıkent Gorge (River-Wading Canyon Trek)',
@@ -966,16 +979,16 @@ export const TRAIL_STAGES: TrailStage[] = [
       tr: 'Saklıkent Kanyonu (Su İçi Kanyon Yürüyüşü)',
     },
     subtitle: {
-      ru: 'Пеший выход вброд по ледяному руслу (+8°C) между 300-метровых каменных стен',
-      en: 'Wading upstream through icy +8°C canyon rapids flanked by 300 m limestone walls',
-      de: 'Waten durch eiskaltes Gebirgswasser (+8°C) zwischen 300 m hohen Felswänden',
-      tr: '300 metrelik kaya duvarları arasında +8°C buzul suyunda kanyon yürüyüşü',
+      ru: '1,6 км в одну сторону (~3,2 км туда-обратно) вброд по воде +8°C среди отвесных скал до 406 м',
+      en: '1.6 km one-way (~3.2 km round-trip) wading through +8°C rapids inside a 406 m cliff gorge',
+      de: '1,6 km einfach (~3,2 km hin & zurück) durch +8°C Flusswasser zwischen bis zu 406 m hohen Wänden',
+      tr: '406 m duvarlı dar kanyonda +8°C buz gibi suda 1,6 km gidiş (~3,2 km gidiş-dönüş)',
     },
     description: {
-      ru: 'Уникальный водный каньон в 45 км от Фетхие (идеально в сухой сезон с мая по октябрь). После 200-метровых деревянных мостков над бурным порогом маршрут переходит в русло ледяной горной реки (+8°C круглый год), уходя на 1,5 км вглубь узкой известняковой расщелины и возвращаясь тем же путём.',
-      en: 'A thrilling river-wading canyon adventure 45 km east of Fethiye (best May–Oct in lower water). After suspended wooden walkways above surging springs, hikers cross the +8°C glacial river ford and wade ~1.5 km deep into the towering limestone gorge before turning back.',
-      de: 'Einzigartige Schluchtwanderung 45 km östlich von Fethiye (ideal Mai–Okt). Nach Holzstegen über tosenden Quellen waten Sie ~1,5 km tief durch das +8°C kalte Flussbett zwischen 300 m hohen Klippen.',
-      tr: 'Fethiye’ye 45 km mesafede benzersiz bir su yürüyüşü (su seviyesinin düştüğü Mayıs–Ekim arası idealdir). Ahşap iskelelerin ardından yıl boyu +8°C olan buz gibi akarsuyu geçip kanyon içinde ~1,5 km ilerleyip aynı yoldan dönülür.',
+      ru: 'Уникальный водный каньон в 45 км от Фетхие (идеально в сухой сезон с мая по октябрь). После 200-метровых деревянных мостков маршрут переходит в русло ледяной горной реки (+8°C), уходя на 1,6 км вглубь узкой известняковой щели и возвращаясь назад (~3,2 км итого). Примечание к профилю высот: из-за ширины щели 2–5 м спутниковый радар Copernicus DEM фиксирует перепады верхних кромок скал (до 406 м), тогда как само русло ручья пологое.',
+      en: 'A thrilling river-wading adventure 45 km east of Fethiye (best May–Oct). After cliffside boardwalks, hikers ford the +8°C river and wade 1.6 km deep into the canyon before turning back (~3.2 km round-trip). Elevation note: because the slot narrows to just a few meters, 30 m Copernicus DEM cells capture the towering 300–406 m canyon rim walls rather than the gently sloping stream bed.',
+      de: 'Einzigartige Schluchtwanderung 45 km östlich von Fethiye (ideal Mai–Okt): 1,6 km tief ins +8°C kalte Flussbett und zurück (~3,2 km gesamt). Hinweis zum Höhenprofil: In der engen Felsspalte misst das Satelliten-DEM die bis zu 406 m hohen Schluchtwände oberhalb des flachen Bachbetts.',
+      tr: 'Fethiye’ye 45 km mesafede benzersiz bir kanyon yürüyüşü (Mayıs–Ekim idealdir): ahşap iskelelerin ardından +8°C akarsuda 1,6 km ilerleyip aynı yoldan dönülür (toplam ~3,2 km). Rakım notu: dar kanyon yarıkları nedeniyle Copernicus DEM verisi düz dere tabanından ziyade 406 m’ye ulaşan dik yan kaya duvarlarını yansıtır.',
     },
     startPoint: {
       ru: 'Вход в Национальный парк Саклыкент (кассы и мостки)',
@@ -1027,7 +1040,7 @@ export const TRAIL_STAGES: TrailStage[] = [
       de: 'NICHT barfuß oder in Flip-Flops gehen! Geschlossene Aquaschuhe (vor Ort mietbar), wasserdichte Handyhülle und Bargeld für den Eintritt mitnehmen.',
       tr: 'ÇIPLAK AYAK VEYA TERLİKLE GİRMEYİN: su bulanık ve taşlar kaygandır. Kapalı lastik deniz ayakkabısı (girişte kiralanır), su geçirmez telefon kılıfı ve park girişi için nakit bulundurun.',
     },
-    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=36.4785,29.5435',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=36.4735,29.4041',
     image: '/api/images/locations/fethiye/todo/saklikent/saklikent.jpg',
   },
 
@@ -1038,11 +1051,12 @@ export const TRAIL_STAGES: TrailStage[] = [
     zoneId: 'patara-kas',
     region: 'lycian',
     difficulty: 3,
-    distanceKm: 20.0,
-    elevationGainM: 670,
-    elevationLossM: 620,
-    maxElevationM: 240,
+    distanceKm: 19.3,
+    elevationGainM: 558,
+    elevationLossM: 502,
+    maxElevationM: 228,
     durationHours: '6.0 - 7.0',
+    hasDetailedGuide: true,
     title: {
       ru: 'Патара ➔ Римский акведук Деликкемер ➔ Калкан',
       en: 'Patara ➔ Delikkemer Roman Aqueduct ➔ Kalkan',
@@ -1120,11 +1134,12 @@ export const TRAIL_STAGES: TrailStage[] = [
     zoneId: 'patara-kas',
     region: 'lycian',
     difficulty: 4,
-    distanceKm: 14.5,
-    elevationGainM: 1050,
-    elevationLossM: 410,
-    maxElevationM: 860,
-    durationHours: '5.0 - 6.0',
+    distanceKm: 14.7,
+    elevationGainM: 983,
+    elevationLossM: 263,
+    maxElevationM: 940,
+    durationHours: '5.5 - 6.5',
+    hasDetailedGuide: true,
     title: {
       ru: 'Калкан ➔ Плато Безирган (Кедровые амбары) ➔ Сарыбелен',
       en: 'Kalkan ➔ Bezirgan Plateau (Cedar Granaries) ➔ Sarıbelen',
@@ -1132,16 +1147,16 @@ export const TRAIL_STAGES: TrailStage[] = [
       tr: 'Kalkan ➔ Bezirgan Yaylası (Tarihi Ambarlar) ➔ Sarıbelen',
     },
     subtitle: {
-      ru: 'Подъём с побережья по древней караванной лестнице на прохладное плато Ликии',
-      en: 'Ancient mule stairs climbing from Kalkan’s coast to historic highland cedar barns',
-      de: 'Antike Karawanenstufen von der Küste auf das kühle Bergplateau von Bezirgan',
-      tr: 'Kıyıdan tarihi katır yollarıyla Bezirgan yaylasının çivisiz ambarlarına tırmanış',
+      ru: 'Подъём +983 м по древней караванной лестнице до перевала 940 м на ликийское плато',
+      en: 'Ancient mule stairs climbing +983 m from Kalkan’s coast to the 940 m Sarıbelen ridge',
+      de: 'Antike Karawanenstufen mit +983 m Anstieg hinauf auf den 940-m-Pass nach Sarıbelen',
+      tr: 'Kıyıdan tarihi katır yollarıyla +983 m tırmanıp 940 m geçitten Sarıbelen’e çıkış',
     },
     description: {
-      ru: 'Серьёзный высокогорный переход из Калкана вглубь Ликийского плато. От верхней части города тропа поднимается через скалистое ущелье по древней караванной тропе на плодородную долину Безирган (~700 м), где сохранились 200–300-летние кедровые амбары без единого гвоздя, и уходит через лесистый перевал 860 м в тихую деревню Сарыбелен.',
-      en: 'A demanding alpine transition from the coast into the cool Lycian highlands. Ascending from upper Kalkan through a narrow canyon on ancient mule steps, you reach the lush Bezirgan plateau (~700 m) — famous for interlocking cedar granaries built without nails — before crossing an 860 m pine pass to pastoral Sarıbelen.',
-      de: 'Anspruchsvolle Bergetappe von der Küste ins lykische Hochland. Über antike Maultierpfade steigen Sie zur Hochebene Bezirgan (700 m) mit den nagellosen Zedernholz-Getreidespeichern und weiter über den 860-m-Pass nach Sarıbelen.',
-      tr: 'Kıyı sıcağından serin Likya yaylalarına çıkan zorlu dağ etabı. Kalkan üstünden kanyon içindeki tarihi katır yoluyla çivisiz sedir ambarlarıyla ünlü Bezirgan yaylasına (~700 m), oradan da 860 m geçidi aşarak Sarıbelen köyüne varır.',
+      ru: 'Серьёзный высокогорный переход из Калкана вглубь Ликийского плато. От трассы над городом тропа поднимается через ущелье по древней караванной лестнице на плодородную долину Безирган (~700 м), где сохранились 200–300-летние кедровые амбары без единого гвоздя, и затем через высокий перевал 940 м спускается в деревню Сарыбелен (778 м).',
+      en: 'A demanding alpine transition from the coast into the cool Lycian highlands (+983 m). Ascending from upper Kalkan through a narrow canyon on ancient mule steps, you reach the lush Bezirgan plateau (~700 m) — famous for interlocking cedar granaries built without nails — before crossing a 940 m pine pass down to Sarıbelen (778 m).',
+      de: 'Anspruchsvolle Bergetappe von der Küste ins lykische Hochland (+983 m). Über antike Maultierpfade steigen Sie zur Hochebene Bezirgan (700 m) mit den nagellosen Zedernholz-Speichern und über den 940-m-Pass hinab nach Sarıbelen (778 m).',
+      tr: 'Kıyı sıcağından serin Likya yaylalarına çıkan zorlu dağ etabı (+983 m). Kalkan üstünden tarihi katır yoluyla çivisiz sedir ambarlarıyla ünlü Bezirgan yaylasına (~700 m), oradan da 940 m geçidi aşarak Sarıbelen köyüne (778 m) varır.',
     },
     startPoint: {
       ru: 'Верхний Калкан, начало тропы у трассы D400 (36.2683, 29.4136)',
@@ -1202,11 +1217,12 @@ export const TRAIL_STAGES: TrailStage[] = [
     zoneId: 'patara-kas',
     region: 'lycian',
     difficulty: 3,
-    distanceKm: 11.0,
-    elevationGainM: 350,
-    elevationLossM: 350,
-    maxElevationM: 140,
+    distanceKm: 10.7,
+    elevationGainM: 365,
+    elevationLossM: 364,
+    maxElevationM: 120,
     durationHours: '3.5 - 4.5',
+    hasDetailedGuide: true,
     title: {
       ru: 'Каш ➔ Бухта Лиман Агзы ➔ Уфакдере',
       en: 'Kaş ➔ Liman Ağzı Cove ➔ Ufakdere Bay',
@@ -1275,7 +1291,7 @@ export const TRAIL_STAGES: TrailStage[] = [
       de: 'Messerscharfes Karstgestein — feste Schuhe mit dicker Sohle Pflicht! Badesachen und Bargeld fürs Bootstaxi mitnehmen.',
       tr: 'Keskin karstik kayalar nedeniyle kalın tabanlı trekking ayakkabısı şarttır; mayo ve Liman Ağzı dönüş teknesi için nakit alın.',
     },
-    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.1972,29.6508&waypoints=36.1856,29.6394&destination=36.1745,29.6672&travelmode=walking',
+    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.1972,29.6508&waypoints=36.1856,29.6440&destination=36.1485,29.7046&travelmode=walking',
     image: '/api/images/locations/kas/ruines/kastombs/kastombs.jpg',
   },
   {
@@ -1284,40 +1300,41 @@ export const TRAIL_STAGES: TrailStage[] = [
     zoneId: 'patara-kas',
     region: 'lycian',
     difficulty: 2,
-    distanceKm: 13.0,
-    elevationGainM: 320,
-    elevationLossM: 320,
-    maxElevationM: 160,
-    durationHours: '4.0 - 5.0',
+    distanceKm: 10.1,
+    elevationGainM: 218,
+    elevationLossM: 176,
+    maxElevationM: 95,
+    durationHours: '3.5 - 4.5',
+    hasDetailedGuide: true,
     title: {
-      ru: 'Учагыз ➔ Симена (Калекёй) ➔ Бухта Аперлае (Кекова)',
-      en: 'Üçağız ➔ Simena (Kaleköy) ➔ Aperlai Bay (Kekova)',
-      de: 'Üçağız ➔ Simena (Kaleköy) ➔ Bucht Aperlai (Kekova)',
-      tr: 'Üçağız ➔ Simena (Kaleköy) ➔ Aperlai Koyu (Kekova)',
+      ru: 'Симена (Калекёй) ➔ Учагыз ➔ Бухта Аперлае (Кекова)',
+      en: 'Simena (Kaleköy) ➔ Üçağız ➔ Aperlai Bay (Kekova)',
+      de: 'Simena (Kaleköy) ➔ Üçağız ➔ Bucht Aperlai (Kekova)',
+      tr: 'Simena (Kaleköy) ➔ Üçağız ➔ Aperlai Koyu (Kekova)',
     },
     subtitle: {
-      ru: 'Один из красивейших приморских треков Ликии: замок без автодорог и затонувшие стены',
-      en: 'Coastal Lycian Way across car-free Simena Castle to the sunken ruins of Aperlai',
-      de: 'Küsten-Highlight: Autofreie Burg Simena und die versunkenen Ruinen von Aperlai',
-      tr: 'Arabasız Kaleköy kalesinden Aperlai batık surlarına Likya’nın en güzel kıyı rotası',
+      ru: 'Один из красивейших приморских треков Ликии: замок без автодорог и затонувшие стены Аперлае',
+      en: 'Coastal Lycian Way from car-free Simena Castle via Üçağız to the sunken ruins of Aperlai',
+      de: 'Küsten-Highlight von der autofreien Burg Simena über Üçağız zu den versunkenen Ruinen von Aperlai',
+      tr: 'Arabasız Kaleköy (Simena) kalesinden Üçağız üzerinden Aperlai batık surlarına kıyı yürüyüşü',
     },
     description: {
-      ru: 'Знаковый прибрежный этап Восточного края нашего региона. Из тихой бухты Учагыз вы идёте в автомобильно-свободный Калекёй (античную Симену) с византийской крепостью и саркофагами в воде, а затем продолжаете по каменистому перешейку мимо оливковых рощ к древнему порту Аперлае, чьи стены частично ушли под воду после античных землетрясений.',
-      en: 'A standout coastal walk in the Kekova sanctuary. Starting from quiet Üçağız harbor, visit car-free Kaleköy (ancient Simena) with its hilltop castle and water-logged Lycian sarcophagi, then follow the olive-lined footpath west across the peninsula to the partially submerged ancient port of Aperlai.',
-      de: 'Ein Küsten-Highlight im Schutzgebiet Kekova: Vom Hafen Üçağız wandern Sie ins autofreie Kaleköy (Simena) mit seiner Burg und Sarkophagen im Wasser und weiter bis zu den versunkenen Ruinen von Aperlai.',
-      tr: 'Kekova koruma bölgesindeki en özel kıyı yürüyüşü. Üçağız limanından başlayıp karayolu olmayan Kaleköy (Simena) kalesine ve deniz içindeki Likya lahitlerine ulaşır; ardından zeytinlikler arasından batık antik kent Aperlai koyuna varır.',
+      ru: 'Знаковый прибрежный этап Восточного края нашего региона. Стартуя в автомобильно-свободном Калекёе (античной Симене) с византийской крепостью и саркофагами в воде, вы идёте вдоль тихой лагуны к бухте Учагыз, а затем по каменистому перешейку мимо оливковых рощ — к древнему порту Аперлае, чьи стены частично ушли под воду после античных землетрясений.',
+      en: 'A standout coastal traverse in the Kekova sanctuary (OSM Relation #51855). Starting at car-free Kaleköy (ancient Simena) with its hilltop castle and water-logged Lycian sarcophagi, you skirt the lagoon to Üçağız harbor and follow the olive-lined footpath west across the isthmus to the partially submerged ancient port of Aperlai.',
+      de: 'Ein Küsten-Highlight im Schutzgebiet Kekova (#51855): Vom autofreien Kaleköy (Simena) wandern Sie am Hafen von Üçağız vorbei durch Olivenhaine bis zu den versunkenen Hafenmauern von Aperlai.',
+      tr: 'Kekova koruma bölgesindeki en özel Likya Yolu etabı (#51855). Karayolu olmayan Kaleköy (Simena) kalesinden ve deniz içindeki Likya lahitlerinden başlayıp Üçağız limanı üzerinden zeytinlikler arasından batık antik kent Aperlai koyuna varır.',
     },
     startPoint: {
-      ru: 'Гавань Учагыз (36.1927, 29.8458)',
-      en: 'Üçağız Village harbor (36.1927, 29.8458)',
-      de: 'Hafen von Üçağız (36.1927, 29.8458)',
-      tr: 'Üçağız Köyü iskelesi (36.1927, 29.8458)',
+      ru: 'Симена / Калекёй (36.1904, 29.8622)',
+      en: 'Simena / Kaleköy harbor (36.1904, 29.8622)',
+      de: 'Simena / Hafen von Kaleköy (36.1904, 29.8622)',
+      tr: 'Simena / Kaleköy (36.1904, 29.8622)',
     },
     endPoint: {
-      ru: 'Античный залив Аперлае (возврат через Сейрекчакыл или на лодке в Учагыз)',
-      en: 'Aperlai Bay ruins (return by water taxi to Üçağız or road above)',
-      de: 'Bucht Aperlai (Rückfahrt per Bootstaxi nach Üçağız)',
-      tr: 'Aperlai Koyu kalıntıları (tekneyle Üçağız’a dönüş)',
+      ru: 'Античный залив Аперлае (36.1592, 29.7848, возврат на лодке в Учагыз)',
+      en: 'Aperlai Bay ruins (36.1592, 29.7848, water taxi back to Üçağız)',
+      de: 'Bucht Aperlai (36.1592, 29.7848, Bootstaxi zurück nach Üçağız)',
+      tr: 'Aperlai Koyu kalıntıları (36.1592, 29.7848, tekneyle Üçağız’a dönüş)',
     },
     waterSources: {
       ru: 'Большой выбор кафе и воды в Учагызе и Калекёе (Симена), а также сезонная бухта-пансион у перешейка Аперлае.',
@@ -1357,12 +1374,59 @@ export const TRAIL_STAGES: TrailStage[] = [
       de: 'Für die Burg Simena fällt Eintritt an (muze.gov.tr); Schwimmen direkt über der versunkenen Stadt Kekova ist verboten. Bootstaxi ab Aperlai nutzen.',
       tr: 'Simena Kalesi girişi ücretlidir (muze.gov.tr) ve Kekova batık kent kalıntıları üzerinde yüzmek yasaktır. Aperlai’den Üçağız’a tekne dönüşü ayarlayabilirsiniz.',
     },
-    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.1927,29.8458&waypoints=36.1904,29.8622&destination=36.1592,29.7848&travelmode=walking',
+    mapsUrl: 'https://www.google.com/maps/dir/?api=1&origin=36.1904,29.8622&waypoints=36.1927,29.8458&destination=36.1592,29.7848&travelmode=walking',
     image: '/api/images/locations/kas/ruines/kekova/kekova.jpg',
   },
 ];
 
-export const DETAILED_TRAIL_SLUGS = ['kayakoy-oludeniz'] as const;
+export const DETAILED_TRAIL_SLUGS = [
+  'carian-datca-domuzcukuru',
+  'carian-palamutbuku-knidos',
+  'carian-turunc-amos-kumlubuk',
+  'carian-taslica-phoenix-loryma',
+  'dalyan-kaunos-radar',
+  'gocek-kapidag-lydae',
+  'kayakoy-oludeniz',
+  'ovacik-faralya',
+  'faralya-kabak',
+  'kabak-alinca',
+  'saklikent-canyon',
+  'patara-delikkemer-kalkan',
+  'kalkan-bezirgan-saribelen',
+  'kas-limanagzi-ufakdere',
+  'kas-ucagiz-simena-kekova',
+] as const;
+
+export interface TrailSideBranchData {
+  id: string;
+  distanceKm: number;
+  points: [number, number, number][];
+}
+
+export interface RawTrailTrackData {
+  id: string;
+  osmRelationId: number | null;
+  attribution: string;
+  totalKm: number;
+  sogukSuBranchKm?: number;
+  elevationGainM: number;
+  elevationLossM: number;
+  minElevationM: number;
+  maxElevationM: number;
+  points: [number, number, number, number][];
+  sideBranch?: TrailSideBranchData;
+  sideBranchSogukSu?: [number, number, number][];
+  waypoints: {
+    id: string;
+    pointIndex: number;
+    lon: number;
+    lat: number;
+    ele: number;
+    km: number;
+    segmentMinutesFromPrev: number;
+    isPeak?: boolean;
+  }[];
+}
 
 export interface TrailEssentialRow {
   label: string;
@@ -1381,11 +1445,13 @@ export interface TrailDirectoryGroup {
   items: { label: string; detail: string }[];
 }
 
-export interface KayakoyWaypointCopy {
+export interface TrailWaypointCopy {
   title: string;
   shortLabel: string;
   note: string;
 }
+
+export type KayakoyWaypointCopy = TrailWaypointCopy;
 
 export interface DetailedTrailGuideCopy {
   eyebrow: string;
@@ -1395,6 +1461,7 @@ export interface DetailedTrailGuideCopy {
   essentials: TrailEssentialRow[];
   mapSectionTitle: string;
   mapSectionSubtitle: string;
+  sideBranchLabel?: string;
   introQuote: string;
   narrativeTitle: string;
   narrativeSegments: TrailNarrativeSegment[];
@@ -1407,417 +1474,9 @@ export interface DetailedTrailGuideCopy {
   directory: TrailDirectoryGroup[];
   relatedTitle: string;
   backToAtlas: string;
-  waypointLabels: Record<
-    'start' | 'ridge' | 'saddle' | 'junction' | 'cove-descent' | 'headland' | 'finish',
-    KayakoyWaypointCopy
-  >;
+  waypointLabels: Record<string, TrailWaypointCopy>;
 }
 
-export const KAYAKOY_DETAILED_GUIDE: Record<LocaleCode, DetailedTrailGuideCopy> = {
-  ru: {
-    eyebrow: 'ЗОНА 03 · TREK 07 · ЭТАЛОННЫЙ РАЗВОРОТ МАРШРУТА',
-    h1: 'Каякёй → Голубая лагуна Олюдениза (+ ветка в бухту Soğuk Su)',
-    lead: 'Реальный трек OpenStreetMap (Relation #11827824) и высоты Copernicus DEM: от каменного города-призрака Левисси через сосновый хребет 278 м с ответвлением к ледяным подводным ключам прямо к песчаной косе Олюдениза.',
-    essentialsTitle: 'TREK ESSENTIALS · ПАСПОРТ ТРОПЫ',
-    essentials: [
-      { label: 'ПРОТЯЖЁННОСТЬ', value: '5,3 км основной трек (2–2,5 ч) • +1,7 км в одну сторону до бухты Soğuk Su' },
-      { label: 'ДОСТУП И СТАРТ', value: 'Долмуш из Фетхие каждые 20–30 мин до Каякёя; финиш прямо у пляжа в Олюденизе' },
-      { label: 'ВЫСШАЯ ТОЧКА', value: '278 м (хребет над Каякёем, 0,72 км от старта); набор +284 м / сброс −429 м' },
-      { label: 'ХАРАКТЕР ТРОПЫ', value: 'Маркированный однодневный хайк без рюкзака; известняковая осыпь и сосновый лес' },
-      { label: 'СЕЗОН И ЗАПРЕТЫ', value: 'Идеально в марте–мае и сентябре–ноябре. Проверяйте лесные запреты (Orman Yasağı) в июле–августе' },
-      { label: 'ВАРИАНТЫ ПРОДОЛЖЕНИЯ', value: 'Официальный старт Ликийской тропы в Оваджике (Трек 08) или лодка из бухты Soğuk Su' },
-    ],
-    mapSectionTitle: '3D-рельеф местности и профиль высот',
-    mapSectionSubtitle: 'Вращайте 3D-ландшафт, переключайтесь на топографическую карту, кликайте по контрольным точкам 1–7 или скачайте GPX-трек для офлайн-навигатора.',
-    introQuote: 'Немногие маршруты на турецком побережье дают такой контраст всего за два часа ходьбы: вы стартуете в тишине заброшенных греческих храмов XVIII–XIX веков, поднимаетесь на обдуваемый хвоей известняковый гребень над проливом и завершаете путь купанием в тёплой Голубой лагуне.',
-    narrativeTitle: 'Пошаговая нитка маршрута',
-    narrativeSegments: [
-      {
-        distanceRange: '0,0 – 0,72 км',
-        duration: '25 мин',
-        title: 'Через каменные руины Левисси на верхний гребень (278 м)',
-        body: 'Маршрут стартует на южной окраине Каякёя (150 м над уровнем моря) и почти сразу уводит вверх по каменистой тропе среди оливковых террас. В первые 700 метров происходит весь основной набор высоты до 278 м — самая высокая точка пути. Обязательно оглянитесь назад: вся котловина города-призрака лежит как на ладони на фоне массивного горного хребта Бабадаг.',
-      },
-      {
-        distanceRange: '0,72 – 1,65 км',
-        duration: '20 мин',
-        title: 'Сосновая седловина и развилка на бухту Soğuk Su',
-        body: 'Тропа ныряет в тенистый сосновый лес и плавно сбрасывает высоту к седловине на отметке 157 м (1,65 км). Здесь от основной нитки уходит 1,7-километровая лесная тропа на запад в закрытую от волн бухту Холодной Воды (Soğuk Su Koyu), где на берегу бьют ледяные пресные ключи и работает сезонная таверна. Можно спуститься туда на обед и вернуться либо дойти прямо к Олюденизу.',
-      },
-      {
-        distanceRange: '1,65 – 2,71 км',
-        duration: '20 мин',
-        title: 'Лесной траверс к панорамной смотровой над лагуной',
-        body: 'Основной маршрут в сторону Олюдениза идёт по утоптанной земляной дороге и каменной кладке сквозь ароматные сосны и можжевельник. На 2,71 км (высота ~148 м) лес расступается на обзорной площадке: прямо под ногами открывается бирюзовый серп песчаной косы Кумбурну, а справа в небе парят парапланы, стартующие с вершин Бабадага.',
-      },
-      {
-        distanceRange: '2,71 – 5,30 км',
-        duration: '55 мин',
-        title: 'Известняковый серпантин, скальный мыс и финиш в Олюденизе',
-        body: 'Финальная половина пути — почти сплошной спуск (−429 м за весь поход). На 3,52 км тропа выходит к западной бухте лагуны почти на уровень моря (16 м), огибает небольшой скальный мыс (48 м) с лучшим ракурсом для фотографий косы и по каменным плитам спускается к дороге у входа в Олюдениз (5 м). Сюда же подходят долмуши обратно в Фетхие.',
-      },
-    ],
-    paceBoxTitle: 'ТЕМП, ВОДА И ИЗВЕСТНЯК НА СПУСКЕ',
-    paceBoxBody: 'Набор высоты здесь невелик (+284 м), главная коварность — крутой спуск ко второй половине пути по отполированному известняку. Закладывайте 2,5 часа с учётом фотоостановок, идите в кроссовках с цепкой подошвой (не в шлёпанцах) и возьмите 1,5–2 л воды на человека: на основном гребне родников нет.',
-    galleryTitle: 'Характер тропы в реальных фотографиях',
-    gallery: [
-      {
-        src: '/api/images/locations/fethiye/ruines/kayakoy/kayakoy.jpg',
-        alt: 'Каменные дома Каякёя на фоне горного массива Бабадаг',
-        caption: 'Старт: каменные кварталы города-призрака Каякёй у подножия перевала.',
-      },
-      {
-        src: '/api/images/locations/fethiye/ruines/kayakoy/kayakoy2.jpg',
-        alt: 'Склон с руинами Левисси и сосновым лесом',
-        caption: 'Первые 700 метров подъёма вверх к гребню 278 м среди руин и сосен.',
-      },
-      {
-        src: '/api/images/locations/fethiye/ruines/kayakoy/kayakoy3.jpg',
-        alt: 'Панорама долины Каякёй с верхнего склона',
-        caption: 'Вид назад на зелёную долину Каякёя при выходе на верхнюю полку.',
-      },
-    ],
-    directoryTitle: 'REGION DIRECTORY · СПРАВОЧНИК ПО УЧАСТКУ',
-    directorySubtitle: 'Транспорт, вода, билеты и бытовая логистика именно для отрезка Каякёй — Олюдениз',
-    directory: [
-      {
-        title: 'Транспорт и долмуши',
-        items: [
-          { label: 'Фетхие → Каякёй', detail: 'Маршрутки (долмуши) от центра и автовокзала Фетхие (и от мечети напротив торговой улицы) идут в сезон примерно каждые 20–30 минут (~25 мин в пути).' },
-          { label: 'Олюдениз → Фетхие', detail: 'Финиш тропы выводит прямо к остановкам долмушей в Олюденизе; маршрутки ходят допоздна каждые 10–15 минут в сезон.' },
-          { label: 'Лодка из Soğuk Su', detail: 'Если вы спустились в бухту Холодной Воды (ветка 1,7 км), в тёплый сезон туда подходят экскурсионные и частные лодки из Олюдениза и Гемилера.' },
-        ],
-      },
-      {
-        title: 'Вода, еда и остановки',
-        items: [
-          { label: 'Запас перед стартом', detail: 'Покупайте воду в магазинах деревни Каякёй до выхода на грунтовку: на гребне 278 м источников нет.' },
-          { label: 'Бухта Soğuk Su Koyu', detail: 'Сезонный семейный ресторан у воды (обычно открыт с весны до ноября) — отличная точка для обеда и купания в освежающей воде.' },
-          { label: 'Олюдениз и Бельчекиз', detail: 'На финише десятки кафе, душевые (платный вход на косу Кумбурну / бесплатный городской пляж Бельчекиз).' },
-        ],
-      },
-      {
-        title: 'Сборы, сезон и безопасность 2026',
-        items: [
-          { label: 'Плата за вход', detail: 'Сама лесная тропа бесплатна 100%. Билет нужен только если вы заходите внутрь огороженной музейной зоны Каякёя или на платный пляж заповедника Кумбурну (актуальные тарифы — muze.gov.tr).' },
-          { label: 'Лучшее окно дня', detail: 'Стартуйте из Каякёя в 08:30–09:30 утра: вы пройдёте открытый подъём до полуденного солнца и спуститесь в лагуну к обеду.' },
-          { label: 'Экстренная связь', detail: 'Единый номер спасателей и скорой в Турции — 112. Связь на склоне со стороны Олюдениза ловит, но в глубоких складках к Soğuk Su возможны провалы.' },
-        ],
-      },
-    ],
-    relatedTitle: 'Соседние тропы Зоны 03 (Фетхие и Олюдениз)',
-    backToAtlas: 'Ко всем 15 тропам Атласа',
-    waypointLabels: {
-      start: { title: 'Старт: Каякёй (руины)', shortLabel: 'Каякёй', note: 'Южная кромка города-призрака, 150 м над у.м.' },
-      ridge: { title: 'Верхний гребень (пик)', shortLabel: 'Гребень 278 м', note: 'Высшая точка маршрута, панорама Бабадага.' },
-      saddle: { title: 'Седловина / развилка Soğuk Su', shortLabel: 'Разв. Soğuk Su', note: 'Отсюда уходит ветка 1,7 км в бухту Холодной Воды.' },
-      junction: { title: 'Смотровая над Лагуной', shortLabel: 'Смотровая', note: 'Открытый вид на Голубую лагуну и парапланы.' },
-      'cove-descent': { title: 'Спуск к западной бухте', shortLabel: 'Западная бухта', note: 'Выход к уровню моря у края лагуны.' },
-      headland: { title: 'Скальный мыс над косой', shortLabel: 'Мыс 48 м', note: 'Финальная фототочка над бирюзовой водой.' },
-      finish: { title: 'Финиш: Олюдениз (лагуна)', shortLabel: 'Олюдениз', note: 'Уровень моря, пляж и остановки долмушей в Фетхие.' },
-    },
-  },
-  en: {
-    eyebrow: 'ZONE 03 · TREK 07 · SIGNATURE TRAIL SPREAD',
-    h1: 'Kayaköy → Ölüdeniz Blue Lagoon (+ Cold Water Bay Branch)',
-    lead: 'Real OpenStreetMap geometry (Relation #11827824) paired with Copernicus DEM elevation: hike from the stone ghost town of Kayaköy over a 278 m pine crest — with an optional detour to spring-fed Soğuk Su Bay — down to Ölüdeniz Lagoon.',
-    essentialsTitle: 'TREK ESSENTIALS',
-    essentials: [
-      { label: 'LENGTH', value: '5.3 km main trail (2–2.5 hrs) • +1.7 km one-way side branch to Soğuk Su Bay' },
-      { label: 'ACCESS', value: 'Frequent dolmuş vans from Fethiye to Kayaköy; easy dolmuş return from Ölüdeniz beach' },
-      { label: 'HIGHEST POINT', value: '278 m ridge above Kayaköy (0.72 km in); +284 m ascent / −429 m descent' },
-      { label: 'TREK STYLE', value: 'Waymarked day hike, no heavy pack; stony limestone footing & shaded pine paths' },
-      { label: 'RESTRICTIONS', value: 'Best Mar–May & Sep–Nov; verify summer forest-entry bans (Orman Yasağı) in July–Aug' },
-      { label: 'FURTHER OPTIONS', value: 'Lycian Way Stage 1 at Ovacık (Trek 08) or boat transfer out of Cold Water Bay' },
-    ],
-    mapSectionTitle: '3D Terrain Overview & Elevation Profile',
-    mapSectionSubtitle: 'Orbit the 3D coastline, switch to 2D Topo Map, click waypoints 1–7, or download the verified GPX track for offline hiking.',
-    introQuote: 'Few Mediterranean walks pack so much contrast into two hours: you leave the silent stone churches of an abandoned 19th-century hillside town, crest a fragrant limestone ridge high above the sea, and finish beside Turkey’s most famous turquoise lagoon.',
-    narrativeTitle: 'Stage-by-Stage Route Notes',
-    narrativeSegments: [
-      {
-        distanceRange: '0.0 – 0.72 km',
-        duration: '25 min',
-        title: 'Ghost Village Climb to the 278 m Crest',
-        body: 'Starting from the southern fringe of Kayaköy (150 m), the marked stone trail wastes no time climbing through ancient olive terraces. Within the first 720 meters you complete the main ascent to 278 m — the trek’s highest point — rewarding hikers with backward vistas across hundreds of roofless stone homes framed by Mount Babadağ.',
-      },
-      {
-        distanceRange: '0.72 – 1.65 km',
-        duration: '20 min',
-        title: 'Pine Saddle & Branch to Cold Water Bay (Soğuk Su)',
-        body: 'Entering cool Mediterranean pine woodland, the path eases down to a saddle at 157 m (1.65 km). Here a 1.7 km footpath branches west down to secluded Soğuk Su Koyu, famous for icy freshwater springs bubbling straight into the sea and a rustic seasonal tavern.',
-      },
-      {
-        distanceRange: '1.65 – 2.71 km',
-        duration: '20 min',
-        title: 'Forest Traverse to the Blue Lagoon Overlook',
-        body: 'Staying on the main Ölüdeniz line, you follow well-trodden pine trails and historic stone paving. At 2.71 km (~148 m), the canopy parts to reveal a dazzling elevated viewpoint straight down onto the Kumburnu sandspit while paragliders drift overhead from Babadağ.',
-      },
-      {
-        distanceRange: '2.71 – 5.30 km',
-        duration: '55 min',
-        title: 'Limestone Zigzags & Lagoon Finish',
-        body: 'The second half is a steady descent (−429 m total loss). Dropping to sea level near the western inlet (3.52 km, 16 m), the trail skirts one small rocky headland (48 m) before winding down stone-paved tracks straight to Ölüdeniz Beach and Fethiye-bound dolmuş stops.',
-      },
-    ],
-    paceBoxTitle: 'PACE, WATER & LIMESTONE GRIP',
-    paceBoxBody: 'With modest climbing (+284 m), the real challenge is the sustained descent over foot-polished limestone cobbles. Allow 2.5 hours with photo stops, wear grippy trail shoes (never sandals), and carry 1.5–2 L of water — the main ridge is dry.',
-    galleryTitle: 'Along the Trail',
-    gallery: [
-      {
-        src: '/api/images/locations/fethiye/ruines/kayakoy/kayakoy.jpg',
-        alt: 'Abandoned stone houses of Kayaköy with Mount Babadağ behind',
-        caption: 'Trailhead backdrop: Kayaköy’s stone ruins below the forested pass.',
-      },
-      {
-        src: '/api/images/locations/fethiye/ruines/kayakoy/kayakoy2.jpg',
-        alt: 'Hiking ascent above Kayaköy valley through pines',
-        caption: 'Climbing away from the ghost village toward the 278 m crest.',
-      },
-      {
-        src: '/api/images/locations/fethiye/ruines/kayakoy/kayakoy3.jpg',
-        alt: 'Kayaköy green valley panorama from the hillside path',
-        caption: 'Looking back across the Kayaköy basin along the upper slope.',
-      },
-    ],
-    directoryTitle: 'REGION DIRECTORY',
-    directorySubtitle: 'Practical logistics for the Kayaköy – Ölüdeniz corridor',
-    directory: [
-      {
-        title: 'Transport & Dolmuş',
-        items: [
-          { label: 'Fethiye → Kayaköy', detail: 'Dolmuş minibuses depart central Fethiye every 20–30 minutes in season (~25 min ride).' },
-          { label: 'Ölüdeniz → Fethiye', detail: 'Frequent dolmuş buses run every 10–15 minutes from right near the trail finish.' },
-          { label: 'Soğuk Su Boat Pickup', detail: 'During May–Oct, small excursion boats occasionally call at Soğuk Su Cove toward Ölüdeniz/Gemiler.' },
-        ],
-      },
-      {
-        title: 'Water & Refreshments',
-        items: [
-          { label: 'Kayaköy Shops', detail: 'Buy water and snacks in Kayaköy before hitting the dirt trailhead.' },
-          { label: 'Soğuk Su Cove', detail: 'Seasonal waterfront tavern offers cold drinks, lunch, and swimming in spring-chilled water.' },
-          { label: 'Ölüdeniz Promenade', detail: 'Cafes and free public access on Belceğiz Beach; paid park gate at Kumburnu spit.' },
-        ],
-      },
-      {
-        title: 'Fees & Safety 2026',
-        items: [
-          { label: 'Trail Access', detail: 'The hiking path itself is 100% free; tickets apply only inside the fenced Kayaköy museum zone or Kumburnu Nature Park (muze.gov.tr).' },
-          { label: 'Best Start Time', detail: 'Leave Kayaköy between 08:30 and 09:30 to beat afternoon heat and swim before lunch.' },
-          { label: 'Emergency', detail: 'Dial 112 anywhere in Türkiye. Signal is good facing Ölüdeniz but dips inside the Soğuk Su ravine.' },
-        ],
-      },
-    ],
-    relatedTitle: 'Nearby Trails in Zone 03 (Fethiye & Ölüdeniz)',
-    backToAtlas: 'Back to All 15 Atlas Trails',
-    waypointLabels: {
-      start: { title: 'Start: Kayaköy Ruins', shortLabel: 'Kayaköy', note: 'South edge of ghost village, 150 m.' },
-      ridge: { title: 'Upper Crest (Summit)', shortLabel: 'Crest 278 m', note: 'Highest point on the trek above Babadağ valley.' },
-      saddle: { title: 'Saddle / Soğuk Su Fork', shortLabel: 'Soğuk Su Fork', note: '1.7 km footpath branch down to Cold Water Bay.' },
-      junction: { title: 'Blue Lagoon Overlook', shortLabel: 'Overlook', note: 'Open view over Kumburnu Lagoon and paragliders.' },
-      'cove-descent': { title: 'Western Cove Descent', shortLabel: 'West Cove', note: 'Trail drops toward sea level by the lagoon.' },
-      headland: { title: 'Rocky Lagoon Headland', shortLabel: 'Headland 48 m', note: 'Final coastal bluff viewpoint before the beach.' },
-      finish: { title: 'Finish: Ölüdeniz Beach', shortLabel: 'Ölüdeniz', note: 'Sea level, swimming and Fethiye dolmuş stops.' },
-    },
-  },
-  de: {
-    eyebrow: 'ZONE 03 · TREK 07 · DETAIL-ETAPPE',
-    h1: 'Kayaköy → Blaue Lagune Ölüdeniz (+ Abzweig Soğuk Su)',
-    lead: 'Verifizierter OpenStreetMap-Track (Relation #11827824) mit Copernicus-DEM-Höhendaten: vom Geisterdorf Kayaköy über den 278-m-Kiefernpass hinab zur Blauen Lagune von Ölüdeniz.',
-    essentialsTitle: 'TREK ESSENTIALS',
-    essentials: [
-      { label: 'LÄNGE', value: '5,3 km Hauptweg (2–2,5 Std.) • +1,7 km Abzweig einfach nach Soğuk Su' },
-      { label: 'ANREISE', value: 'Dolmuş ab Fethiye alle 20–30 Min. nach Kayaköy; Rückfahrt direkt ab Ölüdeniz' },
-      { label: 'HÖCHSTER PUNKT', value: '278 m (Kamm bei km 0,72); +284 m Aufstieg / −429 m Abstieg' },
-      { label: 'CHARAKTER', value: 'Markierte Tageswanderung; steinige Kalkpfade & schattiger Kiefernwald' },
-      { label: 'SAISON & REGELN', value: 'Ideal März–Mai & Sept–Nov; im Juli–Aug mögliche Waldverbote (Orman Yasağı) prüfen' },
-      { label: 'WEITERWEGE', value: 'Start des Lykischen Weges in Ovacık (Trek 08) oder Boot ab Soğuk Su' },
-    ],
-    mapSectionTitle: '3D-Geländeansicht & Höhenprofil',
-    mapSectionSubtitle: 'Drehen Sie die 3D-Landschaft, wechseln Sie zur Topo-Karte, klicken Sie auf Punkte 1–7 oder laden Sie die GPX-Datei herunter.',
-    introQuote: 'Kaum eine Wanderung bietet auf zwei Stunden so viel Kontrast: verlassene Steinhäuser am Berg, duftender Kiefernwald hoch über dem Meer und zum Abschluss ein Sprung in die Blaue Lagune.',
-    narrativeTitle: 'Etappenbeschreibung',
-    narrativeSegments: [
-      {
-        distanceRange: '0,0 – 0,72 km',
-        duration: '25 Min.',
-        title: 'Aufstieg aus Kayaköy zum 278-m-Kamm',
-        body: 'Vom Südrand von Kayaköy (150 m) steigt der steinige Pfad zügig durch alte Olivenhaine auf den höchsten Punkt (278 m) mit tollem Blick zurück über das Geisterdorf und den Babadağ.',
-      },
-      {
-        distanceRange: '0,72 – 1,65 km',
-        duration: '20 Min.',
-        title: 'Kiefernsattel & Abzweig nach Soğuk Su Koyu',
-        body: 'Im Schatten der Kiefern geht es leicht bergab bis zum Sattel auf 157 m (1,65 km). Dort zweigt ein 1,7 km langer Pfad zur ruhigen Bucht Soğuk Su mit ihren eiskalten Süßwasserquellen im Meer ab.',
-      },
-      {
-        distanceRange: '1,65 – 2,71 km',
-        duration: '20 Min.',
-        title: 'Waldweg zum Aussichtspunkt über der Lagune',
-        body: 'Der Hauptweg nach Ölüdeniz folgt alten Steinpfaden bis zum Panorama-Punkt bei km 2,71 (~148 m) mit Blick auf die Sandzunge Kumburnu und Gleitschirmflieger.',
-      },
-      {
-        distanceRange: '2,71 – 5,30 km',
-        duration: '55 Min.',
-        title: 'Kalkstein-Serpentinen hinab nach Ölüdeniz',
-        body: 'In mehreren Kehren fällt der Weg bis fast auf Meereshöhe ab, umrundet ein letztes Felskap (48 m) und erreicht die Strandpromenade sowie die Dolmuş-Haltestellen in Ölüdeniz.',
-      },
-    ],
-    paceBoxTitle: 'TEMPO, WASSER & TRITTSICHERHEIT',
-    paceBoxBody: 'Die Hauptforderung ist nicht der Aufstieg (+284 m), sondern der Abstieg auf glatt poliertem Kalkstein. Planen Sie 2,5 Stunden ein, tragen Sie griffige Schuhe und nehmen Sie 1,5–2 L Wasser mit.',
-    galleryTitle: 'Eindrücke entlang des Weges',
-    gallery: [
-      {
-        src: '/api/images/locations/fethiye/ruines/kayakoy/kayakoy.jpg',
-        alt: 'Steinhäuser von Kayaköy vor den Bergen des Babadağ',
-        caption: 'Startpunkt am Rande des Geisterdorfs Kayaköy.',
-      },
-      {
-        src: '/api/images/locations/fethiye/ruines/kayakoy/kayakoy2.jpg',
-        alt: 'Anstieg über die Ruinen von Kayaköy in den Kiefernwald',
-        caption: 'Blick während des ersten Anstiegs Richtung Passhöhe.',
-      },
-      {
-        src: '/api/images/locations/fethiye/ruines/kayakoy/kayakoy3.jpg',
-        alt: 'Panorama über das grüne Tal von Kayaköy',
-        caption: 'Rückblick ins grüne Tal von Kayaköy vom Berghang.',
-      },
-    ],
-    directoryTitle: 'REGION DIRECTORY · INFOS VOR ORT',
-    directorySubtitle: 'Verkehrsmittel, Wasser & praktische Hinweise für Kayaköy – Ölüdeniz',
-    directory: [
-      {
-        title: 'Dolmuş & Busse',
-        items: [
-          { label: 'Fethiye → Kayaköy', detail: 'In der Saison alle 20–30 Min. ab Zentrum/Otogar (~25 Min. Fahrt).' },
-          { label: 'Ölüdeniz → Fethiye', detail: 'Dichter Takt alle 10–15 Min. direkt ab Strandpromenade.' },
-        ],
-      },
-      {
-        title: 'Wasser & Einkehr',
-        items: [
-          { label: 'Start Kayaköy', detail: 'Wasser vor dem Abmarsch im Dorf kaufen; auf dem Kamm kein Brunnen.' },
-          { label: 'Soğuk Su & Ölüdeniz', detail: 'Saisonale Taverne in Soğuk Su (Abzweig) und viele Lokale am Ziel.' },
-        ],
-      },
-      {
-        title: 'Gebühren & Sicherheit',
-        items: [
-          { label: 'Eintritt', detail: 'Der Wanderweg ist kostenfrei; Gebühren nur im umzäunten Museum Kayaköy oder Park Kumburnu.' },
-          { label: 'Notruf 112', detail: 'Türkeiweite Notrufnummer 112; bester Start zwischen 08:30 und 09:30 Uhr.' },
-        ],
-      },
-    ],
-    relatedTitle: 'Weitere Routen in Zone 03',
-    backToAtlas: 'Alle 15 Wanderrouten im Atlas',
-    waypointLabels: {
-      start: { title: 'Start: Kayaköy Ruinen', shortLabel: 'Kayaköy', note: 'Südrand des Geisterdorfs, 150 m.' },
-      ridge: { title: 'Kammhöhe (Gipfel)', shortLabel: 'Kamm 278 m', note: 'Höchster Punkt der Tour über dem Tal.' },
-      saddle: { title: 'Sattel / Abzweig Soğuk Su', shortLabel: 'Abzw. Soğuk Su', note: '1,7 km Seitenpfad in die kalte Bucht.' },
-      junction: { title: 'Lagunen-Aussichtspunkt', shortLabel: 'Aussicht', note: 'Freier Blick auf Kumburnu und Babadağ.' },
-      'cove-descent': { title: 'Abstieg Westbucht', shortLabel: 'Westbucht', note: 'Erreichen der Küstennähe (16 m).' },
-      headland: { title: 'Felskap über dem Strand', shortLabel: 'Kap 48 m', note: 'Letzter Panoramablick auf die Lagune.' },
-      finish: { title: 'Ziel: Strand Ölüdeniz', shortLabel: 'Ölüdeniz', note: 'Meereshöhe, Badestopp und Dolmuş-Anschluss.' },
-    },
-  },
-  tr: {
-    eyebrow: 'BÖLGE 03 · PARKUR 07 · ÖRNEK ROTA REHBERİ',
-    h1: 'Kayaköy → Ölüdeniz Mavi Lagün (+ Soğuk Su Koyu Ayrımı)',
-    lead: 'Gerçek OpenStreetMap geometrisi (Relation #11827824) ve Copernicus DEM yükseklik verileriyle: Kayaköy hayalet şehrinden 278 m çam sırtını aşarak — dileyenler için Soğuk Su ayrımıyla — Ölüdeniz sahiline iniş.',
-    essentialsTitle: 'TREK ESSENTIALS · ROTA KİMLİĞİ',
-    essentials: [
-      { label: 'MESAFE', value: '5,3 km ana parkur (2–2,5 sa.) • +1,7 km tek yön Soğuk Su Koyu ayrımı' },
-      { label: 'ULAŞIM', value: 'Fethiye’den Kayaköy’e 20–30 dk’da bir dolmuş; Ölüdeniz’den kolay dönüş' },
-      { label: 'EN YÜKSEK NOKTA', value: '278 m sırt (0,72. km); toplam +284 m tırmanış / −429 m iniş' },
-      { label: 'ROTA TİPİ', value: 'İşaretli günübirlik yürüyüş; taşlık kireçtaşı patika ve çam ormanı' },
-      { label: 'SEZON & KURALLAR', value: 'Mart–Mayıs ve Eylül–Kasım idealdir; Temmuz–Ağustos’ta orman giriş yasaklarını kontrol edin' },
-      { label: 'DEVAM SEÇENEKLERİ', value: 'Ovacık Likya Yolu başlangıcı (Parkur 08) veya Soğuk Su’dan tekne dönüşü' },
-    ],
-    mapSectionTitle: '3D Arazi Görünümü ve Rakım Profili',
-    mapSectionSubtitle: '3D haritayı döndürün, Topo haritaya geçin, 1–7 durak noktalarına tıklayın veya çevrimdışı kullanım için GPX dosyasını indirin.',
-    introQuote: 'İki saatlik yürüyüşe bu kadar güçlü bir kontrast sığdıran rota azdır: terk edilmiş taş evlerin sessizliğinden çam kokulu 278 m sırta çıkar, finalde ise Türkiye’nin en ünlü turkuaz lagününe inersiniz.',
-    narrativeTitle: 'Adım Adım Rota Anlatımı',
-    narrativeSegments: [
-      {
-        distanceRange: '0,0 – 0,72 km',
-        duration: '25 dk',
-        title: 'Kayaköy’den 278 m Sırtına Tırmanış',
-        body: 'Kayaköy’ün güney ucundan (150 m) başlayan işaretli patika, zeytin terasları arasından doğrudan ana tırmanışa geçer ve 720. metrede rotanın zirvesi olan 278 m sırtına ulaşır. Geriye baktığınızda Babadağ önünde uzanan taş hayalet şehrin tamamı ayaklarınızın altındadır.',
-      },
-      {
-        distanceRange: '0,72 – 1,65 km',
-        duration: '20 dk',
-        title: 'Çam Geçidi ve Soğuk Su Koyu Yol Ayrımı',
-        body: 'Gölge veren kızılçam ormanına giren patika 1,65. km’de 157 m rakımlı geçide iner. Buradan batıya ayrılan 1,7 km’lik patika, dibinden buz gibi kaynak suları çıkan Soğuk Su Koyu’na ve sezonluk aile lokantasına ulaşır.',
-      },
-      {
-        distanceRange: '1,65 – 2,71 km',
-        duration: '20 dk',
-        title: 'Lagün Seyir Noktasına Orman Geçişi',
-        body: 'Ölüdeniz ana hattını izleyen yürüyüşçüler 2,71. km’de (~148 m) muhteşem Kumburnu Lagünü seyir noktasına varır; gökyüzünde Babadağ’dan kalkan yamaç paraşütleri süzülür.',
-      },
-      {
-        distanceRange: '2,71 – 5,30 km',
-        duration: '55 dk',
-        title: 'Taş Patika İnişi ve Ölüdeniz Plajı',
-        body: 'Yolun ikinci yarısı neredeyse kesintisiz bir iniştir (toplam −429 m). Batı koyuna (16 m) indikten sonra son bir kayalık burnu (48 m) aşarak Ölüdeniz sahiline ve Fethiye dolmuş duraklarına ulaşılır.',
-      },
-    ],
-    paceBoxTitle: 'TEMPO, SU VE KAYGAN KİREÇTAŞI',
-    paceBoxBody: 'Tırmanışı mütevazıdır (+284 m), ancak ikinci yarıdaki cilalanmış taş iniş dikkat ister. Fotoğraf molalarıyla 2,5 saat planlayın, kaymaz tabanlı spor ayakkabı giyin ve kişi başı 1,5–2 L su taşıyın.',
-    galleryTitle: 'Parkurdan Gerçek Kareler',
-    gallery: [
-      {
-        src: '/api/images/locations/fethiye/ruines/kayakoy/kayakoy.jpg',
-        alt: 'Babadağ eteklerinde Kayaköy taş evleri',
-        caption: 'Başlangıç: geçidin hemen altındaki tarihi Kayaköy taş mahallesi.',
-      },
-      {
-        src: '/api/images/locations/fethiye/ruines/kayakoy/kayakoy2.jpg',
-        alt: 'Kayaköy üzerinden 278 m sırtına tırmanan patika',
-        caption: 'Hayalet şehirden orman sırtına yükselen ilk kilometre.',
-      },
-      {
-        src: '/api/images/locations/fethiye/ruines/kayakoy/kayakoy3.jpg',
-        alt: 'Üst patikadan Kayaköy ovası panoraması',
-        caption: 'Sırta yaklaşırken Kayaköy vadisine geriye bakış.',
-      },
-    ],
-    directoryTitle: 'BÖLGE REHBERİ · PRATİK BİLGİLER',
-    directorySubtitle: 'Kayaköy – Ölüdeniz hattı için ulaşım, su ve güvenlik notları',
-    directory: [
-      {
-        title: 'Dolmuş ve Ulaşım',
-        items: [
-          { label: 'Fethiye → Kayaköy', detail: 'Sezonda merkezden her 20–30 dakikada bir minibüs kalkar (~25 dk sürer).' },
-          { label: 'Ölüdeniz → Fethiye', detail: 'Sahilden merkeze sık aralıklarla dolmuş işler.' },
-        ],
-      },
-      {
-        title: 'Su ve Mola',
-        items: [
-          { label: 'Kayaköy Bakkal', detail: 'Patikaya girmeden önce su stoğunuzu tamamlayın; ana sırtta çeşme yoktur.' },
-          { label: 'Soğuk Su & Ölüdeniz', detail: 'Soğuk Su ayrımında sezonluk kır lokantası, bitişte Ölüdeniz kafeleri bulunur.' },
-        ],
-      },
-      {
-        title: 'Ücretler ve Güvenlik 2026',
-        items: [
-          { label: 'Ücretsiz Patika', detail: 'Orman rotası ücretsizdir; bilet yalnızca Kayaköy ören yeri içi veya Kumburnu Tabiat Parkı kapısında istenir (muze.gov.tr).' },
-          { label: 'Acil Yardım 112', detail: 'Sabah 08:30–09:30 arası başlangıç idealdir; acil durumlarda 112’yi arayın.' },
-        ],
-      },
-    ],
-    relatedTitle: 'Bölge 03 Yakın Parkurları',
-    backToAtlas: 'Tüm 15 Atlas Rotasına Dön',
-    waypointLabels: {
-      start: { title: 'Başlangıç: Kayaköy', shortLabel: 'Kayaköy', note: 'Hayalet şehir güney çıkışı, 150 m.' },
-      ridge: { title: 'Üst Sırt (Zirve)', shortLabel: '278 m Sırt', note: 'Rotanın en yüksek noktası, Babadağ manzarası.' },
-      saddle: { title: 'Geçit / Soğuk Su Ayrımı', shortLabel: 'Soğuk Su Ayrımı', note: '1,7 km Soğuk Su Koyu yan patikası başlangıcı.' },
-      junction: { title: 'Lagün Seyir Noktası', shortLabel: 'Seyir Noktası', note: 'Ölüdeniz Lagünü ve paraşüt manzarası.' },
-      'cove-descent': { title: 'Batı Koyu İnişi', shortLabel: 'Batı Koyu', note: 'Deniz seviyesine yaklaşım (16 m).' },
-      headland: { title: 'Kayalık Burun', shortLabel: '48 m Burun', note: 'Plaj öncesi son panoramik burun.' },
-      finish: { title: 'Bitiş: Ölüdeniz Plajı', shortLabel: 'Ölüdeniz', note: 'Deniz seviyesi, yüzme ve Fethiye dolmuşları.' },
-    },
-  },
-};
+// Серверные детальные гиды для всех 15 маршрутов вынесены в src/lib/trail-guides/,
+// чтобы не утяжелять клиентский бандл TrekkingAtlas.tsx.
+

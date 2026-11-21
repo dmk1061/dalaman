@@ -12,6 +12,7 @@ export interface ProfileWaypointItem {
   ele: number;
   km: number;
   segmentMinutesFromPrev: number;
+  isPeak?: boolean;
   title: string;
   shortLabel: string;
   note: string;
@@ -35,7 +36,7 @@ const UI_COPY: Record<
     kmUnit: string;
     minUnit: string;
     timeAxisLabel: string;
-    hint: string;
+    hint: (count: number) => string;
   }
 > = {
   ru: {
@@ -46,7 +47,7 @@ const UI_COPY: Record<
     kmUnit: 'км',
     minUnit: 'мин',
     timeAxisLabel: 'Время отрезка:',
-    hint: 'Нажмите на любую точку 1–7 на графике, чтобы подлететь к ней на 3D-карте',
+    hint: (count) => `Нажмите на любую точку 1–${count} на графике, чтобы подлететь к ней на 3D-карте`,
   },
   en: {
     heading: 'Elevation Profile & Segment Walking Times',
@@ -56,7 +57,7 @@ const UI_COPY: Record<
     kmUnit: 'km',
     minUnit: 'min',
     timeAxisLabel: 'Segment time:',
-    hint: 'Click any waypoint 1–7 on the profile to fly the 3D camera there',
+    hint: (count) => `Click any waypoint 1–${count} on the profile to fly the 3D camera there`,
   },
   de: {
     heading: 'Höhenprofil & Gehzeiten je Abschnitt',
@@ -66,7 +67,7 @@ const UI_COPY: Record<
     kmUnit: 'km',
     minUnit: 'Min.',
     timeAxisLabel: 'Gehzeit:',
-    hint: 'Klicken Sie auf einen Punkt 1–7, um ihn in der 3D-Ansicht anzufliegen',
+    hint: (count) => `Klicken Sie auf einen Punkt 1–${count}, um ihn in der 3D-Ansicht anzufliegen`,
   },
   tr: {
     heading: 'Rakım Profili ve Etap Süreleri',
@@ -76,9 +77,19 @@ const UI_COPY: Record<
     kmUnit: 'km',
     minUnit: 'dk',
     timeAxisLabel: 'Etap süresi:',
-    hint: '3D haritada odaklanmak için grafikteki 1–7 duraklarına tıklayın',
+    hint: (count) => `3D haritada odaklanmak için grafikteki 1–${count} duraklarına tıklayın`,
   },
 };
+
+function formatSegmentDuration(minutes: number, locale: LocaleCode, minUnit: string): string {
+  if (minutes < 60) return `${minutes} ${minUnit}`;
+  const h = Math.floor(minutes / 60);
+  const m = minutes % 60;
+  if (locale === 'ru') return m > 0 ? `${h} ч ${m} м` : `${h} ч`;
+  if (locale === 'de') return m > 0 ? `${h} Std. ${m}` : `${h} Std.`;
+  if (locale === 'tr') return m > 0 ? `${h} sa ${m} dk` : `${h} sa`;
+  return m > 0 ? `${h}h ${m}m` : `${h}h`;
+}
 
 export default function TrailElevationProfile({
   points,
@@ -89,10 +100,29 @@ export default function TrailElevationProfile({
 }: TrailElevationProfileProps) {
   const t = UI_COPY[locale] || UI_COPY.en;
 
-  const totalKm = points.length > 0 ? points[points.length - 1][3] : 5.3;
+  const totalKm = points.length > 0 ? points[points.length - 1][3] : 1;
   const maxEleRaw = points.reduce((acc, p) => Math.max(acc, p[2]), 0);
-  const maxY = Math.max(300, Math.ceil((maxEleRaw + 25) / 50) * 50);
+  const step = maxEleRaw <= 300 ? 50 : maxEleRaw <= 600 ? 100 : 200;
+  const maxY =
+    maxEleRaw <= 300
+      ? Math.max(200, Math.ceil((maxEleRaw + 30) / 50) * 50)
+      : maxEleRaw <= 600
+      ? Math.ceil((maxEleRaw + 60) / 100) * 100
+      : Math.ceil((maxEleRaw + 80) / 200) * 200;
   const minY = 0;
+
+  // Determine peak waypoint dynamically
+  let peakWpIdx = 0;
+  let peakWpEle = -Infinity;
+  waypoints.forEach((wp, idx) => {
+    if (wp.isPeak) {
+      peakWpIdx = idx;
+      peakWpEle = Infinity;
+    } else if (wp.ele > peakWpEle && peakWpEle !== Infinity) {
+      peakWpEle = wp.ele;
+      peakWpIdx = idx;
+    }
+  });
 
   // SVG coordinate space
   const svgW = 980;
@@ -120,7 +150,7 @@ export default function TrailElevationProfile({
       : '';
 
   const gridLevels: number[] = [];
-  for (let e = 0; e <= maxY; e += 50) {
+  for (let e = 0; e <= maxY; e += step) {
     gridLevels.push(e);
   }
 
@@ -272,11 +302,11 @@ export default function TrailElevationProfile({
                     x={midX}
                     y={259}
                     textAnchor="middle"
-                    fontSize={segW < 58 ? '10' : '11.5'}
+                    fontSize={segW < 68 ? '9.5' : '11'}
                     fontWeight="800"
                     fill="#0f172a"
                   >
-                    {wp.segmentMinutesFromPrev} {t.minUnit}
+                    {formatSegmentDuration(wp.segmentMinutesFromPrev, locale, t.minUnit)}
                   </text>
                   <text
                     x={midX}
@@ -316,14 +346,32 @@ export default function TrailElevationProfile({
             const x = xForKm(wp.km);
             const y = yForEle(wp.ele);
             const isSelected = activeWaypointIdx === idx;
-            const isPeak = wp.id === 'ridge';
+            const isPeak = idx === peakWpIdx;
 
-            // Stagger label offsets to prevent collisions on close points (3.52 km & 3.85 km)
-            const placeBelow = wp.id === 'cove-descent';
+            const prevDx = idx > 0 ? x - xForKm(waypoints[idx - 1].km) : Infinity;
+            const nextDx = idx < waypoints.length - 1 ? xForKm(waypoints[idx + 1].km) - x : Infinity;
+            const canPlaceBelow = y + 24 <= chartBottom - 6;
+
+            const lowerThanPrev = idx > 0 && prevDx < 95 && wp.ele <= waypoints[idx - 1].ele;
+            const lowerThanNext = idx < waypoints.length - 1 && nextDx < 95 && wp.ele < waypoints[idx + 1].ele;
+            const placeBelow =
+              idx > 0 && idx < waypoints.length - 1 && canPlaceBelow && (lowerThanPrev || lowerThanNext);
+
             const labelAnchor = idx === 0 ? 'start' : idx === waypoints.length - 1 ? 'end' : 'middle';
             const labelX =
-              idx === 0 ? x + 4 : idx === waypoints.length - 1 ? x - 4 : wp.id === 'cove-descent' ? x - 10 : wp.id === 'headland' ? x + 10 : x;
-            const labelY = placeBelow ? y + 24 : y - 16;
+              idx === 0
+                ? x + 4
+                : idx === waypoints.length - 1
+                ? x - 4
+                : lowerThanNext
+                ? x - 10
+                : prevDx < 95 && !placeBelow
+                ? x + 10
+                : x;
+            const extraLift = !placeBelow && prevDx < 95 && !lowerThanPrev && y > 62 ? -24 : 0;
+            const labelY = placeBelow
+              ? Math.min(chartBottom - 8, y + 24)
+              : Math.max(26, y - 16 + extraLift);
 
             return (
               <g
@@ -389,7 +437,7 @@ export default function TrailElevationProfile({
           </div>
         ) : (
           <span className="text-slate-500 font-medium flex items-center gap-1.5">
-            <FaClock className="text-cyan-600" /> {t.hint}
+            <FaClock className="text-cyan-600" /> {t.hint(waypoints.length)}
           </span>
         )}
       </div>
