@@ -19,7 +19,7 @@ interface ServiceItem {
     desc: Record<string, string>;
     features: Record<string, string[]>;
     priceNote: Record<string, string>;
-    guides: { slug: string; label: Record<string, string> }[];
+    guides: { slug: string; href?: string; label: Record<string, string> }[];
     externalLink?: { url: string; label: Record<string, string> };
     heroBg: string;
 }
@@ -295,6 +295,7 @@ const servicesRegistry: Record<string, ServiceItem> = {
             tr: "Tahmini 2026 fiyatları: Ekipman dahil tekne ile keşif dalışı (~45-60 €), PADI Open Water sertifika kursu (~320-380 €)."
         },
         guides: [
+            { slug: "diving-fishing", href: "/diving-fishing", label: { ru: "Интерактивный хаб: Дайвинг, рыбалка и энциклопедия рыб", en: "Interactive Hub: Diving, Fishing & Fish Encyclopedia", de: "Interaktiver Hub: Tauchen, Angeln & Fisch-Enzyklopädie", tr: "İnteraktif Rehber: Dalış, Balıkçılık ve Balık Ansiklopedisi" } },
             { slug: "diving", label: { ru: "Гид по дайвингу: лучшие споты Каша и Фетхие", en: "Diving Guide: Best Spots in Kaş & Fethiye", de: "Tauchführer: Top-Spots in Kaş & Fethiye", tr: "Dalış Rehberi: Kaş ve Fethiye'nin En İyi Noktaları" } },
             { slug: "diving-and-tuna-fishing", label: { ru: "Подводная охота и морская рыбалка", en: "Spearfishing & Deep Sea Fishing Adventures", de: "Unterwasserjagd & Hochseefischen", tr: "Zıpkınla Avcılık ve Açık Deniz Balıkçılığı" } }
         ],
@@ -515,6 +516,7 @@ const servicesRegistry: Record<string, ServiceItem> = {
             tr: "Tahmini 2026 fiyatları: Özel balık avı teknesi (4-5 kişiye kadar, 5 saatlik tur ~400-550 €, tam gün orkinos avı ~700-900 €)."
         },
         guides: [
+            { slug: "diving-fishing", href: "/diving-fishing", label: { ru: "Интерактивный хаб: Дайвинг, рыбалка и энциклопедия рыб", en: "Interactive Hub: Diving, Fishing & Fish Encyclopedia", de: "Interaktiver Hub: Tauchen, Angeln & Fisch-Enzyklopädie", tr: "İnteraktif Rehber: Dalış, Balıkçılık ve Balık Ansiklopedisi" } },
             { slug: "diving-and-tuna-fishing", label: { ru: "Подробный гид по подводной охоте и рыбалке в регионе", en: "Detailed Spearfishing & Sport Fishing Guide", de: "Ausführlicher Leitfaden zum Fischen & Unterwasserjagd", tr: "Detaylı Sportif Balıkçılık ve Zıpkın Avı Rehberi" } },
             { slug: "yachting", label: { ru: "Аренда яхт и морские прогулки", en: "Yacht Charters & Private Boat Excursions", de: "Yachtcharter & Bootsausflüge", tr: "Yat Kiralama ve Özel Tekne Gezileri" } }
         ],
@@ -867,7 +869,7 @@ const ServiceLandingPage = ({ serviceKey, locale }: ServiceLandingPageProps) => 
                                     {s.guides.map((g, idx) => (
                                         <Link
                                             key={idx}
-                                            href={localize(`/articles/${g.slug}`)}
+                                            href={localize(g.href || `/articles/${g.slug}`)}
                                             className="flex items-center justify-between p-4 rounded-2xl bg-white/5 hover:bg-cyan-600/30 border border-white/10 transition-all group"
                                         >
                                             <span className="text-xs font-bold text-slate-200 group-hover:text-white transition-colors">

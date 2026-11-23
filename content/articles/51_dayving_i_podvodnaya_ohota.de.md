@@ -63,3 +63,8 @@ Im Netz kursieren weiterhin Angebote für „Unterwasserjagd mit Tauchflasche“
 3. **Tabuzonen und streng geschützte Arten:** Harpunenjagd auf Blauflossen-Thunfisch ohne ministerielle *e-BCD*-Zulassung ist ungesetzlich; absolutes Ganzjahresverbot gilt außerdem für Meeresschildkröten, Mönchsrobben, geschützte Zackenbarsche (*Lahos / Orfoz* in Schutzzonen) sowie sämtliche Unterwasser-Archäologiefelder wie Kekova oder Gemiler.
 
 > **Woran man einen seriösen Skipper erkennt:** Ein professioneller Kapitän mit gültiger Tiefsee-Lizenz nennt außerhalb des kurzen Juni–Oktober-Fensters ehrlich realistische Tagesziele wie Bernsteinmakrele, Mahi-Mahi oder Bonito — oder fischt nach dem Prinzip *Catch & Release*. Für entspannte Stunden auf See finden Sie passende Boote in unseren **[Bootstouren & Ausflügen](/de/services/excursions-tours)**.
+
+---
+
+### Siehe auch
+- **[Interaktiver Hub: Tauchen, Angeln & Fisch-Enzyklopädie](/de/diving-fishing)** — Küstenkarte mit 16 Spots, 23-Arten-Lexikon, Verleih & Angelläden.

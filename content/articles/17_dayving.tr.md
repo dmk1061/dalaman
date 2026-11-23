@@ -51,6 +51,7 @@ Dalaman'dan fazla uzaklaşmadan hem deneme dalışı yapmak hem *PADI / CMAS Ope
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif Dalış ve Balıkçılık Rehberi](/tr/diving-fishing)** — harita, 23 tür balık ansiklopedisi (6/2 Tebliğ limitleri), ekipman kiralama ve av bayileri.
 - **[Kaş Gezi Rehberi](/tr/articles/kas-guide)** — Dalış sonrası akşam çarşı, kafe ve teras önerileri.
 - **[Yatçılık ve Deniz Turları](/tr/articles/yachting)** — Kekova ve koylara günübirlik tekneler.
 - **[Adalar, Koylar ve Körfezler](/tr/articles/islands-bays)** — Şnorkelle yüzülecek en temiz sular.

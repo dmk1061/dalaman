@@ -3,7 +3,7 @@ import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaHeart, FaUserFriends, FaUtensils, FaCompass, FaChevronRight, FaMountain, FaCalendarAlt } from 'react-icons/fa';
+import { FaHeart, FaUserFriends, FaUtensils, FaCompass, FaChevronRight, FaMountain, FaCalendarAlt, FaFish } from 'react-icons/fa';
 import { getDictionary, Locale } from '@/lib/dictionary';
 import { Metadata } from 'next';
 import { buildPageMetadata } from '@/lib/seo';
@@ -87,6 +87,22 @@ const getCollections = (locale: string, dict: any) => [
             : 'Where to drive for a perfect day from Dalaman, Fethiye or Marmaris: ancient Knidos, Kizlan windmills and hidden coves.',
         color: "bg-amber-500",
         href: `/${locale}/articles/34_turisticheskie_marshruty_i_odnodnevnye_poezdki`
+    },
+    {
+        title: locale === 'ru' ? 'Дайвинг, снорклинг и рыбалка' : locale === 'de' ? 'Tauchen & Angeln' : locale === 'tr' ? 'Dalış ve Balıkçılık' : 'Diving & Coastal Fishing',
+        count: locale === 'ru' ? '23 вида рыб · 16 спотов' : locale === 'de' ? '23 Arten · 16 Spots' : locale === 'tr' ? '23 Tür · 16 Nokta' : '23 Species · 16 Spots',
+        image: "/api/images/locations/kas/beach/limangzi/limangzi.jpg",
+        tag: locale === 'ru' ? 'Море' : locale === 'de' ? 'Meer' : locale === 'tr' ? 'Deniz' : 'Marine',
+        icon: <FaFish />,
+        description: locale === 'ru'
+            ? 'Интерактивная карта дайв-сайтов и точек рыбалки от Датчи до Каша, энциклопедия рыб с лимитами Tebliğ 6/2, прокат снастей и магазины.'
+            : locale === 'de'
+            ? 'Interaktive Karte für Tauchen & Angeln von Datça bis Kaş, 23-Arten-Lexikon mit Tebliğ 6/2 Schonmaßen, Verleih & Angelläden.'
+            : locale === 'tr'
+            ? 'Datça’dan Kaş’a dalış ve balık avı haritası, 23 tür ansiklopedisi, 6/2 Tebliğ boy limitleri, kiralama fiyatları ve av bayileri.'
+            : 'Interactive map of dive sites and angling spots from Datça to Kaş, 23-species marine encyclopedia with Tebliğ 6/2 limits, gear rentals, and tackle shops.',
+        color: "bg-cyan-600",
+        href: `/${locale}/diving-fishing`
     }
 ];
 

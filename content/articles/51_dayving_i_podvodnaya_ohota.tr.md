@@ -61,3 +61,8 @@ Tarım ve Orman Bakanlığı'nın yürürlükteki **6/2 Numaralı Tebliği** uya
 
 > [!TIP]
 > **Dürüst Kaptan Seçimi:** Limanda tekne kiralarken teknenin güncel **Sportif Balık Avcılığı Turizm Belgesi**ni sorun ve hedef türü netleştirin; orkinos penceresi dışındaki aylarda akya veya lambuka (*yakala-bırak*) odaklı çıkmak ya da keyifli bir **[Koy ve Yat Turu](/tr/services/excursions-tours)** seçmek en doğrusu olur.
+
+---
+
+### 🔗 İlgili Rehberler
+- **[İnteraktif Rehber: Dalış, Balıkçılık ve Balık Ansiklopedisi](/tr/diving-fishing)** — 16 nokta haritası, 23 tür balık rehberi (serbest/yasak), kiralama fiyatları ve yerel av bayileri.

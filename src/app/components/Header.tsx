@@ -127,7 +127,7 @@ const Header = async ({ locale = 'ru' }: HeaderProps) => {
       dropdown: [
         { name: dict.header.nav.yachting, href: '/articles/yachting' },
         { name: dict.header.nav.paragliding, href: '/articles/paragliding' },
-        { name: dict.header.nav.diving, href: '/articles/diving' },
+        { name: dict.header.nav.diving_fishing, href: '/diving-fishing' },
         { name: dict.header.nav.kitesurfing, href: '/articles/kitesurfing' },
         {
           name: locale === 'ru' ? 'Гастрономия и местная кухня' : locale === 'de' ? 'Gastronomie & Lokale Küche' : locale === 'tr' ? 'Gastronomi ve Yöresel Mutfak' : 'Gastronomy & Local Cuisine',

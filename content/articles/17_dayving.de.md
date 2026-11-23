@@ -49,6 +49,7 @@ Wer sich die lange Anfahrt nach Kaş sparen oder vor Ort seinen *PADI / CMAS Ope
 ---
 
 ### Siehe auch
+- **[Interaktiver Hub: Tauchen & Angeln](/de/diving-fishing)** — Spot-Karte von Datça bis Kaş, 23-Arten-Fischlexikon nach Tebliğ 6/2, Verleih & Angelläden.
 - **[Kaş Reiseführer](/de/articles/kas-guide)** — was der Ort nach den Tauchgängen am Abend bietet.
 - **[Yachting und Bootstouren](/de/articles/yachting)** — Marinas, private Charters und Kekova-Ausflüge.
 - **[Inseln, Buchten und Golfe](/de/articles/islands-bays)** — die besten Schnorchel-Buchten auf dem Wasserweg.

@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaPlane, FaBus, FaTaxi, FaCarSide, FaKey, FaCompass, FaSun, FaUtensils, FaLandmark, FaMapMarkedAlt } from 'react-icons/fa';
+import { FaPlane, FaBus, FaTaxi, FaCarSide, FaKey, FaCompass, FaSun, FaUtensils, FaLandmark, FaMapMarkedAlt, FaFish } from 'react-icons/fa';
 import { getDictionary, Locale } from '@/lib/dictionary';
 
 type LeftSidebarProps = {
@@ -95,6 +95,18 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
           : 'Best Bays & Beaches',
       href: '/beaches',
       icon: <FaSun className="text-amber-500" />,
+    },
+    {
+      title:
+        locale === 'ru'
+          ? 'Дайвинг и рыбалка'
+          : locale === 'de'
+          ? 'Tauchen & Angeln'
+          : locale === 'tr'
+          ? 'Dalış ve Balıkçılık'
+          : 'Diving & Fishing',
+      href: '/diving-fishing',
+      icon: <FaFish className="text-cyan-600" />,
     },
     {
       title:

@@ -69,6 +69,7 @@ Still spotting sketchy listings online advertising *"SCUBA spearfishing trips"*?
 ---
 
 ### 🔗 See Also
+- **[Interactive Hub: Diving, Fishing & Fish Encyclopedia](/en/diving-fishing)** — 16 coastal spots on the map, 23-species legal/prohibited fish guide, gear rentals & local tackle shops.
 - **[Diving & Snorkeling Around Dalaman](/en/articles/diving)** — 2026 dive tariffs (€40–80) and top reef breakdowns.
 - **[Deep-Sea Tuna Fishing Service Hub](/en/services/tuna-fishing)** — booking compliant licensed sport skippers.
 - **[Diving Charters & Courses](/en/services/diving)** — vetted *TSSF* schools in Kaş, Fethiye, and Marmaris.

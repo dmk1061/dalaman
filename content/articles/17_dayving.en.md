@@ -81,6 +81,7 @@ Short on time and staying closer to [Dalaman](/en/dalaman)? Both western bays of
 ---
 
 ### 🔗 See Also
+- **[Diving & Coastal Fishing Interactive Hub](/en/diving-fishing)** — coastal spot map, 23-species marine encyclopedia with Tebliğ 6/2 limits, gear rentals, and tackle shops.
 - **[Kaş Guide: Cafes, Beaches & Dive Culture](/en/articles/kas-guide)** — where divers unwind ashore after morning tanks.
 - **[Yachting & Boat Trips Along the Coast](/en/articles/yachting)** — Kekova cruises and private boat charters.
 - **[Islands, Bays & Hidden Coves](/en/articles/islands-bays)** — best boat-access swim stops between Göcek and Kaş.

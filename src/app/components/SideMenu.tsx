@@ -14,6 +14,7 @@ import {
   FaPlaneArrival,
   FaMapMarkedAlt,
   FaChevronRight,
+  FaFish,
 } from 'react-icons/fa';
 import LivePortalInformers from './LivePortalInformers';
 
@@ -215,6 +216,20 @@ const SideMenu = ({ isOpen: controlledOpen, onClose, locale: propLocale }: SideM
                 icon={<FaRoute className="text-emerald-600" />}
                 title={locale === 'ru' ? 'МАРШРУТЫ И АТЛАС ТРОП' : 'ROUTES & TRAILS'}
                 href={localize('/routes')}
+                onClose={handleClose}
+              />
+              <MenuItem
+                icon={<FaFish className="text-cyan-600" />}
+                title={
+                  locale === 'ru'
+                    ? 'ДАЙВИНГ И РЫБАЛКА'
+                    : locale === 'de'
+                    ? 'TAUCHEN & ANGELN'
+                    : locale === 'tr'
+                    ? 'DALIŞ VE BALIKÇILIK'
+                    : 'DIVING & FISHING'
+                }
+                href={localize('/diving-fishing')}
                 onClose={handleClose}
               />
               <MenuItem icon={<FaBookOpen className="text-indigo-500" />} title={sm.articles} href={localize('/articles')} onClose={handleClose} />

@@ -35,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/collections',
     '/contacts',
     '/dalaman-guide',
+    '/diving-fishing',
     '/map',
     '/pharmacies',
     '/privacy',
