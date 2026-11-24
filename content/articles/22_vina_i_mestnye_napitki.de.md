@@ -52,6 +52,7 @@ Den Massenmarkt teilen **Efes** (besonders empfehlenswert sind unfiltriertes *Ef
 ---
 
 ### Siehe auch
+- **[Interaktiver Gastronomie- & Restaurant-Guide](/de/gastronomy)** — 24 regionale Gerichte mit EUR-Preisen, Saisonkalender & 16 kulinarischen Orten auf der Karte.
 - **[Restaurants, Cafés und Bars der Küste](/de/articles/restaurants-cafes-and-bars-guide)** — wo abends die besten Wein- und Cocktailkarten warten.
 - **[Nachtleben von Marmaris bis Kaş](/de/articles/nightlife-clubs-and-bars)** — von Rooftop-Jazz bis Bar Street.
 - **[Speisekarten-Guide der Region](/de/articles/local-cuisine-traditional-turkish-dishes)** — die passenden Gerichte zu Wein, Rakı und Ayran.

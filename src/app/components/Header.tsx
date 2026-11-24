@@ -131,7 +131,7 @@ const Header = async ({ locale = 'ru' }: HeaderProps) => {
         { name: dict.header.nav.kitesurfing, href: '/kitesurfing' },
         {
           name: locale === 'ru' ? 'Гастрономия и местная кухня' : locale === 'de' ? 'Gastronomie & Lokale Küche' : locale === 'tr' ? 'Gastronomi ve Yöresel Mutfak' : 'Gastronomy & Local Cuisine',
-          href: '/articles/gastronomy',
+          href: '/gastronomy',
         },
         {
           name: locale === 'ru' ? 'Термы, хаммамы и СПА' : locale === 'de' ? 'Thermalquellen, Hamam & Spa' : locale === 'tr' ? 'Kaplıcalar, Hamam ve Spa' : 'Hot Springs, Hammams & Spa',

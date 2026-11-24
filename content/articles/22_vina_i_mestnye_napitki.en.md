@@ -55,6 +55,7 @@ Want real hop flavor? Hunt down **Gara Guzu** ("Black Lamb"), an acclaimed indep
 ---
 
 ### 🔗 See Also
+- **[Interactive Gastronomy & Restaurant Guide](/en/gastronomy)** — 24 regional dishes with EUR prices, 12-month seasonality & 16 dining spots on the map.
 - **[Restaurants, Cafes & Bars Around Dalaman](/en/articles/restaurants-cafes-and-bars-guide)** — best neighborhoods for *meyhane* nights and rooftops.
 - **[Nightlife From Marmaris to Kaş](/en/articles/nightlife-clubs-and-bars)** — live jazz alleys vs. Bar Street mega-clubs.
 - **[Turkish Food Decoder](/en/articles/local-cuisine-traditional-turkish-dishes)** — matching dishes to *rakı*, *ayran*, and local reds.

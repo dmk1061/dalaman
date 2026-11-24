@@ -159,13 +159,13 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
     {
       title:
         locale === 'ru'
-          ? 'Гастрономия и базары'
+          ? 'Гастрономия и кухня'
           : locale === 'de'
-          ? 'Gastronomie & Wochenmärkte'
+          ? 'Gastronomie & Küche'
           : locale === 'tr'
-          ? 'Gastronomi ve Pazarlar'
-          : 'Gastronomy & Local Markets',
-      href: '/articles/gastronomy',
+          ? 'Gastronomi ve Mutfak'
+          : 'Gastronomy & Cuisine',
+      href: '/gastronomy',
       icon: <FaUtensils className="text-rose-500" />,
     },
     {

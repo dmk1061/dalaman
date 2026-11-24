@@ -19,6 +19,7 @@ import {
   FaWind,
   FaHotTub,
   FaShoppingBag,
+  FaUtensils,
 } from 'react-icons/fa';
 import LivePortalInformers from './LivePortalInformers';
 
@@ -290,6 +291,20 @@ const SideMenu = ({ isOpen: controlledOpen, onClose, locale: propLocale }: SideM
                     : 'MARKETS & CRAFTS'
                 }
                 href={localize('/markets-crafts')}
+                onClose={handleClose}
+              />
+              <MenuItem
+                icon={<FaUtensils className="text-rose-500" />}
+                title={
+                  locale === 'ru'
+                    ? 'ГАСТРОНОМИЯ И КУХНЯ'
+                    : locale === 'de'
+                    ? 'GASTRONOMIE & KÜCHE'
+                    : locale === 'tr'
+                    ? 'GASTRONOMİ VE MUTFAK'
+                    : 'GASTRONOMY & CUISINE'
+                }
+                href={localize('/gastronomy')}
                 onClose={handleClose}
               />
               <MenuItem icon={<FaBookOpen className="text-indigo-500" />} title={sm.articles} href={localize('/articles')} onClose={handleClose} />

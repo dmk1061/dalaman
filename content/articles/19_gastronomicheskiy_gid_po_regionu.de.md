@@ -38,6 +38,7 @@ Ein Abend in einer Ufer-Taverne (*Meyhane*) startet selten mit dem Hauptgang, so
 ---
 
 ### Siehe auch
+- **[Interaktiver Gastronomie- & Restaurant-Guide](/de/gastronomy)** — 24 regionale Gerichte mit EUR-Preisen, Saisonkalender & 16 kulinarischen Orten auf der Karte.
 - **[Speisekarten-Guide: Von Çökertme bis Künefe](/de/articles/local-cuisine-traditional-turkish-dishes)** — die besten türkischen Gerichte verständlich erklärt.
 - **[Restaurants, Cafés und Bars der Region](/de/articles/restaurants-cafes-and-bars-guide)** — welche Viertel und Lokaltypen sich lohnen.
 - **[Kulturglossar für Entdecker](/de/articles/turkish-cultural-glossary)** — Begriffe aus Küche, Alltag und Basar.

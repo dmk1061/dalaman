@@ -1703,7 +1703,7 @@ export default function MarketsCraftsHub({ locale }: { locale: LocaleCode }) {
             <FaMoneyBillWave size={11} /> {t.btnCurrency}
           </Link>
           <Link
-            href={`/${activeLocale}/articles/gastronomy`}
+            href={`/${activeLocale}/gastronomy`}
             className="px-4 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold text-center transition-colors inline-flex items-center justify-center gap-1.5"
           >
             <FaUtensils size={11} /> {t.btnGastronomy}

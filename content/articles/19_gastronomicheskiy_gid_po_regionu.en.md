@@ -39,6 +39,7 @@ Walk into a seaside tavern (*meyhane*) along this stretch, and dinner rarely beg
 ---
 
 ### 🔗 See Also
+- **[Interactive Gastronomy & Restaurant Guide](/en/gastronomy)** — 24 regional dishes with EUR prices, 12-month seasonality & 16 dining spots on the map.
 - **[Local Turkish Dishes & Menu Decoder](/en/articles/local-cuisine-traditional-turkish-dishes)** — making sense of *Çökertme*, *Lahmacun*, *Pide*, and *Künefe*.
 - **[Restaurants, Cafes & Bars Guide](/en/articles/restaurants-cafes-and-bars-guide)** — choosing between *lokantas*, *ocakbaşı* grills, and bakeries.
 - **[Weekly Farmer Markets (*Pazar*) & Shopping](/en/articles/markets-shopping)** — village produce schedules across the coast.

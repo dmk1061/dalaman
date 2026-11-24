@@ -58,7 +58,7 @@ const blogsTranslations: Record<string, BlogsTranslation> = {
                 date: '18.05.2026',
                 author: 'Александр Петров',
                 tag: 'Еда',
-                href: '/articles/gastronomy',
+                href: '/gastronomy',
             },
             {
                 title: 'Ликийская тропа: подробный чек-лист вещей для похода',
@@ -107,7 +107,7 @@ const blogsTranslations: Record<string, BlogsTranslation> = {
                 date: '18.05.2026',
                 author: 'Alexander Petrov',
                 tag: 'Food',
-                href: '/articles/gastronomy',
+                href: '/gastronomy',
             },
             {
                 title: 'The Lycian Way: Complete Packing & Navigation Checklist',
@@ -156,7 +156,7 @@ const blogsTranslations: Record<string, BlogsTranslation> = {
                 date: '18.05.2026',
                 author: 'Alexander Petrov',
                 tag: 'Essen',
-                href: '/articles/gastronomy',
+                href: '/gastronomy',
             },
             {
                 title: 'Der Lykische Weg: Packliste & Tipps für die Wanderung',
@@ -205,7 +205,7 @@ const blogsTranslations: Record<string, BlogsTranslation> = {
                 date: '18.05.2026',
                 author: 'Alexander Petrov',
                 tag: 'Gastronomi',
-                href: '/articles/gastronomy',
+                href: '/gastronomy',
             },
             {
                 title: 'Likya Yolu Yürüyüşü: Kapsamlı Çanta Hazırlığı ve Rota Kontrol Listesi',

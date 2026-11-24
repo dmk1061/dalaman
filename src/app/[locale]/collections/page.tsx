@@ -167,6 +167,22 @@ const getCollections = (locale: string, dict: any) => [
             : 'Mon–Sun coastal Pazar schedule, 15-spot 3D map, genuine Yeşilüzümlü dastar, peştemal & Yörük kilim tests, haggle hours & Law No. 2863 customs check.',
         color: "bg-amber-600",
         href: `/${locale}/markets-crafts`
+    },
+    {
+        title: locale === 'ru' ? 'Гастрономия и кухня Эгеиды' : locale === 'de' ? 'Gastronomie & Ägäis-Küche' : locale === 'tr' ? 'Gastronomi ve Yöresel Mutfak' : 'Gastronomy & Local Cuisine',
+        count: locale === 'ru' ? '24 блюда · 16 локаций' : locale === 'de' ? '24 Gerichte · 16 Orte' : locale === 'tr' ? '24 Lezzet · 16 Durak' : '24 Dishes · 16 Dining Spots',
+        image: "/images/gastronomy/hero-gastronomy.jpg",
+        tag: locale === 'ru' ? 'Кухня и места' : locale === 'de' ? 'Küche & Genuss' : locale === 'tr' ? 'Lezzet Rehberi' : 'Cuisine & Spots',
+        icon: <FaUtensils />,
+        description: locale === 'ru'
+            ? 'Энциклопедия 24 блюд Муглы и Ликийского берега с ценами в евро, диетическими фильтрами, сезонностью по месяцам, картой 16 мест, где их пробовать, и фразами для заказа.'
+            : locale === 'de'
+            ? 'Enzyklopädie mit 24 Gerichten der Region Muğla in EUR, Diätfiltern, 12-Monats-Saison, Karte mit 16 kulinarischen Vierteln, Küsten-Ritualen und 10 Kellner-Sätzen.'
+            : locale === 'tr'
+            ? 'Muğla ve Likya kıyısından 24 yöresel lezzet, EUR bütçe aralıkları, mevsim takvimi, 16 duraklı interaktif harita, meyhane kültürü ve 2026 hesap kuralları.'
+            : 'Encyclopedia of 24 Muğla & Lycian coast dishes with EUR prices, dietary filters, 12-month seasonality, interactive map of 16 dining quarters & 2026 bill rules.',
+        color: "bg-rose-600",
+        href: `/${locale}/gastronomy`
     }
 ];
 

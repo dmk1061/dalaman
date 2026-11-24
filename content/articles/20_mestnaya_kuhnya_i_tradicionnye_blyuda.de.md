@@ -57,6 +57,7 @@ In jeder Lokanta stehen diese Klassiker dampfend in den Thekenwannen:
 ---
 
 ### Siehe auch
+- **[Interaktiver Gastronomie- & Restaurant-Guide](/de/gastronomy)** — 24 regionale Gerichte mit EUR-Preisen, Saisonkalender & 16 kulinarischen Orten auf der Karte.
 - **[Kulinarik-Guide: Fischmarkt & Küstenrituale](/de/articles/gastronomy)** — wie Sie in Fethiye frischen Fisch grillen lassen.
 - **[Kulturglossar für Reisende](/de/articles/turkish-cultural-glossary)** — Hintergründe zu regionalen Spezialitäten.
 - **[Getränke der Türkei: Weine, Rakı & Gara Guzu](/de/articles/alkogol-v-turtsii-chto-pit-i-gde-pokupat)** — was Sie abends bestellen und wo Alkohol verkauft wird.

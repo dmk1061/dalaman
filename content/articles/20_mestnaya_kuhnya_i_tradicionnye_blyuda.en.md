@@ -61,6 +61,7 @@ Step up to the heated glass trays in any local *lokanta* and point confidently a
 ---
 
 ### 🔗 See Also
+- **[Interactive Gastronomy & Restaurant Guide](/en/gastronomy)** — 24 regional dishes with EUR prices, 12-month seasonality & 16 dining spots on the map.
 - **[Gastronomy Guide: Markets, Seafood & Budgets](/en/articles/gastronomy)** — Fethiye Fish Market, Dalyan crab, and tipping rules.
 - **[Turkish Food & Dining Glossary](/en/articles/turkish-cultural-glossary)** — key menu words from *Meze* to *Hesap lütfen*.
 - **[Restaurants, Cafes & Bars Guide](/en/articles/restaurants-cafes-and-bars-guide)** — spotting authentic neighborhood kitchens.

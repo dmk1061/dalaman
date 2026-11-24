@@ -45,6 +45,7 @@ Akşam meyhane masalarının klasiği **rakı**da (*Yeni Rakı*, meşe fıçıda
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif Gastronomi ve Mekan Rehberi](/tr/gastronomy)** — 24 yöresel lezzet, EUR bütçeleri, mevsim takvimi ve haritada 16 lezzet durağı.
 - **[Restoran, Kafe ve Meyhane Mahalleleri](/tr/articles/restaurants-cafes-and-bars-guide)** — Bölgenin en keyifli akşam terasları.
 - **[Gece Hayatı: Barlar ve Canlı Müzik](/tr/articles/nightlife-clubs-and-bars)** — Marmaris Barlar Sokağı ve Kaş caz geceleri.
 - **[Muğla Yöresel Mutfağı](/tr/articles/local-cuisine-traditional-turkish-dishes)** — İçeceklerle uyumlu kıyı yemekleri.

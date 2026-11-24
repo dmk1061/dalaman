@@ -41,6 +41,7 @@ description: "Datça'dan Kaş'a yeme-içme haritası: Fethiye Paspatur ve Balık
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif Gastronomi ve Mekan Rehberi](/tr/gastronomy)** — 24 yöresel lezzet, EUR bütçeleri, mevsim takvimi ve haritada 16 lezzet durağı.
 - **[Bölge Gastronomi Rehberi](/tr/articles/gastronomy)** — Balık Pazarı sistemi ve yerel lezzetler.
 - **[Muğla ve Likya Yöresel Mutfağı](/tr/articles/local-cuisine-traditional-turkish-dishes)** — Menülerdeki imza Ege yemekleri.
 - **[İçecekler, Yerel Şaraplar ve Gara Guzu](/tr/articles/alkogol-v-turtsii-chto-pit-i-gde-pokupat)** — Akşam sofrası eşleşmeleri.

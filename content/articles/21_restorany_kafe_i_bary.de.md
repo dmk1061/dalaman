@@ -41,6 +41,7 @@ Wer die sechs wichtigsten türkischen Lokal-Schilder unterscheiden kann und die 
 ---
 
 ### Siehe auch
+- **[Interaktiver Gastronomie- & Restaurant-Guide](/de/gastronomy)** — 24 regionale Gerichte mit EUR-Preisen, Saisonkalender & 16 kulinarischen Orten auf der Karte.
 - **[Kulinarischer Küsten-Guide](/de/articles/gastronomy)** — alle Details zum Fischmarkt-System und den regionalen Produkten.
 - **[Speisekarten-Dolmetscher](/de/articles/local-cuisine-traditional-turkish-dishes)** — was hinter Pide, Çökertme und İmam Bayıldı steckt.
 - **[Weine, Rakı und Gara Guzu Bier](/de/articles/alkogol-v-turtsii-chto-pit-i-gde-pokupat)** — Getränkeführer samt Verkaufszeiten abends.

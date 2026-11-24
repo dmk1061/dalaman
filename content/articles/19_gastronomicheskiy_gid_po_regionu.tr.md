@@ -39,6 +39,7 @@ Akşam kıyı lokantasına veya meyhaneye oturduğunuzda geceyi ana yemek değil
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif Gastronomi ve Mekan Rehberi](/tr/gastronomy)** — 24 yöresel lezzet, EUR bütçeleri, mevsim takvimi ve haritada 16 lezzet durağı.
 - **[Yöresel Lezzetler ve Kıyı Sofrası](/tr/articles/local-cuisine-traditional-turkish-dishes)** — Çökertme'den kabak çiçeği dolmasına mutlaka tadılacaklar.
 - **[Restoran, Kafe ve Bar Mahalleleri](/tr/articles/restaurants-cafes-and-bars-guide)** — Belde belde en doğru yeme-içme sokakları.
 - **[Ege Şarapları, Rakı ve Muğla Craft Birası](/tr/articles/alkogol-v-turtsii-chto-pit-i-gde-pokupat)** — 22:00 satış kuralı, Gara Guzu ve yerel bağlar.

@@ -42,6 +42,7 @@ Once you learn those six shopfront signs—and know which blocks behind the prom
 ---
 
 ### 🔗 See Also
+- **[Interactive Gastronomy & Restaurant Guide](/en/gastronomy)** — 24 regional dishes with EUR prices, 12-month seasonality & 16 dining spots on the map.
 - **[Coastal Gastronomy Guide: Seafood, Wild Greens & Markets](/en/articles/gastronomy)** — what regional specialties to seek out first.
 - **[Turkish Food Decoder: From Çökertme to Künefe](/en/articles/local-cuisine-traditional-turkish-dishes)** — instant translation for every line on the menu.
 - **[Drinks in Turkey: Wines, Rakı & Muğla Craft Beer](/en/articles/alkogol-v-turtsii-chto-pit-i-gde-pokupat)** — retail curfew hours and what belongs in your glass.

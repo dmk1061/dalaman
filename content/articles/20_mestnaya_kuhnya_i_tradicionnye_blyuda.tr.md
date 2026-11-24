@@ -40,6 +40,7 @@ Tatil beldelerinin ana kordonu genellikle turistik standartlara göre şekilleni
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif Gastronomi ve Mekan Rehberi](/tr/gastronomy)** — 24 yöresel lezzet, EUR bütçeleri, mevsim takvimi ve haritada 16 lezzet durağı.
 - **[Bölge Gastronomi Rehberi](/tr/articles/gastronomy)** — Fethiye Balık Pazarı sistemi ve Dalyan mavi yengeci.
 - **[Restoran, Kafe ve Bar Rehberi](/tr/articles/restaurants-cafes-and-bars-guide)** — Beldelerdeki en iyi yeme-içme mahalleleri.
 - **[İçecek Rehberi: Yerel Şaraplar ve Gara Guzu](/tr/articles/alkogol-v-turtsii-chto-pit-i-gde-pokupat)** — Akşam sofrasına eşlik edecek bölge şarapları ve biraları.
