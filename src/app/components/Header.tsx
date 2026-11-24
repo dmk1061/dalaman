@@ -126,20 +126,20 @@ const Header = async ({ locale = 'ru' }: HeaderProps) => {
       href: localize('/collections'),
       dropdown: [
         { name: dict.header.nav.yachting, href: '/articles/yachting' },
-        { name: dict.header.nav.paragliding, href: '/articles/paragliding' },
+        { name: dict.header.nav.paragliding, href: '/paragliding' },
         { name: dict.header.nav.diving_fishing, href: '/diving-fishing' },
-        { name: dict.header.nav.kitesurfing, href: '/articles/kitesurfing' },
+        { name: dict.header.nav.kitesurfing, href: '/kitesurfing' },
         {
           name: locale === 'ru' ? 'Гастрономия и местная кухня' : locale === 'de' ? 'Gastronomie & Lokale Küche' : locale === 'tr' ? 'Gastronomi ve Yöresel Mutfak' : 'Gastronomy & Local Cuisine',
           href: '/articles/gastronomy',
         },
         {
-          name: locale === 'ru' ? 'Хаммамы, СПА и термальные источники' : locale === 'de' ? 'Hamam, Spa & Thermalquellen' : locale === 'tr' ? 'Hamam, Spa ve Kaplıcalar' : 'Hammams, Spas & Thermal Springs',
-          href: '/articles/turkish-bath-hammam-and-spa',
+          name: locale === 'ru' ? 'Термы, хаммамы и СПА' : locale === 'de' ? 'Thermalquellen, Hamam & Spa' : locale === 'tr' ? 'Kaplıcalar, Hamam ve Spa' : 'Hot Springs, Hammams & Spa',
+          href: '/thermal-spa',
         },
         {
           name: locale === 'ru' ? 'Рынки, базары и ремёсла' : locale === 'de' ? 'Wochenmärkte, Basare & Handwerk' : locale === 'tr' ? 'Pazarlar, Alışveriş ve El Sanatları' : 'Weekly Markets, Bazaars & Crafts',
-          href: '/articles/markets-shopping',
+          href: '/markets-crafts',
         },
         {
           name: locale === 'ru' ? 'Семейный отдых с детьми' : locale === 'de' ? 'Familienurlaub mit Kindern' : locale === 'tr' ? 'Çocuklarla Aile Tatili' : 'Family Vacation with Kids',

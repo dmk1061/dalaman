@@ -82,6 +82,7 @@ Most flyers save hammams for arrival week in July, yet year-round residents swea
 ---
 
 ### 🔗 See Also
+- **[Interactive 3D Hub: Hot Springs, Mud Baths & Hammams](/en/thermal-spa)** — 3D map prioritizing 42 °C Sultaniye & free Kapıkargın springs, crowd-wave timer, 5 hammam stages & health checker.
 - **[Medical Tourism & Natural Wellness](/en/articles/medical-tourism-and-wellness)** — clinical check-ups, dentistry, and geothermal cures.
 - **[Lake Köyceğiz & Sultaniye Hot Springs](/en/articles/koycegiz-lake)** — combining thermal muds with Dalyan boats.
 - **[Climate & Off-Season Winter Stays](/en/articles/climate-and-seasons)** — cozy winter activities when rain passes through.

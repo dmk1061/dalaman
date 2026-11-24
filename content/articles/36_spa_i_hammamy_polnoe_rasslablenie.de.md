@@ -76,3 +76,9 @@ Die Spanne hängt stark vom Haus ab: Für denselben warmen Marmor zahlen Sie im 
 ## Beste Jahreszeit — und wann man verzichten muss
 
 Viele Urlauber buchen Hamam im Hochsommer, doch Einheimische schätzen ihn vor allem zwischen **November und April** ([Klima & Jahreszeiten](/de/articles/climate-and-seasons)), wenn nach kühlen Winterregentagen heißer Stein und Kräutertee doppelt guttun. Bei Herz-Kreislauf-Erkrankungen, starkem Bluthochdruck, Krampfadern oder Schwangerschaft sollten Sie Hitze und Dampf dagegen auslassen (weitere Gesundheitshinweise in den **[Sicherheitstipps](/de/articles/useful-tips)**).
+
+---
+
+### 🔗 Siehe auch
+- **[Interaktiver 3D-Hub: Thermalquellen, Schlammbäder & Hamams](/de/thermal-spa)** — 3D-Karte von Sultaniye (+42 °C), Kapıkargın & Datça, Bootswellen-Timer, 5 Hamam-Schritte & Gesundheitscheck.
+- **[Köyceğiz-See & Thermalquellen Sultaniye](/de/articles/koycegiz-lake)** — Mietwagen-Route am Westufer abseits der Ausflugsboote.

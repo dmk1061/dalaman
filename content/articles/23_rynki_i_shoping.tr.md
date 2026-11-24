@@ -85,6 +85,7 @@ Havalimanı dükkânlarındaki boyalı kutular yerine doğrudan yörenin kendi �
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif 3D Rehber: Halk Pazarları, Çarşılar ve El Sanatları](/tr/markets-crafts)** — Pzt–Paz pazar takvimi, 3D harita, pazarlık ve gümrük kontrolü.
 - **[Geleneksel El Sanatları ve Dastar Mirası](/tr/articles/suveniry-i-remesla)** — Yörük dokumaları ve ahşap gulet modelleri.
 - **[Nakit, Kart ve Ödeme Alışkanlıkları](/tr/articles/currency-exchange-and-payments)** — TAM ATM ağı ve pazarlarda nakit ihtiyacı.
 - **[Muğla ve Ege Yöresel Sözlüğü](/tr/articles/turkish-phrasebook-useful-words)** — Köy pazarlarında karşınıza çıkacak yöresel kelimeler.

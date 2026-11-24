@@ -41,3 +41,7 @@ Auf einer Küste voller **[antiker Stätten](/de/articles/ancient-cities)** grei
 * **Keine „alten“ Steine, Scherben oder Münzen:** Wer beim Schnorcheln vor Kekova einen verkrusteten Amphorenhenkel mitnimmt, am Weg bei Knidos ein bearbeitetes Marmorstück einsteckt oder unterwegs „alte römische Münzen“ erwirbt, riskiert bei der Gepäckdurchleuchtung am **[Flughafen Dalaman](/de/articles/airport-dalaman)** Anklage wegen Antiken-Schmuggels — mit Festnahme, Flugverlust und hohen Geldstrafen!
 * **Bei teuren Neuwaren immer Quittung aufheben:** Kaufen Sie einen größeren handgeknüpften Teppich oder antikisierende moderne Keramik, lassen Sie sich zwingend einen regulären Kassenbeleg (**Fatura**) sowie eine Herkunftsbescheinigung für die Ausreisekontrolle aushändigen.
 * **Muscheln, Korallen & Sand:** Ebenfalls verboten ist die Ausfuhr größerer Meeresschnecken sowie von Sand geschützter Strände wie der Insel Sedir.
+
+### Siehe auch
+- **[Interaktiver 3D-Hub: Wochenmärkte, Basare & Handwerk](/de/markets-crafts)** — 3D-Karte der Handwerksdörfer, Echtheitsproben und Zoll-Checker ab DLM.
+- **[Wochenmärkte & Shopping-Kalender](/de/articles/markets-shopping)** — alle Markttage von Datça bis Kaş im Detail.

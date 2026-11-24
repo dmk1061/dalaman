@@ -34,14 +34,15 @@ Für den Flug mit einem lizenzierten T2-Tandempiloten braucht es keinerlei Vorke
 ## Weitere Aktiv-Highlights zwischen Datça und Kaş
 
 1. **Rafting am [Dalaman Çayı](/de/dalaman):** Rund 12 km echte Stromschnellen der Wildwasserstufen III bis IV fernab gemächlicher Touristenbäche. Tagestouren inkl. Transfer, Neoprenanzug, Helm und Mittagessen kosten **55–75 €**.
-2. **[Kitesurfen und Wingfoilen](/de/articles/kitesurfing):** Die flache Lagune von **Akyaka** im Golf von Gökova bietet von Mai bis Oktober tägliche Thermik; erste Versuche bei leichter Brise erlaubt zudem **Sarıgerme**.
+2. **[Kitesurfen und Wingfoilen](/de/kitesurfing):** Die flache Lagune von **Akyaka** im Golf von Gökova bietet von Mai bis Oktober tägliche Thermik; erste Versuche bei leichter Brise erlaubt zudem **Sarıgerme**.
 3. **Seekajak vor Kekova:** Frühmorgens ab Üçağız oder Kaş paddeln Sie lautlos dicht entlang der versunkenen antiken Mauern.
 4. **[Tauchen](/de/articles/diving) und Canyoning:** Vor Kaş warten versenkte Wracks wie die Dakota C-47 und Unterwasser-Canyons, während im Gebirge hinter Saklıkent geführte Abseiltouren stattfinden.
 
 ---
 
 ### Siehe auch
+- **[Interaktiver Hub: Paragliding (Babadağ 3D-Karte, Höhen & Preise 2026)](/de/paragliding)** — 3D-Gelände, Startplätze 1200–1969 m, Babadağ Teleferik, Flugzeiten & Eignungscheck.
 - **[Babadağ: Seilbahn, Gipfelrestaurants und Startplätze](/de/articles/babadag)** — der Berg auch für Nicht-Flieger.
 - **[Ölüdeniz: Strand Belcekız und Blaue Lagune](/de/articles/oludeniz)** — der Ort direkt unter den Gleitschirmen.
-- **[Kitesurfen in Akyaka und Sarıgerme](/de/articles/kitesurfing)** — Spots, Schulen und Verleihpreise.
+- **[Kite & Windsurfen 3D-Hub](/de/kitesurfing)** — 3D-Spots, Thermik-Profil, Größenrechner und Kurspreise.
 - **[Trekking: Lykischer und Karischer Weg](/de/articles/trekking)** — aktive Touren zu Fuß im Küstengebirge.

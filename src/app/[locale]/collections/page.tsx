@@ -3,7 +3,7 @@ import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaHeart, FaUserFriends, FaUtensils, FaCompass, FaChevronRight, FaMountain, FaCalendarAlt, FaFish } from 'react-icons/fa';
+import { FaHeart, FaUserFriends, FaUtensils, FaCompass, FaChevronRight, FaMountain, FaCalendarAlt, FaFish, FaPaperPlane, FaWind, FaHotTub, FaShoppingBag } from 'react-icons/fa';
 import { getDictionary, Locale } from '@/lib/dictionary';
 import { Metadata } from 'next';
 import { buildPageMetadata } from '@/lib/seo';
@@ -103,6 +103,70 @@ const getCollections = (locale: string, dict: any) => [
             : 'Interactive map of dive sites and angling spots from Datça to Kaş, 23-species marine encyclopedia with Tebliğ 6/2 limits, gear rentals, and tackle shops.',
         color: "bg-cyan-600",
         href: `/${locale}/diving-fishing`
+    },
+    {
+        title: locale === 'ru' ? 'Параглайдинг с горы Бабадаг' : locale === 'de' ? 'Paragliding vom Babadağ' : locale === 'tr' ? 'Babadağ Yamaç Paraşütü' : 'Paragliding (Mount Babadağ)',
+        count: locale === 'ru' ? '1200–1969 м · 3D-карта' : locale === 'de' ? '1200–1969 m · 3D-Karte' : locale === 'tr' ? '1200–1969 m · 3D Harita' : '1,200–1,969 m · 3D Map',
+        image: "/api/images/locations/fethiye/todo/babadag/babadag.jpg",
+        tag: locale === 'ru' ? 'Небо 3D' : locale === 'de' ? 'Flug 3D' : locale === 'tr' ? 'Uçuş 3D' : 'Flight 3D',
+        icon: <FaPaperPlane />,
+        description: locale === 'ru'
+            ? '3D-карта рельефа Бабадага, Сакар-Тепе и Каша, схема стартов 1200–1969 м, Babadağ Teleferik, 5 слотов дня, цены с 360° видео и допуск SHGM.'
+            : locale === 'de'
+            ? '3D-Geländekarte von Babadağ, Sakartepe & Kaş, Startrampen 1200–1969 m, Babadağ Teleferik, 5 Flugzeiten, Preise & SHGM-Regeln.'
+            : locale === 'tr'
+            ? 'Babadağ, Sakartepe ve Kaş 3D arazi haritası, 1200–1969 m pist şeması, Teleferik ücretleri, 5 uçuş saati, uygunluk testi ve SHGM kuralları.'
+            : 'Live 3D relief map of Babadağ, Sakartepe & Kaş, 1,200–1,969 m launch profile, Teleferik guide, 5 daily slots, readiness checker & SHGM rules.',
+        color: "bg-sky-600",
+        href: `/${locale}/paragliding`
+    },
+    {
+        title: locale === 'ru' ? 'Кайт и виндсёрфинг (Акьяка, Датча)' : locale === 'de' ? 'Kite & Windsurfen (Akyaka, Datça)' : locale === 'tr' ? 'Kite & Rüzgar Sörfü (Akyaka, Datça)' : 'Kite & Windsurfing (Akyaka, Datça)',
+        count: locale === 'ru' ? '4 спота · Термик 3D' : locale === 'de' ? '4 Spots · Thermik 3D' : locale === 'tr' ? '4 Nokta · Termik 3D' : '4 Spots · Thermal 3D',
+        image: "/api/images/locations/marmaris/beach/Akyaka/Akyaka.jpg",
+        tag: locale === 'ru' ? 'Ветер 3D' : locale === 'de' ? 'Wind 3D' : locale === 'tr' ? 'Rüzgar 3D' : 'Wind 3D',
+        icon: <FaWind />,
+        description: locale === 'ru'
+            ? '3D-карта заливов Акьяки, Датчи, Сарыгерме и Чалыша, профиль термика 09:00–19:00, калькулятор кайта/паруса, IKO 1–3, цены школ и красные зоны.'
+            : locale === 'de'
+            ? '3D-Karte von Akyaka, Datça, Sarıgerme & Çalış, Thermik-Verlauf 09:00–19:00, Größenrechner, IKO 1–3, Preise 2026 & Kite-Verbotszonen.'
+            : locale === 'tr'
+            ? 'Akyaka, Datça, Sarıgerme ve Çalış 3D haritası, 09:00–19:00 termik eğrisi, ekipman boy hesaplayıcı, IKO 1–3 ve yasaklı bölgeler.'
+            : 'Live 3D bay map of Akyaka, Datça, Sarıgerme & Çalış, hourly thermal curve, gear sizing calculator, IKO 1–3 roadmap & no-kite red zones.',
+        color: "bg-teal-600",
+        href: `/${locale}/kitesurfing`
+    },
+    {
+        title: locale === 'ru' ? 'Горячие источники, грязи и хаммамы' : locale === 'de' ? 'Thermalquellen, Schlammbäder & Hamams' : locale === 'tr' ? 'Kaplıcalar, Çamur Banyoları & Hamam' : 'Hot Springs, Mud Baths & Hammams',
+        count: locale === 'ru' ? '6 терм + Хаммамы 3D' : locale === 'de' ? '6 Thermen + Hamams 3D' : locale === 'tr' ? '6 Kaplıca + Hamam 3D' : '6 Springs + Hammams 3D',
+        image: "/api/images/locations/koycegiz/todo/Sultanye/sultanye2.jpg",
+        tag: locale === 'ru' ? 'Термы 40 °C' : locale === 'de' ? 'Thermen 40 °C' : locale === 'tr' ? 'Termal 40 °C' : 'Thermal 40 °C',
+        icon: <FaHotTub />,
+        description: locale === 'ru'
+            ? '3D-карта терм Султание (+42 °C), бесплатных серных источников Даламана и Датчи, 5 этапов османского хаммама, цены 2026 и чекер противопоказаний.'
+            : locale === 'de'
+            ? '3D-Karte von Sultaniye (+42 °C), Gratis-Quellen in Dalaman/Datça, 5 Hamam-Schritte, Preise 2026 und Gesundheitscheck.'
+            : locale === 'tr'
+            ? 'Sultaniye (+42 °C), Dalaman/Datça ücretsiz kaynakları, 5 hamam aşaması, 2026 ücretleri ve sağlık uygunluk testli 3D rehber.'
+            : 'Live 3D map of Sultaniye 42 °C springs, free Dalaman/Datça mineral pools, 5 hammam stages, 2026 pricing & medical readiness checker.',
+        color: "bg-orange-600",
+        href: `/${locale}/thermal-spa`
+    },
+    {
+        title: locale === 'ru' ? 'Рынки, базары и ремёсла (Пн–Вс)' : locale === 'de' ? 'Wochenmärkte, Basare & Handwerk' : locale === 'tr' ? 'Halk Pazarları, Çarşılar ve El Sanatları' : 'Weekly Markets, Bazaars & Crafts',
+        count: locale === 'ru' ? '15 точек · Пн–Вс 3D' : locale === 'de' ? '15 Orte · Mo–So 3D' : locale === 'tr' ? '15 Nokta · Pzt–Paz 3D' : '15 Spots · Mon–Sun 3D',
+        image: "/images/markets-crafts/hero-spices.jpg",
+        tag: locale === 'ru' ? 'Базары 3D' : locale === 'de' ? 'Märkte 3D' : locale === 'tr' ? 'Pazarlar 3D' : 'Bazaars 3D',
+        icon: <FaShoppingBag />,
+        description: locale === 'ru'
+            ? 'Расписание рынков Пн–Вс, 3D-карта 15 базаров и деревень мастеров, проверка подлинности дастара, пештемалей и килимов, правила торга и Закон № 2863.'
+            : locale === 'de'
+            ? 'Mo–So Marktkalender, 3D-Karte mit 15 Orten, Echtheitschecks für Dastar-Leinen, Yörük-Kelims & Pinienhonig, Pazarlık-Tipps und Zoll-Check DLM.'
+            : locale === 'tr'
+            ? 'Pazartesi–Pazar pazar takvimi, 15 noktalı 3D harita, Yeşilüzümlü dastar ve kilim testi, akıllı pazarlık saatleri ve 2863 sayılı gümrük kuralları.'
+            : 'Mon–Sun coastal Pazar schedule, 15-spot 3D map, genuine Yeşilüzümlü dastar, peştemal & Yörük kilim tests, haggle hours & Law No. 2863 customs check.',
+        color: "bg-amber-600",
+        href: `/${locale}/markets-crafts`
     }
 ];
 

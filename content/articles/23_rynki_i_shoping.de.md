@@ -88,6 +88,7 @@ An Obst-, Gemüse- und Lebensmittelständen sowie im Supermarkt gilt der Festpre
 ---
 
 ### Siehe auch
+- **[Interaktiver 3D-Hub: Wochenmärkte, Basare & Handwerk](/de/markets-crafts)** — Mo–So-Kalender, 3D-Karte mit 15 Stationen, Echtheitscheck & Zollregeln.
 - **[Handwerk und Souvenirs Lykiens](/de/articles/suveniry-i-remesla)** — Teppiche, Keramik, Ausfuhrverbot für alte Scherben und Rechnungspflicht.
 - **[Geldwechsel, Bargeld & Karten](/de/articles/currency-exchange-and-payments)** — wie Sie am Geldautomaten keine 10 % Wechselkurs-Aufschlag verlieren.
 - **[Reise-Wortschatz Türkisch](/de/articles/turkish-phrasebook-useful-words)** — Zahlen und nette Redewendungen für den Einkauf.

@@ -79,6 +79,7 @@ Lesen Sie irgendwo einen Werbetext zum Thema „Kitesurfen in Kaş, im Hafen von
 ---
 
 ### 🔗 Siehe auch
+- **[Interaktiver 3D-Hub: Kite & Windsurfen (Akyaka, Datça, Sarıgerme)](/de/kitesurfing)** — 3D-Revierkarte, Thermik-Verlauf, Größenrechner, IKO 1–3 & Verbotszonen.
 - **[Akyaka & Fluss Azmak (2026)](/de/articles/akyaka-azmak)** — Ula-Holzarchitektur, eiskalte Quellen und der Kite-Spot Akçapınar.
 - **[Sarıgerme Guide (2026)](/de/articles/sarigerme-guide)** — sanfte 7–12-Knoten-Brise 20 Minuten vom Flughafen Dalaman.
 - **[Halbinsel Datça](/de/articles/datca-peninsula)** — Kite-Strände bei Kızlan und ruhige Buchten.

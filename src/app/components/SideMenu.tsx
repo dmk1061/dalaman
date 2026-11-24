@@ -15,6 +15,10 @@ import {
   FaMapMarkedAlt,
   FaChevronRight,
   FaFish,
+  FaPaperPlane,
+  FaWind,
+  FaHotTub,
+  FaShoppingBag,
 } from 'react-icons/fa';
 import LivePortalInformers from './LivePortalInformers';
 
@@ -230,6 +234,62 @@ const SideMenu = ({ isOpen: controlledOpen, onClose, locale: propLocale }: SideM
                     : 'DIVING & FISHING'
                 }
                 href={localize('/diving-fishing')}
+                onClose={handleClose}
+              />
+              <MenuItem
+                icon={<FaPaperPlane className="text-sky-600" />}
+                title={
+                  locale === 'ru'
+                    ? 'ПАРАГЛАЙДИНГ (БАБАДАГ)'
+                    : locale === 'de'
+                    ? 'PARAGLIDING (BABADAĞ)'
+                    : locale === 'tr'
+                    ? 'YAMAÇ PARAŞÜTÜ (BABADAĞ)'
+                    : 'PARAGLIDING (BABADAĞ)'
+                }
+                href={localize('/paragliding')}
+                onClose={handleClose}
+              />
+              <MenuItem
+                icon={<FaWind className="text-cyan-500" />}
+                title={
+                  locale === 'ru'
+                    ? 'КАЙТ И ВИНДСЁРФИНГ'
+                    : locale === 'de'
+                    ? 'KITE & WINDSURFEN'
+                    : locale === 'tr'
+                    ? 'KITE & RÜZGAR SÖRFÜ'
+                    : 'KITE & WINDSURFING'
+                }
+                href={localize('/kitesurfing')}
+                onClose={handleClose}
+              />
+              <MenuItem
+                icon={<FaHotTub className="text-orange-500" />}
+                title={
+                  locale === 'ru'
+                    ? 'ТЕРМЫ И ХАММАМЫ'
+                    : locale === 'de'
+                    ? 'THERMEN & HAMAMS'
+                    : locale === 'tr'
+                    ? 'KAPLICALAR & HAMAMLAR'
+                    : 'HOT SPRINGS & HAMMAMS'
+                }
+                href={localize('/thermal-spa')}
+                onClose={handleClose}
+              />
+              <MenuItem
+                icon={<FaShoppingBag className="text-amber-500" />}
+                title={
+                  locale === 'ru'
+                    ? 'РЫНКИ, БАЗАРЫ И РЕМЁСЛА'
+                    : locale === 'de'
+                    ? 'MÄRKTE & HANDWERK'
+                    : locale === 'tr'
+                    ? 'PAZARLAR & EL SANATLARI'
+                    : 'MARKETS & CRAFTS'
+                }
+                href={localize('/markets-crafts')}
                 onClose={handleClose}
               />
               <MenuItem icon={<FaBookOpen className="text-indigo-500" />} title={sm.articles} href={localize('/articles')} onClose={handleClose} />

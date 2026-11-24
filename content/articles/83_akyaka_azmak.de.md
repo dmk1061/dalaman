@@ -47,7 +47,7 @@ Die Küste gliedert sich sauber in drei sehr unterschiedliche Strandabschnitte:
 
 1. **Stadtstrand Akyaka (*Halk Plajı*):** Feiner, leicht dunkler Goldsand mit extrem flachem Einstieg. Morgens ist das Wasser spiegelglatt – ideal für Familien mit kleineren Kindern und gemütliches Schwimmen mit Blick auf die Pinienhänge.
 2. **Çınar-Strand und *Orman Kampı*:** Rund 2–3 km westlich entlang der nördlichen Steilküste wird der Sand von klaren weißen Kieselbuchten unter hohen Kiefern abgelöst. Das Wasser ist dort merklich tiefer und klarer als im flachen Zentrum.
-3. **Kite-Strand Akçapınar:** Südlich der Azmak-Mündung öffnet sich eine weite, flache Sandbank genau dort, wo die thermische Nachmittagsbrise durch den Golf von Gökova zieht. Von Mai bis Oktober tanzen ab dem frühen Nachmittag dutzende Kites am Himmel – alle Details und Windfenster vergleicht unser [Kitesurf-Guide](/de/articles/kitesurfing).
+3. **Kite-Strand Akçapınar:** Südlich der Azmak-Mündung öffnet sich eine weite, flache Sandbank genau dort, wo die thermische Nachmittagsbrise durch den Golf von Gökova zieht. Von Mai bis Oktober tanzen ab dem frühen Nachmittag dutzende Kites am Himmel – alle Details und Windfenster vergleicht unser [interaktiver Kite- & Windsurf-3D-Hub](/de/kitesurfing).
 
 ---
 
@@ -65,7 +65,7 @@ Akyaka liegt etwas nördlich der Hauptachse [Dalaman](/de/dalaman)–[Fethiye](/
 ---
 
 ### 🔗 Siehe auch
-- **[Kitesurfen rund um Dalaman](/de/articles/kitesurfing)** — Akçapınar im Vergleich mit Datça und Sarıgerme.
+- **[Kite & Windsurfen 3D-Hub](/de/kitesurfing)** — 3D-Karte von Akçapınar, Thermik-Profil, Datça und Sarıgerme.
 - **[Halbinsel Bozburun: Selimiye & Orhaniye](/de/articles/bozburun-selimiye-orhaniye)** — ruhige Segelbuchten südlich von Marmaris als nächste Etappe.
 - **[Köyceğiz-See & Gebirgsfluss Yuvarlakçay](/de/articles/yuvarlakcay-guide)** — schattiges Naturziel mit kaltem Quellwasser näher an Dalaman.
 - **[Alle Küstenorte, Badeorte & Dörfer](/de/city-guide#satellites)** — interaktiver Vergleich aller Urlaubsbasen von Datça bis Kaş.

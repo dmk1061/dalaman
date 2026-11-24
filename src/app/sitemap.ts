@@ -36,7 +36,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/contacts',
     '/dalaman-guide',
     '/diving-fishing',
+    '/kitesurfing',
     '/map',
+    '/paragliding',
     '/pharmacies',
     '/privacy',
     '/routes',
@@ -53,6 +55,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/tuna-fishing',
     '/services/yacht-rental',
     '/services/flights',
+    '/thermal-spa',
+    '/markets-crafts',
     '/articles/airport-dalaman',
     '/articles/transport',
   ];

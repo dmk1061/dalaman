@@ -35,14 +35,15 @@ You need zero prior flying experience to share a canopy with a T2-certified tand
 ## More High-Energy Adventures From Datça to Kaş
 
 1. **White-Water Rafting on the [Dalaman River](/en/dalaman):** A lively ~12 km gorge run packed with **Grade III–IV rapids**. Unlike tame tourist floats elsewhere, Dalaman Çayı makes every paddler earn their lunch. Full-day trips from Fethiye, Marmaris, or Dalaman cost **€55–75**, covering shuttle transfers, wetsuits, helmets, and a hot post-river meal.
-2. **[Kitesurfing & Wingfoil](/en/articles/kitesurfing):** Reliable afternoon thermal winds turn shallow **Akyaka** bay on the Gulf of Gökova and sweeping **Sarıgerme Beach** near Dalaman into premier wind-sport playgrounds from May through October.
+2. **[Kitesurfing & Wingfoil](/en/kitesurfing):** Reliable afternoon thermal winds turn shallow **Akyaka** bay on the Gulf of Gökova and sweeping **Sarıgerme Beach** near Dalaman into premier wind-sport playgrounds from May through October.
 3. **Dawn Sea Kayaking Over Sunken Kekova:** Push off from Üçağız or Kaş at sunrise before motorboats stir the bay, gliding quietly right beside the submerged stone walls and staircases of ancient Lycian Dolichiste.
 4. **Deep Wrecks & Canyoning in [Kaş](/en/articles/diving):** Pair a morning dive onto the sunken 29-meter Douglas C-47 Dakota aircraft with roped waterfall rappels through Akdağ's hidden gorges.
 
 ---
 
 ### 🔗 See Also
+- **[Interactive Hub: Paragliding (Babadağ 3D Map, Slots & 2026 Prices)](/en/paragliding)** — live 3D mountain terrain, 1,200–1,969 m launch profile, Teleferik guide & readiness checker.
 - **[Mount Babadağ: Cable Car & Summit Views](/en/articles/babadag)** — riding up for sunset cocktails without flying.
 - **[Ölüdeniz Guide: Belcekız & the Blue Lagoon](/en/articles/oludeniz)** — beaches, transport, and local stays below the landing zone.
-- **[Kitesurfing in Akyaka & Sarıgerme](/en/articles/kitesurfing)** — wind seasons, kite schools, and gear hire.
+- **[Kite & Windsurfing 3D Hub](/en/kitesurfing)** — 3D spot map, Gökova thermal curve, gear sizer, and IKO rates.
 - **[Trekking the Lycian & Carian Trails](/en/articles/trekking)** — exploring these same coastal ridges on foot.

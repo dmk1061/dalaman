@@ -51,6 +51,7 @@ Lower turnstiles spin open around **08:00–08:30** daily, with final down-bound
 ---
 
 ### 🔗 See Also
+- **[Interactive Hub: Paragliding (3D Mountain Map, Runways & Slots)](/en/paragliding)** — explore 1,200–1,969 m takeoffs, 08:30–17:00 flight windows & SHGM eligibility checker.
 - **[Paragliding in Ölüdeniz (2026 Guide)](/en/articles/paragliding)** — choosing flight windows, T2 pilots, and avoiding hidden 360° camera fees.
 - **[Ölüdeniz: Belcekız & the Blue Lagoon](/en/articles/oludeniz)** — landing-zone beach tips, parking, and shuttles.
 - **[Ovacık & Hisarönü Plateau](/en/articles/ovacik-hisaronu)** — dining and stays steps from the lower cable-car gate.

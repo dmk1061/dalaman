@@ -47,7 +47,7 @@ Akyaka naturally separates relaxed swimmers from high-speed boards across three 
 
 1. **Akyaka Public Beach (*Halk Plajı*):** A wide ribbon of fine, dark-golden sand with extremely shallow water extending dozens of meters out. Mornings here are glassy and calm, making it hugely popular with families and casual swimmers.
 2. **Çınar Beach & the Forest Camp (*Orman Kampı*):** Two to three kilometers west along the northern rim of the bay, sand gives way to white pebble coves shaded by towering pines. Water clarity is noticeably sharper here than on the sandy town shallows, and walking trails weave along rocky ledges.
-3. **Akçapınar Kite Beach:** Just south of the Azmak estuary stretches a sweeping sandbar exposed to reliable afternoon thermal winds funneled down the Gulf of Gökova. From May through October, dozens of colorful kites fill the horizon almost daily after lunch. Compare wind windows and gear rental tips in our [regional kitesurfing guide](/en/articles/kitesurfing).
+3. **Akçapınar Kite Beach:** Just south of the Azmak estuary stretches a sweeping sandbar exposed to reliable afternoon thermal winds funneled down the Gulf of Gökova. From May through October, dozens of colorful kites fill the horizon almost daily after lunch. Compare wind windows and gear rental tips in our [interactive Kite & Windsurfing 3D Hub](/en/kitesurfing).
 
 ---
 
@@ -65,7 +65,7 @@ Although Akyaka sits slightly off the main [Dalaman](/en/dalaman)–[Fethiye](/e
 ---
 
 ### 🔗 See Also
-- **[Kitesurfing Around Dalaman](/en/articles/kitesurfing)** — comparing Akçapınar's reliable thermal wind against Datça and Sarıgerme.
+- **[Kite & Windsurfing 3D Hub](/en/kitesurfing)** — comparing Akçapınar's thermal curve, 3D spots, and Datça/Sarıgerme.
 - **[Bozburun Peninsula: Selimiye & Orhaniye](/en/articles/bozburun-selimiye-orhaniye)** — where to drive next south of Marmaris for quiet sailing bays.
 - **[Lake Köyceğiz & Yuvarlakçay River](/en/articles/yuvarlakcay-guide)** — another pine-shaded, ice-cold mountain stream closer to DLM.
 - **[All Resorts, Satellites & Villages](/en/city-guide#satellites)** — interactive guide comparing every coast base from Datça to Kaş.

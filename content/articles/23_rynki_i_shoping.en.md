@@ -93,6 +93,7 @@ Ask the price calmly (*"Ne kadar?"*), keep enthusiasm understated rather than cl
 ---
 
 ### 🔗 See Also
+- **[Interactive 3D Hub: Weekly Markets, Old Bazaars & Crafts](/en/markets-crafts)** — Mon–Sun Pazar calendar, 15-spot 3D map, haggling curve & Law No. 2863 check.
 - **[Lycia's Traditional Crafts & Souvenirs](/en/articles/suveniry-i-remesla)** — deeper look at carpets, pottery, and hand-loomed *dastar*.
 - **[Currency, Cash & Card Traps in Turkey](/en/articles/currency-exchange-and-payments)** — dodging ATM fees and securing small bills for market day.
 - **[Turkish Phrasebook: Bargaining & Market Words](/en/articles/turkish-phrasebook-useful-words)** — prices by weight and friendly greetings.

@@ -23,7 +23,7 @@ Köyceğiz, dünya üzerinde yalnızca Güneybatı Anadolu ve Rodos adasında do
 Gölün güneybatı kıyısında, Helenistik dönemden beri şifa merkezi olarak kullanılan **Sultaniye Kaplıcaları** yer alır. Kükürt, kalsiyum ve düşük oranda radon içeren **+39–40 °C** sıcaklığındaki termal su, açık hava çamur havuzu ve kapalı kubbeli termal banyolar belediye tarafından işletilir; giriş ücreti kişi başı oldukça ekonomiktir (yaklaşık **100–150 ₺** bandında).
 
 * **En Doğru Saat:** Dalyan'dan tekne turları **11:30–15:30** arası iskeleyi doldurur. Oysa Köyceğiz tarafından karayoluyla veya erken tekneyle **08:30–09:00** ya da **16:00 sonrasında** gelirseniz havuzları neredeyse tek başınıza kullanırsınız.
-* **Sağlık ve Takı Uyarısı:** Sıcak termal suda tek seferde **15–20 dakikadan fazla kalmayın**. Yoğun kükürt buharı ve su **gümüş yüzük, kolye ve saatleri dakikalar içinde karartır** — girmeden önce mutlaka çıkarın. Kalp, yüksek tansiyon ve hamilelik durumlarında sıcak havuz öncesi hekim onayı gerekir (**[hamam ve termal rehberi](/tr/articles/turkish-bath-hammam-and-spa)**).
+* **Sağlık ve Takı Uyarısı:** Sıcak termal suda tek seferde **15–20 dakikadan fazla kalmayın**. Yoğun kükürt buharı ve su **gümüş yüzük, kolye ve saatleri dakikalar içinde karartır** — girmeden önce mutlaka çıkarın. Kalp, yüksek tansiyon ve hamilelik durumlarında sıcak havuz öncesi hekim onayı gerekir (**[3D kaplıca ve hamam rehberi](/tr/thermal-spa)**).
 
 ## Çevredeki Soğuk Su Kaçamakları
 

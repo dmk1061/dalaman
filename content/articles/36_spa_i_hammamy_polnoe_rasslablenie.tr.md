@@ -70,6 +70,7 @@ Kıyı yerleşiklerinin ve kışlık gezginlerin gerçek hamam sezonu **Kasım�
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif 3D Rehber: Kaplıcalar, Çamur Banyoları & Hamamlar](/tr/thermal-spa)** — 3D harita, Sultaniye saat yoğunluğu, 5 hamam aşaması, sağlık testi ve 2026 fiyatları.
 - **[Sağlık Turizmi, Klinikler ve Şifalı Sular](/tr/articles/medical-tourism-and-wellness)** — Sultaniye'nin tıbbi etkileri ve bölge hastaneleri.
 - **[Köyceğiz Gölü ve Sultaniye Rehberi](/tr/articles/koycegiz-lake)** — Göl çevresi ve termal ulaşım.
 - **[İklim ve Mevsimler](/tr/articles/climate-and-seasons)** — Kış ve bahar aylarında kaplıca keyfi.

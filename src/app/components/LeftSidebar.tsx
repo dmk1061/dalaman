@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaPlane, FaBus, FaTaxi, FaCarSide, FaKey, FaCompass, FaSun, FaUtensils, FaLandmark, FaMapMarkedAlt, FaFish } from 'react-icons/fa';
+import { FaPlane, FaBus, FaTaxi, FaCarSide, FaKey, FaCompass, FaSun, FaUtensils, FaLandmark, FaMapMarkedAlt, FaFish, FaPaperPlane, FaWind, FaHotTub, FaShoppingBag } from 'react-icons/fa';
 import { getDictionary, Locale } from '@/lib/dictionary';
 
 type LeftSidebarProps = {
@@ -107,6 +107,54 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
           : 'Diving & Fishing',
       href: '/diving-fishing',
       icon: <FaFish className="text-cyan-600" />,
+    },
+    {
+      title:
+        locale === 'ru'
+          ? 'Параглайдинг (Бабадаг)'
+          : locale === 'de'
+          ? 'Paragliding (Babadağ)'
+          : locale === 'tr'
+          ? 'Yamaç Paraşütü (Babadağ)'
+          : 'Paragliding (Babadağ)',
+      href: '/paragliding',
+      icon: <FaPaperPlane className="text-sky-600" />,
+    },
+    {
+      title:
+        locale === 'ru'
+          ? 'Кайт и виндсёрфинг'
+          : locale === 'de'
+          ? 'Kite & Windsurfen'
+          : locale === 'tr'
+          ? 'Kite & Rüzgar Sörfü'
+          : 'Kite & Windsurfing',
+      href: '/kitesurfing',
+      icon: <FaWind className="text-cyan-600" />,
+    },
+    {
+      title:
+        locale === 'ru'
+          ? 'Термы, хаммамы и СПА'
+          : locale === 'de'
+          ? 'Thermen & Hamams'
+          : locale === 'tr'
+          ? 'Kaplıcalar ve Hamam'
+          : 'Hot Springs & Hammams',
+      href: '/thermal-spa',
+      icon: <FaHotTub className="text-orange-600" />,
+    },
+    {
+      title:
+        locale === 'ru'
+          ? 'Рынки, базары и ремёсла'
+          : locale === 'de'
+          ? 'Märkte & Handwerk'
+          : locale === 'tr'
+          ? 'Pazarlar ve El Sanatları'
+          : 'Markets & Crafts',
+      href: '/markets-crafts',
+      icon: <FaShoppingBag className="text-amber-600" />,
     },
     {
       title:

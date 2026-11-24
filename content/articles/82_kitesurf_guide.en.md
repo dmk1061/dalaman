@@ -79,6 +79,7 @@ Close the browser tab immediately on any clickbait page urging kiteboards toward
 ---
 
 ### 🔗 See Also
+- **[Interactive Hub: Kite & Windsurfing (Akyaka, Datça, Sarıgerme)](/en/kitesurfing)** — 3D bay map, hourly thermal curve, kite/sail sizing calculator, IKO 1–3 & no-kite red zones.
 - **[Akyaka & Azmak River Guide (2026)](/en/articles/akyaka-azmak)** — wooden architecture, ice-cold spring river, and Akçapınar kite hub.
 - **[Datça Peninsula Guide](/en/articles/datca-peninsula)** — reaching Kızlan/Gebekum wind beaches and ferry crossings.
 - **[Sarıgerme Guide (2026)](/en/articles/sarigerme-guide)** — calm 7–12 kt family breezes 20 minutes from `DLM`.

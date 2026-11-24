@@ -34,6 +34,7 @@ Sevdiklerinize ya da evinize gerçekten bu kıyıya ait, hikâyesi olan bir şey
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif 3D Rehber: Halk Pazarları, Çarşılar ve El Sanatları](/tr/markets-crafts)** — Pzt–Paz pazar takvimi, 3D zanaat haritası, orijinallik ve 2863 sayılı kanun testi.
 - **[Halk Pazarları Takvimi ve Alışveriş](/tr/articles/markets-shopping)** — Hangi gün hangi ilçeden doğal ürün alınır?
 - **[Bölge Gastronomi Rehberi](/tr/articles/gastronomy)** — Muğla çam balı, zeytinyağı ve yerel tatlar.
 - **[Bölgenin Flora ve Faunası](/tr/articles/flora-fauna)** — Sığla ağacının hikâyesi.

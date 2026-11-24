@@ -35,14 +35,15 @@ T2 sertifikalı lisanslı bir pilotla iki kişilik (tandem) uçuş yapmak için 
 ## Datça'dan Kaş'a Diğer Adrenalin Rotaları
 
 1. **Dalaman Çayı Rafting:** Akköprü kanyonu içinde yaklaşık **12 kilometrelik** 3.–4. derece parkur. Türkiye'deki sakin çay turlarının aksine gerçek kürek çekme ve adrenalin sunar; transfer, ekipman ve yemek dâhil günlük tur 2026'da **~3.100–4.200 ₺ (55–75 €)** civarındadır.
-2. **[Kitesurf ve Wingfoil](/tr/articles/kitesurfing):** Mayıs–Ekim arası her öğleden sonra düzenli termik rüzgâr alan sığ **Akyaka** koyu ve Dalaman kıyısındaki rüzgârlı **Sarıgerme** sahili ülkenin başlıca merkezleridir.
+2. **[Kitesurf ve Wingfoil](/tr/kitesurfing):** Mayıs–Ekim arası her öğleden sonra düzenli termik rüzgâr alan sığ **Akyaka** koyu ve Dalaman kıyısındaki rüzgârlı **Sarıgerme** sahili ülkenin başlıca merkezleridir.
 3. **Kekova Deniz Kayağı:** Üçağız veya Kaleköy'den sabah erken saatte kano ile çıkıp batık şehir Dolichiste kalıntılarının hemen kenarından motorsuz sessizlikte geçmek mümkündür.
 4. **Dalış ve Kanyoning:** **[Kaş](/tr/articles/diving)** kıyılarında batık Dakota C-47 uçağına ve su altı duvarlarına dalış yapılırken, Saklıkent yukarısındaki dağlarda rehberli teknik kanyon inişleri düzenlenir.
 
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif Yamaç Paraşütü Rehberi (Babadağ 3D Harita, Saatler & 2026 Fiyatları)](/tr/paragliding)** — 3D dağ profili, 1200–1969 m pistleri, Teleferik ücretleri ve uçuş uygunluk testi.
 - **[Babadağ Rehberi: Seyir Terasları ve Teleferik](/tr/articles/babadag)** — Uçmayacaklar için dağda bir gün.
 - **[Ölüdeniz Rehberi](/tr/articles/oludeniz)** — Mavi Lagün, Belcekız ve ulaşım.
-- **[Kitesurf Rehberi: Akyaka ve Sarıgerme](/tr/articles/kitesurfing)** — Rüzgâr okulları ve ekipman kiralama.
+- **[Kite & Rüzgar Sörfü 3D Rehberi](/tr/kitesurfing)** — 3D harita, termik rüzgâr eğrisi, IKO kursları ve ekipman hesaplayıcı.
 - **[Likya ve Karya Yolu Yürüyüşleri](/tr/articles/trekking)** — Doğada aktif rota alternatifleri.

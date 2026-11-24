@@ -47,7 +47,7 @@ Kıyı şeridi farklı beklentilere göre üç net bölgeye ayrılır:
 
 1. **Akyaka Halk Plajı:** İnce koyu altın renkli kum ve metrelerce ilerleseniz bile bele gelen sığ deniz. Özellikle sabahları dalgasız olduğu için çocuklu aileler tarafından çok sevilir.
 2. **Çınar Plajı ve Orman Kampı:** Merkezin 2–3 km batısında çam ormanlarının altında beyaz çakıllı, derin ve çok berrak koylar başlar. Sığ kumluktan ziyade serin ve temiz su arayanlar için daha uygundur.
-3. **Akçapınar Kite Plajı:** Azmak ağzının güneyinde Gökova'dan gelen düzenli termal rüzgârın yakalandığı geniş kumluk alan yer alır. Mayıs–Ekim arası öğleden sonra onlarca uçurtma gökyüzünü süsler; rüzgâr sezonları ve diğer noktalar için [kitesurf rehberimize](/tr/articles/kitesurfing) göz atabilirsiniz.
+3. **Akçapınar Kite Plajı:** Azmak ağzının güneyinde Gökova'dan gelen düzenli termal rüzgârın yakalandığı geniş kumluk alan yer alır. Mayıs–Ekim arası öğleden sonra onlarca uçurtma gökyüzünü süsler; rüzgâr sezonları ve diğer noktalar için [interaktif Kite & Rüzgar Sörfü 3D rehberimize](/tr/kitesurfing) göz atabilirsiniz.
 
 ---
 
@@ -63,7 +63,7 @@ Kıyı şeridi farklı beklentilere göre üç net bölgeye ayrılır:
 ---
 
 ### 🔗 İlgili Rehberler
-- **[Dalaman Bölgesinde Kitesurf](/tr/articles/kitesurfing)** — Akçapınar, Datça ve Sarıgerme rüzgâr karşılaştırması.
+- **[Kite & Rüzgar Sörfü 3D Rehberi](/tr/kitesurfing)** — Akçapınar 3D haritası, termik rüzgâr grafiği, Datça ve Sarıgerme karşılaştırması.
 - **[Bozburun Yarımadası: Selimiye ve Orhaniye](/tr/articles/bozburun-selimiye-orhaniye)** — Marmaris güneyinde sakin yat koyları rotası.
 - **[Köyceğiz Gölü ve Yuvarlakçay](/tr/articles/yuvarlakcay-guide)** — Dalaman'a daha yakın bir başka buz gibi su ve çınar gölgesi durağı.
 - **[Tüm Tatil Beldeleri, Uydu Koylar ve Köyler](/tr/city-guide#satellites)** — Datça'dan Kaş'a konaklama seçici.

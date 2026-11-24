@@ -46,6 +46,7 @@ Along a coast blanketed in sunken harbors and [ancient cities](/en/articles/anci
 ---
 
 ### 🔗 See Also
+- **[Interactive 3D Hub: Weekly Markets, Old Bazaars & Crafts](/en/markets-crafts)** — live 3D village & bazaar map, authenticity checks & DLM customs tester.
 - **[Markets & Weekly Pazar Calendar](/en/articles/markets-shopping)** — day-by-day local markets for honey, spices, and *peştemals*.
 - **[Coastal Gastronomy Guide](/en/articles/gastronomy)** — understanding Datça *Nurlu* almonds and Muğla olive harvests.
 - **[Culture & Traditions Around Dalaman](/en/articles/culture-and-traditions)** — how *Yörük* heritage shapes mountain craft villages.

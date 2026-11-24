@@ -66,6 +66,7 @@ Sahile çıkmadan önce poliçenizde **"ekstrem/su sporları teminatı"** olup o
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif 3D Rehber: Kite & Rüzgar Sörfü (Akyaka, Datça, Sarıgerme)](/tr/kitesurfing)** — 3D koy haritası, termik rüzgâr eğrisi, ekipman boy hesaplayıcı ve IKO 1–3.
 - **[Akyaka ve Kadın Azmağı Rehberi (2026)](/tr/articles/akyaka-azmak)** — Ula ahşap mimarisi, buz gibi nehir ve Akçapınar kite plajı.
 - **[Sarıgerme Gezi Rehberi (2026)](/tr/articles/sarigerme-guide)** — Dalaman'a 20 dakika mesafede hafif başlangıç rüzgârları.
 - **[Datça Yarımadası](/tr/articles/datca-peninsula)** — Kızlan rüzgâr sörfü kıyıları ve Knidos.

@@ -40,3 +40,8 @@ Güncel fiyatlar sezona ve seçilen kapsama göre değişiklik gösterebilir; ç
 
 > [!TIP]
 > **Kendi Aracınızla Zirve Yolunu Denemeyin:** Alt istasyon *Yaşam Parkı*nda geniş otopark mevcuttur. Eski taş döşeli dağ yolundan kiralık binek otomobille 1.700 m pistine tırmanmaya çalışmak hem dik eğim hem yoğun pilot servis minibüsü trafiği nedeniyle kısıtlı ve tehlikelidir; daima teleferiği tercih edin.
+
+---
+
+### 🔗 İlgili Rehberler
+- **[İnteraktif Yamaç Paraşütü Rehberi (Babadağ 3D Harita, Saatler & 2026 Fiyatları)](/tr/paragliding)** — 1200–1969 m pist şeması, 08:30–17:00 uçuş saatleri ve uygunluk testi.

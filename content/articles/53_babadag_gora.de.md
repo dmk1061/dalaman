@@ -44,3 +44,8 @@ Kassen öffnen morgens meist zwischen **08:00 und 08:30 Uhr**, die letzte Talfah
 * **Geschlossene Schuhe & Gipfelpreise:** Rund um die Startrampen liegt loser Schotter statt Asphalt — Sneaker schlagen Sandalen. Bedenken Sie zudem, dass Café und Restaurant auf 1.700 m spürbare Aussichts-Preise verlangen.
 * **Spontan doch fliegen?** Einen Tandemflug buchen Sie im Normalfall **unten** im Ort günstiger inklusive Bergfahrt; wer oben auf 1.700 m spontan Lust bekommt, findet zwar oft freie Piloten vor Ort, zahlt die bereits gekaufte Bergfahrt dann aber separat ([Preise & Infos zum Paragliding](/de/articles/paragliding)).
 * **Nicht selbst hochfahren:** Zur Talstation in **[Ovacık](/de/articles/ovacik-hisaronu)** pendeln Shuttles ab Ölüdeniz und Fethiye; von privaten Fahrten mit dem Mietwagen über die steile alte Piste rät die Behörde wegen Gegenverkehr der Pilotenbusse ab.
+
+---
+
+### Siehe auch
+- **[Interaktiver Hub: Paragliding (Babadağ 3D-Karte, Höhen & Preise 2026)](/de/paragliding)** — Startrampen 1200–1969 m, Flugzeiten 08:30–17:00 & Eignungscheck.
