@@ -1,16 +1,24 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import {
   FaCrosshairs,
   FaCube,
-  FaExternalLinkAlt,
   FaGlobeEurope,
   FaLayerGroup,
   FaMapMarkedAlt,
   FaMapMarkerAlt,
 } from 'react-icons/fa';
+import LeafletFallbackMap, {
+  type LeafletCameraTarget,
+  type LeafletMarkerItem,
+} from './LeafletFallbackMap';
+import {
+  attachWebGLLossHandler,
+  detectWebGLSupport,
+  FALLBACK_2D_LABELS,
+} from '@/lib/map-webgl';
 import {
   MARKET_MAP_POINTS,
   MARKET_ZONE_PRESETS,
@@ -457,19 +465,54 @@ export default function MarketsCrafts3DMap({
   const [webglError, setWebglError] = useState(false);
   const [gpsStatus, setGpsStatus] = useState<'idle' | 'locating' | 'found' | 'error'>('idle');
   const [gpsNotice, setGpsNotice] = useState<{ title?: string; distanceKm?: number; errorText?: string } | null>(null);
+  const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
+
+  const [fallbackCameraTarget, setFallbackCameraTarget] = useState<LeafletCameraTarget | null>(null);
+  const [fallbackPopupNonce, setFallbackPopupNonce] = useState(0);
+  const fallbackNonceRef = useRef(0);
+
+  const fbCopy = FALLBACK_2D_LABELS[locale] || FALLBACK_2D_LABELS.en;
+  const fallbackInitialPreset = MARKET_ZONE_PRESETS.find((z) => z.id === activeZoneId);
+
+  const fallbackMarkers = useMemo<LeafletMarkerItem[]>(() => {
+    return MARKET_MAP_POINTS.map((pt) => {
+      const matchesFilter = activeKindFilter === 'all' || pt.kind === activeKindFilter;
+      const active = pt.id === focusedPointId;
+      return {
+        id: pt.id,
+        coordinates: pt.coordinates,
+        label:
+          pt.kind === 'weekly-pazar'
+            ? 'PZR'
+            : pt.kind === 'old-bazaar'
+            ? 'OLD'
+            : pt.kind === 'craft-village'
+            ? 'ART'
+            : 'AVM',
+        title: pt.title[locale] || pt.title.en,
+        color: KIND_COLORS[pt.kind],
+        minWidth: 34,
+        height: 28,
+        paddingX: 7,
+        fontSize: 10,
+        dimmed: !matchesFilter,
+        active,
+        activeRingColor: 'rgba(245,158,11,0.92)',
+        popupHtml: buildPopupHtml(pt, locale, ui),
+      };
+    });
+  }, [activeKindFilter, focusedPointId, locale, ui]);
 
   useEffect(() => {
+    if (webglError) return;
     let isCancelled = false;
     let mapInstance: any = null;
+    let detachLoss = () => {};
 
     async function initMap() {
       if (!containerRef.current) return;
       try {
-        const canvas = document.createElement('canvas');
-        const hasGl = Boolean(
-          canvas.getContext('webgl') || canvas.getContext('experimental-webgl')
-        );
-        if (!hasGl) {
+        if (!detectWebGLSupport()) {
           setWebglError(true);
           return;
         }
@@ -481,6 +524,7 @@ export default function MarketsCrafts3DMap({
 
         mapInstance = new maplibregl.Map({
           container: containerRef.current,
+          failIfMajorPerformanceCaveat: false,
           style: {
             version: 8,
             sources: {
@@ -579,13 +623,19 @@ export default function MarketsCrafts3DMap({
           return { id: pt.id, marker, btn, kind: pt.kind };
         });
 
+        detachLoss = attachWebGLLossHandler(mapInstance, () => {
+          if (!isCancelled) setWebglError(true);
+        });
+
         mapInstance.on('error', (ev: any) => {
           if (ev?.error?.message && /webgl/i.test(ev.error.message)) {
-            setWebglError(true);
+            console.warn('[MarketsCrafts3DMap] MapLibre WebGL error:', ev.error);
+            if (!isCancelled) setWebglError(true);
           }
         });
-      } catch {
-        setWebglError(true);
+      } catch (err) {
+        console.warn('[MarketsCrafts3DMap] WebGL init failed, switching to 2D Leaflet:', err);
+        if (!isCancelled) setWebglError(true);
       }
     }
 
@@ -593,6 +643,7 @@ export default function MarketsCrafts3DMap({
 
     return () => {
       isCancelled = true;
+      detachLoss();
       popupRef.current = null;
       if (userMarkerRef.current) {
         userMarkerRef.current.remove();
@@ -604,7 +655,7 @@ export default function MarketsCrafts3DMap({
       mapRef.current = null;
       maplibreRef.current = null;
     };
-  }, [locale]);
+  }, [locale, webglError]);
 
   // Update pin styles when filter or focused pin changes
   useEffect(() => {
@@ -629,13 +680,90 @@ export default function MarketsCrafts3DMap({
 
   // Single coordinated camera & popup effect to prevent racing flyTo transitions
   useEffect(() => {
-    const map = mapRef.current;
-    const maplibregl = maplibreRef.current;
-    if (!map || !maplibregl) return;
-
     const cameraKey = `${activeZoneId}|${activeKindFilter}|${focusedPointId ?? ''}`;
     if (prevCameraKeyRef.current === cameraKey) return;
     prevCameraKeyRef.current = cameraKey;
+
+    if (focusedPointId) {
+      const pt = MARKET_MAP_POINTS.find((p) => p.id === focusedPointId);
+      if (pt && isValidLngLatPair(pt.coordinates)) {
+        fallbackNonceRef.current += 1;
+        setFallbackCameraTarget({
+          nonce: fallbackNonceRef.current,
+          mode: 'flyTo',
+          center: pt.coordinates,
+          zoom: 14.5,
+        });
+        setFallbackPopupNonce((n) => n + 1);
+      }
+    } else if (activeZoneId !== 'all') {
+      const preset = MARKET_ZONE_PRESETS.find((z) => z.id === activeZoneId);
+      if (preset && isValidLngLatPair(preset.coordinates)) {
+        fallbackNonceRef.current += 1;
+        setFallbackCameraTarget({
+          nonce: fallbackNonceRef.current,
+          mode: 'flyTo',
+          center: preset.coordinates,
+          zoom: preset.zoom,
+        });
+      }
+    } else if (activeKindFilter !== 'all') {
+      const matching = MARKET_MAP_POINTS.filter(
+        (p) => p.kind === activeKindFilter && isValidLngLatPair(p.coordinates)
+      );
+      if (matching.length === 1) {
+        fallbackNonceRef.current += 1;
+        setFallbackCameraTarget({
+          nonce: fallbackNonceRef.current,
+          mode: 'flyTo',
+          center: matching[0].coordinates,
+          zoom: 13.8,
+        });
+      } else if (matching.length > 1) {
+        let minLng = matching[0].coordinates[0];
+        let maxLng = minLng;
+        let minLat = matching[0].coordinates[1];
+        let maxLat = minLat;
+        for (let i = 1; i < matching.length; i += 1) {
+          const [lng, lat] = matching[i].coordinates;
+          if (lng < minLng) minLng = lng;
+          if (lng > maxLng) maxLng = lng;
+          if (lat < minLat) minLat = lat;
+          if (lat > maxLat) maxLat = lat;
+        }
+        fallbackNonceRef.current += 1;
+        if (Math.abs(maxLng - minLng) < 1e-5 && Math.abs(maxLat - minLat) < 1e-5) {
+          setFallbackCameraTarget({
+            nonce: fallbackNonceRef.current,
+            mode: 'flyTo',
+            center: [minLng, minLat],
+            zoom: 13.8,
+          });
+        } else {
+          setFallbackCameraTarget({
+            nonce: fallbackNonceRef.current,
+            mode: 'fitBounds',
+            bounds: [
+              [minLng, minLat],
+              [maxLng, maxLat],
+            ],
+            maxZoom: 11.4,
+          });
+        }
+      }
+    } else {
+      fallbackNonceRef.current += 1;
+      setFallbackCameraTarget({
+        nonce: fallbackNonceRef.current,
+        mode: 'flyTo',
+        center: REGION_OVERVIEW.center,
+        zoom: REGION_OVERVIEW.zoom,
+      });
+    }
+
+    const map = mapRef.current;
+    const maplibregl = maplibreRef.current;
+    if (!map || !maplibregl) return;
 
     const is3d = viewModeRef.current === '3d';
 
@@ -760,6 +888,7 @@ export default function MarketsCrafts3DMap({
           }
         }
 
+        setUserLocation([userLon, userLat]);
         const map = mapRef.current;
         const maplibregl = maplibreRef.current;
         if (map && maplibregl) {
@@ -866,15 +995,23 @@ export default function MarketsCrafts3DMap({
               if (
                 activeZoneId === 'all' &&
                 !focusedPointId &&
-                activeKindFilter === 'all' &&
-                mapRef.current
+                activeKindFilter === 'all'
               ) {
-                safeFlyTo(mapRef.current, {
+                fallbackNonceRef.current += 1;
+                setFallbackCameraTarget({
+                  nonce: fallbackNonceRef.current,
+                  mode: 'flyTo',
                   center: REGION_OVERVIEW.center,
                   zoom: REGION_OVERVIEW.zoom,
-                  pitch: viewModeRef.current === '3d' ? REGION_OVERVIEW.pitch : 0,
-                  bearing: 0,
                 });
+                if (mapRef.current) {
+                  safeFlyTo(mapRef.current, {
+                    center: REGION_OVERVIEW.center,
+                    zoom: REGION_OVERVIEW.zoom,
+                    pitch: viewModeRef.current === '3d' ? REGION_OVERVIEW.pitch : 0,
+                    bearing: 0,
+                  });
+                }
                 return;
               }
               onSelectZone('all');
@@ -945,19 +1082,35 @@ export default function MarketsCrafts3DMap({
 
       {/* Canvas */}
       {webglError ? (
-        <div className="h-[420px] sm:h-[470px] flex flex-col items-center justify-center p-6 text-center bg-slate-900/95 space-y-3">
-          <FaMapMarkedAlt className="text-4xl text-amber-400" />
-          <p className="font-bold text-sm text-white">{ui.fallbackTitle}</p>
-          <p className="text-xs text-slate-400 max-w-md">{ui.fallbackDesc}</p>
-          <a
-            href="https://maps.google.com/?q=36.6221,29.1153"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-600 hover:bg-amber-500 text-xs font-bold text-white"
-          >
-            <FaExternalLinkAlt size={10} /> {ui.openGmaps}
-          </a>
-        </div>
+        <LeafletFallbackMap
+          baseLayer={viewMode === 'topo' ? 'topo' : 'satellite'}
+          initialCenter={
+            activeZoneId === 'all'
+              ? REGION_OVERVIEW.center
+              : fallbackInitialPreset?.coordinates ?? REGION_OVERVIEW.center
+          }
+          initialZoom={
+            activeZoneId === 'all'
+              ? REGION_OVERVIEW.zoom
+              : fallbackInitialPreset?.zoom ?? REGION_OVERVIEW.zoom
+          }
+          minZoom={6}
+          maxZoom={17}
+          cameraTarget={fallbackCameraTarget}
+          markers={fallbackMarkers}
+          activePopupId={focusedPointId}
+          popupNonce={fallbackPopupNonce}
+          onSelectMarker={onSelectPoint}
+          userLocation={userLocation}
+          heightClassName="h-[420px] sm:h-[470px]"
+          fallbackBadgeText={fbCopy.badge}
+          retry3dLabel={fbCopy.retry3d}
+          onRetry3d={() => setWebglError(false)}
+          emergencyMapsUrl="https://maps.google.com/?q=36.6221,29.1153"
+          emergencyMapsLabel={ui.openGmaps}
+          emergencyTitle={ui.fallbackTitle}
+          emergencyDesc={ui.fallbackDesc}
+        />
       ) : (
         <div ref={containerRef} className="w-full h-[420px] sm:h-[470px] bg-slate-950" />
       )}

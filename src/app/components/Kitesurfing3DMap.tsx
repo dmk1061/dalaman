@@ -1,8 +1,18 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { FaCube, FaExternalLinkAlt, FaLayerGroup, FaMapMarkedAlt } from 'react-icons/fa';
+import { FaCube, FaLayerGroup, FaMapMarkedAlt } from 'react-icons/fa';
+import LeafletFallbackMap, {
+  type LeafletCameraTarget,
+  type LeafletMarkerItem,
+  type LeafletPolylineItem,
+} from './LeafletFallbackMap';
+import {
+  attachWebGLLossHandler,
+  detectWebGLSupport,
+  FALLBACK_2D_LABELS,
+} from '@/lib/map-webgl';
 import {
   WIND_CORRIDORS,
   WIND_MAP_POINTS,
@@ -205,20 +215,63 @@ export default function Kitesurfing3DMap({
   viewModeRef.current = viewMode;
   const [webglError, setWebglError] = useState(false);
 
+  const [fallbackCameraTarget, setFallbackCameraTarget] = useState<LeafletCameraTarget | null>(null);
+  const [fallbackPopupNonce, setFallbackPopupNonce] = useState(0);
+  const fallbackNonceRef = useRef(0);
+  const prevSpotRef = useRef(activeSpotId);
+  const prevPointRef = useRef(focusedPointId);
+
+  const fbCopy = FALLBACK_2D_LABELS[locale] || FALLBACK_2D_LABELS.en;
   const initialSpot = WIND_SPOTS.find((s) => s.id === 'akyaka')!;
+  const fallbackInitialSpot = WIND_SPOTS.find((s) => s.id === activeSpotId);
+
+  const fallbackPolylines = useMemo<LeafletPolylineItem[]>(() => {
+    return WIND_CORRIDORS.map((c) => ({
+      id: c.id,
+      coordinates: c.coordinates,
+      color: '#06b6d4',
+      weight: 3,
+      dashArray: '8 6',
+      casingColor: '#ffffff',
+      casingWeight: 5,
+      casingOpacity: 0.72,
+    }));
+  }, []);
+
+  const fallbackMarkers = useMemo<LeafletMarkerItem[]>(() => {
+    return WIND_MAP_POINTS.map((pt) => ({
+      id: pt.id,
+      coordinates: pt.coordinates,
+      label:
+        pt.kind === 'no-kite'
+          ? 'NO'
+          : pt.kind === 'school-base'
+          ? 'S'
+          : pt.kind === 'windsurf-wing'
+          ? 'W'
+          : 'K',
+      title: pt.title[locale] || pt.title.en,
+      color: KIND_COLORS[pt.kind],
+      minWidth: 28,
+      height: 28,
+      paddingX: 6,
+      fontSize: 10,
+      active: pt.id === focusedPointId,
+      activeRingColor: 'rgba(103,232,249,0.75)',
+      popupHtml: buildPopupHtml(pt, locale, ui),
+    }));
+  }, [focusedPointId, locale, ui]);
 
   useEffect(() => {
+    if (webglError) return;
     let isCancelled = false;
     let mapInstance: any = null;
+    let detachLoss = () => {};
 
     async function initMap() {
       if (!containerRef.current) return;
       try {
-        const canvas = document.createElement('canvas');
-        const hasGl = Boolean(
-          canvas.getContext('webgl') || canvas.getContext('experimental-webgl')
-        );
-        if (!hasGl) {
+        if (!detectWebGLSupport()) {
           setWebglError(true);
           return;
         }
@@ -242,6 +295,7 @@ export default function Kitesurfing3DMap({
 
         mapInstance = new maplibregl.Map({
           container: containerRef.current,
+          failIfMajorPerformanceCaveat: false,
           style: {
             version: 8,
             sources: {
@@ -369,13 +423,19 @@ export default function Kitesurfing3DMap({
           return { id: pt.id, marker, btn, kind: pt.kind };
         });
 
+        detachLoss = attachWebGLLossHandler(mapInstance, () => {
+          if (!isCancelled) setWebglError(true);
+        });
+
         mapInstance.on('error', (ev: any) => {
           if (ev?.error?.message && /webgl/i.test(ev.error.message)) {
-            setWebglError(true);
+            console.warn('[Kitesurfing3DMap] MapLibre WebGL error:', ev.error);
+            if (!isCancelled) setWebglError(true);
           }
         });
-      } catch {
-        setWebglError(true);
+      } catch (err) {
+        console.warn('[Kitesurfing3DMap] WebGL init failed, switching to 2D Leaflet:', err);
+        if (!isCancelled) setWebglError(true);
       }
     }
 
@@ -383,16 +443,42 @@ export default function Kitesurfing3DMap({
 
     return () => {
       isCancelled = true;
+      detachLoss();
       popupRef.current = null;
       markersRef.current.forEach((m) => m.marker.remove());
       markersRef.current = [];
       if (mapInstance) mapInstance.remove();
       mapRef.current = null;
     };
-  }, [initialSpot.bearing, initialSpot.coordinates, initialSpot.pitch, initialSpot.zoom, locale]);
+  }, [initialSpot.bearing, initialSpot.coordinates, initialSpot.pitch, initialSpot.zoom, locale, webglError]);
 
   // Fly camera when active spot switches
   useEffect(() => {
+    const spotChanged = prevSpotRef.current !== activeSpotId;
+    prevSpotRef.current = activeSpotId;
+
+    if (spotChanged) {
+      fallbackNonceRef.current += 1;
+      if (activeSpotId === 'all') {
+        setFallbackCameraTarget({
+          nonce: fallbackNonceRef.current,
+          mode: 'flyTo',
+          center: REGION_OVERVIEW.center,
+          zoom: REGION_OVERVIEW.zoom,
+        });
+      } else {
+        const spot = WIND_SPOTS.find((s) => s.id === activeSpotId);
+        if (spot) {
+          setFallbackCameraTarget({
+            nonce: fallbackNonceRef.current,
+            mode: 'flyTo',
+            center: spot.coordinates,
+            zoom: spot.zoom,
+          });
+        }
+      }
+    }
+
     const map = mapRef.current;
     if (!map) return;
     const isTopo = viewModeRef.current === 'topo';
@@ -422,6 +508,23 @@ export default function Kitesurfing3DMap({
 
   // Highlight & focus point when changed externally
   useEffect(() => {
+    const pointChanged = prevPointRef.current !== focusedPointId;
+    prevPointRef.current = focusedPointId;
+
+    if (pointChanged && focusedPointId) {
+      const pt = WIND_MAP_POINTS.find((p) => p.id === focusedPointId);
+      if (pt) {
+        fallbackNonceRef.current += 1;
+        setFallbackCameraTarget({
+          nonce: fallbackNonceRef.current,
+          mode: 'flyTo',
+          center: pt.coordinates,
+          zoom: pt.kind === 'no-kite' ? 12.2 : 13.4,
+        });
+        setFallbackPopupNonce((n) => n + 1);
+      }
+    }
+
     const map = mapRef.current;
     const maplibregl = maplibreRef.current;
     markersRef.current.forEach(({ id, btn }) => {
@@ -506,6 +609,15 @@ export default function Kitesurfing3DMap({
             type="button"
             onClick={() => {
               if (popupRef.current) popupRef.current.remove();
+              if (activeSpotId === 'all') {
+                fallbackNonceRef.current += 1;
+                setFallbackCameraTarget({
+                  nonce: fallbackNonceRef.current,
+                  mode: 'flyTo',
+                  center: REGION_OVERVIEW.center,
+                  zoom: REGION_OVERVIEW.zoom,
+                });
+              }
               onSelectSpot('all');
             }}
             className={`px-3 py-1.5 rounded-lg text-[11px] font-bold transition-colors ${
@@ -521,19 +633,33 @@ export default function Kitesurfing3DMap({
 
       {/* Canvas */}
       {webglError ? (
-        <div className="h-[390px] sm:h-[440px] flex flex-col items-center justify-center p-6 text-center bg-slate-900/95 space-y-3">
-          <FaMapMarkedAlt className="text-4xl text-cyan-400" />
-          <p className="font-bold text-sm text-white">{ui.fallbackTitle}</p>
-          <p className="text-xs text-slate-400 max-w-md">{ui.fallbackDesc}</p>
-          <a
-            href="https://maps.google.com/?q=37.0378,28.3292"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-xs font-bold text-white"
-          >
-            <FaExternalLinkAlt size={10} /> {ui.openGmaps}
-          </a>
-        </div>
+        <LeafletFallbackMap
+          baseLayer={viewMode === 'topo' ? 'topo' : 'satellite'}
+          initialCenter={
+            activeSpotId === 'all'
+              ? REGION_OVERVIEW.center
+              : fallbackInitialSpot?.coordinates ?? initialSpot.coordinates
+          }
+          initialZoom={
+            activeSpotId === 'all'
+              ? REGION_OVERVIEW.zoom
+              : fallbackInitialSpot?.zoom ?? initialSpot.zoom
+          }
+          cameraTarget={fallbackCameraTarget}
+          markers={fallbackMarkers}
+          activePopupId={focusedPointId}
+          popupNonce={fallbackPopupNonce}
+          onSelectMarker={onSelectPoint}
+          polylines={fallbackPolylines}
+          heightClassName="h-[390px] sm:h-[440px]"
+          fallbackBadgeText={fbCopy.badge}
+          retry3dLabel={fbCopy.retry3d}
+          onRetry3d={() => setWebglError(false)}
+          emergencyMapsUrl="https://maps.google.com/?q=37.0378,28.3292"
+          emergencyMapsLabel={ui.openGmaps}
+          emergencyTitle={ui.fallbackTitle}
+          emergencyDesc={ui.fallbackDesc}
+        />
       ) : (
         <div ref={containerRef} className="w-full h-[390px] sm:h-[440px] bg-slate-950" />
       )}

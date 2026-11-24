@@ -86,3 +86,40 @@
     @apply border-slate-200/80 my-8;
   }
 }
+
+/* Leaflet map isolation & theme overrides */
+.dalaman-leaflet-container,
+.dalaman-leaflet-container.leaflet-container {
+  position: relative;
+  isolation: isolate;
+  z-index: 0;
+  background: #020617;
+}
+
+.dalaman-leaflet-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.dalaman-leaflet-container .leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  padding: 0;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.35);
+}
+
+.dalaman-leaflet-container .leaflet-popup-content {
+  margin: 10px 12px;
+}
+
+.dalaman-leaflet-container .leaflet-popup-close-button {
+  color: #64748b;
+  padding: 4px 6px 0 0;
+  font-size: 16px;
+}
+
+.dalaman-leaflet-container .leaflet-bar {
+  border: 1px solid rgba(15, 23, 42, 0.18) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+}

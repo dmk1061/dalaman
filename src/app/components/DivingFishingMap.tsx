@@ -1,8 +1,11 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from 'react';
-import 'maplibre-gl/dist/maplibre-gl.css';
-import { FaBan, FaCompass, FaExternalLinkAlt, FaFish, FaLayerGroup, FaMapMarkedAlt, FaWater } from 'react-icons/fa';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { FaBan, FaCompass, FaFish, FaLayerGroup, FaMapMarkedAlt, FaWater } from 'react-icons/fa';
+import LeafletFallbackMap, {
+  type LeafletCameraTarget,
+  type LeafletMarkerItem,
+} from './LeafletFallbackMap';
 import {
   COASTAL_SPOTS,
   COAST_ZONES,
@@ -188,209 +191,92 @@ export default function DivingFishingMap({
   onResetAll,
 }: DivingFishingMapProps) {
   const t = MAP_COPY[locale] || MAP_COPY.en;
-  const containerRef = useRef<HTMLDivElement | null>(null);
-  const mapRef = useRef<any>(null);
-  const maplibreRef = useRef<any>(null);
-  const markersRef = useRef<{ spotId: string; marker: any; btn: HTMLButtonElement; category: SpotCategory }[]>([]);
-  const popupRef = useRef<any>(null);
-  const onSelectSpotRef = useRef(onSelectSpot);
-  onSelectSpotRef.current = onSelectSpot;
 
   const [baseLayer, setBaseLayer] = useState<'satellite' | 'topo'>('satellite');
-  const [webglError, setWebglError] = useState(false);
+  const [cameraTarget, setCameraTarget] = useState<LeafletCameraTarget | null>(null);
+  const [popupNonce, setPopupNonce] = useState(0);
 
-  // Initialize MapLibre once
-  useEffect(() => {
-    let isCancelled = false;
-    let mapInstance: any = null;
+  const nonceRef = useRef(0);
+  const prevZoneRef = useRef(selectedZone);
+  const prevSpotRef = useRef(selectedSpotId);
 
-    async function initMap() {
-      if (!containerRef.current) return;
-      try {
-        const canvas = document.createElement('canvas');
-        const hasGl = Boolean(
-          canvas.getContext('webgl') || canvas.getContext('experimental-webgl')
-        );
-        if (!hasGl) {
-          setWebglError(true);
-          return;
-        }
-
-        const mod = await import('maplibre-gl');
-        const maplibregl = mod.default || mod;
-        if (isCancelled || !containerRef.current) return;
-        maplibreRef.current = maplibregl;
-
-        mapInstance = new maplibregl.Map({
-          container: containerRef.current,
-          style: {
-            version: 8,
-            sources: {
-              esri: {
-                type: 'raster',
-                tiles: [
-                  'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-                ],
-                tileSize: 256,
-                maxzoom: 17,
-              },
-              opentopo: {
-                type: 'raster',
-                tiles: ['https://a.tile.opentopomap.org/{z}/{x}/{y}.png'],
-                tileSize: 256,
-                maxzoom: 17,
-              },
-            },
-            layers: [
-              { id: 'bg', type: 'background', paint: { 'background-color': '#0f172a' } },
-              {
-                id: 'esri-satellite',
-                type: 'raster',
-                source: 'esri',
-                layout: { visibility: 'visible' },
-              },
-              {
-                id: 'opentopo-layer',
-                type: 'raster',
-                source: 'opentopo',
-                layout: { visibility: 'none' },
-              },
-            ],
-          },
-          center: REGION_OVERVIEW.center,
-          zoom: REGION_OVERVIEW.zoom,
-          attributionControl: false,
-        });
-
-        mapInstance.addControl(new maplibregl.NavigationControl({ showCompass: true }), 'top-right');
-        mapRef.current = mapInstance;
-
-        markersRef.current = COASTAL_SPOTS.map((spot, idx) => {
-          const btn = document.createElement('button');
-          btn.type = 'button';
-          btn.title = spot.title[locale] || spot.title.en;
-          btn.textContent = spot.category === 'restricted' ? '!' : String(idx + 1);
-          btn.style.cssText = [
-            'width:28px',
-            'height:28px',
-            'border-radius:9999px',
-            `background:${CATEGORY_COLORS[spot.category]}`,
-            'color:#ffffff',
-            'border:2.5px solid #ffffff',
-            'font-size:11px',
-            'font-weight:800',
-            'cursor:pointer',
-            'display:flex',
-            'align-items:center',
-            'justify-content:center',
-            'box-shadow:0 4px 12px rgba(0,0,0,0.45)',
-            'transition:transform 0.15s ease, opacity 0.15s ease, box-shadow 0.15s ease',
-          ].join(';');
-
-          btn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            onSelectSpotRef.current(spot.id);
-            if (popupRef.current) popupRef.current.remove();
-            popupRef.current = new maplibregl.Popup({ offset: 18, closeButton: true })
-              .setLngLat(spot.coordinates)
-              .setHTML(buildPopupHtml(spot, locale, MAP_COPY[locale] || MAP_COPY.en))
-              .addTo(mapInstance);
-          });
-
-          const marker = new maplibregl.Marker({ element: btn, anchor: 'center' })
-            .setLngLat(spot.coordinates)
-            .addTo(mapInstance);
-
-          return { spotId: spot.id, marker, btn, category: spot.category };
-        });
-
-        mapInstance.on('error', (ev: any) => {
-          if (ev?.error?.message && /webgl/i.test(ev.error.message)) {
-            setWebglError(true);
-          }
-        });
-      } catch {
-        setWebglError(true);
-      }
-    }
-
-    initMap();
-
-    return () => {
-      isCancelled = true;
-      popupRef.current = null;
-      markersRef.current.forEach((m) => m.marker.remove());
-      markersRef.current = [];
-      if (mapInstance) mapInstance.remove();
-      mapRef.current = null;
-    };
-  }, [locale]);
-
-  // Update visible markers when filters or selected spot change
-  useEffect(() => {
-    markersRef.current.forEach(({ spotId, btn, category }) => {
-      const spot = COASTAL_SPOTS.find((s) => s.id === spotId);
-      if (!spot) return;
-
+  const markers = useMemo<LeafletMarkerItem[]>(() => {
+    return COASTAL_SPOTS.map((spot, idx) => {
       const matchesZone = selectedZone === 'all' || spot.zoneId === selectedZone;
       const matchesCat =
         categoryFilter === 'all' ||
-        category === categoryFilter ||
-        (categoryFilter === 'diving' && category === 'both') ||
-        (categoryFilter === 'fishing' && category === 'both');
+        spot.category === categoryFilter ||
+        (categoryFilter === 'diving' && spot.category === 'both') ||
+        (categoryFilter === 'fishing' && spot.category === 'both');
 
       const visible = matchesZone && matchesCat;
-      btn.style.display = visible ? 'flex' : 'none';
+      const isActive = spot.id === selectedSpotId;
 
-      const isActive = spotId === selectedSpotId;
-      btn.style.transform = isActive ? 'scale(1.28)' : 'scale(1)';
-      btn.style.boxShadow = isActive
-        ? '0 0 0 4px rgba(103, 232, 249, 0.75), 0 6px 16px rgba(0,0,0,0.5)'
-        : '0 4px 12px rgba(0,0,0,0.45)';
-      btn.style.zIndex = isActive ? '10' : '1';
+      return {
+        id: spot.id,
+        coordinates: spot.coordinates,
+        label: spot.category === 'restricted' ? '!' : String(idx + 1),
+        title: spot.title[locale] || spot.title.en,
+        color: CATEGORY_COLORS[spot.category],
+        minWidth: 28,
+        height: 28,
+        fontSize: 11,
+        visible,
+        active: isActive,
+        activeRingColor: 'rgba(103, 232, 249, 0.75)',
+        popupHtml: buildPopupHtml(spot, locale, t),
+      };
     });
-  }, [selectedZone, categoryFilter, selectedSpotId]);
+  }, [locale, t, selectedZone, categoryFilter, selectedSpotId]);
 
   // Fly camera when zone changes
   useEffect(() => {
-    const map = mapRef.current;
-    if (!map) return;
+    if (prevZoneRef.current === selectedZone) return;
+    prevZoneRef.current = selectedZone;
+    nonceRef.current += 1;
+
     if (selectedZone === 'all') {
-      map.flyTo({ center: REGION_OVERVIEW.center, zoom: REGION_OVERVIEW.zoom, speed: 1.0, essential: true });
+      setCameraTarget({
+        nonce: nonceRef.current,
+        mode: 'flyTo',
+        center: REGION_OVERVIEW.center,
+        zoom: REGION_OVERVIEW.zoom,
+      });
       return;
     }
+
     const zone = COAST_ZONES.find((z) => z.id === selectedZone);
     if (zone) {
-      map.flyTo({ center: zone.center, zoom: zone.zoom, speed: 1.05, essential: true });
+      setCameraTarget({
+        nonce: nonceRef.current,
+        mode: 'flyTo',
+        center: zone.center,
+        zoom: zone.zoom,
+      });
     }
   }, [selectedZone]);
 
   // Fly & open popup when selectedSpotId changes externally
   useEffect(() => {
-    const map = mapRef.current;
-    const maplibregl = maplibreRef.current;
-    if (!map || !maplibregl || !selectedSpotId) return;
+    if (prevSpotRef.current === selectedSpotId) return;
+    prevSpotRef.current = selectedSpotId;
+    if (!selectedSpotId) return;
 
     const spot = COASTAL_SPOTS.find((s) => s.id === selectedSpotId);
     if (!spot) return;
 
-    if (popupRef.current) popupRef.current.remove();
-    popupRef.current = new maplibregl.Popup({ offset: 18, closeButton: true })
-      .setLngLat(spot.coordinates)
-      .setHTML(buildPopupHtml(spot, locale, t))
-      .addTo(map);
-
-    map.flyTo({ center: spot.coordinates, zoom: 11.8, speed: 1.0, essential: true });
-  }, [selectedSpotId, locale, t]);
+    nonceRef.current += 1;
+    setCameraTarget({
+      nonce: nonceRef.current,
+      mode: 'flyTo',
+      center: spot.coordinates,
+      zoom: 11.8,
+    });
+    setPopupNonce((n) => n + 1);
+  }, [selectedSpotId]);
 
   const handleToggleLayer = (next: 'satellite' | 'topo') => {
     setBaseLayer(next);
-    const map = mapRef.current;
-    if (!map) return;
-    if (map.getLayer('esri-satellite') && map.getLayer('opentopo-layer')) {
-      map.setLayoutProperty('esri-satellite', 'visibility', next === 'satellite' ? 'visible' : 'none');
-      map.setLayoutProperty('opentopo-layer', 'visibility', next === 'topo' ? 'visible' : 'none');
-    }
   };
 
   return (
@@ -428,12 +314,12 @@ export default function DivingFishingMap({
             type="button"
             onClick={() => {
               onResetAll();
-              if (popupRef.current) popupRef.current.remove();
-              mapRef.current?.flyTo({
+              nonceRef.current += 1;
+              setCameraTarget({
+                nonce: nonceRef.current,
+                mode: 'flyTo',
                 center: REGION_OVERVIEW.center,
                 zoom: REGION_OVERVIEW.zoom,
-                speed: 1.0,
-                essential: true,
               });
             }}
             className="px-3 py-1.5 rounded-lg text-[11px] font-bold bg-slate-800 hover:bg-slate-700 text-slate-200 transition-colors"
@@ -443,24 +329,22 @@ export default function DivingFishingMap({
         </div>
       </div>
 
-      {/* Map Canvas */}
-      {webglError ? (
-        <div className="h-[380px] sm:h-[430px] flex flex-col items-center justify-center p-6 text-center bg-slate-900/95 space-y-3">
-          <FaMapMarkedAlt className="text-4xl text-cyan-400" />
-          <p className="font-bold text-sm text-white">{t.fallbackTitle}</p>
-          <p className="text-xs text-slate-400 max-w-md">{t.fallbackDesc}</p>
-          <a
-            href="https://maps.google.com/?q=36.53,28.62"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-xs font-bold text-white"
-          >
-            <FaExternalLinkAlt size={10} /> {t.openGoogleMaps}
-          </a>
-        </div>
-      ) : (
-        <div ref={containerRef} className="w-full h-[380px] sm:h-[430px] bg-slate-950" />
-      )}
+      {/* Map Canvas (WebGL-free Leaflet) */}
+      <LeafletFallbackMap
+        baseLayer={baseLayer}
+        initialCenter={REGION_OVERVIEW.center}
+        initialZoom={REGION_OVERVIEW.zoom}
+        cameraTarget={cameraTarget}
+        markers={markers}
+        activePopupId={selectedSpotId}
+        popupNonce={popupNonce}
+        onSelectMarker={onSelectSpot}
+        heightClassName="h-[380px] sm:h-[430px]"
+        emergencyMapsUrl="https://maps.google.com/?q=36.53,28.62"
+        emergencyMapsLabel={t.openGoogleMaps}
+        emergencyTitle={t.fallbackTitle}
+        emergencyDesc={t.fallbackDesc}
+      />
 
       {/* Legend Footer */}
       <div className="px-4 py-2.5 bg-slate-900 border-t border-slate-800 flex flex-wrap items-center justify-between gap-2 text-[11px] text-slate-300">

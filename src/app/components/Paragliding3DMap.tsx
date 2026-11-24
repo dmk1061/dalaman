@@ -1,8 +1,18 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { FaCube, FaExternalLinkAlt, FaLayerGroup, FaMapMarkedAlt } from 'react-icons/fa';
+import { FaCube, FaLayerGroup, FaMapMarkedAlt } from 'react-icons/fa';
+import LeafletFallbackMap, {
+  type LeafletCameraTarget,
+  type LeafletMarkerItem,
+  type LeafletPolylineItem,
+} from './LeafletFallbackMap';
+import {
+  attachWebGLLossHandler,
+  detectWebGLSupport,
+  FALLBACK_2D_LABELS,
+} from '@/lib/map-webgl';
 import {
   FLIGHT_MAP_POINTS,
   FLYING_SITES,
@@ -206,20 +216,78 @@ export default function Paragliding3DMap({
   viewModeRef.current = viewMode;
   const [webglError, setWebglError] = useState(false);
 
+  const [fallbackCameraTarget, setFallbackCameraTarget] = useState<LeafletCameraTarget | null>(null);
+  const [fallbackPopupNonce, setFallbackPopupNonce] = useState(0);
+  const fallbackNonceRef = useRef(0);
+  const prevSiteRef = useRef(activeSiteId);
+  const prevPointRef = useRef(focusedPointId);
+
+  const fbCopy = FALLBACK_2D_LABELS[locale] || FALLBACK_2D_LABELS.en;
   const initialSite = FLYING_SITES.find((s) => s.id === 'babadag')!;
+  const fallbackInitialSite = FLYING_SITES.find((s) => s.id === activeSiteId);
+
+  const fallbackPolylines = useMemo<LeafletPolylineItem[]>(() => {
+    const lines: LeafletPolylineItem[] = [
+      {
+        id: 'teleferik',
+        coordinates: TELEFERIK_LINE,
+        color: '#f59e0b',
+        weight: 3,
+        dashArray: '6 5',
+        casingColor: '#ffffff',
+        casingWeight: 5,
+        casingOpacity: 0.85,
+      },
+    ];
+    GLIDE_CORRIDORS.forEach((c) => {
+      lines.push({
+        id: c.id,
+        coordinates: c.coordinates,
+        color: '#06b6d4',
+        weight: 3,
+        dashArray: '8 6',
+        casingColor: '#ffffff',
+        casingWeight: 5,
+        casingOpacity: 0.7,
+      });
+    });
+    return lines;
+  }, []);
+
+  const fallbackMarkers = useMemo<LeafletMarkerItem[]>(() => {
+    return FLIGHT_MAP_POINTS.map((pt) => ({
+      id: pt.id,
+      coordinates: pt.coordinates,
+      label:
+        pt.kind === 'teleferik'
+          ? 'T'
+          : pt.kind === 'landing'
+          ? 'LZ'
+          : pt.kind === 'siv'
+          ? 'SIV'
+          : `${pt.altitudeM >= 1000 ? `${(pt.altitudeM / 1000).toFixed(1)}k` : pt.altitudeM}`,
+      title: pt.title[locale] || pt.title.en,
+      color: KIND_COLORS[pt.kind],
+      minWidth: 28,
+      height: 28,
+      paddingX: 6,
+      fontSize: 10,
+      active: pt.id === focusedPointId,
+      activeRingColor: 'rgba(103,232,249,0.75)',
+      popupHtml: buildPopupHtml(pt, locale, ui),
+    }));
+  }, [focusedPointId, locale, ui]);
 
   useEffect(() => {
+    if (webglError) return;
     let isCancelled = false;
     let mapInstance: any = null;
+    let detachLoss = () => {};
 
     async function initMap() {
       if (!containerRef.current) return;
       try {
-        const canvas = document.createElement('canvas');
-        const hasGl = Boolean(
-          canvas.getContext('webgl') || canvas.getContext('experimental-webgl')
-        );
-        if (!hasGl) {
+        if (!detectWebGLSupport()) {
           setWebglError(true);
           return;
         }
@@ -252,6 +320,7 @@ export default function Paragliding3DMap({
 
         mapInstance = new maplibregl.Map({
           container: containerRef.current,
+          failIfMajorPerformanceCaveat: false,
           style: {
             version: 8,
             sources: {
@@ -393,13 +462,19 @@ export default function Paragliding3DMap({
           return { id: pt.id, marker, btn, kind: pt.kind };
         });
 
+        detachLoss = attachWebGLLossHandler(mapInstance, () => {
+          if (!isCancelled) setWebglError(true);
+        });
+
         mapInstance.on('error', (ev: any) => {
           if (ev?.error?.message && /webgl/i.test(ev.error.message)) {
-            setWebglError(true);
+            console.warn('[Paragliding3DMap] MapLibre WebGL error:', ev.error);
+            if (!isCancelled) setWebglError(true);
           }
         });
-      } catch {
-        setWebglError(true);
+      } catch (err) {
+        console.warn('[Paragliding3DMap] WebGL init failed, switching to 2D Leaflet:', err);
+        if (!isCancelled) setWebglError(true);
       }
     }
 
@@ -407,16 +482,42 @@ export default function Paragliding3DMap({
 
     return () => {
       isCancelled = true;
+      detachLoss();
       popupRef.current = null;
       markersRef.current.forEach((m) => m.marker.remove());
       markersRef.current = [];
       if (mapInstance) mapInstance.remove();
       mapRef.current = null;
     };
-  }, [initialSite.bearing, initialSite.coordinates, initialSite.pitch, initialSite.zoom, locale]);
+  }, [initialSite.bearing, initialSite.coordinates, initialSite.pitch, initialSite.zoom, locale, webglError]);
 
   // Fly camera when active site changes
   useEffect(() => {
+    const siteChanged = prevSiteRef.current !== activeSiteId;
+    prevSiteRef.current = activeSiteId;
+
+    if (siteChanged) {
+      fallbackNonceRef.current += 1;
+      if (activeSiteId === 'all') {
+        setFallbackCameraTarget({
+          nonce: fallbackNonceRef.current,
+          mode: 'flyTo',
+          center: REGION_OVERVIEW.center,
+          zoom: REGION_OVERVIEW.zoom,
+        });
+      } else {
+        const site = FLYING_SITES.find((s) => s.id === activeSiteId);
+        if (site) {
+          setFallbackCameraTarget({
+            nonce: fallbackNonceRef.current,
+            mode: 'flyTo',
+            center: site.coordinates,
+            zoom: site.zoom,
+          });
+        }
+      }
+    }
+
     const map = mapRef.current;
     if (!map) return;
     const isTopo = viewModeRef.current === 'topo';
@@ -446,6 +547,23 @@ export default function Paragliding3DMap({
 
   // Highlight & focus point when changed externally
   useEffect(() => {
+    const pointChanged = prevPointRef.current !== focusedPointId;
+    prevPointRef.current = focusedPointId;
+
+    if (pointChanged && focusedPointId) {
+      const pt = FLIGHT_MAP_POINTS.find((p) => p.id === focusedPointId);
+      if (pt) {
+        fallbackNonceRef.current += 1;
+        setFallbackCameraTarget({
+          nonce: fallbackNonceRef.current,
+          mode: 'flyTo',
+          center: pt.coordinates,
+          zoom: pt.siteId === 'babadag' ? 13.4 : 13.1,
+        });
+        setFallbackPopupNonce((n) => n + 1);
+      }
+    }
+
     const map = mapRef.current;
     const maplibregl = maplibreRef.current;
     markersRef.current.forEach(({ id, btn }) => {
@@ -530,6 +648,15 @@ export default function Paragliding3DMap({
             type="button"
             onClick={() => {
               if (popupRef.current) popupRef.current.remove();
+              if (activeSiteId === 'all') {
+                fallbackNonceRef.current += 1;
+                setFallbackCameraTarget({
+                  nonce: fallbackNonceRef.current,
+                  mode: 'flyTo',
+                  center: REGION_OVERVIEW.center,
+                  zoom: REGION_OVERVIEW.zoom,
+                });
+              }
               onSelectSite('all');
             }}
             className={`px-3 py-1.5 rounded-lg text-[11px] font-bold transition-colors ${
@@ -545,19 +672,33 @@ export default function Paragliding3DMap({
 
       {/* Canvas */}
       {webglError ? (
-        <div className="h-[390px] sm:h-[440px] flex flex-col items-center justify-center p-6 text-center bg-slate-900/95 space-y-3">
-          <FaMapMarkedAlt className="text-4xl text-cyan-400" />
-          <p className="font-bold text-sm text-white">{ui.fallbackTitle}</p>
-          <p className="text-xs text-slate-400 max-w-md">{ui.fallbackDesc}</p>
-          <a
-            href="https://maps.google.com/?q=36.5401,29.1690"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-xs font-bold text-white"
-          >
-            <FaExternalLinkAlt size={10} /> {ui.openGmaps}
-          </a>
-        </div>
+        <LeafletFallbackMap
+          baseLayer={viewMode === 'topo' ? 'topo' : 'satellite'}
+          initialCenter={
+            activeSiteId === 'all'
+              ? REGION_OVERVIEW.center
+              : fallbackInitialSite?.coordinates ?? initialSite.coordinates
+          }
+          initialZoom={
+            activeSiteId === 'all'
+              ? REGION_OVERVIEW.zoom
+              : fallbackInitialSite?.zoom ?? initialSite.zoom
+          }
+          cameraTarget={fallbackCameraTarget}
+          markers={fallbackMarkers}
+          activePopupId={focusedPointId}
+          popupNonce={fallbackPopupNonce}
+          onSelectMarker={onSelectPoint}
+          polylines={fallbackPolylines}
+          heightClassName="h-[390px] sm:h-[440px]"
+          fallbackBadgeText={fbCopy.badge}
+          retry3dLabel={fbCopy.retry3d}
+          onRetry3d={() => setWebglError(false)}
+          emergencyMapsUrl="https://maps.google.com/?q=36.5401,29.1690"
+          emergencyMapsLabel={ui.openGmaps}
+          emergencyTitle={ui.fallbackTitle}
+          emergencyDesc={ui.fallbackDesc}
+        />
       ) : (
         <div ref={containerRef} className="w-full h-[390px] sm:h-[440px] bg-slate-950" />
       )}

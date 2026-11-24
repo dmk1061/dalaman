@@ -1,10 +1,20 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { FaCube, FaDownload, FaExternalLinkAlt, FaLayerGroup, FaMapMarkedAlt } from 'react-icons/fa';
 import type { LocaleCode } from '@/lib/trekking-data';
 import type { ProfileWaypointItem } from './TrailElevationProfile';
+import LeafletFallbackMap, {
+  type LeafletCameraTarget,
+  type LeafletMarkerItem,
+  type LeafletPolylineItem,
+} from './LeafletFallbackMap';
+import {
+  attachWebGLLossHandler,
+  detectWebGLSupport,
+  FALLBACK_2D_LABELS,
+} from '@/lib/map-webgl';
 
 export interface TrailSideBranchProp {
   label: string;
@@ -115,7 +125,7 @@ const UI_COPY: Record<
     legendMain: 'Основной трек OSM',
     controlsHint: (count) =>
       `ЛКМ — сдвиг · ПКМ / Ctrl+ЛКМ — наклон и поворот 3D-рельефа · Клик 1–${count} — точка`,
-    fallbackTitle: '3D-карта недоступна в текущем брауере (нет WebGL)',
+    fallbackTitle: '3D-карта недоступна в текущем браузере (нет WebGL)',
     fallbackDesc: 'Вы можете скачать реальный GPX-трек OpenStreetMap или открыть маршрут в Google Maps.',
     mUnit: 'м',
     kmUnit: 'км',
@@ -186,19 +196,13 @@ function escapeHtml(str: string): string {
     .replace(/"/g, '&quot;');
 }
 
-function showWaypointPopup(
-  maplibregl: any,
-  map: any,
+function buildWaypointPopupHtml(
   wp: ProfileWaypointItem,
   idx: number,
-  popupRef: React.MutableRefObject<any>,
   kmUnit: string,
   mUnit: string
-) {
-  if (popupRef.current) {
-    popupRef.current.remove();
-  }
-  const html = `
+): string {
+  return `
     <div style="font-family:system-ui,sans-serif;max-width:220px;padding:2px;">
       <div style="font-size:11px;font-weight:800;color:#0891b2;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:3px;">
         ${idx + 1}. ${escapeHtml(wp.title)}
@@ -211,6 +215,21 @@ function showWaypointPopup(
       </div>
     </div>
   `;
+}
+
+function showWaypointPopup(
+  maplibregl: any,
+  map: any,
+  wp: ProfileWaypointItem,
+  idx: number,
+  popupRef: React.MutableRefObject<any>,
+  kmUnit: string,
+  mUnit: string
+) {
+  if (popupRef.current) {
+    popupRef.current.remove();
+  }
+  const html = buildWaypointPopupHtml(wp, idx, kmUnit, mUnit);
   popupRef.current = new maplibregl.Popup({ offset: 18, closeButton: true })
     .setLngLat([wp.lon, wp.lat])
     .setHTML(html)
@@ -246,6 +265,12 @@ export default function Trail3DViewer({
   const [activePreset, setActivePreset] = useState<ViewPreset>('overview');
   const [webglError, setWebglError] = useState(false);
 
+  const [fallbackCameraTarget, setFallbackCameraTarget] = useState<LeafletCameraTarget | null>(null);
+  const [fallbackPopupNonce, setFallbackPopupNonce] = useState(0);
+  const fallbackNonceRef = useRef(0);
+  const prevWaypointIdxRef = useRef(activeWaypointIdx);
+
+  const fbCopy = FALLBACK_2D_LABELS[locale] || FALLBACK_2D_LABELS.en;
   const activePresetRef = useRef<ViewPreset>(activePreset);
   activePresetRef.current = activePreset;
   const unitsRef = useRef({ kmUnit: t.kmUnit, mUnit: t.mUnit });
@@ -253,18 +278,63 @@ export default function Trail3DViewer({
 
   const branchKey = sideBranch ? `${sideBranch.label}:${sideBranch.points.length}` : 'none';
 
+  const fallbackPolylines = useMemo<LeafletPolylineItem[]>(() => {
+    const lines: LeafletPolylineItem[] = [
+      {
+        id: 'main-trail',
+        coordinates: points.map(([lon, lat]) => [lon, lat]),
+        color: '#ef4444',
+        weight: 4,
+        casingColor: '#ffffff',
+        casingWeight: 7,
+        casingOpacity: 0.9,
+      },
+    ];
+    if (sideBranch && sideBranch.points.length > 1) {
+      lines.push({
+        id: 'branch-trail',
+        coordinates: sideBranch.points.map(([lon, lat]) => [lon, lat]),
+        color: '#06b6d4',
+        weight: 3,
+        dashArray: '6 5',
+        casingColor: '#ffffff',
+        casingWeight: 5.5,
+        casingOpacity: 0.8,
+      });
+    }
+    return lines;
+  }, [points, sideBranch]);
+
+  const fallbackMarkers = useMemo<LeafletMarkerItem[]>(() => {
+    return waypoints.map((wp, idx) => {
+      const isSelected = idx === activeWaypointIdx;
+      return {
+        id: String(idx),
+        coordinates: [wp.lon, wp.lat],
+        label: String(idx + 1),
+        title: wp.title,
+        color: isSelected ? '#0891b2' : '#0f172a',
+        borderColor: isSelected ? '#67e8f9' : '#ffffff',
+        minWidth: 26,
+        height: 26,
+        fontSize: 11,
+        active: isSelected,
+        activeRingColor: 'rgba(103, 232, 249, 0.75)',
+        popupHtml: buildWaypointPopupHtml(wp, idx, t.kmUnit, t.mUnit),
+      };
+    });
+  }, [activeWaypointIdx, t.kmUnit, t.mUnit, waypoints]);
+
   useEffect(() => {
+    if (webglError) return;
     let isCancelled = false;
     let mapInstance: any = null;
+    let detachLoss = () => {};
 
     async function initMap() {
       if (!containerRef.current) return;
       try {
-        const canvas = document.createElement('canvas');
-        const hasGl = Boolean(
-          canvas.getContext('webgl') || canvas.getContext('experimental-webgl')
-        );
-        if (!hasGl) {
+        if (!detectWebGLSupport()) {
           setWebglError(true);
           return;
         }
@@ -410,6 +480,7 @@ export default function Trail3DViewer({
 
         mapInstance = new maplibregl.Map({
           container: containerRef.current,
+          failIfMajorPerformanceCaveat: false,
           style: styleConfig,
           ...presetsRef.current.overview,
           maxPitch: 75,
@@ -466,13 +537,19 @@ export default function Trail3DViewer({
           return btn;
         });
 
+        detachLoss = attachWebGLLossHandler(mapInstance, () => {
+          if (!isCancelled) setWebglError(true);
+        });
+
         mapInstance.on('error', (ev: any) => {
           if (ev?.error?.message && /webgl/i.test(ev.error.message)) {
-            setWebglError(true);
+            console.warn('[Trail3DViewer] MapLibre WebGL error:', ev.error);
+            if (!isCancelled) setWebglError(true);
           }
         });
-      } catch {
-        setWebglError(true);
+      } catch (err) {
+        console.warn('[Trail3DViewer] WebGL init failed, switching to 2D Leaflet:', err);
+        if (!isCancelled) setWebglError(true);
       }
     }
 
@@ -480,6 +557,7 @@ export default function Trail3DViewer({
 
     return () => {
       isCancelled = true;
+      detachLoss();
       popupRef.current = null;
       if (mapInstance) {
         mapInstance.remove();
@@ -487,10 +565,25 @@ export default function Trail3DViewer({
       mapRef.current = null;
       markerElsRef.current = [];
     };
-  }, [branchKey, points, sideBranch, trailName, waypoints]);
+  }, [branchKey, points, sideBranch, trailName, waypoints, webglError]);
 
   // Sync active waypoint highlight & fly camera when changed externally (e.g., from elevation profile)
   useEffect(() => {
+    const waypointChanged = prevWaypointIdxRef.current !== activeWaypointIdx;
+    prevWaypointIdxRef.current = activeWaypointIdx;
+
+    if (waypointChanged && activeWaypointIdx !== null && waypoints[activeWaypointIdx]) {
+      const wp = waypoints[activeWaypointIdx];
+      fallbackNonceRef.current += 1;
+      setFallbackCameraTarget({
+        nonce: fallbackNonceRef.current,
+        mode: 'flyTo',
+        center: [wp.lon, wp.lat],
+        zoom: 15.0,
+      });
+      setFallbackPopupNonce((n) => n + 1);
+    }
+
     const map = mapRef.current;
     const maplibregl = maplibreRef.current;
 
@@ -524,6 +617,14 @@ export default function Trail3DViewer({
 
   const handleSelectPreset = (preset: ViewPreset) => {
     setActivePreset(preset);
+    fallbackNonceRef.current += 1;
+    setFallbackCameraTarget({
+      nonce: fallbackNonceRef.current,
+      mode: 'flyTo',
+      center: presets[preset].center,
+      zoom: presets[preset].zoom,
+    });
+
     const map = mapRef.current;
     if (!map) return;
 
@@ -666,55 +767,52 @@ export default function Trail3DViewer({
       </div>
 
       {/* Map Viewport or WebGL Fallback */}
-      {webglError ? (
-        <div className="p-8 sm:p-12 text-center bg-slate-950/70 space-y-4">
-          <FaMapMarkedAlt className="mx-auto text-4xl text-cyan-400" />
-          <h4 className="text-base font-bold text-white">{t.fallbackTitle}</h4>
-          <p className="text-xs sm:text-sm text-slate-300 max-w-lg mx-auto">{t.fallbackDesc}</p>
-          <div className="flex flex-wrap justify-center gap-3 pt-2">
-            <button
-              type="button"
-              onClick={handleDownloadGpx}
-              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold"
-            >
-              <FaDownload size={11} /> {t.downloadGpx}
-            </button>
-            <a
-              href={mapsUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white text-xs font-bold border border-slate-700"
-            >
-              <FaExternalLinkAlt size={10} /> {t.openGoogleMaps}
-            </a>
-          </div>
-        </div>
-      ) : (
-        <div className="relative w-full h-[380px] sm:h-[460px] lg:h-[500px] bg-slate-950">
+      <div className="relative w-full h-[380px] sm:h-[460px] lg:h-[500px] bg-slate-950">
+        {webglError ? (
+          <LeafletFallbackMap
+            baseLayer={activePreset === 'topo' ? 'topo' : 'satellite'}
+            initialCenter={presets[activePreset].center}
+            initialZoom={presets[activePreset].zoom}
+            cameraTarget={fallbackCameraTarget}
+            markers={fallbackMarkers}
+            activePopupId={activeWaypointIdx !== null ? String(activeWaypointIdx) : null}
+            popupNonce={fallbackPopupNonce}
+            onSelectMarker={(id) => onSelectWaypoint(Number(id))}
+            polylines={fallbackPolylines}
+            heightClassName="h-full"
+            fallbackBadgeText={fbCopy.badge}
+            retry3dLabel={fbCopy.retry3d}
+            onRetry3d={() => setWebglError(false)}
+            emergencyMapsUrl={mapsUrl}
+            emergencyMapsLabel={t.openGoogleMaps}
+            emergencyTitle={t.fallbackTitle}
+            emergencyDesc={t.fallbackDesc}
+          />
+        ) : (
           <div ref={containerRef} className="w-full h-full" />
+        )}
 
-          {/* Floating Legend */}
-          <div className="absolute left-3 top-3 z-10 bg-slate-900/85 backdrop-blur-md border border-white/15 rounded-xl px-3 py-2 text-[11px] space-y-1 pointer-events-none">
-            <div className="flex items-center gap-2 text-white font-semibold">
-              <span className="w-4 h-1 rounded bg-red-500 inline-block" />
-              <span>
-                {t.legendMain} ({formattedTotalKm} {t.kmUnit})
-              </span>
+        {/* Floating Legend */}
+        <div className="absolute left-3 top-3 z-10 bg-slate-900/85 backdrop-blur-md border border-white/15 rounded-xl px-3 py-2 text-[11px] space-y-1 pointer-events-none">
+          <div className="flex items-center gap-2 text-white font-semibold">
+            <span className="w-4 h-1 rounded bg-red-500 inline-block" />
+            <span>
+              {t.legendMain} ({formattedTotalKm} {t.kmUnit})
+            </span>
+          </div>
+          {hasVisibleBranch && sideBranch && (
+            <div className="flex items-center gap-2 text-cyan-200 font-semibold">
+              <span className="w-4 border-t-2 border-dashed border-cyan-400 inline-block" />
+              <span>{sideBranch.label}</span>
             </div>
-            {hasVisibleBranch && sideBranch && (
-              <div className="flex items-center gap-2 text-cyan-200 font-semibold">
-                <span className="w-4 border-t-2 border-dashed border-cyan-400 inline-block" />
-                <span>{sideBranch.label}</span>
-              </div>
-            )}
-          </div>
-
-          {/* Bottom Interaction Hint */}
-          <div className="hidden sm:block absolute left-3 bottom-3 z-10 bg-slate-900/80 backdrop-blur-md border border-white/15 rounded-lg px-2.5 py-1 text-[11px] text-slate-300 pointer-events-none">
-            {t.controlsHint(waypoints.length)}
-          </div>
+          )}
         </div>
-      )}
+
+        {/* Bottom Interaction Hint */}
+        <div className="hidden sm:block absolute left-3 bottom-3 z-10 bg-slate-900/80 backdrop-blur-md border border-white/15 rounded-lg px-2.5 py-1 text-[11px] text-slate-300 pointer-events-none">
+          {t.controlsHint(waypoints.length)}
+        </div>
+      </div>
 
       {/* Mandatory ODbL / DEM Attribution Bar */}
       <div className="px-4 py-2 bg-slate-950 text-[11px] text-slate-400 flex flex-wrap items-center justify-between gap-2 border-t border-slate-800">
