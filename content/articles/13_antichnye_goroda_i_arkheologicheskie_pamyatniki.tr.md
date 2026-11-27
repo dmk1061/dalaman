@@ -46,6 +46,7 @@ Büyük sahil ören yerlerinde yaz aylarında tur kafileleriyle karşılaşabili
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif 3D Rehber: Likya ve Karya Antik Kentleri 2026](/tr/ancient-cities)** — 15 noktalı 3D harita, Ege/Akdeniz bilet hesaplayıcı ve 5 ücretsiz kent (0 €).
 - **[Bölge Tarihi: Likyalılar ve Karyalılar](/tr/articles/history)** — Bu kentlerin hikâyesi ve Likya Birliği.
 - **[Tarihî ve Kültürel Anıtlar](/tr/articles/historical-and-cultural-monuments)** — Kaya mezarları, Osmanlı kaleleri ve Dalaman Garı.
 - **[Tlos Antik Kenti Rehberi](/tr/articles/tlos-ancient-city)** — Ulaşım ve ayrıntılı gezi planı.

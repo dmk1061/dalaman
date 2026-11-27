@@ -49,6 +49,7 @@ During both *Bayram* breaks, millions drive south from Istanbul, Ankara, and Izm
 ---
 
 ### 🔗 See Also
+- **[Interactive 3D Hub: Coastal Festivals, Regattas & Nightlife 2026–2027](/en/nightlife#festivals)** — 3D map of festival venues, seasonal filters & 2027 Bayram surge alerts.
 - **[Extended Coastal Festivals & Fairs Calendar](/en/articles/events-and-festivals-calendar)** — deep-dive month-by-month cultural planner.
 - **[Climate & Best Seasons Around Dalaman](/en/articles/climate-and-seasons)** — lining up clear skies with local celebrations.
 - **[Yachting & Autumn Sailing Regattas](/en/articles/yachting)** — Race Week energy in Marmaris and Göcek.

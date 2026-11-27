@@ -47,6 +47,7 @@ Fethiye güneyinde iki önemli koruma alanı daha yer alır:
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif 3D Rehber: Millî Parklar, Kanyonlar ve Koruma Alanları 2026](/tr/nature-parks)** — 15 noktalı 3D harita, +6–40 °C su sıcaklıkları, serin rota seçici ve 2026 kuralları.
 - **[Kanyonlar, Nehirler ve Göller](/tr/articles/natural-attractions-canyons-rivers-lakes)** — Yuvarlakçay, Toparlar Şelalesi ve Dalaman Çayı.
 - **[İztuzu Plajı Rehberi](/tr/articles/iztuzu-beach)** — Ulaşım yolları ve koruma saatleri.
 - **[Bölgenin Flora ve Faunası](/tr/articles/flora-fauna)** — Endemik türler ve deniz canlıları.

@@ -47,6 +47,7 @@ All major outdoor waterparks run daily during warm season (roughly early May thr
 ---
 
 ### 🔗 See Also
+- **[Interactive Family Hub: 16-Spot Map, 18 Ideas & Stroller Index](/en/family)** — filter by age (0–17), EUR family budgets, 7-town resort matrix & 2026 heat/pharmacy survival guide.
 - **[Best Beaches Around Dalaman](/en/articles/beaches)** — finding calm, pebble-free sand near your resort.
 - **[Where to Stay: Resorts, Aparthotels & Villas](/en/articles/accommodation)** — choosing kid-friendly layouts and heating/AC.
 - **[Dalaman Airport Transfers](/en/services/transfers)** — pre-book private vans fitted with proper child seats.

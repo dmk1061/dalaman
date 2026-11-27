@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaPlane, FaBus, FaTaxi, FaCarSide, FaKey, FaCompass, FaSun, FaUtensils, FaLandmark, FaMapMarkedAlt, FaFish, FaPaperPlane, FaWind, FaHotTub, FaShoppingBag } from 'react-icons/fa';
+import { FaPlane, FaBus, FaTaxi, FaCarSide, FaKey, FaCompass, FaSun, FaUtensils, FaLandmark, FaMapMarkedAlt, FaFish, FaPaperPlane, FaWind, FaHotTub, FaShoppingBag, FaChild, FaCocktail, FaTree } from 'react-icons/fa';
 import { getDictionary, Locale } from '@/lib/dictionary';
 
 type LeftSidebarProps = {
@@ -171,14 +171,50 @@ const LeftSidebar = async ({ locale = 'ru' }: LeftSidebarProps) => {
     {
       title:
         locale === 'ru'
+          ? 'Семейный отдых с детьми'
+          : locale === 'de'
+          ? 'Familienurlaub mit Kindern'
+          : locale === 'tr'
+          ? 'Çocuklarla Aile Tatili'
+          : 'Family Vacation with Kids',
+      href: '/family',
+      icon: <FaChild className="text-blue-500" />,
+    },
+    {
+      title:
+        locale === 'ru'
+          ? 'Вечерняя жизнь и фестивали'
+          : locale === 'de'
+          ? 'Nachtleben & Festivals'
+          : locale === 'tr'
+          ? 'Gece Hayatı ve Festivaller'
+          : 'Nightlife & Festivals',
+      href: '/nightlife',
+      icon: <FaCocktail className="text-rose-500" />,
+    },
+    {
+      title:
+        locale === 'ru'
           ? 'Античные города Карии и Ликии'
           : locale === 'de'
           ? 'Antike Städte (Karien & Lykien)'
           : locale === 'tr'
           ? 'Antik Kentler (Karya ve Likya)'
           : 'Ancient Cities of Caria & Lycia',
-      href: '/articles/ancient-cities',
+      href: '/ancient-cities',
       icon: <FaLandmark className="text-indigo-600" />,
+    },
+    {
+      title:
+        locale === 'ru'
+          ? 'Природа, парки и заповедники'
+          : locale === 'de'
+          ? 'Natur & Nationalparks'
+          : locale === 'tr'
+          ? 'Doğa ve Millî Parklar'
+          : 'Nature & National Parks',
+      href: '/nature-parks',
+      icon: <FaTree className="text-emerald-600" />,
     },
   ];
 

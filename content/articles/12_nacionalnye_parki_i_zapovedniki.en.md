@@ -48,6 +48,7 @@ East toward Kaş, two major reserves demand separate planning:
 ---
 
 ### 🔗 See Also
+- **[Interactive 3D Hub: National Parks, Canyons & Reserves 2026](/en/nature-parks)** — 15-pin 3D map, water temp spectrum (+6–40 °C), cool-escape picker & 2026 curfew rules.
 - **[Canyons, Rivers & Lakes Around Dalaman](/en/articles/natural-attractions-canyons-rivers-lakes)** — Saklıkent, Gizlikent, and hot springs.
 - **[İztuzu Turtle Beach Guide](/en/articles/iztuzu-beach)** — boat vs. road access and nesting etiquette.
 - **[Flora & Fauna of the Coast](/en/articles/flora-fauna)** — endemic trees, mountain wildlife, and marine species.

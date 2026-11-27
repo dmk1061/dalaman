@@ -46,6 +46,7 @@ Diyanet İşleri Başkanlığı takvimine göre Hicri takvim her yıl 10–11 g�
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif 3D Rehber: Bölge Festivalleri, Regattalar ve Gece Hayatı 2026–2027](/tr/nightlife#festivals)** — 3D festival alanları haritası, sezon filtresi ve 2027 bayram uyarıları.
 - **[Detaylı Etkinlik ve Fuar Takvimi](/tr/articles/events-and-festivals-calendar)** — Aylara göre tüm konser ve panayırlar.
 - **[İklim ve Mevsim Rehberi](/tr/articles/climate-and-seasons)** — Festivalleri en doğru deniz suyuyla eşleştirme.
 - **[Yatçılık ve Sonbahar Regattaları](/tr/articles/yachting)** — Marmaris ve Göcek yarış haftaları.

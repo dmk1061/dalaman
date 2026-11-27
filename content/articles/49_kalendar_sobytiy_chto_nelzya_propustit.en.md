@@ -113,6 +113,7 @@ Compare broad cultural holiday context in our [regional events overview](/en/art
 ---
 
 ### 🔗 See Also
+- **[Interactive 3D Hub: Coastal Festivals, Regattas & Nightlife 2026–2027](/en/nightlife#festivals)** — 3D map of festival venues, seasonal filter & 2027 Bayram surges.
 - **[Events, Public Holidays & Travel Surges](/en/articles/events-festivals)** — broader overview of national holidays and school breaks.
 - **[Climate & Best Seasons Around Dalaman](/en/articles/climate-and-seasons)** — month-by-month sunshine, wind, and sea temperatures.
 - **[Paragliding Over Ölüdeniz Blue Lagoon](/en/articles/paragliding)** — timing trips for October's sky show.

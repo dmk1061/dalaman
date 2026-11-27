@@ -106,11 +106,11 @@ const Header = async ({ locale = 'ru' }: HeaderProps) => {
         },
         {
           name: dict.header.nav.ancient_cities,
-          href: '/articles/ancient-cities',
+          href: '/ancient-cities',
         },
         {
           name: dict.header.nav.nature_parks,
-          href: '/articles/national-parks-and-nature-reserves',
+          href: '/nature-parks',
         },
       ],
     },
@@ -143,11 +143,11 @@ const Header = async ({ locale = 'ru' }: HeaderProps) => {
         },
         {
           name: locale === 'ru' ? 'Семейный отдых с детьми' : locale === 'de' ? 'Familienurlaub mit Kindern' : locale === 'tr' ? 'Çocuklarla Aile Tatili' : 'Family Vacation with Kids',
-          href: '/articles/family-vacation-kids-entertainment',
+          href: '/family',
         },
         {
           name: locale === 'ru' ? 'Вечерняя жизнь и фестивали' : locale === 'de' ? 'Nachtleben & Festivals' : locale === 'tr' ? 'Gece Hayatı ve Festivaller' : 'Nightlife & Festivals',
-          href: '/articles/nightlife-clubs-and-bars',
+          href: '/nightlife',
         },
       ],
     },

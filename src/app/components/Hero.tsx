@@ -70,7 +70,7 @@ const Hero = ({ locale = 'ru' }: HeroProps) => {
             {dict.hero.btn_beach}
           </Link>
           <Link
-            href={localize('/articles/ancient-cities')}
+            href={localize('/ancient-cities')}
             className="px-7 py-3.5 bg-white/15 backdrop-blur-md text-white border border-white/30 rounded-full font-bold text-xs uppercase tracking-wider hover:bg-white/25 transition-all shadow-lg hover:-translate-y-0.5 active:translate-y-0"
           >
             {dict.hero.btn_history}

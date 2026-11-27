@@ -46,6 +46,7 @@ In upscale yachting **[Göcek](/en/gocek)**, marina wine bars and polished loung
 ---
 
 ### 🔗 See Also
+- **[Interactive 3D Hub: Nightlife, Bars & Coastal Festivals 2026](/en/nightlife)** — 21-pin 3D map, tonight's destination matcher, 8-festival calendar & 00:00 curfew breakdown.
 - **[Restaurants, Cafes & Bars Around Dalaman](/en/articles/restaurants-cafes-and-bars-guide)** — starting your evening right in Old Town lanes.
 - **[Drinks in Turkey: Rakı, Wines & Craft Beer](/en/articles/alkogol-v-turtsii-chto-pit-i-gde-pokupat)** — remember the 22:00 supermarket bottle cutoff.
 - **[Regional Transport & Metered Taxis](/en/articles/transport)** — late *dolmuş* hours and calling cabs safely.

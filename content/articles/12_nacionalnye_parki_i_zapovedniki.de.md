@@ -45,6 +45,7 @@ Auf dem Kamm von Nimara führt ein rund 400–500 m langer Waldpfad zur **Nimara
 ---
 
 ### Siehe auch
+- **[Interaktiver 3D-Hub: Nationalparks, Schluchten & Naturwunder 2026](/de/nature-parks)** — 3D-Karte mit 15 Zielen, Wassertemperaturen (+6–40 °C) & Waldsperren 2026.
 - **[Schluchten, Flüsse und Seen](/de/articles/natural-attractions-canyons-rivers-lakes)** — Saklıkent, Gizlikent und der Köyceğiz-See.
 - **[İztuzu-Strand bei Dalyan](/de/articles/iztuzu-beach)** — praktische Anfahrt und Verhaltensregeln am Strand.
 - **[Flora und Fauna an der Küste](/de/articles/flora-fauna)** — heimische Pflanzen, Vogelwelt und Meeresbewohner.

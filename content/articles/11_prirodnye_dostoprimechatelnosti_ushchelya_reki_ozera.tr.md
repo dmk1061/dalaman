@@ -34,6 +34,7 @@ Gölün güneybatı kıyısındaki Ölemez Dağı eteğinden geçen aktif tekton
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif 3D Rehber: Millî Parklar, Kanyonlar ve Koruma Alanları 2026](/tr/nature-parks)** — 15 noktalı canlı 3D harita, su sıcaklıkları ve serin kaçış seçici.
 - **[Saklıkent Kanyonu Detaylı Gezi Rehberi](/tr/articles/saklikent-gorge)** — Kıyafet, güvenlik, giriş ücreti ve yürüyüş aşamaları.
 - **[Millî Parklar ve Doğa Koruma Alanları](/tr/articles/national-parks-and-nature-reserves)** — Giriş kuralları, MüzeKart ayrımı ve koruma statüleri.
 - **[Köyceğiz Gölü ve Sultaniye Kaplıcaları](/tr/articles/koycegiz-lake)** — Sakin kıyı kasabası ve termal sular.

@@ -33,6 +33,7 @@ Entlang einer tektonischen Verwerfung am Südwestufer unter dem Ölemez-Berg spr
 ---
 
 ### Siehe auch
+- **[Interaktiver 3D-Hub: Nationalparks, Schluchten & Naturwunder 2026](/de/nature-parks)** — 3D-Karte mit 15 Zielen, Wassertemperaturen & Anti-Hitze-Planer.
 - **[Saklıkent-Schlucht: Ausrüstung und Besuchszeiten](/de/articles/saklikent-gorge)** — alle Tipps für den Gang durchs Flussbett.
 - **[Nationalparks und Naturschutzgebiete](/de/articles/national-parks-and-nature-reserves)** — Regeln in Schutzgebieten und Sommer-Waldsperren.
 - **[Köyceğiz-See und Sultaniye-Thermen](/de/articles/koycegiz-lake)** — Kombination aus See, Markt und Thermalbad.

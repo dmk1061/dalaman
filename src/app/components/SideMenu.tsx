@@ -20,6 +20,10 @@ import {
   FaHotTub,
   FaShoppingBag,
   FaUtensils,
+  FaChild,
+  FaCocktail,
+  FaLandmark,
+  FaTree,
 } from 'react-icons/fa';
 import LivePortalInformers from './LivePortalInformers';
 
@@ -218,6 +222,34 @@ const SideMenu = ({ isOpen: controlledOpen, onClose, locale: propLocale }: SideM
                 onClose={handleClose}
               />
               <MenuItem
+                icon={<FaLandmark className="text-amber-600" />}
+                title={
+                  locale === 'ru'
+                    ? 'АНТИЧНЫЕ ГОРОДА (ЛИКИЯ И КАРИЯ)'
+                    : locale === 'de'
+                    ? 'ANTIKE STÄDTE (LYKIEN & KARIEN)'
+                    : locale === 'tr'
+                    ? 'ANTİK KENTLER (LİKYA & KARYA)'
+                    : 'ANCIENT CITIES (LYCIA & CARIA)'
+                }
+                href={localize('/ancient-cities')}
+                onClose={handleClose}
+              />
+              <MenuItem
+                icon={<FaTree className="text-emerald-600" />}
+                title={
+                  locale === 'ru'
+                    ? 'ПРИРОДА И НАЦПАРКИ'
+                    : locale === 'de'
+                    ? 'NATUR & NATIONALPARKS'
+                    : locale === 'tr'
+                    ? 'DOĞA VE MİLLÎ PARKLAR'
+                    : 'NATURE & NATIONAL PARKS'
+                }
+                href={localize('/nature-parks')}
+                onClose={handleClose}
+              />
+              <MenuItem
                 icon={<FaRoute className="text-emerald-600" />}
                 title={locale === 'ru' ? 'МАРШРУТЫ И АТЛАС ТРОП' : 'ROUTES & TRAILS'}
                 href={localize('/routes')}
@@ -305,6 +337,34 @@ const SideMenu = ({ isOpen: controlledOpen, onClose, locale: propLocale }: SideM
                     : 'GASTRONOMY & CUISINE'
                 }
                 href={localize('/gastronomy')}
+                onClose={handleClose}
+              />
+              <MenuItem
+                icon={<FaChild className="text-blue-500" />}
+                title={
+                  locale === 'ru'
+                    ? 'СЕМЕЙНЫЙ ОТДЫХ С ДЕТЬМИ'
+                    : locale === 'de'
+                    ? 'FAMILIENURLAUB MIT KINDERN'
+                    : locale === 'tr'
+                    ? 'ÇOCUKLARLA AİLE TATİLİ'
+                    : 'FAMILY VACATION WITH KIDS'
+                }
+                href={localize('/family')}
+                onClose={handleClose}
+              />
+              <MenuItem
+                icon={<FaCocktail className="text-rose-500" />}
+                title={
+                  locale === 'ru'
+                    ? 'ВЕЧЕРНЯЯ ЖИЗНЬ И ФЕСТИВАЛИ'
+                    : locale === 'de'
+                    ? 'NACHTLEBEN & FESTIVALS'
+                    : locale === 'tr'
+                    ? 'GECE HAYATI & FESTİVALLER'
+                    : 'NIGHTLIFE & FESTIVALS'
+                }
+                href={localize('/nightlife')}
                 onClose={handleClose}
               />
               <MenuItem icon={<FaBookOpen className="text-indigo-500" />} title={sm.articles} href={localize('/articles')} onClose={handleClose} />

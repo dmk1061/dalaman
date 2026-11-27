@@ -108,3 +108,11 @@ Mehr kulturellen Hintergrund bietet unser Artikel zu **[Festen und Feiertagen](/
 * **Banken vs. Strände an Festtagen:** An offiziellen Feiertagen bleiben **Banken, Notariate, Ämter und Postämter (PTT) geschlossen**, während Geschäfte, Restaurants, die Babadağ-Seilbahn und große Ausgrabungen normal arbeiten (am ersten Bayram-Tag öffnen Museumskassen meist ab ca. 13:00 Uhr). Buchen Sie Mietwagen und Hotels für Festtagswochen frühzeitig — die D400 steht dann oft im dichten Inlandsverkehr ([Klima & Reisezeiten](/de/articles/climate-and-seasons)).
 
 > **Wichtiger Hinweis für den 10. November um 09:05 Uhr:** Am Todestag Mustafa Kemal Atatürks heulen punkt **09:05 Uhr** im ganzen Land für eine Minute Sirenen. Fußgänger bleiben stehen, Autos stoppen mitten auf der Straße, Fahrer steigen schweigend aus. Bitte hupen Sie dann niemals, fotografieren Sie nicht aufdringlich aus nächster Nähe und warten Sie ruhig 60 Sekunden lang mit.
+
+---
+
+### Siehe auch
+- **[Interaktiver 3D-Hub: Küsten-Festivals, Regatten & Nachtleben 2026–2027](/de/nightlife#festivals)** — 3D-Karte aller Festival-Schauplätze, Saisonfilter & Bayram-Warnungen 2027.
+- **[Feste, Feiertage und Saisonspitzen](/de/articles/events-festivals)** — Details zu staatlichen und religiösen Terminen.
+- **[Klima und beste Reisezeiten](/de/articles/climate-and-seasons)** — ideale Wetterfenster für Festivals & Meer.
+- **[Yachting und Herbstregatten](/de/articles/yachting)** — Race Week in Marmaris und Göcek.

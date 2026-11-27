@@ -47,6 +47,7 @@ Für Reisende ohne türkischen Pass oder Wohnsitz berechnet die Kulturbehörde (
 ---
 
 ### Siehe auch
+- **[Interaktiver 3D-Hub: Antike Städte Lykiens & Kariens 2026](/de/ancient-cities)** — 3D-Karte mit 15 Ausgrabungen, MuseumPass-Ege/Akdeniz-Rechner & 5 Gratis-Ruinen (0 €).
 - **[Geschichte zwischen Datça und Kaş](/de/articles/history)** — Hintergründe zu Karern, Lykiern und Römern.
 - **[Denkmäler von Geschichte und Kultur](/de/articles/historical-and-cultural-monuments)** — Festungen, Kirchen und Felsengräber mitten im Alltag.
 - **[Tlos im Detail](/de/articles/tlos-ancient-city)** — Anfahrt, Akropolis und Bellerophon-Grab.

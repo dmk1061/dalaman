@@ -58,6 +58,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/thermal-spa',
     '/markets-crafts',
     '/gastronomy',
+    '/family',
+    '/nightlife',
+    '/ancient-cities',
+    '/nature-parks',
     '/articles/airport-dalaman',
     '/articles/transport',
   ];

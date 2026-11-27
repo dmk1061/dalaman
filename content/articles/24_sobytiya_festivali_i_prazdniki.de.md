@@ -48,6 +48,7 @@ Rund um beide *Bayram*-Wochen brechen Millionen Türken aus Istanbul, Ankara und
 ---
 
 ### Siehe auch
+- **[Interaktiver 3D-Hub: Küsten-Festivals, Regatten & Nachtleben 2026–2027](/de/nightlife#festivals)** — 3D-Karte der Festival-Schauplätze, Saisonfilter & Bayram-Termine 2027.
 - **[Großer Event- und Jahrmarkt-Kalender](/de/articles/events-and-festivals-calendar)** — ausführliches Monatsverzeichnis für das ganze Jahr.
 - **[Klima und Reisezeiten](/de/articles/climate-and-seasons)** — wie sich Wetter und Feste optimal kombinieren lassen.
 - **[Yachting und Herbstregatten](/de/articles/yachting)** — alles zur Race Week in Marmaris und Göcek.

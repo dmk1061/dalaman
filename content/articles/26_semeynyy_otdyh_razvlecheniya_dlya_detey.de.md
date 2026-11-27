@@ -44,6 +44,7 @@ Die großen offenen Aquaparks öffnen meist von Anfang Mai bis Mitte Oktober (t�
 ---
 
 ### Siehe auch
+- **[Interaktiver Familien-Guide: 16-Orte-Karte & Kinderwagen-Index](/de/family)** — Altersfilter (0–17 J.), Buggy-Check, EUR-Familienpreise & 7-Orte-Vergleich 2026.
 - **[Strände der Küste: Wo Sand ohne Steine liegt](/de/articles/beaches)** — komplette Übersicht sicherer Familienstrände.
 - **[Unterkünfte: Hotels, Apartments & Villen](/de/articles/accommodation)** — welche Wohnform am besten zur Familie passt.
 - **[Flughafentransfer mit Kindersitzen ab DLM](/de/services/transfers)** — stressfreie Ankunft direkt zur Unterkunft.

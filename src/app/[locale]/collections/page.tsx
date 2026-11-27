@@ -3,7 +3,7 @@ import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaHeart, FaUserFriends, FaUtensils, FaCompass, FaChevronRight, FaMountain, FaCalendarAlt, FaFish, FaPaperPlane, FaWind, FaHotTub, FaShoppingBag } from 'react-icons/fa';
+import { FaHeart, FaUserFriends, FaUtensils, FaCompass, FaChevronRight, FaMountain, FaCalendarAlt, FaFish, FaPaperPlane, FaWind, FaHotTub, FaShoppingBag, FaChild, FaCocktail, FaLandmark, FaTree } from 'react-icons/fa';
 import { getDictionary, Locale } from '@/lib/dictionary';
 import { Metadata } from 'next';
 import { buildPageMetadata } from '@/lib/seo';
@@ -183,6 +183,70 @@ const getCollections = (locale: string, dict: any) => [
             : 'Encyclopedia of 24 Muğla & Lycian coast dishes with EUR prices, dietary filters, 12-month seasonality, interactive map of 16 dining quarters & 2026 bill rules.',
         color: "bg-rose-600",
         href: `/${locale}/gastronomy`
+    },
+    {
+        title: locale === 'ru' ? 'Семейный отдых с детьми (0–17 лет)' : locale === 'de' ? 'Familienurlaub mit Kindern (0–17 J.)' : locale === 'tr' ? 'Çocuklarla Aile Tatili (0–17 Yaş)' : 'Family Vacation with Kids (Ages 0–17)',
+        count: locale === 'ru' ? '18 идей · 16 мест · Коляски' : locale === 'de' ? '18 Ideen · 16 Orte · Buggy-Index' : locale === 'tr' ? '18 Aktivite · 16 Durak · Puset' : '18 Activities · 16 Spots · Stroller Index',
+        image: "/api/images/locations/dalaman/beach/Sarigerme/sarigerme.jpg",
+        tag: locale === 'ru' ? 'С детьми' : locale === 'de' ? 'Familie' : locale === 'tr' ? 'Aile Tatili' : 'Family',
+        icon: <FaChild />,
+        description: locale === 'ru'
+            ? 'Фильтр по возрасту 0–17 лет и индексу коляски, 16 мест на карте (Сарыгерме, Олюдениз, DEKAMER, Orka World, Бабадаг), матрица 7 курортов от DLM и шпаргалка от жары 2026.'
+            : locale === 'de'
+            ? 'Altersfilter 0–17 J. & Buggy-Index, 16-Orte-Karte (Sarıgerme, Blaue Lagune, DEKAMER, Orka World, Babadağ), 7-Orte-Vergleich & Hitze-Tipps 2026.'
+            : locale === 'tr'
+            ? '0–17 yaş ve puset uygunluğu filtresi, 16 noktalı harita (Sarıgerme, Mavi Lagün, DEKAMER, Orka World, Babadağ), 7 belde matrisi ve 2026 aile rehberi.'
+            : 'Filter by child age (0–17) & Stroller Index, 16 coastal spots (Sarıgerme, Blue Lagoon, DEKAMER turtles, Orka World, Babadağ), 7-town DLM matrix & 2026 heat rules.',
+        color: "bg-blue-600",
+        href: `/${locale}/family`
+    },
+    {
+        title: locale === 'ru' ? 'Вечерняя жизнь, бары и фестивали' : locale === 'de' ? 'Nachtleben, Bars & Festivals' : locale === 'tr' ? 'Gece Hayatı, Barlar ve Festivaller' : 'Nightlife, Bars & Festivals',
+        count: locale === 'ru' ? '21 точка · Фестивали + 3D' : locale === 'de' ? '21 Orte · Festivals + 3D' : locale === 'tr' ? '21 Nokta · Festivaller + 3D' : '21 Pins · Festivals + 3D',
+        image: "/images/nightlife/hero-cocktail.jpg",
+        tag: locale === 'ru' ? 'Бары и фестивали' : locale === 'de' ? 'Nightlife & Fest' : locale === 'tr' ? 'Gece & Festival' : 'Nightlife & Fest',
+        icon: <FaCocktail />,
+        description: locale === 'ru'
+            ? '3D-карта 21 локации от Bar Street Мармариса и руфтопов Каша до миндального фестиваля Датчи, Air Games и регат: ритм ночи до/после 00:00, праздники 2027 и такси UKOME.'
+            : locale === 'de'
+            ? '3D-Karte mit 21 Spots von Marmaris Bar Street & Kaş-Rooftops bis Mandelblütenfest, Air Games & Regatten: 00:00-Regeln, Feiertage 2027 & UKOME-Taxi.'
+            : locale === 'tr'
+            ? 'Marmaris Barlar Sokağı ve Kaş teraslarından Badem Çiçeği, Hava Oyunları ve regattalara 21 noktalı 3D harita: 00:00 kuralı, 2027 bayramları & UKOME taksi.'
+            : '3D map of 21 spots from Marmaris Bar Street & Kaş rooftops to Datça Almond Blossom, Air Games & regattas: 00:00 curfews, 2027 Bayram surges & UKOME taxis.',
+        color: "bg-rose-700",
+        href: `/${locale}/nightlife`
+    },
+    {
+        title: locale === 'ru' ? 'Античные города Ликии и Карии' : locale === 'de' ? 'Antike Städte (Lykien & Karien)' : locale === 'tr' ? 'Likya ve Karya Antik Kentleri' : 'Ancient Cities of Lycia & Caria',
+        count: locale === 'ru' ? '15 городов · Билеты 2026 + 3D' : locale === 'de' ? '15 Städte · Ticketcheck + 3D' : locale === 'tr' ? '15 Kent · Bilet Hesabı + 3D' : '15 Cities · 2026 Pass Calc + 3D',
+        image: "/api/images/locations/kas/ruines/theater/theaterkas3.jpg",
+        tag: locale === 'ru' ? 'Античность 3D' : locale === 'de' ? 'Antike 3D' : locale === 'tr' ? 'Antik 3D' : 'Ancient 3D',
+        icon: <FaLandmark />,
+        description: locale === 'ru'
+            ? '3D-карта 15 руин от Книдоса и Кауноса до Патары, Ксантоса и Миры: калькулятор MuseumPass Ege vs Akdeniz, 5 бесплатных полисов без касс и маршруты без жары.'
+            : locale === 'de'
+            ? '3D-Karte mit 15 Ruinen von Knidos & Kaunos bis Patara & Myra: MuseumPass-Ege/Akdeniz-Rechner, 5 kostenlose Bergruinen (0 €) & Anti-Hitze-Routen.'
+            : locale === 'tr'
+            ? 'Knidos ve Kaunos’tan Patara, Ksanthos ve Myra’ya 15 noktalı 3D harita: Ege vs Akdeniz pass hesaplayıcı, 5 ücretsiz kent ve serin gezi rotaları.'
+            : '3D map of 15 ruins from Knidos & Kaunos to Patara, Xanthos & Myra: live MuseumPass Ege vs Akdeniz calculator, 5 €0 open sites & heat-smart loops.',
+        color: "bg-amber-600",
+        href: `/${locale}/ancient-cities`
+    },
+    {
+        title: locale === 'ru' ? 'Природа, нацпарки и заповедники' : locale === 'de' ? 'Natur, Nationalparks & Schluchten' : locale === 'tr' ? 'Doğa, Millî Parklar ve Kanyonlar' : 'Nature, National Parks & Canyons',
+        count: locale === 'ru' ? '15 объектов · +6 °C реки + 3D' : locale === 'de' ? '15 Ziele · +6 °C Flüsse + 3D' : locale === 'tr' ? '15 Alan · +6 °C Nehirler + 3D' : '15 Parks · +6 °C Rivers + 3D',
+        image: "/api/images/locations/dalyan/beach/Istuzu/istuzu.jpg",
+        tag: locale === 'ru' ? 'Природа 3D' : locale === 'de' ? 'Natur 3D' : locale === 'tr' ? 'Doğa 3D' : 'Nature 3D',
+        icon: <FaTree />,
+        description: locale === 'ru'
+            ? '3D-карта 15 заповедников, нацпарков и каньонов: черепахи DEKAMER на Изтузу, ледяной Саклыкент, Юварлакчай, река Азмак, эндемики и правила 2026.'
+            : locale === 'de'
+            ? '3D-Karte von DEKAMER İztuzu, Saklıkent-Schlucht & Azmak-Fluss bis Ölüdeniz–Kıdrak: Wassertemperaturen (+6–40 °C), Anti-Hitze-Planer & Waldsperren 2026.'
+            : locale === 'tr'
+            ? 'İztuzu DEKAMER, Saklıkent Kanyonu ve Azmak’tan Ölüdeniz–Kıdrak’a 15 noktalı 3D harita: +6–40 °C su sıcaklık farkı, serin rota seçici & 2026 kuralları.'
+            : '3D map of 15 reserves from İztuzu DEKAMER & glacial Saklıkent Gorge to Azmak River & Kıdrak: river temps (+6–40 °C), heat-escape picker & 2026 laws.',
+        color: "bg-emerald-700",
+        href: `/${locale}/nature-parks`
     }
 ];
 

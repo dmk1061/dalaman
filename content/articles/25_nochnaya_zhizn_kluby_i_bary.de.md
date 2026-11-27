@@ -45,6 +45,7 @@ In **[Göcek](/de/gocek)** trifft man sich gepflegt an wenigen Wein- und Cocktai
 ---
 
 ### Siehe auch
+- **[Interaktiver 3D-Hub: Nachtleben, Bars & Küsten-Festivals 2026](/de/nightlife)** — 3D-Karte mit 21 Spots, Ausgeh-Matcher, Festivalkalender & 00:00-Uhr-Regeln.
 - **[Restaurants, Cafés und Bars der Region](/de/articles/restaurants-cafes-and-bars-guide)** — perfekte Viertel für das Abendessen vorab.
 - **[Getränke, Weine und 22-Uhr-Regel](/de/articles/alkogol-v-turtsii-chto-pit-i-gde-pokupat)** — Laden-Sperrstunde und regionale Tipps.
 - **[Öffentlicher Verkehr & Taxis](/de/articles/transport)** — Dolmuş-Linien und einheitliche UKOME-Tarife.

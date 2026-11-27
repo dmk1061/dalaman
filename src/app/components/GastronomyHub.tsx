@@ -877,7 +877,8 @@ export default function GastronomyHub({ locale }: { locale: string }) {
                           {dish.name[activeLocale]}
                         </h3>
                         <p className="text-xs italic text-slate-500 font-semibold">
-                          {dish.trName} · [{dish.pronunciation}]
+                          {dish.trName}
+                          {activeLocale === 'ru' ? ` · [${dish.pronunciation}]` : ''}
                         </p>
                         <p className="text-xs text-slate-600 mt-1.5 leading-relaxed font-medium">
                           {dish.shortSubtitle[activeLocale]}
@@ -1365,9 +1366,11 @@ export default function GastronomyHub({ locale }: { locale: string }) {
                   <div className="space-y-1">
                     <div className="flex flex-wrap items-center gap-2">
                       <strong className="text-sm font-extrabold text-slate-900">{p.trPhrase}</strong>
-                      <span className="text-[11px] font-semibold text-amber-700">
-                        [{p.pronunciation}]
-                      </span>
+                      {activeLocale === 'ru' && (
+                        <span className="text-[11px] font-semibold text-amber-700">
+                          [{p.pronunciation}]
+                        </span>
+                      )}
                     </div>
                     <p className="text-xs font-bold text-slate-800">{meaning}</p>
                     <p className="text-[11px] text-slate-500 font-medium">
@@ -1523,9 +1526,11 @@ export default function GastronomyHub({ locale }: { locale: string }) {
                 <h3 className="text-2xl sm:text-3xl font-extrabold leading-tight">
                   {modalDish.name[activeLocale]}
                 </h3>
-                <p className="text-xs sm:text-sm italic text-amber-200 font-semibold">
-                  [{modalDish.pronunciation}]
-                </p>
+                {activeLocale === 'ru' && (
+                  <p className="text-xs sm:text-sm italic text-amber-200 font-semibold">
+                    [{modalDish.pronunciation}]
+                  </p>
+                )}
               </div>
             </div>
 

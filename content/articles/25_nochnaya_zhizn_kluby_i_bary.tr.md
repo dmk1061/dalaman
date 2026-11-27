@@ -46,6 +46,7 @@ Bölgenin eğlence sahnesi üç ayrı karaktere bölünür: Marmaris'in dev kul�
 ---
 
 ### 🔗 İlgili Rehberler
+- **[İnteraktif 3D Rehber: Gece Hayatı, Barlar ve Festivaller 2026](/tr/nightlife)** — 21 noktalı canlı 3D harita, akşam planlayıcı, festival takvimi ve 00:00 müzik kuralları.
 - **[Restoran, Kafe ve Meyhane Rehberi](/tr/articles/restaurants-cafes-and-bars-guide)** — Geceye iyi bir akşam yemeğiyle başlama sokakları.
 - **[İçecekler, Şaraplar ve Gara Guzu](/tr/articles/alkogol-v-turtsii-chto-pit-i-gde-pokupat)** — Perakende saat sınırı ve Muğla craft biraları.
 - **[Bölge Ulaşım Sistemi](/tr/articles/transport)** — Taksi çağırma kutuları ve gece dolmuş ağları.
